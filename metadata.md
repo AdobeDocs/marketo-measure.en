@@ -1,5 +1,5 @@
 ---
-solution: Bizible, Marketo Measure
+solution: Bizible,Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.en
 hide: yes
