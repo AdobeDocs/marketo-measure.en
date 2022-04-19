@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-product: Marketo Measure
+product: Bizible
 audience: end-user
 user-guide-title: Marketo Measure Guide
 user-guide-description: Marketo Measure gives marketers insight into which marketing efforts are the most effective in driving revenue for their company.
