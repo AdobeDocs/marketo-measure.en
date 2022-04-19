@@ -12,8 +12,8 @@ Here are various links to pertinent articles/videos to help you get up and runni
 
 **General Knowledge**
 
-* [What is Marketing Attribution?](/help/introduction-to-bizible/overview-resources/marketing-attribution.md)
-* [Bizible Attribution Models](/help/introduction-to-bizible/overview-resources/bizible-attribution-models.md)
+* [What is Marketing Attribution?](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
+* [Bizible Attribution Models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
 
 **Configuration**
 
@@ -24,18 +24,18 @@ Here are various links to pertinent articles/videos to help you get up and runni
 * [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
 * [Syncing SFDC Campaigns with Bizible Touchpoints](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
 * [Uploading Marketing Spend](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
-* [Re-connect Ad Accounts](/help/api-connections/utilizing-bizibles-api-connections/reauthorizing-connected-accounts.md)
-* [Adding Bizible Javascript](/help/bizible-tracking/setting-up-tracking/adding-bizible-script.md)
-    * [Exclude Forms](/help/bizible-tracking/setting-up-tracking/excluding-bizible-from-specific-forms.md)
+* [Re-connect Ad Accounts](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
+* [Adding Bizible Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+    * [Exclude Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Reporting**
 
-* [Creating Custom Report Types with Bizible](/help/bizible-salesforce-reporting/new-report-types/creating-custom-bizible-report-types.md) (if you need to report on custom Lead/Contact/Opportunity fields)
-* [Glossary of Bizible fields](/help/introduction-to-bizible/overview-resources/glossary-of-bizible-fields.md)
+* [Creating Custom Report Types with Bizible](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (if you need to report on custom Lead/Contact/Opportunity fields)
+* [Glossary of Bizible fields](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Troubleshooting**
 
-* [Granting Bizible Support Access to SFDC](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-bizible-support.md)
+* [Granting Bizible Support Access to SFDC](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
 * Email: support@bizible.com to open support tickets
 
 ## Videos {#videos}

@@ -39,4 +39,4 @@ Other reasons to that might trigger a review your Segmentation include...
 
 >[!MORELIKETHIS]
 >
->[How to Set Up Custom Segmentation](/help/advanced-bizible-features/segmentation/custom-segmentation.md)
+>[How to Set Up Custom Segmentation](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md)

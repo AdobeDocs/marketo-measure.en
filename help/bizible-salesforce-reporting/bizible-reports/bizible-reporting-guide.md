@@ -36,7 +36,7 @@ an offline campaign or activity.
 >
 >BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you’ll want to use one or the other depending on what questions you’re trying to answer: questions related to ‘People’ metrics (BT reports), or questions related to ‘Opportunity’ metrics (BAT reports)
 
-Support Article: [Difference Between Bizible Touchpoints and Bizible Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-bizible/difference-between-bizible-touchpoints-and-bizible-attribution-touchpoints.md#configuration-and-setup)
+Support Article: [Difference Between Bizible Touchpoints and Bizible Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-marketo-measure-touchpoints-and-marketo-measure-attribution-touchpoints.md#configuration-and-setup)
 
 ## BIZIBLE TOUCHPOINT (BT) {#bizible-touchpoint-bt}
 
@@ -56,7 +56,7 @@ Bizible Touchpoints are used to answer questions related to _people_ (“people�
 
 Primarily, companies need to know, “where are my Leads/Contacts coming from?”. Historically, this was answered with a single, one dimensional value (Lead Source for example). However, as outlined in #1 and #2 above, we know that Leads can have multiple touchpoints during their journey of becoming a Lead. The Bizible Touchpoint allows us to get insight into the two most crucial interactions that represent how a Lead was generated: their First Touch and their Lead Creation Touch. Bizible Touchpoints are also _multi-dimensional_ meaning they carry loads of marketing data, primarily where the person came from (Marketing Channel) and what the person engaged with (Content).
 
-The [attribution models](/help/introduction-to-bizible/overview-resources/bizible-attribution-models.md) providing the best insight into people-based metrics are:
+The [attribution models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) providing the best insight into people-based metrics are:
 
 * **First Touch** - 100% attribution credit to the Lead’s First Touch (FT)
 * **Lead Creation** - 100% attribution credit to the Lead’s Lead Creation Touch (LC)
@@ -490,7 +490,7 @@ Considering the Bizible Person allows us to report on all touchpoints in a singl
 * [Online Custom Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline Custom Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 
-Essentially, the touchpoint data will reflect what’s been tracked by Bizible and can be audited to ensure your configuration matches inputs based on things like: UTM parameter values, Referring Pages, or Campaign Types. If the touchpoint data doesn’t match your configuration, something most likely needs to be adjusted. Beyond the ‘Marketing Channel’ setup, you can look at touchpoint data to determine what touchpoints may need to be [suppressed](/help/advanced-bizible-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) or [segmented](/help/advanced-bizible-features/segmentation/custom-segmentation.md). It is recommended to audit your touchpoint data within a ‘Bizible Persons and Bizible Touchpoints’ report at the end of each month or quarter if possible. This will ensure your attribution is as accurate as possible. The ‘Bizible 101 | Leads/Contacts by Channel’ report available out-of-the-box is a great place to start. Include the following fields if they’re not already included to review some of the most crucial pieces of configuration:
+Essentially, the touchpoint data will reflect what’s been tracked by Bizible and can be audited to ensure your configuration matches inputs based on things like: UTM parameter values, Referring Pages, or Campaign Types. If the touchpoint data doesn’t match your configuration, something most likely needs to be adjusted. Beyond the ‘Marketing Channel’ setup, you can look at touchpoint data to determine what touchpoints may need to be [suppressed](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) or [segmented](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). It is recommended to audit your touchpoint data within a ‘Bizible Persons and Bizible Touchpoints’ report at the end of each month or quarter if possible. This will ensure your attribution is as accurate as possible. The ‘Bizible 101 | Leads/Contacts by Channel’ report available out-of-the-box is a great place to start. Include the following fields if they’re not already included to review some of the most crucial pieces of configuration:
 
 * **Marketing Channel** - Path = Marketing Channel.Sub Channel (values set in Bizible)
 * **Touchpoint Source** = utm_source
@@ -511,7 +511,7 @@ Considering BATs primary relationship is with the Opportunity, they are used to 
 * How much new pipeline revenue can I attribute to each of my marketing channels?
 * Which of my campaigns saw the greatest ROI last quarter?
 
-The [attribution models](/help/introduction-to-bizible/overview-resources/bizible-attribution-models.md) providing best insight into Opportunity-based metrics are:
+The [attribution models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) providing best insight into Opportunity-based metrics are:
 
 **W-Shaped** - The ‘_Pipeline Model_’. Three milestone touchpoints are included in the W-Shaped model. In this model, the FT, LC, and OC touchpoints are each attributed 30% of the attribution credit. The remaining 10% is attributed equally to any intermediary touchpoints that occur between the three milestone touchpoints.
 

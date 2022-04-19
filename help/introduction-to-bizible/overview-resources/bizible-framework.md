@@ -21,7 +21,7 @@ The Bizible JavaScript tracks all the online marketing interactions, also called
 
 >[!NOTE]
 >
->For instructions on how to add the Bizible JS, please [click here](/help/bizible-tracking/setting-up-tracking/adding-bizible-script.md).
+>For instructions on how to add the Bizible JS, please [click here](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 Bizible’s JS captures data from web visits (including anonymous web visits), general traffic/page navigation, content downloads, and form submissions. This data is pushed into your CRM and each marketing interaction is displayed as a touchpoint.
 

@@ -27,7 +27,7 @@ Bizible's **Dashboard Extension Package** contains three pre-built Dashboards.
 
 Bizible is able to read standard SF Objects, Fields and Records, however Bizible will never update or push data to them. All the data collected by Bizible's Javascript will be surfaced in the Bizible Custom Objects and Fields.
 
-For the complete installation guide, [click here](/help/configuration-and-setup/bizible-and-salesforce/bizible-installation-guide.md).
+For the complete installation guide, [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md).
 
 ## Connecting Accounts {#connecting-accounts}
 

@@ -17,7 +17,7 @@ Please don't hesitate to reach out to your Bizible point of contact with any que
     * Main package: [bizible.com/sf](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN)
     * Dashboard package: [bizible.com/dashboard-mt](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6)
 
-* For more information about Bizible's relationship with Salesforce, take a look at [this article](/help/configuration-and-setup/bizible-and-salesforce/how-bizible-and-salesforce-interact.md)
+* For more information about Bizible's relationship with Salesforce, take a look at [this article](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * A bit of Salesforce configuration is necessary. The specific action items are outlined below in [Step 4 below](#salesforce-configuration)
 
 ## Step 2: Delete the Current Sandbox CRM Connection in Bizible App {#delete-the-current-sandbox-crm-connection-in-bizible-app}
@@ -47,8 +47,8 @@ Please don't hesitate to reach out to your Bizible point of contact with any que
 
 ## Step 4: Salesforce Configuration {#salesforce-configuration}
 
-[Page Layouts](/help/configuration-and-setup/bizible-and-salesforce/page-layout-instructions.md)
-[Permission Sets](/help/configuration-and-setup/bizible-and-salesforce/bizible-permission-sets.md)  
+[Page Layouts](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
+[Permission Sets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)  
 [Sharing reports](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&type=0)
-[Hiding unnecessary report types](/help/configuration-and-setup/bizible-and-salesforce/hiding-unnecessary-report-types.md)
-[Custom workflow if applicable](/help/advanced-bizible-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[Hiding unnecessary report types](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
+[Custom workflow if applicable](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

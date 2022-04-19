@@ -11,7 +11,7 @@ There are three ways to get spend data into Bizible. Each method is designed to 
 
 **1) API Connected Accounts**
 
-Any Ad Account you have connected to Bizible through an API will have it’s spend automatically pulled into Bizible for ROI reporting. To check which accounts you have connected and therefore pulling in spend, go to your Bizible App and select the Connections tab under the Integrations section. For more details on how to setup your API connections review our [Integrated Ad Platforms](/help/api-connections/utilizing-bizibles-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) article.
+Any Ad Account you have connected to Bizible through an API will have it’s spend automatically pulled into Bizible for ROI reporting. To check which accounts you have connected and therefore pulling in spend, go to your Bizible App and select the Connections tab under the Integrations section. For more details on how to setup your API connections review our [Integrated Ad Platforms](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) article.
 
 **2) CRM Campaign Cost Sync**
 
@@ -21,7 +21,7 @@ Every Bizible account has access to a feature called [Sync CRM Campaign Costs](/
 
 Once enabled this feature will automatically pull spend in from any CRM campaign/program that meets the following criteria
 
-i. Bizible first looks to see if the Campaign/Program is creating touchpoints, either from a matching [Campaign Sync rule](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) that was created, or a matching [Program Sync rule](/help/bizible-and-marketo/bizible-integrations-with-marketo/marketo-engage-programs-integration.md) that was created, or the [Enable Bizible Touchpoints value](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-bizible-touchpoints) is “Include All Campaign Members” or “Include ‘Responded’ Campaign Members.”
+i. Bizible first looks to see if the Campaign/Program is creating touchpoints, either from a matching [Campaign Sync rule](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) that was created, or a matching [Program Sync rule](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) that was created, or the [Enable Bizible Touchpoints value](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-bizible-touchpoints) is “Include All Campaign Members” or “Include ‘Responded’ Campaign Members.”
 
 ii. A Start Date must be populated on the campaign/program
 

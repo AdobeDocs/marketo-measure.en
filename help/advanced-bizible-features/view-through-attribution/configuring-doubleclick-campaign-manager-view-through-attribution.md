@@ -10,11 +10,11 @@ exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 
 >[!NOTE]
 >
->If you’re using the Bizible and DoubleClick Campaign Manager integration, we require an [API connection](/help/api-connections/utilizing-bizibles-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
+>If you’re using the Bizible and DoubleClick Campaign Manager integration, we require an [API connection](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
 
 To begin gaining more granular insight from view through tracking with Doubleclick Campaign Manager, our tracking pixel needs to be configured.
 
-Please [click here](/help/advanced-bizible-features/view-through-attribution/bizible-view-through-attribution-faq.md) for more information about Bizible's View Through Attribution functionality.
+Please [click here](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) for more information about Bizible's View Through Attribution functionality.
 
 Bizible is considered a piggyback tag because it’s a third party call through the DCM ad tag. Piggyback tags do not work with image tags, only iframe or javascript tags. According to DCM Support, this did not change recently and has always been the case. Standard tags were deprecated on Oct 2, 2017 but do not affect Bizible’s ability to track the impressions.
 

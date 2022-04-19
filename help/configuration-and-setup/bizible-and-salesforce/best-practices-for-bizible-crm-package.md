@@ -39,7 +39,7 @@ Other reasons to that might trigger a review...
 
 >[!MORELIKETHIS]
 >
->* [Update Bizible Touchpoint Package](/help/configuration-and-setup/bizible-and-salesforce/bizible-installation-guide.md)
->* [Bizible Permission Sets](/help/configuration-and-setup/bizible-and-salesforce/bizible-permission-sets.md)
+>* [Update Bizible Touchpoint Package](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md)
+>* [Bizible Permission Sets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Sharing Reports and Dashboards Folder](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&type=0)
->* [Installing and Connecting Bizible](/help/configuration-and-setup/bizible-and-salesforce/install-and-connect.md)
+>* [Installing and Connecting Bizible](/help/configuration-and-setup/marketo-measure-and-salesforce/install-and-connect.md)

@@ -45,6 +45,6 @@ From here, we will start creating the workflow.
 
    Once you’ve completed these steps, the opportunities will need to be updated in order to trigger the workflow to have the new value from the custom opportunity field.
 
-   This can be accomplished by running your opportunities through Data Loader within SFDC. Please find details on using Data Loader in [this article](/help/advanced-bizible-features/custom-revenue-amount/using-data-loader-to-update-bizible-custom-amount-field.md).
+   This can be accomplished by running your opportunities through Data Loader within SFDC. Please find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 If there are any questions along the way, please don’t hesitate to reach out to your Bizible Success Manager or support@bizible.com.

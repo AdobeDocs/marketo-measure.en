@@ -12,7 +12,7 @@ Below is a flow chart that represents how Bizible's Custom Objects relate to Sal
 
 For the full-sized image, [click here](assets/bizible-object-and-field-taxonomy-graph-full.png).  
   
-Definitions of the Bizible fields that live in each object [can be found here](/help/introduction-to-bizible/overview-resources/glossary-of-bizible-fields.md).
+Definitions of the Bizible fields that live in each object [can be found here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
 ## FAQ {#faq}
 

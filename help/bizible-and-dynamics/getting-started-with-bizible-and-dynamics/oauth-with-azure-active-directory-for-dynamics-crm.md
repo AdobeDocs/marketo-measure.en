@@ -99,7 +99,7 @@ Once the application registration is done, then an application user can be creat
 
 ## Connecting your Dynamics Instance via OAuth {#connecting-your-dynamics-instance-via-oAuth}
 
-1. When setting up your Dynamics connection for the first time, follow steps 1-5 of the "CRM as a Data Provider" section in [this article](/help/bizible-and-dynamics/getting-started-with-bizible-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+1. When setting up your Dynamics connection for the first time, follow steps 1-5 of the "CRM as a Data Provider" section in [this article](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 1. When prompted for OAuth credentials, fill in the Client Id, Client Secret, and Application Id URI that were set up in the section above.
 

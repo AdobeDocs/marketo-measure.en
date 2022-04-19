@@ -48,6 +48,6 @@ Reasons to review your Touchpoint Settings include...
 
 >[!MORELIKETHIS]
 >
->* [Touchpoint Removal and Suppression Overview](/help/advanced-bizible-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
->* [Why Touchpoints Should Never be Deleted](/help/advanced-bizible-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
->* [Bizible Touchpoints (BT) vs Bizible Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-bizible/difference-between-bizible-touchpoints-and-bizible-attribution-touchpoints.md)
+>* [Touchpoint Removal and Suppression Overview](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [Why Touchpoints Should Never be Deleted](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [Bizible Touchpoints (BT) vs Bizible Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-marketo-measure-touchpoints-and-marketo-measure-attribution-touchpoints.md)

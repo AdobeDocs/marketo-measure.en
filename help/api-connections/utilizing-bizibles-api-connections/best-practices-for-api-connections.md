@@ -81,10 +81,10 @@ If your team has experienced any of the above scenarios, please check your API c
 
 >[!MORELIKETHIS]
 >
->* [Integrated Ad Platforms (APIs)](/help/api-connections/utilizing-bizibles-api-connections/integrated-ad-platforms.md)
->* [How Bid Management Tools Affect Bizible](/help/api-connections/utilizing-bizibles-api-connections/how-bid-management-tools-affect-bizible.md)
->* [Bizible API Parameters Explained](/help/api-connections/utilizing-bizibles-api-connections/bizible-parameters.md)
->* [Facebook API Overview](/help/api-connections/utilizing-bizibles-api-connections/facebook-api.md)
->* [LinkedIn Integration Overview](/help/api-connections/utilizing-bizibles-api-connections/linkedin-integration.md)
->* [AdWords Integration Overview](/help/api-connections/utilizing-bizibles-api-connections/understanding-bizible-adwords-tagging.md)
->* [Reauthorizing Connected API Accounts](/help/api-connections/utilizing-bizibles-api-connections/reauthorizing-connected-accounts.md)
+>* [Integrated Ad Platforms (APIs)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+>* [How Bid Management Tools Affect Bizible](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [Bizible API Parameters Explained](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
+>* [Facebook API Overview](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
+>* [LinkedIn Integration Overview](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
+>* [AdWords Integration Overview](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Reauthorizing Connected API Accounts](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)

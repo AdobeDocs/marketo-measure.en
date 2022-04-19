@@ -62,6 +62,6 @@ Other reasons to that might trigger a review of your Custom Model include...
 
 >[!MORELIKETHIS]
 >
->* [Custom Attribution Model and Setup](/help/advanced-bizible-features/custom-attribution-models/custom-attribution-model-and-setup.md)
->* [Enable Field History Tracking For Custom Model](/help/advanced-bizible-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [Machine Learning Model](/help/advanced-bizible-features/custom-attribution-models/machine-learning-model-faq.md)
+>* [Custom Attribution Model and Setup](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Enable Field History Tracking For Custom Model](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+>* [Machine Learning Model](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

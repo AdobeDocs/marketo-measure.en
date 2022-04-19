@@ -84,5 +84,5 @@ And last but not least, you have the option of entering costs for your new chann
 
 >[!MORELIKETHIS]
 >
->* [Activity Attribution FAQ](/help/advanced-bizible-features/activities-attribution/activities-attribution-faq.md)
+>* [Activity Attribution FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
 >* [Bizible University: Activities Attribution](https://universityonline.marketo.com/courses/additional-features-1/#/page/5be3747e5b62f440323a468a)

@@ -163,7 +163,7 @@ After you've logged in to the Bizible application and have been set up as a user
 
    >[!NOTE]
    >
-   >For more information on OAuth, please visit [this article](/help/bizible-and-dynamics/getting-started-with-bizible-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). If you have any questions about the process, please contact your Bizible Account representative.
+   >For more information on OAuth, please visit [this article](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). If you have any questions about the process, please contact your Bizible Account representative.
 
 1. In this example, we've chosen Credentials. Enter your credentials and click **Next**.
 
@@ -199,7 +199,7 @@ In order for Bizible to track your web activities, there are multiple steps for 
    >
    >To add multiple root domains, please contact your Bizible Account Representative.
 
-1. The [Bizible JavaScript](/help/bizible-tracking/setting-up-tracking/adding-bizible-script.md) then needs to be placed across the entire site and landing pages. We recommend hardcoding the script within the head of your landing pages or adding through a Tag Management System such as [Google Tag Manager](/help/bizible-tracking/setting-up-tracking/adding-bizible-script-via-google-tag-manager.md).
+1. The [Bizible JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) then needs to be placed across the entire site and landing pages. We recommend hardcoding the script within the head of your landing pages or adding through a Tag Management System such as [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
    >

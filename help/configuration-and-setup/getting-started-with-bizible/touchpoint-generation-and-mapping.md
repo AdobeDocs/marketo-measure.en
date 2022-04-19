@@ -39,5 +39,5 @@ The touchpoint mapping process answers the question, “Once this touchpoint’s
 >* [Syncing CRM Campaigns from within SFDC](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
 >* [Syncing CRM Campaigns from within Bizible](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Mapping CRM Campaigns to Bizible Channels/Subchannels](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [Creating Touchpoints from Sales Activities](/help/advanced-bizible-features/activities-attribution/salesforce-activities-attribution.md)
->* [Activities FAQ and Mapping Activities Touchpoints to Channels/Subchannels](/help/advanced-bizible-features/activities-attribution/activities-attribution-faq.md)
+>* [Creating Touchpoints from Sales Activities](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Activities FAQ and Mapping Activities Touchpoints to Channels/Subchannels](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

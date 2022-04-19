@@ -80,4 +80,4 @@ Click **Save** when you're finished and Bizible will upload the changes and repr
 >
 >* [Bizible University: Syncing Offline Campaigns](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
 >
->* [Marketo Engage Programs Integration](/help/bizible-and-marketo/bizible-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Marketo Engage Programs Integration](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)

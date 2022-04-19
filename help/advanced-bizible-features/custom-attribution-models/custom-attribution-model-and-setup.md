@@ -40,7 +40,7 @@ Bizible's Custom Attribution model allows users to choose which touchpoints or c
    >
    >Don't forget to enable history tracking for custom fields.
 
-If a custom field is being used in your custom model, Field History tracking MUST be enabled in the CRM. For instructions on how to enable field history tracking, [please click here.](/help/advanced-bizible-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+If a custom field is being used in your custom model, Field History tracking MUST be enabled in the CRM. For instructions on how to enable field history tracking, [please click here.](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 
 1. Determine the attribution percentages for the custom model.
 
@@ -48,7 +48,7 @@ If a custom field is being used in your custom model, Field History tracking MUS
 
    In the far right column labeled "**Custom**," you can set the percentage weighting for each stage in your custom attribution model. Simply input the values for each stage under the Custom column. Then **Save and Reprocess** once complete.
 
-   To the left of the "Custom" column is **Bizible's Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [please click here](/help/advanced-bizible-features/custom-attribution-models/machine-learning-model-faq.md).
+   To the left of the "Custom" column is **Bizible's Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [please click here](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

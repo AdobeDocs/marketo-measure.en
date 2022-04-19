@@ -31,13 +31,13 @@ The Tracking Template is a tool Google provides to add what it calls ValueTrack 
 Bizible Searches for Tracking Templates in your AdWords account:
 
 * *Option A*: Tracking Template is found. Bizible adds its parameters to the template.
-* *Option B*: Third-party redirect is found. If a third-party redirect is found in the Tracking Template, Bizible cannot take any action. You will need to manually add the Bizible tags to the third-party system. An example of a third-party redirect would be a bid management tool like Kenshoo or Marin. Learn more about how [bid management tools affect Bizible](/help/api-connections/utilizing-bizibles-api-connections/how-bid-management-tools-affect-bizible.md).
+* *Option B*: Third-party redirect is found. If a third-party redirect is found in the Tracking Template, Bizible cannot take any action. You will need to manually add the Bizible tags to the third-party system. An example of a third-party redirect would be a bid management tool like Kenshoo or Marin. Learn more about how [bid management tools affect Bizible](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md).
 
 * *Option C*: No Tracking Template is found. Bizible will scan all of your Ad Destination URLs for the Bizible parameters. Based on the scan, if:
     * Parameters are found: the setup is complete!
     * Parameters are not found: Bizible will append its parameters to the end of the Ad Destination URLs. Bizible appends new ads within two hours after they are created. Keep in mind that the parameters will not be added to a template.
 
-Learn more about our [AdWords auto-tagging functionality](/help/api-connections/utilizing-bizibles-api-connections/understanding-bizible-adwords-tagging.md).
+Learn more about our [AdWords auto-tagging functionality](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md).
 
 ## How to Enable Bizible Auto-tagging for Adwords {#how-to-enable-bizible-auto-tagging-for-adwords}
 

@@ -68,9 +68,9 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
    >[!NOTE]
    >
-   >For the Bizible Insights Canvas App to function properly, [permissions need to be configured properly](/help/configuration-and-setup/bizible-insights-canvas-app/bizible-insights-configuration.md).
+   >For the Bizible Insights Canvas App to function properly, [permissions need to be configured properly](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
-If you're leveraging Bizible's ABM feature,  [please click here for additional page layout instructions](/help/advanced-bizible-features/account-based-marketing/account-based-marketing-overview.md).
+If you're leveraging Bizible's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contacts {#contacts}
 
@@ -171,4 +171,4 @@ If you're leveraging Bizible's ABM feature,  [please click here for additional p
 
 1. Click **Save**.
 
-If you are leveraging Bizible's ABM feature,  [please click here for additional page layout instructions](/help/advanced-bizible-features/account-based-marketing/account-based-marketing-overview.md).
+If you are leveraging Bizible's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

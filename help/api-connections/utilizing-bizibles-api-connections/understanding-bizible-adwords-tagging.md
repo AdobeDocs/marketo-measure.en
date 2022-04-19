@@ -21,7 +21,7 @@ However, the same URL will provide granular data because of the Bizible paramete
 **If Bizible finds a Tracking Template:**
 
 * Bizible will add its parameters to the Tracking Template.
-* If a third-party redirect is found in a Tracking Template such as Kenshoo or Marin, Bizible will take no action. Instead, you must [add Bizible parameters to the third-party tool in your account](/help/api-connections/utilizing-bizibles-api-connections/how-bid-management-tools-affect-bizible.md).
+* If a third-party redirect is found in a Tracking Template such as Kenshoo or Marin, Bizible will take no action. Instead, you must [add Bizible parameters to the third-party tool in your account](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md).
 
 However, if no Tracking Template is found, Bizible will:
 

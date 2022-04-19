@@ -8,7 +8,7 @@ exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 
 Below is a brief overview of ABM, the components of Bizible's ABM feature, and how to add it to your Salesforce page layout. To read more about ABM, check out this [Bizible blog post](https://www.bizible.com/blog/what-is-account-based-marketing-everything-you-need-to-know).
 
-To navigate directly to the instructions for setting up ABM within your Salesforce instance, please [click here](/help/advanced-bizible-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce).
+To navigate directly to the instructions for setting up ABM within your Salesforce instance, please [click here](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce).
 
 ## What is ABM {#what-is-abm}
 

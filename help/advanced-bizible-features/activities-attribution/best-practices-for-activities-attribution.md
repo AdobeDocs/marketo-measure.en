@@ -45,5 +45,5 @@ Other reasons to that might trigger a review your Activity rules include...
 
 >[!MORELIKETHIS]
 >
->* [Activities Attribution](/help/advanced-bizible-features/activities-attribution/salesforce-activities-attribution.md)
->* [Sales Activities Attribution FAQ](/help/advanced-bizible-features/activities-attribution/activities-attribution-faq.md)
+>* [Activities Attribution](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Sales Activities Attribution FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

@@ -41,4 +41,4 @@ Other reasons that might trigger a review of your Stage Mapping include...
 
 >[!MORELIKETHIS]
 >
->[The Difference Between Funnel Stages and Custom Model Stages](/help/advanced-bizible-features/custom-attribution-models/custom-attribution-model-and-setup.md#the-difference-between-funnel-stages-and-custom-model-stages)
+>[The Difference Between Funnel Stages and Custom Model Stages](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md#the-difference-between-funnel-stages-and-custom-model-stages)

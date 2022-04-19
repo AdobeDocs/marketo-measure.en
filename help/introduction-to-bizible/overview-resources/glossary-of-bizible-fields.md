@@ -8,7 +8,7 @@ exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 
 This article provides a glossary of all the Bizible Fields that are added to your Salesforce from the Bizible Base Package. You will also find information on which Object the Field can be found on and how each Field is populated with information.
   
-For a map of which Object each Bizible Field relates to, please [click here](/help/configuration-and-setup/bizible-and-salesforce/bizible-object-and-field-taxonomy.md).
+For a map of which Object each Bizible Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · W · X · Y · Z
 

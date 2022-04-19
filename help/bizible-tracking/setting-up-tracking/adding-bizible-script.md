@@ -10,7 +10,7 @@ Bizible JavaScript that you'd like tracked by Bizible should be added to all web
 
 >[!NOTE]
 >
->Make sure you've [claimed all appropriate domains in the Adobe Admin Console](/help/bizible-and-adobe/domain-management.md) in addition to deploying the Bizible JavaScript.
+>Make sure you've [claimed all appropriate domains in the Adobe Admin Console](/help/marketo-measure-and-adobe/domain-management.md) in addition to deploying the Bizible JavaScript.
 
 When getting started with Bizible, there are two ways you can add the Bizible JavaScript to your website:
 
@@ -27,7 +27,7 @@ Hardcoding the JavaScript into the `<head>` of your pages ensures the Bizible sc
 
 >[!TIP]
 >
->Learn how to make sure your script is [GDPR compliant](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-bizible-js.md).
+>Learn how to make sure your script is [GDPR compliant](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md).
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -41,7 +41,7 @@ To add Bizible script through a tag management solution, you'll need to create a
 
 Bizible recommends that any page view should cause the tag to fire. Additionally, it's best to give Bizible the highest priority in the firing order and make sure there are no synchronous scripts in front of the Bizible tag in order to ensure the highest data quality.
 
-More information can be [found here](/help/bizible-tracking/setting-up-tracking/adding-bizible-script-via-google-tag-manager.md).
+More information can be [found here](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
 ## Additional Considerations {#additional-considerations}
 
@@ -51,7 +51,7 @@ However, if you are using any separate or international domains, be sure to let 
 
 If you use any third party pages, have a conversation about your use case with your Bizible Consultant. In general, you’ll want to know if you can add a custom version of Bizible’s JavaScript to track those pages if appropriate. If this isn’t possible, tracking via CRM Campaign touchpoints will be explored with your Bizible Consultant.
 
-Do you have any forms that should NOT be tracked by Bizible since they don't necessarily make sense for attribution (e.g., unsubscribe forms, customer logins, etc.,)? If so, you'll want to add the exclude code [in this article](/help/bizible-tracking/setting-up-tracking/excluding-bizible-from-specific-forms.md) to each form
+Do you have any forms that should NOT be tracked by Bizible since they don't necessarily make sense for attribution (e.g., unsubscribe forms, customer logins, etc.,)? If so, you'll want to add the exclude code [in this article](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md) to each form
 
 Do you have any non-secure pages? If so, you'll want to secure them as navigating between a secure/non-secure page will break the tracking session.
 
@@ -62,7 +62,7 @@ Be sure to have a conversation with your web team so they know Bizible JavaScrip
 **Multi-form submission**
 
 * Issue: If you have multiple linked forms as part of a single form submission, it’s possible that the first form will generate a touchpoint even if the complete form is not submitted.
-* Solution: You'll need to force one of the forms to report the user to Bizible based on cached data and discuss abandonment practices. Generally, [report user code](/help/bizible-tracking/setting-up-tracking/adding-bizible-script-to-different-form-providers/ajax-form-handling.md) can solve for this.
+* Solution: You'll need to force one of the forms to report the user to Bizible based on cached data and discuss abandonment practices. Generally, [report user code](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md) can solve for this.
 
 **Account login (not creation)**
 
@@ -96,7 +96,7 @@ Be sure to have a conversation with your web team so they know Bizible JavaScrip
 **Forms organized in `<div>` format**
 
 * Issue: Bizible JS has a hard time recognizing forms organized in `<div>` format so custom code can be needed.
-* Solution: These [report user templates](/help/bizible-tracking/setting-up-tracking/adding-bizible-script-to-different-form-providers/ajax-form-handling.md) can be used by your web dev team to add the needed code.
+* Solution: These [report user templates](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md) can be used by your web dev team to add the needed code.
 
 **Chat**
 

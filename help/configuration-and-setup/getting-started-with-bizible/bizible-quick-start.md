@@ -58,9 +58,9 @@ In order to ensure that all data is properly pulling from Salesforce, we require
 
 The guides below outline the steps to set up your Adobe Admin Console, configure your Identity Provider, and connect your CRM and Ad Accounts.
 
-Salesforce customers, click [here](/help/configuration-and-setup/bizible-and-salesforce/bizible-installation-guide.md).
+Salesforce customers, click [here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md).
 
-Microsoft Dynamics customers, click [here](/help/bizible-and-dynamics/getting-started-with-bizible-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+Microsoft Dynamics customers, click [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 Once you complete all of the above steps, you're good to go. If you run into any issues along the way, please don’t hesitate to reach out to your Bizible representative or support@bizible.com.
 

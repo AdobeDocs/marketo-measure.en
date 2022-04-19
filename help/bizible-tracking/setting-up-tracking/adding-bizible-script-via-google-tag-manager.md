@@ -6,7 +6,7 @@ exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 ---
 # Adding Marketo Measure Script via Google Tag Manager {#adding-marketo-measure-script-via-google-tag-manager}
 
-When installing the Bizible javascript, we strongly recommend [hard-coding the script](/help/bizible-tracking/setting-up-tracking/adding-bizible-script.md) directly into your site. However, if that isn't possible, you can also use Google Tag Manager (GTM) to load the Bizible JS. Please note that Bizible JS loaded through GTM is susceptible to latency. Latency causes a delay in script load times which can result in missing around 3-5% of all form submissions.
+When installing the Bizible javascript, we strongly recommend [hard-coding the script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) directly into your site. However, if that isn't possible, you can also use Google Tag Manager (GTM) to load the Bizible JS. Please note that Bizible JS loaded through GTM is susceptible to latency. Latency causes a delay in script load times which can result in missing around 3-5% of all form submissions.
 
 If you decide to add our script via GTM, please set the Bizible script to the highest priority in your firing order and ensure there are no synchronous scripts in front of the Bizible tag in order to reduce any effects from GTM latency.
 

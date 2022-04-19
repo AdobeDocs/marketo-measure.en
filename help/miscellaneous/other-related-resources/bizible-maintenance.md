@@ -35,14 +35,14 @@ Reference [this article](/help/channel-tracking-and-setup/online-channels/online
 
 **Evaluate touchpoint suppression settings (1x/quarter)**
 
-If you’re seeing a lot of touchpoints that you’d prefer not be considered in your attribution story (from a Login or Unsubscribe forms, a Careers page, or an internal app, for example), you may want to evaluate your existing touchpoint suppression settings. Once a quarter, pinpoint any groups of touchpoints that are creating unnecessary noise and update your suppression logic appropriately. [Here’s a helpful article](/help/advanced-bizible-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  with the how-to.
+If you’re seeing a lot of touchpoints that you’d prefer not be considered in your attribution story (from a Login or Unsubscribe forms, a Careers page, or an internal app, for example), you may want to evaluate your existing touchpoint suppression settings. Once a quarter, pinpoint any groups of touchpoints that are creating unnecessary noise and update your suppression logic appropriately. [Here’s a helpful article](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  with the how-to.
 
 **Review custom stage mapping for accuracy (1x/quarter) (if applicable)**
 
-If you’re using any custom Lead, Contact, or Opportunities stages, you may have also customized what part of the pipeline those stages map to and whether or not those stages are included in a custom attribution model. Once a quarter, visit [this article](/help/advanced-bizible-features/custom-attribution-models/custom-attribution-model-and-setup.md) to refresh your memory on custom stage mapping and ensure that you’re accurately tracking your custom stages.
+If you’re using any custom Lead, Contact, or Opportunities stages, you may have also customized what part of the pipeline those stages map to and whether or not those stages are included in a custom attribution model. Once a quarter, visit [this article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) to refresh your memory on custom stage mapping and ensure that you’re accurately tracking your custom stages.
 
 **Compare Machine Learning Model to Custom Model weighting (1x/quarter) (if applicable)**
 
 If you’re licensed for Bizible’s Custom Model, you also have data available from our Machine Learning Model (MLM) in Settings > Attribution Settings. The MLM calculates the importance of each stage using touchpoint data from your account, and may help you decide how to allocate attribution weight in your Custom Model. We recommend comparing the MLM to your Custom Model once a quarter, and discussing the implications of potential changes to your Custom Model with your SM.
 
-For more information about Bizible’s Machine Learning Model, check out [this article](/help/advanced-bizible-features/custom-attribution-models/machine-learning-model-faq.md).
+For more information about Bizible’s Machine Learning Model, check out [this article](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).

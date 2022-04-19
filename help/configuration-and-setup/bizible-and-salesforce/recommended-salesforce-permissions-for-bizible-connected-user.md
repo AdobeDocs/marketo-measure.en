@@ -8,7 +8,7 @@ exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 
 Bizible sends and receives data through a connected Salesforce user within the Bizible app.  
   
-In order to push touchpoint data to your Salesforce instance, the connected user must have access to Bizible custom objects (i.e. Bizible Touchpoint and Bizible Attribution Touchpoint) as well as standard Salesforce objects such as Leads and Contacts (see [Bizible in Salesforce](/help/configuration-and-setup/bizible-and-salesforce/how-bizible-and-salesforce-interact.md).  
+In order to push touchpoint data to your Salesforce instance, the connected user must have access to Bizible custom objects (i.e. Bizible Touchpoint and Bizible Attribution Touchpoint) as well as standard Salesforce objects such as Leads and Contacts (see [Bizible in Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).  
   
 Salesforce Administrator user licenses can serve as the connected user as they often have the necessary data privileges by default. However, your team may prefer to use an integrations user or a dedicated Salesforce user license to track the impact of Bizible on your instance.  
   

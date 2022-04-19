@@ -43,7 +43,7 @@ Aside from a yearly review, certain organizational changes may signal the need t
 
 >[!MORELIKETHIS]
 >
->* [Using a Custom Revenue Amount Field](/help/advanced-bizible-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Using Data Loader to Update Custom Amount Field](/help/advanced-bizible-features/custom-revenue-amount/using-data-loader-to-update-bizible-custom-amount-field.md)
->* [Overview of Multi-Currency](/help/advanced-bizible-features/multi-currency/overview.md)
->* [Multi-Currency Settings](/help/advanced-bizible-features/multi-currency/settings.md)
+>* [Using a Custom Revenue Amount Field](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Using Data Loader to Update Custom Amount Field](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Overview of Multi-Currency](/help/advanced-marketo-measure-features/multi-currency/overview.md)
+>* [Multi-Currency Settings](/help/advanced-marketo-measure-features/multi-currency/settings.md)

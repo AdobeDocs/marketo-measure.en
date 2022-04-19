@@ -17,7 +17,7 @@ Bizible has released our Boomerang Stage feature! The Boomerang Stage feature wa
 
 >[!NOTE]
 >
->[Instructions on how to set up Boomerang Stages](/help/advanced-bizible-features/boomerang/setting-up-boomerang-stages.md).
+>[Instructions on how to set up Boomerang Stages](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md).
 
 ## What Boomerang Stages and Touchpoints Look like in Your CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
