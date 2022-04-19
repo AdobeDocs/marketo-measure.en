@@ -87,7 +87,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Marketo Measure Parameters](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
     + [Facebook API](api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
     + [LinkedIn Integration](api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
-    + [Understanding marketo-measure AdWords Tagging](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
+    + [Understanding Marketo Measure AdWords Tagging](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
     + [Reauthorizing Connected Accounts](api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 + Marketing Spend {#marketing-spend}
   + Spend Management {#spend-management}

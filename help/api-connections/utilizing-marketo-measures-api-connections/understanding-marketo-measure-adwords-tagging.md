@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874678
-description: Understanding Bizible AdWords Tagging - Bizible - Product Documentation
-title: Understanding Bizible AdWords Tagging
+description: Understanding Marketo Measure AdWords Tagging - Marketo Measure - Product Documentation
+title: Understanding Marketo Measure AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 ---
-# Understanding Bizible AdWords Tagging {#understanding-bizible-adwords-tagging}
+# Understanding Marketo Measure AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 
 In order to track your ads at a very granular level, the Ad Destination URLs must be unique. To accomplish this, Bizible's autotagging automatically adds tracking parameters to the Ad Destination URLs of your AdWords ads. Let's take a look at an example below.
   
