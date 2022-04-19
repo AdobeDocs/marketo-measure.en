@@ -2,7 +2,7 @@
 solution: Bizible,Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.en
-hide: yes
+index: yes
 ---
 
 # Metadata for internal use
