@@ -196,6 +196,9 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
   + Data Warehouse Schema {#data-warehouse-schema}
     + [Connecting to the Snowflake Data Warehouse](marketo-measure-data-warehouse/data-warehouse-schema/connecting-to-the-snowflake-data-warehouse.md)
     + [Snowflake Data Warehouse Schema Version 3](marketo-measure-data-warehouse/data-warehouse-schema/snowflake-data-warehouse-schema-version-3.md)
++ BI Report Templates {#bi-report-templates}
+  + [Marketo Measure Report Template - Power BI](bi-report-templates/marketo-measure-report-template-power-bi.md)
+  + [Marketo Measure Report Template - Tableau](bi-report-templates/marketo-measure-report-template-tableau.md)
 + Security and Compliance {#security-and-compliance}
   + Compliance Related Resources {#compliance-related-resources}
     + [Single Sign On](security-and-compliance/compliance-related-resources/single-sign-on.md)
