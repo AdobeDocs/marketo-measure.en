@@ -7,6 +7,8 @@ exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 
 ## Getting Started {#getting-started}
 
+You can access the Power BI report template [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+
 Open the Adobe Marketo Measure Reporting Template Power BI file.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)

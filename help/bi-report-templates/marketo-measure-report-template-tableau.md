@@ -7,6 +7,8 @@ exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 
 ## Getting Started {#getting-started}
 
+You can access the Tableau report template [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
+
 Open the Adobe Marketo Measure Reporting Template Tableau Workbook file.
 
 You will need to update the existing connection data to your specific Snowflake connection information. Click the Edit Connection button and follow the steps outlined in the [Data Connection](#data-connection) section of this documentation.
