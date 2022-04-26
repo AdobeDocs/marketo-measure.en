@@ -1,5 +1,5 @@
 ---
-solution: Marketo Measure,Bizible
+solution: Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.en
 index: yes
