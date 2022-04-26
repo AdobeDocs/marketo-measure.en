@@ -1,5 +1,5 @@
 ---
-description: Privacy Requests - Bizible - Product Documentation
+description: Privacy Requests - Marketo Measure - Product Documentation
 title: Privacy Requests
 hide: yes
 hidefromtoc: yes
@@ -7,9 +7,9 @@ exl-id: 883e475f-9868-412a-b505-230556f38484
 ---
 # Privacy Requests {#privacy-requests}
 
-This document provides an overview of managing individual data privacy requests that you can send to Bizible through the Privacy Service UI and the **Privacy Service API**.
+This document provides an overview of managing individual data privacy requests that you can send to Marketo Measure through the Privacy Service UI and the **Privacy Service API**.
 
-You can submit individual requests to access and delete consumer data from Bizible in two ways:
+You can submit individual requests to access and delete consumer data from Marketo Measure in two ways:
 
 * Through the [Privacy Service UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Through the **Privacy Service API**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
@@ -18,9 +18,9 @@ The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services
 
 Let’s see how you can create Access and Delete requests.
 
-## Required setup to send requests for Bizible {#required-setup-to-send-requests-for-bizible}
+## Required setup to send requests for Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
-To make requests to Access and Delete data for Bizible, you must:
+To make requests to Access and Delete data for Marketo Measure, you must:
 
 1. Identify the following:
 
@@ -30,9 +30,9 @@ To make requests to Access and Delete data for Bizible, you must:
 
    An IMS Org ID is a 24-character alphanumeric string appended with @AdobeOrg. If your marketing team or internal Adobe system administrator doesn’t know your organization’s IMS Org ID, contact Adobe Customer Care at gdprsupport@adobe.com. You need the IMS Org ID to submit requests to the Privacy API.
 
-1. In Privacy Service, you can submit Access and Delete requests to Bizible, and check the status of existing requests.
+1. In Privacy Service, you can submit Access and Delete requests to Marketo Measure, and check the status of existing requests.
 
-## Required field values in Bizible JSON requests {#required-field-values-in-bizible-json-requests}
+## Required field values in Marketo Measure JSON requests {#required-field-values-in-marketo-measure-json-requests}
 
 “companyContexts”:
 
@@ -49,7 +49,7 @@ To make requests to Access and Delete data for Bizible, you must:
 
 “include”:
 
-* **bizible** (which is the Adobe product that applies to the request)
+* **marketoMeasure** (which is the Adobe product that applies to the request)
 
 “regulation”:
 
@@ -82,7 +82,7 @@ JSON Request
     }
   ],
   "include": [
-    "bizible"
+    "marketoMeasure"
   ],
   "regulation": "gdpr",
 }
@@ -145,7 +145,7 @@ JSON Request
     }
   ],
   "include": [
-    "bizible"
+    "marketoMeasure"
   ],
   "regulation": "ccpa",
 }
