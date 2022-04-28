@@ -50,4 +50,4 @@ Reasons to review your Touchpoint Settings include...
 >
 >* [Touchpoint Removal and Suppression Overview](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
 >* [Why Touchpoints Should Never be Deleted](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
->* [Buyer Touchpoints (BT) vs Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-marketo-measure-touchpoints-and-marketo-measure-attribution-touchpoints.md)
+>* [Buyer Touchpoints (BT) vs Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)

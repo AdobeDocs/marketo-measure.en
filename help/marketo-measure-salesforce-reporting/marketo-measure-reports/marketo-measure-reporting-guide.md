@@ -36,7 +36,7 @@ an offline campaign or activity.
 >
 >BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you’ll want to use one or the other depending on what questions you’re trying to answer: questions related to ‘People’ metrics (BT reports), or questions related to ‘Opportunity’ metrics (BAT reports)
 
-Support Article: [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-marketo-measure-touchpoints-and-marketo-measure-attribution-touchpoints.md#configuration-and-setup)
+Support Article: [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
 ## Buyer Touchpoint (BT) {#buyer-touchpoint-bt}
 
