@@ -1,12 +1,12 @@
 ---
 unique-page-id: 30082018
-description: Delayed Cookie Sync - Bizible - Product Documentation
+description: Delayed Cookie Sync - Marketo Measure - Product Documentation
 title: Delayed Cookie Sync
 exl-id: 394053ed-5642-48e4-b83c-c483a58ebbd7
 ---
 # Delayed Cookie Sync {#delayed-cookie-sync}
 
-This modification to the default Bizible Javascript serves to provide bizible.js API support, so you can configure the JS to temporarily store visitors' user activities, but not send the information to the Bizible server until the user gives consent to do so.
+This modification to the default Marketo Measure Javascript serves to provide bizible.js API support, so you can configure the JS to temporarily store visitors' user activities, but not send the information to the Marketo Measure server until the user gives consent to do so.
 
 ## How-To {#how-to}
 

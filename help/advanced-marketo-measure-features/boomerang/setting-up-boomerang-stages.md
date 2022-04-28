@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874767
-description: Setting up Boomerang Stages - Bizible - Product Documentation
+description: Setting up Boomerang Stages - Marketo Measure - Product Documentation
 title: Setting up Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 ---
 # Setting up Boomerang Stages {#setting-up-boomerang-stages}
 
-To enable Boomerang Stages for your account, you must be an Account Admin. Or, it can be enabled by reaching out to Bizible Support. Once the feature has been enabled, please follow these instructions to set them up.
+To enable Boomerang Stages for your account, you must be an Account Admin. Or, it can be enabled by reaching out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Once the feature has been enabled, please follow these instructions to set them up.
 
 ## Boomerang Stage Setup {#boomerang-stage-setup}
 

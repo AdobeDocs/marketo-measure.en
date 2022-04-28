@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37357059
-description: OAuth with Azure Active Directory for Dynamics CRM - Bizible - Product Documentation
+description: OAuth with Azure Active Directory for Dynamics CRM - Marketo Measure - Product Documentation
 title: OAuth with Azure Active Directory for Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 ---
@@ -8,11 +8,11 @@ exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 
 ## Who’s Affected {#who-s-affected}
 
-This setup is for new Bizible customers using Dynamics CRM with an Azure Active Directory (AAD) account, or for customers that want to migrate from their legacy username and password login to Azure Active Directory with OAuth.
+This setup is for new Marketo Measure customers using Dynamics CRM with an Azure Active Directory (AAD) account, or for customers that want to migrate from their legacy username and password login to Azure Active Directory with OAuth.
 
 >[!NOTE]
 >
->For both of these scenarios, AAD is set up here to facilitate connecting your Dynamics instance in Bizible as a Data Provider.
+>For both of these scenarios, AAD is set up here to facilitate connecting your Dynamics instance in Marketo Measure as a Data Provider.
 
 ## Set Up New Application {#set-up-new-application}
 
@@ -47,7 +47,7 @@ This setup is for new Bizible customers using Dynamics CRM with an Azure Active 
 
    ![](assets/setup-9.png)
 
-1. Add Bizible’s redirect URLs: `https://apps.bizible.com/OAuth2` and `https://apps.bizible.com/OAuth2?identityOnly=true` to the list of Redirect URLs.
+1. Add Marketo Measure’s redirect URLs: `https://apps.bizible.com/OAuth2` and `https://apps.bizible.com/OAuth2?identityOnly=true` to the list of Redirect URLs.
 
    ![](assets/setup-10.png)
 
@@ -111,11 +111,11 @@ Once the application registration is done, then an application user can be creat
   
   c. Application ID URI is the URL of the target web API (secured resource). To find the App ID URL, in the Azure Portal, click Azure Active Directory, click Application registrations, open the application's Settings page, then click Properties. It may also be an external resource like `https://graph.microsoft.com`. This is normally the URL of the dynamics instance.
 
-1. After you click **Submit**, you’ll be prompted to sign-in with Azure Active Directory. When the authentication is successful, your Dynamics account will be connected as a data provider within Bizible.
+1. After you click **Submit**, you’ll be prompted to sign-in with Azure Active Directory. When the authentication is successful, your Dynamics account will be connected as a data provider within Marketo Measure.
 
 ## Re-authenticating your Dynamics Account {#re-authenticating-your-dynamics-account}
 
-1. When you’re in the Bizible application, go to **My Settings** > **Settings** > **Connections**.
+1. When you’re in the Marketo Measure application, go to **My Settings** > **Settings** > **Connections**.
 
 1. Click on the key icon in the CRM section next to the Dynamics connection.
 
@@ -123,4 +123,4 @@ Once the application registration is done, then an application user can be creat
 
    ![](assets/re-authenticating-3.png)
 
-1. After you click **Submit**, you’ll be prompted to sign-in with Azure Active Directory. When the authentication is successful, your Dynamics account will be re-authorized within Bizible.
+1. After you click **Submit**, you’ll be prompted to sign-in with Azure Active Directory. When the authentication is successful, your Dynamics account will be re-authorized within Marketo Measure.

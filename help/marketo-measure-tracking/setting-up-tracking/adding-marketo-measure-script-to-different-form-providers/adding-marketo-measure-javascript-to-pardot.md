@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874757
-description: Adding Marketo Measure JavaScript to Pardot - Measure - Product Documentation
+description: Adding Marketo Measure JavaScript to Pardot - Marketo Measure - Product Documentation
 title: Adding Marketo Measure JavaScript to Pardot
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 ---
 # Adding Marketo Measure JavaScript to Pardot {#adding-marketo-measure-javascript-to-pardot}
 
-Pardot forms require additional handling within the form template beyond putting script on the site in order for Bizible to recognize form submissions. The process is simple; it only requires placing the Bizible tracking script into the Pardot form template.
+Pardot forms require additional handling within the form template beyond putting script on the site in order for Marketo Measure to recognize form submissions. The process is simple; it only requires placing the Marketo Measure tracking script into the Pardot form template.
 
 ## Step by Step Instructions {#step-by-step-instructions}
 
@@ -24,13 +24,13 @@ Once you've logged into your Pardot account, follow the steps below.
 
    ![](assets/2-1.png)
 
-1. Copy and paste the Bizible JavaScript code right before the close header tag on your HTML page.
+1. Copy and paste the Marketo Measure JavaScript code right before the close header tag on your HTML page.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 1. Follow these steps for all applicable Landing Page Layout Templates.
 
-1. Make sure the Bizible JavaScript is on the general site page as well.
+1. Make sure the Marketo Measure JavaScript is on the general site page as well.
 
    Within the Pardot Layout Template, the code will look something like this:
 

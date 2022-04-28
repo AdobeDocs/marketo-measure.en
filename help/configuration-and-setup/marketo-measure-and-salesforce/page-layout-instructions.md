@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874799
-description: Page Layout Instructions - Bizible - Product Documentation
+description: Page Layout Instructions - Marketo Measure - Product Documentation
 title: Page Layout Instructions
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 ---
 # Page Layout Instructions {#page-layout-instructions}
 
-To easily see Bizible data, it's recommended to update Page Layouts for the Account, Contact, Lead, Opportunity, and Campaign Objects. The instructions are broken out for each Object Page Layout below.
+To easily see Marketo Measure data, it's recommended to update Page Layouts for the Account, Contact, Lead, Opportunity, and Campaign Objects. The instructions are broken out for each Object Page Layout below.
 
 To begin, first navigate to your Salesforce Setup settings and locate the Customize tab.
 
@@ -21,7 +21,7 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
    ![](assets/2-1.jpg)
 
-1. Within the fields option, select the **Enable Bizible Touchpoints** field and drag it wherever you would like on the page. Next, add the **Touchpoint Start Date** and **Touchpoint End Date** fields.
+1. Within the fields option, select the **Enable Buyer Touchpoints** field and drag it wherever you would like on the page. Next, add the **Touchpoint Start Date** and **Touchpoint End Date** fields.
 
    ![](assets/3-2.png)
 
@@ -34,7 +34,7 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
    >[!NOTE]
    >
-   >If you are using multiple Campaign record types, the picklist values for the **Enable Bizible Touchpoints** field will need to be updated. Please reference [this article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) for instructions.
+   >If you are using multiple Campaign record types, the picklist values for the **Enable Buyer Touchpoints** field will need to be updated. Please reference [this article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) for instructions.
 
 ## Leads {#leads}
 
@@ -42,35 +42,35 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
 1. Click **Page Layouts**.
 
-1. Click Edit next to the page layout you want to update. Keep in mind that multiple page layouts can contain the Bizible Touchpoints sections.
+1. Click Edit next to the page layout you want to update. Keep in mind that multiple page layouts can contain the Buyer Touchpoints sections.
 
 1. Click on the VisualForce page option on the left within your quick find menu.
 
-1. Create a new section and name it “Bizible Touchpoints.”  
+1. Create a new section and name it “Buyer Touchpoints.”  
 
    >[!NOTE]
    >
    >Select the "one column" format for each of these sections.
 
-1. Drag the **Bizible Lead Related List** VisualForce page into your page layout section.
+1. Drag the **Marketo Measure Lead Related List** VisualForce page into your page layout section.
 
    ![](assets/5-1.png)
 
 1. Click on the wrench within the VisualForce page and change the height to 100 and enable scrollbars.
 
-1. Back in the menu, select the Canvas Apps section and create a new section called "Bizible Insights" beneath the Touchpoints VisualForce section you just created.
+1. Back in the menu, select the Canvas Apps section and create a new section called "Marketo Measure Insights" beneath the Touchpoints VisualForce section you just created.
 
    >[!NOTE]
    >
    >Select the "one column" format for each of these sections.
 
-1. Drag the Bizible Insights Canvas App into that newly created section. Click **Save**! Sometimes it's necessary to save the page layout first before dropping in the Canvas App because Salesforce doesn't instantly recognize it. So after creating the new section, save the page layout and then re-edit to drag the canvas app within that section. This applies to every object.
+1. Drag the Marketo Measure Insights Canvas App into that newly created section. Click **Save**! Sometimes it's necessary to save the page layout first before dropping in the Canvas App because Salesforce doesn't instantly recognize it. So after creating the new section, save the page layout and then re-edit to drag the canvas app within that section. This applies to every object.
 
    >[!NOTE]
    >
-   >For the Bizible Insights Canvas App to function properly, [permissions need to be configured properly](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >For the Marketo Measure Insights Canvas App to function properly, [permissions need to be configured properly](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
-If you're leveraging Bizible's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+If you're leveraging Marketo Measure's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contacts {#contacts}
 
@@ -80,11 +80,11 @@ If you're leveraging Bizible's ABM feature,  [please click here for additional p
 
 1. Select the Page Layout you’d like to edit.
 
-   Go to the Related Lists option within the quick find menu and add the **Bizible Touchpoints** related list.
+   Go to the Related Lists option within the quick find menu and add the **Buyer Touchpoints** related list.
 
 1. Click the wrench icon and add the following columns in this order:
 
-   * Bizible Touchpoint
+   * Buyer Touchpoint
    * Marketing Channel
    * Touchpoint Source
    * Ad Campaign Name
@@ -99,7 +99,7 @@ If you're leveraging Bizible's ABM feature,  [please click here for additional p
 
    ![](assets/7.png)
 
-1. Go back to the Related List option in the menu and now add the **Bizible Attribution Touchpoint** related list.
+1. Go back to the Related List option in the menu and now add the **Buyer Attribution Touchpoint** related list.
 
 1. Click the wrench icon and add the following columns in this order:
 
@@ -127,7 +127,7 @@ If you're leveraging Bizible's ABM feature,  [please click here for additional p
 
 1. Select the Page Layout you’d like to edit.
 
-1. Add the **Bizible Attribution Touchpoint** Related List and click the wrench to add the following columns for Opportunities:
+1. Add the **Buyer Attribution Touchpoint** Related List and click the wrench to add the following columns for Opportunities:
 
    * Attribution Touchpoint
    * Marketing Channel
@@ -153,7 +153,7 @@ If you're leveraging Bizible's ABM feature,  [please click here for additional p
 
 1. Select the Page Layout you’d like to edit.
 
-1. Add the **Bizible Attribution Touchpoint** Related List and click the wrench to add the following columns:
+1. Add the **Buyer Attribution Touchpoint** Related List and click the wrench to add the following columns:
 
    * Attribution Touchpoint
    * Marketing Channel
@@ -171,4 +171,4 @@ If you're leveraging Bizible's ABM feature,  [please click here for additional p
 
 1. Click **Save**.
 
-If you are leveraging Bizible's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+If you are leveraging Marketo Measure's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: Touchpoint Fields - Bizible - Product Documentation
+description: Touchpoint Fields - Marketo Measure - Product Documentation
 title: Touchpoint Fields
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 ---
 # Touchpoint Fields {#touchpoint-fields}
 
-Historically, when customers onboard with Bizible and in the case where we don’t have a direct tagging integration, our Customer Success team educates our customers on how to appropriately tag their landing pages so they utilize the correct UTM format and we can resolve their ads. Some of these customers don’t use UTMs but rather use their own tagging parameters, which means it can be very time-consuming to edit all of their landing pages across all of their ad networks with a new tagging structure that Bizible enforces. In order to adapt to their tagging structure, we now accept custom parameters that can be mapped with our rule definitions. The goal is to adapt to customers' use of their custom tracking parameters so we don't have to require them to change their URL structure.
+Historically, when customers onboard with Marketo Measure and in the case where we don’t have a direct tagging integration, our Customer Success team educates our customers on how to appropriately tag their landing pages so they utilize the correct UTM format and we can resolve their ads. Some of these customers don’t use UTMs but rather use their own tagging parameters, which means it can be very time-consuming to edit all of their landing pages across all of their ad networks with a new tagging structure that Marketo Measure enforces. In order to adapt to their tagging structure, we now accept custom parameters that can be mapped with our rule definitions. The goal is to adapt to customers' use of their custom tracking parameters so we don't have to require them to change their URL structure.
 
 >[!AVAILABILITY]
 >
@@ -18,7 +18,7 @@ Historically, when customers onboard with Bizible and in the case where we don�
 
 ## Enabling the Feature {#enabling-the-feature}
 
-From the Bizible Settings menu, navigate to the Touchpoint Fields page. From there, you can enable the feature by selecting **Yes** under **Enable Calculated Fields**. Once that’s enabled, you're free to create Touchpoint Fields.
+From the Marketo Measure Settings menu, navigate to the Touchpoint Fields page. From there, you can enable the feature by selecting **Yes** under **Enable Calculated Fields**. Once that’s enabled, you're free to create Touchpoint Fields.
 
 ![](assets/one.png)
 
@@ -51,7 +51,7 @@ Goal: Use the value of a custom field and put it onto the Touchpoint object for 
 
 A common use case this feature enables is to pull out values from custom parameters of a URL string. This is useful if you use parameters other than UTMs but want to parse out the values onto touchpoint fields.
   
-**Link:** `https://www.bizible.com/blog/marketing-revenue-reporting-overview?promo=5OFF` or `https://www.bizible.com/blog/marketing-revenue-reporting-overview?promo=25OFF`.  
+**Link:** `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=5OFF` or `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=25OFF`.  
 **Goal:** Create a custom field called “Discount Code” and drop in the value “5OFF” or “25OFF,” whatever value gets passed.
 
 * Create a Calculated Field and label it “Discount Code”
@@ -69,7 +69,7 @@ A common use case this feature enables is to pull out values from custom paramet
 
 **Example #3**
 
-Let’s try a similar example where we extract a tracking code such as: `https://www.bizible.com/blog/marketing-revenue-reporting-overview?cid=123456`.  
+Let’s try a similar example where we extract a tracking code such as: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?cid=123456`.  
   
 **Goal:** Create a Calculated Field and label it “Adobe Campaign Id” with the value from the cid parameter.
 
@@ -88,7 +88,7 @@ Let’s try a similar example where we extract a tracking code such as: `https:/
 **Example #4**
 
 As your landing pages get more complicated and you have multiple tracking parameters, you might need to build multiple touchpoint fields and extract values multiple times, such as:
-`https://www.bizible.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.  
+`https://www.adobe.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.  
   
 **Goal:** Create multiple Calculated Fields for “Target Country” and “Custom Campaign Id” with the respective values from the parameters.
 
@@ -126,7 +126,7 @@ There are campaigns that you’ve created for an “End of summer promotion” a
 
 **Example #2**
 
-Now that we’ve learned how to extract and map to fields, let’s combine those actions in order to first extract a value from a parameter, then map it to a friendly name that makes a little more sense. So let’s start with this landing page: `https://www.bizible.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.  
+Now that we’ve learned how to extract and map to fields, let’s combine those actions in order to first extract a value from a parameter, then map it to a friendly name that makes a little more sense. So let’s start with this landing page: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.  
   
 **Goal:** Create multiple Calculated Fields, where the first number maps to a Region, the second maps to a Product, the third maps to an Initiative, the fourth maps to a Persona, and the fifth maps to a Media Platform. Then, map the numerical value to a “friendly name.”
 
@@ -208,9 +208,9 @@ Don’t forget to save your rules after you create it. If you don’t see your n
 
 Like in the Extract Example #4, you’ll need to create multiple fields to extract each of the parameters. So if you have five different values, you will create five Touchpoint Fields to extract each of them.
 
-**Why don’t I see my new fields in the Bizible schema?**
+**Why don’t I see my new fields in the Marketo Measure schema?**
 
-There is additional work needed to expose the new fields in the Bizible Data Warehouse schema. At the moment, fields are exposed through settings and configuration so you can use the Touchpoint Fields in building Segments or creating Touchpoint Deletion rules.
+There is additional work needed to expose the new fields in the Marketo Measure Data Warehouse schema. At the moment, fields are exposed through settings and configuration so you can use the Touchpoint Fields in building Segments or creating Touchpoint Deletion rules.
 
 **How can I validate that my extract expression is valid and pulling the correct value?**
 

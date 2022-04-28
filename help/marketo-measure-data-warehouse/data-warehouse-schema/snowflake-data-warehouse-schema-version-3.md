@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586140
-description: Snowflake Data Warehouse Schema Vers 3 - Bizible - Product Documentation
+description: Snowflake Data Warehouse Schema Vers 3 - Marketo Measure - Product Documentation
 title: Snowflake Data Warehouse Schema Version 3
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 ---
@@ -55,7 +55,7 @@ _Click an image for its full-size version_
 
 ## BIZ_ACCOUNTS {#biz-accounts}
 
-All CRM Accounts that are imported, along with custom Bizible fields.
+All CRM Accounts that are imported, along with custom Marketo Measure fields.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -103,7 +103,7 @@ All CRM Accounts that are imported, along with custom Bizible fields.
    <td><p>NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The Account Name, as recorded in the CRM</p></td> 
-   <td><p>bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -111,14 +111,14 @@ All CRM Accounts that are imported, along with custom Bizible fields.
    <td><p>WEB_SITE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Website that is entered for the Account, used for Lead2Account mapping</p></td> 
-   <td><p>www.bizible.com</p></td> 
+   <td><p>www.adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>ENGAGEMENT_RATING</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>A letter grade (A, B, C, D, N/A) that is generated from Bizible’s Machine Learning model. This will be null if ABM is disabled.</p></td> 
+   <td><p>A letter grade (A, B, C, D, N/A) that is generated from Marketo Measure’s Machine Learning model. This will be null if ABM is disabled.</p></td> 
    <td><p>B</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -126,7 +126,7 @@ All CRM Accounts that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>ENGAGEMENT_SCORE</p></td> 
    <td><p>number(38,19)</p></td> 
-   <td><p>A numerical score calculated by Bizible’s Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). This will be null if ABM is disabled.</p></td> 
+   <td><p>A numerical score calculated by Marketo Measure’s Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). This will be null if ABM is disabled.</p></td> 
    <td><p>0.1417350147058800000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -135,7 +135,7 @@ All CRM Accounts that are imported, along with custom Bizible fields.
    <td><p>DOMAIN</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The parsed down version of the website, only storing the domain.</p></td> 
-   <td><p>bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -150,7 +150,7 @@ All CRM Accounts that are imported, along with custom Bizible fields.
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td> 
     <div> 
      <pre>{"Account_Type__c": "Security", "Foo":"Bar"}</pre> 
@@ -219,7 +219,7 @@ Lead and Contact email addresses that are mapped and known under CRM Accounts. T
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Any email address that has been mapped to the Account, whether through Contact relationships or from Lead2Account mapping</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td>X</td> 
    <td><br></td> 
   </tr> 
@@ -474,7 +474,7 @@ Table that stores all ads downloaded from any connected ads accounts.
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the ad</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -490,7 +490,7 @@ Table that stores all ads downloaded from any connected ads accounts.
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the ad, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -553,7 +553,7 @@ Table that stores all ads downloaded from any connected ads accounts.
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the ad was first downloaded by Bizible</p></td> 
+   <td><p>The date that the ad was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:35:59.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -569,7 +569,7 @@ Table that stores all ads downloaded from any connected ads accounts.
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the ad needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the ad needs to get updated to get Marketo Measure tagging</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -731,7 +731,7 @@ Table that stores all advertisers downloaded from any connected ads accounts.
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -803,14 +803,14 @@ Table that stores all advertisers downloaded from any connected ads accounts.
    <td><p>NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not this row needs to have Bizible update its tags</p></td> 
+   <td><p>Whether or not this row needs to have Marketo Measure update its tags</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -1012,7 +1012,7 @@ Table that stores all ads accounts downloaded from any connected ads accounts.
    <td><p>NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the ad account</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1116,7 +1116,7 @@ Table that stores all ads accounts downloaded from any connected ads accounts.
    <td><p>TRACKING_URL_TEMPLATE</p></td> 
    <td><p>varchar</p></td> 
    <td><br></td> 
-   <td><p>http://cdn.bizible.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
+   <td><p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1140,7 +1140,7 @@ Table that stores all ads accounts downloaded from any connected ads accounts.
    <td><p>TRACKING_URL_TEMPLATE_APPLIED</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The tracking template added on the Ad Account level for AdWords or Bing for tagging landing pages.</p></td> 
-   <td><p>http://cdn.bizible.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
+   <td><p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1229,7 +1229,7 @@ Table that stores all campaigns downloaded from any connected ads accounts or UT
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the campaign</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1245,7 +1245,7 @@ Table that stores all campaigns downloaded from any connected ads accounts or UT
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the campaign, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1308,7 +1308,7 @@ Table that stores all campaigns downloaded from any connected ads accounts or UT
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the campaign was first downloaded by Bizible</p></td> 
+   <td><p>The date that the campaign was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:35:58.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -1324,7 +1324,7 @@ Table that stores all campaigns downloaded from any connected ads accounts or UT
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the campaign needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the campaign needs to get updated to get Marketo Measure tagging</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -1389,7 +1389,7 @@ Table that stores all campaigns downloaded from any connected ads accounts or UT
    <td><p>TRACKING_URL_TEMPLATE_APPLIED</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The tracking template added on the Ad Campaign level for AdWords or Bing for tagging landing pages.</p></td> 
-   <td><p>http://cdn.bizible.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
+   <td><p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1474,7 +1474,7 @@ Table that stores all Ad forms downloaded from any connected ads accounts.
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the ad form</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td>
    <td><br></td> 
    <td><br></td> 
@@ -1509,7 +1509,7 @@ Table that stores all Ad forms downloaded from any connected ads accounts.
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the campaign was first downloaded by Bizible</p></td> 
+   <td><p>The date that the campaign was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:35:58.000</p></td> 
    <td><br></td> 
    <td><br></td>
@@ -1685,7 +1685,7 @@ Table that stores all ad groups downloaded from any connected ads accounts.
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the ad group</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1764,7 +1764,7 @@ Table that stores all ad groups downloaded from any connected ads accounts.
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the ad group was first downloaded by Bizible</p></td> 
+   <td><p>The date that the ad group was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:36:14.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -1780,7 +1780,7 @@ Table that stores all ad groups downloaded from any connected ads accounts.
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the ad group needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the ad group needs to get updated to get Marketo Measure tagging</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -1845,7 +1845,7 @@ Table that stores all ad groups downloaded from any connected ads accounts.
    <td><p>TRACKING_URL_TEMPLATE_APPLIED</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The tracking template added on the Ad Account level for AdWords or Bing for tagging landing pages.</p></td> 
-   <td><p>http://cdn.bizible.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
+   <td><p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -1999,7 +1999,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>USER_TOUCHPOINT_ID</p></td> 
    <td><p>varchar</p></td> 
    <td><p>A lookup to the Biz_User_Touchpoints table to select columns such as email, campaignmember_id, session_id</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><p>BIZ_USER_TOUCHPOINTS.ID</p></td> 
   </tr> 
@@ -2046,7 +2046,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CHANNEL</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App.</p></td> 
    <td><p>Social.LinkedIn</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2054,7 +2054,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY1</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 1st Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 1st Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>ABC, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2062,7 +2062,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY2</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 2nd Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 2nd Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>Yes, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2070,7 +2070,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY3</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 3rd Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 3rd Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>SMB, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2078,7 +2078,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY4</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 4th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 4th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>New Business, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2086,7 +2086,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY5</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 5th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 5th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2094,7 +2094,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY6</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 6th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 6th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2102,7 +2102,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY7</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 7th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 7th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2110,7 +2110,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY8</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 8th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 8th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2118,7 +2118,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY9</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 9th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 9th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2126,7 +2126,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY10</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 10th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 10th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2134,7 +2134,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY11</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 11th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 11th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2142,7 +2142,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY12</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 12th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 12th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2150,7 +2150,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY13</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 13th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 13th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2158,7 +2158,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY14</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 14th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 14th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2166,7 +2166,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>CATEGORY15</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 15th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 15th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2207,7 +2207,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>LANDING_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page” This is the first landing page of the session that resulted in a touchpoint.</p></td> 
-   <td><p><span>http://www.bizible.com/blog/uncover-</span> truth-behind-cost-per-lead</p></td> 
+   <td><p><span>http://www.adobe.com/blog/uncover-</span> truth-behind-cost-per-lead</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2215,7 +2215,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>LANDING_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page - Raw.” This is the first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL.</p></td> 
-   <td><p><span>http://www.bizible.com/blog/uncover-truth</span> -behind-cost-per-lead?utm_content=27322869&amp;utm_</p><p>medium=social&amp;utm_source=linkedin</p></td> 
+   <td><p><span>http://www.adobe.com/blog/uncover-truth</span> -behind-cost-per-lead?utm_content=27322869&amp;utm_</p><p>medium=social&amp;utm_source=linkedin</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2239,7 +2239,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>FORM_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Form URL.” This is the first form that is recorded in a session that resulted in a touchpoint. Subsequent form submissions will not show up in the Biz_Attribution_Touchpoints table, but rather in the Biz_Form_Submits table.</p></td> 
-   <td><p><span>http://info.bizible.com/intro-guide-b2b-marketing-attribution</span></p></td> 
+   <td><p><span>http://info.adobe.com/intro-guide-b2b-marketing-attribution</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2247,7 +2247,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>FORM_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Form URL - Raw.” This is the first form that is recorded in a session that resulted in a touchpoint. Subsequent form submissions will not show up in the Biz_Attribution_Touchpoints table, but rather in the Biz_Form_Submits table. A raw form page may contain query parameters in the URL.</p></td> 
-   <td><p><span>http://info.bizible.com/intro-guide-b2b-marketing-attribution</span></p></td> 
+   <td><p><span>http://info.adobe.com/intro-guide-b2b-marketing-attribution</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2286,7 +2286,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>MEDIUM</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Used to define the medium that resulted in the touchpoint. This can either be parsed out from the URL from utm_medium or if Bizible is able to resolve an ad, it may be values such as “cpc” or “display.”</p></td> 
+   <td><p>Used to define the medium that resulted in the touchpoint. This can either be parsed out from the URL from utm_medium or if Marketo Measure is able to resolve an ad, it may be values such as “cpc” or “display.”</p></td> 
    <td><p>social</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2294,7 +2294,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>WEB_SOURCE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Bizible is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
+   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
    <td><p>linkedin</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2303,14 +2303,14 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>SEARCH_PHRASE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The value that the user entered in the browser to search for and end up on the website. Depending on the keyword buys, this may or may not match the keywords purchased from the Paid Search platform.</p></td> 
-   <td><p>google bizible</p></td> 
+   <td><p>google marketo measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>AD_PROVIDER</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The ad platform that Bizible was able to resolve from, typically one of our integration partners.</p></td> 
+   <td><p>The ad platform that Marketo Measure was able to resolve from, typically one of our integration partners.</p></td> 
    <td><p>Google</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2326,8 +2326,8 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the ads account in which the ad was resolved from, such as Bizible-US.</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>The name of the ads account in which the ad was resolved from, such as Marketo-Measure-US.</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2342,8 +2342,8 @@ All touchpoints that are associated with an Opportunity. This table will be empt
   <tr> 
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the advertiser from the ads account in which the ad was resolved from, such as Bizible Inc. This only applies to Doubleclick Campaign Manager.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>The name of the advertiser from the ads account in which the ad was resolved from, such as Marketo Measure Inc. This only applies to Doubleclick Campaign Manager.</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2463,7 +2463,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>CREATIVE_DESTINATION_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The landing page that clicks through from the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p><span>http://info.bizible.com/cmos-guide-to-b2b-marketing-attribution</span></p></td> 
+   <td><p><span>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2471,7 +2471,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
    <td><p>CREATIVE_DISPLAY_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The friendly URL name that’s shown on the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p><span>http://info.bizible.com/CMOs-Guide</span></p></td> 
+   <td><p><span>http://info.adobe.com/CMOs-Guide</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2752,7 +2752,7 @@ All touchpoints that are associated with an Opportunity. This table will be empt
 
 ## BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
-All CRM Campaign Members that are imported, along with custom Bizible fields. This table will be empty if Campaign Sync is disabled.
+All CRM Campaign Members that are imported, along with custom Marketo Measure fields. This table will be empty if Campaign Sync is disabled.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -2816,7 +2816,7 @@ All CRM Campaign Members that are imported, along with custom Bizible fields. Th
    <td><p>LEAD_EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email for the related Lead that this Campaign Member is tied to</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2832,7 +2832,7 @@ All CRM Campaign Members that are imported, along with custom Bizible fields. Th
    <td><p>CONTACT_EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email for the related Contact that this Campaign Member is tied to</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -2895,7 +2895,7 @@ All CRM Campaign Members that are imported, along with custom Bizible fields. Th
   <tr> 
    <td><p>LEAD_SYNC_STATUS</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Used as an audit field to tell whether or not a touchpoint was generated for this Lead as a Bizible Touchpoint and if not, the reason why it didn’t qualify</p></td> 
+   <td><p>Used as an audit field to tell whether or not a touchpoint was generated for this Lead as a Buyer Touchpoint and if not, the reason why it didn’t qualify</p></td> 
    <td><p>No Touchpoint: Date outside model</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2903,7 +2903,7 @@ All CRM Campaign Members that are imported, along with custom Bizible fields. Th
   <tr> 
    <td><p>CONTACT_SYNC_STATUS</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Used as an audit field to tell whether or not a touchpoint was generated for this Contact as a Bizible Touchpoint and if not, the reason why it didn’t qualify</p></td> 
+   <td><p>Used as an audit field to tell whether or not a touchpoint was generated for this Contact as a Buyer Touchpoint and if not, the reason why it didn’t qualify</p></td> 
    <td><p>Touchpoint Created</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2911,7 +2911,7 @@ All CRM Campaign Members that are imported, along with custom Bizible fields. Th
   <tr> 
    <td><p>OPP_SYNC_STATUS</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Used as an audit field to tell whether or not a touchpoint was generated for this Contact as a Bizible Attribution Touchpoint and if not, the reason why it didn’t qualify</p></td> 
+   <td><p>Used as an audit field to tell whether or not a touchpoint was generated for this Contact as a Buyer Attribution Touchpoint and if not, the reason why it didn’t qualify</p></td> 
    <td><p>Touchpoint Created</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -2927,7 +2927,7 @@ All CRM Campaign Members that are imported, along with custom Bizible fields. Th
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td>{"Campaign_Type__c":"Dinners","Foo":"Bar"}</td> 
    <td><br></td> 
    <td><br></td> 
@@ -3155,7 +3155,7 @@ Currency conversion rate data from the CRM.
 
 ## BIZ_CONTACTS {#biz-contacts}
 
-All CRM Contacts that are imported, along with custom Bizible fields.
+All CRM Contacts that are imported, along with custom Marketo Measure fields.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -3203,7 +3203,7 @@ All CRM Contacts that are imported, along with custom Bizible fields.
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email address of the Contact from the CRM</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -3226,7 +3226,7 @@ All CRM Contacts that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_STAGE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The current stage that the Contact is sitting in, recognized as a custom stage that can be created in Bizible’s application.</p></td> 
+   <td><p>The current stage that the Contact is sitting in, recognized as a custom stage that can be created in Marketo Measure’s application.</p></td> 
    <td><p>Demo Scheduled</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3234,7 +3234,7 @@ All CRM Contacts that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_STAGE_PREVIOUS</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>A string of all stages that the Contact had previously gone through, recognized as custom stages that can be created in Bizible’s application.</p></td> 
+   <td><p>A string of all stages that the Contact had previously gone through, recognized as custom stages that can be created in Marketo Measure’s application.</p></td> 
    <td><p>Open - Contact</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3242,7 +3242,7 @@ All CRM Contacts that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>ODDS_OF_CONVERSION</p></td> 
    <td><p>number(38,19)</p></td> 
-   <td><p>Bizible’s algorithm of estimating whether a contact will help an opportunity close based on the age and stage</p></td> 
+   <td><p>Marketo Measure's algorithm of estimating whether a contact will help an opportunity close based on the age and stage</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3250,7 +3250,7 @@ All CRM Contacts that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_COOKIE_ID</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Bizible’s CookieId value that is used to populate from an integration partner to map an offline Event to a web session. Requirement: Enable Call Tracking: True</p></td> 
+   <td><p>Marketo Measure's CookieId value that is used to populate from an integration partner to map an offline Event to a web session. Requirement: Enable Call Tracking: True</p></td> 
    <td><p>08c1063cb0a64349ad0d2d862f5cc700</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3274,7 +3274,7 @@ All CRM Contacts that are imported, along with custom Bizible fields.
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td> 
    <td><br></td> 
    <td><br></td> 
@@ -3427,7 +3427,7 @@ All cost data, either from third party integrations or self reported marketing s
   <tr> 
    <td><p>CHANNEL_UNIQUE_ID</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The Id for the marketing channel, created by Bizible</p></td> 
+   <td><p>The Id for the marketing channel, created by Marketo Measure</p></td> 
    <td><p>Display.Google</p></td> 
    <td><br></td> 
    <td>BIZ_CHANNELS.ID</td> 
@@ -3435,7 +3435,7 @@ All cost data, either from third party integrations or self reported marketing s
   <tr> 
    <td><p>CHANNEL_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name for the marketing channel, created by the customer in the Bizible application</p></td> 
+   <td><p>The name for the marketing channel, created by the customer in the Marketo Measure application</p></td> 
    <td><p>Display.Google</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3460,7 +3460,7 @@ All cost data, either from third party integrations or self reported marketing s
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser pulled from the ads connection, specifically for Doubleclick connections</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -3484,7 +3484,7 @@ All cost data, either from third party integrations or self reported marketing s
    <td><p>ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the ads account pulled from the ads connection</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -3845,7 +3845,7 @@ Table that stores all creatives downloaded from any connected ads accounts.
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the creative</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -3861,7 +3861,7 @@ Table that stores all creatives downloaded from any connected ads accounts.
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the creative, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -3924,7 +3924,7 @@ Table that stores all creatives downloaded from any connected ads accounts.
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the creative was first downloaded by Bizible</p></td> 
+   <td><p>The date that the creative was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:36:25.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3940,7 +3940,7 @@ Table that stores all creatives downloaded from any connected ads accounts.
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the creative needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the creative needs to get updated to get Marketo Measure tagging</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -3973,7 +3973,7 @@ Table that stores all creatives downloaded from any connected ads accounts.
    <td><p>URL_CURRENT</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The current version of the URL including all tags</p></td> 
-   <td><p>cdn.bizible.com/redir?lp=http%3a%2f%2fwww.pipelinemarketing.com%2f&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}&amp;utm_content={adid}&amp;utm_term={keyword}&amp;utm_campaign=PipelineMarketing.com&amp;utm_source=bing&amp;utm_medium=cpc</p></td> 
+   <td><p>cdn.adobe.com/redir?lp=http%3a%2f%2fwww.pipelinemarketing.com%2f&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}&amp;utm_content={adid}&amp;utm_term={keyword}&amp;utm_campaign=PipelineMarketing.com&amp;utm_source=bing&amp;utm_medium=cpc</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -4076,8 +4076,8 @@ Table that stores all creatives downloaded from any connected ads accounts.
   <tr> 
    <td><p>TRACKING_URL_TEMPLATE_APPLIED</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The URL tracking template that Bizible added to the creative</p></td> 
-   <td><p><span>http://cdn.bizible.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType</span>}</p></td> 
+   <td><p>The URL tracking template that Marketo Measure added to the creative</p></td> 
+   <td><p><span>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType</span>}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -4126,7 +4126,7 @@ Table that stores all creatives downloaded from any connected ads accounts.
 
 ## BIZ_CRM_EVENTS {#biz-crm-events}
 
-All CRM Events that are imported, along with custom Bizible fields.
+All CRM Events that are imported, along with custom Marketo Measure fields.
 
 Requirements: Enable Activities Sync: True
 
@@ -4184,7 +4184,7 @@ Requirements: Enable Activities Sync: True
    <td><p>LEAD_EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email of the related Lead that this Event is tied to</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -4200,14 +4200,14 @@ Requirements: Enable Activities Sync: True
    <td><p>CONTACT_EMAIL </p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email of the related Contact that this Event is tied to</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>BIZIBLE_COOKIE_ID</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Bizible’s CookieId value that is used to populate from an integration partner to map an offline Event to a web session. Requirement: Enable Call Tracking: True</p></td> 
+   <td><p>Marketo Measure’s CookieId value that is used to populate from an integration partner to map an offline Event to a web session. Requirement: Enable Call Tracking: True</p></td> 
    <td><p>08c1063cb0a64349ad0d2d862f5cc700</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -4223,7 +4223,7 @@ Requirements: Enable Activities Sync: True
   <tr> 
    <td><p>EVENT_START_DATE </p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The start date of the Event record, one of the options used to determine the Bizible Touchpoint Date</p></td> 
+   <td><p>The start date of the Event record, one of the options used to determine the Buyer Touchpoint Date</p></td> 
    <td><p>2016-12-16 19:30:00.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -4231,7 +4231,7 @@ Requirements: Enable Activities Sync: True
   <tr> 
    <td><p>EVENT_END_DATE </p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The end date of the Event record, one of the options used to determine the Bizible Touchpoint Date</p></td> 
+   <td><p>The end date of the Event record, one of the options used to determine the Buyer Touchpoint Date</p></td> 
    <td><p>2016-12-16 21:30:00.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -4247,7 +4247,7 @@ Requirements: Enable Activities Sync: True
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td>{"Contact_Type__c":"CMO","Foo":"Bar"}</td> 
    <td><br></td> 
    <td><br></td> 
@@ -4281,7 +4281,7 @@ Requirements: Enable Activities Sync: True
 
 ## BIZ_CRM_TASKS {#biz-crm-tasks}
 
-All CRM Tasks that are imported, along with custom Bizible fields.
+All CRM Tasks that are imported, along with custom Marketo Measure fields.
 
 Requirements: Enable Activities Sync: True OR Enable Call Tracking: True
 
@@ -4339,7 +4339,7 @@ Requirements: Enable Activities Sync: True OR Enable Call Tracking: True
    <td><p>LEAD_EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email of the related Lead that this Task is tied to</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -4355,14 +4355,14 @@ Requirements: Enable Activities Sync: True OR Enable Call Tracking: True
    <td><p>CONTACT_EMAIL </p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email of the related Contact that this Task is tied to</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>BIZIBLE_COOKIE_ID</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Bizible’s CookieId value that is used to populate from an integration partner to map an offline Task to a web session. Requirement: Enable Call Tracking: True</p></td> 
+   <td><p>Marketo Measure’s CookieId value that is used to populate from an integration partner to map an offline Task to a web session. Requirement: Enable Call Tracking: True</p></td> 
    <td><p>08c1063cb0a64349ad0d2d862f5cc700</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -4378,7 +4378,7 @@ Requirements: Enable Activities Sync: True OR Enable Call Tracking: True
   <tr> 
    <td><p>ACTIVITY_DATE</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the Task occurred, one of the options used to determine the Bizible Touchpoint Date</p></td> 
+   <td><p>The date that the Task occurred, one of the options used to determine the Buyer Touchpoint Date</p></td> 
    <td><p>2018-08-27 07:00:00.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -4394,7 +4394,7 @@ Requirements: Enable Activities Sync: True OR Enable Call Tracking: True
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td> 
    <td><br></td> 
    <td><br></td> 
@@ -4483,7 +4483,7 @@ Table of all ISO currencies.
   <tr> 
    <td>MODIFIED_DATE</td> 
    <td>timestamp_ntz</td> 
-   <td>The last modified date from Bizible</td> 
+   <td>The last modified date from Marketo Measure</td> 
    <td>2018-08-27 18:30:25.000</td> 
    <td><br></td> 
    <td><p><br></p></td> 
@@ -4499,7 +4499,7 @@ Table of all ISO currencies.
   <tr> 
    <td>CREATED_DATE</td> 
    <td>timestamp_ntz</td> 
-   <td>The created date from Bizible</td> 
+   <td>The created date from Marketo Measure</td> 
    <td>2018-08-27 18:30:25.000</td> 
    <td><br></td> 
    <td><br></td> 
@@ -4706,7 +4706,7 @@ Requirement: Enable AB Tests: Yes
 
 Web events that have been recorded using custom events in the Javascript which contain a VisitorId and is related to a Biz_Session.
 
-Requirement: Enable Bizible Events: True
+Requirement: Enable Marketo Measure Events: True
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -4883,7 +4883,7 @@ Table that stores all landing pages downloaded from any connected ads accounts.
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the landing page, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><p><br></p></td> 
   </tr> 
@@ -5076,7 +5076,7 @@ Email addresses mapped to the Visitor_Id.
    <td><p>EMAIL </p></td> 
    <td><p>varchar</p></td> 
    <td><p>A known email address that’s tied to a given visitor Id from a session</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td>X</td> 
    <td><br></td> 
   </tr> 
@@ -5149,7 +5149,7 @@ Email addresses mapped to the Visitor_Id.
 
 ## BIZ_FACTS {#biz-facts}
 
-The biz_facts table unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoints (BT), Attribution Touchpoints (BAT), and Cost data. It is used internally to support Bizible reporting in Discover.
+The biz_facts table unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoints (BT), Attribution Touchpoints (BAT), and Cost data. It is used internally to support Marketo Measure reporting in Discover.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -5870,7 +5870,7 @@ All form submissions that occurred which contain a VisitorId and is related to a
    <td><p>CURRENT_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The URL where the form was submitted without query parameters.</p></td> 
-   <td><p><span>https://info.bizible.com/webinar-marketo-bizible-impact</span></p></td> 
+   <td><p><span>https://info.adobe.com/webinar-marketo-bizible-impact</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -5878,7 +5878,7 @@ All form submissions that occurred which contain a VisitorId and is related to a
    <td><p>CURRENT_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The URL where the form was submitted. The current page may contain query parameters in the URL.</p></td> 
-   <td><p><span>https://info.bizible.com/webinar-marketo-bizible-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH</span><br>Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhWOExxNFZLRmphc</p><p>ThVXC9xc3FvR2pET2lXT1ZOMjlKZXEyd3lSMVU3YmljeWdZVWUyZU5iWiJ9</p></td> 
+   <td><p><span>https://info.adobe.com/webinar-marketo-bizible-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH</span><br>Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhWOExxNFZLRmphc</p><p>ThVXC9xc3FvR2pET2lXT1ZOMjlKZXEyd3lSMVU3YmljeWdZVWUyZU5iWiJ9</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -5942,7 +5942,7 @@ All form submissions that occurred which contain a VisitorId and is related to a
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email address provided that’s pulled directly from the form, as captured from the javascript.</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -6208,7 +6208,7 @@ Requirements: Enable View Through: True, Doubleclick by Google: True
   <tr> 
    <td><p>AD_PROVIDER</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The ad platform that Bizible was able to resolve from, typically one of our integration partners.</p></td> 
+   <td><p>The ad platform that Marketo Measure was able to resolve from, typically one of our integration partners.</p></td> 
    <td><br></td> 
    <td><br></td> 
    <td><br></td> 
@@ -6224,7 +6224,7 @@ Requirements: Enable View Through: True, Doubleclick by Google: True
   <tr> 
    <td><p>ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the ads account in which the ad was resolved from, such as Bizible-US.</p></td> 
+   <td><p>The name of the ads account in which the ad was resolved from, such as Marketo-Measure-US.</p></td> 
    <td><br></td> 
    <td><br></td> 
    <td><br></td> 
@@ -6241,7 +6241,7 @@ Requirements: Enable View Through: True, Doubleclick by Google: True
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser from the ads account in which the ad was resolved from, specifically for Doubleclick connections.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -6602,7 +6602,7 @@ Table that stores all keywords downloaded from any connected ads accounts.
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the keyword</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -6681,7 +6681,7 @@ Table that stores all keywords downloaded from any connected ads accounts.
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the keyword was first downloaded by Bizible</p></td> 
+   <td><p>The date that the keyword was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:37:29.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -6697,7 +6697,7 @@ Table that stores all keywords downloaded from any connected ads accounts.
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the keyword needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the keyword needs to get updated to get Marketo Measure tagging</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -6794,7 +6794,7 @@ Table that stores all keywords downloaded from any connected ads accounts.
    <td><p>TRACKING_URL_TEMPLATE_APPLIED</p></td> 
    <td><p>varchar</p></td> 
    <td><br></td> 
-   <td><p><span>http://cdn.bizible.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType</span>}</p></td> 
+   <td><p><span>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType</span>}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -6899,7 +6899,7 @@ Table that stores all landing pages downloaded from any connected ads accounts.
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the landing page, specifically for Doubleclick.</p></td> 
-   <td>Bizible Marketing Analytics</td> 
+   <td>Marketo Measure Marketing Analytics</td> 
    <td><br></td> 
    <td><p><br></p></td> 
   </tr> 
@@ -7060,7 +7060,7 @@ Table that stores all landing pages downloaded from any connected ads accounts.
 
 ## BIZ_LEADS {#biz-leads}
 
-All CRM Leads that are imported, along with custom Bizible fields.
+All CRM Leads that are imported, along with custom Marketo Measure fields.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -7108,7 +7108,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email address of the Lead from the CRM</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -7116,7 +7116,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
    <td><p>WEB_SITE </p></td> 
    <td><p>varchar</p></td> 
    <td><p>Website that is entered for the Lead, used for Lead2Account mapping</p></td> 
-   <td><p>bizible.com</p></td> 
+   <td><p>adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -7124,7 +7124,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
    <td><p>COMPANY</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The company name that is entered for the Lead, used for Lead2Account mapping</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -7179,7 +7179,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_STAGE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The current stage that the Lead is sitting in, recognized as a custom stage that can be created in Bizible’s application.</p></td> 
+   <td><p>The current stage that the Lead is sitting in, recognized as a custom stage that can be created in Marketo Measure’s application.</p></td> 
    <td><p>Demo Scheduled</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7187,7 +7187,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_STAGE_PREVIOUS</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>A string of all stages that the Lead had previously gone through, recognized as custom stages that can be created in Bizible’s application.</p></td> 
+   <td><p>A string of all stages that the Lead had previously gone through, recognized as custom stages that can be created in Marketo Measure’s application.</p></td> 
    <td><p>MQL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7195,7 +7195,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>ODDS_OF_CONVERSION</p></td> 
    <td><p>number(38,19)</p></td> 
-   <td><p>Bizible’s algorithm of estimating if a Lead will convert based on the age and stage</p></td> 
+   <td><p>Marketo Measure's algorithm of estimating if a Lead will convert based on the age and stage</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7219,7 +7219,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_COOKIE_ID</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Bizible’s CookieId value that is used to populate from an integration partner to map an offline Event to a web session. Requirement: Enable Call Tracking: True</p></td> 
+   <td><p>Marketo Measure's CookieId value that is used to populate from an integration partner to map an offline Event to a web session. Requirement: Enable Call Tracking: True</p></td> 
    <td><p>08c1063cb0a64349ad0d2d862f5cc700</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7243,7 +7243,7 @@ All CRM Leads that are imported, along with custom Bizible fields.
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td>{"Lead_Type__c":"Sales Created", "Foo":"Bar"}</td> 
    <td><br></td> 
    <td><br></td> 
@@ -7333,7 +7333,7 @@ Stores all stage transitions that occur on the Lead or Contact, tying it to a to
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The provided email address for the related Lead/Contact</p></td> 
-   <td><p>email@bizible.com</span></a></p></td> 
+   <td><p>email@adobe.com</span></a></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -7388,7 +7388,7 @@ Stores all stage transitions that occur on the Lead or Contact, tying it to a to
   <tr> 
    <td><p>RANK</p></td> 
    <td><p>number(38,0)</p></td> 
-   <td><p>The numerical rank of the stage, as ordered in Bizible’s Stage Mapping settings.</p></td> 
+   <td><p>The numerical rank of the stage, as ordered in Marketo Measure’s Stage Mapping settings.</p></td> 
    <td><p>1</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7486,7 +7486,7 @@ Stores all stage transitions that occur on the Lead or Contact, tying it to a to
 
 ## BIZ_OPPORTUNITIES {#biz-opportunities}
 
-All CRM Opportunities that are imported, along with custom Bizible fields.
+All CRM Opportunities that are imported, along with custom Marketo Measure fields.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -7573,7 +7573,7 @@ All CRM Opportunities that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_CUSTOM_MODEL_DATE</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>A custom close date, if Close_Date is not used in the CRM, set within the Bizible App to determine which custom Close Date field is being used</p></td> 
+   <td><p>A custom close date, if Close_Date is not used in the CRM, set within the Marketo Measure App to determine which custom Close Date field is being used</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7598,7 +7598,7 @@ All CRM Opportunities that are imported, along with custom Bizible fields.
    <td><p>CONVERTED_FROM_LEAD_EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email of the related Lead that had converted into this Opportunity</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -7614,14 +7614,14 @@ All CRM Opportunities that are imported, along with custom Bizible fields.
    <td><p>PRIMARY_CONTACT_EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>If Primary Contact Role is used, the email d of the related Contact that is listed as the primary contact role</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>ODDS_OF_CONVERSION</p></td> 
    <td><p>number(38,19)</p></td> 
-   <td><p>Bizible’s algorithm of estimating whether an opportunity will close based on the age and stage</p></td> 
+   <td><p>Marketo Measure's algorithm of estimating whether an opportunity will close based on the age and stage</p></td> 
    <td><p>0.8225108385086060000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7629,7 +7629,7 @@ All CRM Opportunities that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_STAGE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The current stage that the Contact is sitting in, recognized as a custom stage that can be created in Bizible’s application.</p></td> 
+   <td><p>The current stage that the Contact is sitting in, recognized as a custom stage that can be created in Marketo Measure’s application.</p></td> 
    <td><p>DM Demo</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7637,7 +7637,7 @@ All CRM Opportunities that are imported, along with custom Bizible fields.
   <tr> 
    <td><p>BIZIBLE_STAGE_PREVIOUS</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>A string of all stages that the Contact had previously gone through, recognized as custom stages that can be created in Bizible’s application.</p></td> 
+   <td><p>A string of all stages that the Contact had previously gone through, recognized as custom stages that can be created in Marketo Measure’s application.</p></td> 
    <td><p>Qualified Discovery, Demo Scheduled</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7677,7 +7677,7 @@ All CRM Opportunities that are imported, along with custom Bizible fields.
   <tr> 
    <td>CUSTOM_PROPERTIES</td> 
    <td>varchar</td> 
-   <td>Custom CRM properties that Bizible has imported from the CRM in JSON format</td> 
+   <td>Custom CRM properties that Marketo Measure has imported from the CRM in JSON format</td> 
    <td>{"Opportunity_Location__c":"Seattle", "Foo":"Bar"}</td> 
    <td><br></td> 
    <td><br></td> 
@@ -7798,7 +7798,7 @@ Stores all stage transitions that occur on the Opportunity, tying it to a touchp
   <tr> 
    <td><p>RANK</p></td> 
    <td><p>number(38,0)</p></td> 
-   <td><p>The numerical rank of the stage, as ordered in Bizible’s Stage Mapping settings.</p></td> 
+   <td><p>The numerical rank of the stage, as ordered in Marketo Measure’s Stage Mapping settings.</p></td> 
    <td><p>4</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -7968,7 +7968,7 @@ Page views from web visits with a VisitorId and is related to Biz_Session. Multi
    <td><p>CURRENT_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The URL of the current page view without query parameters.</p></td> 
-   <td><p><span>https://info.bizible.com/demo</span></p></td> 
+   <td><p><span>https://info.adobe.com/demo</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -7976,7 +7976,7 @@ Page views from web visits with a VisitorId and is related to Biz_Session. Multi
    <td><p>CURRENT_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The URL of the current page view. The current page may contain query parameters in the URL.</p></td> 
-   <td><p><span>https://info.bizible.com/demo?hsCtaTracking=207219e9-87b6-4105-8f4b-0a3b62ae1af8%7C48060522-3aeb-4c72-8ce5-fd4b1017f069</span></p></td> 
+   <td><p><span>https://info.adobe.com/demo?hsCtaTracking=207219e9-87b6-4105-8f4b-0a3b62ae1af8%7C48060522-3aeb-4c72-8ce5-fd4b1017f069</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8040,7 +8040,7 @@ Page views from web visits with a VisitorId and is related to Biz_Session. Multi
    <td><p>REFERRER_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The URL where page view originated from without query parameters</p></td> 
-   <td><p><span>http://info.bizible.com/cmos-guide-to-b2b-marketing-attribution</span></p></td> 
+   <td><p><span>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8048,7 +8048,7 @@ Page views from web visits with a VisitorId and is related to Biz_Session. Multi
    <td><p>REFERRER_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The URL where the page view originated from. The referrer page may contain query parameters in the URL.</p></td> 
-   <td><p><span>http://info.bizible.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</span></p></td> 
+   <td><p><span>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8248,7 +8248,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the placement was first downloaded by Bizible</p></td> 
+   <td><p>The date that the placement was first downloaded by Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
    <td><br></td> 
@@ -8264,7 +8264,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the placement needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the placement needs to get updated to get Marketo Measure tagging</p></td> 
    <td><br></td> 
    <td><br></td> 
    <td><br></td> 
@@ -8466,7 +8466,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
   <tr> 
    <td><p>CHANNEL</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App.</p></td> 
    <td><p>Paid Search.AdWords</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -8475,7 +8475,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
    <td><p>PAGE_TITLE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the web page</p></td> 
-   <td><p>Salesforce Google Analytics | Bizible</p></td> 
+   <td><p>Salesforce Google Analytics | Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8483,7 +8483,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
    <td><p>LANDING_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page” This is the first landing page of the session that resulted in a touchpoint. </p></td> 
-   <td><p><span>http://www.bizible.com/salesforce-google-analytics</span></p></td> 
+   <td><p><span>http://www.adobe.com/salesforce-google-analytics</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8491,7 +8491,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
    <td><p>LANDING_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page - Raw.” This is the first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL.</p></td> 
-   <td><p><span>http://www.bizible.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm=</span> p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p></td> 
+   <td><p><span>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm=</span> p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8523,14 +8523,14 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
    <td><p>SEARCH_PHRASE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The value that the user entered in the browser to search for and end up on the website. Depending on the keyword buys, this may or may not match the keywords purchased from the Paid Search platform.</p></td> 
-   <td><p>bizible google salesforce</p></td> 
+   <td><p>marketo measure google salesforce</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>WEB_SOURCE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Bizible is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
+   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
    <td><p>Google AdWords</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -8578,7 +8578,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
   <tr> 
    <td><p>AD_PROVIDER</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The ad platform that Bizible was able to resolve from, typically one of our integration partners.</p></td> 
+   <td><p>The ad platform that Marketo Measure was able to resolve from, typically one of our integration partners.</p></td> 
    <td><p>Google</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -8594,8 +8594,8 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
   <tr> 
    <td><p>ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the ads account in which the ad was resolved from, such as Bizible-US.</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>The name of the ads account in which the ad was resolved from, such as Marketo-Measure-US.</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8610,8 +8610,8 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
   <tr> 
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the advertiser from the ads account in which the ad was resolved from, such as Bizible Inc.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>The name of the advertiser from the ads account in which the ad was resolved from, such as Marketo Measure Inc.</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8731,7 +8731,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
    <td><p>CREATIVE_DESTINATION_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The landing page that clicks through from the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p><span>http://www.bizible.com/salesforce-google-analytics</span></p></td> 
+   <td><p><span>http://www.adobe.com/salesforce-google-analytics</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -8739,7 +8739,7 @@ All recorded sessions associated with a VisitorId. Multiple sessions can be asso
    <td><p>CREATIVE_DISPLAY_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The friendly URL name that’s shown on the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p>Bizible.com/Salesforce-for-GA</p></td> 
+   <td><p>adobe.com/Salesforce-for-GA</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9044,7 +9044,7 @@ Table that stores all sites downloaded from any connected ads accounts, an objec
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the site, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9107,7 +9107,7 @@ Table that stores all sites downloaded from any connected ads accounts, an objec
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the site was first downloaded by Bizible</p></td> 
+   <td><p>The date that the site was first downloaded by Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9123,7 +9123,7 @@ Table that stores all sites downloaded from any connected ads accounts, an objec
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the site needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the site needs to get updated to get Marketo Measure tagging</p></td> 
    <td><br></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9237,7 +9237,7 @@ Table that stores all site links downloaded from any connected ads accounts.
    <td><p>AD_ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the connected ads account for the site link</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9253,7 +9253,7 @@ Table that stores all site links downloaded from any connected ads accounts.
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser for the site link, specifically for Doubleclick.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9316,7 +9316,7 @@ Table that stores all site links downloaded from any connected ads accounts.
   <tr> 
    <td><p>FIRST_IMPORTED</p></td> 
    <td><p>timestamp_ntz</p></td> 
-   <td><p>The date that the site link was first downloaded by Bizible</p></td> 
+   <td><p>The date that the site link was first downloaded by Marketo Measure</p></td> 
    <td><p>2018-08-02 06:36:50.000</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9332,7 +9332,7 @@ Table that stores all site links downloaded from any connected ads accounts.
   <tr> 
    <td><p>NEEDS_UPDATE</p></td> 
    <td><p>boolean</p></td> 
-   <td><p>Whether or not the site link needs to get updated to get Bizible tagging</p></td> 
+   <td><p>Whether or not the site link needs to get updated to get Marketo Measure tagging</p></td> 
    <td><p>FALSE</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9365,7 +9365,7 @@ Table that stores all site links downloaded from any connected ads accounts.
    <td><p>URL_CURRENT</p></td> 
    <td><p>varchar</p></td> 
    <td><br></td> 
-   <td><p><a href="http://bizible.com/b2b-marketing-attribution?_bt">http://bizible.com/b2b-marketing-attribution?_bt</a> =</p><p>{creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
+   <td><p><a href="http://adobe.com/b2b-marketing-attribution?_bt">http://adobe.com/b2b-marketing-attribution?_bt</a> =</p><p>{creative}&amp;_bk={keyword}&amp;_bm={matchType}</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9414,7 +9414,7 @@ Table that stores all site links downloaded from any connected ads accounts.
 
 ## BIZ_STAGE_DEFINITIONS {#biz-stage-definitions}
 
-Lists all Lead Statuses and Opportunity Stages from the CRM, as well as any custom stages defined in Bizible Settings.
+Lists all Lead Statuses and Opportunity Stages from the CRM, as well as any custom stages defined in Marketo Measure Settings.
 
 <table style="table-layout:auto"> 
  <colgroup> 
@@ -9599,7 +9599,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The known email address that’s tied to this touchpoint via a Lead or Contact</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9639,7 +9639,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>USER_TOUCHPOINT_ID</p></td> 
    <td><p>varchar</p></td> 
    <td><p>A lookup to the Biz_User_Touchpoints table to select columns such as session_id</p></td> 
-   <td><p>email@bizible.com_2018-08-29:18-14-53-8102030.10df92cbb414</p></td> 
+   <td><p>email@adobe.com_2018-08-29:18-14-53-8102030.10df92cbb414</p></td> 
    <td><br></td> 
    <td><p>BIZ_USER_TOUCHPOINTS.ID</p></td> 
   </tr> 
@@ -9670,7 +9670,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CHANNEL</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App.</p></td> 
    <td><p>Social.LinkedIn</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9678,7 +9678,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY1</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 1st Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 1st Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>ABC, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9686,7 +9686,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY2</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 2nd Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 2nd Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>Yes, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9694,7 +9694,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY3</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 3rd Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 3rd Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>Other, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9702,7 +9702,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY4</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 4th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 4th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>Partner, or NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9710,7 +9710,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY5</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 5th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 5th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9718,7 +9718,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY6</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 6th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 6th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9726,7 +9726,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY7</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 7th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 7th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9734,7 +9734,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY8</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 8th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 8th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9742,7 +9742,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY9</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 9th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 9th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9750,7 +9750,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY10</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 10th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 10th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9758,7 +9758,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY11</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 11th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 11th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9766,7 +9766,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY12</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 12th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 12th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9774,7 +9774,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY13</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 13th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 13th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9782,7 +9782,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY14</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 14th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 14th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9790,7 +9790,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>CATEGORY15</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 15th Category that the touchpoint falls into, as defined in the segment definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Segments.” This is the segment value for the 15th Category that the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App.</p></td> 
    <td><p>NULL</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9831,7 +9831,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>LANDING_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page.” This is the first landing page of the session that resulted in a touchpoint. </p></td> 
-   <td><p><span>https://info.bizible.com/definitive-guide-to-pipeline-marketing</span></p></td> 
+   <td><p><span>https://info.adobe.com/definitive-guide-to-pipeline-marketing</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9839,7 +9839,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>LANDING_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page - Raw.” This is the first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL.</p></td> 
-   <td><p><span>https://info.bizible.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_</span> Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p></td> 
+   <td><p><span>https://info.adobe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_</span> Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9863,7 +9863,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>FORM_PAGE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Form - URL.” This is the first form that is recorded in a session that resulted in a touchpoint. Subsequent form submissions will not show up in the Biz_Attribution_Touchpoints table, but rather in the Biz_Form_Submits table.</p></td> 
-   <td><p><span>https://info.bizible.com/demo</span></p></td> 
+   <td><p><span>https://info.adobe.com/demo</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9871,7 +9871,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>FORM_DATE</p></td> 
    <td><p>timestamp_ntz</p></td> 
    <td><p>The date that the form submission occurred.</p></td> 
-   <td><p><span>https://info.bizible.com/demo?hsCtaTracking=98adcc2f-afe2-40c4-9d79-40dcc41663ee%7C3cfaa909-39cb-4f5d-93eb-be05de6b0180</span></p></td> 
+   <td><p><span>https://info.adobe.com/demo?hsCtaTracking=98adcc2f-afe2-40c4-9d79-40dcc41663ee%7C3cfaa909-39cb-4f5d-93eb-be05de6b0180</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9902,7 +9902,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>MEDIUM</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Used to define the medium that resulted in the touchpoint. This can either be parsed out from the URL from utm_medium or if Bizible is able to resolve an ad, it may be values such as “cpc” or “display.”</p></td> 
+   <td><p>Used to define the medium that resulted in the touchpoint. This can either be parsed out from the URL from utm_medium or if Marketo Measure is able to resolve an ad, it may be values such as “cpc” or “display.”</p></td> 
    <td><p>Social</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9910,7 +9910,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>WEB_SOURCE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Bizible is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
+   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
    <td><p>LinkedIn</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9919,14 +9919,14 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>SEARCH_PHRASE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The value that the user entered in the browser to search for and end up on the website. Depending on the keyword buys, this may or may not match the keywords purchased from the Paid Search platform.</p></td> 
-   <td><p>bizible attribution</p></td> 
+   <td><p>buyer attribution</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>AD_PROVIDER</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The ad platform that Bizible was able to resolve from, typically one of our integration partners.</p></td> 
+   <td><p>The ad platform that Marketo Measure was able to resolve from, typically one of our integration partners.</p></td> 
    <td><p>LinkedIn</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -9942,8 +9942,8 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
   <tr> 
    <td><p>ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the ads account in which the ad was resolved from, such as Bizible-US.</p></td> 
-   <td><p>Bizible SC 2016_14605342_3/7-3/31/16</p></td> 
+   <td><p>The name of the ads account in which the ad was resolved from, such as Marketo-Measure-US.</p></td> 
+   <td><p>Marketo Measure SC 2016_14605342_3/7-3/31/16</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -9959,7 +9959,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser from the ads account in which the ad was resolved from, specifically for Doubleclick connections.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10087,7 +10087,7 @@ All touchpoints that are associated with a Lead and/or Contact. This table will 
    <td><p>CREATIVE_DISPLAY_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The friendly URL name that’s shown on the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p>bizible.com/guide</p></td> 
+   <td><p>adobe.com/guide</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10400,7 +10400,7 @@ A table of all recognized URLs from landing pages or referrer pages or page visi
    <td><p>ID</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The full URL, from landing pages or referrer pages or page visits</p></td> 
-   <td><p><span>https://www.bizible.com/blog/strategic-marketing-plangoals</span></p></td> 
+   <td><p><span>https://www.adobe.com/blog/strategic-marketing-plangoals</span></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10416,7 +10416,7 @@ A table of all recognized URLs from landing pages or referrer pages or page visi
    <td><p>HOST</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The domain of the URL, with any subdomains</p></td> 
-   <td><p>www.bizible.com</p></td> 
+   <td><p>www.adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10497,7 +10497,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>ID</p></td> 
    <td><p>varchar</p></td> 
    <td><p>A unique Id for the user touchpoint</p></td> 
-   <td><p>email@bizible.com_2018-01-05:16-47-02-8803320.ddf67c101f58</p></td> 
+   <td><p>email@adobe.com_2018-01-05:16-47-02-8803320.ddf67c101f58</p></td> 
    <td>X</td> 
    <td><p><br></p></td> 
   </tr> 
@@ -10513,7 +10513,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>EMAIL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The email address that this Touchpoint is created from</p></td> 
-   <td><p>email@bizible.com</p></td> 
+   <td><p>email@adobe.com</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10576,7 +10576,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
   <tr> 
    <td><p>CHANNEL</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Bizible App.</p></td> 
+   <td><p>Referred to in the CRM as “Marketing Channel - Path.” This is the channel that the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App.</p></td> 
    <td><p>Social.LinkedIn</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -10617,7 +10617,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>LANDING_PAGE </p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page.” This is the first landing page of the session that resulted in a touchpoint. </p></td> 
-   <td><p><a href="https://www.bizible.com/blog/budget-and-planning-maturity-model-b2b-marketing">https://www.bizible.com/blog/budget-and-planning-maturity-model-b2b-marketing</a></p></td> 
+   <td><p><a href="https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing">https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing</a></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10625,7 +10625,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>LANDING_PAGE_RAW</p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Landing Page - Raw.” This is the first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL.</p></td> 
-   <td><p><a href="https://www.bizible.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+">https://www.bizible.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+</a> bizible+%28Bizible%27s+Pipeline+Marketing+Blog%29</p></td> 
+   <td><p><a href="https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+">https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+</a> adobe+%adobe%27s+Pipeline+Marketing+Blog%29</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10649,7 +10649,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>FORM_PAGE </p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Form Page” This is the first form that is recorded in a session that resulted in a touchpoint. Subsequent form submissions will not show up in the Biz_Attribution_Touchpoints table, but rather in the Biz_Form_Submits table.</p></td> 
-   <td><p><a href="http://info.bizible.com/adwords-for-lead-generation">http://info.bizible.com/adwords-for-lead-generation</a></p></td> 
+   <td><p><a href="http://info.adobe.com/adwords-for-lead-generation">http://info.adobe.com/adwords-for-lead-generation</a></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10657,7 +10657,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>FORM_PAGE_RAW </p></td> 
    <td><p>varchar</p></td> 
    <td><p>Referred to in the CRM as “Form Page - Raw.” This is the first form that is recorded in a session that resulted in a touchpoint. Subsequent form submissions will not show up in the Biz_Attribution_Touchpoints table, but rather in the Biz_Form_Submits table. A raw form page may contain query parameters in the URL.</p></td> 
-   <td><p><a href="http://info.bizible.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm">http://info.bizible.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm</a> _campaign=Content%20-%20AdWords%20Guide</p></td> 
+   <td><p><a href="http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm">http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm</a> _campaign=Content%20-%20AdWords%20Guide</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10696,7 +10696,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
   <tr> 
    <td><p>MEDIUM</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Used to define the medium that resulted in the touchpoint. This can either be parsed out from the URL from utm_medium or if Bizible is able to resolve an ad, it may be values such as “cpc” or “display.”</p></td> 
+   <td><p>Used to define the medium that resulted in the touchpoint. This can either be parsed out from the URL from utm_medium or if Marketo Measure is able to resolve an ad, it may be values such as “cpc” or “display.”</p></td> 
    <td><p>paid</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -10704,7 +10704,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
   <tr> 
    <td><p>WEB_SOURCE</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Bizible is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
+   <td><p>Referred to in the CRM as “Touchpoint Source.” Used to define the source that resulted in the touchpoint. This can be parsed out from the URL from utm_source or generically set as “CRM Campaign” if it was synced from the CRM or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.”</p></td> 
    <td><p>linkedin</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -10713,14 +10713,14 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>SEARCH_PHRASE</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The value that the user entered in the browser to search for and end up on the website. Depending on the keyword buys, this may or may not match the keywords purchased from the Paid Search platform.</p></td> 
-   <td><p>bizible</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
   <tr> 
    <td><p>AD_PROVIDER</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The ad platform that Bizible was able to resolve from, typically one of our integration partners.</p></td> 
+   <td><p>The ad platform that Marketo Measure was able to resolve from, typically one of our integration partners.</p></td> 
    <td><p>Google</p></td> 
    <td><br></td> 
    <td><br></td> 
@@ -10736,8 +10736,8 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
   <tr> 
    <td><p>ACCOUNT_NAME</p></td> 
    <td><p>varchar</p></td> 
-   <td><p>The name of the ads account in which the ad was resolved from, such as Bizible-US.</p></td> 
-   <td><p>Bizible</p></td> 
+   <td><p>The name of the ads account in which the ad was resolved from, such as Marketo-Measure-US.</p></td> 
+   <td><p>Marketo Measure</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10753,7 +10753,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>ADVERTISER_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The name of the advertiser from the ads account in which the ad was resolved from, specifically for Doubleclick connections.</p></td> 
-   <td><p>Bizible Marketing Analytics</p></td> 
+   <td><p>Marketo Measure Marketing Analytics</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10849,7 +10849,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>CREATIVE_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The creative name from the ads account in which the ad was resolved from, such as Winter Promo - Green button or Budget Webinar - sidebar. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p>Bizible Official Site</p></td> 
+   <td><p>Marketo Measure Official Site</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10865,7 +10865,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>CREATIVE_DESCRIPTION_2 </p></td> 
    <td><p>varchar</p></td> 
    <td><p>The second line of the creative from the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p>Learn why 250+ companies choose Bizible for marketing attribution. Get a demo!</p></td> 
+   <td><p>Learn why 250+ companies choose Marketo Measure for marketing attribution. Get a demo!</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10873,7 +10873,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>CREATIVE_DESTINATION_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The landing page that clicks through from the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p><a href="http://info.bizible.com/demo">http://info.bizible.com/demo</a></p></td> 
+   <td><p><a href="http://info.adobe.com/demo">http://info.adobe.com/demo</a></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10881,7 +10881,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>CREATIVE_DISPLAY_URL</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The friendly URL name that’s shown on the search ad, which is pulled from the ads account in which the ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p></td> 
-   <td><p><a href="http://bizible.com/demo">bizible.com/demo</a></p></td> 
+   <td><p><a href="http://adobe.com/demo">adobe.com/demo</a></p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 
@@ -10897,7 +10897,7 @@ Any touchpoint recorded that can be tied to an email, so it can be a web visit, 
    <td><p>KEYWORD_NAME</p></td> 
    <td><p>varchar</p></td> 
    <td><p>The keyword that was purchased from the Paid Search buy, which is pulled from the ads account in which the ad was resolved from, such as Software Discount or Annual Budget. This applies to Google AdWords and Bing Ads (search)</p></td> 
-   <td><p>[bizible]</p></td> 
+   <td><p>[marketo measure]</p></td> 
    <td><br></td> 
    <td><br></td> 
   </tr> 

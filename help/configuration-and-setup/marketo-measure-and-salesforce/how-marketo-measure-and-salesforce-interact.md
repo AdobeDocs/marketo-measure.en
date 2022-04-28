@@ -1,20 +1,20 @@
 ---
 unique-page-id: 18874672
-description: How Marketo Measure and Salesforce Interact - Measure - Product Documentation
+description: How Marketo Measure and Salesforce Interact - Marketo Measure - Product Documentation
 title: How Marketo Measure and Salesforce Interact
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 ---
 # How Marketo Measure and Salesforce Interact {#how-marketo-measure-and-salesforce-interact}
 
-Let's take a high-level look at the relationship between Bizible and Salesforce.
+Let's take a high-level look at the relationship between Marketo Measure and Salesforce.
 
-## Salesforce and Bizible  {#salesforce-and-bizible}
+## Salesforce and Marketo Measure  {#salesforce-and-marketo-measure}
 
-Once the Bizible account is created and Salesforce is connected, Bizible will begin pushing marketing data into the CRM instance as long as the Bizible managed package is installed. If it's not, Bizible will not write any data, but it will read information from your SFDC instance.
+Once the Marketo Measure account is created and Salesforce is connected, Marketo Measure will begin pushing marketing data into the CRM instance as long as the Marketo Measure managed package is installed. If it's not, Marketo Measure will not write any data, but it will read information from your SFDC instance.
 
 ![](assets/1-3.png)
 
-By default, Bizible exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by Bizible and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, Bizible allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the Bizible web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
+By default, Marketo Measure exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by Marketo Measure and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, Marketo Measure allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the Marketo Measure web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
@@ -22,7 +22,7 @@ When modifying this setting, please keep in mind that smaller batch sizes will c
 
 ## Salesforce Standard Objects and Access {#salesforce-standard-objects-and-access}
 
-This lists the Salesforce Standard Objects that Bizible interacts with, as well as the custom fields that we add to these objects once the connection is established and the Bizible package is installed. Out of the box, Bizible will NOT write into any standard Salesforce Object fields.
+This lists the Salesforce Standard Objects that Marketo Measure interacts with, as well as the custom fields that we add to these objects once the connection is established and the Marketo Measure package is installed. Out of the box, Marketo Measure will NOT write into any standard Salesforce Object fields.
 
 **Lead**
 
@@ -709,13 +709,13 @@ This lists the Salesforce Standard Objects that Bizible interacts with, as well 
  </tbody> 
 </table>
 
-## Bizible Custom Objects in Salesforce  {#bizible-custom-objects-in-salesforce}
+## Marketo Measure Custom Objects in Salesforce  {#marketo-measure-custom-objects-in-salesforce}
 
-Apart from creating custom fields on SFDC's Standard Objects, once the Bizible package is installed, it will create a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that Bizible will write to.
+Apart from creating custom fields on SFDC's Standard Objects, once the Marketo Measure package is installed, it will create a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that Marketo Measure will write to.
 
-**Bizible Touchpoint**
+**Buyer Touchpoint**
 
-The Bizible Touchpoint is a Bizible Custom Object to encapsulate the marketing interactions for Contacts, Leads, and Cases. 
+The Buyer Touchpoint is a Marketo Measure Custom Object to encapsulate the marketing interactions for Contacts, Leads, and Cases. 
 
 <table> 
  <tbody> 
@@ -980,9 +980,9 @@ The Bizible Touchpoint is a Bizible Custom Object to encapsulate the marketing i
  </tbody> 
 </table>
 
-**Bizible Person**
+**Marketo Measure Person**
 
-The Bizible Person is a Bizible Custom Object that is related to both the Lead, Contact, and Case Objects.
+The Marketo Measure Person is a Marketo Measure Custom Object that is related to both the Lead, Contact, and Case Objects.
 
 <table> 
  <tbody> 
@@ -1019,11 +1019,11 @@ The Bizible Person is a Bizible Custom Object that is related to both the Lead, 
  </tbody> 
 </table>
 
-## Bizible Attribution Touchpoint {#bizible-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The Bizible Attribution Touchpoint is a Bizible Custom Object to encapsulate marketing's influence on Opportunities. 
+The Buyer Attribution Touchpoint is a Marketo Measure Custom Object to encapsulate marketing's influence on Opportunities. 
 
-**Bizible Attribution Touchpoint**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 

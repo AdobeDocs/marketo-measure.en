@@ -1,24 +1,24 @@
 ---
 unique-page-id: 18874779
-description: Custom Attribution Model and Setup - Bizible - Product Documentation
+description: Custom Attribution Model and Setup - Marketo Measure - Product Documentation
 title: Custom Attribution Model and Setup
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 ---
 # Custom Attribution Model and Setup {#custom-attribution-model-and-setup}
 
-See below for an overview of Bizible's custom attribution model and how to set it up.
+See below for an overview of Marketo Measure's custom attribution model and how to set it up.
 
 ## Custom Attribution Model {#custom-attribution-model}
 
-Bizible's Custom Attribution model allows users to choose which touchpoints or custom stages to include in the model. Users are able to control the percentage of revenue credit attributed to these touchpoints and stages, or, can use the attribution percentage values suggested by Bizible's Machine Learning Model.
+Marketo Measure's Custom Attribution model allows users to choose which touchpoints or custom stages to include in the model. Users are able to control the percentage of revenue credit attributed to these touchpoints and stages, or, can use the attribution percentage values suggested by Marketo Measure's Machine Learning Model.
 
 ## How to Set up Your Custom Attribution Model {#how-to-set-up-your-custom-attribution-model}
 
 1. Determine which stages you want to include in your custom model.
 
-   To start building your custom attribution model, you will need to select which stages are important to your Marketing team. In addition to Bizible's milestone stages (FT, LC, OC, Closed) you can add up to six additional Lead/Contact Statuses or Opportunity stages in your custom model. For example, it's common for the MQL stage to be included in the custom model. Marketing teams often want to know what efforts or channels are driving transitions to the MQL stage.
+   To start building your custom attribution model, you will need to select which stages are important to your Marketing team. In addition to Marketo Measure's milestone stages (FT, LC, OC, Closed) you can add up to six additional Lead/Contact Statuses or Opportunity stages in your custom model. For example, it's common for the MQL stage to be included in the custom model. Marketing teams often want to know what efforts or channels are driving transitions to the MQL stage.
 
-   Sign into [apps.bizible.com](http://apps.bizible.com). Go to My Account > Settings > and under the CRM section, select **Stage Mapping**.
+   Sign in to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Go to My Account > Settings > and under the CRM section, select **Stage Mapping**.
 
    Once here, you will need to select which Leads/Contacts, and Opportunity stages to include by selecting the **Include in Model** box.
 
@@ -44,11 +44,11 @@ If a custom field is being used in your custom model, Field History tracking MUS
 
 1. Determine the attribution percentages for the custom model.
 
-   Go to the **Attribution Settings** in Bizible Apps; the custom stages will appear here in the attribution table. The attribution table displays all of Bizible's attribution models, and the attribution weighting of each model. The attribution percentages of the first five models are fixed and cannot be changed.
+   Go to the **Attribution Settings** in Marketo Measure Apps; the custom stages will appear here in the attribution table. The attribution table displays all of Marketo Measure's attribution models, and the attribution weighting of each model. The attribution percentages of the first five models are fixed and cannot be changed.
 
    In the far right column labeled "**Custom**," you can set the percentage weighting for each stage in your custom attribution model. Simply input the values for each stage under the Custom column. Then **Save and Reprocess** once complete.
 
-   To the left of the "Custom" column is **Bizible's Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [please click here](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   To the left of the "Custom" column is **Marketo Measure's Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [please click here](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 
@@ -74,4 +74,4 @@ As you can see below, we've included the Diligence stage as apart of our Funnel 
 
 >[!MORELIKETHIS]
 >
->[Bizible University: Custom Modeling and Custom Stages](https://universityonline.marketo.com/courses/additional-features-1/#/page/5c64c6ebac158965be68467c)
+>[Marketo Measure University: Custom Modeling and Custom Stages](https://universityonline.marketo.com/courses/additional-features-1/#/page/5c64c6ebac158965be68467c)

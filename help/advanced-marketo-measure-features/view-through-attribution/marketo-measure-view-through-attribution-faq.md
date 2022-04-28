@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874652
-description: Marketo Measure View Through Attribution FAQ - Measure - Product Documentation
+description: Marketo Measure View Through Attribution FAQ - Marketo Measure - Product Documentation
 title: Marketo Measure View Through Attribution FAQ
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 ---
@@ -8,7 +8,7 @@ exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 
 ## What is View Through Attribution? {#what-is-view-through-attribution}
 
-Bizible’s View Through Attribution feature includes the ability to include ad impressions in the attribution model.
+Marketo Measure’s View Through Attribution feature includes the ability to include ad impressions in the attribution model.
 
 ## Why is View Through Attribution Important? {#why-is-view-through-attribution-important}
 
@@ -16,7 +16,7 @@ Historically, re-targeting or impression advertising has been difficult for mark
 
 ## What is involved in setting this up? {#what-is-involved-in-setting-this-up}
 
-In order for Bizible to start measuring the ad impressions, there is an impression tag that needs to be placed in Doubleclick Campaign Manager. Once the tag is implemented, the impressions are stored in our logs and we take care of the rest. Reach out to your Success Manager if you’re interested in measuring view through attribution.
+In order for Marketo Measure to start measuring the ad impressions, there is an impression tag that needs to be placed in Doubleclick Campaign Manager. Once the tag is implemented, the impressions are stored in our logs and we take care of the rest. Reach out to your Success Manager if you’re interested in measuring view through attribution.
 
 ## Which ad platforms are supported? {#which-ad-platforms-are-supported}
 
@@ -105,6 +105,6 @@ We ran some careful analysis of impression data and its influence on conversions
 
 ## What will this look like in Salesforce? {#what-will-this-look-like-in-salesforce}
 
-Bizible will create a single impression Touchpoint on any Lead that was exposed to the display ad. We are able to map the user even after they first come to your website (FT) and fill out a form (LC). The Touchpoint will contain ad information such as Ad Campaign Name/ID, Ad ID, Ad Content, Site Name/ID, Placement Name/ID, Marketing Channel, Geo, Referrer Page, and more.
+Marketo Measure will create a single impression Touchpoint on any Lead that was exposed to the display ad. We are able to map the user even after they first come to your website (FT) and fill out a form (LC). The Touchpoint will contain ad information such as Ad Campaign Name/ID, Ad ID, Ad Content, Site Name/ID, Placement Name/ID, Marketing Channel, Geo, Referrer Page, and more.
 
 The view-through attribution model will depend on the client and their data.

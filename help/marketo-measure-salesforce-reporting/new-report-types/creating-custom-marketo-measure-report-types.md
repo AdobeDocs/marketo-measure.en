@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874539
-description: Creating Custom Marketo Measure Report Types - Measure - Product Documentation
+description: Creating Custom Marketo Measure Report Types - Marketo Measure - Product Documentation
 title: Creating Custom Marketo Measure Report Types
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 ---
 # Creating Custom Marketo Measure Report Types {#creating-custom-marketo-measure-report-types}
 
-Learn how to create custom Bizible Salesforce report types. There are three different report types we recommend creating: Leads with Bizible Touchpoints (Custom), Bizible Person with Bizible Touchpoints (Custom), Opportunities with Bizible Attribution Touchpoint (Custom).
+Learn how to create custom Marketo Measure Salesforce report types. There are three different report types we recommend creating: Leads with Buyer Touchpoints (Custom), Marketo Measure Person with Buyer Touchpoints (Custom), Opportunities with Buyer Attribution Touchpoint (Custom).
 
-## Leads with Bizible Touchpoints (Custom) {#leads-with-bizible-touchpoints-custom}
+## Leads with Buyer Touchpoints (Custom) {#leads-with-buyer-touchpoints-custom}
 
 1. Go to **Setup** > **Build** > **Report Types** > **New Custom Report Types**.
 
@@ -17,7 +17,7 @@ Learn how to create custom Bizible Salesforce report types. There are three diff
 1. Define the Custom Report Type.
 
     * Report Type Focus > Primary Object: Lead
-    * Identification > Report Type Label: Leads with Bizible Touchpoints (Custom)
+    * Identification > Report Type Label: Leads with Buyer Touchpoints (Custom)
     * Store in Category: Other Reports
     * Deployment > Deployment Status: Deployed
 
@@ -25,13 +25,13 @@ Learn how to create custom Bizible Salesforce report types. There are three diff
 
 1. Define the Object Relationships.
 
-    * Relate the Lead object (A) to the Bizible Person Object (B) and then to the Bizible Touchpoint Object (C)
+    * Relate the Lead object (A) to the Marketo Measure Person Object (B) and then to the Buyer Touchpoint Object (C)
     * Ensure that “Each A/B record must have at least one B/C” record is selected
     * Save
 
    ![](assets/3.png)
 
-## Bizible Person with Bizible Touchpoints (Custom) {#bizible-person-with-bizible-touchpoints-custom}
+## Marketo Measure Person with Buyer Touchpoints (Custom) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. Go to **Setup** > **Build** > **Report Types** > **New Custom Report Types**.
 
@@ -39,8 +39,8 @@ Learn how to create custom Bizible Salesforce report types. There are three diff
 
 1. Define the Custom Report Type.
 
-    * Report Type Focus > Primary Object: Bizible Persons
-    * Identification > Report Type Label: Bizible Person with Bizible Touchpoints (Custom)
+    * Report Type Focus > Primary Object: Marketo Measure Persons
+    * Identification > Report Type Label: Marketo Measure Person with Buyer Touchpoints (Custom)
     * Store in Category: Other Reports
     * Deployment > Deployment Status: Deployed
 
@@ -48,13 +48,13 @@ Learn how to create custom Bizible Salesforce report types. There are three diff
 
 1. Define the Object Relationships.
 
-    * Relate the Bizible Person object (A) to the Bizible Touchpoint Object (B)
+    * Relate the Marketo Measure Person object (A) to the Buyer Touchpoint Object (B)
     * Ensure that “Each A record must have at least one B” record is selected
     * Save
 
    ![](assets/6.png)
 
-## Opportunities with Bizible Attribution Touchpoint (Custom) {#opportunities-with-bizible-attribution-touchpoint-custom}
+## Opportunities with Buyer Attribution Touchpoint (Custom) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. Go to **Setup** > **Build** > **Report Types** > **New Custom Report Types**.
 
@@ -63,7 +63,7 @@ Learn how to create custom Bizible Salesforce report types. There are three diff
 1. Define the Custom Report Type.
 
     * Report Type Focus > Primary Object: Opportunities
-    * Identification > Report Type Label: Opportunities with Bizible Attribution Touchpoint (Custom)
+    * Identification > Report Type Label: Opportunities with Buyer Attribution Touchpoint (Custom)
     * Store in Category: Other Reports
     * Deployment > Deployment Status: Deployed
 
@@ -71,7 +71,7 @@ Learn how to create custom Bizible Salesforce report types. There are three diff
 
 1. Define the Object Relationships.
 
-    * Relate the Opportunities object (A) to the Bizible Attribution Touchpoint Object (B)
+    * Relate the Opportunities object (A) to the Buyer Attribution Touchpoint Object (B)
     * Ensure that “Each A record must have at least one B” record is selected
     * Save
 

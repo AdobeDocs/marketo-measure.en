@@ -1,6 +1,6 @@
 ---
 unique-page-id: 34406468
-description: Overview Board Tiles - Bizible - Product Documentation
+description: Overview Board Tiles - Marketo Measure - Product Documentation
 title: Overview Board Tiles
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
 ---
@@ -240,7 +240,7 @@ The total amount of spend from both API costs and self-reported costs for the gi
 
 >[!NOTE]
 >
->When drilling in on less than a month, Bizible will average the spend for that month and allocate that average to each day.
+>When drilling in on less than a month, Marketo Measure will average the spend for that month and allocate that average to each day.
 
 -Spend Details: Displays a breakdown of the related Spend Campaign Unique ID, Campaign Name, Channel, Subchannel, Date, Original Currency, Spend.  -Show Details: A breakdown by month.
 

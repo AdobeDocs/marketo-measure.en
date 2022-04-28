@@ -1,18 +1,18 @@
 ---
 unique-page-id: 37356027
-description: Marketo Measure Quick Start - Measure - Product Documentation
+description: Marketo Measure Quick Start - Marketo Measure - Product Documentation
 title: Marketo Measure Quick Start
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 ---
 # Marketo Measure Quick Start {#marketo-measure-quick-start}
 
-We understand that not all Marketing teams want (or have access) to run marketing reporting out of the CRM, whether it’s because of limited access, CRM ownership, longer time to value, or legal implications. Going down the path of Bizible Quick Start gives you the ability to effectively implement and run Bizible with as little reliance on the CRM as possible.
+We understand that not all Marketing teams want (or have access) to run marketing reporting out of the CRM, whether it’s because of limited access, CRM ownership, longer time to value, or legal implications. Going down the path of Marketo Measure Quick Start gives you the ability to effectively implement and run Marketo Measure with as little reliance on the CRM as possible.
 
-## Standard Bizible Installation {#standard-bizible-installation}
+## Standard Marketo Measure Installation {#standard-marketo-measure-installation}
 
-Through the standard Bizible installation, you're required to install a Salesforce Package or a Microsoft Dynamics Managed Solution. The installation includes custom objects/entities and custom fields that are added to the CRM that Bizible can then write data to. This ultimately leads to a longer onboarding time due to tracking down the appropriate owner/administrator, creating new users and profiles, and getting through security clearances to install to a production instance—and sometimes creating a separate workstream to test out the installation in a sandbox instance.
+Through the standard Marketo Measure installation, you're required to install a Salesforce Package or a Microsoft Dynamics Managed Solution. The installation includes custom objects/entities and custom fields that are added to the CRM that Marketo Measure can then write data to. This ultimately leads to a longer onboarding time due to tracking down the appropriate owner/administrator, creating new users and profiles, and getting through security clearances to install to a production instance—and sometimes creating a separate workstream to test out the installation in a sandbox instance.
 
-Although having a package presents Bizible data in its full capacity inside the CRM, we find it’s not always necessary given the various use cases. If reporting can be conducted outside of the CRM (such as within Bizible Discover or an external Data Warehouse), Bizible Quick Start is a fast and easy way to get set up with Bizible without having to install the Bizible package.
+Although having a package presents Marketo Measure data in its full capacity inside the CRM, we find it’s not always necessary given the various use cases. If reporting can be conducted outside of the CRM (such as within Marketo Measure Discover or an external Data Warehouse), Marketo Measure Quick Start is a fast and easy way to get set up with Marketo Measure without having to install the Marketo Measure package.
 
 ## How It Works {#how-it-works}
 
@@ -45,14 +45,14 @@ Although having a package presents Bizible data in its full capacity inside the 
 
   * Report where you want:
 
-    * Bizible Discover — couples unparalleled performance data with impactful visualizations
+    * Marketo Measure Discover — couples unparalleled performance data with impactful visualizations
     * Data Warehouse — connect your attribution data with other datasets and report in your BI tool
 
 ## Permissions {#permissions}
 
-Bizible requires access to standard Salesforce objects such as Leads and Contacts. We strongly recommend having an integration user or a dedicated Bizible Administrator Salesforce user serve as the connected user, as they will have the proper data access privileges.
+Marketo Measure requires access to standard Salesforce objects such as Leads and Contacts. We strongly recommend having an integration user or a dedicated Marketo Measure Administrator Salesforce user serve as the connected user, as they will have the proper data access privileges.
 
-In order to ensure that all data is properly pulling from Salesforce, we require the following security and accessibility settings: View All Data for the Profile of the dedicated user. This permission set gives Bizible the access needed to download data from standard objects. This permission set is at profile level.
+In order to ensure that all data is properly pulling from Salesforce, we require the following security and accessibility settings: View All Data for the Profile of the dedicated user. This permission set gives Marketo Measure the access needed to download data from standard objects. This permission set is at profile level.
 
 ## Setup up your Identity Provider and Data Connections {#setup-your-identity-provider-and-data-connections}
 
@@ -62,8 +62,8 @@ Salesforce customers, click [here](/help/configuration-and-setup/marketo-measure
 
 Microsoft Dynamics customers, click [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Once you complete all of the above steps, you're good to go. If you run into any issues along the way, please don’t hesitate to reach out to your Bizible representative or support@bizible.com.
+Once you complete all of the above steps, you're good to go. If you run into any issues along the way, please don’t hesitate to reach out to your Marketo Measure representative or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >
->If you go through Bizible Quick Start then later decide to install the package into your CRM, that won't be an issue.
+>If you go through Marketo Measure Quick Start then later decide to install the package into your CRM, that won't be an issue.

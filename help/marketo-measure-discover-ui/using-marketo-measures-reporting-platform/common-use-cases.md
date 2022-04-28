@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874658
-description: Common Use Cases - Bizible - Product Documentation
+description: Common Use Cases - Marketo Measure - Product Documentation
 title: Common Use Cases
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 ---
 # Common Use Cases {#common-use-cases}
 
-Below are some common ways to use Bizible Discover to gain valuable insights into your marketing performance.
+Below are some common ways to use Marketo Measure Discover to gain valuable insights into your marketing performance.
 
 ## Revenue by Channel {#revenue-by-channel}
 
-To look at the revenue impact of your marketing efforts by channel, navigate to the Overview dashboard of Bizible Discover. By default, the chart and tiles will show closed-won revenue in the past 12 months broken down by marketing channel. This data can also be viewed in the CMO dashboard of the Role-Based Views.
+To look at the revenue impact of your marketing efforts by channel, navigate to the Overview dashboard of Marketo Measure Discover. By default, the chart and tiles will show closed-won revenue in the past 12 months broken down by marketing channel. This data can also be viewed in the CMO dashboard of the Role-Based Views.
 
 >[!TIP]
 >
@@ -18,7 +18,7 @@ To look at the revenue impact of your marketing efforts by channel, navigate to 
 
 ## Closed Revenue {#closed-revenue}
 
-Looking to identify marketing’s overall impact on revenue? Bizible Discover will show this on the main tile on the Overview and CMO dashboards with the Metric filter set to Revenue and the Date Type set to Close Date. Date Type can also be changed to Touchpoint Date and Created Date (which is the Created Date of the Opportunity).
+Looking to identify marketing’s overall impact on revenue? Marketo Measure Discover will show this on the main tile on the Overview and CMO dashboards with the Metric filter set to Revenue and the Date Type set to Close Date. Date Type can also be changed to Touchpoint Date and Created Date (which is the Created Date of the Opportunity).
 
 ## Contacts Created {#contacts-created}
 
@@ -74,4 +74,4 @@ Change the Dimension filter to change the grouping to: Subchannel, Campaign, Adv
 
 >[!MORELIKETHIS]
 >
->[Bizible University: Introduction to Bizible Discover](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6)
+>[Marketo Measure University: Introduction to Marketo Measure Discover](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6)

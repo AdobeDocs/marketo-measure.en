@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874747
-description: Adding Marketo Measure Script to Sitecore Pages - Measure - Product Documentation
+description: Adding Marketo Measure Script to Sitecore Pages - Marketo Measure - Product Documentation
 title: Adding Marketo Measure Script to Sitecore Pages
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 ---
 # Adding Marketo Measure Script to Sitecore Pages {#adding-marketo-measure-script-to-sitecore-pages}
 
-Content management systems can require additional steps beyond standard script implementation for Bizible to recognize form submissions. The process below outlines how to add the Bizible javascript to your Sitecore pages.
+Content management systems can require additional steps beyond standard script implementation for Marketo Measure to recognize form submissions. The process below outlines how to add the Marketo Measure javascript to your Sitecore pages.
 
 For sites with Sitecore pages:
 

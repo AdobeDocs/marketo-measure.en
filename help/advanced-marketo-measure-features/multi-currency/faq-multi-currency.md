@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656745
-description: FAQ (Multi-Currency) - Bizible - Product Documentation
+description: FAQ (Multi-Currency) - Marketo Measure - Product Documentation
 title: FAQ (Multi-Currency)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 ---
@@ -22,7 +22,7 @@ If you have a tile that has a “Mixed Currencies” message at the bottom, that
 
 **How can I add a new currency or conversion rate?**
 
-Declaring a new currency or conversion rate can only be done in Salesforce or Dynamics so that there is only a single source of truth for these values. Once a new currency or conversion rate is detected, Bizible will download that and make it available to you. We do not offer an area to enter these rates.
+Declaring a new currency or conversion rate can only be done in Salesforce or Dynamics so that there is only a single source of truth for these values. Once a new currency or conversion rate is detected, Marketo Measure will download that and make it available to you. We do not offer an area to enter these rates.
 
 **The currency isn’t displaying in the correct format. How can I change this?**
 

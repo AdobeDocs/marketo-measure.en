@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874662
-description: Definitions and Encyclopedia - Bizible - Product Documentation
+description: Definitions and Encyclopedia - Marketo Measure - Product Documentation
 title: Definitions and Encyclopedia
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 ---
@@ -8,7 +8,7 @@ exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 
 The following is an overview of the different Boards and Tiles present in the Discover platform, as well as the Filters within those Boards. Within the screenshot of each Board are several number Tiles, the definitions of which can be found in that Board's section below.
 
-**Bizible Boards**
+**Marketo Measure Boards**
 
 Overview
 
@@ -42,7 +42,7 @@ Passport Funnel
 
 Engagement Path
 
-## Bizible Boards {#bizible-boards}
+## Marketo Measure Boards {#marketo-measure-boards}
 
 ### Overview {#overview}
 
@@ -342,7 +342,7 @@ The average number of touchpoints generated from each CRM Account, by Account ID
 
 **Leads Matched**
 
-The total number of Leads that were successfully matched to an Account using Bizible’s Lead-to-Account feature, using website, company name, and email domain matching algorithms.
+The total number of Leads that were successfully matched to an Account using Marketo Measure’s Lead-to-Account feature, using website, company name, and email domain matching algorithms.
 
 **Accounts Engaged**
 
@@ -820,7 +820,7 @@ Click to Show Details and drill into the data by viewing it as a visualization a
 
 ### Marketing Ops {#marketing-ops}
 
-Validate and diagnose Bizible data with complete visibility into individual touchpoints.
+Validate and diagnose Marketo Measure data with complete visibility into individual touchpoints.
 
 **Filters**
 
@@ -902,7 +902,7 @@ A: Yes, it will apply the filter to every tile in the board. For example, if you
 
 **Q: What is the ‘Engagement Rating’ column?**
 
-A: The engagement rating pulls from Bizible’s Predictive Account Engagement Score, which is available in Bizible Tier 2. If you do not have this, this field will show up as null.
+A: The engagement rating pulls from Marketo Measure’s Predictive Account Engagement Score, which is available in Marketo Measure Tier 2. If you do not have this, this field will show up as null.
 
 **Q: Can I change how the table is sorted?**
 
@@ -1008,7 +1008,7 @@ Leads or Contacts
 
 ### Passport {#passport}
 
-The Passport is the new demand waterfall view from the Bizible ROI Dashboard, where each stage shows the number of records in each stage and the total of records that have passed through each stage.
+The Passport is the new demand waterfall view from the Marketo Measure ROI Dashboard, where each stage shows the number of records in each stage and the total of records that have passed through each stage.
 
 **Filters**
 
@@ -1052,9 +1052,9 @@ Attribution Model
 
 Event Type
 
-Bizible Touchpoint Position
+Buyer Touchpoint Position
 
-Bizible Attribution Touchpoint Position
+Buyer Attribution Touchpoint Position
 
 Touchpoint Date
 

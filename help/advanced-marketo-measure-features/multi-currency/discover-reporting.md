@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656739
-description: Discover Reporting - Bizible - Product Documentation
+description: Discover Reporting - Marketo Measure - Product Documentation
 title: Discover Reporting
 exl-id: 73e1ffaf-01d0-4454-bd4f-b9e39c33615a
 ---

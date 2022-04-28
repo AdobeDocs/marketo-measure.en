@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586105
-description: Engagement Path - Bizible - Product Documentation
+description: Engagement Path - Marketo Measure - Product Documentation
 title: Engagement Path
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 ---
@@ -14,9 +14,9 @@ Engagement Path allows you to see a complete view of lead, contact, account, and
 
 **Event Type:** The type of touchpoint (Session, CRM Campaign, CRM Event, CRM Task, Impression)
 
-**Bizible Touchpoint Position:** Touchpoint Position of the lead/contact
+**Buyer Touchpoint Position:** Touchpoint Position of the lead/contact
 
-**Bizible Attribution Touchpoint Position:** Bizible Attribution Touchpoint Position of the Opportunity
+**Buyer Attribution Touchpoint Position:** Buyer Attribution Touchpoint Position of the Opportunity
 
 **Touchpoint Date:** For online sources: date & time the engagement occurred. For offline events: date & time set in the Salesforce Campaign. For activities touchpoint: touchpoint date field being referenced in the activities configuration
 

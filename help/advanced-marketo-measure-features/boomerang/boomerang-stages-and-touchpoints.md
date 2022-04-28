@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874558
-description: Boomerang Stages and Touchpoints - Bizible - Product Documentation
+description: Boomerang Stages and Touchpoints - Marketo Measure - Product Documentation
 title: Boomerang Stages and Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 ---
 # Boomerang Stages and Touchpoints {#boomerang-stages-and-touchpoints}
 
-Bizible has released our Boomerang Stage feature! The Boomerang Stage feature was created to provide greater visibility into the customer’s journey for Bizible customers with long sales cycles. This feature allows marketers to create touchpoints for all stage transitions that occur in the Opportunity journey, like when a contact MQLs, then moves to SAL, and then reverts back to the MQL stage. When contacts “re-enter the MQL stage” or “re-MQL’s”, we consider the MQL to be a boomerang stage. The Boomerang Stage feature functions alongside Bizible’s Custom Stages.
+Marketo Measure has released our Boomerang Stage feature! The Boomerang Stage feature was created to provide greater visibility into the customer’s journey for Marketo Measure customers with long sales cycles. This feature allows marketers to create touchpoints for all stage transitions that occur in the Opportunity journey, like when a contact MQLs, then moves to SAL, and then reverts back to the MQL stage. When contacts “re-enter the MQL stage” or “re-MQL’s”, we consider the MQL to be a boomerang stage. The Boomerang Stage feature functions alongside Marketo Measure’s Custom Stages.
 
 ## What This Feature Does {#what-this-feature-does}
 
@@ -29,7 +29,7 @@ With Boomerang Stages and touchpoints, you will see touchpoints that occur for e
 
 **[Stage Name]-00.**
 
-Using the example below, this Bizible account has included MQL and SQL in their boomerang stages, and have chosen to display 2 boomerang touchpoints per stage.
+Using the example below, this Marketo Measure account has included MQL and SQL in their boomerang stages, and have chosen to display 2 boomerang touchpoints per stage.
 
 ![](assets/2.png)
 
@@ -49,7 +49,7 @@ Boomerang Stages will impact:
 
 **Any reports that use “equals [Touchpoint Position]”**
 
-* Boomerang stages will introduce new touchpoint positions to your data. Bizible is changing the format of the Touchpoint Position to include the occurrence of the stage, like “MQL-01” or “MQL-05 (Last).” Using this example, Boomerang Stages will impact any reports that are using “Touchpoint Position is equal to MQL.” To adjust these reports the filter should be using the “contains” operator instead.
+* Boomerang stages will introduce new touchpoint positions to your data. Marketo Measure is changing the format of the Touchpoint Position to include the occurrence of the stage, like “MQL-01” or “MQL-05 (Last).” Using this example, Boomerang Stages will impact any reports that are using “Touchpoint Position is equal to MQL.” To adjust these reports the filter should be using the “contains” operator instead.
 
 ## FAQ {#faq}
 
@@ -63,14 +63,14 @@ You can select up to 10 boomerang touchpoints per stage.
 
 **Q: Why are we only limited to 10 boomerangs per stage?**
 
-Bizible has to place a limit on the number of stages in order to keep processing times under control. If you choose to include all 15 Boomerang Stages in your attribution model, and 10 boomerang touchpoints per stage, you could potentially have over 150 touchpoints per Lead/Contact record.
+Marketo Measure has to place a limit on the number of stages in order to keep processing times under control. If you choose to include all 15 Boomerang Stages in your attribution model, and 10 boomerang touchpoints per stage, you could potentially have over 150 touchpoints per Lead/Contact record.
 
 **Q: I have Data Warehouse. Do I get all of the data or does the Boomerang Stages cap apply to me as well?**
 
-The cap will apply to Data Warehouse and CRMs because of the processing limits that Bizible has in place. Data Warehouse will also see the limit of 10 touchpoints per stage.
+The cap will apply to Data Warehouse and CRMs because of the processing limits that Marketo Measure has in place. Data Warehouse will also see the limit of 10 touchpoints per stage.
 
 **Q: What is the benefit of using Boomerang Stages with Custom Modeling?**
 
 Using Boomerang Stages with Custom Modelling will allow you to assign attribution weighting to Boomerang touchpoints, which will allocate revenue credit to these stages.
 
-Without custom modeling, Bizible will create touchpoints for each boomerang and stage transition but will not assign any attribution credit to these touchpoints. The only boomerang touchpoints that will receive attribution credits are form submission touchpoints. Without custom model, Boomerang touchpoints are considered the same as a ‘middle touch’ and receive attribution credit accordingly.
+Without custom modeling, Marketo Measure will create touchpoints for each boomerang and stage transition but will not assign any attribution credit to these touchpoints. The only boomerang touchpoints that will receive attribution credits are form submission touchpoints. Without custom model, Boomerang touchpoints are considered the same as a ‘middle touch’ and receive attribution credit accordingly.

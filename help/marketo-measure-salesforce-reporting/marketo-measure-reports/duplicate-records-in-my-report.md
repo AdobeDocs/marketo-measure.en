@@ -1,18 +1,18 @@
 ---
 unique-page-id: 18874634
-description: Duplicate Records in My Report - Bizible - Product Documentation
+description: Duplicate Records in My Report - Marketo Measure - Product Documentation
 title: Duplicate Records in My Report
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 ---
 # Duplicate Records in My Report {#duplicate-records-in-my-report}
 
-As you dive into the Bizible Reports in Salesforce, you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review Bizible's out-of-the-box reports.
+As you dive into the Marketo Measure Reports in Salesforce, you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review Marketo Measure's out-of-the-box reports.
 
-When reporting with the Bizible Touchpoints object or the Bizible Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you'll be reporting on the number of Bizible Touchpoints or Bizible Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
+When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you'll be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
 
 Let's take the following report as an example:
 
-This is a **Contacts with Bizible Touchpoints** report. Again, this means that we're looking at the count of touchpoints associated to an individual contact.
+This is a **Contacts with Buyer Touchpoints** report. Again, this means that we're looking at the count of touchpoints associated to an individual contact.
 
 ![](assets/1.gif)
 
@@ -24,4 +24,4 @@ If you want to understand the 'count of contacts' you can then use the fields 'C
 
 >[!MORELIKETHIS]
 >
->[Bizible University: Stock SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[Marketo Measure University: Stock SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

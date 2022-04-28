@@ -1,5 +1,5 @@
 ---
-description: Marketo Measure Report Template - Tableau - Measure - Product Documentation
+description: Marketo Measure Report Template - Tableau - Marketo Measure - Product Documentation
 title: Marketo Measure Report Template - Tableau
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 ---

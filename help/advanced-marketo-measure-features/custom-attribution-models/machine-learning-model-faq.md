@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: Machine Learning Model FAQ - Bizible - Product Documentation
+description: Machine Learning Model FAQ - Marketo Measure - Product Documentation
 title: Machine Learning Model FAQ
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 ---
 # Machine Learning Model FAQ {#machine-learning-model-faq}
 
-Bizible's Machine Learning model uses your touchpoint data to calculate how much attribution weighting should be assigned to each stage. This is determined by how important each stage was in driving deals to close.
+Marketo Measure's Machine Learning model uses your touchpoint data to calculate how much attribution weighting should be assigned to each stage. This is determined by how important each stage was in driving deals to close.
 
 What do the attribution percentages from the Machine Learning Model tell me about each stage?
 
@@ -14,7 +14,7 @@ The attribution percentages of each stage reflects the potential impact of your 
 
 How is the Machine Learning Model calculated?
 
-Bizible calculates the importance of each custom stage by using the touchpoint data from your account. The criteria used to determine the importance of each stage are:
+Marketo Measure calculates the importance of each custom stage by using the touchpoint data from your account. The criteria used to determine the importance of each stage are:
 
 * Model Accuracy: If we build a predictive model with the touchpoint data to predict whether we will win a deal eventually, how accurate will the model be? Higher predictive accuracy means that the details of this stage correlates more with whether a deal will close
 * Conversion Rate: If Leads or Opportunities at this certain stage convert to the next stage at a high rate, this suggests that the marketing activities that occurred at this stage didn't matter very much. Conversely, if a certain stage converts to the next stage at a low rate, this can suggest that the marketing activities that occurred at this stage were influential in driving the conversion.

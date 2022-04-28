@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: FAQ - Bizible - Product Documentation
+description: FAQ - Marketo Measure - Product Documentation
 title: FAQ
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 ---
 # FAQ {#faq}
 
-Bizible Discover: Frequently Asked Questions.
+Marketo Measure Discover: Frequently Asked Questions.
 
 **How do I save the filters on a report?**
 
@@ -30,7 +30,7 @@ Values don’t exist for every single hierarchy of data because the hierarchy is
 
 **What is “matches a user attribute” in the Filter operators?**
 
-User attributes are applied to users such as business Id, first name, or last name, but because our users are you (our customers), and not your customers, user attributes actually can not be used in the Bizible Discover experience. Please feel free to ignore this option. We are working on a better custom filter experience that will remove filters that don’t apply to our customers.
+User attributes are applied to users such as business Id, first name, or last name, but because our users are you (our customers), and not your customers, user attributes actually can not be used in the Marketo Measure Discover experience. Please feel free to ignore this option. We are working on a better custom filter experience that will remove filters that don’t apply to our customers.
 
 **How come some default date ranges go through the first of the following month?**
 
@@ -38,7 +38,7 @@ While the date range isn’t always intuitive, the default filter UI has the hel
 
 **What Attribution Model is used for Leads and Contacts?**
 
-Bizible Touchpoints that are mapped to Leads and Contacts measure up to the Lead Creation touch, so the First Touch, Lead Creation, and U-Shaped model are recommended. If you change the Attribution Model to W-Shaped or Full Path, we automatically apply a U-Shaped model for Leads and Contacts.
+Buyer Touchpoints that are mapped to Leads and Contacts measure up to the Lead Creation touch, so the First Touch, Lead Creation, and U-Shaped model are recommended. If you change the Attribution Model to W-Shaped or Full Path, we automatically apply a U-Shaped model for Leads and Contacts.
 
 **Why are my Visits, Unique Visits, and Forms tiles blank on the Growth board?**
 
@@ -54,7 +54,7 @@ These are only tracked form fills.
 
 **What's the benefit of Discover over Measure?**
 
-Bizible Discover provides better functionality, such as drill-throughs, and better filtering, such as Subchannels and Channels. We are also sunsetting Measure some time in 2019.
+Marketo Measure Discover provides better functionality, such as drill-throughs, and better filtering, such as Subchannels and Channels. We are also sunsetting Measure some time in 2019.
 
 **In Measure, I was able to filter by Ad Group and Account when filtered into Ad accounts - how can I see this in Discover?**
 
@@ -72,7 +72,7 @@ On each of the board tiles, we added a filter to only include data where we have
 
 Unique Visits are a subset of Visits. Whereas Visits are a count of every site visit, Unique Visits are unique cookies from those site visits. A person can account for multiple unique visits if they return with a different cookie identifier.
 
-**Are Touchpoint Counts the count of Bizible Touchpoints or Bizible Attribution Touchpoints?**
+**Are Touchpoint Counts the count of Buyer Touchpoints or Buyer Attribution Touchpoints?**
 
 It’s a count of what we consider “raw” touchpoints, or “user touchpoints” where it’s an aggregate of both, plus touches that didn’t result in a touchpoint on the Lead/Contact or Opportunity.
 
@@ -84,13 +84,13 @@ This is the expected behavior due to the fact that we don't have costs segmented
 
 Only the Segments that have valid records mapped to them will show up in the Segments filter. For example, if there are no records with the segment “Other,” then “Other” will not show up as an option.
 
-**Does Bizible Discover support the GB18030 character set?**
+**Does Marketo Measure Discover support the GB18030 character set?**
 
 Discover utilizes third party tools and does not support the GB18030 character set at this time.
 
 **When loading Discover, why do I see a 401 error stating “You are not authenticated to view this page”?**
 
-Bizible Discover requires third-party cookies to display properly. To use Discover, please enable third-party cookies in your browser and refresh the page.
+Marketo Measure Discover requires third-party cookies to display properly. To use Discover, please enable third-party cookies in your browser and refresh the page.
 
 >[!NOTE]
 >

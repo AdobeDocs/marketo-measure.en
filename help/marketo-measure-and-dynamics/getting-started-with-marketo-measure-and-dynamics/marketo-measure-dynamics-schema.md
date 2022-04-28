@@ -1,22 +1,22 @@
 ---
 unique-page-id: 18874523
-description: Marketo Measure Dynamics Schema - Measure - Product Documentation
+description: Marketo Measure Dynamics Schema - Marketo Measure - Product Documentation
 title: Marketo Measure Dynamics Schema
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 ---
 # Marketo Measure Dynamics Schema {#marketo-measure-dynamics-schema}
 
-Below you'll find the required Dynamics schema in order to get started with Bizible. All entities and fields are listed, along with the required read and/or write access.
+Below you'll find the required Dynamics schema in order to get started with Marketo Measure. All entities and fields are listed, along with the required read and/or write access.
 
-## Bizible Touchpoints {#bizible-touchpoints}
+## Buyer Touchpoints {#buyer-touchpoints}
 
-The Bizible Touchpoint is a Bizible custom entity to encapsulate the marketing interactions for Contacts and Leads.
+The Buyer Touchpoint is a Marketo Measure custom entity to encapsulate the marketing interactions for Contacts and Leads.
 
-## Bizible Touchpoint Relationships {#bizible-touchpoint-relationships}
+## Buyer Touchpoint Relationships {#buyer-touchpoint-relationships}
 
-This diagram is a high-level visualization of the relationships between the Dynamics Stock entities and the Bizible Touchpoint.
+This diagram is a high-level visualization of the relationships between the Dynamics Stock entities and the Buyer Touchpoint.
 
-## Bizible Touchpoint {#bizible-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
@@ -293,15 +293,15 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Bizible Attribution Touchpoint {#bizible-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The Bizible Attribution Touchpoint is a Bizible custom entity to encapsulate the marketing's influence on Opportunities.
+The Buyer Attribution Touchpoint is a Marketo Measure custom entity to encapsulate the marketing's influence on Opportunities.
 
-## Bizible Attribution Touchpoint Relationships {#bizible-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpoint Relationships {#buyer-attribution-touchpoint-relationships}
 
-This diagram is a high-level visualization of the relationships between the Dynamics Stock entities and the Bizible Attribution Touchpoint.
+This diagram is a high-level visualization of the relationships between the Dynamics Stock entities and the Buyer Attribution Touchpoint.
 
-## Bizible Attribution Touchpoints {#bizible-attribution-touchpoints}
+## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
 <table> 
  <tbody> 
@@ -704,7 +704,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Bizible AB Tests {#bizible-ab-tests}
+## Marketo Measure AB Tests {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
@@ -789,7 +789,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Bizible Events {#bizible-events}
+## Marketo Measure Events {#marketo-measure-events}
 
 <table> 
  <tbody> 
@@ -856,7 +856,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Bizible History {#bizible-history}
+## Marketo Measure History {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -901,7 +901,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
 
 ## Dynamics Standard Entities {#dynamics-standard-entities}
 
-This lists provides the Dynamics Standard Entities that Bizible interacts with, as well as the custom fields that we add to these entities.
+This lists provides the Dynamics Standard Entities that Marketo Measure interacts with, as well as the custom fields that we add to these entities.
 
 **Lead**
 

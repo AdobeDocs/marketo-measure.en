@@ -1,18 +1,18 @@
 ---
 unique-page-id: 18874749
-description: Adding Marketo Measure Script to Uberflip Forms - Measure - Product Documentation
+description: Adding Marketo Measure Script to Uberflip Forms - Marketo Measure - Product Documentation
 title: Adding Marketo Measure Script to Uberflip Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 ---
 # Adding Marketo Measure Script to Uberflip Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
-If you are currently using Uberflip to manage your content, it's important that you take these necessary steps to make sure that Bizible is tracking those form submissions. Your Success Manager at Uberflip should also be able to assist you with this.
+If you are currently using Uberflip to manage your content, it's important that you take these necessary steps to make sure that Marketo Measure is tracking those form submissions. Your Success Manager at Uberflip should also be able to assist you with this.
 
 1. Add this script to Uberflip's Custom Code>HTML section.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. Ensure this Bizible preamble code fires on both page load and AJAX page change. Do this within the Custom Code>JS section
+1. Ensure this Marketo Measure preamble code fires on both page load and AJAX page change. Do this within the Custom Code>JS section
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
@@ -41,7 +41,7 @@ If you are currently using Uberflip to manage your content, it's important that 
   
    `}`
 
-1. When a Form CTA is submitted, make sure your Bizible function is executed per below. This is done within the Custom Code>JS section. (Note: You might have other code within the Hubs.onCtaFormSubmitSuccess javascript event hook, just make sure you include this function call as well).
+1. When a Form CTA is submitted, make sure your Marketo Measure function is executed per below. This is done within the Custom Code>JS section. (Note: You might have other code within the Hubs.onCtaFormSubmitSuccess javascript event hook, just make sure you include this function call as well).
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {` 
   `bizibleFormCode(ctaId, ctaData, ctaName);`  

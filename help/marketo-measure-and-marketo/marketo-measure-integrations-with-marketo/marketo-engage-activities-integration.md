@@ -1,21 +1,21 @@
 ---
 unique-page-id: 42762749
-description: Marketo Engage Activities Integration - Bizible - Product Documentation
+description: Marketo Engage Activities Integration - Marketo Measure - Product Documentation
 title: Marketo Engage Activities Integration
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 ---
 # Marketo Engage Activities Integration {#marketo-engage-activities-integration}
 
-As part of the overall Bizible and Marketo Engage Integration, this effort to pull in Marketo Activities plays a huge role. Through Marketo Activities, the system tracks events such as Click Email, Change Score or Change Status in Progression - these activity types can be pared down and defined to select a subset that are eligible for touchpoints. Once touchpoints are created on these activities, they get tracked in the engagement journey and measured alongside your other marketing channels such as Paid Search or Partner Marketing.
+As part of the overall Marketo Measure and Marketo Engage Integration, this effort to pull in Marketo Activities plays a huge role. Through Marketo Activities, the system tracks events such as Click Email, Change Score or Change Status in Progression - these activity types can be pared down and defined to select a subset that are eligible for touchpoints. Once touchpoints are created on these activities, they get tracked in the engagement journey and measured alongside your other marketing channels such as Paid Search or Partner Marketing.
 
 ## Requirements {#requirements}
 
 * Production Marketo instance
 * Production Salesforce or Microsoft Dynamics instance
-* Any paid Bizible subscription
-* Marketo People Sync Enabled (Bizible Settings)
-* Marketo Programs Enabled (Bizible Settings)
-* Marketo Activities Enabled (Bizible Settings)
+* Any paid Marketo Measure subscription
+* Marketo People Sync Enabled (Marketo Measure Settings)
+* Marketo Programs Enabled (Marketo Measure Settings)
+* Marketo Activities Enabled (Marketo Measure Settings)
 
 ## Setup {#setup}
 
@@ -37,7 +37,7 @@ As part of the overall Bizible and Marketo Engage Integration, this effort to pu
 
 1. For each Activity Type, you’ll need to define one or more rules that determine which records are eligible for touchpoints. For our example, we will add a rule for the “Change Score” activity type so that the system will create a touchpoint when a Marketo Person reaches a score of 90 or greater.
 
-1. First, depending on the Activity Type, you may need to set up a Bizible Campaign Name that can be used later on for channel mapping. Bizible Campaign Names can be re-used across multiple rules. This helps have broader names that can be used in a single channel rule. Not all Activity Types contain a Marketo Program, hence the need for a name as this first step.
+1. First, depending on the Activity Type, you may need to set up a Marketo Measure Campaign Name that can be used later on for channel mapping. Marketo Measure Campaign Names can be re-used across multiple rules. This helps have broader names that can be used in a single channel rule. Not all Activity Types contain a Marketo Program, hence the need for a name as this first step.
 
    Here’s an example of what that extra step would look like:
 
@@ -63,11 +63,11 @@ As part of the overall Bizible and Marketo Engage Integration, this effort to pu
 
    ![](assets/ten-1.png)
 
-1. For each Activity Types that you selected, you have the option of mapping additional Marketo attributes to Touchpoint fields so that you can view and report off those values in Bizible Discover or in the CRM.
+1. For each Activity Types that you selected, you have the option of mapping additional Marketo attributes to Touchpoint fields so that you can view and report off those values in Marketo Measure Discover or in the CRM.
 
    Many of the fields have automatically been mapped and cannot be changed in order to be consistent with our other integrations. Reference the Field Mappings section below to find those values. For some activity types, Marketo includes attributes for a landing page, or referrer page, or browser that you can optionally map to a Touchpoint field. In the example below, we’ve made some additional suggestions that can be removed.
 
-1. Select the Bizible Touchpoint field from the left column that you'd like to map to. Then, choose the Marketo Attribute that you want to populate in the Bizible Touchpoint field. Remember that these are optional, additional mapping on top of those that Bizible has already established.
+1. Select the Buyer Touchpoint field from the left column that you'd like to map to. Then, choose the Marketo Attribute that you want to populate in the Buyer Touchpoint field. Remember that these are optional, additional mapping on top of those that Marketo Measure has already established.
 
    Mappable Fields:
 
@@ -87,7 +87,7 @@ As part of the overall Bizible and Marketo Engage Integration, this effort to pu
 
 ## Activity Types {#activity-types}
 
-Some activity types provide us with the Program Id and Program Name, so it’s easy to map that into the Campaign Id and Campaign Name on the Bizible Touchpoint. For others, there is no program association, so part of the rules definition will require you to create a Bizible Campaign Name. Below are lists of each category:
+Some activity types provide us with the Program Id and Program Name, so it’s easy to map that into the Campaign Id and Campaign Name on the Buyer Touchpoint. For others, there is no program association, so part of the rules definition will require you to create a Marketo Measure Campaign Name. Below are lists of each category:
 
 **Activity Types with Program Id**
 
@@ -106,7 +106,7 @@ Change Nurture Cadence (115)
 
 >[!NOTE]
 >
->Of the Activity Types where we expect a Program Id, if an activity is detected without a program, Bizible will not accept that as an eligible touchpoint since we cannot have null Campaign values.
+>Of the Activity Types where we expect a Program Id, if an activity is detected without a program, Marketo Measure will not accept that as an eligible touchpoint since we cannot have null Campaign values.
 
 **Activity Types without Program Id**
 
@@ -156,17 +156,17 @@ If Channels for your Marketo Activities aren’t properly configured, it’s lik
 
 ## Program Costs {#program-costs}
 
-Through the data import of Marketo Programs, costs are automatically downloaded from Period Costs and the reported cost in Marketo is distributed throughout the assigned month. For example, if $1000 is reported for January 2021, the $1000 is split across 31 days. The costs can be found in Bizible Discover.
+Through the data import of Marketo Programs, costs are automatically downloaded from Period Costs and the reported cost in Marketo is distributed throughout the assigned month. For example, if $1000 is reported for January 2021, the $1000 is split across 31 days. The costs can be found in Marketo Measure Discover.
 
 ## Cookie Mapping {#cookie-mapping}
 
-As a result of Bizible’s integration with Marketo, the Bizible Cookie Id is also now mapped and synced with the Marketo Munchkin Id. This helps close the gap to attribute the anonymous first touch to a web session rather than attributing both the FT and LC touches to a Marketo Activity. Imagine this scenario:
+As a result of Marketo Measure’s integration with Marketo, the Marketo Measure Cookie Id is also now mapped and synced with the Marketo Munchkin Id. This helps close the gap to attribute the anonymous first touch to a web session rather than attributing both the FT and LC touches to a Marketo Activity. Imagine this scenario:
 
-Mark clicks on a Facebook ad and lands on wayneenterprises.com where he gets cookied with Bizible Id 123 and Marketo Munchkin Id 456. No form fill takes place.
+Mark clicks on a Facebook ad and lands on wayneenterprises.com where he gets cookied with Marketo Measure Id 123 and Marketo Munchkin Id 456. No form fill takes place.
   
 The Wayne Enterprises Marketing team sends out an email blast to specific targeted leads, one of them being `mark@email.com`.  
   
-`mark@email.com` receives the email and clicks through and lands on `wayneenterprises.com`. This becomes `mark@email.com's` second visit to `wayneenterprise.com` with the same cookie Ids, but there was no form fill, so to Bizible, they are still an anonymous visitor.  
+`mark@email.com` receives the email and clicks through and lands on `wayneenterprises.com`. This becomes `mark@email.com's` second visit to `wayneenterprise.com` with the same cookie Ids, but there was no form fill, so to Marketo Measure, they are still an anonymous visitor.  
   
 The Wayne Enterprises Marketing team creates a Marketo Activity rule to generate touchpoints for a "Click Email" activity type.  
   
@@ -176,7 +176,7 @@ With this cookie mapping enhancement, the FT would go back and get credited to t
 
 >[!NOTE]
 >
->With the cookie mapping behavior, you may find some LC touchpoints that come from a web visit. It's possible that a lead appeared in Marketo without any associated activity, then Bizible downloaded that lead, matched the associated cookies, then traced it to the most recent web session, even if there was no form activity that created the lead.
+>With the cookie mapping behavior, you may find some LC touchpoints that come from a web visit. It's possible that a lead appeared in Marketo without any associated activity, then Marketo Measure downloaded that lead, matched the associated cookies, then traced it to the most recent web session, even if there was no form activity that created the lead.
 
 ## FAQ {#faq}
 
@@ -186,7 +186,7 @@ The Marketo Engage Programs Integration is a simple way to generate touchpoints 
 
 **Why is the name of my Touchpoint Type truncated?**
 
-The Touchpoint Type field was created in the Bizible package with 16 characters. Unfortunately, changing the character limit of the field would require deprecating the existing field and creating a new one. The value of the Touchpoint Type is the Activity Type, which is also set in the Medium field.
+The Touchpoint Type field was created in the Marketo Measure package with 16 characters. Unfortunately, changing the character limit of the field would require deprecating the existing field and creating a new one. The value of the Touchpoint Type is the Activity Type, which is also set in the Medium field.
 
 **Why does my Custom Activity Type not appear in the list of available activities?**
 
@@ -198,7 +198,7 @@ Although there is no limit on the number of Activity Types you can create, we ge
 
 **Why is my Browser Name cut off?**
 
-Bizible’s Browser Name has a hard limit of 20 characters, although the User Agent value we get from Marketo tends to be a longer string.
+Marketo Measure’s Browser Name has a hard limit of 20 characters, although the User Agent value we get from Marketo tends to be a longer string.
 
 BrowserInfo.Name  
 BrowserInfo.Version  

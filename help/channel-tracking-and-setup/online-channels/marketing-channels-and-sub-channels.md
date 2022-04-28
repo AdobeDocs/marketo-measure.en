@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874682
-description: Marketing Channels and Sub-Channels - Bizible - Product Documentation
+description: Marketing Channels and Sub-Channels - Marketo Measure - Product Documentation
 title: Marketing Channels and Sub-Channels
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 ---
@@ -8,11 +8,11 @@ exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 
 ## Purpose {#purpose}
 
-To define what a Channel and Sub-Channel are in Bizible, how they relate to your content, the difference between the two classifications, and how they are utilized within the Bizible app.
+To define what a Channel and Sub-Channel are in Marketo Measure, how they relate to your content, the difference between the two classifications, and how they are utilized within the Marketo Measure app.
 
 ## Overview {#overview}
 
-Marketing Channels are used to help categorize (or "bucket") your marketing activities for ease of reporting, both in Bizible's ROI Dash as well as in your CRM. Bizible comes with 12 out of the box channels (which you can customize/rename to fit your organization's conventions), as well as the ability to further create Custom Channels for even more granular filtering.  
+Marketing Channels are used to help categorize (or "bucket") your marketing activities for ease of reporting, both in Marketo Measure's ROI Dash as well as in your CRM. Marketo Measure comes with 12 out of the box channels (which you can customize/rename to fit your organization's conventions), as well as the ability to further create Custom Channels for even more granular filtering.  
   
 Whenever you receive a visitor to one of your Content pages on your site (whether that Content be a Web Page, a White-paper Download, a Page URL, etc.), that Lead will be "bucketed" into a Channel/Sub-Channel based on several UTM parameters found in the URL:
 
@@ -39,7 +39,7 @@ The diagram below illustrates an example of a Marketing Channel, Sub-Channel, an
 
 * [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
-In this case, the Content the user is trying to access is the Intro Guide to B2B Marketing Attribution. Bizible will analyze the URL leading to this Content using the Channel Rules set up in this org, and use them to "bucket" this lead into the Marketing Channel "Paid Social" and the Sub-Channel "LinkedIn".
+In this case, the Content the user is trying to access is the Intro Guide to B2B Marketing Attribution. Marketo Measure will analyze the URL leading to this Content using the Channel Rules set up in this org, and use them to "bucket" this lead into the Marketing Channel "Paid Social" and the Sub-Channel "LinkedIn".
 
 ![](assets/1.jpg)
 
@@ -69,6 +69,6 @@ Further examples...
 
 **Content (White-papers, Page URLs, Blog posts)**
 
-* www.bizible.com/blog1
-* www.bizible.com/whitepaper
-* www.bizible.com/sign-up-now
+* www.adobe.com/blog1
+* www.adobe.com/whitepaper
+* www.adobe.com/sign-up-now

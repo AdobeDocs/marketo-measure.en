@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874566
-description: Marketing Attribution - Bizible - Product Documentation
+description: Marketing Attribution - Marketo Measure - Product Documentation
 title: Marketing Attribution
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 ---
 # Marketing Attribution {#marketing-attribution}
 
-## Welcome to Bizible {#welcome-to-bizible}
+## Welcome to Marketo Measure {#welcome-to-marketo-measure}
 
-Bizible gives marketers insight into which marketing efforts are the most effective in driving revenue for their company. Bizible is a marketing attribution solution that automatically tracks and reports on channel performance, providing visibility into which channels are driving the most customer engagement and allowing you to optimize your marketing spend accordingly.
+Marketo Measure gives marketers insight into which marketing efforts are the most effective in driving revenue for their company. Marketo Measure is a marketing attribution solution that automatically tracks and reports on channel performance, providing visibility into which channels are driving the most customer engagement and allowing you to optimize your marketing spend accordingly.
 
 ## Marketing Attribution {#marketing-attribution-1}
 
@@ -18,7 +18,7 @@ Bizible gives marketers insight into which marketing efforts are the most effect
 
 ![](assets/1.png)
 
-These milestone touches are the foundation of Bizible's **attribution models**. Bizible offers six attribution models. Each model focuses on different stages in the customer journey and offers a general structure for attributing revenue credit to your marketing touchpoints. The model that you use depends on which stages of the journey you’re most interested in measuring and how much data you want to report on. The attribution models that Bizible offers are:
+These milestone touches are the foundation of Marketo Measure's **attribution models**. Marketo Measure offers six attribution models. Each model focuses on different stages in the customer journey and offers a general structure for attributing revenue credit to your marketing touchpoints. The model that you use depends on which stages of the journey you’re most interested in measuring and how much data you want to report on. The attribution models that Marketo Measure offers are:
 
 * First Touch
 * Lead Creation

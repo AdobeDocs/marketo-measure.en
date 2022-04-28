@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874680
-description: Facebook API - Bizible - Product Documentation
+description: Facebook API - Marketo Measure - Product Documentation
 title: Facebook API
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 ---
@@ -10,14 +10,14 @@ exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 
 Similar to our AdWords & Bing Ads integrations, our Facebook integration does two fundamental actions:  
 
-* Auto-tag all Facebook Ads with a Bizible parameter (_bf)
+* Auto-tag all Facebook Ads with a Marketo Measure parameter (_bf)
 * Download ad cost information across all active Facebook ads
 
 ## How to Configure the Facebook Integration {#how-to-configure-the-facebook-integration}
 
-As for setup, there are seven steps to be completed within Bizible's app.
+As for setup, there are seven steps to be completed within Marketo Measure's app.
 
-1. Navigate to [apps.bizible.com](https://apps.bizible.com) and log-in.
+1. Navigate to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} and log in.
 1. Under My Account select **Settings**.
 1. Under Integrations select **Connections**.
 1. Select **Set Up New Ads Connection** and a pop-up will appear. Select **Facebook** and log-in using your Facebook credentials.
@@ -26,7 +26,7 @@ As for setup, there are seven steps to be completed within Bizible's app.
    >
    >The person connecting the Facebook Ads account needs to be an admin within the Facebook Ads account.
 
-1. Once Bizible is connected to your Facebook account, click the pencil icon next to the account.
+1. Once Marketo Measure is connected to your Facebook account, click the pencil icon next to the account.
 1. Within this view, move the 'Auto-tagging?' toggle to 'Yes.' Then select the check box found in the Learn More section to agree to the terms and conditions. Make sure the Auto-tagging toggle is still set to 'Yes'.
 
 ## Connecting the Account {#connecting-the-account}
@@ -41,7 +41,7 @@ As for setup, there are seven steps to be completed within Bizible's app.
 
 ![](assets/2-2.png)
 
-Once you've enabled the integration, Bizible will start downloading ad level cost into the Bizible Marketing ROI Dashboard.
+Once you've enabled the integration, Marketo Measure will start downloading ad level cost into the Marketo Measure Marketing ROI Dashboard.
 
 For the integration to properly work, you'll need to enable auto-tagging on your Facebook account. This will allow our system to add a _bf parameter across all ad links. This process will add the new parameter on top of any other tracking parameters you've already added to your Facebook ads.
 
@@ -124,7 +124,7 @@ For the integration to properly work, you'll need to enable auto-tagging on your
 
 ## FAQ {#faq}
 
-**Q: What Facebook Ads are supported by Bizible?**
+**Q: What Facebook Ads are supported by Marketo Measure?**
 
 A: Carousel, Single Image. Not Video, Slideshow or Collection at this time.
 
@@ -132,13 +132,13 @@ A: Carousel, Single Image. Not Video, Slideshow or Collection at this time.
 
 A: Social proof is visible engagement such as likes, clicks, comments, and shares.
 
-**Q: What happens when Bizible tags the Ad?**
+**Q: What happens when Marketo Measure tags the Ad?**
 
-A: Facebook does not allow ads to be edited so Bizible needs to delete the creative, which contains the Destination URL, and then re-create the ad with the new parameters.
+A: Facebook does not allow ads to be edited so Marketo Measure needs to delete the creative, which contains the Destination URL, and then re-create the ad with the new parameters.
 
-**Q: Why does Bizible update all Facebook Ads?**
+**Q: Why does Marketo Measure update all Facebook Ads?**
 
-A: Bizible's process is to tag all ads in case they are re-activated.
+A: Marketo Measure's process is to tag all ads in case they are re-activated.
 
 **Q: What permission does the connected user need?**
 

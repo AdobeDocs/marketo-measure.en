@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874692
-description: Boomerang Stage Scenarios - Bizible - Product Documentation
+description: Boomerang Stage Scenarios - Marketo Measure - Product Documentation
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 ---
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
 
-Below are a few examples of Boomerang Stage scenarios to provide an understanding of how Bizible will create touchpoints in each situation.
+Below are a few examples of Boomerang Stage scenarios to provide an understanding of how Marketo Measure will create touchpoints in each situation.
 
 ## Single Lead Scenarios {#single-lead-scenarios}
 
@@ -22,13 +22,13 @@ Lead 1 is then converted in to a Contact with an Opportunity, which is considere
 
 **Scenario 2: Boomerang Touchpoints AND Custom Stages for a Lead**
 
-In this scenario, a customer has chosen only to track the **SQL stage** with boomerang touchpoints. MQL and SAL stages are still being tracked, but with Bizible's Custom Stage feature.
+In this scenario, a customer has chosen only to track the **SQL stage** with boomerang touchpoints. MQL and SAL stages are still being tracked, but with Marketo Measure's Custom Stage feature.
 
 ![](assets/2-1.png)
 
-Notice that the MQL touchpoint position is not labeled with a number. This is because it was not selected to be tracked with Boomerang touchpoints. When creating touchpoints for stages included in the custom model, but are not tracked with Boomerang, Bizible will take the last occurrence from that stage.
+Notice that the MQL touchpoint position is not labeled with a number. This is because it was not selected to be tracked with Boomerang touchpoints. When creating touchpoints for stages included in the custom model, but are not tracked with Boomerang, Marketo Measure will take the last occurrence from that stage.
 
-In the case of the SAL stage, Bizible ignores the first two occurrences of this stage. Bizible only creates a SAL touchpoint for the *last* occurrence. In the example above, this happens right before the OC touchpoint.
+In the case of the SAL stage, Marketo Measure ignores the first two occurrences of this stage. Marketo Measure only creates a SAL touchpoint for the *last* occurrence. In the example above, this happens right before the OC touchpoint.
 
 The SQL stage is being tracked with Boomerang touchpoints, and three touchpoints have been created and labeled accordingly.
 
@@ -36,11 +36,11 @@ Lead 1 is then converted in to a Contact with an Opportunity, which is considere
 
 **Scenario 3: When Leads don't reach/skip a stage**
 
-This scenario uses the same criteria as scenario 2. A customer has chosen only to track the SQL stage with boomerang touchpoints. MQL and SAL still being tracked, but with Bizible's Custom Stage feature.
+This scenario uses the same criteria as scenario 2. A customer has chosen only to track the SQL stage with boomerang touchpoints. MQL and SAL still being tracked, but with Marketo Measure's Custom Stage feature.
 
 ![](assets/3.png)
 
-In this scenario, the Lead never actually transitions to the SAL stage. It converts into a Contact before it reaches the SAL stage, essentially "skipping" the SAL stage. In this situation, Bizible will assume that the SAL occurs with the OC touchpoint, and both the SAL and OC position will appear on the same touchpoint.
+In this scenario, the Lead never actually transitions to the SAL stage. It converts into a Contact before it reaches the SAL stage, essentially "skipping" the SAL stage. In this situation, Marketo Measure will assume that the SAL occurs with the OC touchpoint, and both the SAL and OC position will appear on the same touchpoint.
 
 Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch.
 
@@ -66,7 +66,7 @@ The SAL-01 (Last) touchpoint from Lead 1 is carried over as a touchpoint on the 
 
 Lead 3's FT, LC and MQL, SQL, SAL touchpoints (orange) all occurred after the OC touchpoint on the Opportunity. These touchpoints will be included in the Opportunity, but are considered "middle touches."
 
-When Lead 2 and 3 converted into Contacts, Bizible will not create another OC touchpoint because there can only be one opportunity creation stage.
+When Lead 2 and 3 converted into Contacts, Marketo Measure will not create another OC touchpoint because there can only be one opportunity creation stage.
 
 **Scenario 2 - Three Leads with Opportunity**
 
@@ -78,7 +78,7 @@ All the touchpoints from Lead 1 will be included on the opportunity, from FT to 
 
 The MQL-01 (Last) from Lead 2 ends up being the MQL-04 (Last) touchpoint on the Opportunity. Because this scenario is looking at multiple Leads' journeys within one Opportunity, the positioning and numbering of the Leads' touchpoints can change when they are translated as touchpoints on the Opportunity. Similarly, the SQL-01 (Last) from Lead 2 becomes the SQL-04 (Last) on the Opp. Lead 2's SAL-01 (Last) also becomes the Opportunity's SAL-02 (Last).
 
-Also, notice that there are only 2 SAL touchpoints included on the Opportunity. Bizible will not try to force/create touchpoints for stage transitions if they haven't actually occurred.
+Also, notice that there are only 2 SAL touchpoints included on the Opportunity. Marketo Measure will not try to force/create touchpoints for stage transitions if they haven't actually occurred.
 
 Lead 3's touchpoint journey begins just before the OC touch occurs, but long after Lead 1 and Lead 2 had their FT and LC touch. In this case, Lead 3's FT and LC will appear as a Form touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch.
 
@@ -130,4 +130,4 @@ In this scenario, a customer has chosen to track the **Demo and Negotiation stag
 
 In this example, Contact 1's Demo and Negotiation Stage transitions are included as Demo-01 and Negotiation-01 touchpoints on the Opportunity. Contact 2's Demo stage transition occurs *after* Contact 1's, and appears as the Demo-02 (Last) touchpoint on the Opportunity.
 
-Notice that there isn't a second transition to the Negotiation stage; the Opportunity immediately jumps from Demo-02 (Last) moves to Close Won. In this case, Bizible will include the Negotiation transition with the Closed Won touchpoint.
+Notice that there isn't a second transition to the Negotiation stage; the Opportunity immediately jumps from Demo-02 (Last) moves to Close Won. In this case, Marketo Measure will include the Negotiation transition with the Closed Won touchpoint.

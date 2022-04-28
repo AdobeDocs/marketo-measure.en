@@ -1,22 +1,22 @@
 ---
 unique-page-id: 18874608
-description: Marketo Measure Parameters - Measure - Product Documentation
+description: Marketo Measure Parameters - Marketo Measure - Product Documentation
 title: Marketo Measure Parameters
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 ---
 # Marketo Measure Parameters {#marketo-measure-parameters}
 
-## Bizible Parameters Explained {#bizible-parameters-explained}
+## Marketo Measure Parameters Explained {#marketo-measure-parameters-explained}
 
-To gain further insight from the use of UTMs, Bizible appends custom parameters to your ads in Google AdWords, Bing Ads and Facebook Ads. Bizible integrates with these platforms to automate most of the setup process. If you select to use auto-tagging, Bizible will automatically append its parameters to the URLs of your ads. Bizible will also automatically download your marketing costs from the platforms and load them into the Bizible app.
+To gain further insight from the use of UTMs, Marketo Measure appends custom parameters to your ads in Google AdWords, Bing Ads and Facebook Ads. Marketo Measure integrates with these platforms to automate most of the setup process. If you select to use auto-tagging, Marketo Measure will automatically append its parameters to the URLs of your ads. Marketo Measure will also automatically download your marketing costs from the platforms and load them into the Marketo Measure app.
 
 Example of a URL without parameters:
 
-`http://bizible.com/landing-page?myParam=foo`
+`http://adobe.com/landing-page?myParam=foo`
 
-Example of a URL with Bizible parameters:
+Example of a URL with Marketo Measure parameters:
 
-`http://bizible.com/landing-page?myParam=foo&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+`http://adobe.com/landing-page?myParam=foo&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
 ## AdWords Parameters {#adwords-parameters}
 

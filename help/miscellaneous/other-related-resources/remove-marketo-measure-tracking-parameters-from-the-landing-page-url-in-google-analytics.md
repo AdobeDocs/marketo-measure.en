@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874736
-description: Remove Marketo Measure Tracking Parameters from the Landing Page URL in Google Analytics - Measure - Product Documentation
+description: Remove Marketo Measure Tracking Parameters from the Landing Page URL in Google Analytics - Marketo Measure - Product Documentation
 title: Remove Marketo Measure Tracking Parameters from the Landing Page URL in Google Analytics
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 ---

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874606
-description: UTM Parameters - Bizible - Product Documentation
+description: UTM Parameters - Marketo Measure - Product Documentation
 title: UTM Parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 ---
@@ -14,11 +14,11 @@ UTM parameters can be added manually to URLs or appended through auto-tagging wi
 
 To understand how UTM parameters work, let’s look at a typical URL without UTMs:
 
-`http://www.bizible.com`
+`http://www.adobe.com`
 
 Now, let’s check out a URL with UTMs:
 
-`http://www.bizible.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 As you can see, the second link contains much more text. UTM parameters always go after the top-level domain (.com in this example) and begin with a question mark. After this, the order of the parameters don't matter, but following a consistent naming convention is advised. Ampersands need to be placed between each parameter to separate each UTM. Now we can go into more detail about what each parameter represents.
 
@@ -30,8 +30,8 @@ Learn about [best practices for setting up UTM parameters](/help/channel-trackin
 * It answers the question: "How are they getting to you?"
 * It denotes the highest level channel.
 * Social media, email, organic search, and paid search are all examples of potential Medium values.
-* This parameter maps data to the Bizible ‘Medium’ field.
-* *Bizible Best Practice:* Do not use this field to call out a subchannel, otherwise, you may experience difficulties generating reports on the actual channel. Use it to identify your marketing vehicle or channel. For example, if you want to use email to market your product, the medium is email.
+* This parameter maps data to the Marketo Measure ‘Medium’ field.
+* _Marketo Measure Best Practice:_ Do not use this field to call out a subchannel, otherwise, you may experience difficulties generating reports on the actual channel. Use it to identify your marketing vehicle or channel. For example, if you want to use email to market your product, the medium is email.
 
 **utm_source**
 
@@ -40,34 +40,34 @@ Learn about [best practices for setting up UTM parameters](/help/channel-trackin
 * In a social media example, the source of traffic is the social media platform being used.
    * In this example, Facebook is the Source Value. Other examples are Twitter and Instagram. If the UTM Medium is Paid Search, on the other hand, the UTM Source could be AdWords or BingAds.
 
-* This parameter maps to the Bizible 'Touchpoint Source' field in SFDC.
-* Bizible Best Practice: This parameter tracks the source of your traffic, so it is not suitable to use it to indicate the ad type, E.g. retargeting, sponsored, etc. It is best used to track the higher level subchannel. Remember, you are answering the question “where is my traffic coming from?” You are looking for the referrer. In this example, UTM Source is the place where your ad is located (not the actual webpage, as that is automatically tracked outside of tags). If you are tracking a drip-email campaign, then drip email is the source.
+* This parameter maps to the Marketo Measure 'Touchpoint Source' field in SFDC.
+* _Marketo Measure Best Practice:_ This parameter tracks the source of your traffic, so it is not suitable to use it to indicate the ad type, E.g. retargeting, sponsored, etc. It is best used to track the higher level subchannel. Remember, you are answering the question “where is my traffic coming from?” You are looking for the referrer. In this example, UTM Source is the place where your ad is located (not the actual webpage, as that is automatically tracked outside of tags). If you are tracking a drip-email campaign, then drip email is the source.
 
 **utm_campaign**
 
 * Campaign is used to identify a specific marketing campaign.
 * It answers the question: “Why are they coming to you?”
 * Use this tag to denote the name of the ad campaign as it exists in Google AdWords or BingAds, or to indicate the name by which you identify the campaign internally. You can even use this tag to specify other information such as geolocation or ad network type.
-* This parameter maps to the Bizible 'Ad Campaign Name field' in SFDC.
-* _Bizible Best Practice_: When determining campaign names, avoid using punctuation marks or empty spaces between the words, because using them can lead to browser encoding errors. For best results, use underscores instead.
+* This parameter maps to the Marketo Measure 'Ad Campaign Name field' in SFDC.
+* _Marketo Measure Best Practice_: When determining campaign names, avoid using punctuation marks or empty spaces between the words, because using them can lead to browser encoding errors. For best results, use underscores instead.
 
 **utm_content**
 
 * Use the UTM Content parameter when you want to track more than one marketing piece existing on a single web page. For example, if you have a “Request a Demo” button and a “Sign Up for Our Weekly Newsletter” button, and wanted to know which one is generating the most traffic, you would name each one and use a UTM Content tag to track them. The name of each piece of “content” is the tag’s value.
-* This parameter maps to the Bizible 'Ad Content' field in SFDC.
-* _Bizible Best Practice_: This is an optional value but Bizible recommends using it. This tag is associated with the title of the ad or marketing piece you want to track. If you use an image ad, be sure to write the dimensions of the image in its title.
+* This parameter maps to the Marketo Measure 'Ad Content' field in SFDC.
+* _Marketo Measure Best Practice_: This is an optional value but Marketo Measure recommends using it. This tag is associated with the title of the ad or marketing piece you want to track. If you use an image ad, be sure to write the dimensions of the image in its title.
 
 **utm_term**
 
 * Term is similar to the UTM Content parameter. Term is great for identifying keywords in ads for paid campaigns. If you use the auto-tagging feature, this is done for you. If you are not using your ad platform’s auto-tagging feature, be sure to carefully add all the keywords you would like to track.
-* This parameter maps to the Bizible 'Keyword Text' field in SFDC.
-* _Bizible Best Practice_: The UTM Term tag is optional but great for tracking keywords. Double check spelling and avoid using special characters. If more than one word is needed, try to use underscores or no spaces at all.
+* This parameter maps to the Marketo Measure 'Keyword Text' field in SFDC.
+* _Marketo Measure Best Practice_: The UTM Term tag is optional but great for tracking keywords. Double check spelling and avoid using special characters. If more than one word is needed, try to use underscores or no spaces at all.
 
 Each parameter gathers information relevant to the value assigned. The value of each tag allows you to track and sort all of your digital campaigns and answer the questions: where, how, and why?
 
-Here's a chart of the UTM parameters Bizible parses and the corresponding Touchpoint field they are tied to:
+Here's a chart of the UTM parameters Marketo Measure parses and the corresponding Touchpoint field they are tied to:
 
-| **UTM Parameter** |**Corresponding Bizible Field** |
+| **UTM Parameter** |**Corresponding Marketo Measure Field** |
 |---|---|
 | utm_medium |Medium |
 | utm_source |Touchpoint Source |
@@ -77,6 +77,6 @@ Here's a chart of the UTM parameters Bizible parses and the corresponding Touchp
 
 >[!MORELIKETHIS]
 >
->[Bizible University: Online Channel Setup](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b753)
+>[Marketo Measure University: Online Channel Setup](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b753)
 >
->[Bizible University: Creating Channels & Subchannels](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b747)
+>[Marketo Measure University: Creating Channels & Subchannels](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b747)

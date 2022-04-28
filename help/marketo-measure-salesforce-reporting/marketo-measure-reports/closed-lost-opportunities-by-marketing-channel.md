@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874632
-description: Closed Lost Opportunities by Marketing Channel - Bizible - Product Documentation
+description: Closed Lost Opportunities by Marketing Channel - Marketo Measure - Product Documentation
 title: Closed Lost Opportunities by Marketing Channel
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 ---
@@ -40,4 +40,4 @@ Although this report might depend on your Opportunity Stages, this report will u
 
 >[!MORELIKETHIS]
 >
->[Bizible University: Additional SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[Marketo Measure University: Additional SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)

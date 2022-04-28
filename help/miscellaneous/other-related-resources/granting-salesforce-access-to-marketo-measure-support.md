@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874791
-description: Granting Salesforce Access to Marketo Measure Support - Measure - Product Documentation
+description: Granting Salesforce Access to Marketo Measure Support - Marketo Measure - Product Documentation
 title: Granting Salesforce Access to Marketo Measure Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 ---
 # Granting Salesforce Access to Marketo Measure Support {#granting-salesforce-access-to-marketo-measure-support}
 
-In some cases, Bizible Support may request access to your Salesforce environment to assist with diagnostic troubleshooting or Salesforce configuration during implementation.
+In some cases, Marketo Measure Support may request access to your Salesforce environment to assist with diagnostic troubleshooting or Salesforce configuration during implementation.
 
 Granting login access differs slightly depending on whether you are using Salesforce Classic or the Salesforce Lightning Experience.
 
@@ -22,12 +22,12 @@ Depending on your Organization, the Setup button will either be beside your name
 
     * Click on `<your name>` > **My Settings** > **Personal** > **Grant Account Login Access**.
 
-1. Set the access expiration date for Bizible Support. For technical troubleshooting, we recommend granting Bizible support access for at least one week.
+1. Set the access expiration date for Marketo Measure Support. For technical troubleshooting, we recommend granting Marketo Measure support access for at least one week.
 1. Click **Save**.
 
 ## Granting Login Access in Salesforce Lightning {#granting-login-access-in-salesforce-lightning}
 
 1. Click on your avatar in the top right-hand side of the screen and select **Settings**.
 1. Click **Grant Account Login Access**.
-1. Set the access expiration date for "Bizible Support." For technical troubleshooting, we recommend granting Bizible support access for at least one week.
+1. Set the access expiration date for "Marketo Measure Support." For technical troubleshooting, we recommend granting Marketo Measure support access for at least one week.
 1. Click **Save**.

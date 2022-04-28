@@ -1,5 +1,5 @@
 ---
-description: Unified Shell Overview - Bizible - Product Documentation
+description: Unified Shell Overview - Marketo Measure - Product Documentation
 title: Unified Shell Overview
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 ---
@@ -19,7 +19,7 @@ When visiting [https://apps.bizible.com](https://apps.bizible.com) and clicking 
 
    ![](assets/unified-shell-overview-2.png)
 
-You can use your Corporate Adobe Account to sign in to Experience Cloud. Once signed in, you'll be directed to https://experience.adobe.com/bizible and will see your normal Bizible home page, but with an updated look and feel. Menu items, actionable elements, and other features are in the same locations as the legacy Bizible system.
+You can use your Corporate Adobe Account to sign in to Experience Cloud. Once signed in, you'll be directed to https://experience.adobe.com/bizible and will see your normal Marketo Measure home page, but with an updated look and feel. Menu items, actionable elements, and other features are in the same locations as the legacy Marketo Measure system.
 
    ![](assets/unified-shell-overview-3.png)
 
@@ -43,13 +43,13 @@ In addition to the updated look and feel, you'll notice the following features:
 
 **Domain Management**
 
-[Manage your Bizible domains](/help/marketo-measure-and-adobe/domain-management.md) without assistance from Bizible.
+[Manage your Marketo Measure domains](/help/marketo-measure-and-adobe/domain-management.md) without assistance from Marketo Measure.
 
    ![](assets/unified-shell-overview-5.png)
 
 **Integrated Help Center**
 
-Search for support articles, submit tickets, provide feedback, all from within the Bizible application.
+Search for support articles, submit tickets, provide feedback, all from within the Marketo Measure application.
 
    ![](assets/unified-shell-overview-6.png)
 
@@ -69,7 +69,7 @@ View and interact with product-specific notifications and general Adobe product 
 
 **Adobe Settings**
 
-Click your profile icon to change your language or other Adobe-wide preferences. You can also make Bizible-speific changes by clicking **My Settings**.
+Click your profile icon to change your language or other Adobe-wide preferences. You can also make Marketo Measure-speific changes by clicking **My Settings**.
 
    ![](assets/unified-shell-overview-10.png)
 
@@ -79,9 +79,9 @@ Click your profile icon to change your language or other Adobe-wide preferences.
 
 Bookmarks will be redirected. For example, if you were to navigate to https://apps.bizible.com/Discover/391, you would be redirected to https://experience.adobe.com/bizible/Discover/391 after completing authentication.
 
-**I can't log in to Bizible through the Unified Shell. What might the issue be?**
+**I can't log in to Marketo Measure through the Unified Shell. What might the issue be?**
 
-If you can log in to Adobe Experience Cloud, but see the a page like the following, the issue could be on the Bizible side:
+If you can log in to Adobe Experience Cloud, but see the a page like the following, the issue could be on the Marketo Measure side:
 
    ![](assets/unified-shell-overview-11.png)
 

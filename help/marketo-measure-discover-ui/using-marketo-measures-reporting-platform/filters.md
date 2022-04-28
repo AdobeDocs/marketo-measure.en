@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874656
-description: Filters - Bizible - Product Documentation
+description: Filters - Marketo Measure - Product Documentation
 title: Filters
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 ---
@@ -22,7 +22,7 @@ Select or paste in a series of Account Ids from the CRM to filter the results. A
 
 _Used in: Account Based Marketing_
 
-Select or paste in a series of Account Names from the CRM to filter the results. Strings can have duplicates, so it is possible to have multiple “Bizible” accounts for example. If a single account is needed in this case, use the Account Id filter instead.
+Select or paste in a series of Account Names from the CRM to filter the results. Strings can have duplicates, so it is possible to have multiple “Marketo Measure” accounts for example. If a single account is needed in this case, use the Account Id filter instead.
 
 **Attribution Model**
 
@@ -40,7 +40,7 @@ Filter the board by a single or multiple campaign names. Operators give the filt
 
 _Used in: Overview, Growth, Ads ROI, CMO, Paid Media, Content Marketing, Velocity, Snapshot, Cohort Funnel, Passport_
 
-Apply segment filters to the board, using the Categories and Segments that you’ve created in the Bizible Settings. The list of Categories that you created will appear in the filters menu, so if no Categories have been set up, there will be no Category filters in the menu. Segment Categories are not available in all tiers, and the number of Categories available varies by tier as well.
+Apply segment filters to the board, using the Categories and Segments that you’ve created in the Marketo Measure Settings. The list of Categories that you created will appear in the filters menu, so if no Categories have been set up, there will be no Category filters in the menu. Segment Categories are not available in all tiers, and the number of Categories available varies by tier as well.
 
 **Channel**
 

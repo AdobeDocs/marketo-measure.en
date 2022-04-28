@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874574
-description: Marketo Measure Fields on Standard Salesforce Objects - Measure - Product Documentation
+description: Marketo Measure Fields on Standard Salesforce Objects - Marketo Measure - Product Documentation
 title: Marketo Measure Fields on Standard Salesforce Objects
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 ---
 # Marketo Measure Fields on Standard Salesforce Objects {#marketo-measure-fields-on-standard-salesforce-objects}
 
-Learn about the various Bizible fields that are added to Salesforce's standard objects.
+Learn about the various Marketo Measure fields that are added to Salesforce's standard objects.
 
 ## Account {#account}
 
@@ -40,17 +40,17 @@ Touchpoint Date (LC): This is the date of the lead creation touch interaction.
 
 There are only 4 fields added, 1 button, and 1 validation rule.
 
-UniqueID: This field is used internally for us to track the different Campaigns that are synced with Bizible.
+UniqueID: This field is used internally for us to track the different Campaigns that are synced with Marketo Measure.
 
-Enable Bizible Touchpoints: This field is for the actual syncing of Campaigns for offline attribution inclusion and historical data.
+Enable Buyer Touchpoints: This field is for the actual syncing of Campaigns for offline attribution inclusion and historical data.
 
 Touchpoint Start Date: This field is used for setting a start date of applying touchpoints to historical campaigns.
 
-Touchpoint End Date: This field is used for setting an end date for applying touchpoints to historical campaigns. A common example would the inclusion of digital campaigns pre-Bizible and then setting the end date as the day the script was applied.
+Touchpoint End Date: This field is used for setting an end date for applying touchpoints to historical campaigns. A common example would the inclusion of digital campaigns pre-Marketo Measure and then setting the end date as the day the script was applied.
 
 Bulk Update Touchpoint Date (Button): This button is used to manage the touchpoint date of the Campaign members when the Campaign is synced as we will reference either the Campaign Membership date or the first response date out of the box. In the event that those date fields aren't an accurate representation of the actual touchpoint date, we would use this button to set the touchpoint date.
 
-Update Bizible Attribution (Validation Rule): This rule is deprecated after package version 6.0.
+Update Marketo Measure Attribution (Validation Rule): This rule is deprecated after package version 6.0.
 
 ## Campaign Member {#campaign-member}
 
@@ -64,9 +64,9 @@ Touchpoint Status (Opportunity): This is a diagnostic field related to a feature
 
 Touchpoint Status Date: This is the date the diagnostic fields were populated.
 
-Bizible Touchpoint Date: This is related to the Bulk Update Touchpoint date button from the Campaign object. When that is used, we apply the defined Touchpoint date to the Campaign Member.
+Buyer Touchpoint Date: This is related to the Bulk Update Touchpoint date button from the Campaign object. When that is used, we apply the defined Touchpoint date to the Campaign Member.
 
-OnCampaignMemberDelete: Out of the box, Salesforce doesn't surface when Campaign Members are deleted which can cause issues with accurate attribution reporting. When a Campaign Member is deleted, this is triggered to inform Bizible to remove Touchpoints related to that non-existent Campaign Member.
+OnCampaignMemberDelete: Out of the box, Salesforce doesn't surface when Campaign Members are deleted which can cause issues with accurate attribution reporting. When a Campaign Member is deleted, this is triggered to inform Marketo Measure to remove Touchpoints related to that non-existent Campaign Member.
 
 ## Contact {#contact}
 
@@ -126,10 +126,10 @@ This is used for our Lead to Account mapping for our ABM feature. We populate th
 
 ## Opportunity {#opportunity}
 
-Bizible Opportunity Amount: This field is used in the scenario where a custom amount field is leveraged on the Opportunity. We map that custom field value to Bizible Opportunity Amount using a workflow and then read this field for our Revenue attribution fields on the Bizible Attribution Touchpoint object.
+Marketo Measure Opportunity Amount: This field is used in the scenario where a custom amount field is leveraged on the Opportunity. We map that custom field value to Marketo Measure Opportunity Amount using a workflow and then read this field for our Revenue attribution fields on the Buyer Attribution Touchpoint object.
 
 ## Activity {#activity}
 
 BizibleID: This is for us to relate a touchpoint to activities for our activity attribution and calltracking metrics integration.
 
-Bizible Touchpoint Date: This is a field that can be populated via a workflow to use as the date for activities attribution and will be populated for our calltrackingmetrics integration to know when the interaction occurred.
+Buyer Touchpoint Date: This is a field that can be populated via a workflow to use as the date for activities attribution and will be populated for our calltrackingmetrics integration to know when the interaction occurred.

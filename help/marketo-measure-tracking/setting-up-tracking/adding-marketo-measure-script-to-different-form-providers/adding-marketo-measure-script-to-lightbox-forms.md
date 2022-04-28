@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874519
-description: Adding Marketo Measure Script to Lightbox Forms - Measure - Product Documentation
+description: Adding Marketo Measure Script to Lightbox Forms - Marketo Measure - Product Documentation
 title: Adding Marketo Measure Script to Lightbox Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 ---
 # Adding Marketo Measure Script to Lightbox Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
-Learn how to properly add Bizible’s JavaScript to a form within a lightbox.
+Learn how to properly add Marketo Measure’s JavaScript to a form within a lightbox.
 
-A lightbox opens a form in front of your content when the visitor performs a specific action (IE clicking on a particular portion of the page, spending a certain period of time on the page, etc.). Typically we just ask to have the Bizible JavaScript placed in the head of the landing page, but for forms within a lightbox there’s one extra step needed.
+A lightbox opens a form in front of your content when the visitor performs a specific action (IE clicking on a particular portion of the page, spending a certain period of time on the page, etc.). Typically we just ask to have the Marketo Measure JavaScript placed in the head of the landing page, but for forms within a lightbox there’s one extra step needed.
 
 Since a form within a lightbox is basically a form within an IFrame, we’ll need our script placed within that iFrame.
 
@@ -16,7 +16,7 @@ First, locate the IFrame the lightbox form lives in.
 
 ![](assets/1.png)
 
-Next, place the Bizible JavaScript within the IFrame.
+Next, place the Marketo Measure JavaScript within the IFrame.
 
 ![](assets/2.png)
 

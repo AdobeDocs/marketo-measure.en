@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: Custom Segmentation - Bizible - Product Documentation
+description: Custom Segmentation - Marketo Measure - Product Documentation
 title: Custom Segmentation
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 ---
 # Custom Segmentation {#custom-segmentation}
 
-Segments provide the ability to filter data in the Bizible ROI Dashboard in order to further drill down on a specific data set. For example, a segment could be defined by geographic territory or a grading system.
+Segments provide the ability to filter data in the Marketo Measure ROI Dashboard in order to further drill down on a specific data set. For example, a segment could be defined by geographic territory or a grading system.
 
 **Why Custom Segmentation?**
 
@@ -14,7 +14,7 @@ The Custom Segmentation feature allows you to filter Touchpoints by one category
 
 **When is the Custom Segmentation feature helpful?**
 
-Custom Segmentation can be used to see data for a particular record type. Once you map the filter logic, you should be able to see in the Bizible dashboard’s Demand Waterfall View--the same data you would see in your CRM.
+Custom Segmentation can be used to see data for a particular record type. Once you map the filter logic, you should be able to see in the Marketo Measure dashboard’s Demand Waterfall View--the same data you would see in your CRM.
 
 **How do I set it up?**
 
@@ -24,7 +24,7 @@ Before you use this feature, figure out what touchpoint information you’d like
 
 Step 2 - Login and locate the Segments feature.
 
-* Go to apps.bizible.com and log-in
+* Go to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} and log in
 * Under the My Account tab, select Settings
 * Select Segments from the options on the sidebar to the left, under the Reporting section
 
@@ -48,7 +48,7 @@ Step 4 - Add Filter Rules.
 
 >[!NOTE]
 >
->Formula fields cannot be used within your rules and will not appear in the picklist. Because formulas calculate in the background and do not modify a record, Bizible cannot detect whether a record fits a rule or not.
+>Formula fields cannot be used within your rules and will not appear in the picklist. Because formulas calculate in the background and do not modify a record, Marketo Measure cannot detect whether a record fits a rule or not.
 
 * The Value option is not a drop down and its value must be entered manually. Be sure to check the values in your Salesforce org
 * Repeat this process for the Opportunities segment rules
@@ -58,14 +58,14 @@ Step 4 - Add Filter Rules.
 
     * Your mapping is accurate
     * You added all the segments you want to track within a category
-    * The Save and Process button triggers Bizible to sync all your Touchpoints and apply the new information you added. This process takes 7 days and rules cannot be changed during this period
+    * The Save and Process button triggers Marketo Measure to sync all your Touchpoints and apply the new information you added. This process takes 7 days and rules cannot be changed during this period
 
 **_Additional Notes:_**
 
 If rules aren’t set up for both Leads/Contacts and Opportunities, you will see only a portion of your data. To elaborate, if you do not set up the Opportunities rules, you will only see Lead/Contact data without the Opportunities associated with it. The same is true if you do not set up rules for Leads/Contacts--you will only see Opportunities without the associated Leads/Contacts.
 
-When you are done, click Save first, double check everything, and then click Save and Process. Remember that you will be unable to edit your settings for seven days when you save and process, as Bizible is reformatting your data during this time.
+When you are done, click Save first, double check everything, and then click Save and Process. Remember that you will be unable to edit your settings for seven days when you save and process, as Marketo Measure is reformatting your data during this time.
 
 **How do I save the generated reports?**
 
-You cannot save the generated reports directly in the user interface. However, Bizible saves the segment names in the URL so you can keep a record of each report by bookmarking the page.
+You cannot save the generated reports directly in the user interface. However, Marketo Measure saves the segment names in the URL so you can keep a record of each report by bookmarking the page.

@@ -40,7 +40,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
   + Getting Started with Marketo Measure {#getting-started-with-marketo-measure}
     + [Touchpoint Generation and Mapping](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
     + [Attribution Object Mapping](configuration-and-setup/getting-started-with-marketo-measure/attribution-object-mapping.md)
-    + [Difference Between Marketo Measure Touchpoints and Marketo Measure Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-marketo-measure-touchpoints-and-marketo-measure-attribution-touchpoints.md)
+    + [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
     + [Explanation of Touchpoint Positions and Generation Across BTs and BATs](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
     + [Marketo Measure Quick Start](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md)
   + Marketo Measure and Salesforce {#marketo-measure-and-salesforce}
@@ -131,7 +131,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Account Based Marketing Overview](advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)
   + A/B Testing {#a-b-testing}
     + [A/B Testing Set Up and Reporting](advanced-marketo-measure-features/a-b-testing/a-b-testing-set-up-and-reporting.md)
-    + [Configuring the marketo-measure A/B Test Integration](advanced-marketo-measure-features/a-b-testing/configuring-the-marketo-measure-a-b-test-integration.md)
+    + [Configuring the Marketo Measure A/B Test Integration](advanced-marketo-measure-features/a-b-testing/configuring-the-marketo-measure-a-b-test-integration.md)
   + Chat Integration {#chat-integration}
     + [Drift Integration FAQ](advanced-marketo-measure-features/chat-integration/drift-integration-faq.md)
   + Multi-Currency {#multi-currency}
@@ -154,7 +154,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Marketing Ops Tiles](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
     + [Overview Board Tiles](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + Marketo Measure and Adobe {#marketo-measure-and-adobe}
-  + [marketo-measure Integrations with Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
+  + [Marketo Measure Integrations with Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
   + [Domain Management](marketo-measure-and-adobe/domain-management.md)
   + [Migration to Adobe Admin Console](marketo-measure-and-adobe/migration-to-adobe-admin-console.md)
   + [Unified Shell Overview](marketo-measure-and-adobe/unified-shell-overview.md)
@@ -183,8 +183,8 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Marketo Measure 101 Reports Overview](marketo-measure-salesforce-reporting/marketo-measure-reports/marketo-measure-101-reports-overview.md)
     + [Opportunities by Marketing Channel](marketo-measure-salesforce-reporting/marketo-measure-reports/opportunities-by-marketing-channel.md)
     + [Closed Lost Opportunities by Marketing Channel](marketo-measure-salesforce-reporting/marketo-measure-reports/closed-lost-opportunities-by-marketing-channel.md)
-    + [Leads with Marketo Measure Touchpoints Report](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-marketo-measure-touchpoints-report.md)
-    + [Reporting on Opportunities with or Without marketo-measure Attribution Touchpoints](marketo-measure-salesforce-reporting/marketo-measure-reports/reporting-on-opportunities-with-or-without-marketo-measure-attribution-touchpoints.md)
+    + [Leads with Buyer Touchpoints Report](marketo-measure-salesforce-reporting/marketo-measure-reports/leads-with-buyer-touchpoints-report.md)
+    + [Reporting on Opportunities with or Without Buyer Attribution Touchpoints](marketo-measure-salesforce-reporting/marketo-measure-reports/reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints.md)
     + [Duplicate Records in My Report](marketo-measure-salesforce-reporting/marketo-measure-reports/duplicate-records-in-my-report.md)
   + Additional Functionality {#additional-functionality}
     + [PostLC Touchpoints and Lead Engagement](marketo-measure-salesforce-reporting/additional-functionality/postlc-touchpoints-and-lead-engagement.md)
@@ -201,7 +201,6 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
   + [Marketo Measure Report Template - Tableau](bi-report-templates/marketo-measure-report-template-tableau.md)
 + Security and Compliance {#security-and-compliance}
   + Compliance Related Resources {#compliance-related-resources}
-    + [Single Sign On](security-and-compliance/compliance-related-resources/single-sign-on.md)
     + [Ensuring Consent for GDPR in Marketo Measure Js](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
     + [Security Session Restrictions: IP Addresses to Allowlist](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + Miscellaneous {#miscellaneous}
@@ -209,7 +208,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Marketo Measure Maintenance](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
     + [Marketo Measure Resource List](miscellaneous/other-related-resources/marketo-measure-resource-list.md)
     + [Call Tracking Integration](miscellaneous/other-related-resources/call-tracking-integration.md)
-    + [Difference between a Google Analytics Conversion and a Marketo Measure Touchpoint](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-marketo-measure-touchpoint.md)
+    + [Difference between a Google Analytics Conversion and a Buyer Touchpoint](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
     + [Email Tracking Parameter](miscellaneous/other-related-resources/email-tracking-parameter.md)
     + [Granting Salesforce Access to Marketo Measure Support](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
     + [Privacy Request](miscellaneous/other-related-resources/privacy-requests.md)

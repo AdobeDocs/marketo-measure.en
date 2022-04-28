@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656737
-description: Report Marketing Spend - Bizible - Product Documentation
+description: Report Marketing Spend - Marketo Measure - Product Documentation
 title: Report Marketing Spend
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 ---
@@ -18,9 +18,9 @@ When a user downloads the cost file, the file will also contain a new column wit
 
 ## Costs from Ad Integrations {#costs-from-ad-integrations}
 
-When Bizible imports the cost from connected platforms such as AdWords, Bing, Facebook, or Doubleclick, we also use the reported currency. The currency will display alongside the Channel, Subchannel, and Campaign when displayed in the Marketing Spend table.
+When Marketo Measure imports the cost from connected platforms such as AdWords, Bing, Facebook, or Doubleclick, we also use the reported currency. The currency will display alongside the Channel, Subchannel, and Campaign when displayed in the Marketing Spend table.
 
-If the currency from the Ad Provider doesn’t match a currency that is pulled from the CRM, you may see a “Mixed Currencies” error in Bizible Discover because we were unable to make a conversion on that currency. To fix this, your CRM Admin needs to add a conversion for the unknown currency.
+If the currency from the Ad Provider doesn’t match a currency that is pulled from the CRM, you may see a “Mixed Currencies” error in Marketo Measure Discover because we were unable to make a conversion on that currency. To fix this, your CRM Admin needs to add a conversion for the unknown currency.
 
 ## Migrate to Converted Marketing Spend {#migrate-to-converted-marketing-spend}
 
@@ -28,5 +28,5 @@ Because our marketing spend has historically only been in a single (USD) currenc
 
 1. Download the current Spend file to a CSV
 1. The currency column will display “USD” as the assumed currency. You can either manually replace all the occurrences of “USD” or use Find+Replace to change all the “USD” instances to your own corporate currency, such as “EUR” or “GBP” for example.
-1. Save the file then upload it back into Bizible.
+1. Save the file then upload it back into Marketo Measure.
 1. All of your reported costs will now display as the new currency.

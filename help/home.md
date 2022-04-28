@@ -23,6 +23,6 @@ Marketo Measure (formerly Bizible) unifies behavioral and ad data with sales out
 ## Popular Articles
 
 * [Adding Marketo Measure Script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
-* [Difference Between Marketo Measure Touchpoints and Marketo Measure Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-marketo-measure-touchpoints-and-marketo-measure-attribution-touchpoints.md)
+* [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 * [Online Custom Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline Custom Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 34406495
-description: Marketing Ops Tiles - Bizible - Product Documentation
+description: Marketing Ops Tiles - Marketo Measure - Product Documentation
 title: Marketing Ops Tiles
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
 ---
 # Marketing Ops Tiles {#marketing-ops-tiles}
 
-Marketing Ops allows you to validate and diagnose Bizible data with complete visibility into individual touchpoints per Leads, Contacts, Accounts, Campaigns, and Opportunities.
+Marketing Ops allows you to validate and diagnose Marketo Measure data with complete visibility into individual touchpoints per Leads, Contacts, Accounts, Campaigns, and Opportunities.
 
 <table> 
  <colgroup> 
@@ -136,7 +136,7 @@ Displays the following data related to Account(s) specified.
 
 -Web Site : Value found in the Website field on the Account
 
--Engagement Rating : Predictive Engagement Score (PES) populated by Bizible^1
+-Engagement Rating : Predictive Engagement Score (PES) populated by Marketo Measure^1
 
 -Opportunities : Number of Opportunities connected to the account
 
@@ -150,9 +150,9 @@ Displays the following data related to Account(s) specified.
 
 * Drill-down: See details for the leads that have been mapped to the account
 
--Attribution Touchpoints : Number of Bizible Attribution Touchpoints for the account
+-Attribution Touchpoints : Number of Buyer Attribution Touchpoints for the account
 
-* Drill-down: See Bizible Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+* Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
 -Touchpoints : Number of Touchpoints the contacts on this account have^2
 
@@ -188,9 +188,9 @@ Drill-down: See Close Date by Hour, Minute, Time
 
 Drill-down: See details for the associated contacts
 
--Attribution Touchpoints : Number of related Bizible Attribution Touchpoints
+-Attribution Touchpoints : Number of related Buyer Attribution Touchpoints
 
-Drill-down: See Bizible Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
 ## Contacts Tile {#contacts-tile}
 
@@ -208,11 +208,11 @@ Displays the following data related to Contact(s) specified.
 
 -Account Name : Account name associated to the contact
 
--Attribution Touchpoints : Number of Bizible Attribution Touchpoints for the contact
+-Attribution Touchpoints : Number of Buyer Attribution Touchpoints for the contact
 
-* Drill-down: See Bizible Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+* Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
--Touchpoints : Number of Bizible Touchpoints for the contact
+-Touchpoints : Number of Buyer Touchpoints for the contact
 
 * Drill-down: See Contacts on the account Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type)
 
@@ -232,7 +232,7 @@ Displays the following data related to Lead(s) specified.
 
 -Company (from Lead) : The company that is listed on the record in the CRM populated by customer
 
--Account Name : The account name Bizible populates based on our Lead to Account Mapping
+-Account Name : The account name Marketo Measure populates based on our Lead to Account Mapping
 
 -Touchpoints : The number of Touchpoints associated to the lead (s)
 
@@ -248,13 +248,13 @@ Displays the following data related to Campaign(s) specified.
 
 -Campaign Name : Campaign Name in CRM
 
--Campaign Spend : The spend Bizible has recorded associated to the campaign
+-Campaign Spend : The spend Marketo Measure has recorded associated to the campaign
 
 -Attribution Model : This will show the appropriate attribution based on the model selected
 
--Attribution Touchpoints : The number of Bizible Attribution Touchpoints associated to the campaign (s)
+-Attribution Touchpoints : The number of Buyer Attribution Touchpoints associated to the campaign (s)
 
-* Drill-down: See Bizible Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
+* Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
 -Touchpoints : The number of Touchpoints associated to the campaign(s)
 
