@@ -71,5 +71,3 @@ If there is a value, note that we only consider all web sessions to be 30 minute
 ## Partnerships {#partnerships}
 
 Marketo Measure currently has one official Call Tracking partner that has gone through the “official” integration process with us, which included co-marketing and product training. This one partner is CallTrackingMetrics.  
-  
-If you are interested in your Call Tracking vendor working with Marketo Measure, please have them reach out to product@bizible.com.
