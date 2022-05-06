@@ -89,7 +89,9 @@ In order for Marketo Measure to set up a direct share, the account requesting ac
 
 Once the share has been created for the account id provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance in order to access the data.
 
-Please note, you can choose any database name you want. You can assign the privileges to any rule you choose, so long as it exists in your Snowflake instance.
+>[!NOTE]
+>
+>You can choose any database name you want. You can assign the privileges to any rule you choose, so long as it exists in your Snowflake instance.
 
 * Use the Account Admin role
 
