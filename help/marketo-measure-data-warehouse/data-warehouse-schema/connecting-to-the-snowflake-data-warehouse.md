@@ -77,20 +77,17 @@ You'll need to enter a few pieces of information to connect your Snowflake data 
 
 In order for Marketo Measure to set up a direct share to the data warehouse you must meet the following requirements.
 
-You have your own Snowflake instance.
-Your Snowflake instance is located in the Azure East US 2 Snowflake region.
-You provide Marketo Measure with your Snowflake account id.
+* You have your own Snowflake instance.
+* Your Snowflake instance is located in the Azure East US 2 Snowflake region.
+* You provide Marketo Measure with your Snowflake account id.
 
 **Limitations**
 
-In order for Marketo Measure to set up a direct share, the account requesting access must be located in Azure East US 2. We are aware Snowflake offers a data replication solution between regions, however we do not support this from our end as we only host data in the Azure East US 2 region. You may
-leverage this feature by setting up your own instance in Azure East US 2 and [replicating the data across regions](https://docs.snowflake.com/en/user-guide/secure-data-sharing-across-regions-plaforms.html){target="_blank"} to your existing instance. However, Snowflake's data replication feature is only available on tables, so in order to use this feature you will need to copy the data from our views to you own
-tables first.
+In order for Marketo Measure to set up a direct share, the account requesting access must be located in Azure East US 2. We are aware Snowflake offers a data replication solution between regions, however we do not support this from our end as we only host data in the Azure East US 2 region. You may leverage this feature by setting up your own instance in Azure East US 2 and [replicating the data across regions](https://docs.snowflake.com/en/user-guide/secure-data-sharing-across-regions-plaforms.html){target="_blank"} to your existing instance. However, Snowflake's data replication feature is only available on tables, so in order to use this feature you will need to copy the data from our views to your own tables first.
 
 **Accessing the Share**
 
-Once the share has been created for the account id provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance in order to access the
-data.
+Once the share has been created for the account id provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance in order to access the data.
 
 >[!NOTE]
 >
