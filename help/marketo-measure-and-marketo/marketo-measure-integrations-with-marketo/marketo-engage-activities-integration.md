@@ -143,7 +143,11 @@ Received Forward to Friend Email (112)
 Change Nurture Track (114)  
 Push Lead to Marketo (145)  
 Sync Lead to Microsoft (300)  
-Share Content (400)  
+Share Content (400)
+Dialogue Engaged (158)
+Document Interacted With (159)
+Dialogue Appointment Scheduled (160)
+Dialogue Goal Reached (161)
 Custom Activity (xxx)
 
 ## Channel Mapping {#channel-mapping}
