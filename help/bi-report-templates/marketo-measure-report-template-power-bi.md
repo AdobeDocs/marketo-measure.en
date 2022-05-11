@@ -13,13 +13,13 @@ Open the Adobe Marketo Measure Reporting Template Power BI file.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-You can find your specific Server, Warehouse, and Schema information in the Marketo Measure UI on the Data Warehouse information page. Instructions for how to locate this page are detailed [here](/help/marketo-measure-data-warehouse/data-warehouse-schema/connecting-to-the-snowflake-data-warehouse.md){target="_blank"}.
+You can find your specific Server, Warehouse, and Schema information in the Marketo Measure UI on the Data Warehouse information page. Instructions for how to locate this page are detailed [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 The QueryFilterStartDate and QueryFilterEndDate parameters are used to limit the amount of data imported. These parameters must be in SQL format as they are used to in the queries sent to Snowflake. For example, if you want to limit data to the past two years, the QueryFilterStartDate would be dateadd (year,-2,current_date()). These parameters are compared against datetime data types, so it's recommended to use dateadd (day,1,current_date()) for the QueryFilterEndDate to return all data to the current time.
 
 ## Data Connection {#data-connection}
 
-The parameters entered when opening the file are used to structure native queries which import tables from the data warehouse. You will still need to set up a data connection to your Snowflake instance. For this you'll need the same Server and Warehouse names along with your Username and Password. Details on where to find your Username and reset your Password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-schema/connecting-to-the-snowflake-data-warehouse.md){target="_blank"}.
+The parameters entered when opening the file are used to structure native queries which import tables from the data warehouse. You will still need to set up a data connection to your Snowflake instance. For this you'll need the same Server and Warehouse names along with your Username and Password. Details on where to find your Username and reset your Password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Data Import {#data-import}
 

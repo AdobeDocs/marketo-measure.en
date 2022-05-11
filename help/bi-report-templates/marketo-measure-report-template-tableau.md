@@ -17,7 +17,7 @@ You will need to update the existing connection data to your specific Snowflake 
 
 ## Data Connection {#data-connection}
 
-You'll need to set up a data connection to your Snowflake instance. For this you'll need the Server name along with your Username and Password. Details on where to find this information and reset your password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-schema/connecting-to-the-snowflake-data-warehouse.md){target="_blank"}.
+You'll need to set up a data connection to your Snowflake instance. For this you'll need the Server name along with your Username and Password. Details on where to find this information and reset your password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
