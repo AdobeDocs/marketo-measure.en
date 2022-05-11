@@ -170,7 +170,7 @@ Definitions have been added to the Power BI model for tables, custom columns, an
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-To view definitions for columns coming directly from Snowflake, please see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema/snowflake-data-warehouse-schema-version-3.md){target="_blank"}
+To view definitions for columns coming directly from Snowflake, please see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Discrepancies Between Templates and Discover {#discrepancies-between-templates-and-discover}
 

@@ -193,9 +193,9 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Best Practices for Merging Leads](marketo-measure-salesforce-reporting/additional-functionality/best-practices-for-merging-leads.md)
     + [Enabling the Permission to Edit Converted Leads](marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md)
 + Marketo Measure Data Warehouse {#marketo-measure-data-warehouse}
-  + Data Warehouse Schema {#data-warehouse-schema}
-    + [Connecting to the Snowflake Data Warehouse](marketo-measure-data-warehouse/data-warehouse-schema/connecting-to-the-snowflake-data-warehouse.md)
-    + [Snowflake Data Warehouse Schema Version 3](marketo-measure-data-warehouse/data-warehouse-schema/snowflake-data-warehouse-schema-version-3.md)
+  + [Data Warehouse Access – Reader Account](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
+  + [Data Warehouse Access – Direct Share](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
+  + [Data Warehouse Schema](marketo-measure-data-warehouse/data-warehouse-schema.md)
 + BI Report Templates {#bi-report-templates}
   + [Marketo Measure Report Template - Power BI](bi-report-templates/marketo-measure-report-template-power-bi.md)
   + [Marketo Measure Report Template - Tableau](bi-report-templates/marketo-measure-report-template-tableau.md)
