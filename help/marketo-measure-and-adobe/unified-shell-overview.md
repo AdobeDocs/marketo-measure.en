@@ -11,7 +11,7 @@ Unified Shell aligns the "shell" look and feel of Adobe Experience Cloud applica
 
 **Traditional**
 
-This flow is for those who have not yet been [IMS-migrated](/help/marketo-measure-and-adobe/migration-to-adobe-admin-console.md).
+This flow is for those who have not yet been IMS-migrated.
 
 When visiting [https://apps.bizible.com](https://apps.bizible.com) and clicking "Sign in with Adobe ID," you're automatically directed to [https://experience.adobe.com/bizible](https://experience.adobe.com/bizible).
 
@@ -25,7 +25,7 @@ You can use your Corporate Adobe Account to sign in to Experience Cloud. Once si
 
 **Unified Shell Flow**
 
-This flow is for those who _have_ been [IMS-migrated](/help/marketo-measure-and-adobe/migration-to-adobe-admin-console.md).
+This flow is for those who have been IMS-migrated.
 
 If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **Bizible**.
 
