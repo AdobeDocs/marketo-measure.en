@@ -200,6 +200,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
   + [Marketo Measure Report Template - Tableau](bi-report-templates/marketo-measure-report-template-tableau.md)
 + Security and Compliance {#security-and-compliance}
   + Compliance Related Resources {#compliance-related-resources}
+    + [Discover Data Download Access Control](security-and-compliance/compliance-related-resources/discover-data-download-access-control.md)
     + [Ensuring Consent for GDPR in Marketo Measure Js](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
     + [Security Session Restrictions: IP Addresses to Allowlist](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + Miscellaneous {#miscellaneous}
