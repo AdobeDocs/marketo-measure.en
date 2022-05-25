@@ -57,6 +57,10 @@ Do you have any non-secure pages? If so, you'll want to secure them as navigatin
 
 Be sure to have a conversation with your web team so they know Marketo Measure JavaScript should always be on the appropriate web properties. If new pages/forms/sites are introduced, make sure deploying Marketo Measure JavaScript is part of the protocol.
 
+If a Web Application Firewall (WAF) warning is triggered during the JavaScript setup, users can either disable that WAF rule or allow-list the cookies, as the below example:
+
+   ![](assets/adding-marketo-measure-script-1.png)
+
 ## Forms to Pay Extra Attention To {#forms-to-pay-extra-attention-to}
 
 **Multi-form submission**

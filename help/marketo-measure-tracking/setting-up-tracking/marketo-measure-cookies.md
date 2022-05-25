@@ -17,3 +17,7 @@ Learn about the various Marketo Measure Cookies that are loaded onto your site w
 | _biz_nA |First party |Sequence number that Marketo Measure includes for all requests, for internal diagnostics purpose |
 | _biz_dfsA |First party |Temporarily stores form submission data that happens before bizible.js receives a configuration JS to determine whether or not tracking form on HTTPS is enabled. |
 | _biz_pendingA |First party |Temporarily stores analytics data that has not been successfully sent to Marketo Measure server yet. |
+
+If a Web Application Firewall (WAF) warning is triggered during the JavaScript setup, users can either disable that WAF rule or allow-list the cookies, as the below example:
+
+![](assets/marketo-measure-cookies-1.png)
