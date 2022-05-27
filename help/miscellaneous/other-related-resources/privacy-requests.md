@@ -1,8 +1,6 @@
 ---
 description: Privacy Requests - Marketo Measure - Product Documentation
 title: Privacy Requests
-hide: yes
-hidefromtoc: yes
 exl-id: 883e475f-9868-412a-b505-230556f38484
 ---
 # Privacy Requests {#privacy-requests}
