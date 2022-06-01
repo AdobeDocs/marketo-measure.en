@@ -5,6 +5,10 @@ exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 ---
 # Best Practices for Marketo Measure CRM Package {#best-practices-for-marketo-measure-crm-package}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 ## Overview {#overview}
 
 Marketo Measure integrates with both Salesforce and Microsoft Dynamics, this document will focus on the Marketo Measure best practices for the CRM packages designed for Salesforce.

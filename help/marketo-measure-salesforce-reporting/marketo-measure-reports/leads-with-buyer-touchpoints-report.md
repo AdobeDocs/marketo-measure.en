@@ -6,6 +6,10 @@ exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 ---
 # Leads with Buyer Touchpoints Report {#leads-with-buyer-touchpoints-report}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Out of the box you have many reporting capabilities at your fingertips when it comes to Marketo Measure, but there are some additional report types we recommend building. Learn about creating an inclusive Leads with Buyer Touchpoints report type below.
 
 1. Navigate to your Setup option within Salesforce. From there, expand the “Create” grouping and select **Report Types**.

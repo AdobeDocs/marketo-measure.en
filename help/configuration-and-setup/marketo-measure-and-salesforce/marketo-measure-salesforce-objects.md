@@ -6,6 +6,10 @@ exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 ---
 # Marketo Measure Salesforce Objects {#marketo-measure-salesforce-objects}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 When Marketo Measure is installed in Salesforce (SFDC), several custom Marketo Measure Objects are added. This lesson provides an explanation of several of those custom Marketo Measure Objects. Some Objects that Marketo Measure adds to Salesforce are:
 
 * [Buyer Touchpoint](#touchpoint)

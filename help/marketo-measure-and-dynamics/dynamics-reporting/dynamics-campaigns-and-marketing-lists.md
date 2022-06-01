@@ -6,6 +6,10 @@ exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 ---
 # Dynamics Campaigns and Marketing Lists {#dynamics-campaigns-and-marketing-lists}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 ## Campaigns {#campaigns}
 
 Dynamics Campaigns are good for tracking offline marketing activity and including them in the omni-channel journey. Campaigns have to relate to Leads or Contacts and can either roll up to the Campaign through either Campaign Responses or Marketing Lists.

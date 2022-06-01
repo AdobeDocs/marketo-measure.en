@@ -5,6 +5,10 @@ exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 ---
 # Marketo Measure Reporting Guide {#marketo-measure-reporting-guide}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Before building a Marketo Measure report, it’s most crucial to confirm your Marketo Measure Account Settings have been reviewed and configured to ensure the data within the reports is accurate and reflects the specificities of your business. In addition to this, reporting projects work best when they follow a structured process. Justin Norris, a Marketo Measure power-user, advocate and partner from [Perkuto](https://perkuto.com/) expertly summarized [how to approach reporting in Marketo Measure](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
 **Establish Goals**: “The first question to ask is ‘why do we measure?’ Lori Wizdo of [Forrester Research](https://go.forrester.com/) summed it up nicely in a [Marketo webinar](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). According to her, ‘we measure to prove or validate a decision or the value of marketing or to get better (process improvement).’ We would add that the insights from good measurement also provide input and guidance into the marketing planning process.

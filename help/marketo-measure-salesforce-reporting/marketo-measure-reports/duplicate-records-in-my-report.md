@@ -6,6 +6,10 @@ exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 ---
 # Duplicate Records in My Report {#duplicate-records-in-my-report}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 As you dive into the Marketo Measure Reports in Salesforce, you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review Marketo Measure's out-of-the-box reports.
 
 When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you'll be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).

@@ -6,6 +6,10 @@ exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 ---
 # Marketo Measure Dynamics Schema {#marketo-measure-dynamics-schema}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Below you'll find the required Dynamics schema in order to get started with Marketo Measure. All entities and fields are listed, along with the required read and/or write access.
 
 ## Buyer Touchpoints {#buyer-touchpoints}

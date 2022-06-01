@@ -6,6 +6,10 @@ exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 ---
 # Marketo Measure Fields on Standard Salesforce Objects {#marketo-measure-fields-on-standard-salesforce-objects}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Learn about the various Marketo Measure fields that are added to Salesforce's standard objects.
 
 ## Account {#account}

@@ -6,6 +6,10 @@ exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 ---
 # Testing a Staging Environment {#testing-a-staging-environment}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 ## Testing a Sandbox Environment {#testing-a-sandbox-environment}
 
 One of Marketo Measure’s core functionalities is its ability to track your digital marketing efforts through actions on your site and then pushing that data to your production Salesforce org through Leads and Contacts. However, typically there are not inbound Leads created from your website within the Sandbox environment so the focus on data will be from a purely offline standpoint.

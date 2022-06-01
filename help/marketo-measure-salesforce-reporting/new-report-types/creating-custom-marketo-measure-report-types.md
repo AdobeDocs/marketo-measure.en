@@ -6,6 +6,10 @@ exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 ---
 # Creating Custom Marketo Measure Report Types {#creating-custom-marketo-measure-report-types}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Learn how to create custom Marketo Measure Salesforce report types. There are three different report types we recommend creating: Leads with Buyer Touchpoints (Custom), Marketo Measure Person with Buyer Touchpoints (Custom), Opportunities with Buyer Attribution Touchpoint (Custom).
 
 ## Leads with Buyer Touchpoints (Custom) {#leads-with-buyer-touchpoints-custom}

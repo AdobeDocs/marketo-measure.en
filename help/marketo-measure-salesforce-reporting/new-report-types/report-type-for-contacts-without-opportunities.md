@@ -6,6 +6,10 @@ exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 ---
 # Report Type for Contacts Without Opportunities {#report-type-for-contacts-without-opportunities}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 In order to report on Contacts with Buyer Touchpoints that are not associated to an Opportunity, you need to create a custom report type.
 
 1. Go to **Setup** > **Create** > **Report Types**.

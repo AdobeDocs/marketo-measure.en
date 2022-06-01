@@ -5,6 +5,10 @@ exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 ---
 # Marketo Measure 101 Reports Overview {#marketo-measure-101-reports-overview}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 All Marketo Measure customers using Marketo Measure and Salesforce have access to the ‘Buyer Touchpoints Reports' folder within their SFDC instance. This folder contains a number of pre-built reports that can help you get started on reporting with Buyer Touchpoint data.
 
 ![](assets/bizible-101-reports-overview-1.png)

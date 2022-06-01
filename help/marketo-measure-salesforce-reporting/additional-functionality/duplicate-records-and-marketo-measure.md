@@ -6,11 +6,15 @@ exl-id: e340100c-120a-4771-946d-336a1458da4e
 ---
 # Duplicate Records and Marketo Measure {#duplicate-records-and-marketo-measure}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Marketo Measure leverages the email address as our unique identifier when matching data to a related Lead or Contact in the CRM. When Marketo Measure finds multiple Leads or Contacts with the same email address, we will surface the same data on all records. The impact of this comes when you are reporting on the Leads or Contacts with Marketo Measure and can incorrectly inflate the amount of unique people who have Buyer Touchpoints.
   
 What does this look like in Marketo Measure Reporting?
 
-*Example report: Marketo Measure Persons with Buyer Touchpoints.*
+_Example report: Marketo Measure Persons with Buyer Touchpoints._
 
 ![](assets/1-1.png)
   

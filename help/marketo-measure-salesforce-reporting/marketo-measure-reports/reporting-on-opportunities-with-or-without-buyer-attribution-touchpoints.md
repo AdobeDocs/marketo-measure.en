@@ -6,6 +6,10 @@ exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 ---
 # Reporting on Opportunities with or Without Buyer Attribution Touchpoints {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Create a new Report Type to include all Opportunities with or without Buyer Attribution Touchpoints.
 
 1. Go to **Setup** > **Create** > **Report Types**.

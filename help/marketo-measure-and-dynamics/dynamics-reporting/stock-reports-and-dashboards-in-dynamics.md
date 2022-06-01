@@ -6,6 +6,10 @@ exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 ---
 # Stock Reports and Dashboards in Dynamics {#stock-reports-and-dashboards-in-dynamics}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Marketo Measure’s Managed Solution comes with a number of stock Dashboards and Reports, designed to cover your basic needs when viewing Marketo Measure data in Dynamics. Below is the full list and some common use cases.
 
 ## Dashboards (9 total) {#dashboards-total}

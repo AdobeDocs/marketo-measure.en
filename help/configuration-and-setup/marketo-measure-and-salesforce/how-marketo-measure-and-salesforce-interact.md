@@ -6,6 +6,10 @@ exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 ---
 # How Marketo Measure and Salesforce Interact {#how-marketo-measure-and-salesforce-interact}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 Let's take a high-level look at the relationship between Marketo Measure and Salesforce.
 
 ## Salesforce and Marketo Measure  {#salesforce-and-marketo-measure}

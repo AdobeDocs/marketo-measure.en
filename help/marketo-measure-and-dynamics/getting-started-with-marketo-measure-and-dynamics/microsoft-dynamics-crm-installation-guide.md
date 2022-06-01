@@ -6,6 +6,10 @@ exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 ---
 # Microsoft Dynamics CRM Installation Guide {#microsoft-dynamics-crm-installation-guide}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 ## Supported Versions {#supported-versions}
 
 Marketo Measure supports the following Microsoft Dynamics CRM versions:

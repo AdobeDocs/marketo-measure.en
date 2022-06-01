@@ -6,6 +6,10 @@ exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 ---
 # Page Layout Instructions {#page-layout-instructions}
 
+>[!NOTE]
+>
+>You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
 To easily see Marketo Measure data, it's recommended to update Page Layouts for the Account, Contact, Lead, Opportunity, and Campaign Objects. The instructions are broken out for each Object Page Layout below.
 
 To begin, first navigate to your Salesforce Setup settings and locate the Customize tab.
