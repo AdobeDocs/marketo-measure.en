@@ -9,10 +9,10 @@ This document provides an overview of managing individual data privacy requests 
 
 You can submit individual requests to access and delete consumer data from Marketo Measure in two ways:
 
-* Through the [Privacy Service UI](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Through the **Privacy Service API**. See the documentation [here](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) and the API reference [here](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Through the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Through the **Privacy Service API**. See the documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-The [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) supports two types of requests: data access and data deletion.
+The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} supports two types of requests: data access and data deletion.
 
 Let’s see how you can create Access and Delete requests.
 
