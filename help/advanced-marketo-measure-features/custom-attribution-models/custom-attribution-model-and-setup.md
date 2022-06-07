@@ -22,6 +22,10 @@ Marketo Measure's Custom Attribution model allows users to choose which touchpoi
 
    Once here, you will need to select which Leads/Contacts, and Opportunity stages to include by selecting the **Include in Model** box.
 
+   >[!NOTE]
+   >
+   >You are allowed up to 15 custom stages (non-CRM and non-default).
+
    ![](assets/1-1.png)
 
    >[!NOTE]
