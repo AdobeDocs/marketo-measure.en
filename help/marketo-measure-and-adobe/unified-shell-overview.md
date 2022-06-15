@@ -7,27 +7,11 @@ exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 
 Unified Shell aligns the "shell" look and feel of Adobe Experience Cloud applications and services. But, it's more than just a new design. It's a single-page application that delivers user experience in a single instance.
 
-## User Flows {#user-flows}
-
-**Traditional**
-
-This flow is for those who have not yet been IMS-migrated.
-
-When visiting [https://apps.bizible.com](https://apps.bizible.com) and clicking "Sign in with Adobe ID," you're automatically directed to [https://experience.adobe.com/bizible](https://experience.adobe.com/bizible).
-
-   ![](assets/unified-shell-overview-1.png)
-
-   ![](assets/unified-shell-overview-2.png)
-
-You can use your Corporate Adobe Account to sign in to Experience Cloud. Once signed in, you'll be directed to https://experience.adobe.com/bizible and will see your normal Marketo Measure home page, but with an updated look and feel. Menu items, actionable elements, and other features are in the same locations as the legacy Marketo Measure system.
-
-   ![](assets/unified-shell-overview-3.png)
+## User Flow {#user-flow}
 
 **Unified Shell Flow**
 
-This flow is for those who have been IMS-migrated.
-
-If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **Bizible**.
+If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **Marketo Measure**.
 
    ![](assets/unified-shell-overview-4.png)
 
@@ -35,7 +19,7 @@ If you're already logged in to an Adobe Experience Cloud product, click the menu
 >
 >Your drop-down menu may look different depending on which Adobe Experience Cloud products you’re subscribed to.
 
-If you're _not_ already logged in to an Adobe Experience Cloud product, log in directly to Bizible here: [https://experience.adobe.com/bizible](https://experience.adobe.com/bizible).
+If you're _not_ already logged in to an Adobe Experience Cloud product, log in directly to Marketo Measure here: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## New Features {#new-features}
 
@@ -77,7 +61,7 @@ Click your profile icon to change your language or other Adobe-wide preferences.
 
 **What happens to my bookmarks?**
 
-Bookmarks will be redirected. For example, if you were to navigate to https://apps.bizible.com/Discover/391, you would be redirected to https://experience.adobe.com/bizible/Discover/391 after completing authentication.
+Bookmarks will be redirected. For example, if you were to navigate to https://apps.marketo-measure.com/Discover/391, you would be redirected to https://experience.adobe.com/marketo-measure/Discover/391 after completing authentication.
 
 **I can't log in to Marketo Measure through the Unified Shell. What might the issue be?**
 
