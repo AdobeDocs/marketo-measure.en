@@ -1,10 +1,10 @@
 ---
 unique-page-id: 35586140
-description: Snowflake Data Warehouse Schema Vers 3 - Marketo Measure - Product Documentation
-title: Snowflake Data Warehouse Schema Version 3
+description: Data Warehouse Schema - Marketo Measure - Product Documentation
+title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 ---
-# Snowflake Data Warehouse Schema Version 3 {#snowflake-data-warehouse-schema-version-3}
+# Data Warehouse Schema {#data-warehouse-schema}
 
 Data Warehouse allows you to track as much as you want, report on your attribution data wherever you want, and plug it in to other data sets.
 
@@ -13,6 +13,10 @@ Data Warehouse allows you to track as much as you want, report on your attributi
 >Rows with a value for _DELETED_DATE will be retained for 15 days, then removed from Snowflake. Snowflake timezones are in UTC.
 
 ## Entity Relationship Diagrams {#entity-relationship-diagrams}
+
+The _Data Warehouse Data Model_ ERD shows how data in the data warehouse is intended to flow and be linked together. This diagram does not include all tables available in the data warehouse because some of them represent mapping tables, views of other tables already present, or deprecated tables we don’t recommend using any more. Please see the detailed descriptions of tables and columns present in the data warehouse below. Many of these tables contain denormalized fields, however, this diagram is the recommended data model, leveraging data from dimensional tables instead.  
+
+The additional _Ads Dimensional Data Model_ ERD presents a view of how tables for ads specific dimensions can be best linked back to the tables in the main data model. Though ads dimensions are also denormalized in other tables, this represents the recommended model for joining these dimensions.
 
 _Click an image for its full-size version_
 
@@ -23,31 +27,17 @@ _Click an image for its full-size version_
  </colgroup> 
  <tbody> 
   <tr> 
-   <td><strong>CRM Data</strong></td> 
-   <td><strong>Touchpoint Creation Data</strong></td> 
+   <td><strong>Data Warehouse Data Model</strong></td> 
+   <td><strong>Ads Dimensional Data Model</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <p><a href="assets/bizible-data-warehouse-crm-data.pdf"><img src="assets/crm-data-thumb.png"></a></p> 
-    </div></td> 
+     <p><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></p> 
+    </div></td>
    <td> 
     <div> 
-     <p><a href="assets/bizible-data-warehouse-touchpoint-creation-data.pdf"><img src="assets/touchpoint-creation-data-thumb.png"></a></p> 
-    </div></td> 
-  </tr> 
-  <tr> 
-   <td><strong>Touchpoint Attributes</strong></td> 
-   <td><strong>Spend Data</strong></td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <div> 
-     <p><a href="assets/bizible-data-warehouse-touchpoint-attributes.pdf"><img src="assets/touchpoint-attribute-data-thumb.png"></a></p> 
-    </div></td> 
-   <td> 
-    <div> 
-     <p><a href="assets/bizible-data-warehouse-spend-data.pdf"><img src="assets/spend-data-thumb.png"></a></p> 
+     <p><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></p>
     </div></td> 
   </tr> 
  </tbody> 
