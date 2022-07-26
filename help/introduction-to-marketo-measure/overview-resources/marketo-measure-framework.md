@@ -17,7 +17,7 @@ Learn more about the four main components that make up the Marketo Measure frame
 
 The Marketo Measure JavaScript tracks all the online marketing interactions, also called touchpoints, that prospects/leads have with your organization. It is a custom script that is added before the closing `</head>` tag on every page of your website.
 
-`<script type="text/javascript" src="//[cdn.marketomeasure.com/scripts/marketomeasure.js](http://cdn.marketomeasure.com/scripts/marketomeasure.js)" async=""></script>`
+`<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
 >
