@@ -13339,7 +13339,7 @@ List of stages as imported or defined in the Marketo Measure application.
   </tbody>
 </table>
 
-### BIZ_TOUCHPOINTS {biz-touchpoints}
+### BIZ_TOUCHPOINTS {#biz-touchpoints}
 
 Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table will be empty if Lead Touchpoints or Contact Touchpoints are disabled.
 
