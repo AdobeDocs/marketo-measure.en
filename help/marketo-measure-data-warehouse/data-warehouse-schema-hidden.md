@@ -7274,42 +7274,22 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
       <td>8817975702393619368</td>
     </tr>
     <tr>
-      <td>
-        <p>TYPE</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Indicates the fact type of the row. 1 = Buyer Attribution Touchpoint 2 = Cost 3 = Buyer Touchpoint 4 = User Touchpoint 5 = Page View 6 = Session 7 = Form Submit 8 = Impression</p>
-      </td>
-      <td>
-        <p>3</p>
-      </td>
+      <td>TYPE</td>
+      <td>number(38,0)</td>
+      <td>Indicates the fact type of the row. 1 = Buyer Attribution Touchpoint 2 = Cost 3 = Buyer Touchpoint 4 = User Touchpoint 5 = Page View 6 = Session 7 = Form Submit 8 = Impression</td>
+      <td>3</td>
     </tr>
     <tr>
-      <td>
-        <p>DATE</p>
-      </td>
-      <td>
-        <p>date</p>
-      </td>
+      <td>DATE</td>
+      <td>date</td>
       <td>Date the event occurred.</td>
-      <td>
-        <p>2018-08-28</p>
-      </td>
+      <td>2018-08-28</td>
     </tr>
     <tr>
-      <td>
-        <p>TIMESTAMP</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>TIMESTAMP</td>
+      <td>timestamp_ntz</td>
       <td>Date and time the event occurred.</td>
-      <td>
-        <p>2018-08-28 19:39:15.000</p>
-      </td>
+      <td>2018-08-28 19:39:15.000</td>
     </tr>
     <tr>
       <td>
