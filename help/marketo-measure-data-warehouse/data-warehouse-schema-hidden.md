@@ -187,18 +187,10 @@ Mapping table between known Lead/Contact email addresses and Accounts. This tabl
 <table>
   <tbody>
     <tr>
-      <th>
-        <p><strong>Column</strong></p>
-      </th>
-      <th>
-        <p><strong>Data Type</strong></p>
-      </th>
-      <th>
-        <p><strong>Description</strong></p>
-      </th>
-      <th>
-        <p><strong>Sample Data</strong></p>
-      </th>
+    <th><strong>Column</strong></th>
+      <th><strong>Data Type</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>Sample Data</strong></th>
     </tr>
     <tr>
       <td>ID</td>
@@ -303,6 +295,12 @@ Activities imported from a source system or connected Ad Account.
 
 <table>
   <tbody>
+  <tr>
+    <th><strong>Column</strong></th>
+    <th><strong>Data Type</strong></th>
+    <th><strong>Description</strong></th>
+    <th><strong>Sample Data</strong></th>
+    </tr>
     <tr>
       <td>
         <p>ID</p>
@@ -2628,7 +2626,7 @@ Ad Groups imported from any connected Ad Account.
   </tbody>
 </table>
 
-### BIZ_ATTRIBUTION_TOUCHPOINTS (#biz-attribution-touchpoints)
+### BIZ_ATTRIBUTION_TOUCHPOINTS {#biz-attribution-touchpoints}
 
 <p>Buyer Attribution Touchpoints, all touchpoints associated with an Opportunity.</p>
 <table>
@@ -6956,23 +6954,15 @@ Mapping table for email addresses and visitor ids.
 
 ### BIZ_FACTS {#biz-facts}
 
-Exists as a view only. Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT), and Cost data. Used internally to support Marketo Measure reporting.
+Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT), and Cost data. Used internally to support Marketo Measure reporting.
 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>COST_KEY</td>
@@ -6981,74 +6971,34 @@ Exists as a view only. Unions together Impressions, Page Views, Visits, Form Sub
       <td>2672629811884560039</td>
     </tr>
     <tr>
-      <td>
-        <p>ATP_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Attribution Touchpoints table.</p>
-      </td>
-      <td>
-        <p>2672629811884560039</p>
-      </td>
+      <td>ATP_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Attribution Touchpoints table.</td>
+      <td>2672629811884560039</td>
     </tr>
     <tr>
-      <td>
-        <p>TP_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Touchpoints or User Touchpoints tables.</p>
-      </td>
-      <td>
-        <p>5028390208679093800</p>
-      </td>
+      <td>TP_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Touchpoints or User Touchpoints tables.</td>
+      <td>5028390208679093800</td>
     </tr>
     <tr>
-      <td>
-        <p>PAGE_VIEW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Page Views table.</p>
-      </td>
-      <td>
-        <p>-8044063242541720607</p>
-      </td>
+      <td>PAGE_VIEW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Page Views table.</td>
+      <td>-8044063242541720607</td>
     </tr>
     <tr>
-      <td>
-        <p>SESSION_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Sessions table.</p>
-      </td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>SESSION_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Sessions table.</td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
-      <td>
-        <p>VISITOR_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The first cookie id of the related visitor id.</p>
-      </td>
-      <td>
-        <p>v_530d8334c455460df0d48f48270a4b23</p>
-      </td>
+      <td>VISITOR_ID</td>
+      <td>varchar</td>
+      <td>The first cookie id of the related visitor id.</td>
+      <td>v_530d8334c455460df0d48f48270a4b23</td>
     </tr>
     <tr>
       <td>COOKIE_ID</td>
@@ -7057,82 +7007,40 @@ Exists as a view only. Unions together Impressions, Page Views, Visits, Form Sub
       <td>530d8334c455460df0d48f48270a4b23</td>
     </tr>
     <tr>
-      <td>
-        <p>FORM_SUBMIT_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Form Submits table.</p>
-      </td>
-      <td>
-        <p>-8659572802702769670</p>
-      </td>
+      <td>FORM_SUBMIT_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Form Submits table.</td>
+      <td>-8659572802702769670</td>
     </tr>
     <tr>
-      <td>
-        <p>IMPRESSION_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Impressions table.</p>
-      </td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>IMPRESSION_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Impressions table.</td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
-      <td>
-        <p>CURRENT_PAGE_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
+      <td>CURRENT_PAGE_KEY</td>
+      <td>number(38,0)</td>
       <td>Used to join to the Urls table.</td>
-      <td>
-        <p>4079876040770132443</p>
-      </td>
+      <td>4079876040770132443</td>
     </tr>
     <tr>
-      <td>
-        <p>REFERRER_PAGE_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
+      <td>REFERRER_PAGE_KEY</td>
+      <td>number(38,0)</td>
       <td>Used to join to the Urls table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
-      <td>
-        <p>FORM_PAGE_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
+      <td>FORM_PAGE_KEY</td>
+      <td>number(38,0)</td>
       <td>Used to join to the Urls table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_PROVIDER_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Used to join to the Ad Providers table.</p>
-      </td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>AD_PROVIDER_KEY</td>
+      <td>number(38,0)</td>
+      <td>Used to join to the Ad Providers table.</td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>
@@ -7290,97 +7198,73 @@ Exists as a view only. Unions together Impressions, Page Views, Visits, Form Sub
       <td>CATEGORY_03_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>-2333871387956621113</p>
-      </td>
+      <td>-2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_04_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_05_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_06_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>-2333871387956621113</p>
-      </td>
+      <td>-2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_07_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_08_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_09_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>-2333871387956621113</p>
-      </td>
+      <td>2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_10_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_11_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_12_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>-2333871387956621113</p>
-      </td>
+      <td>-2333871387956621113</td>
     </tr>
     <tr>
       <td>CATEGORY_13_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_14_KEY</td>
       <td>nubmer(38,0)</td>
       <td>Used to join to the Segments table.</td>
-      <td>
-        <p>8817975702393619368</p>
-      </td>
+      <td>8817975702393619368</td>
     </tr>
     <tr>
       <td>CATEGORY_15_KEY</td>
