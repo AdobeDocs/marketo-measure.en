@@ -3,6 +3,7 @@ description: Data Warehouse Schema - Marketo Measure - Product Documentation
 title: Data Warehouse Schema
 hide: yes
 hidefromtoc: yes
+exl-id: 1497a6b1-a600-4b90-8453-fd000ebc0c42
 ---
 # Data Warehouse Schema {#data-warehouse-schema}
 
