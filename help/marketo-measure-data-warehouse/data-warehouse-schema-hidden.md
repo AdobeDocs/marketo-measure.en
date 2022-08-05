@@ -9,9 +9,13 @@ exl-id: 1497a6b1-a600-4b90-8453-fd000ebc0c42
 
 Data Warehouse allows you to track as much as you want, report on your attribution data wherever you want, and plug it in to other data sets.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Rows with a value for _DELETED_DATE will be retained for 15 days, then removed from Snowflake. Snowflake timezones are in UTC.
+
+>[!NOTE]
+>
+>[Click here](#sample-queries) to see sample queries at the bottom of this article.
 
 ## Entity Relationship Diagrams {#entity-relationship-diagrams}
 
@@ -83,82 +87,40 @@ Accounts imported from the source system.
       <td>Marketo Measure</td>
     </tr>
     <tr>
-      <td>
-        <p>WEB_SITE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Website for the Account, as recorded in the source system, used for Lead to Account mapping.</p>
-      </td>
-      <td>
-        <p>www.adobe.com</p>
-      </td>
+      <td>WEB_SITE</td>
+      <td>varchar</td>
+      <td>Website for the Account, as recorded in the source system, used for Lead to Account mapping.</td>
+      <td>www.adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>ENGAGEMENT_RATING</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>A letter grade (A, B, C, D, N/A) that is generated from Marketo Measure's Machine Learning model. This will be null if ABM is disabled.</p>
-      </td>
-      <td>
-        <p>B</p>
-      </td>
+      <td>ENGAGEMENT_RATING</td>
+      <td>varchar</td>
+      <td>A letter grade (A, B, C, D, N/A) that is generated from Marketo Measure's Machine Learning model. This will be null if ABM is disabled.</td>
+      <td>B</td>
     </tr>
     <tr>
-      <td>
-        <p>ENGAGEMENT_SCORE</p>
-      </td>
-      <td>
-        <p>number(38,19)</p>
-      </td>
-      <td>
-        <p>A numerical score calculated by Marketo Measure's Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). This will be null if ABM is disabled.</p>
-      </td>
-      <td>
-        <p>0.1417350147058800000</p>
-      </td>
+      <td>ENGAGEMENT_SCORE</td>
+      <td>number(38,19)</td>
+      <td>A numerical score calculated by Marketo Measure's Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). This will be null if ABM is disabled.</td>
+      <td>0.1417350147058800000</td>
     </tr>
     <tr>
-      <td>
-        <p>DOMAIN</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The parsed down version of the website, only storing the domain.</p>
-      </td>
-      <td>
-        <p>adobe</p>
-      </td>
+      <td>DOMAIN</td>
+      <td>varchar</td>
+      <td>The parsed down version of the website, only storing the domain.</td>
+      <td>adobe</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Whether or not the record is deleted in the source system.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Whether or not the record is deleted in the source system.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
       <td>Custom properties that Marketo Measure has imported from the source system, in JSON format.</td>
-      <td>
-        <p>{"Account_Type__c": "Security", "Foo":"Bar"}</p>
-      </td>
+      <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -15776,3 +15738,5 @@ select bat.id
 group by 1,2,3, osd.rank
 order by touchpoint_date, osd.rank
 ```
+
+[Back to top](#data-warehouse-schema)
