@@ -195,7 +195,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
   + [Data Warehouse Access – Reader Account](marketo-measure-data-warehouse/data-warehouse-access-reader-account.md)
   + [Data Warehouse Access – Direct Share](marketo-measure-data-warehouse/data-warehouse-access-direct-share.md)
   + [Data Warehouse Schema](marketo-measure-data-warehouse/data-warehouse-schema.md)
-  + [Data Warehouse Schema Hidden](marketo-measure-data-warehouse/data-warehouse-schema-hidden.md)
+  + [Data Warehouse Schema Old](marketo-measure-data-warehouse/data-warehouse-schema-old.md)
 + BI Report Templates {#bi-report-templates}
   + [Marketo Measure Report Template - Power BI](bi-report-templates/marketo-measure-report-template-power-bi.md)
   + [Marketo Measure Report Template - Tableau](bi-report-templates/marketo-measure-report-template-tableau.md)
