@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874501
-description: Marketo Measure Product Documentation
-title: Marketo Measure Overview
+description: Search for product documentation and self-help articles for Adobe Marketo Measure.
+title: Marketo Measure product documentation
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
 ---
 # Marketo Measure Help Documentation
