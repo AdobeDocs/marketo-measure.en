@@ -105,7 +105,7 @@ The other option is to rename the columns directly in the Tableau table.
 <table> 
  <tbody> 
   <tr> 
-   <td><strong><a href="assets/marketo-measure-report-template-tableau-data-model.png" target="_blank"><img src="assets/marketo-measure-report-template-tableau-11.png"></a></strong></td> 
+   <td><strong><a href="assets/tableau-data-model.png" target="_blank"><img src="assets/marketo-measure-report-template-tableau-11.png"></a></strong></td> 
   </tr> 
   <tr> 
    <td>_Click image for larger version_</td> 
