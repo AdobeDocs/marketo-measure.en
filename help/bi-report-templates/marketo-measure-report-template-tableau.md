@@ -102,16 +102,9 @@ The other option is to rename the columns directly in the Tableau table.
 
 ## Data Model {#data-model}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong><a href="assets/tableau-data-model.png" target="_blank"><img src="assets/marketo-measure-report-template-tableau-11.png"></a></strong></td> 
-  </tr> 
-  <tr> 
-   <td>_Click image for larger version_</td> 
-  </tr> 
- </tbody> 
-</table>
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
+
+_Click on the image for the full-size version_
 
 ### Relationships and Data Flow {#relationships-and-data-flow}
 
