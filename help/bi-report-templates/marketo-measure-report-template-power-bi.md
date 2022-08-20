@@ -117,16 +117,9 @@ The Conversion Rate table stored in Snowflake contains a date range for each con
 
 ## Data Model {#data-model}
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong><a href="assets/power-bi-data-model.png" target="_blank"><img src="assets/marketo-measure-report-template-power-bi-12.png"></a></strong></td> 
-  </tr> 
-  <tr> 
-   <td>_Click image for larger version_</td> 
-  </tr> 
- </tbody> 
-</table>
+Click the image below for its full-size version.
+
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### Relationships and Data Flow {#relationships-and-data-flow}
 
