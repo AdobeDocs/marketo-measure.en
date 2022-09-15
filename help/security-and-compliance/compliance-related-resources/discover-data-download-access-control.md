@@ -5,7 +5,7 @@ exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 ---
 # Discover Data Download Access Control {#discover-data-download-access-control}
 
-Discover Data Download control enables Marketo Measure Admins to set the data download policies for the Discover dashboards based on the users’ roles. The control covers all data download actions on Discover dashboards.
+Discover Data Download control enables [!DNL Marketo Measure] Admins to set the data download policies for the Discover dashboards based on the users' roles. The control covers all data download actions on Discover dashboards.
 
 1. Click **Data Access** under Security.
 
@@ -30,7 +30,7 @@ Discover Data Download control enables Marketo Measure Admins to set the data do
     </tr>
    </table>
 
-1. Click **Save** when done.
+1. Click **[!UICONTROL Save]** when done.
 
    ![](assets/discover-data-download-access-control-3.png)
 

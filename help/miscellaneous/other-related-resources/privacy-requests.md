@@ -1,24 +1,24 @@
 ---
-description: Privacy Requests - Marketo Measure - Product Documentation
+description: Privacy Requests - [!DNL Marketo Measure] - Product Documentation
 title: Privacy Requests
 exl-id: 883e475f-9868-412a-b505-230556f38484
 ---
 # Privacy Requests {#privacy-requests}
 
-This document provides an overview of managing individual data privacy requests that you can send to Marketo Measure through the Privacy Service UI and the **Privacy Service API**.
+This document provides an overview of managing individual data privacy requests that you can send to [!DNL Marketo Measure] through the [!DNL Privacy Service] UI and the **Privacy Service API**.
 
-You can submit individual requests to access and delete consumer data from Marketo Measure in two ways:
+You can submit individual requests to access and delete consumer data from [!DNL Marketo Measure] in two ways:
 
-* Through the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Through the **Privacy Service API**. See the documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Through the [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Through the **[!DNL Privacy Service] API**. See the documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} supports two types of requests: data access and data deletion.
 
-Let’s see how you can create Access and Delete requests.
+Let's see how you can create Access and Delete requests.
 
 ## Required setup to send requests for Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
-To make requests to Access and Delete data for Marketo Measure, you must:
+To make requests to Access and Delete data for [!DNL Marketo Measure], you must:
 
 1. Identify the following:
 
@@ -26,30 +26,30 @@ To make requests to Access and Delete data for Marketo Measure, you must:
 
    b. Email Address of the person you want to act on
 
-   An IMS Org ID is a 24-character alphanumeric string appended with @AdobeOrg. If your marketing team or internal Adobe system administrator doesn’t know your organization’s IMS Org ID, contact Adobe Customer Care at gdprsupport@adobe.com. You need the IMS Org ID to submit requests to the Privacy API.
+   An IMS Org ID is a 24-character alphanumeric string appended with @AdobeOrg. If your marketing team or internal Adobe system administrator doesn't know your organization's IMS Org ID, contact Adobe Customer Care at gdprsupport@adobe.com. You need the IMS Org ID to submit requests to the Privacy API.
 
-1. In Privacy Service, you can submit Access and Delete requests to Marketo Measure, and check the status of existing requests.
+1. In [!DNL Privacy Service], you can submit Access and Delete requests to [!DNL Marketo Measure], and check the status of existing requests.
 
-## Required field values in Marketo Measure JSON requests {#required-field-values-in-marketo-measure-json-requests}
+## Required field values in [!DNL Marketo Measure] JSON requests {#required-field-values-in-marketo-measure-json-requests}
 
-“companyContexts”:
+"companyContexts":
 
-* “namespace”: **imsOrgID**
-* “value”: `<Your IMS Org ID Value>`
+* "namespace": **imsOrgID**
+* "value": `<Your IMS Org ID Value>`
 
-“users”:
+"users":
 
-* “action”: either access or delete
-* “userIDs”:
-  * “namespace”: email
-  * “type”: standard
-  * “value”: `<Data Subject’s Email Address>`
+* "action": either [!UICONTROL access] or delete
+* "userIDs":
+   * "namespace": email
+   * "type": standard
+   * "value": `<Data Subject's Email Address>`
 
-“include”:
+"include":
 
 * **marketoMeasure** (which is the Adobe product that applies to the request)
 
-“regulation”:
+"regulation":
 
 * **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**, or **nzpa_nzl** (which is the privacy regulation that applies to the request)
 

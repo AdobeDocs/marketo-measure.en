@@ -62,15 +62,15 @@ Marketo Measure's JavaScript tracks session data and form submissions on all for
 Marketo Measure will create a form touchpoint when:
 
 * A lead/contact that is associated to those conversions appear in your CRM.
-* The Marketo Measure JS is present on the web pages containing the form.
+* The [!DNL Marketo] Measure JS is present on the web pages containing the form.
 * A form is submitted within a 30 min session.
 
 Marketo Measure will ignore Destination Google Analytic conversions when:
 
 * A bot submits forms on a website (these bots usually don't make it into a client's CRM).
 * A user submits more forms after their first form submission. Marketo Measure will only push the first conversion from that session.
-* The user clicks on the form submission multiple times. Marketo Measure will only consider the first form submission.
+* The user clicks on the form submission multiple times. [!DNL Marketo] Measure will only consider the first form submission.
 * The user re-loads the thank you page multiple times.
 * The user is using any Ad Blocking tools.
 
-As you can see there are fundamental differences between what GA and Marketo Measure consider a conversion to be. Therefore, it will be very likely that the number of conversions and the number of form Touchpoints will differ.
+As you can see there are fundamental differences between what GA and [!DNL Marketo Measure] consider a conversion to be. Therefore, it will be very likely that the number of conversions and the number of form Touchpoints will differ.
