@@ -5,7 +5,7 @@ exl-id: 883e475f-9868-412a-b505-230556f38484
 ---
 # Privacy Requests {#privacy-requests}
 
-This document provides an overview of managing individual data privacy requests that you can send to [!DNL Marketo Measure] through the [!DNL Privacy Service] UI and the **Privacy Service API**.
+This document provides an overview of managing individual data privacy requests that you can send to [!DNL Marketo Measure] through the [!DNL Privacy Service] UI and the **[!DNL Privacy Service] API**.
 
 You can submit individual requests to access and delete consumer data from [!DNL Marketo Measure] in two ways:
 

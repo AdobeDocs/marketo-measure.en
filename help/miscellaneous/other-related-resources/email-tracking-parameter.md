@@ -6,13 +6,13 @@ exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 ---
 # Email Tracking Parameter {#email-tracking-parameter}
 
-Marketo Measure's Email Tracking Parameter allows marketers to treat email clicks as form submissions so that touchpoints get generated for those actions. Without using an email tracking parameter, click-throughs from an email are only treated as "web visits" until the user actually engages with the site through a form submission or a web chat.
+The [!DNL Marketo Measure] Email Tracking Parameter allows marketers to treat email clicks as form submissions so that touchpoints get generated for those actions. Without using an email tracking parameter, click-throughs from an email are only treated as "web visits" until the user actually engages with the site through a form submission or a web chat.
 
 ## Use Cases  {#use-cases}
 
 **Webinar Registration**: The Marketing team sends out an email invite with a single button to register for a webinar. Because the email already has the person's information, the single click will auto-register them. The landing page contains the email tracking parameter so when they click through and land on the confirmation page, [!DNL Marketo] Measure can capture the email address and treat the click-through as a form fill, which will generate a touchpoint.
 
-**Content Download**: The Content Marketing team wants to promote a recent eBook that they've published with a direct download link from an email. When the email template is built, the download confirmation page will contain the email tracking parameter so that when they click through, [!DNL Marketo] Measure can capture the email address. Without having to fill out a form on the site, [!DNL Marketo Measure] can generate a touchpoint for the content download that occured via the email because it landed them on the confirmation page with the email tracking parameter.
+**Content Download**: The Content Marketing team wants to promote a recent eBook that they've published with a direct download link from an email. When the email template is built, the download confirmation page will contain the email tracking parameter so that when they click through, [!DNL Marketo Measure] can capture the email address. Without having to fill out a form on the site, [!DNL Marketo Measure] can generate a touchpoint for the content download that occured via the email because it landed them on the confirmation page with the email tracking parameter.
 
 ## How It Works {#how-it-works}
 
@@ -65,6 +65,6 @@ Marketo Measure accepts the following values: Email Address, Salesforce Lead Id,
  </tbody> 
 </table>
 
-And finally, within Marketo Measure, you will need to specify the tracking parameter so that Marketo Measure can locate the email or Id value. The default is "mailId" as shown in the examples above and the screenshot below. Enter the value into your Settings in Marketo Measure, then click **Save**.
+And finally, within [!DNL Marketo Measure], you will need to specify the tracking parameter so that [!DNL Marketo Measure] can locate the email or Id value. The default is "mailId" as shown in the examples above and the screenshot below. Enter the value into your Settings in [!DNL Marketo Measure], then click **[!UICONTROL Save]**.
 
 ![](assets/one.png)
