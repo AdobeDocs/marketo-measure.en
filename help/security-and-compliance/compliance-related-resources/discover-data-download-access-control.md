@@ -1,6 +1,6 @@
 ---
-description: [!UICONTROL Discover Data Download] Access Control - Marketo Measure - Product Documentation
-title: [!UICONTROL Discover Data Download] Access Control
+description: "[!UICONTROL Discover Data Download] Access Control - Marketo Measure - Product Documentation"
+title: "[!UICONTROL Discover Data Download] Access Control"
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 ---
 # [!UICONTROL Discover Data Download] Access Control {#discover-data-download-access-control}
