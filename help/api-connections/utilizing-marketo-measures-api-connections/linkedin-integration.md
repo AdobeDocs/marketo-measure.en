@@ -43,12 +43,9 @@ There are other LinkedIn roles which we do **not** require for our integration. 
 
 **Page Admin Roles**
 
-We do **not** require any paid admin roles, which include:
+For Marketo Measure to be able to download/integrate leads from lead gen forms, you must have the following Page Admin role:
 
 * Super Admin
-* Content Admin
-* Curator
-* Analyst
 
 Learn more: [LinkedIn Page Admin Roles](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
