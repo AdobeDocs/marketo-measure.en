@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874648
-description: Difference between a Google Analytics Conversion and a Buyer Touchpoint - Marketo Measure - Product Documentation
+description: Difference between a Google Analytics Conversion and a Buyer Touchpoint - [!DNL Marketo Measure] - Product Documentation
 title: Difference between a Google Analytics Conversion and a Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 ---
 # Difference between a Google Analytics Conversion and a Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
-Learn what a Google Analytics (GA) goal is and how it differentiates from a Buyer Touchpoint.
+Learn what a [!DNL Google Analytics (GA)] goal is and how it differentiates from a Buyer Touchpoint.
 
 **What are Google Analytics' Conversions?**
 
-Google Analytics conversions are completely determined by how a marketer or a web developer codes 'goal' completions on a particular website. Goals, according to Google could be thought of as "making a purchase (for an ecommerce site), completing a game level (for a mobile gaming app), or submitting a contact information form (for a marketing or lead generation site)." Most of the time, marketers see goals/conversions as someone filling out an informational form.
+[!UICONTROL Google Analytics] conversions are completely determined by how a marketer or a web developer codes 'goal' completions on a particular website. Goals, according to Google could be thought of as "making a purchase (for an ecommerce site), completing a game level (for a mobile gaming app), or submitting a contact information form (for a marketing or lead generation site)." Most of the time, marketers see goals/conversions as someone filling out an informational form.
 
 However, goals can't be coded to manage very specific behavior. Rather, there are Goal Types that a web developer can configure. Below are some of those examples:
 
@@ -57,20 +57,20 @@ However, Buyer Touchpoints act very differently.
 
 **How do Buyer Touchpoints differ?**
 
-Marketo Measure's JavaScript tracks session data and form submissions on all forms of a particular site. There's no need to code goals from a Marketo Measure standpoint. This process is automatic. For form submissions, Marketo Measure reports a form completion every time an anonymous user fills out information fields on a particular form and also clicks on the form submission button. Marketo Measure doesn't need a thank you page to record the form submission.
+[!DNL Marketo Measure] JavaScript tracks session data and form submissions on all forms of a particular site. There's no need to code goals from a [!DNL Marketo Measure] standpoint. This process is automatic. For form submissions, [!DNL Marketo Measure] reports a form completion every time an anonymous user fills out information fields on a particular form and also clicks on the form submission button. [!DNL Marketo Measure] doesn't need a thank you page to record the form submission.
 
-Marketo Measure will create a form touchpoint when:
+[!DNL Marketo Measure] will create a form touchpoint when:
 
 * A lead/contact that is associated to those conversions appear in your CRM.
-* The Marketo Measure JS is present on the web pages containing the form.
+* The [!DNL Marketo Measure] JS is present on the web pages containing the form.
 * A form is submitted within a 30 min session.
 
-Marketo Measure will ignore Destination Google Analytic conversions when:
+[!DNL Marketo Measure] will ignore Destination Google Analytic conversions when:
 
 * A bot submits forms on a website (these bots usually don't make it into a client's CRM).
-* A user submits more forms after their first form submission. Marketo Measure will only push the first conversion from that session.
-* The user clicks on the form submission multiple times. Marketo Measure will only consider the first form submission.
+* A user submits more forms after their first form submission. [!DNL Marketo Measure] will only push the first conversion from that session.
+* The user clicks on the form submission multiple times. [!DNL Marketo Measure] will only consider the first form submission.
 * The user re-loads the thank you page multiple times.
 * The user is using any Ad Blocking tools.
 
-As you can see there are fundamental differences between what GA and Marketo Measure consider a conversion to be. Therefore, it will be very likely that the number of conversions and the number of form Touchpoints will differ.
+As you can see there are fundamental differences between what GA and [!DNL Marketo Measure] consider a conversion to be. Therefore, it will be very likely that the number of conversions and the number of form Touchpoints will differ.
