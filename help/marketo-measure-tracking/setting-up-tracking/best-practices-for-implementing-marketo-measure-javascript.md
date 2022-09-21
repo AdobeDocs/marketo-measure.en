@@ -1,15 +1,15 @@
 ---
-description: Best Practices for Implementing Marketo Measure JavaScript - Marketo Measure - Product Documentation
-title: Best Practices for Implementing Marketo Measure JavaScript
+description: Best Practices for Implementing [!DNL Marketo] Measure JavaScript - [!DNL Marketo] Measure - Product Documentation
+title: Best Practices for Implementing [!DNL Marketo] Measure JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 ---
-# Best Practices for Implementing Marketo Measure JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
+# Best Practices for Implementing [!DNL Marketo] Measure JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
 
 ## Overview {#overview}
 
-The Marketo Measure JavaScript tracks your web visitors digital marketing interactions and is key to Marketo Measure’s ability to create online Touchpoint data. Having the Marketo Measure JavaScript deployed correctly and comprehensively across your entire site(s) will ensure that the session data collected produces accurate touchpoint data.
+The [!DNL Marketo Measure] JavaScript tracks your web visitors digital marketing interactions and is key to [!DNL Marketo Measure's] ability to create online Touchpoint data. Having the [!DNL Marketo Measure] JavaScript deployed correctly and comprehensively across your entire site(s) will ensure that the session data collected produces accurate touchpoint data.
 
-Inconsistencies in the deployment of the Marketo Measure JavaScript will cause breaks in the session data which can result in the following:
+Inconsistencies in the deployment of the [!DNL Marketo] Measure JavaScript will cause breaks in the session data which can result in the following:
 
 * Incorrect channel/subchannel attribution
 * Loss of source data
@@ -20,24 +20,24 @@ Marketo Measure JavaScript is a foundational piece of your Marketo Measure accou
 
 ## Best Practice {#best-practice}
 
-When it comes to implementing and managing your Marketo Measure JavaScript, keep the following best practices in mind.
+When it comes to implementing and managing your [!DNL Marketo Measure] JavaScript, keep the following best practices in mind.
 
-* Confirm all your domains are listed in your Marketo Measure account
-  * If you have concerns regarding your domains please contact Support
+* Confirm all your domains are listed in your [!DNL Marketo Measure] account
+   * If you have concerns regarding your domains please contact Support
 * Deploy JavaScript across ALL pages.
-  * Placing JavaScript on only certain pages will cause breaks in your session data which will cause incorrect Marketo Measure data
+   * Placing JavaScript on only certain pages will cause breaks in your session data which will cause incorrect Marketo Measure data
 * For a form on your site that you do not want to create touchpoints from, make sure to add the Marketo Measure Exclude Script
-  * This exclusions script will ensure that the Marketo Measure session data will not be disrupted and that the source data remains in place
-    * Examples of common forms to suppress are:
-      * Customer Logins
-      * Forgot Password forms
-      * Unsubscribe forms
-      * Career application forms
-* Review the “Additional Considerations” and “Forms to Pay Extra Attention To” sections of the Adding Marketo Measure Script resource listed below to check for any scenarios that might need special handling
+   * This exclusions script will ensure that the Marketo Measure session data will not be disrupted and that the source data remains in place
+      * Examples of common forms to suppress are:
+         * Customer Logins
+         * Forgot Password forms
+         * Unsubscribe forms
+         * Career application forms
+* Review the "Additional Considerations" and "Forms to Pay Extra Attention To" sections of the Adding Marketo Measure Script resource listed below to check for any scenarios that might need special handling
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}
 
-While the setup of the Marketo Measure JavaScript is covered during initial implementation, changes to your site or the team that manages it can result in disruptions in Marketo Measure’s tracking. We recommend that you confirm the Marketo Measure JavaScript is deployed correctly and comprehensively once a year. In addition, if your organization has any type of change protocol documentation for the website, ensure that there is a portion explaining that Marketo Measure JavaScript should be retained/added to all new pages.
+While the setup of the [!DNL Marketo Measure] JavaScript is covered during initial implementation, changes to your site or the team that manages it can result in disruptions in [!DNL Marketo Measure's] tracking. We recommend that you confirm the [!DNL Marketo Measure] JavaScript is deployed correctly and comprehensively once a year. In addition, if your organization has any type of change protocol documentation for the website, ensure that there is a portion explaining that [!DNL Marketo Measure] JavaScript should be retained/added to all new pages.
 
 Other reasons to that might trigger a review your JavaScript setup include...
 
@@ -49,16 +49,17 @@ Other reasons to that might trigger a review your JavaScript setup include...
 
 >[!MORELIKETHIS]
 >
->* [Adding Marketo Measure JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+>* [Adding [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
 >* [Adding Marketo Measure Script via GTM](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
->* [Adding Marketo Measure JS to Pardot](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
->* [Adding Marketo Measure JS to Lightbox Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
->* [Adding Marketo Measure JS to Sitecore Pages](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-sitecore-pages.md)
+>* [Adding [!DNL Marketo] Measure JS to Pardot](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
+>* [Adding [!DNL Marketo] Measure JS to Lightbox Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
+>* [Adding [!DNL Marketo] Measure JS to Sitecore Pages](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-sitecore-pages.md)
 >* [Adding Marketo Measure JS to Uberflip Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-uberflip-forms.md)
 >* [Adding Marketo Measure JS to Act-On Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-act-on-forms.md)
 >* [Adding Marketo Measure to Hubspot](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-hubspot.md)
 >* [Adding Marketo Measure to Marketing Landing Pages](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-marketo-landing-pages.md)
 >* [AJAX Form Handling](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md)
 >* [Connecting Marketo Measure to Unbounce Script Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/connecting-marketo-measure-to-unbounce-script-manager.md)
->* [IFrame Forms and Marketo Measure](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/iframe-forms-and-marketo-measure.md)
+>* [IFrame Forms and [!DNL Marketo] Measure](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/iframe-forms-and-marketo-measure.md)
 >* [Excluding Marketo Measure Script from Specific Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
+

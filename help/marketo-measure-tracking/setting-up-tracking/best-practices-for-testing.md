@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874722
-description: Best Practices for Testing - Marketo Measure - Product Documentation
+description: Best Practices for Testing - [!DNL Marketo] Measure - Product Documentation
 title: Best Practices for Testing
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 ---
 # Best Practices for Testing {#best-practices-for-testing}
 
-When testing Marketo Measure, be sure to first clear cookies and use a unique email address for each test. The email address does not need to be real--it only needs to be a unique address that does not belong to any of your Salesforce records (e.g., unique1@test.com, unique2@test.com).  
-  
-Cookies can be cleared in the settings section of your browser, select tools and clear browsing data. A test begins before the search and ends with a form submission. You can test through organic search or through a company advertisement. Make sure to clear cookies again before every new test you conduct.
+When testing [!DNL Marketo Measure], be sure to first clear cookies and use a unique email address for each test. The email address does not need to be real--it only needs to be a unique address that does not belong to any of your [!DNL Salesforce] records (e.g., unique1@test.com, unique2@test.com).
+
+Cookies can be cleared in the [!UICONTROL settings] section of your browser, select tools and clear browsing data. A test begins before the search and ends with a form submission. You can test through organic search or through a company advertisement. Make sure to clear cookies again before every new test you conduct.
 
 ## Steps for Testing {#steps-for-testing}
 
