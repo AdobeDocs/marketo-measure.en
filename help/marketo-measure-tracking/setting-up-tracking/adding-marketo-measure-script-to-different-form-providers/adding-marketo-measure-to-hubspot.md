@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874759
-description: Adding Marketo Measure to Hubspot - Marketo Measure - Product Documentation
-title: Adding Marketo Measure to Hubspot
+description: Adding [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Measure] - Product Documentation
+title: Adding [!DNL Marketo Measure] to [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 ---
-# Adding Marketo Measure to Hubspot {#adding-marketo-measure-to-hubspot}
+# Adding [!DNL Marketo Measure] to [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 
-Learn how to add the [!DNL Marketo Measure] JavaScript to track your Hubspot landing pages and form submissions.
+Learn how to add the [!DNL Marketo Measure] JavaScript to track your [!DNL Hubspot] landing pages and form submissions.
 
-Hubspot is a bit different from other marketing automation systems in that it can host your landing pages / forms AND your website. It's important to note that the below instructions are for having [!DNL Marketo] Measure track activity on Hubspot-hosted pages. If you power your website with a CMS other than Hubspot (e.g. Wordpress), you will need to add the [!DNL Marketo Measure] JavaScript to that CMS as well.
+Hubspot is a bit different from other marketing automation systems in that it can host your landing pages / forms AND your website. It's important to note that the below instructions are for having [!DNL Marketo] Measure track activity on [!DNL Hubspot]-hosted pages. If you power your website with a CMS other than [!DNL Hubspot] (e.g. Wordpress), you will need to add the [!DNL Marketo Measure] JavaScript to that CMS as well.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Once you have logged into your [!DNL Hubspot] account, follow these steps.
 
 1. Navigate to Content.
 
-1. Click **[!UICONTROL Content Setting]s**.
+1. Click **[!UICONTROL Content Settings]**.
 
 1. Within [!UICONTROL Content Settings], click on the Site Header HTML (see image below).
 

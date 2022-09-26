@@ -1,12 +1,12 @@
 ---
 unique-page-id: 30082018
-description: Delayed Cookie Sync - [!DNL Marketo] Measure - Product Documentation
+description: Delayed Cookie Sync - [!DNL Marketo Measure] - Product Documentation
 title: Delayed Cookie Sync
 exl-id: 394053ed-5642-48e4-b83c-c483a58ebbd7
 ---
 # Delayed Cookie Sync {#delayed-cookie-sync}
 
-This modification to the default [!DNL Marketo Measure] Javascript serves to provide bizible.js API support, so you can configure the JS to temporarily store visitors' user activities, but not send the information to the [!DNL Marketo] Measure server until the user gives consent to do so.
+This modification to the default [!DNL Marketo Measure] Javascript serves to provide [!DNL bizible.js] API support, so you can configure the JS to temporarily store visitors' user activities, but not send the information to the [!DNL Marketo Measure] server until the user gives consent to do so.
 
 ## How-To {#how-to}
 
@@ -27,6 +27,6 @@ Alternatively, customers can set the [!UICONTROL data-consent-button-id] to be s
 
 ## Limitation {#limitation}
 
-Because [!DNL bizible].js temporarily saves unsent web activities in customers' first party cookies, and the size of first party cookies are limited, only three unsent requests can be saved at any given time.
+Because [!DNL bizible.js] temporarily saves unsent web activities in customers' first party cookies, and the size of first party cookies are limited, only three unsent requests can be saved at any given time.
 
 If there are already three pending requests, any subsequent activities will be ignored; this is to preserve the first pageview, which contains valuable referrer information.

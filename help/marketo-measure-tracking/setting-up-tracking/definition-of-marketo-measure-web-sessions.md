@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874564
-description: Definition of [!DNL Marketo] Measure Web Sessions - Marketo Measure - Product Documentation
-title: Definition of Marketo Measure Web Sessions
+description: Definition of [!DNL Marketo Measure] Web Sessions - [!DNL Marketo Measure] - Product Documentation
+title: Definition of [!DNL Marketo Measure] Web Sessions
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 ---
-# Definition of Marketo Measure Web Sessions {#definition-of-marketo-measure-web-sessions}
+# Definition of [!DNL Marketo Measure] Web Sessions {#definition-of-marketo-measure-web-sessions}
 
 Learn how [!DNL Marketo Measure] defines web sessions.
 
@@ -14,7 +14,7 @@ For example, Haley visits adobe.com. Her visit to the site begins a session. Whe
 
 One user cannot open multiple sessions at the same time. If Haley opens [!DNL adobe.com] in 10 separate tabs, only one session has been created in relation to her visit to the website.
 
-## How does Marketo Measure define a new session? {#how-does-marketo-measure-define-a-new-session}
+## How does [!DNL Marketo Measure] define a new session? {#how-does-marketo-measure-define-a-new-session}
 
 There are a few things that determine when a session ends, and when a new session begins. The two main ways [!DNL Marketo Measure] sessions can end are:
 
@@ -25,25 +25,25 @@ There are a few things that determine when a session ends, and when a new sessio
 
 **How long does a session last?**
 
-Marketo Measure sessions will end after 30 minutes of inactivity on the website. For example:
+[!DNL Marketo Measure] sessions will end after 30 minutes of inactivity on the website. For example:
 
 When Haley visits adobe.com, a session begins. She explores the website for a few minutes and then steps away from her computer, but leaves the website open. After 30 minutes of inactivity the session will end.
 
-Currently, Marketo Measure only considers page navigation and form submissions as activity. Scrolling through the web page or hovering over an element on the page is not considered activity. So if Haley visits adobe.com to read a blog post, and it takes her one hour to read, her web session will still end after 30 minutes even if she is scrolling through the content on the page.
+Currently, [!DNL Marketo Measure] only considers page navigation and form submissions as activity. Scrolling through the web page or hovering over an element on the page is not considered activity. So if Haley visits adobe.com to read a blog post, and it takes her one hour to read, her web session will still end after 30 minutes even if she is scrolling through the content on the page.
 
 ## Channel-based expiration {#channel-based-expiration}
 
-Marketo Measure will begin a new session any time a user comes to your website from a different digital marketing channel, or an external website. This includes:
+[!DNL Marketo Measure] will begin a new session any time a user comes to your website from a different digital marketing channel, or an external website. This includes:
 
 * A referral website
-* Social channels (Facebook, [!DNL LinkedIn], etc.)
-* Paid or Organic Search Channels (Google/Bing)
+* Social channels ([!DNL Facebook], [!DNL LinkedIn], etc.)
+* Paid or Organic Search Channels ([!DNL Google/Bing])
 
 **Referral Websites and Social Channels**
 
 Any time a visitor comes to your website from a referring website or a social channel, a new session will begin.
 
-Say Haley is on LinkedIn, clicks on a [!DNL Marketo Measure] post and is redirected to the Adobe website. Then, while scrolling through Facebook, Haley sees another Marketo Measure post. When she clicks on this post and is redirected to the Adobe site, this causes the first web session that is related to LinkedIn to end, and a new session related to Facebook begins.
+Say Haley is on LinkedIn, clicks on a [!DNL Marketo Measure] post and is redirected to the Adobe website. Then, while scrolling through [!DNL Facebook], Haley sees another [!DNL Marketo Measure] post. When she clicks on this post and is redirected to the Adobe site, this causes the first web session that is related to [!DNL LinkedIn] to end, and a new session related to [!DNL Facebook] begins.
 
 **Paid or Organic Search Channels**
 
@@ -59,4 +59,4 @@ _However_, if Haley's first web session originated from Web Direct, and then she
 
 ## Google Analytics Sessions {#google-analytics-sessions}
 
-There are some similarities to how [!DNL Marketo Measure] and Google Analytics defines sessions. For more information on how Google Analytics defines sessions, please visit: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en)
+There are some similarities to how [!DNL Marketo Measure] and Google Analytics defines sessions. For more information on how Google Analytics defines sessions, please visit: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

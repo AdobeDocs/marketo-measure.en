@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874745
-description: AJAX Form Handling - [!DNL Marketo] Measure - Product Documentation
+description: AJAX Form Handling - [!DNL Marketo Measure] - Product Documentation
 title: AJAX Form Handling
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 ---
@@ -51,11 +51,11 @@ eMail: 'user@gmail.com' // required
 });  
 ```
 
-In this code, the [!UICONTROL email] field is required. [!DNL Marketo] Measure will post this data asynchronously to our servers.
+In this code, the [!UICONTROL email] field is required. [!DNL Marketo Measure] will post this data asynchronously to our servers.
 
 ## Scenario 3 - Report user information from the thank-you page {#scenario-report-user-information-from-the-thank-you-page}
 
-In some cases, it is more convenient to report the lead information to [!DNL Marketo] Measure from the thank-you page, after the form is submitted. The simplest way to report this information is to add a hidden element to the page that holds information from the form submission, and [!DNL Bizible].js will read this information when the thank-you page has loaded.
+In some cases, it is more convenient to report the lead information to [!DNL Marketo Measure] from the thank-you page, after the form is submitted. The simplest way to report this information is to add a hidden element to the page that holds information from the form submission, and [!DNL Bizible.js] will read this information when the thank you page has loaded.
 
 **For example:**
 

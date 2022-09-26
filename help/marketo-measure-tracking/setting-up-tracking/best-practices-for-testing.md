@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874722
-description: Best Practices for Testing - [!DNL Marketo] Measure - Product Documentation
+description: Best Practices for Testing - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Testing
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 ---
@@ -13,11 +13,11 @@ Cookies can be cleared in the [!UICONTROL settings] section of your browser, sel
 ## Steps for Testing {#steps-for-testing}
 
 1. Clear browser cookies.
-1. Start your search at [google.com](http://google.com) or a similar site.
+1. Start your search at [google.com](http://google.com){target="_blank"} or a similar site.
 1. Click on your website (organic search) or a company advertisement.
 1. Submit a contact form using a unique email address as mentioned above.
-1. Search the test email in Salesforce.
-1. Check the Marketo Measure fields for the new record in Salesforce.
+1. Search the test email in [!DNL Salesforce].
+1. Check the [!DNL Marketo Measure] fields for the new record in [!DNL Salesforce].
 1. Clear cookies for next test.
 
 Done!
