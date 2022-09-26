@@ -6,7 +6,7 @@ exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
 ---
 # Security Session Restrictions: IP Addresses to Allowlist {#security-session-restrictions-ip-addresses-to-allowlist}
 
-If there are [Session Security Settings](https://help.salesforce.com/articleView?id=admin_sessions.htm&type=0){target="_blank"} in place preventing specific IP Addresses from pushing/pulling data to your [!DNL Salesforce] instance, we will need the following IPs allowlisted to allow [!DNL Marketo Measure] to push data to [!DNL Salesforce]:
+If there are [Session Security Settings](https://help.salesforce.com/articleView?id=admin_sessions.htm&type=0){target="_blank"} in place preventing specific IP Addresses from pushing/pulling data to your [!DNL Salesforce] instance, we will need the following IP ranges allowlisted to allow [!DNL Marketo Measure] to push data to [!DNL Salesforce]:
 
 * 52.162.84.192 - 52.162.84.207
 * 23.100.229.112 - 23.100.229.127
