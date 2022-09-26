@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874590
-description: "[!DNL Marketo Measure]" Cookies - [!DNL Marketo Measure] - Product Documentation
-title: "[!DNL Marketo Measure]" Cookies
+description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure] - Product Documentation"
+title: "[!DNL Marketo Measure] Cookies"
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 ---
 # Marketo Measure Cookies {#marketo-measure-cookies}

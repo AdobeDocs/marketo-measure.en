@@ -1,6 +1,6 @@
 ---
-description: "[!DNL Marketo Measure]" Ultimate Overview - [!DNL Marketo Measure] - Product Documentation
-title: "[!DNL Marketo Measure]" Ultimate Overview
+description: "[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Product Documentation"
+title: "[!DNL Marketo Measure] Ultimate Overview"
 hide: yes
 hidefromtoc: yes
 ---
