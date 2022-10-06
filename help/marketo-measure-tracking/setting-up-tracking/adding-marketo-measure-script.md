@@ -10,7 +10,7 @@ exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 
 >[!NOTE]
 >
->Make sure you've [claimed all appropriate domains in the Adobe Admin Console](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} in addition to deploying the [!DNL Marketo Measure] JavaScript.
+>Make sure you've [claimed all appropriate domains in the [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} in addition to deploying the [!DNL Marketo Measure] JavaScript.
 
 When getting started with [!DNL Marketo Measure], there are two ways you can add the [!DNL Marketo Measure] JavaScript to your website:
 

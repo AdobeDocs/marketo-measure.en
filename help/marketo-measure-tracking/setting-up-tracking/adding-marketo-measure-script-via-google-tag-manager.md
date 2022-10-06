@@ -16,12 +16,12 @@ If you decide to add our script via GTM, please set the [!DNL Marketo Measure] s
 
 ## How to Add [!DNL Marketo Measure] JS via [!DNL Google Tag Manager] {#how-to-add-marketo-measure-js-via-google-tag-manager}
 
-1. Open GTM and add the [!DNL Marketo Measure] script on your website container. Be sure to select **Custom HTML tag**.
+1. Open GTM and add the [!DNL Marketo Measure] script on your website container. Be sure to select **[!UICONTROL Custom HTML tag]**.
 
 1. Use the [!DNL Marketo Measure] script below and incorporate it in your container.
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. Click **Add a Firing Rule** so you can tell Google to load our snippet on *All Pages*.
+1. Click **[!UICONTROL Add a Firing Rule]** so you can tell Google to load our snippet on *All Pages*.
 
 1. Go to the Container Draft Overview section on the left. Click the button to create a new version of your container and publish the changes.

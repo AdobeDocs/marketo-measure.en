@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874755
-description: Adding [!DNL Marketo Measure] to Marketo Landing Pages - [!DNL Marketo Measure] - Product Documentation
+description: Adding [!DNL Marketo Measure] to [!DNL Marketo] Landing Pages - [!DNL Marketo Measure] - Product Documentation
 title: Adding [!DNL Marketo Measure] to Marketo Landing Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 ---
@@ -17,7 +17,7 @@ Learn how to add tracking to [!DNL Marketo Engage] Landing Pages as they require
 1. Log in to your [!DNL Marketo Engage] account.
 1. Select your landing page and click **[!UICONTROL Edit Draft]**.
 1. Drag in the HTML element.
-1. Enter the [!DNL Marketo Measure] JavaScript into the head section:
+1. Enter the [!DNL Marketo Measure] JavaScript into the [!UICONTROL head] section:
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
