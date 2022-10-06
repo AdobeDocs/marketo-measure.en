@@ -18,7 +18,7 @@ Data Warehouse allows you to track as much as you want, report on your attributi
 
 ## Entity Relationship Diagrams {#entity-relationship-diagrams}
 
-The _Data Warehouse Data Model_ ERD shows how data in the data warehouse is intended to flow and be linked together. This diagram does not include all tables available in the data warehouse because some of them represent mapping tables, views of other tables already present, or deprecated tables we don’t recommend using any more. Please see the detailed descriptions of tables and columns present in the data warehouse below. Many of these tables contain denormalized fields, however, this diagram is the recommended data model, leveraging data from dimensional tables instead.  
+The _Data Warehouse Data Model_ ERD shows how data in the data warehouse is intended to flow and be linked together. This diagram does not include all tables available in the data warehouse because some of them represent mapping tables, views of other tables already present, or deprecated tables we don't recommend using any more. Please see the detailed descriptions of tables and columns present in the data warehouse below. Many of these tables contain denormalized fields, however, this diagram is the recommended data model, leveraging data from dimensional tables instead.  
 
 The additional _Ads Dimensional Data Model_ ERD presents a view of how tables for ads specific dimensions can be best linked back to the tables in the main data model. Though ads dimensions are also denormalized in other tables, this represents the recommended model for joining these dimensions.
 
@@ -661,7 +661,7 @@ Ads imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Ad”.</p>
+        <p>The main object or entity for this table. In this case, "Ad".</p>
       </td>
       <td>
         <p>Ad</p>
@@ -1027,7 +1027,7 @@ Advertisers imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Advertiser”.</p>
+        <p>The main object or entity for this table. In this case, "Advertiser".</p>
       </td>
       <td>
         <p>Advertiser</p>
@@ -1321,7 +1321,7 @@ Ad Accounts imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Account”.</p>
+        <p>The main object or entity for this table. In this case, "Account".</p>
       </td>
       <td>
         <p>Account</p>
@@ -1781,7 +1781,7 @@ Campaigns imported from connected Ad Accounts, source systems, utm, and self rep
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Campaign”.</p>
+        <p>The main object or entity for this table. In this case, "Campaign".</p>
       </td>
       <td>
         <p>Campaign</p>
@@ -1809,7 +1809,7 @@ Campaigns imported from connected Ad Accounts, source systems, utm, and self rep
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>The daily budget that’s set in the Ad Platform for the Campaign.</p>
+        <p>The daily budget that's set in the Ad Platform for the Campaign.</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -2020,7 +2020,7 @@ Ad Forms imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “AdForm”.</p>
+        <p>The main object or entity for this table. In this case, "AdForm".</p>
       </td>
       <td>
         <p>AdForm</p>
@@ -2063,7 +2063,7 @@ Ad Forms imported from any connected Ad Account.
       </td>
       <td>Headline of the Ad Form.</td>
       <td>
-        <p>It’s Time to Automate the Refinancing Application Process</p>
+        <p>It's Time to Automate the Refinancing Application Process</p>
       </td>
     </tr>
     <tr>
@@ -2392,7 +2392,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “AdGroup”.</p>
+        <p>The main object or entity for this table. In this case, "AdGroup".</p>
       </td>
       <td>
         <p>AdGroup</p>
@@ -2726,7 +2726,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The type of activity, Web Visit, Web Form, Web Chat, Phone Call, [CRM] Campaign, or [CRM] Activity. Referred to in the CRM as “Touchpoint Type.”</p>
+        <p>The type of activity, Web Visit, Web Form, Web Chat, Phone Call, [CRM] Campaign, or [CRM] Activity. Referred to in the CRM as "Touchpoint Type."</p>
       </td>
       <td>
         <p>Web Form</p>
@@ -2740,7 +2740,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as “Marketing Channel - Path.”</p>
+        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as "Marketing Channel - Path."</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2754,7 +2754,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</p>
+        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2768,7 +2768,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</p>
+        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</p>
       </td>
       <td>
         <p>Yes</p>
@@ -2782,7 +2782,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</p>
+        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</p>
       </td>
       <td>
         <p>SMB</p>
@@ -2795,7 +2795,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td>
         <p>New Business</p>
       </td>
@@ -2807,7 +2807,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2817,7 +2817,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2827,7 +2827,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2837,7 +2837,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2847,7 +2847,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2857,7 +2857,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2867,7 +2867,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2877,7 +2877,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2887,7 +2887,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2897,7 +2897,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2907,7 +2907,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments.”</td>
+      <td>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2974,7 +2974,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first landing page of the session which resulted in a touchpoint. Referred to in the CRM as “Landing Page”.</p>
+        <p>The first landing page of the session which resulted in a touchpoint. Referred to in the CRM as "Landing Page".</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover- truth-behind-cost-per-lead</p>
@@ -2988,7 +2988,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL. Referred to in the CRM as “Landing Page - Raw”.</p>
+        <p>The first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL. Referred to in the CRM as "Landing Page - Raw".</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover-truth -behind-cost-per-lead?utm_content=27322869&amp;utm_ medium=social&amp;utm_source=linkedin</p>
@@ -3002,7 +3002,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as “Referrer Page”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as "Referrer Page".</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -3016,7 +3016,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as “Referrer Page - Raw”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as "Referrer Page - Raw".</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -3030,7 +3030,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. Referred to in the CRM as “Form URL”.</p>
+        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. Referred to in the CRM as "Form URL".</p>
       </td>
       <td>
         <p>http://info.adobe.com/intro-guide-b2b-marketing-attribution</p>
@@ -3044,7 +3044,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. A raw form page may contain query parameters in the URL. Referred to in the CRM as “Form URL - Raw”.</p>
+        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. A raw form page may contain query parameters in the URL. Referred to in the CRM as "Form URL - Raw".</p>
       </td>
       <td>
         <p>http://info.adobe.com/intro-guide-b2b-marketing-attribution</p>
@@ -3114,7 +3114,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as “cpc” or “display.”</p>
+        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as "cpc" or "display."</p>
       </td>
       <td>
         <p>social</p>
@@ -3128,7 +3128,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as “CRM Campaign” if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.” Referred to in the CRM as “Touchpoint Source”.</p>
+        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -3436,7 +3436,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The friendly URL name that’s shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
+        <p>The friendly URL name that's shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
       </td>
       <td>
         <p>http://info.adobe.com/CMOs-Guide</p>
@@ -3544,15 +3544,9 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>STAGES_TOUCHED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The stages that the touchpoint has gone through.</p>
-      </td>
-      <td>
-        <p>Qualified Discovery, Demo Scheduled</p>
-      </td>
+      <td>varchar</td>
+      <td>This field has been deprecated. Use the Stage_Transitions tables for stage information.</td>
+      <td>null</td>
     </tr>
     <tr>
       <td>
@@ -3590,7 +3584,7 @@ Ad Groups imported from any connected Ad Account.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s a first touch (See Is_First_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's a first touch (See Is_First_Touch).</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -3604,7 +3598,7 @@ Ad Groups imported from any connected Ad Account.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s a lead creation touch (See Is_Lead_Creation_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's a lead creation touch (See Is_Lead_Creation_Touch).</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -3618,7 +3612,7 @@ Ad Groups imported from any connected Ad Account.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a u-shaped touch (See Is_First_Touch and Is_Lead_Creation_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's part of a u-shaped touch (See Is_First_Touch and Is_Lead_Creation_Touch).</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -3632,7 +3626,7 @@ Ad Groups imported from any connected Ad Account.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a w-shaped touch (See Is_First_Touch, Is_Lead_Creation_Touch, and Is_Opp_Creation_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's part of a w-shaped touch (See Is_First_Touch, Is_Lead_Creation_Touch, and Is_Opp_Creation_Touch).</p>
       </td>
       <td>
         <p>0.0153374234214425</p>
@@ -3646,7 +3640,7 @@ Ad Groups imported from any connected Ad Account.
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a full path model (See Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's part of a full path model (See Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</p>
       </td>
       <td>
         <p>0.0143061513081193</p>
@@ -3656,15 +3650,9 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>CUSTOM_MODEL_PERCENTAGE</p>
       </td>
-      <td>
-        <p>number(22,19)</p>
-      </td>
-      <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a custom model (See Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch, Stages_Touched).</p>
-      </td>
-      <td>
-        <p>0.0143061513081193</p>
-      </td>
+      <td>number(22,19)</td>
+      <td>The calculated percentage allocated to this touchpoint because it's part of a custom model (See Is_First_Touch,  Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch).</td>
+      <td>0.0143061513081193</td>
     </tr>
     <tr>
       <td>
@@ -3953,7 +3941,7 @@ Campaign Members imported from the source system. This table will be empty if Ca
         <p>boolean</p>
       </td>
       <td>
-        <p>Tells if the Campaign Member was marked as “Responded” from the Status picker.</p>
+        <p>Tells if the Campaign Member was marked as "Responded" from the Status picker.</p>
       </td>
       <td>
         <p>true</p>
@@ -4442,9 +4430,7 @@ Currency conversion rates imported from the source system.
       <td>ID</td>
       <td>number(38,0)</td>
       <td>A unique Id for the record.</td>
-      <td>
-        <p>-5942345438803054604</p>
-      </td>
+      <td>-5942345438803054604</td>
     </tr>
     <tr>
       <td>CURRENCY_ID</td>
@@ -4462,17 +4448,13 @@ Currency conversion rates imported from the source system.
       <td>START_DATE</td>
       <td>timestamp_ntz</td>
       <td>Start date of the Conversion Rate.</td>
-      <td>
-        <p>2018-11-01 00:00:00.000</p>
-      </td>
+      <td>2018-11-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
       <td>Next start date for the Conversion Rate. (The end date for the Conversion Rate is end_date minus 1 day.)</td>
-      <td>
-        <p>2018-09-01 00:00:00.000</p>
-      </td>
+      <td>2018-09-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
@@ -4490,23 +4472,37 @@ Currency conversion rates imported from the source system.
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Date the record was created in the source system.</td>
-      <td>
-        <p>2019-03-30 00:54:50.000</p>
-      </td>
+      <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>Date the record was last modified in the source system.</td>
-      <td>
-        <p>2019-03-30 00:54:50.000</p>
-      </td>
+      <td>2019-03-30 00:54:50.000</td>
     </tr>
     <tr>
       <td>IS_DELETED</td>
       <td>boolean</td>
-      <td>Whether or not the record is considered deleted in the source system .</td>
+      <td>Whether or not the record is considered deleted in the source system.</td>
       <td>false</td>
+    </tr>
+    <tr>
+      <td>_CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date the record was created in Snowflake.</td>
+      <td>2020-01-01 01:01:00.000</td>
+    </tr>
+    <tr>
+      <td>_MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date the record was last modified in Snowflake.</td>
+      <td>2020-01-01 01:01:00.000</td>
+    </tr>
+    <tr>
+      <td>_DELETED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date the record was marked as deleted in Snowflake.</td>
+      <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
 </table>
@@ -4518,228 +4514,100 @@ Cost data imported from connected Ad Accounts or self reported marketing spend.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>A unique Id for the Cost record.</p>
-      </td>
-      <td>
-        <p>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>A unique Id for the Cost record.</td>
+      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Date the record was last modified.</p>
-      </td>
-      <td>
-        <p>2018-09-06 12:22:45.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date the record was last modified.</td>
+      <td>2018-09-06 12:22:45.000</td>
     </tr>
     <tr>
-      <td>
-        <p>COST_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Date the Cost was incurred (or attributed to).</p>
-      </td>
-      <td>
-        <p>2018-09-06 00:00:00.000</p>
-      </td>
+      <td>COST_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date the Cost was incurred (or attributed to).</td>
+      <td>2018-09-06 00:00:00.000</td>
     </tr>
     <tr>
-      <td>
-        <p>SOURCE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Source of the reported Cost.</p>
-      </td>
-      <td>
-        <p>[AdWords Display]</p>
-      </td>
+      <td>SOURCE</td>
+      <td>varchar</td>
+      <td>Source of the reported Cost.</td>
+      <td>[AdWords Display]</td>
     </tr>
     <tr>
-      <td>
-        <p>COST_IN_MICRO</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Cost amount in millions. User will need to divide the value by 1000000.</p>
-      </td>
-      <td>
-        <p>1410000</p>
-      </td>
+      <td>COST_IN_MICRO</td>
+      <td>number(38,0)</td>
+      <td>Cost amount in millions. User will need to divide the value by 1000000.</td>
+      <td>1410000</td>
     </tr>
     <tr>
-      <td>
-        <p>CLICKS</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Number of clicks reported for the group for the day.</p>
-      </td>
-      <td>
-        <p>4</p>
-      </td>
+      <td>CLICKS</td>
+      <td>number(38,0)</td>
+      <td>Number of clicks reported for the group for the day.</td>
+      <td>4</td>
     </tr>
     <tr>
-      <td>
-        <p>IMPRESSIONS</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Number of impressions reported for the group for the day.</p>
-      </td>
-      <td>
-        <p>4187</p>
-      </td>
+      <td>IMPRESSIONS</td>
+      <td>number(38,0)</td>
+      <td>Number of impressions reported for the group for the day.</td>
+      <td>4187</td>
     </tr>
     <tr>
-      <td>
-        <p>ESTIMATED_TOTAL_POSSIBLE_IMPRESSIONS</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Total number of impressions estimated from DCM for the group for the day.</p>
-      </td>
-      <td>
-        <p>5024</p>
-      </td>
+      <td>ESTIMATED_TOTAL_POSSIBLE_IMPRESSIONS</td>
+      <td>number(38,0)</td>
+      <td>Total number of impressions estimated from DCM for the group for the day.</td>
+      <td>5024</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_PROVIDER</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Provider for which the Cost was pulled.</p>
-      </td>
-      <td>
-        <p>Google</p>
-      </td>
+      <td>AD_PROVIDER</td>
+      <td>varchar</td>
+      <td>Provider for which the Cost was pulled.</td>
+      <td>Google</td>
     </tr>
     <tr>
-      <td>
-        <p>CHANNEL_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id for the marketing Channel, created by Marketo Measure.</p>
-      </td>
-      <td>
-        <p>Display.Google</p>
-      </td>
+      <td>CHANNEL_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id for the marketing Channel, created by Marketo Measure.</td>
+      <td>Display.Google</td>
     </tr>
     <tr>
-      <td>
-        <p>CHANNEL_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Name for the marketing Channel, created by the customer in the Marketo Measure app.</p>
-      </td>
-      <td>
-        <p>Display.Google</p>
-      </td>
+      <td>CHANNEL_NAME</td>
+      <td>varchar</td>
+      <td>Name for the marketing Channel, created by the customer in the Marketo Measure app.</td>
+      <td>Display.Google</td>
     </tr>
     <tr>
-      <td>
-        <p>CHANNEL_IS_AGGREGATABLE_COST</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Indicates if the row contains Cost which can be summed up by Channel. (i.e. to get Channel Cost, sum rows where this column equals true.)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>CHANNEL_IS_AGGREGATABLE_COST</td>
+      <td>boolean</td>
+      <td>Indicates if the row contains Cost which can be summed up by Channel. (i.e. to get Channel Cost, sum rows where this column equals true.)</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id of the Advertiser pulled from the Ad connection, specifically for Doubleclick connections.</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>Id of the Advertiser pulled from the Ad connection, specifically for Doubleclick connections.</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Name of the Advertiser pulled from the Ad connection, specifically for Doubleclick connections.</p>
-      </td>
-      <td>
-        <p>Marketo Measure Marketing Analytics</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>Name of the Advertiser pulled from the Ad connection, specifically for Doubleclick connections.</td>
+      <td>Marketo Measure Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_IS_AGGREGATABLE_COST</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Indicates if the row contains Cost which can be summed up by Advertiser. (i.e. to get Advertiser Cost, sum rows where this column equals true.)</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>ADVERTISER_IS_AGGREGATABLE_COST</td>
+      <td>boolean</td>
+      <td>Indicates if the row contains Cost which can be summed up by Advertiser. (i.e. to get Advertiser Cost, sum rows where this column equals true.)</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>
@@ -5451,7 +5319,7 @@ Creatives imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Creative”.</p>
+        <p>The main object or entity for this table. In this case, "Creative".</p>
       </td>
       <td>
         <p>Creative</p>
@@ -5494,7 +5362,7 @@ Creatives imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The shortened and friendly URL that’s displayed on the Creative.</p>
+        <p>The shortened and friendly URL that's displayed on the Creative.</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -5533,7 +5401,7 @@ Creatives imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The shortened and friendly URL that’s displayed on the Creative. (Used for LinkedIn Ads only.)</td>
+      <td>The shortened and friendly URL that's displayed on the Creative. (Used for LinkedIn Ads only.)</td>
       <td></td>
     </tr>
     <tr>
@@ -6825,7 +6693,7 @@ Mapping table for email addresses and visitor ids.
         <p>varchar</p>
       </td>
       <td>
-        <p>A known email address that’s tied to a given visitor Id from a session</p>
+        <p>A known email address that's tied to a given visitor Id from a session</p>
       </td>
       <td>
         <p>person@adobe.com</p>
@@ -7314,7 +7182,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s a first touch.</p>
+        <p>The calculated percentage allocated to this touchpoint because it's a first touch.</p>
       </td>
       <td>0.0000000000000000000</td>
     </tr>
@@ -7326,7 +7194,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s a lead creation touch.</p>
+        <p>The calculated percentage allocated to this touchpoint because it's a lead creation touch.</p>
       </td>
       <td>100.0000000000000000000</td>
     </tr>
@@ -7338,7 +7206,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage that gets allocated to this touchpoint because it’s part of a u-shaped touch.</p>
+        <p>The calculated percentage that gets allocated to this touchpoint because it's part of a u-shaped touch.</p>
       </td>
       <td>
         <p>100.0000000000000000000</p>
@@ -7352,7 +7220,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage that gets allocated to this touchpoint because it’s part of a w-shaped touch.</p>
+        <p>The calculated percentage that gets allocated to this touchpoint because it's part of a w-shaped touch.</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -7366,7 +7234,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage that gets allocated to this touchpoint because it’s part of a full path model.</p>
+        <p>The calculated percentage that gets allocated to this touchpoint because it's part of a full path model.</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -7380,7 +7248,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage that gets allocated to this touchpoint because it’s part of a custom model.</p>
+        <p>The calculated percentage that gets allocated to this touchpoint because it's part of a custom model.</p>
       </td>
       <td>
         <p>0.0000000000000000000</p>
@@ -8228,7 +8096,7 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as “Referrer Page”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as "Referrer Page".</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -8240,7 +8108,7 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as “Referrer Page - Raw”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as "Referrer Page - Raw".</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -9026,7 +8894,7 @@ Keywords imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Keyword”.</p>
+        <p>The main object or entity for this table. In this case, "Keyword".</p>
       </td>
       <td>
         <p>Keyword</p>
@@ -9994,7 +9862,7 @@ Stage transitions for Leads or Contacts.
         <p>boolean</p>
       </td>
       <td>
-        <p>Indicates if the the row is tied to a milestone stage transition. For example, if there are 3 stages/entries (FT, LC, MQL) and 4 touchpoints, the 1 touchpoint without a stage on it is considered “non-transitional” so the value would equal true.</p>
+        <p>Indicates if the the row is tied to a milestone stage transition. For example, if there are 3 stages/entries (FT, LC, MQL) and 4 touchpoints, the 1 touchpoint without a stage on it is considered "non-transitional" so the value would equal true.</p>
       </td>
       <td>
         <p>false</p>
@@ -10604,7 +10472,7 @@ Stage transitions for Opportunities.
         <p>boolean</p>
       </td>
       <td>
-        <p>Indicates if the the row is tied to a milestone stage transition. For example, if there are 3 stages/entries (FT, LC, MQL) and 4 touchpoints, the 1 touchpoint without a stage on it is considered “non-transitional” so the value would equal true.</p>
+        <p>Indicates if the the row is tied to a milestone stage transition. For example, if there are 3 stages/entries (FT, LC, MQL) and 4 touchpoints, the 1 touchpoint without a stage on it is considered "non-transitional" so the value would equal true.</p>
       </td>
       <td>
         <p>false</p>
@@ -11241,7 +11109,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Placement”.</p>
+        <p>The main object or entity for this table. In this case, "Placement".</p>
       </td>
       <td>Placement</td>
     </tr>
@@ -12040,7 +11908,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>The friendly URL name that’s shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
+        <p>The friendly URL name that's shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
       </td>
       <td>
         <p>adobe.com/Salesforce-for-GA</p>
@@ -12572,7 +12440,7 @@ Sites imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “Site”.</p>
+        <p>The main object or entity for this table. In this case, "Site".</p>
       </td>
       <td>Site</td>
     </tr>
@@ -12879,7 +12747,7 @@ Sites Links from any connected Ads Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The main object or entity for this table. In this case, “SiteLink”</p>
+        <p>The main object or entity for this table. In this case, "SiteLink"</p>
       </td>
       <td>
         <p>SiteLink</p>
@@ -13172,18 +13040,10 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -13321,7 +13181,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The type of activity, Web Visit, Web Form, Web Chat, Phone Call, [CRM] Campaign, or [CRM] Activity. Referred to in the CRM as “Touchpoint Type.”</p>
+        <p>The type of activity, Web Visit, Web Form, Web Chat, Phone Call, [CRM] Campaign, or [CRM] Activity. Referred to in the CRM as "Touchpoint Type."</p>
       </td>
       <td>
         <p>Web Form</p>
@@ -13335,7 +13195,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as “Marketing Channel - Path.”</p>
+        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as "Marketing Channel - Path."</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -13347,7 +13207,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>ABC</td>
     </tr>
@@ -13359,7 +13219,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>
         <p>Yes</p>
@@ -13373,7 +13233,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>
         <p>Other</p>
@@ -13387,7 +13247,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>
         <p>Partner</p>
@@ -13401,7 +13261,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13413,7 +13273,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13424,7 +13284,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13434,7 +13294,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13444,7 +13304,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13454,7 +13314,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13464,7 +13324,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13474,7 +13334,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13484,7 +13344,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</td>
+      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13495,7 +13355,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments".</p>
+        <p>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13507,7 +13367,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as “Segments”.</p>
+        <p>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13571,7 +13431,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The first landing page of the session which resulted in a touchpoint. Referred to in the CRM as “Landing Page”.</p>
+        <p>The first landing page of the session which resulted in a touchpoint. Referred to in the CRM as "Landing Page".</p>
       </td>
       <td>
         <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing</p>
@@ -13585,7 +13445,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL. Referred to in the CRM as “Landing Page - Raw”.</p>
+        <p>The first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL. Referred to in the CRM as "Landing Page - Raw".</p>
       </td>
       <td>
         <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
@@ -13599,7 +13459,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as “Referrer Page”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as "Referrer Page".</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -13611,7 +13471,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as “Referrer Page - Raw”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as "Referrer Page - Raw".</p>
       </td>
       <td>
         <p>https://www.linkedin.com/feed</p>
@@ -13625,7 +13485,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Touchpoints table, but rather in the Form_Submits table. Referred to in the CRM as “Form URL”.</p>
+        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Touchpoints table, but rather in the Form_Submits table. Referred to in the CRM as "Form URL".</p>
       </td>
       <td>
         <p>https://info.adobe.com/demo</p>
@@ -13634,7 +13494,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
     <tr>
       <td>FORM_PAGE_RAW</td>
       <td>varchar</td>
-      <td>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Touchpoints table, but rather in the Form_Submits table. A raw form page may contain query parameters in the URL. Referred to in the CRM as “Form URL - Raw”.</td>
+      <td>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Touchpoints table, but rather in the Form_Submits table. A raw form page may contain query parameters in the URL. Referred to in the CRM as "Form URL - Raw".</td>
       <td>https://info.adobe.com/demo?hsCtaTracking=98adcc2f-afe2-40c4-9d79-40dcc41663ee%7C3cfaa909-39cb-4f5d-93eb-be05de6b0180</td>
     </tr>
     <tr>
@@ -13701,7 +13561,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as “cpc” or “display.”</p>
+        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as "cpc" or "display."</p>
       </td>
       <td>
         <p>Social</p>
@@ -13715,7 +13575,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as “CRM Campaign” if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.” Referred to in the CRM as “Touchpoint Source”.</p>
+        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -14015,7 +13875,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The friendly URL name that’s shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
+        <p>The friendly URL name that's shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
       </td>
       <td>
         <p>marektomeasure.com/guide</p>
@@ -14120,18 +13980,10 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       </td>
     </tr>
     <tr>
-      <td>
-        <p>STAGES_TOUCHED</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The stages that the touchpoint has gone through.</p>
-      </td>
-      <td>
-        <p>Open, MQL</p>
-      </td>
+      <td>STAGES_TOUCHED</td>
+      <td>varchar</td>
+      <td>This field has been deprecated. Use the Stage_Transitions tables for stage information.</td>
+      <td>null</td>
     </tr>
     <tr>
       <td>
@@ -14169,7 +14021,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s a first touch (See Is_First_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's a first touch (See Is_First_Touch).</p>
       </td>
       <td>
         <p>100</p>
@@ -14183,7 +14035,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s a lead creation touch (See Is_Lead_Creation_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's a lead creation touch (See Is_Lead_Creation_Touch).</p>
       </td>
       <td>
         <p>100</p>
@@ -14197,7 +14049,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a u-shaped touch (See Is_First_Touch and Is_Lead_Creation_Touch).</p>
+        <p>The calculated percentage allocated to this touchpoint because it's part of a u-shaped touch (See Is_First_Touch and Is_Lead_Creation_Touch).</p>
       </td>
       <td>
         <p>100</p>
@@ -14211,7 +14063,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a w-shaped touch (See Is_First_Touch, Is_Lead_Creation_Touch, and Is_Opp_Creation_Touch). Expected to be 0 since this is a BT.</p>
+        <p>The calculated percentage allocated to this touchpoint because it's part of a w-shaped touch (See Is_First_Touch, Is_Lead_Creation_Touch, and Is_Opp_Creation_Touch). Expected to be 0 since this is a BT.</p>
       </td>
       <td>
         <p>0</p>
@@ -14225,25 +14077,18 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a full path model (See Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Expected to be 0 since this is a BT.</p>
+        <p>The calculated percentage allocated to this touchpoint because it's part of a full path model (See Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Expected to be 0 since this is a BT.</p>
       </td>
       <td>
         <p>0</p>
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CUSTOM_MODEL_PERCENTAGE</p>
+      <td>CUSTOM_MODEL_PERCENTAGE</td>
+      <td>number(22,19)</td>
+      <td>The calculated percentage allocated to this touchpoint because it's part of a custom model (See Is_First_Touch,  Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch). Expected to be 0 since this is a BT.</p>
       </td>
-      <td>
-        <p>number(22,19)</p>
-      </td>
-      <td>
-        <p>The calculated percentage allocated to this touchpoint because it’s part of a custom model (See Is_First_Touch, Is_Lead_Creation_Touch, Is_Opp_Creation_Touch, Is_Closed_Touch, Stages_Touched). Expected to be 0 since this is a BT.</p>
-      </td>
-      <td>
-        <p>0</p>
-      </td>
+      <td>0</td>
     </tr>
     <tr>
       <td>
@@ -14681,7 +14526,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The type of activity, Web Visit, Web Form, Web Chat, Phone Call, [CRM] Campaign, or [CRM] Activity. Referred to in the CRM as “Touchpoint Type.”</p>
+        <p>The type of activity, Web Visit, Web Form, Web Chat, Phone Call, [CRM] Campaign, or [CRM] Activity. Referred to in the CRM as "Touchpoint Type."</p>
       </td>
       <td>
         <p>Web Form</p>
@@ -14695,7 +14540,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as “Marketing Channel - Path.”</p>
+        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as "Marketing Channel - Path."</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -14765,7 +14610,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first landing page of the session which resulted in a touchpoint. Referred to in the CRM as “Landing Page”.</p>
+        <p>The first landing page of the session which resulted in a touchpoint. Referred to in the CRM as "Landing Page".</p>
       </td>
       <td>
         <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing</p>
@@ -14779,7 +14624,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL. Referred to in the CRM as “Landing Page - Raw”.</p>
+        <p>The first landing page of the session that resulted in a touchpoint. A raw landing page will contain all query parameters in the URL. Referred to in the CRM as "Landing Page - Raw".</p>
       </td>
       <td>
         <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
@@ -14793,7 +14638,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as “Referrer Page”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. Referred to in the CRM as "Referrer Page".</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -14807,7 +14652,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as “Referrer Page - Raw”.</p>
+        <p>Typically the external landing page immediately before the user comes onto the website. A raw referrer page may contain query parameters in the URL. Referred to in the CRM as "Referrer Page - Raw".</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -14821,7 +14666,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. Referred to in the CRM as “Form URL”.</p>
+        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. Referred to in the CRM as "Form URL".</p>
       </td>
       <td>
         <p>http://info.adobe.com/adwords-for-lead-generation</p>
@@ -14835,7 +14680,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. A raw form page may contain query parameters in the URL. Referred to in the CRM as “Form URL - Raw”.</p>
+        <p>The first form recorded in a session which resulted in a touchpoint. Subsequent form submissions will not show up in the Attribution_Touchpoints table, but rather in the Form_Submits table. A raw form page may contain query parameters in the URL. Referred to in the CRM as "Form URL - Raw".</p>
       </td>
       <td>
         <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
@@ -14905,7 +14750,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as “cpc” or “display.”</p>
+        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as "cpc" or "display."</p>
       </td>
       <td>
         <p>paid</p>
@@ -14919,7 +14764,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as “CRM Campaign” if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as “Google AdWords” or “Facebook.” Referred to in the CRM as “Touchpoint Source”.</p>
+        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -15223,7 +15068,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The friendly URL name that’s shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
+        <p>The friendly URL name that's shown on the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
       </td>
       <td>
         <p>adobe.com/demo</p>

@@ -155,6 +155,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
     + [Overview Board Tiles](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + Marketo Measure and Adobe {#marketo-measure-and-adobe}
   + [Marketo Measure Integrations with Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
+  + [Marketo Measure Integrations with Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
   + [Domain Management](marketo-measure-and-adobe/domain-management.md)
   + [Unified Shell Overview](marketo-measure-and-adobe/unified-shell-overview.md)
 + Marketo Measure and Dynamics {#marketo-measure-and-dynamics}
