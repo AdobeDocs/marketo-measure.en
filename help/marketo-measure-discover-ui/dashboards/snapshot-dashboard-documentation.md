@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762600
-description: Snapshot Dashboard Documentation - Marketo Measure - Product Documentation
+description: Snapshot Dashboard Documentation - [!DNL Marketo Measure] - Product Documentation
 title: Snapshot Dashboard Documentation
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
 ---
@@ -14,7 +14,7 @@ This dashboard has two tiles:
 
 >[!NOTE]
 >
->Across all Discover dashboards, only one person object, either Lead or Contact, can be reported. This is set in Settings - Reporting - Attribution Settings - Default Dashboard Object.
+>Across all Discover dashboards, only one person object, either Lead or Contact, can be reported. This is set in [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
 
 * **Opportunity Snapshot:** The number of Opportunity records in each stage on the selected date.
 
@@ -30,7 +30,7 @@ This dashboard supports the following filters (all filters apply to both tiles):
 * Channel: filter the records by channels. A record is associated to a channel if any of its touchpoints are associated to the channel.
 * Subchannel: filter the records by subchannels. A record is associated to a subchannel if any of its touchpoints are associated to the subchannel.
 * Campaign: filter the records by campaigns. A record is associated to a campaign if any of its touchpoints are associated to the campaign.
-* Campaign Source: filter the records by campaign sources. Example campaign sources are Adwords, BingAds, Facebook, LinkedIn etc. A record is associated to a campaign source if any of its touchpoints are associated to the campaign source.
+* Campaign Source: filter the records by campaign sources. Example campaign sources are [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. A record is associated to a campaign source if any of its touchpoints are associated to the campaign source.
 * Ad Account ID/Name: filter the records by Ad Account IDs or Names. A record is associated to an Ad Account if any of its touchpoints is associated to a campaign from the selected Ad Accounts.
 
 >[!NOTE]
@@ -49,7 +49,7 @@ Across all filters, "AND" logic is used.
 
 ![](assets/one.png)
 
-Stages include FT, LC and selected Funnel stages in Open Lead/Contact Stages (Settings > CRM > Stage Mapping).
+Stages include FT, LC and selected Funnel stages in Open Lead/Contact Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]).
 
 You can drill down from each bar to view the Lead/Contact records for each stage.
 
@@ -57,6 +57,6 @@ You can drill down from each bar to view the Lead/Contact records for each stage
 
 ![](assets/two.png)
 
-Stages include FT, LC, selected Funnel stages in Open Lead/Contact Stages (Settings > CRM > Stage Mapping). And OC and selected Funnel stages in Open Opportunity Stages (Settings > CRM > Stage Mapping).
+Stages include FT, LC, selected Funnel stages in Open Lead/Contact Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]). And OC and selected Funnel stages in Open Opportunity Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]).
 
 You can drill down from each bar to view the Opportunity records for each stage.

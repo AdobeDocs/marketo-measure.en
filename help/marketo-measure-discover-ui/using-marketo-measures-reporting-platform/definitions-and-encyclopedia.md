@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874662
-description: Definitions and Encyclopedia - Marketo Measure - Product Documentation
+description: Definitions and Encyclopedia - [!DNL Marketo Measure] - Product Documentation
 title: Definitions and Encyclopedia
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 ---
@@ -8,7 +8,7 @@ exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 
 The following is an overview of the different Boards and Tiles present in the Discover platform, as well as the Filters within those Boards. Within the screenshot of each Board are several number Tiles, the definitions of which can be found in that Board's section below.
 
-**Marketo Measure Boards**
+**[!DNL Marketo Measure] Boards**
 
 Overview
 
@@ -42,7 +42,7 @@ Passport Funnel
 
 Engagement Path
 
-## Marketo Measure Boards {#marketo-measure-boards}
+## [!DNL Marketo Measure] Boards {#marketo-measure-boards}
 
 ### Overview {#overview}
 
@@ -96,7 +96,7 @@ Using the Dimensions dropdown from the Filters menu, this shows how much Revenue
 
 **Deals**
 
-`5.` The total number of Closed Won opportunities, based of the attribution model count. If the date type “Touchpoint Date” is selected, partial counts are possible because it is possible to exclude some touchpoints within an opportunity using this date type.
+`5.` The total number of Closed Won opportunities, based of the attribution model count. If the date type "Touchpoint Date" is selected, partial counts are possible because it is possible to exclude some touchpoints within an opportunity using this date type.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -128,7 +128,7 @@ Click to Show Details and drill into the data by viewing it as a visualization a
 
 ### Growth {#growth}
 
-Growth allows the Marketer to see what they’ve generated across the board, from leads to contacts to opportunities to revenue. It’s a quick view of all pipeline and how they’ve performed over time.
+Growth allows the Marketer to see what they've generated across the board, from leads to contacts to opportunities to revenue. It's a quick view of all pipeline and how they've performed over time.
 
 **Filters**
 
@@ -190,7 +190,7 @@ Drill in to view the data from a smaller date dimension.
 
 **Leads**
 
-`7.` The total number of Leads, based off the attribution model. If the date type “Touchpoint Date” is selected, partial counts are possible because it is possible to exclude some touchpoints within a Lead record using this date type. If an attribution model beyond U-Shaped is applied, the U-Shaped count is used for W-Shaped, W-Shaped, and Custom Model.
+`7.` The total number of Leads, based off the attribution model. If the date type "Touchpoint Date" is selected, partial counts are possible because it is possible to exclude some touchpoints within a Lead record using this date type. If an attribution model beyond U-Shaped is applied, the U-Shaped count is used for W-Shaped, W-Shaped, and Custom Model.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -202,7 +202,7 @@ Drill in to view the data from a smaller date dimension.
 
 **Contacts**
 
-`9.` The total number of Contacts, based off the attribution model. If the date type “Touchpoint Date” is selected, partial counts are possible because it is possible to exclude some touchpoints within a Contact record using this date type. If an attribution model beyond U-Shaped is applied, the U-Shaped count is used for W-Shaped, W-Shaped, and Custom Model.
+`9.` The total number of Contacts, based off the attribution model. If the date type "Touchpoint Date" is selected, partial counts are possible because it is possible to exclude some touchpoints within a Contact record using this date type. If an attribution model beyond U-Shaped is applied, the U-Shaped count is used for W-Shaped, W-Shaped, and Custom Model.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -214,7 +214,7 @@ Drill in to view the data from a smaller date dimension.
 
 **Opportunities**
 
-`11.` The total number of Opportunities, based off the attribution model. If the date type “Touchpoint Date” is selected, partial counts are possible because it is possible to exclude some touchpoints within an Opportunity record using this date type.
+`11.` The total number of Opportunities, based off the attribution model. If the date type "Touchpoint Date" is selected, partial counts are possible because it is possible to exclude some touchpoints within an Opportunity record using this date type.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -310,7 +310,7 @@ Categories
 
 ### Account Based Marketing {#account-based-marketing}
 
-Account Based Marketing provides companies using ABM the ability to track their efforts towards their target accounts and how much engagement they’ve seen from their marketing.
+Account Based Marketing provides companies using ABM the ability to track their efforts towards their target accounts and how much engagement they've seen from their marketing.
 
 **Filters**
 
@@ -342,7 +342,7 @@ The average number of touchpoints generated from each CRM Account, by Account ID
 
 **Leads Matched**
 
-The total number of Leads that were successfully matched to an Account using Marketo Measure’s Lead-to-Account feature, using website, company name, and email domain matching algorithms.
+The total number of Leads that were successfully matched to an Account using the [!DNL Marketo Measure] Lead-to-Account feature, using website, company name, and email domain matching algorithms.
 
 **Accounts Engaged**
 
@@ -374,7 +374,7 @@ The number of touchpoints attributed to each dimension, where the dimension can 
 
 ### Marketing Spend {#marketing-spend}
 
-Marketing Spend shows Marketers how much they’ve spent over a period of time so they can track spend by month and by channel.
+Marketing Spend shows Marketers how much they've spent over a period of time so they can track spend by month and by channel.
 
 **Filters**
 
@@ -414,7 +414,7 @@ The calculated ROI (return on investment) from the total revenue (from the selec
 
 The total amount of recorded spend showing the trend over a specific time period. Use the Group By filter to change the stack by None, Channel, Subchannel, Campaign, Account, Ad Group, Ad, Advertiser, Creative, Keyword, Placement, Site.
 
-Because Spend is not recorded at all levels, it is possible that the totals do not equal to each “Group By” selection. For example, the total of all Campaigns will not equal to the total of all Subchannels.
+Because Spend is not recorded at all levels, it is possible that the totals do not equal to each "Group By" selection. For example, the total of all Campaigns will not equal to the total of all Subchannels.
 
 **Spend + ROI**
 
@@ -510,7 +510,7 @@ Using the Metric dropdown from the Filters menu, this chart shows revenue / pipe
 
 **Web Traffic Summary**
 
-By URL, view the number of page views, visits, unique visits, and form submits that’s credited to each.
+By URL, view the number of page views, visits, unique visits, and form submits that's credited to each.
 
 **Referrer Summary**
 
@@ -580,7 +580,7 @@ Click to Show Details and drill into the data by viewing it as a visualization a
 
 **Deals**
 
-`5.` The total number of Closed Won opportunities, based of the attribution model count. If the date type “Touchpoint Date” is selected, partial counts are possible because it is possible to exclude some touchpoints within an opportunity using this date type.
+`5.` The total number of Closed Won opportunities, based of the attribution model count. If the date type "Touchpoint Date" is selected, partial counts are possible because it is possible to exclude some touchpoints within an opportunity using this date type.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -706,7 +706,7 @@ Click to Show Details and drill into the data by viewing it as a visualization a
 
 **Web Traffic Summary**
 
-Using the dimension picker in the Filters menu, switch between Channel, Subchannel, Campaign, Account, Ad Group, Ad, Advertiser, Creative, Keyword, Placement, Site, and view the number of page views, visits, unique visits, and form submits that’s credited to each.
+Using the dimension picker in the Filters menu, switch between Channel, Subchannel, Campaign, Account, Ad Group, Ad, Advertiser, Creative, Keyword, Placement, Site, and view the number of page views, visits, unique visits, and form submits that's credited to each.
 
 **Lead Pipeline Summary**
 
@@ -784,7 +784,7 @@ Click to Show Details and drill into the data by viewing it as a visualization a
 
 **Form URLs by Channel**
 
-`9.` The top 10 form URLs grouped by the channel that’s driving the visit.
+`9.` The top 10 form URLs grouped by the channel that's driving the visit.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -810,7 +810,7 @@ Drill in to see the unique visits by month to the selected URL.
 
 **Leads**
 
-`14.` The total number of Leads, based off the attribution model. If the date type “Touchpoint Date” is selected, partial counts are possible because it is possible to exclude some touchpoints within a Lead record using this date type. If an attribution model beyond U-Shaped is applied, the U-Shaped count is used for W-Shaped, W-Shaped, and Custom Model.
+`14.` The total number of Leads, based off the attribution model. If the date type "Touchpoint Date" is selected, partial counts are possible because it is possible to exclude some touchpoints within a Lead record using this date type. If an attribution model beyond U-Shaped is applied, the U-Shaped count is used for W-Shaped, W-Shaped, and Custom Model.
 
 Click to Show Details and drill into the data by viewing it as a visualization and table.
 
@@ -820,7 +820,7 @@ Click to Show Details and drill into the data by viewing it as a visualization a
 
 ### Marketing Ops {#marketing-ops}
 
-Validate and diagnose Marketo Measure data with complete visibility into individual touchpoints.
+Validate and diagnose [!DNL Marketo Measure] data with complete visibility into individual touchpoints.
 
 **Filters**
 
@@ -892,17 +892,17 @@ Click the aggregated numbers to drill down for base data details.
 
 **Marketing Ops FAQ**
 
-**Q: Why is there both an ‘Account ID’ and ‘Account Name’ filter?**
+**Q: Why is there both an 'Account ID' and 'Account Name' filter?**
 
-A: While account IDs are unique, account names don’t have to be. For example, you could have created multiple different accounts for each business unit within an enterprise company. While using the account name may be more intuitive, to ensure you’re filtering for a specific account, you may want to use the account ID.
+A: While account IDs are unique, account names don't have to be. For example, you could have created multiple different accounts for each business unit within an enterprise company. While using the account name may be more intuitive, to ensure you're filtering for a specific account, you may want to use the account ID.
 
 **Q: If I filter by Account ID, will all the tables by filtered?**
 
-A: Yes, it will apply the filter to every tile in the board. For example, if your were to apply an account filter for ‘Microsoft,’ in the ‘Opportunities’ tile you will only see opportunities related to Microsoft.
+A: Yes, it will apply the filter to every tile in the board. For example, if your were to apply an account filter for 'Microsoft,' in the 'Opportunities' tile you will only see opportunities related to Microsoft.
 
-**Q: What is the ‘Engagement Rating’ column?**
+**Q: What is the 'Engagement Rating' column?**
 
-A: The engagement rating pulls from Marketo Measure’s Predictive Account Engagement Score, which is available in Marketo Measure Tier 2. If you do not have this, this field will show up as null.
+A: The engagement rating pulls from the [!DNL Marketo Measure] Predictive Account Engagement Score, which is available in [!DNL Marketo Measure] Tier 2. If you do not have this, this field will show up as null.
 
 **Q: Can I change how the table is sorted?**
 
@@ -910,11 +910,11 @@ A: Yes, if you click any of the column headers, it will sort the table. If you c
 
 **Q: Can I export the data?**
 
-A: Yes, when hovering over the tile title (e.g., ‘Accounts’), click on the three vertical dots in the upper right-hand corner. This will enable you to download the data for that tile in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
+A: Yes, when hovering over the tile title (e.g., 'Accounts'), click on the three vertical dots in the upper right-hand corner. This will enable you to download the data for that tile in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
 
 **Q: Can I see beyond 500 rows of data?**
 
-A: The tile is limited to displaying 500 rows at a time, but you can export the data and choose ‘All Results’ to see more than the 500 rows displayed.
+A: The tile is limited to displaying 500 rows at a time, but you can export the data and choose 'All Results' to see more than the 500 rows displayed.
 
 ## Journey {#journey}
 
@@ -960,7 +960,7 @@ Subchannel is equal to __
 
 **Lead Velocity by Channel**
 
-`6.` The average number of days that Leads are in their cycle per stage before they’re converted to a Contact/Opportunity/Account, grouped by the Marketing Channel and showing length of time it takes to progress to the next stage. The stages that appear here are milestone stages (FT, LC) and custom stages.
+`6.` The average number of days that Leads are in their cycle per stage before they're converted to a Contact/Opportunity/Account, grouped by the Marketing Channel and showing length of time it takes to progress to the next stage. The stages that appear here are milestone stages (FT, LC) and custom stages.
 
 **Average Opportunity Velocity**
 
@@ -968,7 +968,7 @@ Subchannel is equal to __
 
 **Average Lead Velocity**
 
-`8.` The average number of days that Leads are in their cycle per stage before they’re converted to a Contact/Opportunity/Account, showing length of time it takes to progress to the next stage. The stages that appear here are milestone stages (FT, LC) and custom stages. The numbers here reflect the time per stage in the Lead Velocity by Channel chart above.
+`8.` The average number of days that Leads are in their cycle per stage before they're converted to a Contact/Opportunity/Account, showing length of time it takes to progress to the next stage. The stages that appear here are milestone stages (FT, LC) and custom stages. The numbers here reflect the time per stage in the Lead Velocity by Channel chart above.
 
 **Opportunity Velocity over time**
 
@@ -1008,7 +1008,7 @@ Leads or Contacts
 
 ### Passport {#passport}
 
-The Passport is the new demand waterfall view from the Marketo Measure ROI Dashboard, where each stage shows the number of records in each stage and the total of records that have passed through each stage.
+The Passport is the new demand waterfall view from the [!DNL Marketo Measure] ROI Dashboard, where each stage shows the number of records in each stage and the total of records that have passed through each stage.
 
 **Filters**
 
@@ -1082,25 +1082,25 @@ Click Event Type to drill down to view event details.
 
 **Engagement Path FAQ**
 
-**Q: How can I view a single person’s journey?**
+**Q: How can I view a single person's journey?**
 
-A: Using either the ‘Lead ID/Email’ or ‘Contact ID/email’ filter, set the filter to ‘contains [email address]’ and then click ‘Run.’
+A: Using either the 'Lead ID/Email' or 'Contact ID/email' filter, set the filter to 'contains [email address]' and then click 'Run.'
 
-**Q: What does the ‘Attribution Model’ filter affect?**
+**Q: What does the 'Attribution Model' filter affect?**
 
-A: The attribution model filter will affect the ‘Attributed Revenue’ column
+A: The attribution model filter will affect the 'Attributed Revenue' column
 
-**Q: What is the ‘Marketing Touch Type’ filter?**
+**Q: What is the 'Marketing Touch Type' filter?**
 
-A: The ‘Marketing Touch Type’ is the type of engagement, which can include Web Visit, Web Form, Web Chat, Email, Call, Left Message, or CRM (i.e., campaign membership for offline channels)
+A: The 'Marketing Touch Type' is the type of engagement, which can include Web Visit, Web Form, Web Chat, Email, Call, Left Message, or CRM (i.e., campaign membership for offline channels)
 
 **Q: How do I filter out all the web sessions from the journey?**
 
-A: Using the ‘Marketing Touch Type’ filter, set the filter to ‘doesn’t contain Web Visit’ OR ‘contains [all touch types except Web Visit], and then click ‘Run’
+A: Using the 'Marketing Touch Type' filter, set the filter to 'doesn't contain Web Visit' OR 'contains [all touch types except Web Visit], and then click 'Run'
 
 **Q: Can I export the data?**
 
-A: Yes, when hovering over the ‘Journey of Events’ table, click on the three vertical dots in the upper right-hand corner. This will enable you to download the data in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
+A: Yes, when hovering over the 'Journey of Events' table, click on the three vertical dots in the upper right-hand corner. This will enable you to download the data in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
 
 **Q: Can I change how the table is sorted?**
 
@@ -1108,4 +1108,4 @@ A: Yes, if you click any of the column headers, it will sort the table. If you c
 
 **Q: Can I see beyond 500 rows of data?**
 
-A: The tile is limited to displaying 500 rows at a time, but you can export the data and choose ‘All Results’ to see more than the 500 rows displayed.
+A: The tile is limited to displaying 500 rows at a time, but you can export the data and choose 'All Results' to see more than the 500 rows displayed.

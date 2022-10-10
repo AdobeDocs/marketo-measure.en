@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762648
-description: Cohort Journey Dashboard Documentation - Marketo Measure - Product Documentation
+description: Cohort Journey Dashboard Documentation - [!DNL Marketo Measure] - Product Documentation
 title: Cohort Journey Dashboard Documentation
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
 ---
@@ -15,7 +15,7 @@ This dashboard has two tiles:
 
 >[!NOTE]
 >
->Across all Discover dashboards, only one person object, either Lead or Contact, can be reported. This is set in Settings > Reporting > Attribution Settings > Default Dashboard Object.
+>Across all Discover dashboards, only one person object, either Lead or Contact, can be reported. This is set in [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
 
 This dashboard supports the following filters:
 
@@ -25,7 +25,7 @@ This dashboard supports the following filters:
 * Channel: filter the records by channels. A record is associated to a channel if any of its touchpoints are associated to the channel.
 * Subchannel: filter the records by subchannels. A record is associated to a subchannel if any of its touchpoints are associated to the subchannel.
 * Campaign: filter the records by campaigns. A record is associated to a campaign if any of its touchpoints are associated to the campaign.
-* Campaign Source: filter the records by campaign sources. Example campaign sources are Adwords, BingAds, Facebook, LinkedIn etc. A record is associated to a campaign source if any of its touchpoints are associated to the campaign source.
+* Campaign Source: filter the records by campaign sources. Example campaign sources are [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. A record is associated to a campaign source if any of its touchpoints are associated to the campaign source.
 * Segment filters: filter the records by custom segments. A record is associated to a segment if any of its touchpoints are associated to the segment.
 
 Across all filters, "AND" logic is used.

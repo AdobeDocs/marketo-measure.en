@@ -1,6 +1,6 @@
 ---
 unique-page-id: 34406468
-description: Overview Board Tiles - Marketo Measure - Product Documentation
+description: Overview Board Tiles - [!DNL Marketo Measure] - Product Documentation
 title: Overview Board Tiles
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
 ---
@@ -240,7 +240,7 @@ The total amount of spend from both API costs and self-reported costs for the gi
 
 >[!NOTE]
 >
->When drilling in on less than a month, Marketo Measure will average the spend for that month and allocate that average to each day.
+>When drilling in on less than a month, [!DNL Marketo Measure] will average the spend for that month and allocate that average to each day.
 
 -Spend Details: Displays a breakdown of the related Spend Campaign Unique ID, Campaign Name, Channel, Subchannel, Date, Original Currency, Spend.  -Show Details: A breakdown by month.
 
@@ -258,7 +258,7 @@ Displays the total number attributed deals (Deals are a count of Closed Won oppo
 
 >[!NOTE]
 >
->If the date type “Touchpoint Date” is selected, partial counts are possible because there may be certain touchpoints that do not fall within the time range.
+>If the date type "Touchpoint Date" is selected, partial counts are possible because there may be certain touchpoints that do not fall within the time range.
 
 -Opportunity Details: Displays a breakdown of the related Opportunity IDs, Created Date, Close Date and Attribution (count).  -Show Details: A breakdown by month.
 

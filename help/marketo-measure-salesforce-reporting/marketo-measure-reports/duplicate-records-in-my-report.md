@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874634
-description: Duplicate Records in My Report - Marketo Measure - Product Documentation
+description: Duplicate Records in My Report - [!DNL Marketo Measure] - Product Documentation
 title: Duplicate Records in My Report
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 ---
@@ -8,9 +8,9 @@ exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 
 >[!NOTE]
 >
->You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-As you dive into the Marketo Measure Reports in Salesforce, you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review Marketo Measure's out-of-the-box reports.
+As you dive into the [!DNL Marketo Measure] Reports in [!DNL Salesforce], you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review [!DNL Marketo Measure] out-of-the-box reports.
 
 When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you'll be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
 
@@ -28,4 +28,4 @@ If you want to understand the 'count of contacts' you can then use the fields 'C
 
 >[!MORELIKETHIS]
 >
->[Marketo Measure University: Stock SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] University: Stock SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

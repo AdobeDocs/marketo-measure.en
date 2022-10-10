@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762628
-description: Passport Dashboard Documentation - Marketo Measure - Product Documentation
+description: Passport Dashboard Documentation - [!DNL Marketo Measure] - Product Documentation
 title: Passport Dashboard Documentation
 exl-id: 43cb01a8-d02e-4086-af57-d7ec9275f87a
 ---
@@ -15,7 +15,7 @@ This dashboard has two tiles:
 
 >[!NOTE]
 >
->Across all Discover dashboards, only one person object, either Lead or Contact, can be reported. This is set in Settings > Reporting > Attribution Settings > Default Dashboard Object.
+>Across all Discover dashboards, only one person object, either Lead or Contact, can be reported. This is set in [!UICONTROL Settings] > [!UICONTROL Reporting] > [!UICONTROL Attribution Settings] > [!UICONTROL Default Dashboard Object].
 
 This dashboard supports the following filters (all filters apply to both tiles):
 
@@ -37,7 +37,7 @@ Across all filters, "AND" logic is used.
 
 ![](assets/one-1.png)
 
-Stages include OC, selected Funnel stages in Open Opportunity Stages (Settings > CRM > Stage Mapping), and Won Opportunity Stages (Settings > CRM > Stage Mapping).
+Stages include OC, selected Funnel stages in Open Opportunity Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]), and Won Opportunity Stages ([!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL Stage Mapping]).
 
 >[!NOTE]
 >
@@ -51,6 +51,8 @@ You can drill down from each bar to view the Opportunity records for each stage.
 
 Stages include FT, LC, selected Funnel stages in Open Lead/Contact Stages on Settings - CRM - Stage Mapping, and Converted Lead/Contact Stages on Settings - CRM - Stage Mapping.
 
-Note: for Converted stages, the record counts are only for records transitioned into the stage during the selected time frame.
+>[!NOTE]
+>
+>For Converted stages, the record counts are only for records transitioned into the stage during the selected time frame.
 
 You can drill down from each bar to view the Lead/Contact records for each stage.

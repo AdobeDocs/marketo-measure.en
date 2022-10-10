@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874656
-description: Filters - Marketo Measure - Product Documentation
+description: Filters - [!DNL Marketo Measure] - Product Documentation
 title: Filters
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 ---
@@ -22,7 +22,7 @@ Select or paste in a series of Account Ids from the CRM to filter the results. A
 
 _Used in: Account Based Marketing_
 
-Select or paste in a series of Account Names from the CRM to filter the results. Strings can have duplicates, so it is possible to have multiple “Marketo Measure” accounts for example. If a single account is needed in this case, use the Account Id filter instead.
+Select or paste in a series of Account Names from the CRM to filter the results. Strings can have duplicates, so it is possible to have multiple "[!DNL Marketo Measure]" accounts for example. If a single account is needed in this case, use the Account Id filter instead.
 
 **Attribution Model**
 
@@ -34,19 +34,19 @@ Choose a single attribution model to apply to the board: First Touch, Lead Creat
 
 _Used in: Overview, Growth, Ads ROI, Web Traffic, CMO, Paid Media, Content Marketing, Passport_
 
-Filter the board by a single or multiple campaign names. Operators give the filter additional flexibility such as using the “contains” or “starts with” operators. If a Channel or Subchannel filter has been applied, the list of campaigns that appear will be a subset of the applied filters.
+Filter the board by a single or multiple campaign names. Operators give the filter additional flexibility such as using the "contains" or "starts with" operators. If a Channel or Subchannel filter has been applied, the list of campaigns that appear will be a subset of the applied filters.
 
 **Category 1-10**
 
 _Used in: Overview, Growth, Ads ROI, CMO, Paid Media, Content Marketing, Velocity, Snapshot, Cohort Funnel, Passport_
 
-Apply segment filters to the board, using the Categories and Segments that you’ve created in the Marketo Measure Settings. The list of Categories that you created will appear in the filters menu, so if no Categories have been set up, there will be no Category filters in the menu. Segment Categories are not available in all tiers, and the number of Categories available varies by tier as well.
+Apply segment filters to the board, using the Categories and Segments that you've created in the [!DNL Marketo Measure] Settings. The list of Categories that you created will appear in the filters menu, so if no Categories have been set up, there will be no Category filters in the menu. Segment Categories are not available in all tiers, and the number of Categories available varies by tier as well.
 
 **Channel**
 
 _Used in: Overview, Growth, Marketing Spend, Ads ROI, Web Traffic, CMO, Paid Media, Content Marketing, Velocity, Passport_
 
-Filter the board by a single or multiple channels. Operators give the filter additional flexibility such as using the “contains” or “starts with” operators. Once a channel is entered, the values shown in the Subchannel and Campaign filters will be from the applied subchannel filter.
+Filter the board by a single or multiple channels. Operators give the filter additional flexibility such as using the "contains" or "starts with" operators. Once a channel is entered, the values shown in the Subchannel and Campaign filters will be from the applied subchannel filter.
 
 **Cohort Stage**
 
@@ -58,7 +58,7 @@ Select the stage that you want to view a cohort of. The stage that you select wi
 
 _Used in: Overview, Growth, Marketing Spend, Ads ROI, Account Based Marketing, Web Traffic, CMO, Paid Media, Content Marketing, Velocity, Snapshot, Cohort Funnel, Passport_
 
-Select a date range to filter the data in the boards, using flexible date operators such as “is in the range,” “is in the year, “ or “is before” for example. The exception is Snapshot, where you will select a single date to view a snapshot of the data.
+Select a date range to filter the data in the boards, using flexible date operators such as "is in the range," "is in the year, " or "is before" for example. The exception is Snapshot, where you will select a single date to view a snapshot of the data.
 
 **Date Type**
 
@@ -80,12 +80,12 @@ By default, Dimension is set to Subchannel, and can be changed to:
 * Channel: Lists the data by marketing channel
 * Subchannel: Lists the data by marketing subchannel
 * Campaign: Lists the data by campaign
-* Account: Lists the data by account. Applies to AdWords, Bing, and Facebook.
-* Ad Group: Lists the data by ad group. Applies to AdWords, Bing, and Facebook.
+* Account: Lists the data by account. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
+* Ad Group: Lists the data by ad group. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
 * Ad: Lists the data by ad. Applies to Doubleclick ads, so if Doubleclick is not used, no results will appear
 * Advertiser: Lists the data by advertiser. Applies to the Doubleclick advertiser, so if Doubleclick is not used, no results will appear
-* Creative: Lists the data by creative. Applies to AdWords, Bing, and Facebook.
-* Keyword: Lists the data by keyword. Applies to AdWords, Bing, and Facebook.
+* Creative: Lists the data by creative. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
+* Keyword: Lists the data by keyword. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
 * Placement: Lists the data by placement. Applies to Doubleclick placements, so if Doubleclick is not used, no results will appear
 * Site: Lists the data by site. Applies to Doubleclick sites, so if Doubleclick is not used, no results will appear
 
@@ -99,12 +99,12 @@ Adjusts charts to change the dimension that is being stacked and grouped togethe
 * Channel: Groups the data by marketing channel
 * Subchannel: Groups the data by marketing subchannel
 * Campaign: Groups the data by campaign
-* Account: Groups the data by account. Applies to AdWords, Bing, and Facebook.
-* Ad Group: Groups the data by ad group. Applies to AdWords, Bing, and Facebook.
+* Account: Groups the data by account. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
+* Ad Group: Groups the data by ad group. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
 * Ad: Groups the data by ad. Applies to Doubleclick ads, so if Doubleclick is not used, no results will appear
 * Advertiser: Groups the data by advertiser. Applies to the Doubleclick advertiser, so if Doubleclick is not used, no results will appear
-* Creative: Groups the data by creative. Applies to AdWords, Bing, and Facebook.
-* Keyword: Groups the data by keyword. Applies to AdWords, Bing, and Facebook.
+* Creative: Groups the data by creative. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
+* Keyword: Groups the data by keyword. Applies to [!DNL AdWords], [!DNL Bing], and [!DNL Facebook].
 * Placement: Groups the data by placement. Applies to Doubleclick placements, so if Doubleclick is not used, no results will appear
 * Site: Groups the data by site. Applies to Doubleclick sites, so if Doubleclick is not used, no results will appear
 
@@ -114,7 +114,7 @@ Adjusts charts to change the dimension that is being stacked and grouped togethe
 
 _Used in: Content Marketing_
 
-Drill into the performance of a single landing page, or perhaps landing pages that contain a certain word such as “blog.”
+Drill into the performance of a single landing page, or perhaps landing pages that contain a certain word such as "blog."
 
 **Metric**
 
@@ -158,13 +158,13 @@ By default, the Velocity board displays the times for all stages, but to drill i
 
 _Used in: Overview, Growth, Marketing Spend, Ads ROI, Web Traffic, CMO, Paid Media, Content Marketing, Passport_
 
-Filter the board by a single or multiple subchannels. Operators give the filter additional flexibility such as using the “contains” or “starts with” operators. If a Channel filter has been applied, the list of subchannels that appear will be a subset of the applied filters. Once a subchannel is entered, the values shown in the Campaign filters will be from the applied subchannel filter.
+Filter the board by a single or multiple subchannels. Operators give the filter additional flexibility such as using the "contains" or "starts with" operators. If a Channel filter has been applied, the list of subchannels that appear will be a subset of the applied filters. Once a subchannel is entered, the values shown in the Campaign filters will be from the applied subchannel filter.
 
 **URL**
 
 _Used in: Web Traffic_
 
-Drill into the traffic of a single URL, or perhaps URLs that contain a certain word such as “product.”
+Drill into the traffic of a single URL, or perhaps URLs that contain a certain word such as "product."
 
 **Won**
 

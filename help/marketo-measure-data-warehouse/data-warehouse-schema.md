@@ -83,7 +83,7 @@ Accounts imported from the source system.
       <td>NAME</td>
       <td>varchar</td>
       <td>The Account Name, from the source system.</td>
-      <td>Marketo Measure</td>
+      <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
       <td>WEB_SITE</td>
@@ -94,13 +94,13 @@ Accounts imported from the source system.
     <tr>
       <td>ENGAGEMENT_RATING</td>
       <td>varchar</td>
-      <td>A letter grade (A, B, C, D, N/A) that is generated from Marketo Measure's Machine Learning model. This will be null if ABM is disabled.</td>
+      <td>A letter grade (A, B, C, D, N/A) that is generated from the [!DNL Marketo Measure] Machine Learning model. This will be null if ABM is disabled.</td>
       <td>B</td>
     </tr>
     <tr>
       <td>ENGAGEMENT_SCORE</td>
       <td>number(38,19)</td>
-      <td>A numerical score calculated by Marketo Measure's Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). This will be null if ABM is disabled.</td>
+      <td>A numerical score calculated by [!DNL Marketo Measure] Machine Learning to generate the Predictive Engagement Score (Engagement_Rating). This will be null if ABM is disabled.</td>
       <td>0.1417350147058800000</td>
     </tr>
     <tr>
@@ -118,7 +118,7 @@ Accounts imported from the source system.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system, in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system, in JSON format.</td>
       <td>{"Account_Type__c": "Security", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -469,7 +469,7 @@ Ads imported from any connected Ad Account.
         <p>Name of the Ad Account from which the Ad was imported.</p>
       </td>
       <td>
-        <p>Marketo Measure Account</p>
+        <p>[!DNL Marketo Measure] Account</p>
       </td>
     </tr>
     <tr>
@@ -634,7 +634,7 @@ Ads imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Ad needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Ad needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>
@@ -715,7 +715,7 @@ Ads imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>What the URL will be decorated with Marketo Measure parameters.</p>
+        <p>What the URL will be decorated with [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostic field, for internal processing.)</p>
       </td>
       <td></td>
@@ -837,7 +837,7 @@ Advertisers imported from any connected Ad Account.
         <p>Name of the Ad Account from which the Ad was imported.</p>
       </td>
       <td>
-        <p>Marketo Measure Account</p>
+        <p>[!DNL Marketo Measure] Account</p>
       </td>
     </tr>
     <tr>
@@ -865,7 +865,7 @@ Advertisers imported from any connected Ad Account.
         <p>Name of the Advertiser, specifically for Doubleclick.</p>
       </td>
       <td>
-        <p>Marketo Measure Marketing Analytics</p>
+        <p>[!DNL Marketo Measure] Marketing Analytics</p>
       </td>
     </tr>
     <tr>
@@ -991,7 +991,7 @@ Advertisers imported from any connected Ad Account.
         <p>Name of the Advertiser, from the source system.</p>
       </td>
       <td>
-        <p>Marketo Measure Marketing Analytics</p>
+        <p>[!DNL Marketo Measure] Marketing Analytics</p>
       </td>
     </tr>
     <tr>
@@ -1002,7 +1002,7 @@ Advertisers imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Advertiser needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Advertiser needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>
@@ -1285,7 +1285,7 @@ Ad Accounts imported from any connected Ad Account.
       </td>
       <td>Name of the Ad Account, from the source system.</td>
       <td>
-        <p>Marketo Measure Ad Account</p>
+        <p>[!DNL Marketo Measure] Ad Account</p>
       </td>
     </tr>
     <tr>
@@ -1296,7 +1296,7 @@ Ad Accounts imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Advertiser needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Advertiser needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>
@@ -1597,7 +1597,7 @@ Campaigns imported from connected Ad Accounts, source systems, utm, and self rep
         <p>Name for the Ad Account from which the Campaign was imported.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -1756,7 +1756,7 @@ Campaigns imported from connected Ad Accounts, source systems, utm, and self rep
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Campaign needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Campaign needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>
@@ -1953,7 +1953,7 @@ Ad Forms imported from any connected Ad Account.
         <p>Name of the Ad Account from which the Ad Form was imported.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -2202,7 +2202,7 @@ Ad Groups imported from any connected Ad Account.
         <p>Name for the Ad Account from which the Ad Group was imported.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -2367,7 +2367,7 @@ Ad Groups imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Advertiser needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Advertiser needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>
@@ -2740,7 +2740,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as "Marketing Channel - Path."</p>
+        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Marketing Channel - Path."</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2754,7 +2754,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</p>
+        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</p>
       </td>
       <td>
         <p>ABC</p>
@@ -2768,7 +2768,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</p>
+        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</p>
       </td>
       <td>
         <p>Yes</p>
@@ -2782,7 +2782,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</p>
+        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</p>
       </td>
       <td>
         <p>SMB</p>
@@ -2795,7 +2795,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td>
         <p>New Business</p>
       </td>
@@ -2807,7 +2807,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2817,7 +2817,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2827,7 +2827,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2837,7 +2837,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2847,7 +2847,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2857,7 +2857,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2867,7 +2867,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2877,7 +2877,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2887,7 +2887,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2897,7 +2897,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -2907,7 +2907,7 @@ Ad Groups imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments."</td>
+      <td>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments."</td>
       <td></td>
     </tr>
     <tr>
@@ -3114,7 +3114,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as "cpc" or "display."</p>
+        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if [!DNL Marketo Measure] is able to resolve an ad, it may be values such as "cpc" or "display."</p>
       </td>
       <td>
         <p>social</p>
@@ -3128,7 +3128,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
+        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if [!DNL Marketo Measure] is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -3145,7 +3145,7 @@ Ad Groups imported from any connected Ad Account.
         <p>The value which the user entered in the browser to search for and ended up on the website. Depending on the keyword buys, this may or may not match the keywords purchased from the Paid Search platform.</p>
       </td>
       <td>
-        <p>google marketo measure</p>
+        <p>google [!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -3156,7 +3156,7 @@ Ad Groups imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>Ad platform Marketo Measure was able to resolve from, typically one of our integration partners.</p>
+        <p>Ad platform [!DNL Marketo Measure] was able to resolve from, typically one of our integration partners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -3187,7 +3187,7 @@ Ad Groups imported from any connected Ad Account.
         <p>Name of the Ad Account in which the ad was resolved from.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -3215,7 +3215,7 @@ Ad Groups imported from any connected Ad Account.
         <p>Name of the Advertiser from the Ad Account in which the Ad was resolved from. This only applies to Doubleclick Campaign Manager.</p>
       </td>
       <td>
-        <p>Marketo Measure Marketing Analytics</p>
+        <p>[!DNL Marketo Measure] Marketing Analytics</p>
       </td>
     </tr>
     <tr>
@@ -4076,7 +4076,7 @@ Campaign Members imported from the source system. This table will be empty if Ca
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system, in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system, in JSON format.</td>
       <td>{"Campaign_Type__c":"Dinners","Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -4102,7 +4102,7 @@ Campaign Members imported from the source system. This table will be empty if Ca
 
 ### BIZ_CHANNELS {#biz-channels}
 
-Marketing Channels, as created in the Marketo Measure application.
+Marketing Channels, as created in the [!DNL Marketo Measure] application.
 
 <table>
   <tbody>
@@ -4295,7 +4295,7 @@ Contacts imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>Current stage of the Contact, recognized as a custom stage which can be created in Marketo Measure's application.</p>
+        <p>Current stage of the Contact, recognized as a custom stage which can be created in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>Demo Scheduled</p>
@@ -4309,7 +4309,7 @@ Contacts imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>All previous stages for the Contact, recognized as custom stages which can be created in Marketo Measure's application.</p>
+        <p>All previous stages for the Contact, recognized as custom stages which can be created in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>Open - Contact</p>
@@ -4323,7 +4323,7 @@ Contacts imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Marketo Measure's algorithm of estimating whether a Contact will help an Opportunity close based on the age and stage</p>
+        <p>The [!DNL Marketo Measure] algorithm of estimating whether a Contact will help an Opportunity close based on the age and stage</p>
       </td>
       <td>
         <p>.290034</p>
@@ -4337,7 +4337,7 @@ Contacts imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>Marketo Measure's Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
+        <p>The [!DNL Marketo Measure] Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -4376,7 +4376,7 @@ Contacts imported from the source system.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system , in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system , in JSON format.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -4576,13 +4576,13 @@ Cost data imported from connected Ad Accounts or self reported marketing spend.
     <tr>
       <td>CHANNEL_UNIQUE_ID</td>
       <td>varchar</td>
-      <td>Id for the marketing Channel, created by Marketo Measure.</td>
+      <td>Id for the marketing Channel, created by [!DNL Marketo Measure].</td>
       <td>Display.Google</td>
     </tr>
     <tr>
       <td>CHANNEL_NAME</td>
       <td>varchar</td>
-      <td>Name for the marketing Channel, created by the customer in the Marketo Measure app.</td>
+      <td>Name for the marketing Channel, created by the customer in the [!DNL Marketo Measure] app.</td>
       <td>Display.Google</td>
     </tr>
     <tr>
@@ -4601,7 +4601,7 @@ Cost data imported from connected Ad Accounts or self reported marketing spend.
       <td>ADVERTISER_NAME</td>
       <td>varchar</td>
       <td>Name of the Advertiser pulled from the Ad connection, specifically for Doubleclick connections.</td>
-      <td>Marketo Measure Marketing Analytics</td>
+      <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
       <td>ADVERTISER_IS_AGGREGATABLE_COST</td>
@@ -4634,7 +4634,7 @@ Cost data imported from connected Ad Accounts or self reported marketing spend.
         <p>Name of the Ad Account pulled from the Ad connection.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -5133,7 +5133,7 @@ Creatives imported from any connected Ad Account.
         <p>Name for the Ad Account from which the Creative was imported.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -5161,7 +5161,7 @@ Creatives imported from any connected Ad Account.
         <p>Name of the Advertiser for the Creative, specifically for Doubleclick.</p>
       </td>
       <td>
-        <p>Marketo Measure Marketing Analytics</p>
+        <p>[!DNL Marketo Measure] Marketing Analytics</p>
       </td>
     </tr>
     <tr>
@@ -5294,7 +5294,7 @@ Creatives imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Creative needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Creative needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>
@@ -5389,7 +5389,7 @@ Creatives imported from any connected Ad Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>What the URL will be decorated with Marketo Measure parameters.</p>
+        <p>What the URL will be decorated with [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostic field, for internal processing.)</p>
       </td>
       <td></td>
@@ -5691,7 +5691,7 @@ Events imported from the source system. This table will be empty if Activities S
         <p>varchar</p>
       </td>
       <td>
-        <p>Marketo Measure's Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
+        <p>The [!DNL Marketo Measure] Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5754,7 +5754,7 @@ Events imported from the source system. This table will be empty if Activities S
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system, in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system, in JSON format.</td>
       <td>{"Contact_Type__c":"CMO","Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -5904,7 +5904,7 @@ Tasks imported from the source system. This table will populate if Activities Sy
         <p>varchar</p>
       </td>
       <td>
-        <p>Marketo Measure's Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
+        <p>The [!DNL Marketo Measure] Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -5953,7 +5953,7 @@ Tasks imported from the source system. This table will populate if Activities Sy
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system, in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system, in JSON format.</td>
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -6020,7 +6020,7 @@ Table of all ISO currencies.
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Date the record was last modefied in Marketo Measure.</td>
+      <td>Date the record was last modefied in [!DNL Marketo Measure].</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
@@ -6032,7 +6032,7 @@ Table of all ISO currencies.
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Date the record was created in Marketo Measure</td>
+      <td>Date the record was created in [!DNL Marketo Measure]</td>
       <td>2018-08-27 18:30:25.000</td>
     </tr>
     <tr>
@@ -6245,7 +6245,7 @@ AB Tests recorded. This table will be empty if AB Tests are not enabled.
 
 ### BIZ_CUSTOMER_EVENTS {#biz-customer-events}
 
-Web events that have been recorded using custom events in the Javascript. This table will be empty if Marketo Measure Events are not enabled.
+Web events that have been recorded using custom events in the Javascript. This table will be empty if [!DNL Marketo Measure] Events are not enabled.
 
 <table>
   <tbody>
@@ -6784,7 +6784,7 @@ Mapping table for email addresses and visitor ids.
 
 ### BIZ_FACTS {#biz-facts}
 
-Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT), and Cost data. Used internally to support Marketo Measure reporting.
+Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT), and Cost data. Used internally to support [!DNL Marketo Measure] reporting.
 
 <table>
   <tbody>
@@ -8176,7 +8176,7 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
         <p>varchar</p>
       </td>
       <td>
-        <p>Ad platform Marketo Measure was able to resolve from, typically one of our integration partners.</p>
+        <p>Ad platform [!DNL Marketo Measure] was able to resolve from, typically one of our integration partners.</p>
       </td>
       <td>Google</td>
     </tr>
@@ -8202,7 +8202,7 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
       <td>
         <p>Name of the Ad Account in which the ad was resolved from.</p>
       </td>
-      <td>Marketo Measure</td>
+      <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
       <td>
@@ -8705,7 +8705,7 @@ Keywords imported from any connected Ad Account.
       <td>
         <p>Name of the Ad Account from which the Keyword was imported.</p>
       </td>
-      <td>Marketo Measure</td>
+      <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
       <td>
@@ -8867,7 +8867,7 @@ Keywords imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Keyword needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Keyword needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used for internal processing.)</p>
       </td>
       <td>
@@ -8944,7 +8944,7 @@ Keywords imported from any connected Ad Account.
       <td>URL_REQUESTED</td>
       <td>varchar</td>
       <td>
-        <p>The URL for the landing page with Marketo Measure parameters.</p>
+        <p>The URL for the landing page with [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostic field, for internal processing.)</p>
       </td>
       <td></td>
@@ -9024,7 +9024,7 @@ Keywords imported from any connected Ad Account.
       <td>
         <p>varchar</p>
       </td>
-      <td>The URL tracking template Marketo Measure added to the Keyword.</td>
+      <td>The URL tracking template [!DNL Marketo Measure] added to the Keyword.</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
       </td>
@@ -9426,7 +9426,7 @@ Leads imported from the source system.
         <p>Company name entered for the Lead, from the source system, used for Lead2Account mapping.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -9521,7 +9521,7 @@ Leads imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>Current stage of the Lead, recognized as a custom stage which can be created in Marketo Measure's application.</p>
+        <p>Current stage of the Lead, recognized as a custom stage which can be created in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>Demo Scheduled</p>
@@ -9535,7 +9535,7 @@ Leads imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>All previous stages for the Lead, recognized as custom stages which can be created in Marketo Measure's application.</p>
+        <p>All previous stages for the Lead, recognized as custom stages which can be created in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>MQL</p>
@@ -9549,7 +9549,7 @@ Leads imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Marketo Measure's algorithm of estimating if a Lead will convert based on the age and stage.</p>
+        <p>The [!DNL Marketo Measure] algorithm of estimating if a Lead will convert based on the age and stage.</p>
       </td>
       <td>
         <p>.290034</p>
@@ -9591,7 +9591,7 @@ Leads imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>Marketo Measure's Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
+        <p>The [!DNL Marketo Measure] Cookie Id used to populate from an integration partner to map an offline event to a web session. Requirement: Enable Call Tracking: True</p>
       </td>
       <td>
         <p>08c1063cb0a64349ad0d2d862f5cc700</p>
@@ -9626,7 +9626,7 @@ Leads imported from the source system.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system , in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system , in JSON format.</td>
       <td>{"Lead_Type__c":"Sales Created", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -9808,7 +9808,7 @@ Stage transitions for Leads or Contacts.
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>The numerical rank of the stage, as ordered in Marketo Measure's Stage Mapping settings.</p>
+        <p>The numerical rank of the stage, as ordered in the [!DNL Marketo Measure] Stage Mapping settings.</p>
       </td>
       <td>
         <p>5</p>
@@ -10167,7 +10167,7 @@ Opportunities imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Marketo Measure's algorithm of estimating whether an opportunity will close based on the age and stage.</p>
+        <p>The [!DNL Marketo Measure] algorithm of estimating whether an opportunity will close based on the age and stage.</p>
       </td>
       <td>
         <p>0.8225108385086060000</p>
@@ -10181,7 +10181,7 @@ Opportunities imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>Current stage of the Opportunity, as defined in the Marketo Measure application.</p>
+        <p>Current stage of the Opportunity, as defined in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>DM Demo</p>
@@ -10195,7 +10195,7 @@ Opportunities imported from the source system.
         <p>varchar</p>
       </td>
       <td>
-        <p>A string of all stages the Opportunity has previously gone through, as defined in the Marketo Measure application.</p>
+        <p>A string of all stages the Opportunity has previously gone through, as defined in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>Qualified Discovery, Demo Scheduled</p>
@@ -10242,7 +10242,7 @@ Opportunities imported from the source system.
     <tr>
       <td>CUSTOM_PROPERTIES</td>
       <td>varchar</td>
-      <td>Custom properties that Marketo Measure has imported from the source system , in JSON format.</td>
+      <td>Custom properties that [!DNL Marketo Measure] has imported from the source system , in JSON format.</td>
       <td>{"Opportunity_Location__c":"Seattle", "Foo":"Bar"}</td>
     </tr>
     <tr>
@@ -10420,7 +10420,7 @@ Stage transitions for Opportunities.
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>The numerical rank of the stage, as ordered in Marketo Measure's Stage Mapping settings.</p>
+        <p>The numerical rank of the stage, as ordered in the [!DNL Marketo Measure] Stage Mapping settings.</p>
       </td>
       <td>
         <p>4</p>
@@ -10944,7 +10944,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
       <td>
         <p>Name for the Ad Account from which the Placement was imported.</p>
       </td>
-      <td>Marketo Measure</td>
+      <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
       <td>
@@ -10968,7 +10968,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
       <td>
         <p>Name of the Advertiser for the Placement, specifically for Doubleclick.</p>
       </td>
-      <td>Marketo Measure Analytics</td>
+      <td>[!DNL Marketo Measure] Analytics</td>
     </tr>
     <tr>
       <td>
@@ -11086,7 +11086,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Placement needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Placement needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used by internal processing.)</p>
       </td>
       <td>false</td>
@@ -11160,7 +11160,7 @@ Table that stores all placements downloaded from any connected ads accounts, an 
 
 ### BIZ_SEGMENTS {#biz-segments}
 
-Segment values as defined in the Marketo Measure application.
+Segment values as defined in the [!DNL Marketo Measure] application.
 
 <table>
   <tbody>
@@ -11436,7 +11436,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>Channel attirbuted to the Session, as defined by the Channel definitions set in the Marketo Measure application.</p>
+        <p>Channel attirbuted to the Session, as defined by the Channel definitions set in the [!DNL Marketo Measure] application.</p>
       </td>
       <td>
         <p>Paid Search.AdWords</p>
@@ -11453,7 +11453,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>Name of the web page.</p>
       </td>
       <td>
-        <p>Salesforce Google Analytics | Marketo Measure</p>
+        <p>Salesforce Google Analytics | [!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -11537,7 +11537,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>The value that the user entered in the browser to search for and ended up on the website.</p>
       </td>
       <td>
-        <p>marketo measure google salesforce</p>
+        <p>[!DNL Marketo Measure] google salesforce</p>
       </td>
     </tr>
     <tr>
@@ -11548,7 +11548,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source that resulted in the Session. This can be parsed out from the URL from utm_source or set to an Ad Provider if Marketo Measure is able to resolve an ad.</p>
+        <p>Used to define the source that resulted in the Session. This can be parsed out from the URL from utm_source or set to an Ad Provider if [!DNL Marketo Measure] is able to resolve an ad.</p>
       </td>
       <td>
         <p>Google AdWords</p>
@@ -11632,7 +11632,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>varchar</p>
       </td>
       <td>
-        <p>The Ad platform Marketo Measure resolvde from, typically one of our integration partners.</p>
+        <p>The Ad platform [!DNL Marketo Measure] resolvde from, typically one of our integration partners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -11663,7 +11663,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
         <p>Name of the Ad Account which the ad was resolved from.</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -12269,7 +12269,7 @@ Sites imported from any connected Ad Account.
       <td>
         <p>Name of the Ad Account from which the Site was imported.</p>
       </td>
-      <td>Marketo Measure</td>
+      <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
       <td>
@@ -12417,7 +12417,7 @@ Sites imported from any connected Ad Account.
         <p>boolean</p>
       </td>
       <td>
-        <p>Whether or not the Site needs to be updated for Marketo Measure tagging.</p>
+        <p>Whether or not the Site needs to be updated for [!DNL Marketo Measure] tagging.</p>
         <p>(Diagnostic field, used for internal processing.)</p>
       </td>
       <td>false</td>
@@ -12562,7 +12562,7 @@ Sites Links from any connected Ads Account.
         <p>The name of the connected ads account for the site link</p>
       </td>
       <td>
-        <p>Marketo Measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -12695,7 +12695,7 @@ Sites Links from any connected Ads Account.
         <p>timestamp_ntz</p>
       </td>
       <td>
-        <p>The date that the site link was first downloaded by Marketo Measure</p>
+        <p>The date that the site link was first downloaded by [!DNL Marketo Measure]</p>
       </td>
       <td>
         <p>2018-08-02 06:36:50.000</p>
@@ -12804,7 +12804,7 @@ Sites Links from any connected Ads Account.
         <p>varchar</p>
       </td>
       <td>
-        <p>What the URL will be decorated with Marketo Measure parameters.</p>
+        <p>What the URL will be decorated with [!DNL Marketo Measure] parameters.</p>
         <p>(Diagnostic field, for internal processing.)</p>
       </td>
       <td></td>
@@ -12832,7 +12832,7 @@ Sites Links from any connected Ads Account.
 
 ### BIZ_STAGE_DEFINITIONS {#biz-stage-definitions}
 
-List of stages as imported or defined in the Marketo Measure application.
+List of stages as imported or defined in the [!DNL Marketo Measure] application.
 
 <table>
   <tbody>
@@ -12952,7 +12952,7 @@ List of stages as imported or defined in the Marketo Measure application.
         <p>varchar</p>
       </td>
       <td>
-        <p>Status of the Stage, as defined in the Marketo Measure application Stage Mapping.</p>
+        <p>Status of the Stage, as defined in the [!DNL Marketo Measure] application Stage Mapping.</p>
       </td>
       <td>
         <p>Open</p>
@@ -13195,7 +13195,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as "Marketing Channel - Path."</p>
+        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Marketing Channel - Path."</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -13207,7 +13207,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 1st Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>ABC</td>
     </tr>
@@ -13219,7 +13219,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 2nd Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>
         <p>Yes</p>
@@ -13233,7 +13233,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 3rd Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>
         <p>Other</p>
@@ -13247,7 +13247,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 4th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td>
         <p>Partner</p>
@@ -13261,7 +13261,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 5th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13273,7 +13273,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 6th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13284,7 +13284,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 7th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13294,7 +13294,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 8th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13304,7 +13304,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 9th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13314,7 +13314,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 10th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13324,7 +13324,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 11th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13334,7 +13334,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 12th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13344,7 +13344,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
       <td>
         <p>varchar</p>
       </td>
-      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</td>
+      <td>The segment value for the 13th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</td>
       <td></td>
     </tr>
     <tr>
@@ -13355,7 +13355,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 14th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13367,7 +13367,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the Marketo Measure App. Referred to in the CRM as "Segments".</p>
+        <p>The segment value for the 15th Category the touchpoint falls into, as defined in the segment definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Segments".</p>
       </td>
       <td></td>
     </tr>
@@ -13561,7 +13561,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as "cpc" or "display."</p>
+        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if [!DNL Marketo Measure] is able to resolve an ad, it may be values such as "cpc" or "display."</p>
       </td>
       <td>
         <p>Social</p>
@@ -13575,7 +13575,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
+        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if [!DNL Marketo Measure] is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -13603,7 +13603,7 @@ Buyer Touchpoints, all touchpoints associated with a Lead or Contact. This table
         <p>varchar</p>
       </td>
       <td>
-        <p>Ad platform Marketo Measure was able to resolve from, typically one of our integration partners.</p>
+        <p>Ad platform [!DNL Marketo Measure] was able to resolve from, typically one of our integration partners.</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -14540,7 +14540,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the Marketo Measure App. Referred to in the CRM as "Marketing Channel - Path."</p>
+        <p>The channel the touchpoint falls into, as defined in the custom channel definitions within the [!DNL Marketo Measure] App. Referred to in the CRM as "Marketing Channel - Path."</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -14750,7 +14750,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if Marketo Measure is able to resolve an ad, it may be values such as "cpc" or "display."</p>
+        <p>Used to define the medium which resulted in the touchpoint. This can either be parsed out from the URL from utm_medium. Or, if [!DNL Marketo Measure] is able to resolve an ad, it may be values such as "cpc" or "display."</p>
       </td>
       <td>
         <p>paid</p>
@@ -14764,7 +14764,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if Marketo Measure is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
+        <p>Used to define the source which resulted in the touchpoint. This can be parsed out from the URL from utm_source, generically set as "CRM Campaign" if it was synced from the CRM, or if [!DNL Marketo Measure] is able to resolve an ad, it may be values such as "Google AdWords" or "Facebook." Referred to in the CRM as "Touchpoint Source".</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -14781,7 +14781,7 @@ All Touchpoints created from any event tied to an email.
         <p>The value which the user entered in the browser to search for and ended up on the website. Depending on the keyword buys, this may or may not match the keywords purchased from the Paid Search platform.</p>
       </td>
       <td>
-        <p>marketo measure</p>
+        <p>[!DNL Marketo Measure]</p>
       </td>
     </tr>
     <tr>
@@ -14792,7 +14792,7 @@ All Touchpoints created from any event tied to an email.
         <p>varchar</p>
       </td>
       <td>
-        <p>Ad platform Marketo Measure was able to resolve from, typically one of our integration partners.</p>
+        <p>Ad platform [!DNL Marketo Measure] was able to resolve from, typically one of our integration partners.</p>
       </td>
       <td>
         <p>Google</p>
@@ -14823,7 +14823,7 @@ All Touchpoints created from any event tied to an email.
         <p>Name of the Ad Account in which the ad was resolved from.</p>
       </td>
       <td>
-        <p>Marketo Measure Account</p>
+        <p>[!DNL Marketo Measure] Account</p>
       </td>
     </tr>
     <tr>
@@ -15015,7 +15015,7 @@ All Touchpoints created from any event tied to an email.
         <p>Name of the Creative from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
       </td>
       <td>
-        <p>Marketo Measure Official Site</p>
+        <p>[!DNL Marketo Measure] Official Site</p>
       </td>
     </tr>
     <tr>
@@ -15043,7 +15043,7 @@ All Touchpoints created from any event tied to an email.
         <p>The second line of the Creative from the search Ad, pulled from the Ad Account in which the Ad was resolved from. This applies to Google AdWords and Bing Ads (search).</p>
       </td>
       <td>
-        <p>Learn why 250+ companies choose Marketo Measure for marketing attribution. Get a demo!</p>
+        <p>Learn why 250+ companies choose [!DNL Marketo Measure] for marketing attribution. Get a demo!</p>
       </td>
     </tr>
     <tr>
@@ -15259,7 +15259,7 @@ All Touchpoints created from any event tied to an email.
 
 ### BIZ_WEB_HOST_MAPPINGS {#biz-web-host-mappings}
 
-Mapping table to map Marketo Measure Session Id to Adobe ECID and Munckin Id.
+Mapping table to map [!DNL Marketo Measure] Session Id to Adobe ECID and Munckin Id.
 
 <table>
   <tbody>
@@ -15296,7 +15296,7 @@ Mapping table to map Marketo Measure Session Id to Adobe ECID and Munckin Id.
       <td>
         <p>varchar</p>
       </td>
-      <td>The Marketo Measure recorded cookie id.</td>
+      <td>The [!DNL Marketo Measure] recorded cookie id.</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
     <tr>
@@ -15316,7 +15316,7 @@ Mapping table to map Marketo Measure Session Id to Adobe ECID and Munckin Id.
       <td>
         <p>varchar</p>
       </td>
-      <td>The Marketo Measure Session id.</td>
+      <td>The [!DNL Marketo Measure] Session id.</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
     <tr>
@@ -15418,7 +15418,7 @@ Mapping table to map Marketo Measure Session Id to Adobe ECID and Munckin Id.
     <tr>
       <td>MAPPING_TYPE</td>
       <td>varchar</td>
-      <td>The type of Id which is mapped to the Marketo Measure cookie Id.</td>
+      <td>The type of Id which is mapped to the [!DNL Marketo Measure] cookie Id.</td>
       <td>Adobe_OrgId_Ecid</td>
     </tr>
     <tr>
