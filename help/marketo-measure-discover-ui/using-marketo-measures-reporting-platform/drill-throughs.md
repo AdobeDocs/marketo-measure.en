@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874664
-description: Drill Throughs - Marketo Measure - Product Documentation
+description: Drill Throughs - [!DNL Marketo Measure] - Product Documentation
 title: Drill Throughs
 exl-id: c9ce5a51-e8f9-40ff-aa10-6b059e4998d3
 ---
 # Drill Throughs {#drill-throughs}
 
-The Marketo Measure Discover experience allows customers to drill into the data set that they care the most about. On certain measures throughout Marketo Measure Discover, customers can click into a tile and explore more about that metric.
+The [!DNL Marketo Measure Discover] experience allows customers to drill into the data set that they care the most about. On certain measures throughout [!DNL Marketo Measure Discover], customers can click into a tile and explore more about that metric.
 
 Below is a list of Dashboards and the Tiles that contain drill-throughs and the experience that a user should expect when drilling through. Keep in mind that global filters from the dashboard persist when drilling through.
 
@@ -166,7 +166,7 @@ Definition: Total spend by month via bar chart and table. From there, it is poss
 
 Definition: Total spend by month via bar chart and table. Because the parent tile is already a chart, drill into Show Details will show a single month only.
 
-_Total spend by month broken down by week, date, or time. Time is possible for spend since Marketo Measure downloads actual spend by the minute from our ads connections._
+_Total spend by month broken down by week, date, or time. Time is possible for spend since [!DNL Marketo Measure] downloads actual spend by the minute from our ads connections._
 
 **Spend by Channel**
 

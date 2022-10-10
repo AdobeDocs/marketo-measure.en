@@ -7,15 +7,15 @@ exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 
 **Requirements**
 
-In order for Marketo Measure to set up a direct share to the data warehouse you must meet the following requirements.
+In order for [!DNL Marketo Measure] to set up a direct share to the data warehouse you must meet the following requirements.
 
 * You have your own Snowflake instance.
 * Your Snowflake instance is located in the Azure East US 2 Snowflake region.
-* You provide Marketo Measure with your Snowflake account id.
+* You provide [!DNL Marketo Measure] with your Snowflake account id.
 
 **Limitations**
 
-Marketo Measure will only be able to set up Snowflake Direct Shares with accounts located in Azure East US 2 due to current Snowflake Direct Share limitations. If you require your data to be made available in other Snowflake regions, we recommend making a copy of the data in a Snowflake account located in Azure East US 2 and leveraging the [Snowflake Database Replication](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} feature to copy your data in the Snowflake region/account of your choice.
+[!DNL Marketo Measure] will only be able to set up Snowflake Direct Shares with accounts located in Azure East US 2 due to current Snowflake Direct Share limitations. If you require your data to be made available in other Snowflake regions, we recommend making a copy of the data in a Snowflake account located in Azure East US 2 and leveraging the [Snowflake Database Replication](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} feature to copy your data in the Snowflake region/account of your choice.
 
 **Accessing the Share**
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 34406495
-description: Marketing Ops Tiles - Marketo Measure - Product Documentation
+description: Marketing Ops Tiles - [!DNL Marketo Measure] - Product Documentation
 title: Marketing Ops Tiles
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
 ---
 # Marketing Ops Tiles {#marketing-ops-tiles}
 
-Marketing Ops allows you to validate and diagnose Marketo Measure data with complete visibility into individual touchpoints per Leads, Contacts, Accounts, Campaigns, and Opportunities.
+Marketing Ops allows you to validate and diagnose [!DNL Marketo Measure] data with complete visibility into individual touchpoints per Leads, Contacts, Accounts, Campaigns, and Opportunities.
 
 <table> 
  <colgroup> 
@@ -126,35 +126,35 @@ Displays the following data related to Account(s) specified.
 
 **Accounts must have Touchpoint data (only applicable if you have ABM enabled)**
 
--Account ID : Account ID in CRM
+-Account ID: Account ID in CRM
 
--Account Name : Account name in CRM
+-Account Name: Account name in CRM
 
--Created Date : Created date of the Account in the CRM
+-Created Date: Created date of the Account in the CRM
 
 * Drill-down: See Created Date by Hour, Minute, Time
 
--Web Site : Value found in the Website field on the Account
+-Web Site: Value found in the Website field on the Account
 
--Engagement Rating : Predictive Engagement Score (PES) populated by Marketo Measure^1
+-Engagement Rating: Predictive Engagement Score (PES) populated by [!DNL Marketo Measure]^1
 
--Opportunities : Number of Opportunities connected to the account
+-Opportunities: Number of Opportunities connected to the account
 
 * Drill-down: See details for the associated Opportunity(s)
 
--Contacts : Number of Contacts listed on this account
+-Contacts: Number of Contacts listed on this account
 
 * Drill-down: See details for the associated contacts
 
--Leads : Number of leads mapped to this account through lead to account mapping^1
+-Leads: Number of leads mapped to this account through lead to account mapping^1
 
 * Drill-down: See details for the leads that have been mapped to the account
 
--Attribution Touchpoints : Number of Buyer Attribution Touchpoints for the account
+-Attribution Touchpoints: Number of Buyer Attribution Touchpoints for the account
 
 * Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
--Touchpoints : Number of Touchpoints the contacts on this account have^2
+-Touchpoints: Number of Touchpoints the contacts on this account have^2
 
 * Drill-down: See Touchpoints on the account Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type)
 
@@ -168,27 +168,27 @@ Displays the following data related to Account(s) specified.
 
 Displays the following data related to Opportunity(s) specified.
 
--Opportunity ID : Opportunity ID in CRM
+-Opportunity ID: Opportunity ID in CRM
 
--Opportunity Name : Opportunity name in CRM
+-Opportunity Name: Opportunity name in CRM
 
--Account Name : Account name associated to the opportunity
+-Account Name: Account name associated to the opportunity
 
--Created Date : Created date of the Opportunity in the CRM
+-Created Date: Created date of the Opportunity in the CRM
 
 Drill-down: See Created Date by Hour, Minute, Time
 
--Close Date : Closed date of the Opportunity in the CRM
+-Close Date: Closed date of the Opportunity in the CRM
 
 Drill-down: See Close Date by Hour, Minute, Time
 
--Amount : The total amount of the Opportunity
+-Amount: The total amount of the Opportunity
 
--Contacts : Number of Contacts associated to the Opportunity
+-Contacts: Number of Contacts associated to the Opportunity
 
 Drill-down: See details for the associated contacts
 
--Attribution Touchpoints : Number of related Buyer Attribution Touchpoints
+-Attribution Touchpoints: Number of related Buyer Attribution Touchpoints
 
 Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
@@ -198,21 +198,21 @@ Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date
 
 Displays the following data related to Contact(s) specified.
 
--Contact ID : Contact ID in CRM
+-Contact ID: Contact ID in CRM
 
--Email : Contact record email address
+-Email: Contact record email address
 
--Created Date : Created date of the contact in the CRM
+-Created Date: Created date of the contact in the CRM
 
 * Drill-down: See Created Date by Hour, Minute, Time
 
--Account Name : Account name associated to the contact
+-Account Name: Account name associated to the contact
 
--Attribution Touchpoints : Number of Buyer Attribution Touchpoints for the contact
+-Attribution Touchpoints: Number of Buyer Attribution Touchpoints for the contact
 
 * Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
--Touchpoints : Number of Buyer Touchpoints for the contact
+-Touchpoints: Number of Buyer Touchpoints for the contact
 
 * Drill-down: See Contacts on the account Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type)
 
@@ -222,19 +222,19 @@ Displays the following data related to Contact(s) specified.
 
 Displays the following data related to Lead(s) specified.
 
--Lead ID : Lead ID in CRM
+-Lead ID: Lead ID in CRM
 
--Email : Lead record email address
+-Email: Lead record email address
 
--Created Date : When the Lead was created in the CRM
+-Created Date: When the Lead was created in the CRM
 
 * Drill-down: See Created Date by Hour, Minute, Time
 
--Company (from Lead) : The company that is listed on the record in the CRM populated by customer
+-Company (from Lead): The company that is listed on the record in the CRM populated by customer
 
--Account Name : The account name Marketo Measure populates based on our Lead to Account Mapping
+-Account Name: The account name [!DNL Marketo Measure] populates based on our Lead to Account Mapping
 
--Touchpoints : The number of Touchpoints associated to the lead (s)
+-Touchpoints: The number of Touchpoints associated to the lead (s)
 
 * Drill-down: See Contacts on the account Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type)
 
@@ -244,18 +244,18 @@ Displays the following data related to Lead(s) specified.
 
 Displays the following data related to Campaign(s) specified.
 
--Campaign ID : Campaign ID in CRM
+-Campaign ID: Campaign ID in CRM
 
--Campaign Name : Campaign Name in CRM
+-Campaign Name: Campaign Name in CRM
 
--Campaign Spend : The spend Marketo Measure has recorded associated to the campaign
+-Campaign Spend: The spend [!DNL Marketo Measure] has recorded associated to the campaign
 
--Attribution Model : This will show the appropriate attribution based on the model selected
+-Attribution Model: This will show the appropriate attribution based on the model selected
 
--Attribution Touchpoints : The number of Buyer Attribution Touchpoints associated to the campaign (s)
+-Attribution Touchpoints: The number of Buyer Attribution Touchpoints associated to the campaign (s)
 
 * Drill-down: See Buyer Attribution Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type, Attribution Model)
 
--Touchpoints : The number of Touchpoints associated to the campaign(s)
+-Touchpoints: The number of Touchpoints associated to the campaign(s)
 
 * Drill-down: See Contacts on the account Touchpoint details (ID, Email, Touchpoint Date, Account Name, Campaign, Channel, Subchannel, Marketing Touch Type)

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586105
-description: Engagement Path - Marketo Measure - Product Documentation
+description: Engagement Path - [!DNL Marketo Measure] - Product Documentation
 title: Engagement Path
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 ---
@@ -29,8 +29,8 @@ Engagement Path allows you to see a complete view of lead, contact, account, and
 **Medium:** Medium of engagement
 
 * If the engagement comes from an API connected platform (Adwords/BingAds) medium will be CPC
-* If the engagement’s landing page contains utm_medium, we will parse
-* If the engagement comes from CRM campaign, the medium comes from the ‘Type’ field from the CRM campaign
+* If the engagement's landing page contains utm_medium, we will parse
+* If the engagement comes from CRM campaign, the medium comes from the 'Type' field from the CRM campaign
 
 **Web Source:** This column will display the source of the engagement
 
