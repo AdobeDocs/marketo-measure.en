@@ -17,12 +17,8 @@ When installed and configured in Adobe Launch, the Marketo Measure extension wil
 >Check out the following links to learn more about Adobe Launch and its extensions.
 >
 >* [Marketo Measure Extension](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* link
->* link
-
-Adobe Launch Overview: https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites
-
-Adobe Launch Extension overview: https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration
+>* [Adobe Launch Overview](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
+>* [Adobe Launch Extension Overview](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
 
 1. Create a property following the steps [in this article](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}. 
 
@@ -52,20 +48,28 @@ Adobe Launch Extension overview: https://experienceleague.adobe.com/docs/launch/
 
 1. Click **Save**.
 
-   PIC
+   ![](assets/marketo-measure-integrations-with-adobe-launch-6.png)
 
 1. Click **Rules**, then select **Create New Rule**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-7.png)
 
-1. Add an Event to trigger a rule. Selecting "Library Loaded (Page Top)" will ensure the rule is triggered once the Launch library is loaded. 
+1. Click the **Add** button under Events. 
 
-   PIC
+   ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 
-1. Add an Action by selecting "Bizible Analytics" under Extensions, then "Initialize" under Action Type. This will load bizible.js every time Launch is loaded. 
+1. In the Extension drop-down, select **Core**. Then in the Event Type drop-down, select **Library Loaded (Page Top)**. If you don't give your event a name, a default one will be applied. Click **Keep Changes** when done.
 
-   PIC
+   ![](assets/marketo-measure-integrations-with-adobe-launch-9.png)
+
+1. Click the **Add** button under Actions.
+
+   ![](assets/marketo-measure-integrations-with-adobe-launch-10.png)
+
+1. In Extension drop-down, select **Bizible Analytics**. Then in the Action Type drop-down, select **Initialize**. If you don't give your action a name, a default one will be applied. Click **Keep Changes** when done.
+
+   ![](assets/marketo-measure-integrations-with-adobe-launch-11.png)
 
 1. Click **Save**.
 
-   ![](assets/marketo-measure-integrations-with-adobe-launch-10.png)
+   ![](assets/marketo-measure-integrations-with-adobe-launch-12.png)
