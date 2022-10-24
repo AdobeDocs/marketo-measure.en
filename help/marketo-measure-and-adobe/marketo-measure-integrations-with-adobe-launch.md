@@ -1,8 +1,6 @@
 ---
 description: Marketo Measure Integrations with Adobe Launch - Marketo Measure - Product Documentation
 title: Marketo Measure Integrations with Adobe Launch
-hide: yes
-hidefromtoc: yes
 ---
 # Marketo Measure Integrations with Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
@@ -14,7 +12,7 @@ When installed and configured in Adobe Launch, the Marketo Measure extension wil
 
 >[!PREREQUISITES]
 >
->Check out the following links to learn more about Adobe Launch and its extensions.
+>Check out the following links to learn more about Adobe Launch and its extensions:
 >
 >* [Marketo Measure Extension](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
 >* [Adobe Launch Overview](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
