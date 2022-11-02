@@ -6,18 +6,28 @@ exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 ---
 # Best Practices for Testing {#best-practices-for-testing}
 
-When testing [!DNL Marketo Measure], be sure to first clear cookies and use a unique email address for each test. The email address does not need to be real--it only needs to be a unique address that does not belong to any of your [!DNL Salesforce] records (e.g., unique1@test.com, unique2@test.com).
+You should test all the different types of forms you have to ensure the [!DNL Marketo Measure] JavaScript is working properly.
 
-Cookies can be cleared in the [!UICONTROL settings] section of your browser, select tools and clear browsing data. A test begins before the search and ends with a form submission. You can test through organic search or through a company advertisement. Make sure to clear cookies again before every new test you conduct.
+## Recommended Test Process {#recommended-test-process}
 
-## Steps for Testing {#steps-for-testing}
+1. Use an incognito browser or clear your cookies between each form submission test _and_ use a different email address each time.
 
-1. Clear browser cookies.
-1. Start your search at [google.com](http://google.com){target="_blank"} or a similar site.
+   >[!TIP]
+   >
+   >A best practice is to use a fake email that contains something indicating it's a test, as well as the time of day. For example: `testing830am@test.com`.
+
+1. Start your search at `google.com`, a similar site, or navigate to a form directly.
+
 1. Click on your website (organic search) or a company advertisement.
-1. Submit a contact form using a unique email address as mentioned above.
-1. Search the test email in [!DNL Salesforce].
-1. Check the [!DNL Marketo Measure] fields for the new record in [!DNL Salesforce].
-1. Clear cookies for next test.
 
-Done!
+1. Navigate to form.
+
+1. Submit form using a unique email address.
+
+1. Record the URL of the page you are submitting the form and the email used.
+
+1. Locate the record created in your CRM (Lead or Contact) for that form submission and verify that a touchpoint was appropriately created.
+
+>[!NOTE]
+>
+>* You can use a [!DNL Marketo Measure] stock report such as Leads with [!DNL Marketo Measure] Touchpoints or look at the Lead/Contact page layout if you chose to update your page layouts with [!DNL Marketo Measure] details. This could take some time for the data to process.

@@ -39,7 +39,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
 + Configuration and Setup {#configuration-and-setup}
   + Getting Started with Marketo Measure {#getting-started-with-marketo-measure}
     + [Touchpoint Generation and Mapping](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
-    + [Attribution Object Mapping](configuration-and-setup/getting-started-with-marketo-measure/attribution-object-mapping.md)
+    + [Attribution Mapping Methodology](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
     + [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
     + [Explanation of Touchpoint Positions and Generation Across BTs and BATs](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
     + [Marketo Measure Quick Start](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md)

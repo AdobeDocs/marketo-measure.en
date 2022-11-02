@@ -46,20 +46,3 @@ Other reasons to that might trigger a review your JavaScript setup include...
 * Site migrations
 * Changes to your domain
 * Acquistion's of other companies and their web properties
-
->[!MORELIKETHIS]
->
->* [Adding [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
->* [Adding [!DNL Marketo Measure] Script via GTM](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
->* [Adding [!DNL Marketo Measure] JS to Pardot](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
->* [Adding [!DNL Marketo Measure] JS to Lightbox Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
->* [Adding [!DNL Marketo Measure] JS to Sitecore Pages](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-sitecore-pages.md)
->* [Adding [!DNL Marketo Measure] JS to Uberflip Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-uberflip-forms.md)
->* [Adding [!DNL Marketo Measure] JS to Act-On Forms](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-act-on-forms.md)
->* [Adding [!DNL Marketo Measure] to Hubspot](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-hubspot.md)
->* [Adding [!DNL Marketo Measure] to Marketing Landing Pages](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-to-marketo-landing-pages.md)
->* [AJAX Form Handling](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md)
->* [Connecting [!DNL Marketo Measure] to Unbounce Script Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/connecting-marketo-measure-to-unbounce-script-manager.md)
->* [IFrame Forms and [!DNL Marketo Measure]](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/iframe-forms-and-marketo-measure.md)
->* [Excluding [!DNL Marketo Measure] Script from Specific Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
-

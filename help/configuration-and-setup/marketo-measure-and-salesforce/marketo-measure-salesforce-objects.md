@@ -10,7 +10,7 @@ exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 >
 >You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-When Marketo Measure is installed in Salesforce (SFDC), several custom Marketo Measure Objects are added. This lesson provides an explanation of several of those custom Marketo Measure Objects. Some Objects that Marketo Measure adds to Salesforce are:
+When Marketo Measure is installed in Salesforce (SFDC), several custom Marketo Measure Objects are added. This article provides an explanation of several of those custom Marketo Measure Objects. Some Objects that Marketo Measure adds to Salesforce are:
 
 * [Buyer Touchpoint](#touchpoint)
 * [Buyer Attribution Touchpoint](#attribution)
@@ -18,7 +18,7 @@ When Marketo Measure is installed in Salesforce (SFDC), several custom Marketo M
 * [Marketo Measure A/B Testing](#ab)
 * [Marketo Measure Events](#events)
 
-It is important to note that Marketo Measure will not create any standard SFDC Objects with data gathered from Marketo Measure's Javascript. This data will only be populated within Marketo Measure's custom objects or in Marketo Measure fields that live on standard SFDC objects.
+Touchpoints captured by the things you want to track will write to the custom objects created by the installation of the Bizible Salesforce package.
 
 Marketo Measure Objects relate to specific standard Salesforce Objects. This allows you to to report on Marketo Measure and Salesforce Objects together. The table below shows which Salesforce Object the Marketo Measure Object relates to.
 
@@ -36,7 +36,7 @@ The BT Related List displays all the touchpoints that belong to the Lead or Cont
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The Buyer Attribution Touchpoint Object tells the story of many marketing interactions of many contacts related to an opportunity. It displays the *attribution* data related to the marketing touchpoints. This Object allows you to see how much revenue credit is attributed to each marketing touchpoint. The type of attribution model that you are using will determine the percentage of revenue attributed to touchpoints.
+The Buyer Attribution Touchpoint Object tells the story of the marketing interactions of your contacts related to an opportunity. It displays the *attribution* data related to the marketing touchpoints. This Object allows you to see how much revenue credit is attributed to each marketing touchpoint. The type of attribution model that you are using will determine the percentage of revenue attributed to touchpoints.
 
 Buyer Attribution Touchpoints (BATs) are only created once an Opportunity is created which relates to contacts that have Buyer Touchpoint (BT) data. BATs will not be created without an Opportunity. Once the Opportunity has been created, the BAT Object will use the Salesforce *Amount* field on the Opportunity to understand how much revenue to attribute to the touchpoints.
 
@@ -58,7 +58,7 @@ If you are running A/B tests through Optimizely or VWO (Visual Web Optimizer), y
 
 ![](assets/5.png)
 
-The Marketo Measure A/B Test Object is displayed as a Related List on Leads, Contacts and Opportunity pages. The list surfaces all the experiments and variations that you’re running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
+The Marketo Measure A/B Test Object is displayed as a Related List on Leads, Contacts and Opportunity pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
 
 ## Marketo Measure Events {#marketo-measure-events}
 
@@ -66,7 +66,7 @@ The Marketo Measure Events Object allows you to track specific events that occur
 
 ## Marketo Measure Fields {#marketo-measure-fields}
 
-Data captured by Marketo Measure’s Javascript will be pushed into the custom Marketo Measure Fields within our Marketo Measure Objects. Certain fields will only be present on certain objects. For a glossary of all the Marketo Measure fields, please [click here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). For a visualization of which Marketo Measure Object each Marketo Measure Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Data captured by Marketo Measure's Javascript will be pushed into the custom Marketo Measure Fields within our Marketo Measure Objects. Certain fields will only be present on certain objects. For a glossary of all the Marketo Measure fields, please [click here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). For a visualization of which Marketo Measure Object each Marketo Measure Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## Marketo Measure Reports and Dashboards {#marketo-measure-reports-and-dashboards}
 

@@ -22,9 +22,8 @@ These packages enable your Marketo Measure users to easily access touchpoint dat
 
 ## Best Practice {#best-practice}
 
-When it comes to implementing and managing your Marketo Measure CRM Package, keep the following best practices in mind.
+When it comes to implementing and managing your Marketo Measure Salesforce Package, keep the following best practices in mind.
 
-* Check that you have the most recent version of our Buyer Touchpoints Package (6.15) installed in Salesforce
 * Confirm every necessary team member has access to the Marketo Measure report folders. There should be 1-3 Marketo Measure folders (these are explained below). To open up access, the person who installed the package(s) needs to share the report folders with the appropriate users or roles.
    * **Buyer Touchpoint Reports** – available to everyone
    * **Marketo Measure Account Based Marketing Reports** – reports will only be populated to customers Tier 2 and above
@@ -40,6 +39,7 @@ Other reasons to that might trigger a review...
 * Updates to you Salesforce page layouts
 * Migration for Salesforce Classic to Lightening
 * Upgrades to your Marketo Measure contract
+* Check that you have the most recent version of our Buyer Touchpoints Package installed in Salesforce
 
 >[!MORELIKETHIS]
 >

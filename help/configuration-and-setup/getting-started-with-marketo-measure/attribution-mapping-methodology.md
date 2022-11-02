@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874716
-description: Attribution Object Mapping - Marketo Measure - Product Documentation
-title: Attribution Object Mapping
+description: Attribution Mapping Methodology - Marketo Measure - Product Documentation
+title: Attribution Mapping Methodology
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 ---
-# Attribution Object Mapping {#attribution-object-mapping}
+# Attribution Mapping Methodology {#attribution-mapping-methodology}
 
-Attribution Object Mapping is the process of looking up certain objects in Salesforce (Contacts, Opportunities, Accounts) to create attribution touchpoints into the associated opportunity. In other words, it's Marketo Measure's way of understanding which touchpoints to include in the attribution model based on your current SFDC processes.
+Attribution Object Mapping is the process of looking up certain objects in your CRM (Contacts, Opportunities, Accounts) to create attribution touchpoints into the associated opportunity. In other words, it's Marketo Measure's way of understanding which touchpoints to include in the attribution model based on your current CRM's processes.
 
 ## Account ID Mapping {#account-id-mapping}
 
