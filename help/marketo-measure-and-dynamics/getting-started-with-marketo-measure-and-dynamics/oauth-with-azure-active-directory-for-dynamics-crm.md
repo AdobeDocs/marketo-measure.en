@@ -1,18 +1,18 @@
 ---
 unique-page-id: 37357059
-description: OAuth with Azure Active Directory for Dynamics CRM - Marketo Measure - Product Documentation
-title: OAuth with Azure Active Directory for Dynamics CRM
+description: OAuth with [!DNL Azure Active Directory] for Dynamics CRM - [!DNL Marketo Measure] - Product Documentation
+title: OAuth with [!DNL Azure Active Directory] for Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 ---
-# OAuth with Azure Active Directory for Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
+# OAuth with [!DNL Azure Active Directory] for Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 
-## Who’s Affected {#who-s-affected}
+## Who's Affected {#who-s-affected}
 
-This setup is for new Marketo Measure customers using Dynamics CRM with an Azure Active Directory (AAD) account, or for customers that want to migrate from their legacy username and password login to Azure Active Directory with OAuth.
+This setup is for new [!DNL Marketo Measure] customers using Dynamics CRM with an [!DNL Azure Active Directory] (AAD) account, or for customers that want to migrate from their legacy username and password login to [!DNL Azure Active Directory] with OAuth.
 
 >[!NOTE]
 >
->For both of these scenarios, AAD is set up here to facilitate connecting your Dynamics instance in Marketo Measure as a Data Provider.
+>For both of these scenarios, AAD is set up here to facilitate connecting your Dynamics instance in [!DNL Marketo Measure] as a Data Provider.
 
 ## Set Up New Application {#set-up-new-application}
 
@@ -22,15 +22,15 @@ This setup is for new Marketo Measure customers using Dynamics CRM with an Azure
 
    ![](assets/setup-2.png)
 
-1. Search for "Azure Active Directory" in the search bar and click the name to open.
+1. Search for "[!DNL Azure Active Directory]" in the search bar and click the name to open.
 
    ![](assets/setup-3.png)
 
-1. Click **App Registrations** in the left-hand menu.
+1. Click **[!UICONTROL App Registrations]** in the left-hand menu.
 
    ![](assets/setup-4.png)
 
-1. Click **New Registration** at the top.
+1. Click **[!UICONTROL New Registration]** at the top.
 
    ![](assets/setup-5.png)
 
@@ -41,13 +41,13 @@ This setup is for new Marketo Measure customers using Dynamics CRM with an Azure
 
 1. Once you've completed registration, Azure AD will assign your application a unique client identifier (the Application ID). You need this value in the next section, so copy it from the application page.
 
-1. To find your application in the Azure portal, click **App Registrations**, then click **All Applications**. Open your newly created application
+1. To find your application in the Azure portal, click **[!UICONTROL App Registrations]**, then click **[!UICONTROL All Applications]**. Open your newly created application
 
-1. Click **Authentication** in the left-hand menu.
+1. Click **[!UICONTROL Authentication]** in the left-hand menu.
 
    ![](assets/setup-9.png)
 
-1. Add Marketo Measure’s redirect URLs: `https://apps.bizible.com/OAuth2` and `https://apps.bizible.com/OAuth2?identityOnly=true` to the list of Redirect URLs.
+1. Add the [!DNL Marketo Measure] redirect URLs: `https://apps.bizible.com/OAuth2` and `https://apps.bizible.com/OAuth2?identityOnly=true` to the list of Redirect URLs.
 
    ![](assets/setup-10.png)
 
@@ -55,21 +55,21 @@ This setup is for new Marketo Measure customers using Dynamics CRM with an Azure
 
    ![](assets/setup-10a.png)
 
-1. From here, enter “enterprise” in the search box and click on Enterprise Applications
+1. From here, enter "[!UICONTROL enterprise]" in the search box and click **[!UICONTROL Enterprise Applications]**.
 
    ![](assets/setup-11.png)
 
-1. Again, find and open your new application from the list of applications
+1. Again, find and open your new application from the list of applications.
 
-1. From the Permissions tab, click **Grant Admin Consent for (instance name)**.
+1. From the Permissions tab, click **[!UICONTROL Grant Admin Consent for (instance name)]**.
 
    ![](assets/setup-13a.png)
 
-1. Click **Accept**.
+1. Click **[!UICONTROL Accept]**.
 
    ![](assets/setup-13b.png)
 
-1. From the "Users and Groups" tab, make sure that the valid "Users and Groups" are assigned to the Application.
+1. From the "[!UICONTROL Users and Groups]" tab, make sure that the valid "Users and Groups" are assigned to the Application.
   
    ![](assets/setup-14.png)
 
@@ -79,23 +79,23 @@ Once the application registration is done, then an application user can be creat
 
 1. Navigate to your Common Data Service environment (`https://[org].crm.dynamics.com`).
 
-1. Navigate to **Settings** > **Security** > **Users**.
+1. Navigate to **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Users]**.
 
-1. Choose **Application Users** in the view filter.
+1. Choose **[!UICONTROL Application Users]** in the view filter.
 
-1. Select **+ New**.
+1. Select **[!UICONTROL + New]**.
 
 1. In the Application User form, enter the required information.
 
    >[!NOTE]
    >
-   >* The user name information must not match a user that exists in the Azure Active Directory.
+   >* The user name information must not match a user that exists in the [!DNL Azure Active Directory].
    >
    >* In the Application ID field, enter the application ID of the app you registered earlier in the Azure AD.
 
-1. If the setup is correct, then after selecting **Save**, the **Application ID URI** and **Azure AD Object Id** fields will auto-populate with correct values.
+1. If the setup is correct, then after selecting **[!UICONTROL Save]**, the **[!UICONTROL Application ID URI]** and **[!UICONTROL Azure AD Object Id]** fields will auto-populate with correct values.
 
-1. Before exiting the user form, choose **Manage Roles** and assign a security role to this application user so that the application user can access the desired organization data.
+1. Before exiting the user form, choose **[!UICONTROL Manage Roles]** and assign a security role to this application user so that the application user can access the desired organization data.
 
 ## Connecting your Dynamics Instance via OAuth {#connecting-your-dynamics-instance-via-oAuth}
 
@@ -103,24 +103,24 @@ Once the application registration is done, then an application user can be creat
 
 1. When prompted for OAuth credentials, fill in the Client Id, Client Secret, and Application Id URI that were set up in the section above.
 
-  a. Client Id is the Id from Step #7 in the section above. If you didn’t write it down, the Application Id is displayed in the Settings of the App registration.
+  a. Client Id is the Id from Step #7 in the section above. If you didn't write it down, the Application Id is displayed in the Settings of the App registration.
 
   b. Client Secret is the application secret created in the Azure Portal for your application under Certificates & Secrets.
 
    ![](assets/creating-2e.png)
   
-  c. Application ID URI is the URL of the target web API (secured resource). To find the App ID URL, in the Azure Portal, click Azure Active Directory, click Application registrations, open the application's Settings page, then click Properties. It may also be an external resource like `https://graph.microsoft.com`. This is normally the URL of the dynamics instance.
+  c. Application ID URI is the URL of the target web API (secured resource). To find the App ID URL, in the Azure Portal, click [!DNL Azure Active Directory], click Application registrations, open the application's Settings page, then click Properties. It may also be an external resource like `https://graph.microsoft.com`. This is normally the URL of the Dynamics instance.
 
-1. After you click **Submit**, you’ll be prompted to sign-in with Azure Active Directory. When the authentication is successful, your Dynamics account will be connected as a data provider within Marketo Measure.
+1. After you click **[!UICONTROL Submit]**, you'll be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be connected as a data provider within [!DNL Marketo Measure].
 
 ## Re-authenticating your Dynamics Account {#re-authenticating-your-dynamics-account}
 
-1. When you’re in the Marketo Measure application, go to **My Settings** > **Settings** > **Connections**.
+1. When you're in the [!DNL Marketo Measure] application, go to **[!UICONTROL My Settings]** > **[!UICONTROL Settings]** > **[!UICONTROL Connections]**.
 
 1. Click on the key icon in the CRM section next to the Dynamics connection.
 
-1. Once the key is clicked, a pop-up will appear and you’ll be prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
+1. Once the key is clicked, a pop-up will appear and you'll be prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
 
    ![](assets/re-authenticating-3.png)
 
-1. After you click **Submit**, you’ll be prompted to sign-in with Azure Active Directory. When the authentication is successful, your Dynamics account will be re-authorized within Marketo Measure.
+1. After you click **[!UICONTROL Submit]**, you'll be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be re-authorized within [!DNL Marketo Measure].

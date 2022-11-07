@@ -1,5 +1,5 @@
 ---
-description: Unified Shell Overview - Marketo Measure - Product Documentation
+description: Unified Shell Overview - [!DNL Marketo Measure] - Product Documentation
 title: Unified Shell Overview
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 ---
@@ -11,15 +11,15 @@ Unified Shell aligns the "shell" look and feel of Adobe Experience Cloud applica
 
 **Unified Shell Flow**
 
-If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **Marketo Measure**.
+If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **[!DNL Marketo Measure]**.
 
    ![](assets/unified-shell-overview-4.png)
 
 >[!NOTE]
 >
->Your drop-down menu may look different depending on which Adobe Experience Cloud products you’re subscribed to.
+>Your drop-down menu may look different depending on which Adobe Experience Cloud products you're subscribed to.
 
-If you're _not_ already logged in to an Adobe Experience Cloud product, log in directly to Marketo Measure here: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+If you're _not_ already logged in to an Adobe Experience Cloud product, log in directly to [!DNL Marketo Measure] here: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## New Features {#new-features}
 
@@ -27,13 +27,13 @@ In addition to the updated look and feel, you'll notice the following features:
 
 **Domain Management**
 
-[Manage your Marketo Measure domains](/help/marketo-measure-and-adobe/domain-management.md) without assistance from Marketo Measure.
+[Manage your [!DNL Marketo Measure] domains](/help/marketo-measure-and-adobe/domain-management.md) without assistance from [!DNL Marketo Measure].
 
    ![](assets/unified-shell-overview-5.png)
 
 **Integrated Help Center**
 
-Search for support articles, submit tickets, provide feedback, all from within the Marketo Measure application.
+Search for support articles, submit tickets, provide feedback, all from within the [!DNL Marketo Measure] application.
 
    ![](assets/unified-shell-overview-6.png)
 
@@ -53,7 +53,7 @@ View and interact with product-specific notifications and general Adobe product 
 
 **Adobe Settings**
 
-Click your profile icon to change your language or other Adobe-wide preferences. You can also make Marketo Measure-speific changes by clicking **My Settings**.
+Click your profile icon to change your language or other Adobe-wide preferences. You can also make [!DNL Marketo Measure]-specific changes by clicking **My Settings**.
 
    ![](assets/unified-shell-overview-10.png)
 
@@ -63,9 +63,9 @@ Click your profile icon to change your language or other Adobe-wide preferences.
 
 Bookmarks will be redirected. For example, if you were to navigate to https://apps.marketo-measure.com/Discover/391, you would be redirected to https://experience.adobe.com/marketo-measure/Discover/391 after completing authentication.
 
-**I can't log in to Marketo Measure through the Unified Shell. What might the issue be?**
+**I can't log in to [!DNL Marketo Measure] through the Unified Shell. What might the issue be?**
 
-If you can log in to Adobe Experience Cloud, but see the a page like the following, the issue could be on the Marketo Measure side:
+If you can log in to Adobe Experience Cloud, but see the a page like the following, the issue could be on the [!DNL Marketo Measure] side:
 
    ![](assets/unified-shell-overview-11.png)
 

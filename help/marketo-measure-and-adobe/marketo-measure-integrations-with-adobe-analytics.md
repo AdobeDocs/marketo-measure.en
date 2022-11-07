@@ -1,15 +1,15 @@
 ---
-description: Marketo Measure Integrations with Adobe Analytics - Marketo Measure - Product Documentation
-title: Marketo Measure Integrations with Adobe Analytics
+description: "[!DNL Marketo Measure] Integrations with Adobe Analytics - [!DNL Marketo Measure] - Product Documentation"
+title: "[!DNL Marketo Measure] Integrations with [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 ---
-# Marketo Measure Integrations with Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
+# [!DNL Marketo Measure] Integrations with Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
-The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from Marketo Measure's attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). It's available for free to all customers that use Adobe Analytics and Marketo Measure.
+The B2B Customer Attributes integration enables mutual users of [!DNL Marketo Measure] and Adobe Analytics to enrich their [!DNL Adobe Analytics] user profiles with valuable metadata derived from the [!DNL Marketo Measure] attribution engine and through its sync capability with CRMs ([!DNL Microsoft Dynamics] and [!DNL Salesforce]). It's available for free to all customers that use [!DNL Adobe Analytics] and [!DNL Marketo Measure].
 
 >[!PREREQUISITES]
 >
->You must have active subscriptions to both Marketo Measure and Adobe Analytics.
+>You must have active subscriptions to both [!DNL Marketo Measure] and [!DNL Adobe Analytics].
 
 ## Configuring the Integration {#configuring-the-integration}
 
@@ -21,23 +21,23 @@ The B2B Customer Attributes integration enables mutual users of Marketo Measure 
 
    * The FTP server hostname and credentials (user name and password)
 
-1. Once the Customer Attributes Data Source is created, continue the configuration process by navigating to the Integrations > Connections screen in the Marketo Measure admin menu.
+1. Once the Customer Attributes Data Source is created, continue the configuration process by navigating to the **[!UICONTROL Integrations]** > **[!UICONTROL Connections]** screen in the [!DNL Marketo Measure] admin menu.
 
-1. Click on the **Set Up New Customer Attributes Connection** button and follow the instructions to configure the Customer Attributes integration. The UI will prompt you for the Alias ID and FTP connection information that you acquired when creating the Customer Attributes Source in your Core Services Console, as well as to select the set of account attributes that you'd like to sync to your Adobe Analytics account.
+1. Click on the **[!UICONTROL Set Up New Customer Attributes Connection]** button and follow the instructions to configure the Customer Attributes integration. The UI will prompt you for the Alias ID and FTP connection information that you acquired when creating the Customer Attributes Source in your Core Services Console, as well as to select the set of account attributes that you'd like to sync to your [!DNL Adobe Analytics] account.
 
    You'll also need to input your Adobe IMS Org ID. This ID is displayed in the lower-right corner of your Adobe Experience Cloud Admin Console. For more help with finding this ID, please consult with your Customer Success Manager.
 
-1. Once you've finished creating the connection in your Marketo Measure account, you'll need to head back to your Experience Cloud console in order to [validate the schema](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). You don't need to worry about the FTP file upload, Marketo Measure has automated that part for you. All you need to do is go to the "View/Edit" schema screen for the Customer Attribute Source you created in Step 1 and tell Adobe what the data types are for each of the attributes that Marketo Measure has uploaded on your behalf. You can also create new display-friendly names for the uploaded attributes, if desired.
+1. Once you've finished creating the connection in your [!DNL Marketo Measure] account, you'll need to head back to your Experience Cloud console in order to [validate the schema](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). You don't need to worry about the FTP file upload, [!DNL Marketo Measure] has automated that part for you. All you need to do is go to the "View/Edit" schema screen for the Customer Attribute Source you created in Step 1 and tell Adobe what the data types are for each of the attributes that [!DNL Marketo Measure] has uploaded on your behalf. You can also create new display-friendly names for the uploaded attributes, if desired.
 
-   If you elected to sync attributes from your CRM account object, it's highly recommended that you choose new display names for them, as Marketo Measure will only populate the API-level names for these attributes, which are typically not reporting-friendly.
+   If you elected to sync attributes from your CRM account object, it's highly recommended that you choose new display names for them, as [!DNL Marketo Measure] will only populate the API-level names for these attributes, which are typically not reporting-friendly.
 
-1. The last step is to configure Attribute Subscriptions for the Experience Cloud applications that you'd like to use the attributes in.  You can configure Subscriptions for Adobe Analytics or Adobe Target.  More information on how to do that [can be found here](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
+1. The last step is to configure Attribute Subscriptions for the Experience Cloud applications that you'd like to use the attributes in.  You can configure Subscriptions for [!DNL Adobe Analytics] or [!DNL Adobe Target].  More information on how to do that [can be found here](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
 
 ## Attribute Descriptions {#attribute-descriptions}
 
-When you create a new B2B Customer Attribute Connection, Marketo Measure will automatically create a standard set of B2B Customer Attributes for you. These attributes are described in the table below.
+When you create a new B2B Customer Attribute Connection, [!DNL Marketo Measure] will automatically create a standard set of B2B Customer Attributes for you. These attributes are described in the table below.
 
-In addition to those listed below, you can also upload any attributes attached to the account object in your CRM. If more than one account is tied to the given user, Marketo Measure will populate all matching account attribute values in a semicolon-delimited list.
+In addition to those listed below, you can also upload any attributes attached to the account object in your CRM. If more than one account is tied to the given user, [!DNL Marketo Measure] will populate all matching account attribute values in a semicolon-delimited list.
 
 <table> 
  <colgroup> 
@@ -51,13 +51,13 @@ In addition to those listed below, you can also upload any attributes attached t
   </tr> 
   <tr> 
    <td>Account.Name</td> 
-   <td>The account names associated with the given web visitor.  If more than one account is tied to the given user, Marketo Measure will populate all matching account names in a semicolon-delimited list.<br/>
-   <strong>Note:</strong> account.name is the Salesforce-API-level name for the name attribute on the account object.  You can choose a better display name (e.g., "Company") for this attribute during the Schema Validation step of the integration configuration (step 4).</td>
+   <td>The account names associated with the given web visitor. If more than one account is tied to the given user, [!DNL Marketo Measure] will populate all matching account names in a semicolon-delimited list.<br/>
+   <strong>Note:</strong> account.name is the Salesforce-API-level name for the name attribute on the account object. You can choose a better display name (e.g., "Company") for this attribute during the Schema Validation step of the integration configuration (step 4).</td>
   </tr>
   <tr> 
    <td>Attributed Revenue - &#8249;MODEL&#8250;</td> 
-   <td>The revenue attributed to this customer by virtue of their association with closed-won opportunities in your CRM, as calculated by Marketo Measure's attribution engine.<br/>
-   There will be one of these attributes for each attribution model that your Marketo Measure subscriptions allows for (e.g., "Attributed Revenue – Full Path").</td>
+   <td>The revenue attributed to this customer by virtue of their association with closed-won opportunities in your CRM, as calculated by the [!DNL Marketo Measure] attribution engine.<br/>
+   There will be one of these attributes for each attribution model that your [!DNL Marketo Measure] subscriptions allows for (e.g., "Attributed Revenue – Full Path").</td>
   </tr>
   <tr> 
    <td>Deepest Funnel Stage</td> 
@@ -72,15 +72,15 @@ In addition to those listed below, you can also upload any attributes attached t
 
 **A note about attribute limits**
 
-Please note that the attributes surfaced via this integration will still count against your contractual attribute limits in Adobe Analytics and Adobe Target. Only attributes that are surfaced via an Attribute Subscription (step 5 in [Configuring the Integration](#configuring-the-integration)) will count against your limit for the subscribed application.
+Please note that the attributes surfaced via this integration will still count against your contractual attribute limits in [!DNL Adobe Analytics] and [!DNL Adobe Target]. Only attributes that are surfaced via an Attribute Subscription (step 5 in [Configuring the Integration](#configuring-the-integration)) will count against your limit for the subscribed application.
 
 ## FAQs {#faqs}
 
 **How do I change the set of attributes that I want to share via this integration?**
 
-In order for an attribute shared by Marketo Measure to your Adobe IMS Org via this integration to be visible and used in Adobe Analytics, it needs to be surfaced via an Attribute Subscription configured in the Core Services Console. Therefore, if you want to remove an attribute so that it no longer appears in Adobe Analytics, you can achieve this simply by deleting the attribute subscription.  
+In order for an attribute shared by [!DNL Marketo Measure] to your Adobe IMS Org via this integration to be visible and used in [!DNL Adobe Analytics], it needs to be surfaced via an Attribute Subscription configured in the Core Services Console. Therefore, if you want to remove an attribute so that it no longer appears in [!DNL Adobe Analytics], you can achieve this simply by deleting the attribute subscription.  
 
-You can also delete the B2B Customer Attribute connection in Marketo Measure and re-create it with the attribute you no longer wish to share excluded from the connection configuration. Similarly, to add attributes to the integration, you will need to delete the existing connection and create a new one with the desired attributes added to the configuration.  
+You can also delete the B2B Customer Attribute connection in [!DNL Marketo Measure] and re-create it with the attribute you no longer wish to share excluded from the connection configuration. Similarly, to add attributes to the integration, you will need to delete the existing connection and create a new one with the desired attributes added to the configuration.  
 
 Given the above, it's highly recommended that when configuring the attribute connection for the first time, be as inclusive as possible when selecting attributes.
 

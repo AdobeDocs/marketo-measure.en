@@ -1,20 +1,20 @@
 ---
 unique-page-id: 18874523
-description: Marketo Measure Dynamics Schema - Marketo Measure - Product Documentation
-title: Marketo Measure Dynamics Schema
+description: "[!DNL Marketo Measure] Dynamics Schema - [!DNL Marketo Measure] - Product Documentation"
+title: "[!DNL Marketo Measure] Dynamics Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 ---
-# Marketo Measure Dynamics Schema {#marketo-measure-dynamics-schema}
+# [!DNL Marketo Measure] Dynamics Schema {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
->You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-Below you'll find the required Dynamics schema in order to get started with Marketo Measure. All entities and fields are listed, along with the required read and/or write access.
+Below you'll find the required Dynamics schema in order to get started with [!DNL Marketo Measure]. All entities and fields are listed, along with the required read and/or write access.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-The Buyer Touchpoint is a Marketo Measure custom entity to encapsulate the marketing interactions for Contacts and Leads.
+The Buyer Touchpoint is a [!DNL Marketo Measure] custom entity to encapsulate the marketing interactions for Contacts and Leads.
 
 ## Buyer Touchpoint Relationships {#buyer-touchpoint-relationships}
 
@@ -299,7 +299,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The Buyer Attribution Touchpoint is a Marketo Measure custom entity to encapsulate the marketing's influence on Opportunities.
+The Buyer Attribution Touchpoint is a [!DNL Marketo Measure] custom entity to encapsulate the marketing's influence on Opportunities.
 
 ## Buyer Attribution Touchpoint Relationships {#buyer-attribution-touchpoint-relationships}
 
@@ -708,7 +708,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Marketo Measure AB Tests {#marketo-measure-ab-tests}
+## [!DNL Marketo Measure] AB Tests {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
@@ -793,7 +793,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Marketo Measure Events {#marketo-measure-events}
+## [!DNL Marketo Measure] Events {#marketo-measure-events}
 
 <table> 
  <tbody> 
@@ -860,7 +860,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
  </tbody> 
 </table>
 
-## Marketo Measure History {#marketo-measure-history}
+## [!DNL Marketo Measure] History {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -905,7 +905,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
 
 ## Dynamics Standard Entities {#dynamics-standard-entities}
 
-This lists provides the Dynamics Standard Entities that Marketo Measure interacts with, as well as the custom fields that we add to these entities.
+This lists provides the Dynamics Standard Entities that [!DNL Marketo Measure] interacts with, as well as the custom fields that we add to these entities.
 
 **Lead**
 
