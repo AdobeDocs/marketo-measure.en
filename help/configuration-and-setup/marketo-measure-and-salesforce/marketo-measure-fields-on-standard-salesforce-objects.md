@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874574
-description: Marketo Measure Fields on Standard Salesforce Objects - Marketo Measure - Product Documentation
-title: Marketo Measure Fields on Standard Salesforce Objects
+description: Marketo Measure Fields on Standard [!DNL Salesforce] Objects - Marketo Measure - Product Documentation
+title: Marketo Measure Fields on Standard [!DNL Salesforce] Objects
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 ---
-# Marketo Measure Fields on Standard Salesforce Objects {#marketo-measure-fields-on-standard-salesforce-objects}
+# Marketo Measure Fields on Standard [!DNL Salesforce] Objects {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ Marketing Channel (LC): This is the marketing channel of the lead creation touch
 
 Ad Campaign Name (FT): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the first touch interaction.
 
-Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the lead creation touch interaction.
+Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the [!UICONTROL lead creation] touch interaction.
 
 Landing Page (FT): This is the landing page of the first touch interaction.
 
-Landing Page (LC): This is the landing page of the lead creation touch interaction.
+Landing Page (LC): This is the landing page of the [!UICONTROL lead creation] touch interaction.
 
 Touchpoint Date (FT): This is the date of the first touch interaction.
 
@@ -68,13 +68,13 @@ Touchpoint Status (Opportunity): This is a diagnostic field related to a feature
 
 Touchpoint Status Date: This is the date the diagnostic fields were populated.
 
-Buyer Touchpoint Date: This is related to the Bulk Update Touchpoint date button from the Campaign object. When that is used, we apply the defined Touchpoint date to the Campaign Member.
+Buyer Touchpoint Date: This is related to the [!UICONTROL Bulk Update Touchpoint date] button from the Campaign object. When that is used, we apply the defined Touchpoint date to the Campaign Member.
 
-OnCampaignMemberDelete: Out of the box, Salesforce doesn't surface when Campaign Members are deleted which can cause issues with accurate attribution reporting. When a Campaign Member is deleted, this is triggered to inform Marketo Measure to remove Touchpoints related to that non-existent Campaign Member.
+OnCampaignMemberDelete: Out of the box, Salesforce doesn't surface when Campaign Members are deleted which can cause issues with accurate attribution reporting. When a Campaign Member is deleted, this is triggered to inform [!DNL Marketo Measure] to remove Touchpoints related to that non-existent Campaign Member.
 
 ## Contact {#contact}
 
-We add fields to the Contact object related to the First touch and Lead Creation touch milestones. This is for customers that would rather have attribution reported directly to fields instead of creating Touchpoint records. Most of our customers go with the Touchpoint record route, but also use these fields within their automation platform.
+We add fields to the Contact object related to the First touch and Lead Creation touch milestones. This is for customers that would rather have attribution reported directly to fields instead of creating [!UICONTROL Touchpoint record]s. Most of our customers go with the Touchpoint record route, but also use these fields within their automation platform.
 
 Touchpoint Source (FT): This is the source of the first touch interaction.
 
@@ -86,11 +86,11 @@ Marketing Channel (LC): This is the marketing channel of the lead creation touch
 
 Ad Campaign Name (FT): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the first touch interaction.
 
-Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the lead creation touch interaction.
+Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the [!UICONTROL lead creation] touch interaction.
 
 Landing Page (FT): This is the landing page of the first touch interaction.
 
-Landing Page (LC): This is the landing page of the lead creation touch interaction.
+Landing Page (LC): This is the landing page of the [!UICONTROL lead creation] touch interaction.
 
 Touchpoint Date (FT): This is the date of the first touch interaction.
 
@@ -100,7 +100,7 @@ BizibleID: This is used in relation to our activities attribution and calltracki
 
 ## Lead {#lead}
 
-We add fields to the Lead object related to the First touch and Lead Creation touch milestones. This is for customers that would rather have attribution reported directly to fields instead of creating Touchpoint records. Most of our customers go with the Touchpoint record route, but also use these fields within their automation platform.
+We add fields to the Lead object related to the First touch and Lead Creation touch milestones. This is for customers that would rather have attribution reported directly to fields instead of creating [!UICONTROL Touchpoint record]s. Most of our customers go with the Touchpoint record route, but also use these fields within their automation platform.
 
 Touchpoint Source (FT): This is the source of the first touch interaction.
 
@@ -112,11 +112,11 @@ Marketing Channel (LC): This is the marketing channel of the lead creation touch
 
 Ad Campaign Name (FT): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the first touch interaction.
 
-Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the lead creation touch interaction.
+Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or Salesforce Campaign of the [!UICONTROL lead creation] touch interaction.
 
 Landing Page (FT): This is the landing page of the first touch interaction.
 
-Landing Page (LC): This is the landing page of the lead creation touch interaction.
+Landing Page (LC): This is the landing page of the [!UICONTROL lead creation] touch interaction.
 
 Touchpoint Date (FT): This is the date of the first touch interaction.
 
