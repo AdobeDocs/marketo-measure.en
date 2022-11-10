@@ -18,7 +18,7 @@ The Marketo Measure Base Package contains:
 * Custom Marketo Measure Fields 
 * 25 Stock Reports 
 
-Marketo Measure is able to read standard Salesforce Objects, Fields, and Records, however Marketo Measure will never update or push data to them. All the data collected by the Marketo Measure Javascript will be surfaced in the Marketo Measure Custom Objects and Fields. 
+Marketo Measure is able to read standard Salesforce Objects, Fields, and Records, however, Marketo Measure will never update or push data to them. All the data collected by the Marketo Measure Javascript will be surfaced in the Marketo Measure Custom Objects and Fields. 
 
 Follow the steps below to install the Marketo Measure Salesforce base package.
 
