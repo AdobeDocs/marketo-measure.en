@@ -30,11 +30,11 @@ Follow the steps below to install the Marketo Measure Salesforce base package.
 
 1. Select **Install for All Users**.
 
-   ![](assets/marketo-measure-salesforce-package​-installation-and-set-up-1.png)
+   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
 
 1. Once the installation is complete, you can view it.
 
-   ![](assets/marketo-measure-salesforce-package​-installation-and-set-up-2.png)
+   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
 After you've completed the installation, you can update your [Salesforce page layouts](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} with the Marketo Measure fields if desired. 
 
@@ -50,7 +50,7 @@ The Dashboard Extension Package contains three pre-built dashboards. We recommen
 
 1. Select **Install for All Users**.
 
-   ![](assets/marketo-measure-salesforce-package​-installation-and-set-up-3.png)
+   ![](assets/marketo-measure-salesforce-packageinstallation-and-set-up-3.png)
 
 ## Creating a Marketo Measure Profile and User {#creating-a-marketo-measure-profile-and-user}
 
