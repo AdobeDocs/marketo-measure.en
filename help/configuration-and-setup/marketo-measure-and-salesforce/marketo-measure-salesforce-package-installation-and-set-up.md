@@ -50,7 +50,7 @@ The Dashboard Extension Package contains three pre-built dashboards. We recommen
 
 1. Select **Install for All Users**.
 
-   ![](assets/marketo-measure-salesforce-packageinstallation-and-set-up-3.png)
+   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
 
 ## Creating a Marketo Measure Profile and User {#creating-a-marketo-measure-profile-and-user}
 
