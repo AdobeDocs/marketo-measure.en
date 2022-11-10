@@ -14,7 +14,9 @@ Let's take a high-level look at the relationship between Marketo Measure and Sal
 
 ## Salesforce and Marketo Measure  {#salesforce-and-marketo-measure}
 
-Once the Marketo Measure account is created and Salesforce is connected, Marketo Measure will begin pushing marketing data into the CRM instance as long as the Marketo Measure managed package is installed. If it's not, Marketo Measure will not write any data, but it will read information from your SFDC instance.
+Once the Marketo Measure account is created and Salesforce is connected, Marketo Measure will begin pushing marketing data into the CRM instance as long as the Marketo Measure managed package is installed and the Marketo Measure Salesforce user has edit permissions.
+
+If you didn't install the Marketo Measure Salesforce package, Marketo Measure will not write any data to your Salesforce instance.
 
 ![](assets/1-3.png)
 
