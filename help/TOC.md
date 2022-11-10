@@ -44,7 +44,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
       + [Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [Marketo Measure Quick Start](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md)
    + Marketo Measure and Salesforce {#marketo-measure-and-salesforce}
-      + [Marketo Measure Salesforce Package​ Installation and Set Up](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package​-installation-and-set-up.md)
+      + [Marketo Measure Salesforce Package Installation and Set Up](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package​-installation-and-set-up.md)
       + [Marketo Measure Installation Guide](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md)
       + [Best Practices for Marketo Measure CRM Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [Marketo Measure Salesforce Objects](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
