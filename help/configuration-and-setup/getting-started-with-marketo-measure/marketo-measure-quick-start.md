@@ -58,7 +58,7 @@ In order to ensure that all data is properly pulling from Salesforce, we require
 
 The guides below outline the steps to set up your Adobe Admin Console, configure your Identity Provider, and connect your CRM and Ad Accounts.
 
-Salesforce customers, click [here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md).
+Salesforce customers, click [here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
 
 Microsoft Dynamics customers, click [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 

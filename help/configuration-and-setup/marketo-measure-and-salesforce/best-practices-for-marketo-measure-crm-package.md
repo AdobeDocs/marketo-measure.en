@@ -43,7 +43,7 @@ Other reasons to that might trigger a review...
 
 >[!MORELIKETHIS]
 >
->* [Update Buyer Touchpoint Package](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md)
+>* [Update Buyer Touchpoint Package](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [Marketo Measure Permission Sets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Sharing Reports and Dashboards Folder](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&type=0)
 >* [Installing and Connecting Marketo Measure](/help/configuration-and-setup/marketo-measure-and-salesforce/install-and-connect.md)

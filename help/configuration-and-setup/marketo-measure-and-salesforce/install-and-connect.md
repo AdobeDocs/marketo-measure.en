@@ -27,7 +27,7 @@ Marketo Measure's **Dashboard Extension Package** contains three pre-built Dashb
 
 Marketo Measure is able to read standard SF Objects, Fields and Records, however Marketo Measure will never update or push data to them. All the data collected by Marketo Measure's Javascript will be surfaced in the Marketo Measure Custom Objects and Fields.
 
-For the complete installation guide, [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md).
+For the complete installation guide, [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
 
 ## Connecting Accounts {#connecting-accounts}
 
