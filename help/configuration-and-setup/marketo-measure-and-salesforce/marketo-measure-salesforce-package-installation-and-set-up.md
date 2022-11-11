@@ -3,6 +3,7 @@ description: Marketo Measure Salesforce Package​ Installation and Set Up - Mar
 title: Marketo Measure Salesforce Package​ Installation and Set Up
 hide: yes
 hidefromtoc: yes
+exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 ---
 # Marketo Measure Salesforce Package​ Installation and Set Up {#marketo-measure-salesforce-package​-installation-and-set-up}
 
