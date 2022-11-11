@@ -6,7 +6,7 @@ exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 ---
 # Hiding Unnecessary Report Types {#hiding-unnecessary-report-types}
 
-It is often the case that not every single report that the Marketo Measure package comes with will be used by your organization. Therefore, it is helpful to hide report types that you are not using in order to eliminate any confusion and allow for a cleaner appearance. You can hide any reports you'd like, but the reports identified in the image below are usually hidden.
+After you complete your installation and start using reports, it is often the case that not every single report the Marketo Measure package comes with will be used by your organization. Therefore, it's helpful to hide report types that you're not using in order to eliminate any confusion and allow for a cleaner appearance. You can hide any reports you'd like, but the reports identified in the image below are usually hidden.
 
 1. Navigate to the **Reports** tab.
 

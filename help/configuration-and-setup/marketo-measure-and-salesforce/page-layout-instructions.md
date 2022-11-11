@@ -16,6 +16,8 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
 ## Campaign Object {#campaign-object}
 
+We recommend adding the Marketo Measure fields to your SFDC Campaign for only your sandbox. The fields can be used to test touchpoint generation.​ In production we recommend only adding the Marketo Measure Bulk Update Touchpoint Date button. We don't recommend adding the Marketo Measure fields to production since you can create Campaign Sync rule rules​.
+
 1. Within your Build option, select **Campaigns**.
 1. Click **Page Layouts**.
 
@@ -29,7 +31,7 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
    ![](assets/3-2.png)
 
-1. Next, at the top of the page click the “Buttons” option within the quick find menu.
+1. Next, at the top of the page click the "Buttons" option within the quick find menu.
 1. Drag the **Bulk Update Touchpoint Date** button to your custom buttons section.
 
    ![](assets/4-1.jpg)
@@ -50,7 +52,7 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
 
 1. Click on the VisualForce page option on the left within your quick find menu.
 
-1. Create a new section and name it “Buyer Touchpoints.”  
+1. Create a new section and name it "Buyer Touchpoints."  
 
    >[!NOTE]
    >
@@ -74,15 +76,19 @@ To begin, first navigate to your Salesforce Setup settings and locate the Custom
    >
    >For the Marketo Measure Insights Canvas App to function properly, [permissions need to be configured properly](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
-If you're leveraging Marketo Measure's ABM feature,  [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+   >[!TIP]
+   >
+   >Most customers don't use the fields that end with (FT) or (LC) because they're legacy fields from before the Marketo Measure Touchpoint existed as an object. 
+
+If you're leveraging the Marketo Measure ABM feature, [please click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contacts {#contacts}
 
-1. Within your Build option, select **Contacts.**
+1. Within your Build option, select **Contacts**.
 
-1. Click **Page Layouts.**
+1. Click **Page Layouts**.
 
-1. Select the Page Layout you’d like to edit.
+1. Select the Page Layout you'd like to edit.
 
    Go to the Related Lists option within the quick find menu and add the **Buyer Touchpoints** related list.
 
@@ -129,7 +135,7 @@ If you're leveraging Marketo Measure's ABM feature,  [please click here for addi
 
 1. Click **Page Layouts**.
 
-1. Select the Page Layout you’d like to edit.
+1. Select the Page Layout you'd like to edit.
 
 1. Add the **Buyer Attribution Touchpoint** Related List and click the wrench to add the following columns for Opportunities:
 
@@ -155,7 +161,7 @@ If you're leveraging Marketo Measure's ABM feature,  [please click here for addi
 
 1. Click **Page Layouts**.
 
-1. Select the Page Layout you’d like to edit.
+1. Select the Page Layout you'd like to edit.
 
 1. Add the **Buyer Attribution Touchpoint** Related List and click the wrench to add the following columns:
 
