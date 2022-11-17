@@ -8,7 +8,7 @@ exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 
 Tagging URLs is a simple and effective way to capture data about your digital marketing efforts. It is the process of adding parameters to the end of URLs that gather and record data. The most commonly used parameters are Urchin Tracking Modules (UTMs), which are supported by Google. There are five main UTMs parameters available: Medium, Source, Campaign, Content, and Term. These are discussed in more detail in the next section.
 
-UTM parameters can be added manually to URLs or appended through auto-tagging with certain platforms, such as AdWords for example. Auto-tagging automates the process of appending parameters to URLs. There is also the option of [URL builders](https://ga-dev-tools.appspot.com/campaign-url-builder/) to speed up tagging URLs manually. With a URL builder, you simply need to specify the values to be used for each parameters and the builder will format the URL for you.
+UTM parameters can be added manually to URLs or appended through auto-tagging with certain platforms, such as AdWords for example. Auto-tagging automates the process of appending parameters to URLs. There is also the option of [URL builders](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} to speed up tagging URLs manually. With a URL builder, you simply need to specify the values to be used for each parameters and the builder will format the URL for you.
 
 ## What are UTM Parameters? {#what-are-utm-parameters}
 
