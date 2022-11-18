@@ -21,7 +21,7 @@ Marketo Measure is able to read standard Salesforce Objects, Fields, and Records
 
 Follow the steps below to install the Marketo Measure Salesforce base package.
 
-1. Using an incognito browser, go to the [Salesforce Appexchange](https://appexchange.salesforce.com/){target="_blank"} and log in.
+1. Using an incognito browser, go to the [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} and log in.
 
 1. Install in the Marketo Measure package in sandbox or production.
 
@@ -45,7 +45,7 @@ After you've completed the installation, you can update your [Salesforce page la
 
 The Dashboard Extension Package contains three pre-built dashboards. We recommend installing within Production for all users.​ 
 
-1. Install the package from the [Salesforce Appexchange](https://appexchange.salesforce.com/){target="_blank"}.
+1. Install the package from the [Salesforce Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
 
 1. Select **Install for All Users**.
 
