@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874716
-description: Attribution Mapping Methodology - Marketo Measure - Product Documentation
+description: Attribution Mapping Methodology - [!DNL Marketo] Measure - Product Documentation
 title: Attribution Mapping Methodology
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 ---
@@ -10,7 +10,7 @@ Attribution Object Mapping is the process of looking up certain objects in your 
 
 ## Account ID Mapping {#account-id-mapping}
 
-Out of the box, Marketo Measure provides Account ID mapping. This means that Marketo Measure looks at the Account and its Contacts marketing information to create Attribution Touchpoints associated to the opportunity. Below is a simple representation of that process.
+Out of the box, [!DNL Marketo Measure] provides Account ID mapping. This means that [!DNL Marketo Measure] looks at the Account and its Contacts marketing information to create Attribution Touchpoints associated to the opportunity. Below is a simple representation of that process.
 
 ![](assets/1-1.png)
 
@@ -22,7 +22,7 @@ Cons: If there are strong Marketing & Sales SLAs that define who should be getti
 
 ## Opportunity Contact Role Mapping {#opportunity-contact-role-mapping}
 
-While most clients leverage Account ID mapping, Marketo Measure has the ability to look up to the contact roles (contacts associated to the Opportunity) within an Opportunity to break down the attribution process. This means that Marketo Measure will only push marketing interactions associated to the contact roles on the Opportunity as Buyer Attribution Touchpoints. Below is a representation of this process.
+While most clients leverage Account ID mapping, [!DNL Marketo Measure] has the ability to look up to the contact roles (contacts associated to the Opportunity) within an Opportunity to break down the attribution process. This means that [!DNL Marketo Measure] will only push marketing interactions associated to the contact roles on the Opportunity as Buyer Attribution Touchpoints. Below is a representation of this process.
 
 ![](assets/2-1.png)
 
@@ -32,7 +32,7 @@ Cons: However, if there's no contact role process in place, marketing will lose 
 
 ## Opportunity Primary Contact Role Mapping {#opportunity-primary-contact-role-mapping}
 
-Beyond simply looking at the contact roles on the opportunity, Marketo Measure can focus even more to look at only the Primary Contacts on an Opportunity. With this setup in mind, Marketo Measure will only grab the marketing touchpoint associated to the primary contacts on an opportunity and push that information into the attribution story of that specific opportunity. See the image below.
+Beyond simply looking at the contact roles on the opportunity, [!DNL Marketo Measure] can focus even more to look at only the Primary Contacts on an Opportunity. With this setup in mind, [!DNL Marketo Measure] will only grab the marketing touchpoint associated to the primary contacts on an opportunity and push that information into the attribution story of that specific opportunity. See the image below.
 
 ![](assets/3.png)
 

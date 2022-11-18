@@ -18,7 +18,7 @@ During implementation the two following packages would have been installed into 
 Base Package: This is our base package which includes our custom objects and fields. We recommend installing within Production for all users.
 Dashboard Extension Package: This is our Dashboard Extension Package, which contains 3 pre-built dashboards. We recommend installing within Production for all users. This is optional but we encourage customers to install.
 
-These packages enable your Marketo Measure users to easily access touchpoint data throughout their [!DNL Salesforce] instance. Confirming that you have these packages configured correctly will be key to verifying that page layouts, permission sets and reports and dashboards are presenting to your [!DNL Marketo] Measure users as expected.
+These packages enable your [!DNL Marketo] Measure users to easily access touchpoint data throughout their [!DNL Salesforce] instance. Confirming that you have these packages configured correctly will be key to verifying that page layouts, permission sets and reports and dashboards are presenting to your [!DNL Marketo] Measure users as expected.
 
 ## Best Practice {#best-practice}
 
@@ -47,4 +47,5 @@ Other reasons to that might trigger a review...
 >* [Marketo Measure Permission Sets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [Sharing Reports and Dashboards Folder](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&type=0)
 >* [Installing and Connecting Marketo Measure](/help/configuration-and-setup/marketo-measure-and-salesforce/install-and-connect.md)
+
 

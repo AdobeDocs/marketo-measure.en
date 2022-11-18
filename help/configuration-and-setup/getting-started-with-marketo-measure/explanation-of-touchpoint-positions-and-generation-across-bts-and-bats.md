@@ -1,13 +1,13 @@
 ---
-description: Explanation of Touchpoint Positions and Generation Across BTs and BATs - Marketo Measure - Product Documentation
-title: Explanation of Touchpoint Positions and Generation Across BTs and BATs
+description: Explanation of Touchpoint Positions and Generation Across BTs and BATs - [!DNL Marketo] Measure - Product Documentation
+title: Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 ---
-# Explanation of Touchpoint Positions and Generation Across BTs and BATs {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
-**Generation of Touchpoint Positions & Flow Through the Buyers Journey**
+**Generation of [!UICONTROL Touchpoint] Positions & Flow Through the Buyers Journey**
 
-Understanding the Buyer Touchpoint positions and how they are triggered is crucial to successfully reporting with Marketo Measure data. You will want to have a clear understanding of what your prospects did as they moved through the buyer's journey and in turn what that will look like in the Touchpoint data. For more context on this topic, we recommend reviewing the [Touchpoint Generation & Mapping](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) article.
+Understanding the Buyer Touchpoint positions and how they are triggered is crucial to successfully reporting with [!DNL Marketo] Measure data. You will want to have a clear understanding of what your prospects did as they moved through the buyer's journey and in turn what that will look like in the Touchpoint data. For more context on this topic, we recommend reviewing the [[!UICONTROL Touchpoint Generation & Mapping]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) article.
 
 Marketo Measure has a variety of Touchpoint position that are triggered by various steps in the buyer’s journey. When reporting on Marketo Measure data there are two sets of Touchpoint data, Buyer Touchpoints (BTs) and Buyer Attribution Touchpoints (BATs). You may notice that these sets of data have slightly different positions as they relate to different objects. For more context on this topic, we recommend reviewing the [Difference Between Buyer Touchpoints (BTs) & Buyer Attribution Touchpoints (BATs)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) article.
 
@@ -104,10 +104,10 @@ The following example shows the flow of data from Buyer Touchpoints (BTs) to Buy
 **Opportunities** Buyer Attribution Touchpoint data would read as follows…
 
 * First Touch (FT) – Paid Social.Facebook – 8/26/2019
-  * (from **Person B** because they have the true _First Touch_ for the Account/Opp)
+   * (from **Person B** because they have the true _First Touch_ for the Account/Opp)
 * Lead Creation (LC) – Organic Search.Google – 11/20/2019
-  * (from **Person A** because they have the true _Lead Creation_ for the Account/Opp)
+   * (from **Person A** because they have the true _Lead Creation_ for the Account/Opp)
 * Opportunity Creation (OC) - Webinar – 3/4/2020
-  * (the Post LC touchpoint from **Person A** would be the _OC Touchpoint_ because it was the most recent interaction we have to the Opportunity being created on 3/7/2020)
+   * (the Post LC touchpoint from **Person A** would be the _OC Touchpoint_ because it was the most recent interaction we have to the Opportunity being created on 3/7/2020)
 * Closed Won - Email – 5/1/2020
-  * (the Post LC touchpoint from **Person B** would be the _Closed Won Touchpoint_ because it was the most recent interaction we have to the Opportunity being closed on 5/6/2020)
+   * (the Post LC touchpoint from **Person B** would be the _[!UICONTROL Closed Won] Touchpoint_ because it was the most recent interaction we have to the Opportunity being closed on 5/6/2020)

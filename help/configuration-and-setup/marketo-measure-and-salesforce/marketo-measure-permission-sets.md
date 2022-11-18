@@ -16,7 +16,7 @@ To access and assign Permission Sets in Salesforce:
 
 1. Click **Setup**.
 1. In the left margin, Click **Users**, then **Permission Sets**.
-1. Select the Marketo Measure Permission Set you'd like to assign.
+1. Select the [!DNL Marketo Measure] Permission Set you'd like to assign.
 1. Click **Manage Assignments**, then **Add Assignments**.
 1. Select the users for the permission set and click **Assign**.
 
@@ -32,7 +32,7 @@ To access and assign Permission Sets in Salesforce:
   </tr> 
   <tr> 
    <td><span><strong>Marketo Measure Marketing User</strong></span></td> 
-   <td><span>Gives a marketing user the ability to read and write records from Marketo Measure objects. All members of the marketing team should have the Marketo Measure Marketing User permission set enabled. <br></span></td> 
+   <td><span>Gives a marketing user the ability to read and write records from [!DNL Marketo] Measure objects. All members of the marketing team should have the [!DNL Marketo] Measure Marketing User permission set enabled. <br></span></td> 
   </tr> 
   <tr> 
    <td><span><strong>Marketo Measure Standard User</strong></span></td> 
@@ -41,8 +41,8 @@ To access and assign Permission Sets in Salesforce:
  </tbody> 
 </table>
 
-Inbound sales development teams and account executives may benefit from Marketo Measure’s data. If these roles would like to use Marketo Measure data in reporting, enable the Marketo Measure Standard User permission set.
+Inbound sales development teams and account executives may benefit from [!DNL Marketo Measure’s] data. If these roles would like to use [!DNL Marketo Measure] data in reporting, enable the [!DNL Marketo Measure] Standard User permission set.
 
 >[!NOTE]
 >
->In addition, the user we are connected through needs to have the "Marketing User" Salesforce Profile enabled at a user level in order for us to access the Campaign object. To check for this, click into **Setup** > **Manage Users** > **Profiles** > **Marketing User** > **Assigned Users**.
+>In addition, the user we are connected through needs to have the "Marketing User" [!DNL Salesforce] Profile enabled at a user level in order for us to access the Campaign object. To check for this, click into **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Assigned Users**.

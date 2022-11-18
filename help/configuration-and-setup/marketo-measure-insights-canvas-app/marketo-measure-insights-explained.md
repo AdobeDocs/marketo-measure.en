@@ -6,7 +6,7 @@ exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 ---
 # Marketo Measure Insights Explained {#marketo-measure-insights-explained}
 
-Learn about the Marketo Measure Insights view in Salesforce, including what the different icons represent and how to use the feature. This feature is most helpful for seeing the first 20 sessions of a Lead, Contact, or Account.
+Learn about the [!DNL Marketo] Measure Insights view in [!DNL Salesforce], including what the different icons represent and how to use the feature. This feature is most helpful for seeing the first 20 sessions of a Lead, Contact, or Account.
 
 Once someone is tracked by Marketo Measure's javascript and fills out a form on your website, the person will become a Lead in your system and we'll push their digital marketing data to your Salesforce (SFDC) org. When this occurs, you'll see the touchpoint data populated within the Marketo Measure Lead Insights section (a Canvas App) on the Lead/Contact/Opportunity/Account Objects.
 
@@ -32,6 +32,6 @@ If you click on any specific session (you can do this by clicking on the actual 
 
 On the right hand side of each session, you can see more of the granular marketing data that we're pushing on the Marketo Measure fields in your SFDC. In this example, you can see Ad Group, Ad Content, Campaign, Keyword, Medium. You can also scroll down to see more of the Marketo Measure data we provide.
 
-Finally, once someone has a myriad of sessions, you can use some filters within Insights to look for specific parts of their engagement on your site. You can filter by Touchpoint Position for example.
+Finally, once someone has a myriad of sessions, you can use some filters within [!UICONTROL Insights] to look for specific parts of their engagement on your site. You can filter by [!UICONTROL Touchpoint Position] for example.
 
 You can also search by Page Views, AB Tests, or Forms.

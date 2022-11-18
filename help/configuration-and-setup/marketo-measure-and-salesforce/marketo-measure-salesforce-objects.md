@@ -10,7 +10,7 @@ exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 >
 >You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-When [!DNL Marketo Measure] is installed in [!DNL Salesforce] (SFDC), several custom [!DNL Marketo Measure] Objects are added. This article provides an explanation of several of those custom Marketo Measure Objects. Some Objects that Marketo Measure adds to Salesforce are:
+When [!DNL Marketo Measure] is installed in [!DNL Salesforce] (SFDC), several custom [!DNL Marketo Measure] Objects are added. This article provides an explanation of several of those custom [!DNL Marketo] Measure Objects. Some Objects that [!DNL Marketo] Measure adds to [!DNL Salesforce] are:
 
 * [Buyer Touchpoint](#touchpoint)
 * [Buyer Attribution Touchpoint](#attribution)
@@ -54,15 +54,15 @@ The Marketo Measure Person Object relates the Lead and Contact objects together.
 
 ## Marketo Measure A/B Test {#marketo-measure-a-b-test}
 
-If you are running A/B tests through Optimizely or VWO (Visual Web Optimizer), you can connect those accounts to your [!DNL Marketo] Measure account to view A/B test data within Salesforce. The [!DNL Marketo] Measure A/B Test Object essentially allows you to take A/B test data from Optimizely/VWO and tie the data to Leads and Contacts.
+If you are running A/B tests through [!DNL Optimizely] or VWO (Visual Web Optimizer), you can connect those accounts to your [!DNL Marketo] [!DNL Measure] account to view A/B test data within Salesforce. The [!DNL Marketo] Measure A/B Test Object essentially allows you to take A/B test data from Optimizely/VWO and tie the data to Leads and Contacts.
 
 ![](assets/5.png)
 
-The [!DNL Marketo] Measure A/B Test Object is displayed as a Related List on Leads, [!UICONTROL Contacts] and Opportunity pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
+The [!DNL Marketo] Measure A/B Test Object is displayed as a Related List on [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
 
 ## Marketo Measure Events {#marketo-measure-events}
 
-The [!DNL Marketo] Measure Events Object allows you to track specific events that occur on your website. To track specific events that happen on your website, custom code must be added to your pages in addition to the [!DNL Marketo Measure] Javascript. The captured information will be displayed within the Marketo Measure Object Related List, which can be found on the [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The Marketo Measure Events Object *does not* tie to attribution data. The purpose of this Object is to see if people are taking specific actions on your website.
+The [!DNL Marketo] Measure Events Object allows you to track specific events that occur on your website. To track specific events that happen on your website, custom code must be added to your pages in addition to the [!DNL Marketo Measure] Javascript. The captured information will be displayed within the [!DNL Marketo Measure] Object Related List, which can be found on the [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The Marketo Measure Events Object *does not* tie to attribution data. The purpose of this Object is to see if people are taking specific actions on your website.
 
 ## Marketo Measure Fields {#marketo-measure-fields}
 
