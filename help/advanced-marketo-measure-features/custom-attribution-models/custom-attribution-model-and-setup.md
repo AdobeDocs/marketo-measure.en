@@ -24,7 +24,7 @@ Marketo Measure's Custom Attribution model allows users to choose which touchpoi
 
    >[!NOTE]
    >
-   >You are allowed up to 15 custom stages (non-CRM and non-default).
+   >You are allowed up to six custom stages (not including the defaults: FT, LC, OC, Closed).
 
    ![](assets/1-1.png)
 
@@ -36,7 +36,7 @@ Marketo Measure's Custom Attribution model allows users to choose which touchpoi
 
    If there are other stages that you want to include in the model, but they are not in the Lead/Contact Status or Opportunity Stage list, you can define your own custom stage based off of fields in your CRM.
 
-   In the example below, a custom “MQL” stage is defined using a date field. The rule simply states that if the MQL Date field isn’t empty, it should be considered an MQL and should be included in the custom model. Please note it is also important to sort the custom stages once they have been created so that it follows the progression of your sales cycle.
+   In the example below, a custom "MQL" stage is defined using a date field. The rule simply states that if the MQL Date field isn't empty, it should be considered an MQL and should be included in the custom model. Please note it is also important to sort the custom stages once they have been created so that it follows the progression of your sales cycle.
 
    ![](assets/2-1.png)
 
@@ -64,9 +64,9 @@ After the attribution percentages have been saved and processed, touchpoints wil
 
 ## The Difference Between Funnel Stages and Custom Model Stages {#the-difference-between-funnel-stages-and-custom-model-stages}
 
-You can now see custom stages in your Marketing Funnel, even if you don’t have Custom Model enabled. This would be through the use of our Funnel Stage functionality. Funnel Stages now give you the ability to add stages to the funnel, but not see attribution for them.
+You can now see custom stages in your Marketing Funnel, even if you don't have Custom Model enabled. This would be through the use of our Funnel Stage functionality. Funnel Stages now give you the ability to add stages to the funnel, but not see attribution for them.
 
-Funnel Stages will still get tracked as Touchpoints and will still appear as Touchpoint Positions in your CRM. Without Custom Model, these Touchpoints may still receive middle touch attribution if there’s a form fill (10% for Middle Touches), but zero attribution credit if it’s just a web visit.
+Funnel Stages will still get tracked as Touchpoints and will still appear as Touchpoint Positions in your CRM. Without Custom Model, these Touchpoints may still receive middle touch attribution if there's a form fill (10% for Middle Touches), but zero attribution credit if it's just a web visit.
 
 As you can see below, we've included the Diligence stage as apart of our Funnel Stages. This means we will have Touchpoints where the position contains Diligence, but those Touchpoints will only receive Middle Touch attribution credit if Custom Model isn't enabled (at most 10%).
 

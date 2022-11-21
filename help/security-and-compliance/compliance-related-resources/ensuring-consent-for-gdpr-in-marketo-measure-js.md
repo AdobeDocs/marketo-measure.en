@@ -24,8 +24,8 @@ Option 1 - Replace the default [!DNL bizible.js] script tag with:
 
 **If you use [!DNL Google Tag Manager] to install script**, keep in mind GTM removes data- attributes, so use the following script instead:
 
-`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 `<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
 >
@@ -47,8 +47,8 @@ This tells [!DNL bizible.js] to not track until consent is reached, which can be
 
 **If you use [!DNL Google Tag Manager] to install script**, keep in mind GTM removes data- attributes, so use the following script instead:
 
-`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 `<span id="bizible-settings" data-requires-user-consent="true"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
 >

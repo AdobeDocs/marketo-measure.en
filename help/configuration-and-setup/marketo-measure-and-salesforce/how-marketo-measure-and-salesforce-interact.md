@@ -14,7 +14,9 @@ Let's take a high-level look at the relationship between Marketo Measure and Sal
 
 ## Salesforce and [!DNL Marketo] Measure  {#salesforce-and-marketo-measure}
 
-Once the [!DNL Marketo Measure] account is created and [!DNL Salesforce] is connected, [!DNL Marketo Measure] will begin pushing marketing data into the CRM instance as long as the [!DNL Marketo Measure] managed package is installed. If it's not, [!DNL Marketo Measure] will not write any data, but it will read information from your SFDC instance.
+Once the [!DNL Marketo Measure] account is created and [!DNL Salesforce] is connected, [!DNL Marketo Measure] will begin pushing marketing data into the CRM instance as long as the [!DNL Marketo Measure] managed package is installed and the [!DNL Marketo Measure] Salesforce user has edit permissions.
+
+If you didn't install the [!DNL Marketo] Measure Salesforce package, [!DNL Marketo Measure] will not write any data to your Salesforce instance.
 
 ![](assets/1-3.png)
 

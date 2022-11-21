@@ -6,34 +6,13 @@ exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 ---
 # Install and Connect {#install-and-connect}
 
-This lesson provides an overview of the [!DNL Marketo] Measure components that are added to your [!DNL Salesforce] upon installation and how to connect your [!DNL Salesforce] account to your [!DNL Marketo Measure] account.
+This article provides an overview of how to connect your [!DNL Salesforce] account to your [!DNL Marketo Measure] account.
 
-## Installation {#installation}
+## Connecting [!DNL Marketo Measure] with [!DNL Salesforce] {#connecting-marketo-measure-with-salesforce}
 
-Two packages must be installed in order to use [!DNL Marketo] Measure in your [!DNL Salesforce] environment:
+1. Use an incognito browser to log in to [!DNL Marketo Measure].
 
-* Marketo Measure’s base package
-* Dashboard Extension Package
-
-To integrate with [!DNL Salesforce], [!DNL Marketo Measure] mirrors the way [!DNL Salesforce] organizes and displays data. [!DNL Salesforce] organizes data into Objects, Records, Fields, and allows you to visualize this data through Reports and Dashboards. When [!DNL Marketo Measure] is installed into SF, we add our own Objects, Fields, Reports, and Dashboards.
-
-Marketo Measure's **Base Package** contains:
-
-* 7 Custom Marketo Measure Objects
-* Custom Marketo Measure Fields
-* 25 [!DNL Stock] Reports
-
-Marketo Measure's **Dashboard Extension Package** contains three pre-built Dashboards.
-
-Marketo Measure is able to read standard SF Objects, Fields and Records, however Marketo Measure will never update or push data to them. All the data collected by Marketo Measure's Javascript will be surfaced in the Marketo Measure Custom Objects and Fields.
-
-For the complete installation guide, [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-installation-guide.md).
-
-## Connecting Accounts {#connecting-accounts}
-
-1. Go to the Marketo Measure App and log-in.
-
-1. In the menu bar at the top of the screen, navigate to **My Account** and  click the [!UICONTROL Settings] option.
+1. In the menu bar at the top of the screen, navigate to **My Account** and click the [!UICONTROL Settings] option.
 
 1. In the column of setting options on the left, click [!UICONTROL Connections] located under the [!UICONTROL Integrations] section.
 
@@ -47,4 +26,13 @@ For the complete installation guide, [click here](/help/configuration-and-setup/
 
    ![](assets/3.png)
 
-1. A final pop-up window will appear, asking you for your [!DNL Salesforce] credentials. Enter your information and click **[!UICONTROL Authorize]** to connect the account to Marketo Measure.
+1. A final pop-up window will appear, asking you for your Salesforce credentials, sandbox or production. Enter your information and click **[!UICONTROL Authorize]** to connect the account to [!DNL Marketo Measure].
+
+>[!NOTE]
+>
+>[!DNL Marketo Measure] can only be connected to one [!DNL Salesforce] instance at a time.
+>
+>* A [!DNL Marketo] Measure instance can be connected to a SFDC Sandbox Instance to test the integration before switching the connection to your SFDC Production Instance.
+>* If you test first with a SFDC Sandbox, we highly recommend you test with one which is an exact replica of your SFDC production instance in terms of fields on the Lead, Contact, Account, Opportunity, Campaign and Case objects. If you have any active APEX triggers in production which fire on updates to the Lead, Contact, Account, Opportunity, Campaign and Case objects, you should try to have them active in your sandbox.
+>* Once you are done with testing, you will update your [!DNL Marketo Measure] account to point at your Production Salesforce (instead of Sandbox Salesforce). Due to the way the integration was built, once a [!DNL Marketo Measure] account is connected to Production Salesforce, you cannot go "backwards" and connect to a Sandbox Salesforce org.
+
