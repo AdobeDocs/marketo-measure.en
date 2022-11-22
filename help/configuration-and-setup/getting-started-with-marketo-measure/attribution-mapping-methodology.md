@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874716
-description: Attribution Mapping Methodology - [!DNL Marketo] Measure - Product Documentation
+description: Attribution Mapping Methodology - [!DNL Marketo Measure] - Product Documentation
 title: Attribution Mapping Methodology
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 ---
 # Attribution Mapping Methodology {#attribution-mapping-methodology}
 
-Attribution Object Mapping is the process of looking up certain objects in your CRM (Contacts, Opportunities, Accounts) to create attribution touchpoints into the associated opportunity. In other words, it's Marketo Measure's way of understanding which touchpoints to include in the attribution model based on your current CRM's processes.
+Attribution Object Mapping is the process of looking up certain objects in your CRM (Contacts, Opportunities, Accounts) to create attribution touchpoints into the associated opportunity. In other words, it's the [!DNL Marketo Measure] way of understanding which touchpoints to include in the attribution model based on your current CRM's processes.
 
 ## Account ID Mapping {#account-id-mapping}
 
@@ -14,7 +14,7 @@ Out of the box, [!DNL Marketo Measure] provides Account ID mapping. This means t
 
 ![](assets/1-1.png)
 
-Please keep in mind that **not all** touchpoints from your contacts will get pushed into the Opportunity as Attribution Touchpoints. The Opportunity's timeline (it's first touch date - closed date) will determine whether or not a touchpoint will count as an influencer on the Opportunity. Therefore, if a touchpoint on Contact A occurred after the Opportunity is Closed Won/Lost, Marketo Measure will not push that touchpoint to the Opportunity. This timeline procedure is followed across all other attribution object mapping.
+Please keep in mind that **not all** touchpoints from your contacts will get pushed into the Opportunity as Attribution Touchpoints. The Opportunity's timeline (it's first touch date - closed date) will determine whether or not a touchpoint will count as an influencer on the Opportunity. Therefore, if a touchpoint on Contact A occurred after the Opportunity is Closed Won/Lost, [!DNL Marketo Measure] will not push that touchpoint to the Opportunity. This timeline procedure is followed across all other attribution object mapping.
 
 Pros: This method of attribution is highly effective for most companies. The marketing team doesn't need to rely on the sales team to associate all contacts to a particular opportunity (which is often an issue). Further, even if a sales team associates contact roles, a lot of other contact's interactions with marketing materials may be missed. Finally, this method aides ABM strategies that strive to influence the totality of an account, rather than specific influencers.
 
