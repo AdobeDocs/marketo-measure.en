@@ -3,7 +3,7 @@ description: "[!DNL Marketo Measure] Salesforce Package Installation and Set Up 
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Package Installation and Set Up"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 ---
-# [!DNL Marketo Measure] [!DNL Salesforce] Package Installation and Set Up {#marketo-measure-salesforce-package-installation-and-set-up}
+# [!DNL Marketo Measure] Salesforce Package Installation and Set Up {#marketo-measure-salesforce-package-installation-and-set-up}
 
 Before you install the [!DNL Marketo Measure] [!DNL Salesforce] base package, you need to determine if you will be first installing it in a [!DNL Salesforce] sandbox before moving to your Salesforce production instance.
 
