@@ -1,26 +1,26 @@
 ---
 unique-page-id: 18874582
-description: Marketo Measure Salesforce Objects - Marketo Measure - Product Documentation
-title: Marketo Measure Salesforce Objects
+description: "[!DNL Marketo Measure] Salesforce Objects - [!DNL Marketo Measure] - Product Documentation"
+title: "[!DNL Marketo Measure] Salesforce Objects"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 ---
-# Marketo Measure Salesforce Objects {#marketo-measure-salesforce-objects}
+# [!DNL Marketo Measure] Salesforce Objects {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
 >
->You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-When [!DNL Marketo Measure] is installed in [!DNL Salesforce] (SFDC), several custom [!DNL Marketo Measure] Objects are added. This article provides an explanation of several of those custom Marketo Measure Objects. Some Objects that Marketo Measure adds to Salesforce are:
+When [!DNL Marketo Measure] is installed in [!DNL Salesforce] (SFDC), several custom [!DNL Marketo Measure] Objects are added. This article provides an explanation of several of those custom [!DNL Marketo Measure] Objects. Some Objects that [!DNL Marketo Measure] adds to [!DNL Salesforce] are:
 
 * [Buyer Touchpoint](#touchpoint)
 * [Buyer Attribution Touchpoint](#attribution)
-* [Marketo Measure Person](#person)
-* [Marketo Measure A/B Testing](#ab)
-* [[!DNL Marketo] Measure Events](#events)
+* [[!DNL Marketo Measure] Person](#person)
+* [[!DNL Marketo Measure] A/B Testing](#ab)
+* [[!DNL Marketo Measure] Events](#events)
 
 Touchpoints captured by the things you want to track will write to the custom objects created by the installation of the [!DNL Bizible Salesforce] package.
 
-Marketo Measure Objects relate to specific standard [!DNL Salesforce] Objects. This allows you to to report on [!DNL Marketo] Measure and [!DNL Salesforce] Objects together. The table below shows which [!DNL Salesforce] Object the Marketo Measure Object relates to.
+[!DNL Marketo Measure] Objects relate to specific standard [!DNL Salesforce] Objects. This allows you to to report on [!DNL Marketo] Measure and [!DNL Salesforce] Objects together. The table below shows which [!DNL Salesforce] Object the [!DNL Marketo Measure] Object relates to.
 
 ![](assets/1-1.png)
 
@@ -32,42 +32,42 @@ The BT Object is visible on Leads and Contacts pages as a **Related List** (see 
 
 ![](assets/2-1.png)
 
-The BT Related List displays all the touchpoints that belong to the Lead or Contact. Within the list are custom Marketo Measure Fields which provide further details about each touchpoint. Clicking on the Buyer Touchpoint ID number will direct you to the Buyer Touchpoint Detail page, which provides even more details about the touchpoint, like the first web page the Lead/Contact visited during that web session (**landing page**).
+The BT Related List displays all the touchpoints that belong to the Lead or Contact. Within the list are custom [!DNL Marketo Measure] Fields which provide further details about each touchpoint. Clicking on the Buyer Touchpoint ID number will direct you to the Buyer Touchpoint Detail page, which provides even more details about the touchpoint, like the first web page the Lead/Contact visited during that web session (**landing page**).
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
 The [!UICONTROL Buyer Attribution Touchpoint] Object tells the story of the marketing interactions of your contacts related to an opportunity. It displays the *attribution* data related to the marketing touchpoints. This Object allows you to see how much revenue credit is attributed to each marketing touchpoint. The type of attribution model that you are using will determine the percentage of revenue attributed to touchpoints.
 
-Buyer Attribution Touchpoints (BATs) are only created once an Opportunity is created which relates to contacts that have Buyer Touchpoint (BT) data. BATs will not be created without an Opportunity. Once the Opportunity has been created, the BAT Object will use the Salesforce *Amount* field on the Opportunity to understand how much revenue to attribute to the touchpoints.
+Buyer Attribution Touchpoints (BATs) are only created once an Opportunity is created which relates to contacts that have Buyer Touchpoint (BT) data. BATs will not be created without an Opportunity. Once the Opportunity has been created, the BAT Object will use the [!DNL Salesforce] *Amount* field on the Opportunity to understand how much revenue to attribute to the touchpoints.
 
-A **workflow** must be created if you use a [custom Amount field](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) to show revenue on the Opportunity Object. [!DNL Marketo] Measure is not able to read the information surfaced in custom Amount fields and consequently is unable to populate revenue attribution data on the touchpoints. This workflow will use the **[!DNL Marketo] Measure Opportunity Amount** Field, one of Marketo Measure's custom fields, to map the revenue value from the custom Amount field to the Opportunity Amount field.
+A **workflow** must be created if you use a [custom Amount field](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) to show revenue on the Opportunity Object. [!DNL Marketo] Measure is not able to read the information surfaced in custom Amount fields and consequently is unable to populate revenue attribution data on the touchpoints. This workflow will use the **[!DNL Marketo] Measure Opportunity Amount** Field, one of the [!DNL Marketo Measure] custom fields, to map the revenue value from the custom Amount field to the Opportunity Amount field.
 
 ![](assets/3-1.png)
 
 The BAT Object is visible on the [!UICONTROL Opportunity], [!UICONTROL Contact], and [!UICONTROL Account] Object as a Related List. This list displays all the touchpoints with the attribution data belonging to an Opportunity. Clicking into the Buyer Attribution Touchpoint ID will direct you to the Buyer Attribution Touchpoint Detail page. Here you will be able to see more specific attribution data and information about where the touchpoint came from (similar to what is provided from the Buyer Touchpoint Object).
 
-## Marketo Measure Person {#marketo-measure-person}
+## [!DNL Marketo Measure] Person {#marketo-measure-person}
 
-The Marketo Measure Person Object relates the Lead and Contact objects together. Out of the box, Salesforce does not provide the option to create reports using the Lead and Contact object in the same report. By relating to the Lead and Contact Object, the Marketo Measure Person allows you to report on both Objects within the same report. This is especially helpful when a Lead has been converted into a Contact. On a Marketo Measure Person record you'll see a look-up to the corresponding Lead and/or Contact record, a related list of the Touchpoints tied to the person, and the Person ID (which is always the email address of the Lead/Contact). Since the Marketo Measure Person relates to the Lead & Contact Object, there won't ever be a Marketo Measure Person record that is tied to a Buyer Attribution Touchpoint. Below is an example of a Marketo Measure Person record within Salesforce:
+The [!DNL Marketo Measure] Person Object relates the Lead and Contact objects together. Out of the box, Salesforce does not provide the option to create reports using the Lead and Contact object in the same report. By relating to the Lead and Contact Object, the [!DNL Marketo Measure] Person allows you to report on both Objects within the same report. This is especially helpful when a Lead has been converted into a Contact. On a [!DNL Marketo Measure] Person record you'll see a look-up to the corresponding Lead and/or Contact record, a related list of the Touchpoints tied to the person, and the Person ID (which is always the email address of the Lead/Contact). Since the [!DNL Marketo Measure] Person relates to the Lead & Contact Object, there won't ever be a [!DNL Marketo Measure] Person record that is tied to a Buyer Attribution Touchpoint. Below is an example of a [!DNL Marketo Measure] Person record within Salesforce:
 
 ![](assets/4.png)
 
-## Marketo Measure A/B Test {#marketo-measure-a-b-test}
+## [!DNL Marketo Measure] A/B Test {#marketo-measure-a-b-test}
 
-If you are running A/B tests through Optimizely or VWO (Visual Web Optimizer), you can connect those accounts to your [!DNL Marketo] Measure account to view A/B test data within Salesforce. The [!DNL Marketo] Measure A/B Test Object essentially allows you to take A/B test data from Optimizely/VWO and tie the data to Leads and Contacts.
+If you are running A/B tests through [!DNL Optimizely] or VWO (Visual Web Optimizer), you can connect those accounts to your [!DNL Marketo Measure] account to view A/B test data within Salesforce. The [!DNL Marketo Measure] A/B Test Object essentially allows you to take A/B test data from Optimizely/VWO and tie the data to Leads and Contacts.
 
 ![](assets/5.png)
 
-The [!DNL Marketo] Measure A/B Test Object is displayed as a Related List on Leads, [!UICONTROL Contacts] and Opportunity pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
+The [!DNL Marketo] Measure A/B Test Object is displayed as a Related List on [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
 
-## Marketo Measure Events {#marketo-measure-events}
+## [!DNL Marketo Measure] Events {#marketo-measure-events}
 
-The [!DNL Marketo] Measure Events Object allows you to track specific events that occur on your website. To track specific events that happen on your website, custom code must be added to your pages in addition to the [!DNL Marketo Measure] Javascript. The captured information will be displayed within the Marketo Measure Object Related List, which can be found on the [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The Marketo Measure Events Object *does not* tie to attribution data. The purpose of this Object is to see if people are taking specific actions on your website.
+The [!DNL Marketo Measure] Events Object allows you to track specific events that occur on your website. To track specific events that happen on your website, custom code must be added to your pages in addition to the [!DNL Marketo Measure] Javascript. The captured information will be displayed within the [!DNL Marketo Measure] Object Related List, which can be found on the [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The [!DNL Marketo Measure] Events Object *does not* tie to attribution data. The purpose of this Object is to see if people are taking specific actions on your website.
 
-## Marketo Measure Fields {#marketo-measure-fields}
+## [!DNL Marketo Measure] Fields {#marketo-measure-fields}
 
-Data captured by Marketo Measure's Javascript will be pushed into the custom Marketo Measure Fields within our Marketo Measure Objects. Certain fields will only be present on certain objects. For a glossary of all the Marketo Measure fields, please [click here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). For a visualization of which Marketo Measure Object each Marketo Measure Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Data captured by the [!DNL Marketo Measure] Javascript will be pushed into the custom [!DNL Marketo Measure] Fields within our [!DNL Marketo Measure] Objects. Certain fields will only be present on certain objects. For a glossary of all the [!DNL Marketo Measure] fields, please [click here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). For a visualization of which [!DNL Marketo Measure] Object each [!DNL Marketo Measure] Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
-## Marketo Measure Reports and Dashboards {#marketo-measure-reports-and-dashboards}
+## [!DNL Marketo Measure] Reports and Dashboards {#marketo-measure-reports-and-dashboards}
 
-The [!DNL Marketo] Measure Reports and Dashboards that are added to your [!DNL Salesforce] provides you with out-of-the-box reporting and data visualization capabilities. These are basic [!DNL Marketo] Measure reports to allow you to quickly organize, analyze and understand touchpoint data.
+The [!DNL Marketo Measure] Reports and Dashboards that are added to your [!DNL Salesforce] provides you with out-of-the-box reporting and data visualization capabilities. These are basic [!DNL Marketo] Measure reports to allow you to quickly organize, analyze and understand touchpoint data.

@@ -7,9 +7,9 @@ exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 
 ## Overview {#overview}
 
-To have accurate Marketo Measure reporting, your marketing channels must be correctly setup. The marketing channel field displays the highest-level group of marketing activities that a touchpoint can belong to (e.g., Paid Search, Direct, Social, etc).
+To have accurate Marketo Measure reporting, your marketing channels must be correctly setup. The marketing channel field displays the highest-level group of marketing activities that a touchpoint can belong to, i.e. Paid Search, Direct, Social, etc.
 
-There are two aspects to setting up your marketing channels: online (web) and offline. This document will be focused on Marketo Measure's best practice recommendations for setting up and maintaining your Online Channels.
+There are two aspects to setting up your marketing channels: online and offline. This document will be focused on Marketo Measure's best practice recommendations for setting up and maintaining your Online Channels.
 
 Online Channel rules are the guidelines for how Marketo Measure maps your digital touchpoints, i.e. any touchpoints that are tracked and created via the Marketo Measure JS on your site. If these rules are not comprehensive, or not ordered correctly, touchpoints can be attributed to the incorrect channel, therefore diminishing the accuracy of your reporting. Ensuring that your Online Channel rules are accurate and up to date will guarantee that your digital data is being attributed to the correct channel and subchannels in your Marketo Measure Reporting.
 
@@ -17,7 +17,7 @@ Online Channel rules are the guidelines for how Marketo Measure maps your digita
 
 Whether you're setting up your rules for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
 
-Take some time to think about the organization of your marketing campaigns and how they fit into Marketo Measure's framework. Determine which Channels and Subchannels should be represented in your Online Channels as well as what campaigns, UTM parameters, or referring websites differentiate those channels from one another.
+Take some time to think about the organization of your marketing campaigns and how they fit into Marketo Measure's framework. Determine which Channels and Sub Channels should be represented in your Online Channels as well as what campaigns, UTM parameters, or referring websites differentiate those channels from one another.
 
 Things to keep in mind:
 

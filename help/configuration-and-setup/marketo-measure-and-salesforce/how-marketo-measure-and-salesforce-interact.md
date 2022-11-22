@@ -1,26 +1,26 @@
 ---
 unique-page-id: 18874672
-description: How Marketo Measure and Salesforce Interact - Marketo Measure - Product Documentation
-title: How Marketo Measure and Salesforce Interact
+description: How [!DNL Marketo Measure] and [!DNL Salesforce] Interact - Marketo Measure - Product Documentation
+title: How [!DNL Marketo Measure] and [!DNL Salesforce] Interact
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 ---
-# How Marketo Measure and Salesforce Interact {#how-marketo-measure-and-salesforce-interact}
+# How [!DNL Marketo Measure] and [!DNL Salesforce] Interact {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->You may see instructions specifying "Marketo Measure" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-Let's take a high-level look at the relationship between Marketo Measure and Salesforce.
+Let's take a high-level look at the relationship between [!DNL Marketo Measure] and Salesforce.
 
-## Salesforce and Marketo Measure  {#salesforce-and-marketo-measure}
+## Salesforce and [!DNL Marketo] Measure  {#salesforce-and-marketo-measure}
 
-Once the Marketo Measure account is created and Salesforce is connected, Marketo Measure will begin pushing marketing data into the CRM instance as long as the Marketo Measure managed package is installed and the Marketo Measure Salesforce user has edit permissions.
+Once the [!DNL Marketo Measure] account is created and [!DNL Salesforce] is connected, [!DNL Marketo Measure] will begin pushing marketing data into the CRM instance as long as the [!DNL Marketo Measure] managed package is installed and the [!DNL Marketo Measure] Salesforce user has edit permissions.
 
-If you didn't install the Marketo Measure Salesforce package, Marketo Measure will not write any data to your Salesforce instance.
+If you didn't install the [!DNL Marketo] Measure Salesforce package, [!DNL Marketo Measure] will not write any data to your Salesforce instance.
 
 ![](assets/1-3.png)
 
-By default, Marketo Measure exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by Marketo Measure and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, Marketo Measure allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the Marketo Measure web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
+By default, [!DNL Marketo Measure] exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by [!DNL Marketo Measure] and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, [!DNL Marketo Measure] allows customers to configure the CRM export batch size. This setting is available on the [!UICONTROL Settings] > [!UICONTROL CRM] > [!UICONTROL General] page in the [!DNL Marketo Measure] web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
@@ -28,7 +28,7 @@ When modifying this setting, please keep in mind that smaller batch sizes will c
 
 ## Salesforce Standard Objects and Access {#salesforce-standard-objects-and-access}
 
-This lists the Salesforce Standard Objects that Marketo Measure interacts with, as well as the custom fields that we add to these objects once the connection is established and the Marketo Measure package is installed. Out of the box, Marketo Measure will NOT write into any standard Salesforce Object fields.
+This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] interacts with, as well as the custom fields that we add to these objects once the connection is established and the [!DNL Marketo Measure] package is installed. Out of the box, [!DNL Marketo Measure] will NOT write into any standard [!DNL Salesforce] Object fields.
 
 **Lead**
 
@@ -715,13 +715,13 @@ This lists the Salesforce Standard Objects that Marketo Measure interacts with, 
  </tbody> 
 </table>
 
-## Marketo Measure Custom Objects in Salesforce  {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Marketo Measure] Custom Objects in [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
-Apart from creating custom fields on SFDC's Standard Objects, once the Marketo Measure package is installed, it will create a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that Marketo Measure will write to.
+Apart from creating custom fields on SFDC's Standard Objects, once the [!DNL Marketo Measure] package is installed, it will create a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that [!DNL Marketo Measure] will write to.
 
 **Buyer Touchpoint**
 
-The Buyer Touchpoint is a Marketo Measure Custom Object to encapsulate the marketing interactions for Contacts, Leads, and Cases. 
+The Buyer Touchpoint is a [!DNL Marketo] Measure Custom Object to encapsulate the marketing interactions for Contacts, Leads, and Cases.
 
 <table> 
  <tbody> 
@@ -986,9 +986,9 @@ The Buyer Touchpoint is a Marketo Measure Custom Object to encapsulate the marke
  </tbody> 
 </table>
 
-**Marketo Measure Person**
+**[!DNL Marketo Measure] Person**
 
-The Marketo Measure Person is a Marketo Measure Custom Object that is related to both the Lead, Contact, and Case Objects.
+The [!DNL Marketo] Measure Person is a [!DNL Marketo] Measure Custom Object that is related to both the Lead, Contact, and Case Objects.
 
 <table> 
  <tbody> 
@@ -1027,7 +1027,7 @@ The Marketo Measure Person is a Marketo Measure Custom Object that is related to
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The Buyer Attribution Touchpoint is a Marketo Measure Custom Object to encapsulate marketing's influence on Opportunities. 
+The Buyer Attribution Touchpoint is a [!DNL Marketo] Measure Custom Object to encapsulate marketing's influence on Opportunities.
 
 **Buyer Attribution Touchpoint**
 

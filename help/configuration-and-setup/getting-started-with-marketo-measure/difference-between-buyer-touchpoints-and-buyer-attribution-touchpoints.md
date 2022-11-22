@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874646
-description: Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints - Marketo Measure - Product Documentation
+description: Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints - [!DNL Marketo] Measure - Product Documentation
 title: Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 ---
@@ -8,7 +8,7 @@ exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 
 Learn what defines a Buyer Touchpoint (BT) and Buyer Attribution Touchpoint (BAT), the differences between the two, and answer commonly asked questions.
 
-The key distinguisher between Buyer Touchpoints and Buyer Attribution Touchpoints is their relationship with Salesforce Objects. BTs relate to the Lead, Contact, and Case Objects, but not the Opportunity object. Meaning there'll never be revenue associated to Buyer Touchpoints.
+The key distinguisher between Buyer Touchpoints and Buyer Attribution Touchpoints is their relationship with [!DNL Salesforce] Objects. BTs relate to the Lead, Contact, and Case Objects, but not the Opportunity object. Meaning there'll never be revenue associated to Buyer Touchpoints.
 
 While the Buyer Attribution Touchpoint Object related to the Contact, Account, and Opportunity Objects, but not the Lead Object. Meaning there'll never be Buyer Attribution Touchpoints tied to Leads. The BAT Object is where you'll see revenue tied to specific marketing interactions.
 
@@ -53,16 +53,16 @@ A Buyer Touchpoint will only have a Touchpoint Position of either First Touch (F
 
 **How is Buyer Touchpoint data leveraged?**
 
-Typically customers leverage Buyer Touchpoint data to understand Top of the Funnel & Middle of the Funnel engagement. Meaning Marketo Measure users know who's submitting forms, who's viewing their site, what blog post is performing well, what AdWords ad is driving leads to convert, etc. Buyer Touchpoint data is great for understanding the engagement of your Leads & Contacts.
+Typically customers leverage Buyer Touchpoint data to understand Top of the Funnel & Middle of the Funnel engagement. Meaning [!DNL Marketo Measure] users know who's submitting forms, who's viewing their site, what blog post is performing well, what AdWords ad is driving leads to convert, etc. Buyer Touchpoint data is great for understanding the engagement of your Leads & Contacts.
 
 **What does a Buyer Touchpoint look like in Salesforce?**
 
-Here's a screenshot of a BT in Salesforce:
+Here's a screenshot of a BT in [!DNL Salesforce]:
 
 ![](assets/1.png)
 
 **What does a Buyer Attribution Touchpoint look like in Salesforce?**
 
-Here's a screenshot of a BAT in Salesforce:
+Here's a screenshot of a BAT in [!DNL Salesforce]:
 
 ![](assets/2.png)
