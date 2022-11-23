@@ -12,7 +12,7 @@ Here's how to set up your connection to Marketo.
 
    ![](assets/one-2.png)
 
-1. Under Integrations, click **[!UICONTROL Connections]**.
+1. Under [!UICONTROL Integrations], click **[!UICONTROL Connections]**.
 
    ![](assets/one-a.png)
 
@@ -26,9 +26,9 @@ Here's how to set up your connection to Marketo.
 
 1. Follow the steps to add your Identity Service URL, Client Id, and Client Secret. Follow the Marketo instructions to set up a dedicated [!DNL Marketo Measure] API user for the purposes of this integration. In the case that we need to debug or troubleshoot the connection through the API, we can pinpoint any issues through the dedicated [!DNL Marketo Measure] API user.
 
->[!NOTE]
->
->When you're setting up the Marketo Role, you do not need to select permissions, so you may leave all boxes unchecked.
+   >[!NOTE]
+   >
+   >When you're setting up the Marketo Role, you do not need to select permissions, so you may leave all boxes unchecked.
 
 1. Utilize the Marketo **[!UICONTROL Need help]?** link to generate these values (if needed): [https://developers.marketo.com/rest-api/base-url/](https://developers.marketo.com/rest-api/base-url/) and [https://developers.marketo.com/rest-api/custom-services/.](https://developers.marketo.com/rest-api/custom-services/)
 
