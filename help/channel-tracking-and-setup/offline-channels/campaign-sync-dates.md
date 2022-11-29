@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874684
-description: Campaign Sync Dates - Marketo Measure - Product Documentation
+description: Campaign Sync Dates - [!DNL Marketo] Measure - Product Documentation
 title: Campaign Sync Dates
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 ---
 # Campaign Sync Dates {#campaign-sync-dates}
 
-Learn what the Campaign Sync Dates feature does, as well as offer some use cases for this feature.
+Learn what the [!UICONTROL Campaign Sync Dates] feature does, as well as offer some use cases for this feature.
 
 **Marketo Measure Package Required: 6.9 or above**
 
@@ -31,7 +31,7 @@ There may be times when a marketing team may miss adding utm parameters to a par
 
 If you're a new Marketo Measure customer, you may be interested in bringing some of the marketing data you've been tracking via SFDC Campaigns. However, if you were to enable Touchpoints to your online SFDC campaigns, then you could run into the issue of double counting attribution since Marketo Measure is automatically creating Touchpoints for your online marketing efforts. In an effort to avoid double counting data, you could use Campaign Touchpoint End Dates to set a limit on the Touchpoint dates created by Marketo Measure on the SFDC campaign. As an example, if you wanted to add retroactive conversions for a Social Campaign you've been tracking in SFDC, but you understand that you've added the Marketo Measure JavaScript (which is creating online Touchpoints) on July 1st, then you can edit the Social SFDC Campaign to contain a Touchpoint End Date equal to July 1st and enable Buyer Touchpoints for that Campaign.
 
-There may be many other use cases for Touchpoint End Dates. If you need help figuring out a specific situation, don't hesitate to reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+There may be many other use cases for Touchpoint End Dates. If you need help figuring out a specific situation, don't hesitate to reach out to [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

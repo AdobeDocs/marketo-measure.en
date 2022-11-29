@@ -22,27 +22,27 @@ The options available in the picklist are:
 * Include only “Responded” campaign Members - Only Leads or Contacts that have a Campaign Member Status of “Responded” will receive a Touchpoint associated to that campaign.
 * Exclude all Campaign Members - None of the Leads or Contacts will receive a Touchpoint associated to that campaign.
 
-Please note that campaign members must have an email address associated to their record in order for Marketo Measure to create a touchpoint. Without an email address, Marketo Measure will not assign a touchpoint to the campaign member.
+Please note that campaign members must have an email address associated to their record in order for [!DNL Marketo] Measure to create a touchpoint. Without an email address, [!DNL Marketo Measure] will not assign a touchpoint to the campaign member.
 
 ## Campaign Sync Dates {#campaign-sync-dates}
 
 With the installation of the package, Marketo Measure will also include 2 date fields on the Campaign object: Touchpoint Start Date and Touchpoint End Date.
 
-These dates tell Marketo Measure when we should start or stop including Campaign Members from the Campaign into the touchpoint journey. You can either set one date, or both, or none at all.
+These dates tell [!DNL Marketo] Measure when we should start or stop including Campaign Members from the Campaign into the touchpoint journey. You can either set one date, or both, or none at all.
 
 ## Use Case for Touchpoint Start Date {#use-case-for-touchpoint-start-date}
 
-Start date can be used in the case that an existing Campaign is used for tracking Leads and Contacts, but the user only wants to start measuring once new systems or processes have been in place, so they decide to set a start date once Marketo Measure should start tracking those Campaign Members.
+Start date can be used in the case that an existing Campaign is used for tracking Leads and Contacts, but the user only wants to start measuring once new systems or processes have been in place, so they decide to set a start date once [!DNL Marketo Measure] should start tracking those Campaign Members.
 
 ## Use Case for Touchpoint End Date {#use-case-for-touchpoint-end-date}
 
-If before using Marketo Measure, you used a Marketing Automation platform that tracked Leads' digital interactions (IE form submissions), and then uploaded those Leads into a Saleforce Campaign, you can leverage the Touchpoint End Date field. You'd set the Touchpoint End Date as your start date with Marketo Measure and enable Buyer Touchpoints, then each of these Leads' digital interaction would be created as a Touchpoint. The reason you'll set the Touchpoint End Date to be your Start Date with Marketo Measure is because, moving forward, we will be tracking these digital interactions through our javascript.
+If before using Marketo Measure, you used a Marketing Automation platform that tracked Leads' digital interactions (IE form submissions), and then uploaded those Leads into a [!DNL Saleforce] Campaign, you can leverage the Touchpoint End Date field. You'd set the Touchpoint End Date as your start date with Marketo Measure and enable Buyer Touchpoints, then each of these Leads' digital interaction would be created as a Touchpoint. The reason you'll set the Touchpoint End Date to be your Start Date with Marketo Measure is because, moving forward, we will be tracking these digital interactions through our javascript.
 
 ![](assets/3.png)
 
 ## Campaign Members {#campaign-members}
 
-Campaign Members are nested under Campaigns, and are related to a Lead or Contact. A Lead or a Contact can only be added once to a Campaign, which can be problematic depending on the use case of the Campaign. When a Campaign is synced, the campaign membership is used as a marketing activity that is put into the touchpoint journey and treated like a form fill.
+Campaign Members are nested under [!UICONTROL Campaigns], and are related to a Lead or Contact. A Lead or a Contact can only be added once to a Campaign, which can be problematic depending on the use case of the Campaign. When a Campaign is synced, the campaign membership is used as a marketing activity that is put into the touchpoint journey and treated like a form fill.
 
 ## Buyer Touchpoint Status {#buyer-touchpoint-status}
 
@@ -52,34 +52,34 @@ If enabled, Marketo Measure will push a status value onto the Campaign Member ac
 
 ## Buyer Touchpoint Date {#buyer-touchpoint-date}
 
-With the installation of the package, Marketo Measure also includes a field on the Campaign Member labeled “Buyer Touchpoint Date.” This allows the user to override the date that Marketo Measure would use for the Touchpoint Date on the Touchpoint record.
+With the installation of the package, [!DNL Marketo] Measure also includes a field on the Campaign Member labeled “Buyer Touchpoint Date.” This allows the user to override the date that Marketo Measure would use for the Touchpoint Date on the Touchpoint record.
 
 This could be necessary if a list was uploaded days/weeks/months after an event actually occurred. There are ways to update all records at once, which is explained below.
 
 ![](assets/5.png)
 
-To know if you need to use the Buyer Touchpoint Date or not, here are how the dates are determined by Marketo Measure depending on the Sync Type that is selected for the Campaign.
+To know if you need to use the Buyer Touchpoint Date or not, here are how the dates are determined by Marketo Measure depending on the [!UICONTROL Sync Type] that is selected for the Campaign.
 
-If the Sync Type is set to “Include all Campaign Members,” the priority of setting the Touchpoint Date is from top to bottom:
+If the [!UICONTROL Sync Type] is set to “Include all Campaign Members,” the priority of setting the Touchpoint Date is from top to bottom:
 
 * Buyer Touchpoint Date
 * Campaign Member Created Date
 
-If the Sync Type is set to “Include only ‘Responded’ Campaign Members,” the priority of setting the Touchpoint Date is from top to bottom:
+If the [!UICONTROL Sync Type] is set to “Include only ‘Responded’ Campaign Members,” the priority of setting the Touchpoint Date is from top to bottom:
 
 * Buyer Touchpoint Date
 * First Responded Date
-    * The First Responded Date is automatically set as soon as the Status is changed to “Responded” and is a standard Salesforce field that cannot be changed
+   * The First Responded Date is automatically set as soon as the Status is changed to “Responded” and is a standard [!DNL Salesforce] field that cannot be changed
 
 * Campaign Member Created Date
 
 ## Bulk Update Touchpoint Date {#bulk-update-touchpoint-date}
 
-The Bulk Update Touchpoint Date is included in the installed Marketo Measure Salesforce package and button will need to be added to the page layout.
+The Bulk Update Touchpoint Date is included in the installed Marketo Measure [!DNL Salesforce] package and button will need to be added to the page layout.
 
 ![](assets/6.png)
 
-If a large number of Campaign Member records needs to be updated, you can use the Bulk Update Touchpoint Date button to mass edit.
+If a large number of Campaign Member records needs to be updated, you can use the [!UICONTROL Bulk Update Touchpoint Date] button to mass edit.
 
 If there are unique use cases that this interface doesn’t cover, you can also use the [Data Loader](https://dataloader.io/) to export the records, make the change, and upload the records back in.
 
@@ -95,7 +95,7 @@ If you don’t need to use the search and just apply the dates to every Campaign
 
 Select the date and time from the calendar picker. If you want to select the current date and time, click the date/time that is shown next to the calendar picker.
 
-Once your date and time is set, click the **Update Selected Records** button to apply the changes.
+Once your date and time is set, click the **[!UICONTROL Update Selected Records]** button to apply the changes.
 
 ![](assets/8.png)
 
@@ -111,7 +111,7 @@ To get around this issue, Marketo Measure created a Marketo Measure History obje
 
 >[!CAUTION]
 >
->Keep in mind that this trigger does not track any campaign members that were removed in the past, so this only works moving forward. If you need to remove a large number of past campaign members' touchpoints, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Keep in mind that this trigger does not track any campaign members that were removed in the past, so this only works moving forward. If you need to remove a large number of past campaign members' touchpoints, contact [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

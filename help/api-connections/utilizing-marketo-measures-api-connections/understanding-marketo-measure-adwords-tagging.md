@@ -1,44 +1,44 @@
 ---
 unique-page-id: 18874678
-description: Understanding Marketo Measure AdWords Tagging - Marketo Measure - Product Documentation
-title: Understanding Marketo Measure AdWords Tagging
+description: Understanding [!DNL Marketo] Measure AdWords Tagging - [!DNL Marketo] Measure - Product Documentation
+title: Understanding [!DNL Marketo] Measure AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 ---
-# Understanding Marketo Measure AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
+# Understanding [!DNL Marketo] Measure AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 
-In order to track your ads at a very granular level, the Ad Destination URLs must be unique. To accomplish this, Marketo Measure's autotagging automatically adds tracking parameters to the Ad Destination URLs of your AdWords ads. Let's take a look at an example below.
-  
+In order to track your ads at a very granular level, the Ad Destination URLs must be unique. To accomplish this, Marketo Measure's autotagging automatically adds tracking parameters to the Ad Destination URLs of your [!DNL AdWords] ads. Let's take a look at an example below.
+
 The following URL will not provide any granular data:
 
 * `http://example.com/landing-page?myParam=foo`
 
-However, the same URL will provide granular data because of the Marketo Measure parameters:
+However, the same URL will provide granular data because of the [!DNL Marketo] Measure parameters:
 
 * `http://example.com/landing-page?myParam=foo&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
-## How Marketo Measure's Auto-tagging Works {#how-marketo-measures-auto-tagging-works}
+## How [!DNL Marketo] Measure's Auto-tagging Works {#how-marketo-measures-auto-tagging-works}
 
-**If Marketo Measure finds a Tracking Template:**
+**If [!DNL Marketo Measure] finds a Tracking Template:**
 
 * Marketo Measure will add its parameters to the Tracking Template.
-* If a third-party redirect is found in a Tracking Template such as Kenshoo or Marin, Marketo Measure will take no action. Instead, you must [add Marketo Measure parameters to the third-party tool in your account](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* If a third-party redirect is found in a Tracking Template such as Kenshoo or Marin, [!DNL Marketo] Measure will take no action. Instead, you must [add [!DNL Marketo] Measure parameters to the third-party tool in your account](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
-However, if no Tracking Template is found, Marketo Measure will:
+However, if no Tracking Template is found, [!DNL Marketo Measure] will:
 
 * Scan all Ad Destination URLs for our Marketo Measure Parameters.
 * If found, you're good to go.
-* If not found, Marketo Measure will append its parameters to the end of the Ad Destination URLs. For new ads, Marketo Measure will append its parameters to the Ad Destination URL within two hours of creation.
+* If not found, [!DNL Marketo Measure] will append its parameters to the end of the Ad Destination URLs. For new ads, [!DNL Marketo Measure] will append its parameters to the Ad Destination URL within two hours of creation.
 * It is important to have a tracking template in place before enabling auto-tagging so that Marketo Measure can attach to it and prevent an ad history reset.
 
 Marketo Measure recommends using an Account-Level, Campaign-Level, or Ad Group-Level Tracking template, as it allows for the addition and subtraction of parameters for all ads without the risk of Ad History interruptions or deletion.
 
 ## Tracking Templates {#tracking-templates}
 
-As explained by Google AdWords, a tracking template is the URL that is used to reach a landing page. The tracking information collected is used to understand your ad traffic. [Click here](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} for more information from Google.
+As explained by [!DNL Google AdWords], a tracking template is the URL that is used to reach a landing page. The tracking information collected is used to understand your ad traffic. [Click here](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} for more information from Google.
 
 Marketo Measure recommends using an Account Level, Campaign Level, or Ad Group Level Tracking template, as it allows for the addition and subtraction of parameters for all ads without the risk of Ad History interruptions or deletion.
 
-There are two tracking templates Marketo Measure recommends using. Please use the following to determine which version is appropriate for you:
+There are two tracking templates [!DNL Marketo Measure] recommends using. Please use the following to determine which version is appropriate for you:
 
 * If all of your ad URLs have a “?” in them, use this URL:
 
@@ -50,9 +50,9 @@ There are two tracking templates Marketo Measure recommends using. Please use th
 
 ## Setting up a Tracking Template at the Account Level {#setting-up-a-tracking-template-at-the-account-level}
 
-1. Log-in to your Google AdWords Account.
+1. Log-in to your [!DNL Google AdWords] Account.
 
-1. Click **All campaigns** and then **Settings** in the expanding window.
+1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Settings]** in the expanding window.
 
    ![](assets/1.png)
 
@@ -64,7 +64,7 @@ There are two tracking templates Marketo Measure recommends using. Please use th
 
 ## Setting up a Tracking Template at the Campaign Level {#setting-up-a-tracking-template-at-the-campaign-level}
 
-1. Click **All campaigns** and then **Campaigns** in the expanding window.
+1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Campaigns]** in the expanding window.
 
    ![](assets/3.png)
 
@@ -76,7 +76,7 @@ There are two tracking templates Marketo Measure recommends using. Please use th
 
 ## Setting up a Tracking Template at the Ad Group Level: {#setting-up-a-tracking-template-at-the-ad-group-level}
 
-1. Click **All campaigns** and then **Ad Groups** in the expanding window.
+1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Ad Groups]** in the expanding window.
 
    ![](assets/5-1.png)
 
@@ -102,6 +102,6 @@ A: 4 hours
 
 >[!NOTE]
 >
->Once the changes are made, you are done. Feel free to reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} if there are any questions during setup.
+>Once the changes are made, you are done. Feel free to reach out to [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} if there are any questions during setup.
 
 [Click here](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} for instructions from Google on creating Account-Level Tracking Templates.

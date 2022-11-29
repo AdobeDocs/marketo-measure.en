@@ -10,11 +10,11 @@ exl-id: 10499556-a591-4630-9149-ae676e6494af
 
 If your SFDC org uses multiple campaign record types, the picklist values for the “Enable Buyer Touchpoints” must be added for each record type. In order to add the options, follow the steps below.
 
-1. Go to **Setup** > **Customize** > **Campaigns** > **Record Types**.
+1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Record Types]**.
 
    ![](assets/1.jpg)
 
-1. Select the Campaign Record Types by clicking the **Record Type Label**, not the edit button.
+1. Select the Campaign [!UICONTROL Record Type]s by clicking the **Record Type Label**, not the [!UICONTROL edit] button.
 
    ![](assets/2.jpg)
 

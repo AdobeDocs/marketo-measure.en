@@ -38,7 +38,7 @@ Learn about [best practices for setting up UTM parameters](/help/channel-trackin
 * Source identifies the subchannel that is the source of your traffic.
 * It answers the question: "Where is this person coming from?"
 * In a social media example, the source of traffic is the social media platform being used.
-   * In this example, Facebook is the Source Value. Other examples are Twitter and Instagram. If the UTM Medium is Paid Search, on the other hand, the UTM Source could be AdWords or BingAds.
+   * In this example, Facebook is the Source Value. Other examples are Twitter and Instagram. If the UTM Medium is [!DNL Paid Search], on the other hand, the UTM Source could be AdWords or BingAds.
 
 * This parameter maps to the Marketo Measure 'Touchpoint Source' field in SFDC.
 * _Marketo Measure Best Practice:_ This parameter tracks the source of your traffic, so it is not suitable to use it to indicate the ad type, E.g. retargeting, sponsored, etc. It is best used to track the higher level subchannel. Remember, you are answering the question "where is my traffic coming from?" You are looking for the referrer. In this example, UTM Source is the place where your ad is located (not the actual webpage, as that is automatically tracked outside of tags). If you are tracking a drip-email campaign, then drip email is the source.
@@ -47,15 +47,15 @@ Learn about [best practices for setting up UTM parameters](/help/channel-trackin
 
 * Campaign is used to identify a specific marketing campaign.
 * It answers the question: "Why are they coming to you?"
-* Use this tag to denote the name of the ad campaign as it exists in Google AdWords or BingAds, or to indicate the name by which you identify the campaign internally. You can even use this tag to specify other information such as geolocation or ad network type.
+* Use this tag to denote the name of the ad campaign as it exists in [!DNL Google AdWords] or [!DNL BingAds], or to indicate the name by which you identify the campaign internally. You can even use this tag to specify other information such as geolocation or ad network type.
 * This parameter maps to the Marketo Measure 'Ad Campaign Name field' in SFDC.
-* _Marketo Measure Best Practice_: When determining campaign names, avoid using punctuation marks or empty spaces between the words, because using them can lead to browser encoding errors. For best results, use underscores instead.
+* _[!DNL Marketo] Measure Best Practice_: When determining campaign names, avoid using punctuation marks or empty spaces between the words, because using them can lead to browser encoding errors. For best results, use underscores instead.
 
 **utm_content**
 
 * Use the UTM Content parameter when you want to track more than one marketing piece existing on a single web page. For example, if you have a "Request a Demo" button and a "Sign Up for Our Weekly Newsletter" button, and wanted to know which one is generating the most traffic, you would name each one and use a UTM Content tag to track them. The name of each piece of "content" is the tag's value.
 * This parameter maps to the Marketo Measure 'Ad Content' field in SFDC.
-* _Marketo Measure Best Practice_: This is an optional value but Marketo Measure recommends using it. This tag is associated with the title of the ad or marketing piece you want to track. If you use an image ad, be sure to write the dimensions of the image in its title.
+* _[!DNL Marketo Measure] Best Practice_: This is an optional value but Marketo Measure recommends using it. This tag is associated with the title of the ad or marketing piece you want to track. If you use an image ad, be sure to write the dimensions of the image in its title.
 
 **utm_term**
 
@@ -67,10 +67,10 @@ Each parameter gathers information relevant to the value assigned. The value of 
 
 Here's a chart of the UTM parameters Marketo Measure parses and the corresponding Touchpoint field they are tied to:
 
-| **UTM Parameter** |**Corresponding Marketo Measure Field** |
+| **UTM Parameter** | **Corresponding Marketo Measure Field** |
 |---|---|
-| utm_medium |Medium |
-| utm_source |Touchpoint Source |
-| utm_campaign |Ad Campaign Name |
-| utm_content |Ad Content |
-| utm_term |Keyword Text |
+| utm_medium | Medium |
+| utm_source | Touchpoint Source |
+| utm_campaign | Ad Campaign Name |
+| utm_content | Ad Content |
+| utm_term | Keyword Text |

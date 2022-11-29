@@ -9,11 +9,11 @@ exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 
 You can access the Power BI report template [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Open the Adobe Marketo Measure Reporting Template Power BI file.
+Open the [!DNL Adobe Marketo] Measure Reporting Template Power BI file.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-You can find your specific Server, Warehouse, and Schema information in the Marketo Measure UI on the Data Warehouse information page. Instructions for how to locate this page are detailed [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+You can find your specific Server, Warehouse, and Schema information in the [!DNL Marketo] Measure UI on the [!DNL Data Warehouse] information page. Instructions for how to locate this page are detailed [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 The QueryFilterStartDate and QueryFilterEndDate parameters are used to limit the amount of data imported. These parameters must be in SQL format as they are used to in the queries sent to Snowflake. For example, if you want to limit data to the past two years, the QueryFilterStartDate would be dateadd (year,-2,current_date()). These parameters are compared against datetime data types, so it's recommended to use dateadd (day,1,current_date()) for the QueryFilterEndDate to return all data to the current time.
 
@@ -31,7 +31,7 @@ To limit the data imported into the model, each table is set up using a native q
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
-All queries filter out deleted rows and the facts tables are set to filter to rows with a modified date between the start and end dates entered as parameters.
+All queries filter out deleted rows and the [!UICONTROL facts] tables are set to filter to rows with a modified date between the start and end dates entered as parameters.
 
 >[!NOTE]
 >
@@ -79,7 +79,8 @@ To simplify the data model and remove redundant and unnecessary data, we've redu
 >
 >* Be cautious when adding additional foreign key values. Power BI is often set to auto detect relationships in the model and adding foreign key values may result in undesirable links between tables and/or disabling existing relationships.
 >
->* Most tables in the Marketo Measure data warehouse contain denormalized dimensional data. We've worked to normalize and clean up the model in Power BI as much as possible to improve performance and data accuracy. Exercise caution when including any additional denormalized fields in facts tables, this may break dimensional filtering across tables and could also result in inaccurate reporting.
+>* Most tables in the [!DNL Marketo] Measure data warehouse contain denormalized dimensional data. We've worked to normalize and clean up the model in Power BI as much as possible to improve performance and data accuracy. Exercise caution when including any additional denormalized fields in facts tables, this may break dimensional filtering across tables and could also result in inaccurate reporting.
+
 
 ![](assets/marketo-measure-report-template-power-bi-5.png)
 
@@ -91,13 +92,13 @@ Tables and columns have been renamed to make them more user friendly and to stan
 
 ### Renamed Segments {#renamed-segments}
 
-Since segment names are customizable, they have generic column names in the Snowflake data warehouse. BIZ_SEGMENT_NAMES is a mapping table which lists the generic segment name and its mapped customized segment name, defined in the segment section in the Marketo Measure UI. The Segment Name table is used to rename the segment columns in the Lead Touchpoint and Attribution Touchpoint tables. If no customized segment exists, the generic segment name remains.
+Since segment names are customizable, they have generic column names in the Snowflake data warehouse. [!DNL BIZ_SEGMENT_NAMES] is a mapping table which lists the generic segment name and its mapped customized segment name, defined in the segment section in the Marketo Measure UI. The Segment Name table is used to rename the segment columns in the Lead Touchpoint and Attribution Touchpoint tables. If no customized segment exists, the generic segment name remains.
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
 ### Case Sensitive ID Conversion {#case-sensitive-id-conversion}
 
-Marketo Measure data has a couple tables where the primary key (ID) values are case sensitive, namely Touchpoint and Campaign. The data engine that drives the Power BI modeling layer is case insensitive, thus resulting in "duplicate" id values. To preserve the case sensitivity of these key values, we've implemented transformation steps which attach invisible characters to lower case characters, preserving the uniqueness of the ID when evaluated in the data engine layer. More details about the issue and the detailed steps on the method we've employed can be found [here](https://blog.crossjoin.co.uk/2019
+Marketo Measure data has a couple tables where the primary key (ID) values are case sensitive, namely Touchpoint and Campaign. The data engine that drives the Power BI modeling layer is case insensitive, thus resulting in "duplicate" id values. To preserve the case sensitivity of these key values, we've implemented transformation steps which attach invisible characters to lower case characters, preserving the uniqueness of the ID when evaluated in the data engine layer. More details about the issue and the detailed steps on the method we've employed can be found [here] (https://blog.crossjoin.co.uk/2019
 /10/06/power-bi-and-case-sensitivity/){target="_blank"}. These case sensitive ID values are labeled as "Join IDs" and are used as join keys in the relationship layer. We've hidden the Join IDs from the reporting layer, keeping the original ID values visible for use in reporting, since the invisible characters can interfere with cut
 /paste functions and filtering.
 
@@ -123,7 +124,7 @@ Click the image below for its full-size version.
 
 ### Relationships and Data Flow {#relationships-and-data-flow}
 
-Event data, used for creating touchpoints, is stored in the Session, Task, Event, Activity, and Campaign Member tables. These event tables join to the Touchpoint table via their respective IDs, and if the event resulted in a touchpoint, details are stored in the Touchpoint table.
+Event data, used for creating touchpoints, is stored in the [!UICONTROL Session], [!UICONTROL Task], [!UICONTROL Event], [!UICONTROL Activity], and Campaign Member tables. These event tables join to the Touchpoint table via their respective IDs, and if the event resulted in a touchpoint, details are stored in the Touchpoint table.
 
 Lead Touchpoints and Attribution Touchpoints are stored in their own tables, with a link to the Touchpoint table. Most dimensional data for Lead and Attribution Touchpoints is sourced from their link to the corresponding Touchpoint.
 
@@ -133,7 +134,7 @@ Cost data is stored at differing aggregation levels within the Snowflake data wa
 
 Cost data and Touchpoint data have some common dimensions, so both facts tables have relationships with the Campaign and Channel dimension tables.
 
-Within the context of this model, Lead, Contact, Account, and Opportunity data is considered as dimensional data, and joined directly to the Lead Touchpoint and Attribution Touchpoint tables.
+Within the context of this model, [!UICONTROL Lead], [!UICONTROL Contact], [!UICONTROL Account], and [!UICONTROL Opportunity] data is considered as dimensional data, and joined directly to the [!UICONTROL Lead] Touchpoint and [!UICONTROL Attribution] Touchpoint tables.
 
 ### Added Tables {#added-tables}
 
@@ -172,7 +173,7 @@ Definitions have been added to the Power BI model for tables, custom columns, an
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-To view definitions for columns coming directly from Snowflake, please see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
+To view definitions for columns coming directly from [!DNL Snowflake], please see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Discrepancies Between Templates and Discover {#discrepancies-between-templates-and-discover}
 
@@ -182,7 +183,7 @@ Lead Touchpoints and Attribution Touchpoints inherit dimensional data from the o
 
 ### Cost {#cost}
 
-Cost reporting in the templates is only available at the campaign and channel level, however, Discover offers reporting at lower levels of granularity for some ad providers, (i.e., creative, keyword, ad groups, etc.). For more detail on how the cost data is modeled in the templates, reference the Data Model section of this documentation. If the dimension filter in Discover is set to channel or campaign, costs at the channel, subchannel, and campaign levels should line up between Discover and the report templates.
+Cost reporting in the templates is only available at the campaign and channel level, however, Discover offers reporting at lower levels of granularity for some ad providers, (i.e., creative, keyword, ad groups, etc.). For more detail on how the cost data is modeled in the templates, reference the [!UICONTROL Data Model] section of this documentation. If the dimension filter in [!UICONTROL Discover] is set to channel or campaign, costs at the channel, subchannel, and campaign levels should line up between Discover and the report templates.
 
 ### ROI {#roi}
 
@@ -196,17 +197,17 @@ These metrics, as shown in the reporting templates, are not mirrored in Discover
 
 The reporting template data model normalizes channel, subchannel, and campaign dimensional data via the relationship between Session and Touchpoint. This is different from the Discover data model, which denormalizes these dimensions to Session. Because of this distinction, overall counts for visits and visitors should match between Discover and the reporting template, however, once displayed or filtered by dimension, these numbers are not expected to line up. This is because the dimensional data in the template is only available for web events which resulted in a touchpoint (i.e. non- anonymous events). For more details, please reference the [Data Model](#data-model) section of this documentation.
 
-There may be small discrepancies in total site form counts between Discover and the template. This is because the data model in the reporting template obtains dimensional data for Site Form via a relationship to Session and then Touchpoint; there are a few instances where site form data does not have a correlated session.
+There may be small discrepancies in total site form counts between [!DNL Discover] and the template. This is because the data model in the reporting template obtains dimensional data for Site Form via a relationship to Session and then Touchpoint; there are a few instances where site form data does not have a correlated session.
 
 ### Leads and Accounts {#leads-and-accounts}
 
-Dimensional reporting for accounts touched may differ slightly between Discover and the template, this is again due to the dimensional modeling coming from the relationship between Touchpoint and Lead Touchpoint or Attribution Touchpoint. Please reference the details outlined in the Attributed Revenue section for more details.
+Dimensional reporting for accounts touched may differ slightly between [!DNL Discover] and the template, this is again due to the dimensional modeling coming from the relationship between Touchpoint and Lead Touchpoint or Attribution Touchpoint. Please reference the details outlined in the Attributed Revenue section for more details.
 
-All lead counts in Discover are attributed lead counts, and in the reporting template the metric is leads touched. Therefore, there is no direct comparison possible between the two reports for this measure.
+All lead counts in [!UICONTROL Discover] are attributed lead counts, and in the reporting template the metric is [!UICONTROL leads] touched. Therefore, there is no direct comparison possible between the two reports for this measure.
 
 ### Engagement Path {#engagement-path}
 
-There is no direct comparison between the Engagement Path report in Discover and the template. The report in Discover is modeled off the Touchpoint while the report in the template is modeled off the Attribution Touchpoint. The template focuses solely on opportunities and their related touchpoints instead of showing all touchpoint data.
+There is no direct comparison between the [!UICONTROL Engagement Path] report in [!DNL Discover] and the template. The report in [!DNL Discover] is modeled off the Touchpoint while the report in the template is modeled off the Attribution Touchpoint. The template focuses solely on opportunities and their related touchpoints instead of showing all touchpoint data.
 
 ### Deal Velocity {#deal-velocity}
 
