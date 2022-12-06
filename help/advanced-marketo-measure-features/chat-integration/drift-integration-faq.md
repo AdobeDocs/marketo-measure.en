@@ -14,13 +14,13 @@ Drift Chat tracking for Marketo Measure is enabled by default. If for any reason
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" id="bizible-settings" data-chatEnabled="false"></script>`
 
-For those using Google Tag Manager to load the Marketo Measure Script, if you want to exclude your Drift Chats from being Touchpoint-eligible, you’ll need to add to following `<span>` right after your Marketo Measure Script:
+For those using Google Tag Manager to load the Marketo Measure Script, if you want to exclude your Drift Chats from being Touchpoint-eligible, you'll need to add to following `<span>` right after your Marketo Measure Script:
 
 `<span id="bizible-settings" data-chatEnabled="false"></span>`
 
 **What does the integration do?**
 
-The integration now allows Marketo Measure to track when an end-user provides their email address in a Drift chat. From there we create touchpoints from these interactions with a Touchpoint Type of "Web Chat." This integration allows marketers to understand the performance of their chat interactions, along with the channels/sub-channels/campaigns that drive people to interact with these chats.
+The integration now allows Marketo Measure to track when an end-user provides their email address in a Drift chat. From there we create touchpoints from these interactions with a Touchpoint Type of "Web Chat." This integration allows marketers to understand the performance of their chat interactions, along with the channels/subchannels/campaigns that drive people to interact with these chats.
 
 **What if I track Drift via campaign sync rules?**
 

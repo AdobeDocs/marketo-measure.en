@@ -296,7 +296,7 @@ Display a list of channels based on metric selected (revenue, pipeline revenue, 
 
 ![](assets/ten.png)
 
-Display a list of sub-channels based on metric selected (revenue, pipeline revenue, spend, deals, opportunities, leads, contacts).
+Display a list of subchannels based on metric selected (revenue, pipeline revenue, spend, deals, opportunities, leads, contacts).
 
 ## Campaign Summary Tile {#campaign-summary-tile}
 
@@ -308,7 +308,7 @@ Display a list of Campaigns based on metric selected (revenue, pipeline revenue,
 
 ![](assets/twelve.png)
 
-Displays ROI that was attributed to the metric that is selected (channel, sub-channel, campaign, account, adgroup, ad, advertiser, creative, keyword, placement, site) based off the attribution model selected.
+Displays ROI that was attributed to the metric that is selected (channel, subchannel, campaign, account, adgroup, ad, advertiser, creative, keyword, placement, site) based off the attribution model selected.
 
 ## ROI Summary Tile {#roi-summary-tile}
 
