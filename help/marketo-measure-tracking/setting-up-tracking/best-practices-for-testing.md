@@ -16,18 +16,14 @@ You should test all the different types of forms you have to ensure the [!DNL Ma
    >
    >A best practice is to use a fake email that contains something indicating it's a test, as well as the time of day. For example: `testing830am@test.com`.
 
-1. Start your search at `google.com`, a similar site, or navigate to a form directly.
+1. Start your search at a search engine (e.g., `google.com`), or navigate to a form directly.
 
-1. Click on your website (organic search) or a company advertisement.
+1. Submit the form on your website using a unique email address.
 
-1. Navigate to form.
-
-1. Submit form using a unique email address.
-
-1. Record the URL of the page you are submitting the form and the email used.
+1. Record the URL of the page you're submitting the form on and the email address used.
 
 1. Locate the record created in your CRM (Lead or Contact) for that form submission and verify that a touchpoint was appropriately created.
 
 >[!NOTE]
 >
->* You can use a [!DNL Marketo Measure] stock report such as Leads with [!DNL Marketo Measure] Touchpoints or look at the Lead/Contact page layout if you chose to update your page layouts with [!DNL Marketo Measure] details. This could take some time for the data to process.
+>You can use a [!DNL Marketo Measure] stock report such as Leads with [!DNL Marketo Measure] Touchpoints or look at the Lead/Contact page layout if you chose to update your page layouts with [!DNL Marketo Measure] details. This could take some time for the data to process.

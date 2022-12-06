@@ -17,7 +17,7 @@ Here are various links to pertinent articles/videos to help you get up and runni
 
 **Configuration**
 
-* [Marketing Channel Setup, Best Practice](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-sub-channels.md)
+* [Marketing Channel Setup, Best Practice](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 * [Online Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [What are UTM Parameters?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
