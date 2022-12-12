@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874580
-description: Install and Connect - [!DNL Marketo Measure] - Product Documentation
-title: Install and Connect
+description: Connect Marketo Measure to Salesforce - [!DNL Marketo Measure] - Product Documentation
+title: Connect Marketo Measure to Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 ---
-# Install and Connect {#install-and-connect}
+# Connect Marketo Measure to Salesforce {#connect-marketo-measure-to-salesforce}
 
 This article provides an overview of how to connect your [!DNL Salesforce] account to your [!DNL Marketo Measure] account.
 
@@ -32,7 +32,7 @@ This article provides an overview of how to connect your [!DNL Salesforce] accou
 >
 >[!DNL Marketo Measure] can only be connected to one [!DNL Salesforce] instance at a time.
 >
->* A [!DNL Marketo] Measure instance can be connected to a SFDC Sandbox Instance to test the integration before switching the connection to your SFDC Production Instance.
+>* A [!DNL Marketo Measure] instance can be connected to a SFDC Sandbox Instance to test the integration before switching the connection to your SFDC Production Instance.
 >* If you test first with a SFDC Sandbox, we highly recommend you test with one which is an exact replica of your SFDC production instance in terms of fields on the Lead, Contact, Account, Opportunity, Campaign and Case objects. If you have any active APEX triggers in production which fire on updates to the Lead, Contact, Account, Opportunity, Campaign and Case objects, you should try to have them active in your sandbox.
 >* Once you are done with testing, you will update your [!DNL Marketo Measure] account to point at your Production [!DNL Salesforce] (instead of Sandbox [!DNL Salesforce]). Due to the way the integration was built, once a [!DNL Marketo Measure] account is connected to Production [!DNL Salesforce], you cannot go "backwards" and connect to a Sandbox [!DNL Salesforce] org.
 

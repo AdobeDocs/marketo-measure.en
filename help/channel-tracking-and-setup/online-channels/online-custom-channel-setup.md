@@ -10,14 +10,14 @@ In order to have accurate reporting, [!DNL marketing channels] must be set up to
 
 ## Before You Begin {#before-you-begin}
 
-Before you begin creating your channel rules for [!DNL Marketo Measure], take some time to think about the organization of your marketing campaigns and how they fit into Marketo Measure's framework. You should determine which channels, subchannels, campaigns and referring websites you want to track.
+Before you begin creating your channel rules for [!DNL Marketo Measure], take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. You should determine which channels, subchannels, campaigns and referring websites you want to track.
 
 Things to keep in mind:
 
 * Your organization can create a maximum of 40 custom marketing channels. This includes both offline and online channels.
 * Your organization can create up to 200 subchannels.
 * Each collection, or bucket, of data needs its own rule (row in the spreadsheet) to specify how the data will be organized. Be as specific as possible.
-* Marketo Measure's logic prioritizes data in descending order starting with the top row of the spreadsheet and making its way down. It reads each bucket, or cell, in row by row looking for the first fit. The data is then sorted according to the values in these buckets. More on this below.
+* [!DNL Marketo Measure] [!DNL logic] prioritizes data in descending order starting with the top row of the spreadsheet and making its way down. It reads each bucket, or cell, in row by row looking for the first fit. The data is then sorted according to the values in these buckets. More on this below.
 * Do not sort your sheet in alphabetical order as this will interfere with the logic rules.
 * Once the file is uploaded, you cannot change any of the rules for seven days. [!DNL Marketo] Measure utilizes this time to process and update the Touchpoints.
 
@@ -33,7 +33,7 @@ The spreadsheet has 7 columns:
 
 * **Channel:** add your various marketing channels here
 * **Subchannel:** add the corresponding subchannels here
-* **Campaign:** add campaign names here, whether the value is coming from UTMs or Salesforce Campaigns for Marketo Measure's Activities funcionality
+* **Campaign:** add campaign names here, whether the value is coming from UTMs or Salesforce Campaigns for the Marketo Measure Activities funcionality
 * **Medium:** the medium column represents the value of the utm_medium parameter
 * **Source:** the source column represents the value of the utm_source parameter
 * **Landing Page:** add landing page here
@@ -63,7 +63,7 @@ The default channel 'Other' exists to catch data that does not meet any rule's c
 
 ![](assets/6.png)
 
-Due to Marketo Measure's logic working from top to bottom, please note that the wildcard rule, indicated with an asterisk (&#42;), should be placed at the very end of your rule sheet. All data that isn't caught or sorted by the other rules will automatically be added to this wildcard bucket.
+Due to [!DNL Marketo] Measure logic working from top to bottom, please note that the wildcard rule, indicated with an asterisk (&#42;), should be placed at the very end of your rule sheet. All data that isn't caught or sorted by the other rules will automatically be added to this wildcard bucket.
 
 Below are more examples of wildcard logic:
 
@@ -79,7 +79,7 @@ Once you have decided how you want to organize and prioritize your data, you're 
 
 * Keep your rules as simple as possible from the start. You can always build on the rules as you go along.
 * Do not add any special characters in the channel names (e.g., $%#&&#42;@)
-* Do not edit the rules associated with BingAds and AdWords. These rules are crucial for bucketing the data that automatically comes from Marketo Measure's API integration with these platforms. Changing the subchannel and channel name to fit your needs is not a problem though.
+* Do not edit the rules associated with BingAds and AdWords. These rules are crucial for bucketing the data that automatically comes from the Marketo Measure API integration with these platforms. Changing the subchannel and channel name to fit your needs is not a problem though.
 * Do not remove the rules that contain a "Do Not Remove" note.
 * Organic Search rules are always placed after the [!UICONTROL Paid Search rules]
 * You cannot create rules based on different sub-domains.
@@ -91,8 +91,4 @@ Once you have decided how you want to organize and prioritize your data, you're 
 
 Make sure any new channel and subchannel values you're adding in the CSV have already been added in the channel settings area of your Bizible account. Double check all channel and subchannel names match in the CSV with the channel settings area of your [!DNL Marketo] Measure account. Make sure you check for commas and spaces.
 
-If you receive an error message during uploading, correct the issue and re-upload. If no error message is received, click **Save & Process** at bottom of the page.&#x200B;
-
->[!MORELIKETHIS]
->
->[Marketo Measure University: Creating Channels & Subchannels](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b747)
+If you receive an error message during uploading, correct the issue and re-upload. If no error message is received, click **Save & Process** at bottom of the page.

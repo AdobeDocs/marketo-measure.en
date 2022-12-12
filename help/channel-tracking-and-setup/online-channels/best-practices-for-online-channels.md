@@ -50,6 +50,6 @@ If you team has experienced any of the above recently Marketo Measure recommends
 >
 >* [Online Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 >* [UTM Parameters](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [Marketing Channel and Subchannel](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-sub-channels.md)
+>* [Marketing Channel and Subchannel](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 >* [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
 

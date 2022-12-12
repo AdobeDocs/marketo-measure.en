@@ -42,9 +42,10 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
       + [Attribution Mapping Methodology](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
-      + [Marketo Measure Quick Start](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md)
+      + [Marketo Measure CRM Packageless Integration](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + Marketo Measure and Salesforce {#marketo-measure-and-salesforce}
       + [Marketo Measure Salesforce Package Installation and Set Up](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+      + [Connect Marketo Measure to Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices for Marketo Measure CRM Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [Marketo Measure Salesforce Objects](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
       + [How [!DNL Marketo Measure] and [!DNL Salesforce] Interact](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
@@ -55,9 +56,8 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
       + [Creating a [!DNL Marketo Measure] Profile](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
       + [Marketo Measure Permission Sets](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
       + [Recommended [!DNL Salesforce] Permissions for Marketo Measure Connected User](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
-      + [Install and Connect](configuration-and-setup/marketo-measure-and-salesforce/install-and-connect.md)
    + Sandbox Testing {#sandbox-testing}
-      + [Testing a Staging Environment](configuration-and-setup/sandbox-testing/testing-a-staging-environment.md)
+      + [Testing the Marketo Measure Integration with a Salesforce Sandbox](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Salesforce Sandbox to Production Migration](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
    + Marketo Measure Insights (Canvas App) {#marketo-measure-insights-canvas-app}
       + [[!DNL Marketo] Measure Insights Explained](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-explained.md)
@@ -67,7 +67,7 @@ user-guide-description: Marketo Measure gives marketers insight into which marke
       + [Best Practices for Online Channels](channel-tracking-and-setup/online-channels/best-practices-for-online-channels.md)
       + [Online Custom Channel Setup](channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
       + [UTM Parameters](channel-tracking-and-setup/online-channels/utm-parameters.md)
-      + [Marketing Channels and Sub-Channels](channel-tracking-and-setup/online-channels/marketing-channels-and-sub-channels.md)
+      + [Marketing Channels and Subchannels](channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
       + [Best Practices for Setting Up UTM Parameters](channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
    + Offline Channels {#offline-channels}
       + [Best Practices for Offline Channels](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)

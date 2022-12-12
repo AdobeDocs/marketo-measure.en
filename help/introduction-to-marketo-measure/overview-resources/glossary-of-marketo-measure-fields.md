@@ -296,7 +296,7 @@ This field shows you the general group of marketing activity or marketing channe
   
 **Marketing Channel - Path** | Buyer Touchpoint, Buyer Attribution Touchpoint  
   
-This field shows you the marketing channel, and the sub-channel that a touchpoint belongs to. In the example below, Marketing Channel - Path is Social.Linkedin, where the marketing channel is Social, and the sub-channel is LinkedIn.
+This field shows you the marketing channel, and the subchannel that a touchpoint belongs to. In the example below, Marketing Channel - Path is Social.Linkedin, where the marketing channel is Social, and the subchannel is LinkedIn.
   
 ![](assets/1-3.png)
   
