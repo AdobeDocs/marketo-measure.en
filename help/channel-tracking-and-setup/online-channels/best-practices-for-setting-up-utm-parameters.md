@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874732
-description: Best Practices for Setting Up UTM Parameters - [!DNL Marketo] Measure - Product Documentation
+description: Best Practices for Setting Up UTM Parameters - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Setting Up UTM Parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 ---
@@ -22,7 +22,7 @@ Do not use this field to call out the subchannel.
 
 e.g.: Facebook, Twitter, Linkedin, Drip_email, Email_blast, newsletter.
 
-Keep it simple. Do not use this parameter to denote ad type, like retargeting, sponsored, etc. Do not add a [!DNL utm_source = homepage], webdirect, website. Marketo Measure will automatically fill out this information for you.
+Keep it simple. Do not use this parameter to denote ad type, like retargeting, sponsored, etc. Do not add a utm_source = homepage, webdirect, website. [!DNL Marketo Measure] will automatically fill out this information for you.
 
 **utm_campaign**: This field maps to Ad Campaign Name. Use utm_campaign to denote the title of the campaign as it exists in the ad platform, or as it's referred to internally.
 
@@ -42,7 +42,7 @@ If there is no keyword related to the ad, leave this parameter blank.
 
 e.g.: [!UICONTROL iPhone App Ideas]
 
-## Keep it simple and succinct. Do not duplicate efforts, terms, and channels. {#keep-it-simple-and-succinct-do-not-duplicate-efforts-terms-and-channels}
+**Keep it simple and succinct. Do not duplicate efforts, terms, and channels.**
 
 We imagine the UTM hierarchy as follows:
 
@@ -62,4 +62,4 @@ fakewebsite.com/
 
 Notice that terms/channel are not duplicated and utm_term is not used in this case.
 
-If there are any questions, reach out to your Customer Success Manager or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+If there are any questions, reach out to your Customer Success Manager or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
