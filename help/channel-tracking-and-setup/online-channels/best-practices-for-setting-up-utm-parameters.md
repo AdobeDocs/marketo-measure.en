@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874732
-description: Best Practices for Setting Up UTM Parameters - Marketo Measure - Product Documentation
+description: Best Practices for Setting Up UTM Parameters - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Setting Up UTM Parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 ---
 # Best Practices for Setting Up UTM Parameters {#best-practices-for-setting-up-utm-parameters}
 
-UTM parameters are great way to slice and dice your marketing data. Marketo Measure uses and captures all UTM parameters to populate fields in Salesforce and in the Marketo Measure app. With this information, you'll be able to get a granular understanding of where your leads, opportunities, and closed/won deals are coming from.
+UTM parameters are great way to slice and dice your marketing data. [!DNL Marketo Measure] uses and captures all UTM parameters to populate fields in Salesforce and in the [!DNL Marketo Measure] app. With this information, you'll be able to get a granular understanding of where your leads, opportunities, and closed/won deals are coming from.
   
-You can utilize the [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en) to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0) if you want an easier way of keeping track of all your UTM links.
+You can utilize the [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} if you want an easier way of keeping track of all your UTM links.
 
 ## High level values for each parameter {#high-level-values-for-each-parameter}
 
@@ -22,7 +22,7 @@ Do not use this field to call out the subchannel.
   
 e.g.: Facebook, Twitter, Linkedin, Drip_email, Email_blast, newsletter.  
   
-Keep it simple. Do not use this parameter to denote ad type, like retargeting, sponsored, etc. Do not add a utm_source = homepage, webdirect, website. Marketo Measure will automatically fill out this information for you.  
+Keep it simple. Do not use this parameter to denote ad type, like retargeting, sponsored, etc. Do not add a utm_source = homepage, webdirect, website. [!DNL Marketo Measure] will automatically fill out this information for you.  
   
 **utm_campaign**: This field maps to Ad Campaign Name. Use utm_campaign to denote the title of the campaign as it exists in the ad platform, or as it's referred to internally.  
   
@@ -42,7 +42,7 @@ If there is no keyword related to the ad, leave this parameter blank.
   
 e.g.: iPhone App Ideas
 
-## Keep it simple and succinct. Do not duplicate efforts, terms, and channels. {#keep-it-simple-and-succinct-do-not-duplicate-efforts-terms-and-channels}
+**Keep it simple and succinct. Do not duplicate efforts, terms, and channels.**
 
 We imagine the UTM hierarchy as follows:  
   
