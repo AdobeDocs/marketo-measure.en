@@ -1,18 +1,18 @@
 ---
 unique-page-id: 18874692
-description: Boomerang Stage Scenarios - Marketo Measure - Product Documentation
+description: Boomerang Stage Scenarios - [!DNL Marketo] Measure - Product Documentation
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 ---
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
 
-Below are a few examples of Boomerang Stage scenarios to provide an understanding of how Marketo Measure will create touchpoints in each situation.
+Below are a few examples of Boomerang Stage scenarios to provide an understanding of how [!DNL Marketo Measure] will create touchpoints in each situation.
 
 ## Single Lead Scenarios {#single-lead-scenarios}
 
-**Scenario 1: Standard Boomerang Touchpoints for a Lead**
+**Scenario 1: Standard [!DNL Boomerang] Touchpoints for a Lead**
 
-This is the simplest Boomerang scenario. The top line (labeled Lead 1) represents the individual Leads' journey, and how their touchpoints appear on the Lead record. The bottom line (labeled Opportunity) displays how the Leads' touchpoints translates onto the Opportunity. The progression of touchpoints will be explained in chronological occurrence, from left to right.
+This is the simplest [!DNL Boomerang] scenario. The top line (labeled Lead 1) represents the individual Leads' journey, and how their touchpoints appear on the Lead record. The bottom line (labeled Opportunity) displays how the Leads' touchpoints translates onto the Opportunity. The progression of touchpoints will be explained in chronological occurrence, from left to right.
 
 In this scenario, a customer has chosen to have their **MQL** and **SQL** stages tracked with Boomerangs. Each Boomerang touchpoint position will be labeled with the stage and the number in which it occurs (MQL-01, SQL-01, MQL-02.. etc). The last boomerang touchpoint for that stage will also have "(Last)" in the touchpoint position.
 
@@ -50,7 +50,7 @@ The following scenarios are where Boomerang Stages can get more complicated, as 
 
 The top line (labeled Lead 1, in blue) represents the individual Leads' journey, and how their touchpoints appear on the Lead record. The same applies to the Lead 2 (in pink) and Lead 3 (in orange). The bottom line (labeled Opportunity) displays how both of these Leads' touchpoints translates onto the Opportunity. The progression of touchpoints will be explained in chronological occurrence, from left to right.
 
-**Scenario 1: Three Leads with Opportunity**
+**Scenario 1: [!UICONTROL Three Leads with Opportunity]**
 
 In this scenario, a customer has chosen to track the **MQL** and **SAL stages** with boomerang touchpoints. The SQL stage is being tracked by the standard custom stages.
 
@@ -66,9 +66,9 @@ The SAL-01 (Last) touchpoint from Lead 1 is carried over as a touchpoint on the 
 
 Lead 3's FT, LC and MQL, SQL, SAL touchpoints (orange) all occurred after the OC touchpoint on the Opportunity. These touchpoints will be included in the Opportunity, but are considered "middle touches."
 
-When Lead 2 and 3 converted into Contacts, Marketo Measure will not create another OC touchpoint because there can only be one opportunity creation stage.
+When Lead 2 and 3 converted into Contacts, [!DNL Marketo] Measure will not create another OC touchpoint because there can only be one opportunity creation stage.
 
-**Scenario 2 - Three Leads with Opportunity**
+**Scenario 2 - [!UICONTROL Three Leads with Opportunity]**
 
 In this scenario, a customer has chosen to track the **MQL**, **SQL**, and **SAL** stages with boomerang touchpoints.
 
@@ -78,7 +78,7 @@ All the touchpoints from Lead 1 will be included on the opportunity, from FT to 
 
 The MQL-01 (Last) from Lead 2 ends up being the MQL-04 (Last) touchpoint on the Opportunity. Because this scenario is looking at multiple Leads' journeys within one Opportunity, the positioning and numbering of the Leads' touchpoints can change when they are translated as touchpoints on the Opportunity. Similarly, the SQL-01 (Last) from Lead 2 becomes the SQL-04 (Last) on the Opp. Lead 2's SAL-01 (Last) also becomes the Opportunity's SAL-02 (Last).
 
-Also, notice that there are only 2 SAL touchpoints included on the Opportunity. Marketo Measure will not try to force/create touchpoints for stage transitions if they haven't actually occurred.
+Also, notice that there are only 2 SAL touchpoints included on the Opportunity. [!DNL Marketo] Measure will not try to force/create touchpoints for stage transitions if they haven't actually occurred.
 
 Lead 3's touchpoint journey begins just before the OC touch occurs, but long after Lead 1 and Lead 2 had their FT and LC touch. In this case, Lead 3's FT and LC will appear as a Form touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch.
 

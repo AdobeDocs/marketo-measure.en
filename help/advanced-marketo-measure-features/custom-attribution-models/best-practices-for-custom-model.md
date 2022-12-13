@@ -1,5 +1,5 @@
 ---
-description: Best Practices for Custom Model - Marketo Measure - Product Documentation
+description: Best Practices for Custom Model - [!DNL Marketo] Measure - Product Documentation
 title: Best Practices for Custom Model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 ---
@@ -7,7 +7,7 @@ exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 
 ## Overview {#overview}
 
-In addition to Marketo Measure’s out of the box Attribution Models, Tier 2 customers and above have access to a Custom Attribution Model.
+In addition to [!DNL Marketo Measure’s] out of the box Attribution Models, Tier 2 customers and above have access to a Custom Attribution Model.
 
 Marketo Measure's Custom Attribution model allows users to choose which milestone touchpoint positions and/or custom stages to include in the model. In addition, users can control the percentage of credit attributed to each stage within the model (users can define up to 6 additional custom stages), or they can use the attribution percentage values suggested by Marketo Measure's Machine Learning Model.
 
@@ -19,32 +19,32 @@ There are two key aspects of your Custom Attribution Model:
 >
 >Reference the Stage Mapping Best Practice resource for more details
 
-**Custom Attribution Modeling** is defined once you select your Custom Stages funnel. Users can then control how much attribution credit should be assigned to each custom stage as well as Marketo Measure’s milestone stages. Users can assign credit to each stage as they see fit, or reference Marketo Measure’s Machine Learning Model which acts as a “suggestive model” based on historical data.
+**Custom Attribution Modeling** is defined once you select your Custom Stages funnel. Users can then control how much attribution credit should be assigned to each custom stage as well as [!DNL Marketo Measure’s] milestone stages. Users can assign credit to each stage as they see fit, or reference [!DNL Marketo Measure’s] Machine Learning Model which acts as a “suggestive model” based on historical data.
 
-It is crucial that these two aspects of your Custom Model are defined correctly and precisely to ensure that Marketo Measure is producing an accurate Custom Attribution Model.
+It is crucial that these two aspects of your Custom Model are defined correctly and precisely to ensure that [!DNL Marketo Measure] is producing an accurate Custom Attribution Model.
 
 ## Best Practice {#best-practice}
 
 Whether you’re setting up your Custom Model for the first time, or reviewing what has been previously established, it's important to keep the following best practices in mind.
 
 * Start simple
-  * Identify the key stages that you want to add to your Custom Model which are crucial to your Marketo Measure reporting. Typically these are stages which you are commonly measured against or which you are aiming to gain insight on
-  * You can always add to your Custom Model over time
+   * Identify the key stages that you want to add to your Custom Model which are crucial to your Marketo Measure reporting. Typically these are stages which you are commonly measured against or which you are aiming to gain insight on
+   * You can always add to your Custom Model over time
 * Utilize Marketo Measure’s Machine Learning Model
-  * If you are struggling to decide the percentage attribution breakout, the Marketo Measure Machine Learning Model can help you to make informed decisions when setting you Custom Attribution Model.
-  * When viewing the Machine Learning Model, the attribution percentages of each stage reflect the potential impact of your marketing efforts
-    * A higher percentage means that marketing can directly influence the movement of the funnel at that point
-    * A lower attribution percentage means that stages are less important for your team to monitor
+   * If you are struggling to decide the percentage attribution breakout, the Marketo Measure Machine Learning Model can help you to make informed decisions when setting you Custom Attribution Model.
+   * When viewing the Machine Learning Model, the attribution percentages of each stage reflect the potential impact of your marketing efforts
+      * A higher percentage means that marketing can directly influence the movement of the funnel at that point
+      * A lower attribution percentage means that stages are less important for your team to monitor
 * You must define your top of funnel stages based on either Lead or Contact stages, not across both
-  * This means that you have to ensure that all persons will pass through that stage on the relative object
-    * For example: If you define the MQL stage from the Lead object, all persons must go into your system as a Lead and be marked as an MQL on their Lead record in order for Marketo Measure to accurately reflect which touch was related to the Lead’s transition to MQL. If this is not the case, and some people progress to Contact before becoming MQL as a Lead, Marketo Measure will not be able to accurately account for this in your Touchpoint data and we will have to assume that person has already MQL’d. Marketo Measure cannot account for stage hopping so we will infer that stages have been passed through even if they have not.
+   * This means that you have to ensure that all persons will pass through that stage on the relative object
+      * For example: If you define the MQL stage from the Lead object, all persons must go into your system as a Lead and be marked as an MQL on their Lead record in order for Marketo Measure to accurately reflect which touch was related to the Lead’s transition to MQL. If this is not the case, and some people progress to Contact before becoming MQL as a Lead, Marketo Measure will not be able to accurately account for this in your Touchpoint data and we will have to assume that person has already MQL’d. Marketo Measure cannot account for stage hopping so we will infer that stages have been passed through even if they have not.
 * Ensure field history tracking is enabled for all fields used to define custom stages that you incorporate
 * Do not use a formula fields to define a custom stage
-  * A Boolean field is best practice recommendation
-* Do not incorporate Custom Stages into your Custom Model which coincide with a Marketo Measure Milestone Touchpoint Position (FT, LC, OC, Closed Won/Lost)
-  * If you do, these positions will always occur simultaneously and can cause inflated attribution credit to parts of your funnel.
+   * A Boolean field is best practice recommendation
+* Do not incorporate Custom Stages into your Custom Model which coincide with a [!DNL Marketo] Measure Milestone Touchpoint Position (FT, LC, OC, Closed Won/Lost)
+   * If you do, these positions will always occur simultaneously and can cause inflated attribution credit to parts of your funnel.
 * Work with your Sales Opp team
-  * Bringing in the team who works closest with stages and their meaning will ensure you’re using the correct stages and that they’re defined properly
+   * Bringing in the team who works closest with stages and their meaning will ensure you’re using the correct stages and that they’re defined properly
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}
 
@@ -65,3 +65,4 @@ Other reasons to that might trigger a review of your Custom Model include...
 >* [Custom Attribution Model and Setup](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Enable Field History Tracking For Custom Model](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
 >* [Machine Learning Model](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
+

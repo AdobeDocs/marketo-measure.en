@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874558
-description: Boomerang Stages and Touchpoints - Marketo Measure - Product Documentation
+description: Boomerang Stages and Touchpoints - [!DNL Marketo] Measure - Product Documentation
 title: Boomerang Stages and Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 ---
@@ -21,15 +21,15 @@ Marketo Measure has released our Boomerang Stage feature! The Boomerang Stage fe
 
 ## What Boomerang Stages and Touchpoints Look like in Your CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
-Without Boomerang stages (the “before”), you will only see the most recent MQL or most recent SQL touchpoint associated to a Lead/Contact record.
+Without [!UICONTROL Boomerang] stages (the “before”), you will only see the most recent MQL or most recent SQL touchpoint associated to a Lead/Contact record.
 
 ![](assets/1.png)
 
-With Boomerang Stages and touchpoints, you will see touchpoints that occur for each stage transition. The naming convention for these boomerang touchpoints will be as follows:
+With [!DNL Boomerang] Stages and touchpoints, you will see touchpoints that occur for each stage transition. The naming convention for these [!DNL boomerang] touchpoints will be as follows:
 
 **[Stage Name]-00.**
 
-Using the example below, this Marketo Measure account has included MQL and SQL in their boomerang stages, and have chosen to display 2 boomerang touchpoints per stage.
+Using the example below, this [!DNL Marketo] Measure account has included MQL and SQL in their boomerang stages, and have chosen to display 2 boomerang touchpoints per stage.
 
 ![](assets/2.png)
 
@@ -45,7 +45,7 @@ Boomerang Stages will impact:
 
 **Attribution by channel**
 
-* Since Boomerang Stages will create more touchpoints, this will change how attribution is distributed among the touchpoints that currently exist in your data. As a result, this may mean that revenue values will shift between marketing channels. Please take this into consideration before implementing Boomerang stages, or contact your account manager for more information.
+* Since [!DNL Boomerang Stages] will create more touchpoints, this will change how attribution is distributed among the touchpoints that currently exist in your data. As a result, this may mean that revenue values will shift between marketing channels. Please take this into consideration before implementing [!DNL Boomerang stages], or contact your account manager for more information.
 
 **Any reports that use “equals [Touchpoint Position]”**
 
@@ -67,10 +67,10 @@ Marketo Measure has to place a limit on the number of stages in order to keep pr
 
 **Q: I have Data Warehouse. Do I get all of the data or does the Boomerang Stages cap apply to me as well?**
 
-The cap will apply to Data Warehouse and CRMs because of the processing limits that Marketo Measure has in place. Data Warehouse will also see the limit of 10 touchpoints per stage.
+The cap will apply to Data Warehouse and CRMs because of the processing limits that [!DNL Marketo] Measure has in place. Data Warehouse will also see the limit of 10 touchpoints per stage.
 
-**Q: What is the benefit of using Boomerang Stages with Custom Modeling?**
+**Q: What is the benefit of using [!DNL Boomerang] Stages with Custom Modeling?**
 
-Using Boomerang Stages with Custom Modelling will allow you to assign attribution weighting to Boomerang touchpoints, which will allocate revenue credit to these stages.
+Using [!UICONTROL Boomerang] Stages with Custom Modelling will allow you to assign attribution weighting to [!UICONTROL Boomerang] touchpoints, which will allocate revenue credit to these stages.
 
-Without custom modeling, Marketo Measure will create touchpoints for each boomerang and stage transition but will not assign any attribution credit to these touchpoints. The only boomerang touchpoints that will receive attribution credits are form submission touchpoints. Without custom model, Boomerang touchpoints are considered the same as a ‘middle touch’ and receive attribution credit accordingly.
+Without custom modeling, [!DNL Marketo] Measure will create touchpoints for each [!DNL boomerang] and stage transition but will not assign any attribution credit to these touchpoints. The only boomerang touchpoints that will receive attribution credits are form submission touchpoints. Without custom model, [!DNL Boomerang] touchpoints are considered the same as a ‘middle touch’ and receive attribution credit accordingly.

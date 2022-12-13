@@ -24,31 +24,31 @@ Yes. There will be a 1:1 relationship between your synced Activities and Touchpo
 
 A good suggestion is to set up your filters using the Activity object in your CRM first. Based off the filter rules, that will give you a good idea as to how many records fall under that criteria, then you can refine it as needed. This isn’t required, but a helpful way for users to understand how many Activities Touchpoints will be created once the Activities rules have been set up.
 
-**What is the Marketo Measure Campaign Name?**
+**What is the [!DNL Marketo] Measure Campaign Name?**
 
-Since these Activities will result in a Touchpoint, Marketo Measure needs to know which Channel and Subchannel they belong to. For each rule, you’ll be required to provide a Marketo Measure Campaign Name. Once that’s created, you can use the Online Channels CSV to map that Marketo Measure Campaign Name to its appropriate Channel. The Marketo Measure Campaign Name will also appear on the Touchpoint itself within the Ad Campaign Name field.
+Since these Activities will result in a Touchpoint, Marketo Measure needs to know which Channel and Subchannel they belong to. For each rule, you’ll be required to provide a Marketo Measure Campaign Name. Once that’s created, you can use the Online Channels CSV to map that Marketo Measure Campaign Name to its appropriate Channel. The Marketo Measure Campaign Name will also appear on the Touchpoint itself within the [!UICONTROL Ad Campaign Name] field.
 
 **What other Touchpoint fields are populated?**
 
-| **Touchpoint Field** |**Value** |
+| **Touchpoint Field** | **Value** |
 |---|---|
-| Lead/Contact |All activities are related to a Lead or Contact |
-| Campaign |Channel.Subchannel [Marketo Measure] |
-| Touchpoint Source |CRM Activity |
-| Medium |Activity.Type |
-| Touchpoint Type |Activity.Type |
-| Ad Campaign Name |Marketo Measure Campaign Name |
-| Ad Content |Activity Subject |
-| Ad Id |Activity External Id |
-| Touchpoint Date |[custom - set in apps] |
+| Lead/Contact | All activities are related to a Lead or Contact |
+| Campaign | Channel.Subchannel [Marketo Measure] |
+| Touchpoint Source | CRM Activity |
+| Medium | Activity.Type |
+| Touchpoint Type | Activity.Type |
+| Ad Campaign Name | Marketo Measure Campaign Name |
+| Ad Content | Activity Subject |
+| Ad Id | Activity External Id |
+| Touchpoint Date | [custom - set in apps] |
 
 **What if I need to create a different rule for each Sales Rep? Do I need to create different Marketo Measure Campaigns for each?**
 
 No you do not. We introduced a concept of "Dynamic Campaign Names." This allows you to fill in part (or all) of the Marketo Measure Campaign Name using a "replacement parameter" that references a field from the Activity object. For example, if you have a Marketo Measure Campaign Name titled “Outbound Call” but you want the Sales Rep to be at the end, you take the CRM field name and call the Marketo Measure Campaign Name “Outbound Call {AssignedTo}” or “Outbound Call {CreatedBy}."
 
-**How do I set up Activities in the Marketo Measure app?**
+**How do I set up Activities in the [!DNL Marketo] Measure app?**
 
-Directions on how to configure Activites within the Marketo Measure app can be found in the Marketo Measure Activities support article.
+Directions on how to configure Activites within the [!UICONTROL Marketo] Measure app can be found in the Marketo Measure Activities support article.
 
 **What do the different operators mean?**
 
@@ -56,7 +56,7 @@ Directions on how to configure Activites within the Marketo Measure app can be f
 * contains: the text is in the middle (aka: &#42;social&#42;)
 * starts with: the value starts with the text (aka: social&#42;)
 * ends with: the value ends with the text (aka: &#42;social)
-* matches any: multiple values can be added that are comma separated. If starts with, ends with, or contains operators need to be applied, used the wildcard (&#42;)
+* matches any: multiple values can be added that are comma separated. If [!UICONTROL starts with], [!UICONTROL ends with], or contains operators need to be applied, used the wildcard (&#42;)
 * greater than: used for numerical fields or date/time fields
 * less than: used for numerical fields or date/time fields
 

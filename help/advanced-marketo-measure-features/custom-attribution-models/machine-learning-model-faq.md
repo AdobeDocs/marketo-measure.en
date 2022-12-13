@@ -36,16 +36,16 @@ We re-run the model every 7 days.
 
 Why does the Model always set Middle Touches to 10%?
 
-Assigning 10% attribution credit to Middle Touches is a standard setting across all of our attribution models.
+Assigning 10% attribution credit to [!UICONTROL Middle Touches] is a standard setting across all of our attribution models.
 
 When should I change my attribution distribution?
 
-Please reach out to your account manager to discuss the implications of changing your attribution percentages, and which stages to include in your custom model. Each Salesforce and sales process is unique, and we want to ensure that your custom model is accurately modeled.
+Please reach out to your account manager to discuss the implications of changing your attribution percentages, and which stages to include in your custom model. Each [!DNL Salesforce] and sales process is unique, and we want to ensure that your custom model is accurately modeled.
 
 That being said, we've identified some general trends across our customers:
 
 One trend we've noticed is that it's not always beneficial to include more stages in your model. For example, when customers have added multiple Opportunity stages towards the bottom of the funnel, these stages tend to receive very low attribution percentage values. Low percentage values indicate a high conversion rate, which typically means that that these stages aren't as impactful at driving deals to close. Some customers ultimately decide to not include these stages in the funnel. If you decide to remove a stage from your attribution model, the machine model will recalculate and redistribute the percentages.
 
-We've also noticed that there is a high conversion rate from Lead Creation to Marketing Qualified stages, and consequently, the Marketing Qualified stage could receive a lower percentage attribution weighting. Depending on your business and sales cycle, it may be beneficial to remove this stage from the custom model.
+We've also noticed that there is a high conversion rate from Lead Creation to [!UICONTROL Marketing Qualified] stages, and consequently, the [!UICONTROL Marketing Qualified] stage could receive a lower percentage attribution weighting. Depending on your business and sales cycle, it may be beneficial to remove this stage from the custom model.
 
 Please keep in mind if you'd like to track marketing activities through a specific stage transition but you do not want this stage to receive attribution credit, you can include this stage in your model and assign 0% attribution credit to that stage.

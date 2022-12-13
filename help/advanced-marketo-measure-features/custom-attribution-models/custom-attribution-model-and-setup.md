@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: Custom Attribution Model and Setup - Marketo Measure - Product Documentation
+description: Custom Attribution Model and Setup - [!DNL Marketo] Measure - Product Documentation
 title: Custom Attribution Model and Setup
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 ---
 # Custom Attribution Model and Setup {#custom-attribution-model-and-setup}
 
-See below for an overview of Marketo Measure's custom attribution model and how to set it up.
+See below for an overview of [!DNL Marketo] Measure's custom attribution model and how to set it up.
 
 ## Custom Attribution Model {#custom-attribution-model}
 
@@ -18,9 +18,9 @@ Marketo Measure's Custom Attribution model allows users to choose which touchpoi
 
    To start building your custom attribution model, you will need to select which stages are important to your Marketing team. In addition to Marketo Measure's milestone stages (FT, LC, OC, Closed) you can add up to six additional Lead/Contact Statuses or Opportunity stages in your custom model. For example, it's common for the MQL stage to be included in the custom model. Marketing teams often want to know what efforts or channels are driving transitions to the MQL stage.
 
-   Sign in to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Go to My Account > Settings > and under the CRM section, select **Stage Mapping**.
+   Sign in to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Go to My Account >[!UICONTROL Settings] > and under the CRM section, select **Stage Mapping**.
 
-   Once here, you will need to select which Leads/Contacts, and Opportunity stages to include by selecting the **Include in Model** box.
+   Once here, you will need to select which Leads/Contacts, and Opportunity stages to include by selecting the **[!UICONTROL Include in Model]** box.
 
    >[!NOTE]
    >
@@ -32,9 +32,9 @@ Marketo Measure's Custom Attribution model allows users to choose which touchpoi
    >
    >_All_ Leads/Contacts and Opportunity stages will appear here, even if the stage is inactive or no longer used in Salesforce. If you want these stages removed, you'll need to hard delete them in Salesforce.
 
-   When you've selected your stages, be sure to click the **Save & Process** button at the bottom of the page. The stages will now appear in the **Attribution Settings** tab and you'll be able to assign attribution percentages to each stage. Custom stages will also be displayed in the Marketing Performance Suite as a Lead or Opportunity stage within the Demand Waterfall.
+   When you've selected your stages, be sure to click the **[!UICONTROL Save & Process]** button at the bottom of the page. The stages will now appear in the **[!UICONTROL Attribution Settings]** tab and you'll be able to assign attribution percentages to each stage. Custom stages will also be displayed in the Marketing Performance Suite as a Lead or Opportunity stage within the Demand Waterfall.
 
-   If there are other stages that you want to include in the model, but they are not in the Lead/Contact Status or Opportunity Stage list, you can define your own custom stage based off of fields in your CRM.
+   If there are other stages that you want to include in the model, but they are not in the [!UICONTROL Lead/Contact Status] or [!UICONTROL Opportunity Stage] list, you can define your own custom stage based off of fields in your CRM.
 
    In the example below, a custom "MQL" stage is defined using a date field. The rule simply states that if the MQL Date field isn't empty, it should be considered an MQL and should be included in the custom model. Please note it is also important to sort the custom stages once they have been created so that it follows the progression of your sales cycle.
 
@@ -48,11 +48,11 @@ If a custom field is being used in your custom model, Field History tracking MUS
 
 1. Determine the attribution percentages for the custom model.
 
-   Go to the **Attribution Settings** in Marketo Measure Apps; the custom stages will appear here in the attribution table. The attribution table displays all of Marketo Measure's attribution models, and the attribution weighting of each model. The attribution percentages of the first five models are fixed and cannot be changed.
+   Go to the **[!UICONTROL Attribution] Settings** in [!DNL Marketo] Measure Apps; the custom stages will appear here in the attribution table. The attribution table displays all of Marketo Measure's attribution models, and the attribution weighting of each model. The attribution percentages of the first five models are fixed and cannot be changed.
 
-   In the far right column labeled "**Custom**," you can set the percentage weighting for each stage in your custom attribution model. Simply input the values for each stage under the Custom column. Then **Save and Reprocess** once complete.
+   In the far right column labeled "**[!UICONTROL Custom]**," you can set the percentage weighting for each stage in your custom attribution model. Simply input the values for each stage under the Custom column. Then **Save and Reprocess** once complete.
 
-   To the left of the "Custom" column is **Marketo Measure's Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [please click here](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   To the left of the "Custom" column is **[!DNL Marketo] Measure's Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [please click here](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 
@@ -68,13 +68,13 @@ You can now see custom stages in your Marketing Funnel, even if you don't have C
 
 Funnel Stages will still get tracked as Touchpoints and will still appear as Touchpoint Positions in your CRM. Without Custom Model, these Touchpoints may still receive middle touch attribution if there's a form fill (10% for Middle Touches), but zero attribution credit if it's just a web visit.
 
-As you can see below, we've included the Diligence stage as apart of our Funnel Stages. This means we will have Touchpoints where the position contains Diligence, but those Touchpoints will only receive Middle Touch attribution credit if Custom Model isn't enabled (at most 10%).
+As you can see below, we've included the [!UICONTROL Diligence] stage as apart of our Funnel Stages. This means we will have Touchpoints where the position contains Diligence, but those Touchpoints will only receive Middle Touch attribution credit if Custom Model isn't enabled (at most 10%).
 
 ![](assets/5.png)
 
 >[!NOTE]
 >
->The behavior for BAT custom models is to divide custom model middle touch percent evenly across other stages, provided there are no middle touches.
+>The behavior for [!DNL BAT custom models] is to divide custom model middle touch percent evenly across other stages, provided there are no middle touches.
 
 >[!MORELIKETHIS]
 >

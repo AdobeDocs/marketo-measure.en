@@ -11,7 +11,7 @@ By default, Buyer Attribution Touchpoints will pull the Opportunity Amount from 
 * Amount (SFDC Default)
 * Marketo Measure Opportunity Amount (Custom)
 
-If you are using a custom Amount field on your Opportunities, we will need to configure a workflow in order to calculate the Buyer Touchpoint Revenue. This takes some more advanced knowledge of Salesforce, so it may require assistance from your SFDC Admin.
+If you are using a custom Amount field on your Opportunities, we will need to configure a workflow in order to calculate the Buyer Touchpoint Revenue. This takes some more advanced knowledge of [!DNL Salesforce], so it may require assistance from your SFDC Admin.
 
 Starting off, we will need the following information:
 
@@ -29,7 +29,7 @@ From here, we will start creating the workflow.
 
    ![](assets/3.jpg)
 
-1. Configure the workflow. Set the Rule Name as “Update Marketo Measure Opportunity Amount." Set the Evaluation Criteria to “Created, and every time it’s edited.” For the Rule Criteria, select your custom Amount field and select the Operator as “Not Equal To” and leave the “Value” field blank.
+1. Configure the workflow. Set the Rule Name as “Update Marketo Measure Opportunity Amount." Set the Evaluation Criteria to “Created, and every time it’s edited.” For the Rule Criteria, select your custom Amount field and select the Operator [!UICONTROL as “Not Equal To”] and leave the “Value” field blank.
 
    ![](assets/4.jpg)
 
@@ -43,8 +43,8 @@ From here, we will start creating the workflow.
 
 1. You will be brought back to a roll-up page for your workflow, be sure to “Activate” and you’ll be good to go. To activate, click **Edit** next to your new workflow and then click **Activate**.
 
-   Once you’ve completed these steps, the opportunities will need to be updated in order to trigger the workflow to have the new value from the custom opportunity field.
+   Once you’ve completed these steps, the opportunities will need to be updated in order to trigger the workflow to have the new value from the [!UICONTROL custom opportunity] field.
 
    This can be accomplished by running your opportunities through Data Loader within SFDC. Please find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-If there are any questions along the way, please don’t hesitate to reach out to your Customer Success Manager or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+If there are any questions along the way, please don’t hesitate to reach out to your Customer Success Manager or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

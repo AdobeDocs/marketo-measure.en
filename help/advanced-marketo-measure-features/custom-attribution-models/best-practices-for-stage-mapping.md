@@ -1,5 +1,5 @@
 ---
-description: Best Practices for Stage Mapping - Marketo Measure - Product Documentation
+description: Best Practices for Stage Mapping - [!DNL Marketo] Measure - Product Documentation
 title: Best Practices for Stage Mapping
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 ---
@@ -7,7 +7,7 @@ exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 
 ## Overview {#overview}
 
-The Stage Mapping section of your Marketo Measure account outlines the stages that Marketo Measure automatically pulls from your CRM and any custom stages you have defined if using the Custom Attribution Model. The validity of your Marketo Measure data relies on these stages being ordered correctly so that Marketo Measure can accurately understand your funnel and the progression of records throughout said funnel.
+The Stage Mapping section of your [!DNL Marketo Measure] account outlines the stages that [!DNL Marketo Measure] automatically pulls from your CRM and any custom stages you have defined if using the Custom Attribution Model. The validity of your [!DNL Marketo] Measure data relies on these stages being ordered correctly so that [!DNL Marketo Measure] can accurately understand your funnel and the progression of records throughout said funnel.
 
 In the Stage Mapping section of your Marketo Measure instance, you will see both active and inactive stages from your CRM. Order all of the stages to the best of your ability in alignment with how your funnel is today.
 
@@ -18,19 +18,19 @@ An additional feature that is managed in this section are Funnel Stages, which g
 Whether you’re evaluating your Stage Mapping for the first time or just reviewing your funnel order, it is important to keep the following best practices in mind.
 
 * Order is everything!
-  * Considering Marketo Measure pulls in both active and inactive stages from your CRM, confirm that any stage which could be used on a Lead/Contact or Opportunity are grouped together and ordered accordingly
+   * Considering Marketo Measure pulls in both active and inactive stages from your CRM, confirm that any stage which could be used on a Lead/Contact or Opportunity are grouped together and ordered accordingly
 * When defining a custom stage, make sure field history tracking is enabled for any field(s) used to define the stage
 * Do not use a formula field to define a custom stage
-  * A Boolean field is the best practice recommendation
+   * A Boolean field is the best practice recommendation
 * Note that the Lead or Contact stage section is divided into Lost, Open, and Converted; validate that the stages are in their appropriate stage section
-  * Having a stage in the incorrect stage section can result in highly incorrect Marketo Measure data
+   * Having a stage in the incorrect stage section can result in highly incorrect Marketo Measure data
 * Note that the Opportunity stage section is divided into Lost, Open, and Won; validate that the stages are in their appropriate stage section
-  * Having a stage in the incorrect stage section can result in highly incorrect Marketo Measure revenue or pipeline revenue data
+   * Having a stage in the incorrect stage section can result in highly incorrect Marketo Measure revenue or pipeline revenue data
 * Avoid using duplicate stage names (our system will detect them and automatically remove one).
 
 ## Best Practices for Maintenance {#best-practices-for-maintenance}
 
-Reviewing your Stage Mapping once a year will ensure that your Opportunity data in Marketo Measure is accurate and up to date.
+Reviewing your Stage Mapping once a year will ensure that your Opportunity data in [!DNL Marketo] Measure is accurate and up to date.
 
 Other reasons that might trigger a review of your Stage Mapping include...
 

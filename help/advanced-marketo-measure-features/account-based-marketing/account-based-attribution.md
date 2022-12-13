@@ -1,14 +1,14 @@
 ---
 unique-page-id: 18874650
-description: Account Based Attribution - Marketo Measure - Product Documentation
+description: Account Based Attribution - [!DNL Marketo] Measure - Product Documentation
 title: Account Based Attribution
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 ---
 # Account Based Attribution {#account-based-attribution}
 
-With the rise of Account-based Marketing (ABM) it's important to understand how Marketo Measure can complement your ABM strategy. Marketo Measure will surface each touchpoint for each lead and contact under your accounts.
+With the rise of Account-based Marketing (ABM) it's important to understand how [!DNL Marketo Measure] can complement your ABM strategy. [!DNL Marketo Measure] will surface each touchpoint for each lead and contact under your accounts.
 
-## The What {#the-what}
+## The [!UICONTROL What] {#the-what}
 
 When there are multiple Opportunities under one Account, the different Opportunities will share the same first two Touchpoints - the First Touch (FT) & Lead Creation (LC). When new Opportunities are created their individual revenue amount will be allocated across the Touchpoints that contributed to moving the Opportunity further down the funnel. It's important to note, Touchpoints that are tied Opportunities are considered Buyer Attribution Touchpoints (BATs).
 
@@ -18,6 +18,6 @@ For example, the Account below has two Opportunities. For the first Opportunity,
 
 ## How Does This Help? {#how-does-this-help}
 
-Since Marketo Measure is surfacing all the marketing interactions tied to your accounts, marketers get a better understanding of what accounts are likely to close, how often they've engaged with your company, what those engagements are, how much revenue each engagement is worth, etc.
+Since [!DNL Marketo Measure] is surfacing all the marketing interactions tied to your accounts, marketers get a better understanding of what accounts are likely to close, how often they've engaged with your company, what those engagements are, how much revenue each engagement is worth, etc.
 
 With Marketo Measure and an ABM approach, marketing performance will finally be based off of revenue. If you're thinking of moving to an Account Based Marketing approach, check out the [CMO's Guide to ABM Orchestration](https://info.bizible.com/cmos-guide-to-abm-orchestration), which walks you through the planning, execution, and measurement phases of ABM orchestration.

@@ -1,23 +1,23 @@
 ---
 unique-page-id: 18874773
-description: A/B Testing Set Up and Reporting - Marketo Measure - Product Documentation
+description: A/B Testing Set Up and Reporting - [!DNL Marketo] Measure - Product Documentation
 title: A/B Testing Set Up and Reporting
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 ---
 # A/B Testing Set Up and Reporting {#a-b-testing-set-up-and-reporting}
 
-The Marketo Measure A/B Test integration allows you to track the revenue impact of your [Optimizely](https://optimizely.com/) and VWO site experiments. This article guides provides instructions on how to add Marketo Measure A/B Test sections to the Lead, Contact, Case, and Opportunity page layouts. We will also cover general reporting practices and recommendations for running Marketo Measure A/B report types.
+The Marketo Measure A/B Test integration allows you to track the revenue impact of your [Optimizely](https://optimizely.com/) and VWO site experiments. This article guides provides instructions on how to add Marketo Measure A/B Test sections to the Lead, [!UICONTROL Contact], Case, and [!UICONTROL Opportunity] page layouts. We will also cover general reporting practices and recommendations for running Marketo Measure A/B report types.
 
 ## Set Up {#set-up}
 
 Add the Marketo Measure A/B Test sections on Lead, Contact, Case, and Opportunity. Marketo Measure A/B Test integration allows you to track the revenue impact of your [Optimizely](https://optimizely.com/) and [VWO](https://vwo.com/) site experiments.
 
-1. Verify you are using package Marketo Measure v3.9 or later. You can do this by going to Salesforce > Set Up > Installed packages.
-1. Edit the Lead page layout and add the **Marketo Measure A/B Tests** Related List to the page.
+1. Verify you are using package Marketo Measure v3.9 or later. You can do this by going to [!UICONTROL Salesforce] >[!UICONTROL Set Up] >[!UICONTROL Installed packages].
+1. Edit the Lead page layout and add the **[!DNL Marketo] Measure A/B Tests** Related List to the page.
 
    ![](assets/1.png)
 
-1. Click the Wrench button. Remove the stock "Id" field from the list of Selected fields. Add **Experiment**, **Variation**, and **DateReported** fields. Change "Sort by" to **Date Reported**, and select **Descending** in the drop-down.
+1. Click the [!UICONTROL Wrench] button. Remove the stock "Id" field from the list of Selected fields. Add **Experiment**, **Variation**, and **DateReported** fields. Change "Sort by" to **Date Reported**, and select **[!UICONTROL Descending]** in the drop-down.
 
    ![](assets/2.png)
 
@@ -29,7 +29,7 @@ Add the Marketo Measure A/B Test sections on Lead, Contact, Case, and Opportunit
 
 ## Reporting {#reporting}
 
-Customers have access to a couple of Marketo Measure A/B report types that allow you to report on A/B Test in relation to Leads, Contacts, and Opportunities:
+Customers have access to a couple of [!DNL Marketo] Measure A/B report types that allow you to report on A/B Test in relation to Leads, Contacts, and Opportunities:
 
 * Marketo Measure A/BTests
 * Marketo Measure A/BTests with Contact
@@ -57,6 +57,6 @@ Here are some common fields we recommend using when reporting on A/B test to hel
 
 ![](assets/5.png)
 
-**Marketo Measure A/B Test with Opportunity**
+**[!DNL Marketo] Measure A/B Test with Opportunity**
 
 ![](assets/6.png)
