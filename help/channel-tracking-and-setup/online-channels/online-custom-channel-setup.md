@@ -45,7 +45,7 @@ The rows represent rules and the order in which [!DNL Marketo Measure] prioritiz
 
 ![](assets/3.png)
 
-[!DNL Marketo Measure] comes with 12 default channels for your use. These channels correlate to platforms with which [!DNL Marketo Measure] is fully integrated. Whether you use them or not, please do not remove them. If you do use one of these platforms, [!DNL Bing Ads] for example, but prefer to use a different naming convention for the channel or subchannel, you are able to update the name. An example is shown in the image below.
+[!DNL Marketo Measure] comes with 12 default channels for your use. These channels correlate to platforms with which [!DNL Marketo Measure] is fully integrated. Whether you use them or not, please do not remove them. If you do use one of these platforms, Bing Ads for example, but prefer to use a different naming convention for the channel or subchannel, you are able to update the name. An example is shown in the image below.
 
 ![](assets/4.png)
 
@@ -53,7 +53,7 @@ The structure of the rules is also important. The rules may look like repeated i
 
 Consider the following situation: you have other ads that you do not want to track for some reason, or you receive visits to your website from a familiar channel, but not a familiar source. This situation could lead to data loss if [!DNL Marketo Measure] cannot find the appropriate rule to use to sort the data. To prevent this from happening, [!DNL Marketo Measure] advises you to break your rule over several rows.
 
-Each parameter or component of the rule is separately mapped to the channel. For instance, when [!DNL Marketo Measure] has Facebook data to sort, it looks for rules related to Facebook. It scans from top to bottom. In the example pictured below, [!DNL Marketo Measure] would understand that for the first [!DNL Facebook] subchannel, all it has to read is the source parameter to drop data into that rule's bucket.
+Each parameter or component of the rule is separately mapped to the channel. For instance, when [!DNL Marketo Measure] has [!DNL Facebook] data to sort, it looks for rules related to [!DNL Facebook]. It scans from top to bottom. In the example pictured below, [!DNL Marketo Measure] would understand that for the first [!DNL Facebook] subchannel, all it has to read is the source parameter to drop data into that rule's bucket.
 
 ![](assets/5.png)
 

@@ -88,7 +88,7 @@ More information on Syncing Marketing Lists can be found here: [[!DNL Dynamics] 
 
 >[!NOTE]
 >
->If for any reason you have a campaign tracking online activity that is active past the JavaScript live date, be sure to set the " [!UICONTROL Touchpoint End Date"] field to the date the JS went live. This is to avoid having duplicate touchpoints for the same interaction.
+>If for any reason you have a campaign tracking online activity that is active past the JavaScript live date, be sure to set the "[!UICONTROL Touchpoint End Date]" field to the date the JS went live. This is to avoid having duplicate touchpoints for the same interaction.
 
 Considerations: Online data added in this way will inherently be less granular than online data [!DNL Marketo Measure] tracks via JavaScript. For example, fields such as: Form URL, Landing Page, Referrer Page, etc., will not be populated. Therefore, it is recommended to break out the campaigns into each source if possible. Below is an example of ideal mapping.
 
@@ -111,4 +111,5 @@ To have touchpoints for offline marketing efforts from the past, the data must b
 | Events - Hosted Events | Events | Hosted Events |
 | Webinar - Partner Webinar | Webinar | Partner Webinar |
 
-If this data is not already organized into Campaigns with the correct dates set, you can use the [!UICONTROL "Buyer Touchpoint Date"] field to reflect the accurate date from the offline activity in the past.
+If this data is not already organized into Campaigns with the correct dates set, you can use the "Buyer Touchpoint Date" field to reflect the accurate date from the offline activity in the past.
+

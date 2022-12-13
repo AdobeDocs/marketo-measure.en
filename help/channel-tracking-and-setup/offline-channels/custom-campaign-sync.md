@@ -15,8 +15,8 @@ Today, with the installed [!DNL Marketo Measure] package, you are able to indica
 
 ## How it Works {#how-it-works}
 
-1. With AccountAdmin permissions, you can navigate to [!UICONTROL Settings] > [!UICONTROL Campaigns] and see the [!UICONTROL Sync Campaign Members] rules UI.
-1. Click the + icon to start creating a rule.
+1. With AccountAdmin permissions, you can navigate to **[!UICONTROL Settings]** > **[!UICONTROL Campaigns]** and see the Sync Campaign Members rules UI.
+1. Click the **+** icon to start creating a rule.
 
    ![](assets/1-1.png)
 
@@ -26,7 +26,7 @@ Today, with the installed [!DNL Marketo Measure] package, you are able to indica
 
    >[!NOTE]
    >
-   >Formula fields cannot be used within your rules and will not appear in the picklist. Because formulas calculate in the background and do not modify a record, [!DNL Marketo] Measure cannot detect whether a record fits a rule or not.
+   >Formula fields cannot be used within your rules and will not appear in the picklist. Because formulas calculate in the background and do not modify a record, [!DNL Marketo Measure] cannot detect whether a record fits a rule or not.
 
 1. Choose the Touchpoint Date. The list of possible dates will appear after you enter a curly bracket `{` - then you can select the date that you want to choose to apply to all Touchpoints created from the rule.
 

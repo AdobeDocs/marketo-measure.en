@@ -15,11 +15,12 @@ Here are some tips for an efficient syncing process:
 * Offline campaigns refer to marketing interactions that do not occur online. These include marketing channels like events, webinars, and tradeshows. Only include offline marketing campaigns.
 * If you want to include campaigns that tracked online activity prior to when you installed [!DNL Marketo Measure], be sure to set the Touchpoint End Date as the date our JavaScript was deployed on your site.
 * It is helpful to keep the [!DNL Marketo Measure] app open on the Offline Channels page so that it is easy to identify the different Campaign Types, along with what Marketing Channel the Touchpoints will be bucketed into.
+
 * Double check everything before you hit the "[!UICONTROL Save]" button!
 
 ## Bulk Update Touchpoint Date {#bulk-update-touchpoint-date}
 
-In Salesforce, the Created Date field on the Campaign Member Object notes the date the Campaign Member was added to the campaign. In order for the syncing process to go smoothly, make sure the Buyer Touchpoint Date Field has the same date as the date on the Salesforce Campaign Member Object. This step is performed using the "[!UICONTROL Bulk Update Touchpoint Date button]," _before_ you select the [!UICONTROL picklist] option in the Enable Buyer Touchpoints field.
+In [!DNL Salesforce], the Created Date field on the Campaign Member Object notes the date the Campaign Member was added to the campaign. In order for the syncing process to go smoothly, make sure the Buyer Touchpoint Date Field has the same date as the date on the Salesforce Campaign Member Object. This step is performed using the "[!UICONTROL Bulk Update Touchpoint Date button]," _before_ you select the [!UICONTROL picklist] option in the Enable Buyer Touchpoints field.
 
 Why is this important? Imagine for a moment that your company sponsored a booth at a conference in January. At the conference, 100 individuals showed interest in your product and provided their contact information to receive email updates. Three weeks later, you finally created a campaign in [!DNL Salesforce] to track the outcome of the conference.
 

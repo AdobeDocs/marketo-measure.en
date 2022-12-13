@@ -24,19 +24,19 @@ The spreadsheet has three columns:
 
 ## Offline Channel Logic {#offline-channel-logic}
 
-[!DNL Marketo Measure] offline channel logic is determined by the Campaign object, specifically the [!DNL Salesforce] Campaign Type. Each offline effort must have a [!DNL Salesforce] Campaign Type, such as dinner or tradeshow, because [!DNL Marketo Measure] relies on this field to understand which Channel and Subchannel to map to.
+[!DNL Marketo Measure] offline channel logic is determined by the Campaign object, specifically the [!DNL Salesforce] Campaign Type. Each offline effort must have a [!DNL Salesforce] Campaign Type, such as dinner or tradeshow, because [!DNL Marketo Measure] relies on this field to understand which Channel and SubChannel to map to.
 
-The SFDC campaign types will appear in the Offline Channel's tab, listed under [!DNL Salesforce] Campaign Type. Please note that [!DNL Marketo] Measure is only able to import SFDC Campaign Types for campaigns that have Buyer touchpoints associated to them.
+The SFDC campaign types will appear in the Offline Channel's tab, listed under [!DNL Salesforce] Campaign Type. Please note that [!DNL Marketo Measure] is only able to import SFDC Campaign Types for campaigns that have Buyer touchpoints associated to them.
 
 ![](assets/2-2.png)
 
-This is where you can create the Channel/Subchannel mapping in the [!DNL Marketo Measure] app. This will likely involve creating new Channels and Subchannels in the [!DNL Marketo Measure] app, which is done in the [!UICONTROL Create Channels] section of the app--shown in the image below. New Channels and Subchannels need to be created for [!DNL Marketo Measure] to understand where to push Touchpoints. You are able to decide how you would like campaign types to be mapped.
+This is where you can create the Channel/Subchannel mapping in the [!DNL Marketo Measure] app. This will likely involve creating new Channels and Subchannels in the [!DNL Marketo Measure] app, which is done in the Create Channels section of the app--shown in the image below. New Channels and Subchannels need to be created for [!DNL Marketo Measure] to understand where to push Touchpoints. You are able to decide how you would like campaign types to be mapped.
 
 ![](assets/3-2.png)
 
 ## Channel Mapping Example {#channel-mapping-example}
 
-For example, imagine you attend two [!DNL Salesforce] conferences a year. Each conference however is very different and has a unique target audience. You want to know which of the two brings in more value. In your Salesforce environment, you may give the January event the Campaign Type "Conference," name your channel "Salesforce," and your subchannel "January Conference."
+For example, imagine you attend two [!DNL Salesforce] conferences a year. Each conference however is very different and has a unique target audience. You want to know which of the two brings in more value. In your [!DNL Salesforce] environment, you may give the January event the Campaign Type "Conference," name your channel "[!DNL Salesforce]," and your subchannel "January Conference."
 
 Now you want to do the same for the June conference. You figure since this is a conference also, it can be given the same Campaign Type, in this case, "Conference." The channel is the same, [!DNL Salesforce], and the subchannel for this second conference is "June Conference." This makes sense from an organizational perspective. However, it is very confusing to the [!DNL Marketo Measure] logic to read and apply these rules because both campaigns have the same Campaign Type. [!DNL Marketo Measure] script cannot map data from one type to two different subchannels. This means you would need to create a new Campaign Type for each subchannel, but the subchannels can have the same channel.
 
@@ -64,7 +64,7 @@ Another tip for handling campaigns for online activities is to map the [!DNL Sal
 
 ## Entering Your Offline Channel Rules to the App {#entering-your-offline-channel-rules-to-the-app}
 
-Once you have edited and updated the spreadsheet with your custom rules, the next step is to recreate this channel mapping in the [!DNL Marketo Measure] app--you won't actually upload a spreadsheet for offline channels. Rather, you will enter the information in the picklist boxes as displayed in the image below. This is found by clicking **Offline [!UICONTROL Channels]** under the **[!UICONTROL Channels]** section.
+Once you've edited and updated the spreadsheet with your custom rules, the next step is to recreate this channel mapping in the [!DNL Marketo Measure] app--you won't actually upload a spreadsheet for offline channels. Rather, you will enter the information in the picklist boxes as displayed in the image below. This is found by clicking **[!UICONTROL Offline Channels]** under the **[!UICONTROL Channels]** section.
 
 ![](assets/7-2.png)
 
