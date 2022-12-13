@@ -53,11 +53,11 @@ The structure of the rules is also important. The rules may look like repeated i
 
 Consider the following situation: you have other ads that you do not want to track for some reason, or you receive visits to your website from a familiar channel, but not a familiar source. This situation could lead to data loss if [!DNL Marketo Measure] cannot find the appropriate rule to use to sort the data. To prevent this from happening, [!DNL Marketo Measure] advises you to break your rule over several rows.
 
-Each parameter or component of the rule is separately mapped to the channel. For instance, when [!DNL Marketo Measure] has Facebook data to sort, it looks for rules related to Facebook. It scans from top to bottom. In the example pictured below, [!DNL Marketo Measure] would understand that for the first Facebook subchannel, all it has to read is the source parameter to drop data into that rule's bucket.
+Each parameter or component of the rule is separately mapped to the channel. For instance, when [!DNL Marketo Measure] has [!DNL Facebook] data to sort, it looks for rules related to [!DNL Facebook]. It scans from top to bottom. In the example pictured below, [!DNL Marketo Measure] would understand that for the first [!DNL Facebook] subchannel, all it has to read is the source parameter to drop data into that rule's bucket.
 
 ![](assets/5.png)
 
-The next rule only asks for the medium parameter, so any data with that parameter will be bucketed into this channel. Lastly for Facebook, any data coming from the Facebook URL will be placed in the last Facebook bucket.
+The next rule only asks for the medium parameter, so any data with that parameter will be bucketed into this channel. Lastly for [!DNL Facebook], any data coming from the Facebook URL will be placed in the last Facebook bucket.
 
 The default channel 'Other' exists to catch data that does not meet any rule's criteria. Notice that some of the buckets in the Other channel contain asterisks (&#42;). These asterisks represent wildcards that act as a catch-all.
 
@@ -69,7 +69,7 @@ Below are more examples of wildcard logic:
 
 * &#42;email&#42; = contains "email"
 * &#42;email = ends with "email"
-* email&#42; = starts with email
+* email&#42; = [!UICONTROL starts with email]
 
 In addition, note that if you create a subchannel for one of your channels, you'll need to create a subchannel for all rules under that channel. In other words, if you create one subchannel, you cannot leave the rest of the columns blank.
 
@@ -81,7 +81,7 @@ Once you have decided how you want to organize and prioritize your data, you're 
 * Do not add any special characters in the channel names (e.g., $%#&&#42;@)
 * Do not edit the rules associated with BingAds and AdWords. These rules are crucial for bucketing the data that automatically comes from the [!DNL Marketo Measure] API integration with these platforms. Changing the subchannel and channel name to fit your needs is not a problem though.
 * Do not remove the rules that contain a "Do Not Remove" note.
-* Organic Search rules are always placed after the Paid Search rules
+* Organic Search rules are always placed after the [!UICONTROL Paid Search rules]
 * You cannot create rules based on different sub-domains.
 * If you have more than one value to add in a cell in the spreadsheet, be sure to separate the values with a semicolon `;` only. No commas or spaces.
 * You do not have to add dot com (.com) to the end of the referring URL.
@@ -89,6 +89,6 @@ Once you have decided how you want to organize and prioritize your data, you're 
 
 ## Uploading Your Custom Channels Rules {#uploading-your-custom-channels-rules}
 
-Make sure any new channel and subchannel values you're adding in the CSV have already been added in the channel settings area of your Bizible account. Double check all channel and subchannel names match in the CSV with the channel settings area of your [!DNL Marketo Measure] account. Make sure you check for commas and spaces. 
+Make sure any new channel and subchannel values you're adding in the CSV have already been added in the channel settings area of your Bizible account. Double check all channel and subchannel names match in the CSV with the channel settings area of your [!DNL Marketo Measure] account. Make sure you check for commas and spaces.
 
 If you receive an error message during uploading, correct the issue and re-upload. If no error message is received, click **Save & Process** at bottom of the page.

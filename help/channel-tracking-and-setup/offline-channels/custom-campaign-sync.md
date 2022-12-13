@@ -20,7 +20,7 @@ Today, with the installed [!DNL Marketo Measure] package, you are able to indica
 
    ![](assets/1-1.png)
 
-1. You have the option of creating a rule from Campaign or Campaign Member fields. Fill out the remainder of the rule with the Operator and Value that we are expected to validate. In the example below, we are checking for a specific Campaign by its name.
+1. You have the option of creating a rule from [!UICONTROL Campaign] or [!UICONTROL Campaign Member] fields. Fill out the remainder of the rule with the Operator and Value that we are expected to validate. In the example below, we are checking for a specific Campaign by its name.
 
    ![](assets/2-1.png)
 
@@ -48,7 +48,7 @@ Today, with the installed [!DNL Marketo Measure] package, you are able to indica
 
    >[!NOTE]
    >
-   >If you are considering eventually stopping the user of the CRM Sync Type, it's ideal to create rules that do not reference the "Sync Type" but _still_ maintain the current CRM Touchpoints. That way the rules still work if/when that switch is made.
+   >If you are considering eventually stopping the user of the [!UICONTROL CRM Sync Type], it's ideal to create rules that do not reference the "Sync Type" but _still_ maintain the current CRM Touchpoints. That way the rules still work if/when that switch is made.
 
 Here's an example of what that would look like, so that no existing CRM touchpoints are lost:
 
@@ -60,7 +60,7 @@ You can easily check the Buyer Touchpoints and Buyer Attribution Touchpoint reco
 
 ## Testing {#testing}
 
-1. The Campaign Sync feature comes with a testing feature so that you can check if the rules you've created actually fit the Campaign criteria. Begin by clicking the Test button. The rules must be saved first before you can begin testing.
+1. The Campaign Sync feature comes with a testing feature so that you can check if the rules you've created actually fit the Campaign criteria. Begin by clicking the [!UICONTROL Test] button. The rules must be saved first before you can begin testing.
 
    ![](assets/7-1.png)
 
@@ -68,7 +68,7 @@ You can easily check the Buyer Touchpoints and Buyer Attribution Touchpoint reco
 
    ![](assets/8-1.png)
 
-1. After you click Test, you'll see the name of the Campaign and the number of Campaign Members that are eligible for touchpoints. A table will appear below that shows all of the rules that match to your Campaign Id. Only the matches will appear.
+1. After you click [!UICONTROL Test], you'll see the name of the Campaign and the number of Campaign Members that are eligible for touchpoints. A table will appear below that shows all of the rules that match to your Campaign Id. Only the matches will appear.
 
    ![](assets/9.png)
 

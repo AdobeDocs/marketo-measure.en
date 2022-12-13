@@ -29,8 +29,9 @@ Learn how to set up your [Online Channels](/help/channel-tracking-and-setup/onli
 **Marketing Channel**
 
 The Marketing Channel is the broadest level of classification, and can cover a wide variety of Subchannels. You can consider these the "type" of Subchannel that your leads are coming from. Examples of Marketing Channels include **Paid Search, Organic Search, Display,** and **Paid Social**. The Marketing Channel usually corresponds to the utm_medium parameter value found in your URL.
-  
+
 **Subchannel**
+
 Subchannels are the second piece of the puzzle when bucketing your incoming Leads. Subchannels tell the story of exactly _which_ iteration of your Marketing Channel was used. For example, within the Paid Social Marketing Channel, you may have Subchannels for **AdWords**, **BingAds**, **Facebook**, etc. The Subchannel usually corresponds to the utm_source parameter value found in your URL.
 
 ## Use Case Example {#use-case-example}

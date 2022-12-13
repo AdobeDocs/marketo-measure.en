@@ -14,13 +14,13 @@ The spreadsheet has three columns:
 
 ![](assets/1-2.png)
 
-**Salesforce Campaign Type** - add Campaign Types identified in Salesforce here
+**[!UICONTROL Salesforce] Campaign Type** - add Campaign Types identified in [!DNL Salesforce] here
 
 * For example this could be an email, webinar, conference, or any values you created for this field to which you would like to attribute Touchpoints.
 
-**Channel** - add your various marketing channels here
+**[!UICONTROL Channel]** - add your various marketing channels here
 
-**Subchannel** - add any corresponding subchannels here
+**[!UICONTROL Subchannel]** - add any corresponding subchannels here
 
 ## Offline Channel Logic {#offline-channel-logic}
 
@@ -50,13 +50,13 @@ In the scenario above, you will want to create a unique Campaign Type because yo
 
 Any existing campaign types must be included in your channel map and "NULL" should be added as the channel.
 
-Take time to go into [!DNL Salesforce] to determine the number and nature of your existing record types, which you want to include, and whether you need to create additional campaigns based on the information above. Once you have filled out all the necessary information, you are ready to upload
+Take time to go into [!DNL Salesforce] to determine the number and nature of your existing record types, which you want to include, and whether you need to create additional campaigns based on the information above. Once you have filled out all the necessary information, you're ready to upload.
 
 Learn more about [syncing offline [!DNL Salesforce] Campaigns with [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
 
 ## Handling SFDC Campaigns for Online Marketing Efforts {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
-It is common for Marketing teams to create [!DNL Salesforce] campaigns to track various digital marketing efforts. There is no problem with this practice; however, it is important to treat these campaigns differently than true offline campaigns such as direct mail or conferences, for example. Campaigns that are related to digital events (interactions taking place on your website) should not be synced with [!DNL Marketo Measure]. Syncing these campaigns would result in duplication of Touchpoints because the [!DNL Marketo Measure] JavaScript is already tracking online efforts.
+It's common for Marketing teams to create [!DNL Salesforce] campaigns to track various digital marketing efforts. There is no problem with this practice; however, it is important to treat these campaigns differently than true offline campaigns such as direct mail or conferences, for example. Campaigns that are related to digital events (interactions taking place on your website) should not be synced with [!DNL Marketo Measure]. Syncing these campaigns would result in duplication of Touchpoints because the [!DNL Marketo Measure] JavaScript is already tracking online efforts.
 
 Another tip for handling campaigns for online activities is to map the [!DNL Salesforce] Campaign Type to NULL. To do this, first create a channel in the [!DNL Marketo Measure] app titled NULL as demonstrated in the image below. This is found in the [!DNL Marketo Measure] app under the **Create Channels** section. This will be helpful in case a campaign that should not be synced is synced accidentally. It is easy to find the campaign and correct the sync status by looking at everything bucketed under NULL.
 
@@ -64,13 +64,13 @@ Another tip for handling campaigns for online activities is to map the [!DNL Sal
 
 ## Entering Your Offline Channel Rules to the App {#entering-your-offline-channel-rules-to-the-app}
 
-Once you have edited and updated the spreadsheet with your custom rules, the next step is to recreate this channel mapping in the [!DNL Marketo Measure] app--you won't actually upload a spreadsheet for offline channels. Rather, you will enter the information in the picklist boxes as displayed in the image below. This is found by clicking **[!UICONTROL Offline Channels]** under the **[!UICONTROL Channels]** section.
+Once you've edited and updated the spreadsheet with your custom rules, the next step is to recreate this channel mapping in the [!DNL Marketo Measure] app--you won't actually upload a spreadsheet for offline channels. Rather, you will enter the information in the picklist boxes as displayed in the image below. This is found by clicking **[!UICONTROL Offline Channels]** under the **[!UICONTROL Channels]** section.
 
 ![](assets/7-2.png)
 
 >[!TIP]
 >
->Want to determine _when_ a Salesforce Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Simply go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "Offline Channels" section. Please note, this process can take anywhere from a few minutes up to 48 hours.
+>Want to determine _when_ a [!DNL Salesforce] Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Simply go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "[!UICONTROL Offline Channels]" section. Please note, this process can take anywhere from a few minutes up to 48 hours.
 
 Click **[!UICONTROL Save]** when you're finished and [!DNL Marketo Measure] will upload the changes and reprocess the data.
 

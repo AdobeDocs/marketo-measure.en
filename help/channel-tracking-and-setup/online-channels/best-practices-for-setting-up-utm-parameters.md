@@ -12,10 +12,10 @@ You can utilize the [Google URL Builder](https://support.google.com/analytics/an
 
 ## High level values for each parameter {#high-level-values-for-each-parameter}
 
-**utm_medium**: This field maps to the Medium field. Use utm_medium to denote the high level channel.  
-  
-e.g.: Social, CPC, email, web, organic  
-  
+**utm_medium**: This field maps to the Medium field. Use utm_medium to denote the high level channel.
+
+e.g.: [!UICONTROL Social], CPC, email, web, organic
+
 Do not use this field to call out the subchannel.
   
 **utm_source**: This field maps to the Touchpoint Source field. Use utm_source to define the subchannel from which the lead originates.
@@ -31,35 +31,35 @@ This is also a good parameter to denote Geolocation, Ad network type (display v.
 We recommend using underscores instead of spaces, and avoid using punctuation. This reduces the chances of encoding errors by browsers when reading your parameters.  
   
 e.g.: AU_Idea_for_an_App_50k  
-  
+
 **utm_content**: This maps to Ad Content. Use the Ad Title in the utm_content parameter. If it is an image ad, use ad title and include the ad dimensions.
-  
-e.g.: [ad title] 200x400px  
-  
+
+e.g.: [ad title] 200x400px
+
 **utm_term**: This maps to Keyword Text. Use this parameter to denote the keyword related to the firing of the ad.
-  
+
 If there is no keyword related to the ad, leave this parameter blank.
-  
+
 e.g.: iPhone App Ideas
 
 **Keep it simple and succinct. Do not duplicate efforts, terms, and channels.**
 
-We imagine the UTM hierarchy as follows:  
-  
-Medium > Source > Campaign > Content/Term
-  
-e.g.: If a display ad is placed on Facebook, we recommend the following:
-  
-fakewebsite.com/  
-  
-?utm_medium=social  
-  
-&utm_source=facebook  
-  
-&utm_campaign=Display_campaign_ID  
-  
-&utm_content=content_of_campaign  
-  
-Notice that terms/channel are not duplicated and utm_term is not used in this case.  
-  
+We imagine the UTM hierarchy as follows:
+
+Medium > [!UICONTROL Source] > [!UICONTROL Campaign] > [!UICONTROL Content/Term]
+
+e.g.: If a [!UICONTROL display] ad is placed on Facebook, we recommend the following:
+
+fakewebsite.com/
+
+?utm_medium=social
+
+&utm_source=facebook
+
+&utm_campaign=Display_campaign_ID
+
+&utm_content=content_of_campaign
+
+Notice that terms/channel are not duplicated and utm_term is not used in this case.
+
 If there are any questions, reach out to your Customer Success Manager or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

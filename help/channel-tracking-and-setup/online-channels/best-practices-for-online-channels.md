@@ -22,16 +22,16 @@ Take some time to think about the organization of your marketing campaigns and h
 Things to keep in mind:
 
 * All digital channels and subchannels should be represented with at least one rule
-  * If the channel does not drive people to your site, it is not an Online Channel
+   * If the channel does not drive people to your site, it is not an Online Channel
 * It's okay to have multiple rules for one channel/subchannel
-  * Multiple rules can be thought of as "casting a wider net" to ensure that each touchpoint is mapped correctly. Often parameters can be incorrectly added or missed completely, therefore having multiple rules to capture a channel/subchannel is a good idea to ensure mapping accuracy.
-* The [!DNL Marketo Measure] logic prioritizes touchpoint mapping in descending order starting with the top row of the spreadsheet and making its way down
-  * [!DNL Marketo Measure] reads each rule (row), looking for the true and first fit. The touchpoint is then mapped to that channel/sunchannel
-  * Do not sort your sheet in alphabetical order as this will interfere with the logic rules.
+   * Multiple rules can be thought of as "casting a wider net" to ensure that each touchpoint is mapped correctly. Often parameters can be incorrectly added or missed completely, therefore having multiple rules to capture a channel/subchannel is a good idea to ensure mapping accuracy.
+* [!DNL Marketo Measure] logic prioritizes touchpoint mapping in descending order starting with the top row of the spreadsheet and making its way down
+   * [!DNL Marketo Measure] reads each rule (row), looking for the true and first fit. The touchpoint is then mapped to that channel/subchannel
+   * Do not sort your sheet in alphabetical order as this will interfere with the logic rules.
 * Maintain the bracketed rules, do not edit or add to the bracketed rules (example; [AdWords Paid Search] or [Facebook Paid] )
-  * These are out of the box [!DNL Marketo Measure] rules that have built in logic, which are tied the [!DNL Marketo Measure] integrations. Give these rules top priority for that channel/subchannel section to ensure the [!DNL Marketo Measure] integrations are able to work as designed.
+   * These are out of the box [!DNL Marketo Measure] rules that have built in logic, which are tied the [!DNL Marketo Measure] integrations. Give these rules top priority for that channel/subchannel section to ensure the [!DNL Marketo Measure] integrations are able to work as designed.
 * Once the file is uploaded, you cannot change any of the rules for seven days
-  * [!DNL Marketo Measure] utilizes this time to process and update the Touchpoints, therefore make sure to double check your rules before uploading.
+   * [!DNL Marketo Measure] utilizes this time to process and update the Touchpoints, therefore make sure to double check your rules before uploading.
 
 ## Best Practice for Maintenace {#best-practice-for-maintenace}
 
@@ -44,7 +44,7 @@ Other items that might trigger your team to do Online Channel maintenance includ
 * Changes to your channel organization or naming conventions
 * Turnover in your marketing team
 
-If you team has experienced any of the above recently [!DNL Marketo Measure] recommends that you review you online channels rules and make the appropriate changes
+If your team has experienced any of the above recently [!DNL Marketo Measure] recommends that you review your online channels rules and make the appropriate changes.
 
 >[!MORELIKETHIS]
 >
