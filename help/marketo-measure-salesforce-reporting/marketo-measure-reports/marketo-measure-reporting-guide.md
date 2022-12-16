@@ -496,7 +496,7 @@ Considering the [!DNL Marketo Measure] Person allows us to report on all touchpo
 
 Essentially, the touchpoint data will reflect what's been tracked by [!DNL Marketo Measure] and can be audited to ensure your configuration matches inputs based on things like: UTM parameter values, Referring Pages, or Campaign Types. If the touchpoint data doesn't match your configuration, something most likely needs to be adjusted. Beyond the 'Marketing Channel' setup, you can look at touchpoint data to determine what touchpoints may need to be [suppressed](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) or [segmented](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). It is recommended to audit your touchpoint data within a '[!DNL Marketo Measure] Persons and Buyer Touchpoints' report at the end of each month or quarter if possible. This will ensure your attribution is as accurate as possible. The '[!DNL Marketo Measure] 101 | Leads/Contacts by Channel' report available out-of-the-box is a great place to start. Include the following fields if they're not already included to review some of the most crucial pieces of configuration:
 
-* **Marketing Channel** - Path = Marketing Channel.Sub Channel (values set in [!DNL Marketo Measure])
+* **Marketing Channel** - Path = Marketing Channel.Subchannel (values set in [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
 * **Medium** = utm_medium (online touchpoints) OR CRM Campaign Type (offline touchpoints)
 * **Referrer Page** (used the 'Online Channels' configuration) 
@@ -705,7 +705,7 @@ The [!DNL Marketo Measure] Discover dashboards provide a high-level view of your
 >
 >Whenever you have a question related to ROI, Spend or Cost, [!DNL Marketo Measure] Discover will be the best place for reporting!
 
-The [!DNL Marketo Measure] Discover dashboards are comprised of Buyer Touchpoint and Buyer Attribution Touchpoints data as well as key CRM data. The main difference between CRM reporting and reporting in [!DNL Marketo Measure] Discover is that the touchpoint data in Discover is presented more in an 'aggregated' fashion, and summarized by dimension (Marketing Channel, Campaign, etc.) as opposed to individual touchpoint records which can then be summarized. [!DNL Marketo Measure] Discover is used to understand at a high level which of your efforts are making the greatest impact on Leads, Opps, Deals and how much revenue should be attributed to them. Once we have the attributed revenue calculated via the various attribution models (Full Path is recommended for attributing closed won revenue/bookings), we can then measure it against how much was spent in the same dimension (Marketing Channel, Sub Channel, or Campaign). This then gives us the **ROI**.
+The [!DNL Marketo Measure] Discover dashboards are comprised of Buyer Touchpoint and Buyer Attribution Touchpoints data as well as key CRM data. The main difference between CRM reporting and reporting in [!DNL Marketo Measure] Discover is that the touchpoint data in Discover is presented more in an 'aggregated' fashion, and summarized by dimension (Marketing Channel, Campaign, etc.) as opposed to individual touchpoint records which can then be summarized. [!DNL Marketo Measure] Discover is used to understand at a high level which of your efforts are making the greatest impact on Leads, Opps, Deals and how much revenue should be attributed to them. Once we have the attributed revenue calculated via the various attribution models (Full Path is recommended for attributing closed won revenue/bookings), we can then measure it against how much was spent in the same dimension (Marketing Channel, Subchannel, or Campaign). This then gives us the **ROI**.
 
 >[!TIP]
 >
@@ -724,7 +724,7 @@ The filters highlighted below are crucial to an ROI focused report in [!DNL Mark
 ![](assets/bizible-reporting-guide-4.png)
 
 The 'Date' range not only sets the cohort of touchpoints (by Touchpoint Date) that are receiving attribution, but also it defines the range the 'Spend' tile or columns represent.
-[!DNL Marketo Measure] simply looks at the 'Date' range to determine how much was spent either in total, or at the Marketing Channel, Sub Channel, or Campaign levels See below:
+[!DNL Marketo Measure] simply looks at the 'Date' range to determine how much was spent either in total, or at the Marketing Channel, Subchannel, or Campaign levels See below:
 
 ![](assets/bizible-reporting-guide-5.png)
 
@@ -738,6 +738,6 @@ Another important takeaway from the ROI report above is the 'Pipeline Revenue' r
 
 >[!TIP]
 >
->Filter in on Marketing Channels, Sub Channels, and/or Campaigns in which you know the Marketing Spend data is complete and accurate. The example above is for all Marketing Channels, but if some Channels don't have the related Marketing Spend data uploaded, the ROI reporting could be inaccurate. See the example below, this time in the 'ROI' board that is focused on the Campaigns within the Marketing Channel of "Paid Search", a Channel with very granular Marketing Spend data via the integrations.
+>Filter in on Marketing Channels, Subchannels, and/or Campaigns in which you know the Marketing Spend data is complete and accurate. The example above is for all Marketing Channels, but if some Channels don't have the related Marketing Spend data uploaded, the ROI reporting could be inaccurate. See the example below, this time in the 'ROI' board that is focused on the Campaigns within the Marketing Channel of "Paid Search", a Channel with very granular Marketing Spend data via the integrations.
 
 ![](assets/bizible-reporting-guide-7.png)

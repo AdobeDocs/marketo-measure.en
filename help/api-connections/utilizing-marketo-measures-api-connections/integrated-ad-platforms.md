@@ -138,7 +138,7 @@ The [!DNL Marketo Measure] integration with [!DNL Facebook] allows it to automat
 
 Before enabling auto-tagging with [!DNL Facebook Ads], it is important to export the previous performance history as a CSV. At this point, when [!DNL Marketo Measure] tags [!DNL Facebook Ads] with its _bf parameter, [!DNL Facebook] reads the ads as brand new and erases the performance history. Therefore it is important to export a record of the previous performance if that is something of value to you and your organization.
 
-Please note that you may connect your [!DNL Facebook] account at any time to the [!DNL Marketo] Measure app and no data will be lost--it is only when auto-tagging is enabled that the performance history is wiped.
+Please note that you may connect your [!DNL Facebook] account at any time to the [!DNL Marketo Measure] app and no data will be lost--it is only when auto-tagging is enabled that the performance history is wiped.
 
 [Please see this article](https://www.facebook.com/business/help/393890194130036){target="_blank"} from Facebook for more information about exporting [!DNL Facebook] Ad reports.
 
@@ -146,7 +146,7 @@ Please note that you may connect your [!DNL Facebook] account at any time to the
 
 The LinkedIn integration allows [!DNL Marketo Measure] to tag destination URLs on [!DNL LinkedIn] Sponsored Content, which ultimately allows [!DNL Marketo Measure] to follow a user through their entire touchpoint journey and map the activity back to the specific [!DNL LinkedIn] Campaign and Creative. This provides insights to customers about the ROI of their [!DNL LinkedIn] activity. [!DNL Marketo Measure] will search for creatives with a unique [!DNL LinkedIn] Share and add a `?_bl={creativeId}` parameter to the end of it.
 
-Because [!DNL LinkedIn] Shares can be used across multiple Campaigns and Creatives, we ask that customers do not copy/clone/duplicate existing Creatives so that it can maintain its uniqueness. If Shares are found and are detected to only be used on one Creative, [!DNL Marketo] Measure can tag the Share as is without having to recreate any Creatives or Shares and all ads history (impressions, clicks, shares) will remain.
+Because [!DNL LinkedIn] Shares can be used across multiple Campaigns and Creatives, we ask that customers do not copy/clone/duplicate existing Creatives so that it can maintain its uniqueness. If Shares are found and are detected to only be used on one Creative, [!DNL Marketo Measure] can tag the Share as is without having to recreate any Creatives or Shares and all ads history (impressions, clicks, shares) will remain.
 
 As soon as a Share is found to be shared across multiple Creatives, [!DNL Marketo Measure] will have to run through a process of pausing, copying, and re-tagging in order to make a unique set. [!DNL Marketo Measure] will pause and archive live creatives, which means the creative containing the impressions, clicks, and social shares are also archived.
 

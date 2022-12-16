@@ -11,7 +11,7 @@ exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 * Touchpoint generation, which creates touchpoints that represent a person's interactions with your marketing and sales efforts
 * Touchpoint mapping, which credits touchpoints to the appropriate channel and subchannel
 
-In order for you to get the most out of [!DNL Marketo] Measure, you should work with your [!DNL Marketo Measure] rep to customize both processes to suit your organization's needs.
+In order for you to get the most out of [!DNL Marketo Measure], you should work with your [!DNL Marketo Measure] rep to customize both processes to suit your organization's needs.
 
 Touchpoint Generation Methods
 
@@ -35,7 +35,7 @@ The touchpoint mapping process answers the question, "Once this touchpoint's bee
 
 >[!MORELIKETHIS]
 >
->* [Mapping Online Touchpoints to [!DNL Marketo] Measure Channels/Subchannels](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+>* [Mapping Online Touchpoints to [!DNL Marketo Measure] Channels/Subchannels](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 >* [Syncing CRM Campaigns from within SFDC](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
 >* [Syncing CRM Campaigns from within [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Mapping CRM Campaigns to [!DNL Marketo Measure] Channels/Subchannels](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)

@@ -12,7 +12,7 @@ If you are currently using [!DNL Uberflip] to manage your content, it's importan
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. Ensure this [!DNL Marketo] Measure preamble code fires on both page load and AJAX page change. Do this within the [!UICONTROL Custom Code>JS] section
+1. Ensure this [!DNL Marketo Measure] preamble code fires on both page load and AJAX page change. Do this within the [!UICONTROL Custom Code>JS] section
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 

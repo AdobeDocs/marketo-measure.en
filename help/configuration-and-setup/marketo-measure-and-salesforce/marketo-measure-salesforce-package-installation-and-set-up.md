@@ -11,7 +11,7 @@ Before you install the [!DNL Marketo Measure] [!DNL Salesforce] base package, yo
 >
 >Once your [!DNL Marketo Measure] account is connected to a [!DNL Salesforce] production instance, you cannot move backwards and connect to a sandbox. Also, a [!DNL Marketo Measure] account can only be connected to one [!DNL Salesforce] production instance.
 
-The [!DNL Marketo] Measure Base Package contains:
+The [!DNL Marketo Measure] Base Package contains:
 
 * 7 Custom [!DNL Marketo Measure] Objects
 * Custom [!DNL Marketo Measure] Fields

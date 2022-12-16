@@ -4,7 +4,7 @@ description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Market
 title: Understanding [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 ---
-# Understanding [!DNL Marketo] Measure AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
+# Understanding [!DNL Marketo Measure] AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 
 In order to track your ads at a very granular level, the Ad Destination URLs must be unique. To accomplish this, [!DNL Marketo Measure] autotagging automatically adds tracking parameters to the Ad Destination URLs of your [!DNL AdWords] ads. Let's take a look at an example below.
 
@@ -12,7 +12,7 @@ The following URL will not provide any granular data:
 
 * `http://example.com/landing-page?myParam=foo`
 
-However, the same URL will provide granular data because of the [!DNL Marketo] Measure parameters:
+However, the same URL will provide granular data because of the [!DNL Marketo Measure] parameters:
 
 * `http://example.com/landing-page?myParam=foo&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 

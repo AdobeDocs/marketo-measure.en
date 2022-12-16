@@ -20,7 +20,7 @@ When [!DNL Marketo Measure] is installed in [!DNL Salesforce] (SFDC), several cu
 
 Touchpoints captured by the things you want to track will write to the custom objects created by the installation of the [!DNL Bizible Salesforce] package.
 
-[!DNL Marketo Measure] Objects relate to specific standard [!DNL Salesforce] Objects. This allows you to to report on [!DNL Marketo] Measure and [!DNL Salesforce] Objects together. The table below shows which [!DNL Salesforce] Object the [!DNL Marketo Measure] Object relates to.
+[!DNL Marketo Measure] Objects relate to specific standard [!DNL Salesforce] Objects. This allows you to to report on [!DNL Marketo Measure] and [!DNL Salesforce] Objects together. The table below shows which [!DNL Salesforce] Object the [!DNL Marketo Measure] Object relates to.
 
 ![](assets/1-1.png)
 
@@ -40,7 +40,7 @@ The [!UICONTROL Buyer Attribution Touchpoint] Object tells the story of the mark
 
 Buyer Attribution Touchpoints (BATs) are only created once an Opportunity is created which relates to contacts that have Buyer Touchpoint (BT) data. BATs will not be created without an Opportunity. Once the Opportunity has been created, the BAT Object will use the [!DNL Salesforce] *Amount* field on the Opportunity to understand how much revenue to attribute to the touchpoints.
 
-A **workflow** must be created if you use a [custom Amount field](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) to show revenue on the Opportunity Object. [!DNL Marketo] Measure is not able to read the information surfaced in custom Amount fields and consequently is unable to populate revenue attribution data on the touchpoints. This workflow will use the **[!DNL Marketo] Measure Opportunity Amount** Field, one of the [!DNL Marketo Measure] custom fields, to map the revenue value from the custom Amount field to the Opportunity Amount field.
+A **workflow** must be created if you use a [custom Amount field](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) to show revenue on the Opportunity Object. [!DNL Marketo Measure] is not able to read the information surfaced in custom Amount fields and consequently is unable to populate revenue attribution data on the touchpoints. This workflow will use the **[!DNL Marketo Measure] Opportunity Amount** Field, one of the [!DNL Marketo Measure] custom fields, to map the revenue value from the custom Amount field to the Opportunity Amount field.
 
 ![](assets/3-1.png)
 
@@ -58,7 +58,7 @@ If you are running A/B tests through [!DNL Optimizely] or VWO (Visual Web Optimi
 
 ![](assets/5.png)
 
-The [!DNL Marketo] Measure A/B Test Object is displayed as a Related List on [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
+The [!DNL Marketo Measure] A/B Test Object is displayed as a Related List on [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
 
 ## [!DNL Marketo Measure] Events {#marketo-measure-events}
 
@@ -70,4 +70,4 @@ Data captured by the [!DNL Marketo Measure] Javascript will be pushed into the c
 
 ## [!DNL Marketo Measure] Reports and Dashboards {#marketo-measure-reports-and-dashboards}
 
-The [!DNL Marketo Measure] Reports and Dashboards that are added to your [!DNL Salesforce] provides you with out-of-the-box reporting and data visualization capabilities. These are basic [!DNL Marketo] Measure reports to allow you to quickly organize, analyze and understand touchpoint data.
+The [!DNL Marketo Measure] Reports and Dashboards that are added to your [!DNL Salesforce] provides you with out-of-the-box reporting and data visualization capabilities. These are basic [!DNL Marketo Measure] reports to allow you to quickly organize, analyze and understand touchpoint data.

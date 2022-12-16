@@ -18,7 +18,7 @@ If you chose to test [!DNL Marketo Measure] in a [!DNL Salesforce] Sandbox envir
 * For more information about the [!DNL Marketo Measure] relationship with [!DNL Salesforce], take a look at [this article](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * A bit of [!DNL Salesforce] configuration is necessary. The specific action items are outlined below in [Step 4 below](#salesforce-configuration)
 
-## Step 2: Delete the Current Sandbox CRM Connection in [!DNL Marketo] Measure App {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
+## Step 2: Delete the Current Sandbox CRM Connection in [!DNL Marketo Measure] App {#delete-the-current-sandbox-crm-connection-in-marketo-measure-app}
 
 * Log in to the [!DNL Marketo Measure] application at experience.adobe.com/marketo-measure
 * Navigate to My Account >[!UICONTROL Settings] >[!UICONTROL Connections]
@@ -30,7 +30,7 @@ If you chose to test [!DNL Marketo Measure] in a [!DNL Salesforce] Sandbox envir
    * Type the name of the Business as prompted in the confirmation model and click "I understand the consequences, delete this connection"
 * This will trigger the deletion process and will take some time to finish
 
-## Step 3: Connect the Production CRM Instance in [!DNL Marketo] Measure App {#connect-the-production-crm-instance-in-marketo-measure-app}
+## Step 3: Connect the Production CRM Instance in [!DNL Marketo Measure] App {#connect-the-production-crm-instance-in-marketo-measure-app}
 
 * Log in to the [!DNL Marketo Measure] application at experience.adobe.com/marketo-measure
 * Navigate to [!UICONTROL My Account] >[!UICONTROL Settings] > [!UICONTROL Connections]

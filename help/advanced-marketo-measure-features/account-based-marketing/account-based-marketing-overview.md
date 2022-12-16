@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874730
-description: Account Based Marketing Overview - [!DNL Marketo] Measure - Product Documentation
+description: Account Based Marketing Overview - [!DNL Marketo Measure] - Product Documentation
 title: Account Based Marketing Overview
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 ---
 # Account Based Marketing Overview {#account-based-marketing-overview}
 
-Below is a brief overview of ABM, the components of Marketo Measure's ABM feature, and how to add it to your [!DNL Salesforce] page layout. To read more about ABM, check out [this page](https://www.marketo.com/account-based-marketing/){target="_blank"}.
+Below is a brief overview of ABM, the components of the [!DNL Marketo Measure] ABM feature, and how to add it to your [!DNL Salesforce] page layout. To read more about ABM, check out [this page](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
 To navigate directly to the instructions for setting up ABM within your [!DNL Salesforce] instance, please [click here](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
@@ -25,7 +25,7 @@ In order for our Account Based Marketing model to begin to populate in your CRM,
 
 ## Lead-to-Account Mapping {#lead-to-account-mapping}
 
-Lead-to-account mapping is a crucial part of an effective ABM approach. With lead-to-account mapping, prospects, or leads, are grouped into the same company account as they engage with your brand. This allows you to target and sell to individuals from the same company in a consistent manner. There is no additional [!DNL Salesforce] configuration needed in order to begin benefitting from this feature. [!DNL Marketo] Measure's Lead to Account Mapping five different matching methods:
+Lead-to-account mapping is a crucial part of an effective ABM approach. With lead-to-account mapping, prospects, or leads, are grouped into the same company account as they engage with your brand. This allows you to target and sell to individuals from the same company in a consistent manner. There is no additional [!DNL Salesforce] configuration needed in order to begin benefitting from this feature. The [!DNL Marketo Measure] Lead to Account Mapping five different matching methods:
 
 * Lead Website to Account Website
 * Lead Email Domain to Account Website Domain
@@ -35,7 +35,7 @@ Lead-to-account mapping is a crucial part of an effective ABM approach. With lea
 
 ## Predictive Engagement Score {#predictive-engagement-score}
 
-Marketo Measure's Predictive Engagement Score, or PES, is a dynamic value that illustrates how engaged a particular account is with your marketing efforts. This score is helpful for segmenting accounts to target. It is a valuable tool for identifying accounts to target more effectively and efficiently.
+The [!DNL Marketo Measure] Predictive Engagement Score, or PES, is a dynamic value that illustrates how engaged a particular account is with your marketing efforts. This score is helpful for segmenting accounts to target. It is a valuable tool for identifying accounts to target more effectively and efficiently.
 
 There are many components that go into the algorithm that calculates the PES. Recency and age has a large influence on score changes, along with last touchpoint activity or page views. Adding new contacts to an account also impacts PES. Below is a list of some PES inputs:
 
@@ -54,11 +54,11 @@ There are many components that go into the algorithm that calculates the PES. Re
 >You may notice a grade of "N/A" or "-" (the dash symbol) in your Predictive Engagement Score for some Accounts.
 
 _A grade of "N/A" simply means that we do not have sufficient data yet on that account for our model to generate a true grade - with more data, a grade will be given eventually._
-_A grade of "-" (the dash symbol) means that this account has yet to be processed by our ABM process, due to time constraints, occasionally missed processes, etc. If you believe an Account should have a grade, based on other similar accounts or timeframes, please reach out and let [!DNL Marketo] Measure know._
+_A grade of "-" (the dash symbol) means that this account has yet to be processed by our ABM process, due to time constraints, occasionally missed processes, etc. If you believe an Account should have a grade, based on other similar accounts or timeframes, please reach out and let [!DNL Marketo Measure] know._
 
 ## Setting up ABM Page Layout in [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 
-To begin using the PES, you simply need to add the PES field and Related List to the appropriate page layouts in Salesforce.
+To begin using the PES, you simply need to add the PES field and Related List to the appropriate page layouts in [!DNL Salesforce].
 
 1. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]**. Then select the page layout you'd like to edit.
 1. Go to [!UICONTROL Fields] and move the field "Predictive Engagement Score" into your Account Information section.
@@ -75,8 +75,4 @@ To begin using the PES, you simply need to add the PES field and Related List to
    ![](assets/3.png)
 
 You're all set!
-
->[!MORELIKETHIS]
->
->* [Marketo Measure University: Account Based Marketing - Predictive Engagement Score](https://universityonline.marketo.com/courses/additional-features-1/#/page/5be3747e5b62f440323a4680)
 

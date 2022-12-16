@@ -25,7 +25,7 @@ The 'Marketing Channel' value for these touchpoints is based on the 'Type' field
 Whether you're mapping your Offline Channels for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
 
 * Create a deliberate framework for you Offline Channels
-   * Take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. Determine which Channels and Sub Channels should be represented in your Offline Channels as well as what CRM Campaign Types differentiate those channels from one another
+   * Take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. Determine which Channels and Subchannels should be represented in your Offline Channels as well as what CRM Campaign Types differentiate those channels from one another
 * Work to utilize your current CRM Campaign 'Type' values first
    * Offline Channels are defined by CRM Campaign 'Type', however, custom CRM Campaign 'Type' value may need to be created to accommodate ideal Offline Channel and Subchannel values. Ideal custom CRM Campaign 'Type' values should carry the naming convention shown below:
       * CHANNEL - SUBCHANNEL
