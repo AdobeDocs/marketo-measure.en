@@ -4,11 +4,11 @@ description: Creating a [!DNL Marketo Measure] Profile - [!DNL Marketo Measure] 
 title: Creating a [!DNL Marketo Measure] Profile
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 ---
-# Creating a [!DNL Marketo] Measure Profile {#creating-a-marketo-measure-profile}
+# Creating a [!DNL Marketo Measure] Profile {#creating-a-marketo-measure-profile}
 
 Learn how to create a [!DNL Marketo Measure] profile. Creating a [!DNL Marketo Measure] profile ensures we won't run into validation errors when pushing data to your CRM.
 
-1. Create a specific [!DNL Marketo] Measure profile:
+1. Create a specific [!DNL Marketo Measure] profile:
 
    * Assign the [!DNL Marketo Measure] Administrator Permission Set
    * Enable the permission to View and Edit Converted Leads

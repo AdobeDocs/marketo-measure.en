@@ -12,11 +12,11 @@ exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 
 Let's take a high-level look at the relationship between [!DNL Marketo Measure] and Salesforce.
 
-## Salesforce and [!DNL Marketo] Measure  {#salesforce-and-marketo-measure}
+## Salesforce and [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 Once the [!DNL Marketo Measure] account is created and [!DNL Salesforce] is connected, [!DNL Marketo Measure] will begin pushing marketing data into the CRM instance as long as the [!DNL Marketo Measure] managed package is installed and the [!DNL Marketo Measure] Salesforce user has edit permissions.
 
-If you didn't install the [!DNL Marketo] Measure Salesforce package, [!DNL Marketo Measure] will not write any data to your Salesforce instance.
+If you didn't install the [!DNL Marketo Measure] Salesforce package, [!DNL Marketo Measure] will not write any data to your Salesforce instance.
 
 ![](assets/1-3.png)
 
@@ -721,7 +721,7 @@ Apart from creating custom fields on SFDC's Standard Objects, once the [!DNL Mar
 
 **Buyer Touchpoint**
 
-The Buyer Touchpoint is a [!DNL Marketo] Measure Custom Object to encapsulate the marketing interactions for Contacts, Leads, and Cases.
+The Buyer Touchpoint is a [!DNL Marketo Measure] Custom Object to encapsulate the marketing interactions for Contacts, Leads, and Cases.
 
 <table> 
  <tbody> 
@@ -988,7 +988,7 @@ The Buyer Touchpoint is a [!DNL Marketo] Measure Custom Object to encapsulate th
 
 **[!DNL Marketo Measure] Person**
 
-The [!DNL Marketo] Measure Person is a [!DNL Marketo] Measure Custom Object that is related to both the Lead, Contact, and Case Objects.
+The [!DNL Marketo Measure] Person is a [!DNL Marketo Measure] Custom Object that is related to both the Lead, Contact, and Case Objects.
 
 <table> 
  <tbody> 
@@ -1027,7 +1027,7 @@ The [!DNL Marketo] Measure Person is a [!DNL Marketo] Measure Custom Object that
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The Buyer Attribution Touchpoint is a [!DNL Marketo] Measure Custom Object to encapsulate marketing's influence on Opportunities.
+The Buyer Attribution Touchpoint is a [!DNL Marketo Measure] Custom Object to encapsulate marketing's influence on Opportunities.
 
 **Buyer Attribution Touchpoint**
 

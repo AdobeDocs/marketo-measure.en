@@ -32,7 +32,7 @@ To access and assign Permission Sets in Salesforce:
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Marketing User</strong></span></td> 
-   <td><span>Gives a marketing user the ability to read and write records from [!DNL Marketo] Measure objects. All members of the marketing team should have the [!DNL Marketo] Measure Marketing User permission set enabled. <br></span></td> 
+   <td><span>Gives a marketing user the ability to read and write records from [!DNL Marketo Measure] objects. All members of the marketing team should have the [!DNL Marketo Measure] Marketing User permission set enabled. <br></span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Standard User</strong></span></td> 

@@ -24,14 +24,14 @@ These packages enable your [!DNL Marketo Measure] users to easily access touchpo
 
 When it comes to implementing and managing your [!DNL Marketo Measure] [!DNL Salesforce] Package, keep the following best practices in mind.
 
-* Confirm every necessary team member has access to the [!DNL Marketo] Measure report folders. There should be 1-3 [!DNL Marketo Measure] folders (these are explained below). To open up access, the person who installed the package(s) needs to share the report folders with the appropriate users or roles.
+* Confirm every necessary team member has access to the [!DNL Marketo Measure] report folders. There should be 1-3 [!DNL Marketo Measure] folders (these are explained below). To open up access, the person who installed the package(s) needs to share the report folders with the appropriate users or roles.
    * **Buyer Touchpoint Reports** - available to everyone
-   * **[!DNL Marketo] Measure Account Based Marketing Reports** - reports will only be populated to customers Tier 2 and above
+   * **[!DNL Marketo Measure] Account Based Marketing Reports** - reports will only be populated to customers Tier 2 and above
    * **Buyer Touchpoint Dashboards** - available to everyone, though this package is optional.
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}
 
-While the setup of your CRM Package is covered during initial implementation, we recommend that you review the setup of your CRM package once a year. This review will confirm that all page layouts are set up correctly and that all appropriate team members have access to [!DNL Marketo] Measure reports and dashboards.
+While the setup of your CRM Package is covered during initial implementation, we recommend that you review the setup of your CRM package once a year. This review will confirm that all page layouts are set up correctly and that all appropriate team members have access to [!DNL Marketo Measure] reports and dashboards.
 
 Other reasons to that might trigger a review...
 

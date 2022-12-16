@@ -10,13 +10,13 @@ The [!DNL Marketo Measure] Email Tracking Parameter allows marketers to treat em
 
 ## Use Cases  {#use-cases}
 
-**Webinar Registration**: The Marketing team sends out an email invite with a single button to register for a webinar. Because the email already has the person's information, the single click will auto-register them. The landing page contains the email tracking parameter so when they click through and land on the confirmation page, [!DNL Marketo] Measure can capture the email address and treat the click-through as a form fill, which will generate a touchpoint.
+**Webinar Registration**: The Marketing team sends out an email invite with a single button to register for a webinar. Because the email already has the person's information, the single click will auto-register them. The landing page contains the email tracking parameter so when they click through and land on the confirmation page, [!DNL Marketo Measure] can capture the email address and treat the click-through as a form fill, which will generate a touchpoint.
 
 **Content Download**: The Content Marketing team wants to promote a recent eBook that they've published with a direct download link from an email. When the email template is built, the download confirmation page will contain the email tracking parameter so that when they click through, [!DNL Marketo Measure] can capture the email address. Without having to fill out a form on the site, [!DNL Marketo Measure] can generate a touchpoint for the content download that occured via the email because it landed them on the confirmation page with the email tracking parameter.
 
 ## How It Works {#how-it-works}
 
-When a visitor arrives on your site, [!DNL Marketo] Measure expects to find a landing page with either an email address or [!DNL Salesforce] Id so we can associate that visit with a "form submission" and generate a touchpoint for that activity.
+When a visitor arrives on your site, [!DNL Marketo Measure] expects to find a landing page with either an email address or [!DNL Salesforce] Id so we can associate that visit with a "form submission" and generate a touchpoint for that activity.
 
 As the customer, you will build out an email template as you normally would. Once it's time to add in the landing page for the action that you want to track, you'll need to determine either the token, or variable tag, or macro that your Marketing Automation platform accepts to dynamically display the value for each individual.
 

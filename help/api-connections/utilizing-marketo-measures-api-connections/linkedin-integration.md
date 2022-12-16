@@ -295,7 +295,7 @@ We have observed that some marketers will put an image link into the destination
 
 No worries. [!DNL Marketo Measure] will programmatically check for shares that are no longer unique, meaning that it had since been copied into a different Creative. Once that copy has been detected, [!DNL Marketo Measure] will follow the usual flow to tag and create new ads.
 
-**My ad was pending review earlier. Why is it pending review again after [!DNL Marketo] Measure tagged it?**
+**My ad was pending review earlier. Why is it pending review again after [!DNL Marketo Measure] tagged it?**
 
 LinkedIn requires that all ads that are created or modified go through the normal security process before it is posted. [!DNL Marketo Measure] tries to intercept the ad as quickly as possible, as it scans for new ads every 6 hours but with [!DNL LinkedIn's] additional step, it can delay the launch by a few hours.
 

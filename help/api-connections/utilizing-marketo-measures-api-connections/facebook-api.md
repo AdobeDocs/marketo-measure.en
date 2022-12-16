@@ -124,7 +124,7 @@ For the integration to properly work, you'll need to enable auto-tagging on your
 
 ## FAQ {#faq}
 
-**Q: What [!DNL Facebook] Ads are supported by [!DNL Marketo] Measure?**
+**Q: What [!DNL Facebook] Ads are supported by [!DNL Marketo Measure]?**
 
 A: Carousel, Single Image. Not Video, Slideshow or Collection at this time.
 

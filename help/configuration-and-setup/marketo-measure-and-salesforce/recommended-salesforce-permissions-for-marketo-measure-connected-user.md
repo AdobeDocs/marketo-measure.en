@@ -8,7 +8,7 @@ exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 
 [!DNL Marketo Measure] sends and receives data through a connected [!DNL Salesforce] user within the [!DNL Marketo Measure] app.
 
-In order to push touchpoint data to your [!DNL Salesforce] instance, the connected user must have access to [!DNL Marketo Measure] custom objects (i.e. Buyer Touchpoint and Buyer Attribution Touchpoint) as well as standard [!DNL Salesforce] objects such as Leads and Contacts (see [[!DNL Marketo] Measure in Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
+In order to push touchpoint data to your [!DNL Salesforce] instance, the connected user must have access to [!DNL Marketo Measure] custom objects (i.e. Buyer Touchpoint and Buyer Attribution Touchpoint) as well as standard [!DNL Salesforce] objects such as Leads and Contacts (see [[!DNL Marketo Measure] in Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
 
 [!DNL Salesforce] Administrator user licenses can serve as the connected user as they often have the necessary data privileges by default. However, your team may prefer to use an integrations user or a dedicated [!DNL Salesforce] user license to track the impact of [!DNL Marketo Measure] on your instance.
 

@@ -20,7 +20,7 @@ Definitions of the [!DNL Marketo Measure] fields that live in each object [can b
 
 Each arrow describes the relationship between an object and the other. For example, you'll see that the [!DNL Marketo Measure] Person populates fields on the standard [!DNL Salesforce] Lead Object. If it's pointing to it, then it means that it's populating the receiving end of the arrow.
 
-**What is the [!DNL Marketo] Measure Person?**
+**What is the [!DNL Marketo Measure] Person?**
 
 It's a Custom [!DNL Marketo Measure] Object in [!DNL Salesforce] that links Buyer Touchpoints to Leads and Contacts.
 

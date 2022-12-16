@@ -6,7 +6,7 @@ exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 ---
 # Adding [!DNL Marketo Measure] Script to Sitecore Pages {#adding-marketo-measure-script-to-sitecore-pages}
 
-Content management systems can require additional steps beyond standard script implementation for [!DNL Marketo Measure] to recognize form submissions. The process below outlines how to add the [!DNL Marketo] Measure javascript to your [!DNL Sitecore] pages.
+Content management systems can require additional steps beyond standard script implementation for [!DNL Marketo Measure] to recognize form submissions. The process below outlines how to add the [!DNL Marketo Measure] javascript to your [!DNL Sitecore] pages.
 
 For sites with Sitecore pages:
 
