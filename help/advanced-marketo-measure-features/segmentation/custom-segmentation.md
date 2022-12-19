@@ -22,7 +22,7 @@ Step 1 - Determine what information you want to see.
 
 Before you use this feature, figure out what touchpoint information you'd like to filter by. Remember to use the exact values in your CRM for your record types. The setup will filter touchpoints from the top to the bottom of the marketing funnel.
 
-Step 2 - Log in and locate the Segments feature.
+Step 2 - Log in and locate the [!UICONTROL Segments] feature.
 
 * Go to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} and log in
 * Under the [!UICONTROL My Account] tab, select [!UICONTROL Settings]
@@ -33,10 +33,10 @@ Step 3 - Understand the components.
 * Use this legend to understand the various icons found on this page
 
 ![](assets/1.png)
-  
+
 Step 4 - Add Filter Rules.
 
-* First, enter the category name. Business Type is an example. Click the check mark when you're finished. You need to enter a category name before you can add segments
+* First, enter the category name. [!UICONTROL Business Type] is an example. Click the check mark when you're finished. You need to enter a category name before you can add segments
 * Click the plus sign to add a segment
 * Enter a Segment name. For example, you could have one segment for New Business, Partners, Renewal, or Upsell
 
@@ -50,15 +50,15 @@ Step 4 - Add Filter Rules.
 >
 >Formula fields cannot be used within your rules and will not appear in the picklist. Because formulas calculate in the background and do not modify a record, [!DNL Marketo Measure] cannot detect whether a record fits a rule or not.
 
-* The Value option is not a drop down and its value must be entered manually. Be sure to check the values in your Salesforce org
+* The [!UICONTROL Value] option is not a drop down and its value must be entered manually. Be sure to check the values in your Salesforce org
 * Repeat this process for the Opportunities segment rules
 * The "Other" category is a default segment that will capture any undefined Touchpoints. You can change the default segment's name
 * Click the trashcan icon to delete a whole category or an individual rule within a category. Alternatively, click the pencil icon to edit the category or rule
-* You'll notice that you have a "Save" button and a "Save and Process" button. Use the Save button to save your work and changes over time. Use the Save and Process button ONLY once you have made sure that:
+* You'll notice that you have a "[!UICONTROL Save]" button and a "Save and Process" button. Use the Save button to save your work and changes over time. Use the Save and Process button ONLY once you have made sure that:
 
-    * Your mapping is accurate
-    * You added all the segments you want to track within a category
-    * The Save and Process button triggers [!DNL Marketo Measure] to sync all your Touchpoints and apply the new information you added. This process takes 7 days and rules cannot be changed during this period
+   * Your mapping is accurate
+   * You added all the segments you want to track within a category
+   * The Save and Process button triggers [!DNL Marketo Measure] to sync all your Touchpoints and apply the new information you added. This process takes 7 days and rules cannot be changed during this period
 
 **_Additional Notes:_**
 

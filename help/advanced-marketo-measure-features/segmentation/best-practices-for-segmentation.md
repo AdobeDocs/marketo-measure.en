@@ -13,7 +13,7 @@ Segmentation is crucial to the utilization of your [!DNL Marketo Measure] accoun
 
 When pushed to [!DNL Salesforce], Segment values are written to the "Segment" field and are within any Buyer touchpoint report type. This allows for uniform reporting across both platforms. The Segment can also be found on the 'Touchpoint Detail' of any touchpoint.
 
-When pushed to Discover, Segments will appear as an available filter within the filter drop-down menu located on all boards.
+When pushed to [!UICONTROL Discover], Segments will appear as an available filter within the filter drop-down menu located on all boards.
 
 ## Best Practice {#best-practice}
 
@@ -23,8 +23,8 @@ Whether you're defining segmentation for the first time or just reviewing the se
 * Align your segment name to the nomenclature of your organization, i.e., the category = filter name, segment = filter value
 * Don't use formula fields in your rules
 * Whenever possible, build the segmentation on both the Lead/Contact and Opportunity so that you can use it across the entire funnel
-  * Not every Segment category will align throughout the entire funnel
-    * A Segment category of 'Opportunity Type' won't relate to Leads for example, however a Segment related to 'Region' is likely a category that can be defined throughout the funnel
+   * Not every Segment category will align throughout the entire funnel
+      * A Segment category of 'Opportunity Type' won't relate to Leads for example, however a Segment related to 'Region' is likely a category that can be defined throughout the funnel
 * Think about the ways you currently like to slice your data, whether it's in the CRM or a BI tool, consider building this as a Segment in [!DNL Marketo Measure] so you can have the same reporting in Discover
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}

@@ -8,9 +8,9 @@ exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 
 ## What is View Through Attribution? {#what-is-view-through-attribution}
 
-The [!DNL Marketo Measure] View Through Attribution feature includes the ability to include ad impressions in the attribution model.
+The [!DNL Marketo Measure] [!UICONTROL View Through Attribution] feature includes the ability to include ad impressions in the attribution model.
 
-## Why is View Through Attribution Important? {#why-is-view-through-attribution-important}
+## Why is [!UICONTROL View Through Attribution] Important? {#why-is-view-through-attribution-important}
 
 Historically, re-targeting or impression advertising has been difficult for marketers to account for in attribution analysis. Potential clients may, time after time, be exposed to re-targeting ads but it's unlikely that they actually click on one of these ads and fill out a form within the same session. Our View Through Attribution solution now has the ability to trace whether or not someone was exposed to an impression ad. This touchpoint will be appended to the individual record and will carry through until the prospect becomes a client. With this information, the marketer will now get better insight on the performance of their re-targeting advertising.
 
@@ -20,7 +20,7 @@ In order for [!DNL Marketo Measure] to start measuring the ad impressions, there
 
 ## Which ad platforms are supported? {#which-ad-platforms-are-supported}
 
-We currently support Doubleclick Campaign Manager.
+We currently support [!DNL Doubleclick] Campaign Manager.
 
 ## How is the attribution calculated? {#how-is-the-attribution-calculated}
 
@@ -103,7 +103,7 @@ We ran some careful analysis of impression data and its influence on conversions
  </tbody> 
 </table>
 
-## What will this look like in Salesforce? {#what-will-this-look-like-in-salesforce}
+## What will this look like in [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
 
 [!DNL Marketo Measure] will create a single impression Touchpoint on any Lead that was exposed to the display ad. We are able to map the user even after they first come to your website (FT) and fill out a form (LC). The Touchpoint will contain ad information such as Ad Campaign Name/ID, Ad ID, Ad Content, Site Name/ID, Placement Name/ID, Marketing Channel, Geo, Referrer Page, and more.
 
