@@ -41,6 +41,10 @@ Other reasons to that might trigger a review...
 * Upgrades to your [!DNL Marketo Measure] contract
 * Check that you have the most recent version of our Buyer Touchpoints Package installed in [!DNL Salesforce]
 
+>[!NOTE]
+>
+>When you disable Marketo Measure exporting data to Salesforce, it won't remove any existing data. To remove it, please follow the steps in [this Salesforce help article](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
+
 >[!MORELIKETHIS]
 >
 >* [Update Buyer Touchpoint Package](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
