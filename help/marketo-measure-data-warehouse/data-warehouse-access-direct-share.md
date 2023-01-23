@@ -5,7 +5,7 @@ exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 ---
 # Data Warehouse Access - Direct Share {#data-warehouse-access-direct-share}
 
-**Requirements**
+## Requirements {#requirements}
 
 In order for [!DNL Marketo Measure] to set up a direct share to the data warehouse you must meet the following requirements.
 
@@ -13,17 +13,23 @@ In order for [!DNL Marketo Measure] to set up a direct share to the data warehou
 * Your Snowflake instance is located in the Azure East US 2 Snowflake region.
 * You provide [!DNL Marketo Measure] with your Snowflake account id.
 
-**Limitations**
+## Limitations {#limitations}
 
 [!DNL Marketo Measure] will only be able to set up Snowflake Direct Shares with accounts located in Azure East US 2 due to current Snowflake Direct Share limitations. If you require your data to be made available in other Snowflake regions, we recommend making a copy of the data in a Snowflake account located in Azure East US 2 and leveraging the [Snowflake Database Replication](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} feature to copy your data in the Snowflake region/account of your choice.
 
-**Accessing the Share**
+## Enter Snowflake Account ID {#enter-snowflake-account-id}
+
+Open the **Settings** section in the Marketo Measure app and navigate to the **Data Warehouse** page. In the **Direct Share** section, enter your [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in the box provided and click **Connect**.
+
+![](assets/data-warehouse-access-direct-share-1.png)
+
+## Accessing the Share {#accessing-the-share}
 
 Once the share has been created for the account id provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance in order to access the data.
 
 >[!NOTE]
 >
->You can choose any database name you want. You can assign the privileges to any rule you choose, so long as it exists in your Snowflake instance.
+>You can choose any database name you want. You can assign the privileges to any role you choose, so long as it exists in your Snowflake instance.
 
 * Use the Account Admin role
 
