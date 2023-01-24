@@ -211,3 +211,7 @@ In order for [!DNL Marketo Measure] to track your web activities, there are mult
    >By default, [!DNL Marketo Measure] exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by [!DNL Marketo Measure] and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, [!DNL Marketo Measure] allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the [!DNL Marketo Measure] web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
    >
    >When modifying this setting, please keep in mind that smaller batch sizes will consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
+
+   >[!NOTE]
+   >
+   >When you disable Marketo Measure exporting data to Dynamics, it won't remove any existing data. For help with removing existing data, please contact Dynamics Support.
