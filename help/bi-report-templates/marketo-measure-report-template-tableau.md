@@ -9,7 +9,7 @@ exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 
 You can access the [!DNL Tableau] report template [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
-Open the [!DNL Adobe Marketo] Measure Reporting Template Tableau Workbook file.
+Open the [!DNL Adobe Marketo Measure] Reporting Template Tableau Workbook file.
 
 You will need to update the existing connection data to your specific Snowflake connection information. Click the [!UICONTROL Edit Connection] button and follow the steps outlined in the [[!UICONTROL Data Connection]](#data-connection) section of this documentation.
 
