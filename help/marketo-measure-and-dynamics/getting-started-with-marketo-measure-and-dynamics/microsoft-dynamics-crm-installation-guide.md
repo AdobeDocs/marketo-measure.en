@@ -24,7 +24,7 @@ For connection and authentication, [!DNL Marketo Measure] supports the following
 
 ## Install the Managed Solution {#install-the-managed-solution}
 
-[Download and install](assets/marketo-measure-dynamics-extension.zip) the zip file within Dynamics CRM.
+[Download and install](assets/marketo-measure-dynamics-extension.zip) the zip file within the Dynamics CRM.
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (button) > **[!UICONTROL Choose File]**.
 
