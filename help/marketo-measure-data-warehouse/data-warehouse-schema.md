@@ -15548,14 +15548,16 @@ order by 1
 
 **Show all Buyer Attribution Touchpoints (BATs) and their Attributed Revenue for a single opportunity.**
 
-```
---Note: This query returns attributed revenue for the w shape model.  Change the model by updating the field in the attributed revenue calculation.  
- 
+>[!NOTE]
+>
+>This query returns attributed revenue for the w shape model. Change the model by updating the field in the attributed revenue calculation.  
+
+``` 
 select bat.id
       ,bat.touchpoint_date
       ,bat.email
-      ,listagg(osd.stage_name)                        as touchpoint_position
-      ,sum(opp.amount*(bat.w_shape_percentage/100))   as attributed_revenue
+      ,opp.amount*(bat.w_shape_percentage/100)             as attributed_revenue
+      ,listagg(osd.stage_name,', ')                        as touchpoint_position
   from biz_opportunities               opp
        inner join
        biz_attribution_touchpoints     bat
@@ -15573,8 +15575,8 @@ select bat.id
        and osd._deleted_date        is null
  where opp._deleted_date    is null
    and opp.id               = [opportunity id]
-group by 1,2,3, osd.rank
-order by touchpoint_date, osd.rank
+group by 1,2,3,4
+order by touchpoint_date
 ```
 
 [Back to top](#data-warehouse-schema)
