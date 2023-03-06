@@ -33,6 +33,10 @@ Lead-to-account mapping is a crucial part of an effective ABM approach. With lea
 * Lead Company to Account Website Domain
 * Matching the Domain on the Lead's Email Address to the Account via the Contact's Email Address
 
+>[!NOTE]
+>
+>Each Lead is attempted to be matched to an Account in the preferential order of methods above. Once a match is made, the AccountId is immediately set on the Lead and won't be matched using another method. If the Lead already has a valid AccountId, the Lead is skipped.
+
 ## Predictive Engagement Score {#predictive-engagement-score}
 
 The [!DNL Marketo Measure] Predictive Engagement Score, or PES, is a dynamic value that illustrates how engaged a particular account is with your marketing efforts. This score is helpful for segmenting accounts to target. It is a valuable tool for identifying accounts to target more effectively and efficiently.
