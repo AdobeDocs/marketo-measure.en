@@ -1,8 +1,6 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Product Documentation'
 title: '[!DNL Marketo Measure] Ultimate Overview'
-hide: yes
-hidefromtoc: yes
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 ---
 # [!DNL Marketo Measure] Ultimate Overview {#marketo-measure-ultimate-overview}
@@ -22,29 +20,29 @@ exl-id: fada9479-0671-4698-8043-c67d7977577b
 
 * Integration with RTCDP (B2B or B2P Edition), providing an integrated B2B attribution solution for RTCDP customers as RTCDP and [!DNL Marketo Measure] both work from centralized Adobe Experience Platform (AEP) data.
 
-**Marketo Measure Tiers 1-3**
+**[!DNL Marketo Measure] Tiers 1-3**
 
    ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
    ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## What's New in [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**HEADER TITLE - Import B2B Data Through AEP**
+**Import B2B Data Through AEP**
 
 Marketers are expected to bring their B2B data (e.g. Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. The direct CRM and Marketo Engage connections are no longer available for Ultimate. Marketers will continue bringing Ad Platform data through direct connections and tracking web activities through [!DNL Marketo Measure] javascript.
 
    ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**HEADER TITLE - Default Currency Setting**
+**Default Currency Setting**
 
-BRIEF INTRO???
+[!DNL Marketo Measure Ultimate] will set the default currency to USD until the user changes it. Setting a new default currency will update the data without reprocessing. As long as the selected currency is present as a target ISO code, there is no need to submit conversion rates.
 
    ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**HEADER TITLE - Marketo Measure Ultimate Sandbox**
+**[!DNL Marketo Measure Ultimate] Sandbox**
 
 [!DNL Marketo Measure Ultimate] instance must be mapped to an AEP sandbox before creating the [!DNL Marketo Measure] destination data flows in AEP. 
 
@@ -58,7 +56,7 @@ Data for a given entity (e.g., Account) from a given data source can only go int
 
    ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**HEADER TITLE - Stage mapping**
+**Stage Mapping**
 
 All [!DNL Marketo Measure Ultimate] rules are dataset-specific. Stage Mapping rules must be created for all datasets and all selected stages.
 
