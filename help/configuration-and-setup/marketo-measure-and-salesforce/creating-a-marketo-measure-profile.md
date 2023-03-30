@@ -32,4 +32,4 @@ Learn how to create a [!DNL Marketo Measure] profile. Creating a [!DNL Marketo M
 
    Done!
 
-   If you have any questions around creating a dedicated [!DNL Marketo Measure] profile, please reach out to your customer success manager or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   If you have any questions around creating a dedicated [!DNL Marketo Measure] profile, please reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -16,4 +16,4 @@ We recommend placing the JavaScript within the head of the IFrame and from there
 
 ![](assets/1-1.png)
 
-If you have any questions around adding our JavaScript to IFrame forms, please reach out to your customer success manager, or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+If you have any questions around adding our JavaScript to IFrame forms, please reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

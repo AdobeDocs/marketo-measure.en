@@ -47,4 +47,4 @@ From here, we will start creating the workflow.
 
    This can be accomplished by running your opportunities through Data Loader within SFDC. Please find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-If there are any questions along the way, please don't hesitate to reach out to your Customer Success Manager or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+If there are any questions along the way, please don't hesitate to reach out to the Adobe Account Team (your Account Manager) or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
