@@ -104,4 +104,4 @@ Attribution Touchpoints are not written to CRM because Ultimate does not have a 
 
 >[!MORELIKETHIS]
 >
->[Destination Connection](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md){target="_blank"}
+>[Marketo Measure Ultimate Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
