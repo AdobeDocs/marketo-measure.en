@@ -4324,10 +4324,10 @@ Contacts imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] algorithm of estimating whether a Contact will help an Opportunity close based on the age and stage</p>
+        <p>This feature has been deprecated. Please do not use this column.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -9550,10 +9550,10 @@ Leads imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] algorithm of estimating if a Lead will convert based on the age and stage.</p>
+        <p>This feature has been deprecated. Please do not use this column.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
@@ -10168,10 +10168,10 @@ Opportunities imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>The [!DNL Marketo Measure] algorithm of estimating whether an opportunity will close based on the age and stage.</p>
+        <p>This feature has been deprecated. Please do not use this column.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>N/A</p>
       </td>
     </tr>
     <tr>
