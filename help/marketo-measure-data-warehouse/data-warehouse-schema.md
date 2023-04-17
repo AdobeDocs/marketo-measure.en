@@ -10,7 +10,8 @@ Data Warehouse allows you to track as much as you want, report on your attributi
 
 >[!IMPORTANT]
 >
->Rows with a value for _DELETED_DATE will be retained for 15 days, then removed from Snowflake. Snowflake timezones are in UTC.
+>* Rows with a value for _DELETED_DATE will be retained for 7 days, then removed from Snowflake.
+>* The time zones used in Snowflake adhere to Coordinated Universal Time (UTC).
 
 >[!NOTE]
 >
