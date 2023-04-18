@@ -17,6 +17,10 @@ Touchpoint Generation Methods
 
 The touchpoint generation process answers the question, "How is [!DNL Marketo Measure] going to know that this occurred?" Depending on your feature set and the types of interactions your prospective customers can have, there are up to three ways [!DNL Marketo Measure] can pick up on an interaction and create a touchpoint to represent it.
 
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] only generates one Touchpoint per Session. If more than one form has been filled out, only the first form fill will be captured.
+
 | **Type of Interaction** | **Example** | **Touchpoint Generation Method** |
 |---|---|---|
 | Online, on your site(s) | Form fill | [!DNL Marketo Measure] JavaScript |
