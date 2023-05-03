@@ -28,7 +28,7 @@ We understand this change may require adjustments, and we are committed to suppo
       * V2_EXT query:
          * bizible2_ext__Ad_Content_FT__c contains Outreach
 
-![](assets/salesforce-package-consolidation-1.png)
+![](assets/package-consolidation-1.png)
 
 * Corresponding query in the consolidated package:
    * bizible2__Touchpoint_Position__c contains FT AND
