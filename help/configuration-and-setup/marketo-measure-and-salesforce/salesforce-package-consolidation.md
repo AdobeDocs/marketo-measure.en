@@ -46,7 +46,7 @@ You don't need to uninstall your package before installing the consolidated pack
 
 **How can I backfill the data from my current packages?**
 
-You can file a ticket [with Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank" for backfilling and reprocessing BT/BAT data to fill in Touchpoint ID and Form ID fields.
+You can file a ticket [with Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} for backfilling and reprocessing BT/BAT data to fill in Touchpoint ID and Form ID fields.
 
 **Will the fields in V1 and V2_EXT packages be available in the consolidated package?**
 
