@@ -12,7 +12,7 @@ We're excited to announce upcoming changes to the Marketo Measure Salesforce Pac
 
 As a consequence of this consolidation, the current V1, V2_EXT, V2_Security, and all Reporting packages will be retired after August 2023. If you already have the V2 package installed, you must update it to the new consolidated version.
 
-## New Consolidated Package {#New Consolidated Package}
+## New Consolidated Package {#new-consolidated-package}
 
 The new consolidated V2 package incorporates all features and functionality from the previous packages, providing an improved user experience. This updated package enables more efficient marketing and sales performance tracking and allows for deeper insights into customer behavior.
 
