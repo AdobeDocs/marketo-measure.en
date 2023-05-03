@@ -1,8 +1,6 @@
 ---
 description: "[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Salesforce] Package Consolidation"
-hide: yes
-hidefromtoc: yes
 ---
 # [!DNL Salesforce] Package Consolidation {#salesforce-package-consolidation}
 

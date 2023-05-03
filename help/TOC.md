@@ -45,6 +45,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [[!DNL Marketo Measure] CRM Packageless Integration](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] and Salesforce {#marketo-measure-and-salesforce}
       + [[!DNL Marketo Measure] Salesforce Package Installation and Set Up](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+      + [[!DNL Salesforce] Package Consolidation](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Connect [!DNL Marketo Measure] to Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices for [!DNL Marketo Measure] CRM Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce Objects](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
