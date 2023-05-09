@@ -8,7 +8,7 @@ hidefromtoc: yes
 
 Below you'll find all the new and updated features for our 2023 releases.
 
-## Q2 Release {q2-release}
+## Q2 Release {#q2-release}
 
 **Salesforce Package Consolidation**
 
