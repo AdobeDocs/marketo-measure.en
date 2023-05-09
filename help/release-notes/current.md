@@ -1,14 +1,14 @@
 ---
 description: Current Release Notes - [!DNL Marketo Measure] - Product Documentation
 title: Current Release Notes
-hide: yes
-hidefromtoc: yes
 ---
 # Release Notes: 2023 {#release-notes-2023}
 
 Below you'll find all the new and updated features for our 2023 releases.
 
 ## Q2 Release {#q2-release}
+
+<p>
 
 **Salesforce Package Consolidation**
 
@@ -28,6 +28,8 @@ Below you'll find all the new and updated features for our 2023 releases.
 * The new consolidated package installation link [can be found here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
 
 ### What's coming? {#whats-coming}
+
+<p>
 
 **Changes in IP Address Storage**
 
