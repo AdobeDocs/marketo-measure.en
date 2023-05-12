@@ -5,7 +5,7 @@ exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 ---
 # Adobe Experience Cloud Interface {#unified-shell-overview}
 
-Adobe Experience Cloud Interface aligns the "shell" look and feel of Adobe Experience Cloud applications and services. But, it's more than just a new design. It's a single-page application that delivers user experience in a single instance.
+Adobe Experience Cloud Interface aligns the look and feel of Adobe Experience Cloud applications and services. But, it's more than just a new design. It's a single-page application that delivers user experience in a single instance.
 
 ## User Flow {#user-flow}
 
