@@ -1,15 +1,13 @@
 ---
-description: Unified Shell Overview - [!DNL Marketo Measure] - Product Documentation
-title: Unified Shell Overview
+description: Adobe Experience Cloud Interface - [!DNL Marketo Measure] - Product Documentation
+title: Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 ---
-# Unified Shell Overview {#unified-shell-overview}
+# Adobe Experience Cloud Interface {#unified-shell-overview}
 
-Unified Shell aligns the "shell" look and feel of Adobe Experience Cloud applications and services. But, it's more than just a new design. It's a single-page application that delivers user experience in a single instance.
+Adobe Experience Cloud Interface aligns the "shell" look and feel of Adobe Experience Cloud applications and services. But, it's more than just a new design. It's a single-page application that delivers user experience in a single instance.
 
 ## User Flow {#user-flow}
-
-**Unified Shell Flow**
 
 If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **[!DNL Marketo Measure]**.
 
@@ -63,7 +61,7 @@ Click your profile icon to change your language or other Adobe-wide preferences.
 
 Bookmarks will be redirected. For example, if you were to navigate to https://apps.marketo-measure.com/Discover/391, you would be redirected to https://experience.adobe.com/marketo-measure/Discover/391 after completing authentication.
 
-**I can't log in to [!DNL Marketo Measure] through the Unified Shell. What might the issue be?**
+**I can't log in to [!DNL Marketo Measure] through the Experience Cloud Interface. What might the issue be?**
 
 If you can log in to Adobe Experience Cloud, but see the a page like the following, the issue could be on the [!DNL Marketo Measure] side:
 
