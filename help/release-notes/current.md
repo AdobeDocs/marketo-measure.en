@@ -1,6 +1,7 @@
 ---
 description: Current Release Notes - [!DNL Marketo Measure] - Product Documentation
 title: Current Release Notes
+exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
 ---
 # Release Notes: 2023 {#release-notes-2023}
 
