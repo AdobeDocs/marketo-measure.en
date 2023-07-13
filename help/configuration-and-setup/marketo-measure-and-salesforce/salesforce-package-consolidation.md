@@ -15,6 +15,11 @@ As a consequence of this consolidation, the current V1, V2_EXT, V2_Security, and
 
 The new consolidated V2 package incorporates all features and functionality from the previous packages, providing an improved user experience. This updated package enables more efficient marketing and sales performance tracking and allows for deeper insights into customer behavior.
 
+We've added two new fields to enhance your reporting capabilities:
+
+* form_name: Now available in BT/BAT objects, this field enables users to create reports based on form names.
+* user_touchpoint_id: This field enables users to create reports with unique user touchpoint counts.
+
 ## Support and Transition {#support-and-transition}
 
 We understand this change may require adjustments, and we are committed to supporting you throughout the process. Our [Support team](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} is readily available to answer any questions and assist with ensuring a smooth transition to the new consolidated package.
