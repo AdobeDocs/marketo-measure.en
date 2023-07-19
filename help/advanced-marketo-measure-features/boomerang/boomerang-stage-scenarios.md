@@ -6,6 +6,10 @@ exl-id: 150db070-eef5-4741-845c-775ab4034ead
 ---
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
 
+>[!AVAILABILITY]
+>
+>The Boomerang feature is only enabled for Tier 3 customers. To request a higher account tier, please contact the Adobe Account Team (your account manager).
+
 Below are a few examples of Boomerang Stage scenarios to provide an understanding of how [!DNL Marketo Measure] will create touchpoints in each situation.
 
 ## Single Lead Scenarios {#single-lead-scenarios}

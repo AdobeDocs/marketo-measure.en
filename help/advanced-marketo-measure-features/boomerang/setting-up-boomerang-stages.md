@@ -6,6 +6,10 @@ exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 ---
 # Setting up Boomerang Stages {#setting-up-boomerang-stages}
 
+>[!AVAILABILITY]
+>
+>The Boomerang feature is only enabled for Tier 3 customers. To request a higher account tier, please contact the Adobe Account Team (your account manager).
+
 To enable [!UICONTROL Boomerang] Stages for your account, you must be an Account Admin. Or, it can be enabled by reaching out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Once the feature has been enabled, please follow these instructions to set them up.
 
 ## Boomerang Stage Setup {#boomerang-stage-setup}
