@@ -14,7 +14,7 @@ The Custom Segmentation feature allows you to filter Touchpoints by one category
 
 >[!NOTE]
 >
->Custom Segmentation allows you to filter Touchpoints by categories (filter name) and rules (filter values). Tier 1 gets one segment, Tiers 2 and up get ten.
+>Custom Segmentation allows you to filter Touchpoints by categories (filter name) and rules (filter values). Tier 1 customers get one segment, Tiers 2 and up get ten.
 
 **When is the Custom Segmentation feature helpful?**
 
