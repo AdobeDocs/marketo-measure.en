@@ -10,11 +10,7 @@ Segments provide the ability to filter data in the [!DNL Marketo Measure] ROI Da
 
 **Why Custom Segmentation?**
 
-The Custom Segmentation feature allows you to filter Touchpoints by one category and by up to five segments. Depending on what Object your ROI Dash is pointed to (Lead or Contact), you can create segments based on the fields found on the Lead/Contact Object. As well, you'll be able to create segments based on any fields found on the Opportunity Object.
-
->[!NOTE]
->
->Custom Segmentation allows you to filter Touchpoints by categories (filter name) and rules (filter values). Tier 1 customers get one segment, Tiers 2 and up get ten.
+Custom Segmentation allows you to filter Touchpoints by categories (filter name) and rules (filter values). Tier 1 customers get one segment, Tiers 2 and up get ten. Depending on what Object your ROI Dash is pointed to (Lead or Contact), you can create segments based on the fields found on the Lead/Contact Object. As well, you'll be able to create segments based on any fields found on the Opportunity Object.
 
 **When is the Custom Segmentation feature helpful?**
 
