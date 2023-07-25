@@ -100,6 +100,10 @@ A: 6 hours
 
 A: 4 hours
 
+**Q: For Dynamic Search Ads, can we track the combination of headline, description, etc., in the creative that was served?**
+
+A: We cannot retrieve individual creative details for dynamic search ads, but if autotagging is enabled, we can still get the creative ID and attribute revenue.
+
 >[!NOTE]
 >
 >Once the changes are made, you are done. Feel free to reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} if there are any questions during setup.
