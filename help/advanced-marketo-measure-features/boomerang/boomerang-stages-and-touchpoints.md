@@ -3,7 +3,7 @@ unique-page-id: 18874558
 description: Boomerang Stages and Touchpoints - [!DNL Marketo Measure] - Product Documentation
 title: Boomerang Stages and Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-feature: "Boomerang, Touchpoints"
+feature: Boomerang, Touchpoints
 ---
 # Boomerang Stages and Touchpoints {#boomerang-stages-and-touchpoints}
 

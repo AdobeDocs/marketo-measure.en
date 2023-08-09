@@ -2,7 +2,7 @@
 description: "[!DNL Marketo Measure] Salesforce Package Installation and Set Up - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Package Installation and Set Up"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
-feature: "Installation, Salesforce"
+feature: Installation, Salesforce
 ---
 # [!DNL Marketo Measure] Salesforce Package Installation and Set Up {#marketo-measure-salesforce-package-installation-and-set-up}
 

@@ -3,7 +3,7 @@ unique-page-id: 18874614
 description: Leads with Buyer Touchpoints Report - [!DNL Marketo Measure] - Product Documentation
 title: Leads with Buyer Touchpoints Report
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
-feature: "Touchpoints, Reporting"
+feature: Touchpoints, Reporting
 ---
 # Leads with Buyer Touchpoints Report {#leads-with-buyer-touchpoints-report}
 

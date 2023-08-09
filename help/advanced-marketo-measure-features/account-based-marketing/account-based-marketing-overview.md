@@ -3,7 +3,7 @@ unique-page-id: 18874730
 description: Account Based Marketing Overview - [!DNL Marketo Measure] - Product Documentation
 title: Account Based Marketing Overview
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-feature: "Account-based Marketing"
+feature: Account-based Marketing
 ---
 # Account Based Marketing Overview {#account-based-marketing-overview}
 

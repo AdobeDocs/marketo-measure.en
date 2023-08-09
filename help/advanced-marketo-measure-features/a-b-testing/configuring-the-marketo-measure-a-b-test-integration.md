@@ -3,7 +3,7 @@ unique-page-id: 18874726
 description: Configuring the [!DNL Marketo Measure] A/B Test Integration - [!DNL Marketo Measure] - Product Documentation
 title: Configuring the [!DNL Marketo Measure] A/B Test Integration
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
-feature: "A/B Testing, Integration"
+feature: A/B Testing, Integration
 ---
 # Configuring the [!DNL Marketo Measure] A/B Test Integration {#configuring-the-marketo-measure-a-b-test-integration}
 
