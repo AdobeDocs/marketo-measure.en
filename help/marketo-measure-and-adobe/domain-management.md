@@ -2,6 +2,7 @@
 description: Domain Management - [!DNL Marketo Measure] - Product Documentation
 title: Domain Management
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
+feature: "Integration, Tracking"
 ---
 # Domain Management {#domain-management}
 

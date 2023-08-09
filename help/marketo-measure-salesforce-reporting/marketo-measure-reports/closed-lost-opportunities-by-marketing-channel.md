@@ -3,6 +3,7 @@ unique-page-id: 18874632
 description: Closed Lost Opportunities by Marketing Channel - [!DNL Marketo Measure] - Product Documentation
 title: Closed Lost Opportunities by Marketing Channel
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
+feature: "Channels, Reporting"
 ---
 # Closed Lost Opportunities by Marketing Channel {#closed-lost-opportunities-by-marketing-channel}
 

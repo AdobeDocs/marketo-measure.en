@@ -3,6 +3,7 @@ unique-page-id: 18874572
 description: Duplicate Records and [!DNL Marketo Measure] - [!DNL Marketo Measure] - Product Documentation
 title: Duplicate Records and [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
+feature: Tracking
 ---
 # Duplicate Records and [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 

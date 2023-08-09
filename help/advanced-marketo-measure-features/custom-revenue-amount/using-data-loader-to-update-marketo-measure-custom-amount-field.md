@@ -3,6 +3,7 @@ unique-page-id: 18874771
 description: Using Data Loader to Update [!DNL Marketo Measure] Custom Amount Field - [!DNL Marketo Measure] - Product Documentation
 title: Using Data Loader to Update Marketo Measure Custom Amount Field
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
+feature: Custom Revenue Amount
 ---
 # Using Data Loader to Update [!DNL Marketo Measure] Custom Amount Field {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 

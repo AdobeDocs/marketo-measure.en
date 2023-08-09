@@ -3,6 +3,7 @@ unique-page-id: 18874578
 description: Campaigns and Campaign Members - [!DNL Marketo Measure] - Product Documentation
 title: Campaigns and Campaign Members
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
+feature: Channels
 ---
 # Campaigns and Campaign Members {#campaigns-and-campaign-members}
 

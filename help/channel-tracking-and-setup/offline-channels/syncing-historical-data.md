@@ -3,6 +3,7 @@ unique-page-id: 42762310
 description: Syncing Historical Data - [!DNL Marketo Measure] - Product Documentation
 title: Syncing Historical Data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
+feature: Channels
 ---
 # Syncing Historical Data {#syncing-historical-data}
 

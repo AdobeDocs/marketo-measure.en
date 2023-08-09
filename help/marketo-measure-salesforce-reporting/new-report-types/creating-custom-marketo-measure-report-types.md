@@ -3,6 +3,7 @@ unique-page-id: 18874539
 description: Creating Custom [!DNL Marketo Measure] Report Types - [!DNL Marketo Measure] - Product Documentation
 title: Creating Custom [!DNL Marketo Measure] Report Types
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
+feature: Reporting
 ---
 # Creating Custom [!DNL Marketo Measure] Report Types {#creating-custom-marketo-measure-report-types}
 

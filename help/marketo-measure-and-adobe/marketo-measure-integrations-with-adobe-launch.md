@@ -2,6 +2,7 @@
 description: '[!DNL Marketo Measure] Integrations with Adobe Launch - [!DNL Marketo Measure] - Product Documentation'
 title: '[!DNL Marketo Measure] Integrations with Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
+feature: Integration
 ---
 # [!DNL Marketo Measure] Integrations with Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 

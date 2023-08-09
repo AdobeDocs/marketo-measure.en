@@ -3,6 +3,7 @@ unique-page-id: 18874656
 description: Filters - [!DNL Marketo Measure] - Product Documentation
 title: Filters
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
+feature: Reporting
 ---
 # Filters {#filters}
 

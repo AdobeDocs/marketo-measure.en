@@ -3,6 +3,7 @@ unique-page-id: 18874660
 description: FAQ - [!DNL Marketo Measure] - Product Documentation
 title: FAQ
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
+feature: Reporting
 ---
 # FAQ {#faq}
 

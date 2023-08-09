@@ -3,6 +3,7 @@ unique-page-id: 18874580
 description: Connect Marketo Measure to Salesforce - [!DNL Marketo Measure] - Product Documentation
 title: Connect Marketo Measure to Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
+feature: Salesforce
 ---
 # Connect Marketo Measure to Salesforce {#connect-marketo-measure-to-salesforce}
 

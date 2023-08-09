@@ -2,6 +2,7 @@
 description: '[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure] - Product Documentation'
 title: '[!DNL Salesforce] Package Consolidation'
 exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+feature: Salesforce
 ---
 # [!DNL Salesforce] Package Consolidation {#salesforce-package-consolidation}
 

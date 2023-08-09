@@ -2,6 +2,7 @@
 description: Best Practices for Stage Mapping - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Stage Mapping
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
+feature: "Tracking, Custom Models"
 ---
 # Best Practices for Stage Mapping {#best-practices-for-stage-mapping}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874584
 description: "[!DNL Marketo Measure] Object and Field Taxonomy - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Object and Field Taxonomy"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
+feature: Salesforce
 ---
 # [!DNL Marketo Measure] Object and Field Taxonomy {#marketo-measure-object-and-field-taxonomy}
 

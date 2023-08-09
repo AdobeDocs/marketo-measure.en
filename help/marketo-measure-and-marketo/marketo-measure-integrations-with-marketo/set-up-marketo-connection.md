@@ -3,6 +3,7 @@ unique-page-id: 42762762
 description: Set Up Marketo Connection - [!DNL Marketo Measure] - Product Documentation
 title: Set Up Marketo Connection
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
+feature: Integration
 ---
 # Set Up Marketo Connection {#set-up-marketo-connection}
 

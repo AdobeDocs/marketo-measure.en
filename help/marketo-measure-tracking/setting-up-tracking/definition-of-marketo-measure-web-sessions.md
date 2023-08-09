@@ -3,6 +3,7 @@ unique-page-id: 18874564
 description: Definition of [!DNL Marketo Measure] Web Sessions - [!DNL Marketo Measure] - Product Documentation
 title: Definition of [!DNL Marketo Measure] Web Sessions
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
+feature: Tracking
 ---
 # Definition of [!DNL Marketo Measure] Web Sessions {#definition-of-marketo-measure-web-sessions}
 

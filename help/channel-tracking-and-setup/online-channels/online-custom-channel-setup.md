@@ -3,6 +3,7 @@ unique-page-id: 18874596
 description: Online Custom Channel Setup - [!DNL Marketo Measure] - Product Documentation
 title: Online Custom Channel Setup
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
+feature: Channels
 ---
 # Online Custom Channel Setup {#online-custom-channel-setup}
 

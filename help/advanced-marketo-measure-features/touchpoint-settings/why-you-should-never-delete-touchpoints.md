@@ -3,6 +3,7 @@ unique-page-id: 18874560
 description: Why You Should Never Delete Touchpoints - [!DNL Marketo Measure] - Product Documentation
 title: Why You Should Never Delete Touchpoints
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
+feature: Touchpoints
 ---
 # Why You Should Never Delete Touchpoints {#why-you-should-never-delete-touchpoints}
 

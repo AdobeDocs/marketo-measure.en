@@ -2,6 +2,7 @@
 description: Best Practices for API Connections - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for API Connections
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
+feature: "APIs, Integration"
 ---
 # Best Practices for API Connections {#best-practices-for-api-connections}
 

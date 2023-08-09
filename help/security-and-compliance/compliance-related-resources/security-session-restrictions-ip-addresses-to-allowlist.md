@@ -3,6 +3,7 @@ unique-page-id: 18874706
 description: Security Session Restrictions - IP Addresses to Allowlist - Marketo Measure - Product Documentation
 title: Security Session Restrictions - IP Addresses to Allowlist
 exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
+feature: Tracking
 ---
 # Security Session Restrictions: IP Addresses to Allowlist {#security-session-restrictions-ip-addresses-to-allowlist}
 

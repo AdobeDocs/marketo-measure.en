@@ -3,6 +3,7 @@ unique-page-id: 35586140
 description: Data Warehouse Schema - Marketo Measure - Product Documentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
+feature: Data Warehouse
 ---
 # Data Warehouse Schema {#data-warehouse-schema}
 

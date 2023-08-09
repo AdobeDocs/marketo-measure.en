@@ -3,6 +3,7 @@ unique-page-id: 18874781
 description: Configuring Doubleclick Campaign Manager View Through Attribution - [!DNL Marketo Measure] - Product Documentation
 title: Configuring Doubleclick Campaign Manager View Through Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
+feature: Attribution
 ---
 # Configuring Doubleclick Campaign Manager View Through Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874598
 description: Offline Custom Channel Setup - [!DNL Marketo Measure] - Product Documentation
 title: Offline Custom Channel Setup
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
+feature: Channels
 ---
 # Offline Custom Channel Setup {#offline-custom-channel-setup}
 

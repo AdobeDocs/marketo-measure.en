@@ -3,6 +3,7 @@ unique-page-id: 18874795
 description: Adding [!DNL Marketo Measure] Script - [!DNL Marketo Measure] - Product Documentation
 title: Adding [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
+feature: Tracking
 ---
 # Adding [!DNL Marketo Measure] Script {#adding-marketo-measure-script}
 

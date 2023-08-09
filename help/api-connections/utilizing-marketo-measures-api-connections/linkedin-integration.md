@@ -3,6 +3,7 @@ unique-page-id: 35586080
 description: LinkedIn Integration - [!DNL Marketo Measure] - Product Documentation
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
+feature: "APIs, Integration"
 ---
 # LinkedIn Integration {#linkedin-integration}
 

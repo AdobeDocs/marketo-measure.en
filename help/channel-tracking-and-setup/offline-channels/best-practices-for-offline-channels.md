@@ -2,6 +2,7 @@
 description: Best Practices for Offline Channels - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Offline Channels
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
+feature: Channels
 ---
 # Best Practices for Offline Channels {#best-practices-for-offline-channels}
 

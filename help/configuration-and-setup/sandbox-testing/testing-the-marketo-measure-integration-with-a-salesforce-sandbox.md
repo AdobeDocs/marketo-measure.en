@@ -3,6 +3,7 @@ unique-page-id: 18874765
 description: Testing the Marketo Measure Integration with a Salesforce Sandbox - [!DNL Marketo Measure] - Product Documentation
 title: Testing the Marketo Measure Integration with a Salesforce Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
+feature: Salesforce
 ---
 # Testing the Marketo Measure Integration with a Salesforce Sandbox {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 

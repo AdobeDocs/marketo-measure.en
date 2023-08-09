@@ -3,6 +3,7 @@ unique-page-id: 18874734
 description: Best Practices for Merging Leads - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Merging Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
+feature: Tracking
 ---
 # Best Practices for Merging Leads {#best-practices-for-merging-leads}
 

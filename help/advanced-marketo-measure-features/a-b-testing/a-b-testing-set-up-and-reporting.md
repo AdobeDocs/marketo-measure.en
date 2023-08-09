@@ -3,6 +3,7 @@ unique-page-id: 18874773
 description: A/B Testing Set Up and Reporting - [!DNL Marketo Measure] - Product Documentation
 title: A/B Testing Set Up and Reporting
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
+feature: A/B Testing
 ---
 # A/B Testing Set Up and Reporting {#a-b-testing-set-up-and-reporting}
 
