@@ -1,5 +1,6 @@
 ---
 solution: Marketo Measure
+feature-set: Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.en
 index: yes
