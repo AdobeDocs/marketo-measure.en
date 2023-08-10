@@ -3,6 +3,7 @@ unique-page-id: 18874594
 description: Integrated Ad Platforms - [!DNL Marketo Measure] - Product Documentation
 title: Integrated Ad Platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
+feature: APIs, Integration
 ---
 # Integrated Ad Platforms {#integrated-ad-platforms}
 

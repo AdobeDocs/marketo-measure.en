@@ -3,6 +3,7 @@ unique-page-id: 18874604
 description: Custom Segmentation - [!DNL Marketo Measure] - Product Documentation
 title: Custom Segmentation
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
+feature: Segmentation
 ---
 # Custom Segmentation {#custom-segmentation}
 

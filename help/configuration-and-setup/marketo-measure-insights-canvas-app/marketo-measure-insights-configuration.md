@@ -3,6 +3,7 @@ unique-page-id: 18874769
 description: "[!DNL Marketo Measure] Insights Configuration - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Insights Configuration"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
+feature: Reporting
 ---
 # [!DNL Marketo Measure] Insights Configuration {#marketo-measure-insights-configuration}
 

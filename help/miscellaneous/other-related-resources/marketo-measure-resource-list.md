@@ -3,6 +3,7 @@ unique-page-id: 37356962
 description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Resource List"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
+feature: Fundamentals
 ---
 # [!DNL Marketo Measure] Resource List {#marketo-measure-resource-list}
 

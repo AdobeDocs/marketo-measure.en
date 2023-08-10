@@ -3,6 +3,7 @@ unique-page-id: 18874757
 description: Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot] - [!DNL Marketo Measure] - Product Documentation
 title: Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
+feature: Tracking
 ---
 # Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 

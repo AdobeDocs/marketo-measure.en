@@ -2,6 +2,7 @@
 description: "[!DNL Marketo Measure] Reporting Guide - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Reporting Guide"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
+feature: Reporting
 ---
 # [!DNL Marketo Measure] Reporting Guide {#marketo-measure-reporting-guide}
 

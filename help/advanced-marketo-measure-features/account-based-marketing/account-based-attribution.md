@@ -3,6 +3,7 @@ unique-page-id: 18874650
 description: Account Based Attribution - [!DNL Marketo Measure] - Product Documentation
 title: Account Based Attribution
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
+feature: Attribution
 ---
 # Account Based Attribution {#account-based-attribution}
 

@@ -3,6 +3,7 @@ unique-page-id: 42762648
 description: Cohort Journey Dashboard Documentation - [!DNL Marketo Measure] - Product Documentation
 title: Cohort Journey Dashboard Documentation
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
+feature: Reporting
 ---
 # Cohort Journey Dashboard Documentation {#cohort-journey-dashboard-documentation}
 

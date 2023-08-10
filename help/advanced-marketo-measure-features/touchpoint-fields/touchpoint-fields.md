@@ -3,6 +3,7 @@ unique-page-id: 37355835
 description: Touchpoint Fields - [!DNL Marketo Measure] - Product Documentation
 title: Touchpoint Fields
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
+feature: Touchpoints
 ---
 # Touchpoint Fields {#touchpoint-fields}
 

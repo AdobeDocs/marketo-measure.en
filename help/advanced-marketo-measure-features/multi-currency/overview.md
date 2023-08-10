@@ -3,6 +3,7 @@ unique-page-id: 27656735
 description: Overview - [!DNL Marketo Measure] - Product Documentation
 title: Overview
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
+feature: Multi-Currency
 ---
 # Overview {#overview}
 

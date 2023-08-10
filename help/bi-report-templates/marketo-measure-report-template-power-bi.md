@@ -2,6 +2,7 @@
 description: "[!DNL Marketo Measure] Report Template - Power BI - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Report Template - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
+feature: Reporting
 ---
 # [!DNL Marketo Measure] Report Template - Power BI {#marketo-measure-report-template-power-bi}
 

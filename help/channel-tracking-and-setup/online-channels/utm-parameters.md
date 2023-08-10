@@ -3,6 +3,7 @@ unique-page-id: 18874606
 description: UTM Parameters - [!DNL Marketo Measure] - Product Documentation
 title: UTM Parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
+feature: UTM Parameters
 ---
 # UTM Parameters {#utm-parameters}
 

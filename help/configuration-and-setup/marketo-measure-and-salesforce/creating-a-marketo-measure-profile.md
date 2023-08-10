@@ -3,6 +3,7 @@ unique-page-id: 18874698
 description: Creating a [!DNL Marketo Measure] Profile - [!DNL Marketo Measure] - Product Documentation
 title: Creating a [!DNL Marketo Measure] Profile
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
+feature: Salesforce
 ---
 # Creating a [!DNL Marketo Measure] Profile {#creating-a-marketo-measure-profile}
 

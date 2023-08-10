@@ -3,6 +3,7 @@ unique-page-id: 18874612
 description: Stock Reports and Dashboards in Dynamics - [!DNL Marketo Measure] - Product Documentation
 title: Stock Reports and Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
+feature: Microsoft Dynamics
 ---
 # Stock Reports and Dashboards in Dynamics {#stock-reports-and-dashboards-in-dynamics}
 

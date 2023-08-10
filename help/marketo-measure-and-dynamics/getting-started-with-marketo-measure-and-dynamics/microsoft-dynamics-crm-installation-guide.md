@@ -3,6 +3,7 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure - Product Documentation"
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
+feature: Installation, Microsoft Dynamics
 ---
 # [!DNL Microsoft Dynamics] CRM Installation Guide {#microsoft-dynamics-crm-installation-guide}
 

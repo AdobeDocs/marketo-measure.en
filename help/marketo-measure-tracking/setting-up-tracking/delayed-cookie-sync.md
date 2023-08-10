@@ -3,6 +3,7 @@ unique-page-id: 30082018
 description: Delayed Cookie Sync - [!DNL Marketo Measure] - Product Documentation
 title: Delayed Cookie Sync
 exl-id: 394053ed-5642-48e4-b83c-c483a58ebbd7
+feature: Tracking
 ---
 # Delayed Cookie Sync {#delayed-cookie-sync}
 

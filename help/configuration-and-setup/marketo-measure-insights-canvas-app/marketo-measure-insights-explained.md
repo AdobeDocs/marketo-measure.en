@@ -3,6 +3,7 @@ unique-page-id: 18874676
 description: "[!DNL Marketo Measure] Insights Explained - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Insights Explained"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
+feature: Reporting
 ---
 # [!DNL Marketo Measure] Insights Explained {#marketo-measure-insights-explained}
 

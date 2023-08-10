@@ -3,6 +3,7 @@ unique-page-id: 18874554
 description: Touchpoint Generation and Mapping - [!DNL Marketo Measure] - Product Documentation
 title: Touchpoint Generation and Mapping
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
+feature: Touchpoints
 ---
 # Touchpoint Generation and Mapping {#touchpoint-generation-and-mapping}
 

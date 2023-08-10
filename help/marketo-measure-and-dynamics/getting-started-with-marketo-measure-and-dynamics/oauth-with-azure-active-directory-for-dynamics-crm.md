@@ -3,6 +3,7 @@ unique-page-id: 37357059
 description: OAuth with [!DNL Azure Active Directory] for Dynamics CRM - [!DNL Marketo Measure] - Product Documentation
 title: OAuth with [!DNL Azure Active Directory] for Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
+feature: Microsoft Dynamics
 ---
 # OAuth with [!DNL Azure Active Directory] for Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874692
 description: Boomerang Stage Scenarios - [!DNL Marketo Measure] - Product Documentation
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
+feature: Boomerang
 ---
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
 

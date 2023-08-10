@@ -2,6 +2,7 @@
 description: "[!DNL Marketo Measure] Integrations with Adobe Analytics - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Integrations with [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
+feature: Integration
 ---
 # [!DNL Marketo Measure] Integrations with Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 

@@ -3,6 +3,7 @@ unique-page-id: 27656745
 description: FAQ (Multi-Currency) - [!DNL Marketo Measure] - Product Documentation
 title: FAQ (Multi-Currency)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
+feature: Multi-Currency
 ---
 # FAQ (Multi-Currency) {#faq-multi-currency}
 

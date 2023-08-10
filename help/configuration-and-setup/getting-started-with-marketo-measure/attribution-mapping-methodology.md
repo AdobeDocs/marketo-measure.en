@@ -3,6 +3,7 @@ unique-page-id: 18874716
 description: Attribution Mapping Methodology - [!DNL Marketo Measure] - Product Documentation
 title: Attribution Mapping Methodology
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
+feature: Attribution
 ---
 # Attribution Mapping Methodology {#attribution-mapping-methodology}
 

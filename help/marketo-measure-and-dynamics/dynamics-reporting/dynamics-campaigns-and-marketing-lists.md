@@ -3,6 +3,7 @@ unique-page-id: 18874610
 description: Dynamics Campaigns and Marketing Lists - [!DNL Marketo Measure] - Product Documentation
 title: Dynamics Campaigns and Marketing Lists
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
+feature: Microsoft Dynamics
 ---
 # Dynamics Campaigns and Marketing Lists {#dynamics-campaigns-and-marketing-lists}
 

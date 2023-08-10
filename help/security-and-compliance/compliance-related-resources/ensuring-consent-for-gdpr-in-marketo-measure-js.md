@@ -3,6 +3,7 @@ unique-page-id: 35586069
 description: Ensuring Consent for GDPR in Marketo Measure Js - Marketo Measure - Product Documentation
 title: Ensuring Consent for GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
+feature: Tracking
 ---
 # Ensuring Consent for GDPR in Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 

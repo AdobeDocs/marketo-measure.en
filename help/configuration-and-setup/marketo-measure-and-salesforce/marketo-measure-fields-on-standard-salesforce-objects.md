@@ -3,6 +3,7 @@ unique-page-id: 18874574
 description: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
+feature: Salesforce
 ---
 # [!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects {#marketo-measure-fields-on-standard-salesforce-objects}
 

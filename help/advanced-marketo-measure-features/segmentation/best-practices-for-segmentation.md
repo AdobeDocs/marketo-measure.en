@@ -2,6 +2,7 @@
 description: Best Practices for Segmentation - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
+feature: Segmentation
 ---
 # Best Practices for Segmentation {#best-practices-for-segmentation}
 

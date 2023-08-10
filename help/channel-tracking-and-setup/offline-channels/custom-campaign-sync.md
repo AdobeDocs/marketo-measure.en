@@ -3,6 +3,7 @@ unique-page-id: 18874588
 description: Custom Campaign Sync - [!DNL Marketo Measure] - Product Documentation
 title: Custom Campaign Sync
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
+feature: Channels
 ---
 # Custom Campaign Sync {#custom-campaign-sync}
 

@@ -3,6 +3,7 @@ unique-page-id: 37356395
 description: "[!DNL Marketo Engage] People Integration - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Engage] People Integration"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
+feature: Integration
 ---
 # [!DNL Marketo Engage] People Integration {#marketo-engage-people-integration}
 

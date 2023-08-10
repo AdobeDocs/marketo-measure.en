@@ -3,6 +3,7 @@ unique-page-id: 18874616
 description: Report Type for Contacts Without Opportunities - [!DNL Marketo Measure] - Product Documentation
 title: Report Type for Contacts Without Opportunities
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
+feature: Reporting
 ---
 # Report Type for Contacts Without Opportunities {#report-type-for-contacts-without-opportunities}
 

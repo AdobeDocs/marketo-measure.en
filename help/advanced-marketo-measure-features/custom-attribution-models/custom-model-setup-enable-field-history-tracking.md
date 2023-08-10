@@ -3,6 +3,7 @@ unique-page-id: 18874777
 description: Custom Model Setup - Enable Field History Tracking - [!DNL Marketo Measure] - Product Documentation
 title: Custom Model Setup - Enable Field History Tracking
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
+feature: Custom Models
 ---
 # Custom Model Setup: Enable Field History Tracking {#custom-model-setup-enable-field-history-tracking}
 

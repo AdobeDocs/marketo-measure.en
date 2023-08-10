@@ -2,6 +2,7 @@
 description: Data Warehouse Access - Direct Share - Product Documentation
 title: Data Warehouse Access - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
+feature: Data Warehouse
 ---
 # Data Warehouse Access - Direct Share {#data-warehouse-access-direct-share}
 

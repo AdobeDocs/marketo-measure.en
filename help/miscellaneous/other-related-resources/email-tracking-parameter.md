@@ -3,6 +3,7 @@ unique-page-id: 37356030
 description: Email Tracking Parameter - [!DNL Marketo Measure] - Product Documentation
 title: Email Tracking Parameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
+feature: Tracking
 ---
 # Email Tracking Parameter {#email-tracking-parameter}
 

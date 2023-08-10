@@ -2,6 +2,7 @@
 description: Best Practices for Touchpoint Settings - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Touchpoint Settings
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
+feature: Touchpoints
 ---
 # Best Practices for Touchpoint Settings {#best-practices-for-touchpoint-settings}
 

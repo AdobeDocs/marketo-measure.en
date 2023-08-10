@@ -3,6 +3,7 @@ unique-page-id: 18874582
 description: "[!DNL Marketo Measure] Salesforce Objects - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Salesforce Objects"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
+feature: Salesforce
 ---
 # [!DNL Marketo Measure] Salesforce Objects {#marketo-measure-salesforce-objects}
 

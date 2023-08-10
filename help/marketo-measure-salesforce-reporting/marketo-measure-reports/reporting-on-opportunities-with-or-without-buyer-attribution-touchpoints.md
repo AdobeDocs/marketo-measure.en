@@ -3,6 +3,7 @@ unique-page-id: 18874618
 description: Reporting on Opportunities with or Without Buyer Attribution Touchpoints - [!DNL Marketo Measure] - Product Documentation
 title: Reporting on Opportunities with or Without Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
+feature: Touchpoints, Attribution, Reporting
 ---
 # Reporting on Opportunities with or Without Buyer Attribution Touchpoints {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 

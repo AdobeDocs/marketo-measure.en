@@ -3,6 +3,7 @@ unique-page-id: 18874732
 description: Best Practices for Setting Up UTM Parameters - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Setting Up UTM Parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
+feature: UTM Parameters
 ---
 # Best Practices for Setting Up UTM Parameters {#best-practices-for-setting-up-utm-parameters}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874672
 description: How [!DNL Marketo Measure] and [!DNL Salesforce] Interact - Marketo Measure - Product Documentation
 title: How [!DNL Marketo Measure] and [!DNL Salesforce] Interact
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
+feature: Salesforce
 ---
 # How [!DNL Marketo Measure] and [!DNL Salesforce] Interact {#how-marketo-measure-and-salesforce-interact}
 

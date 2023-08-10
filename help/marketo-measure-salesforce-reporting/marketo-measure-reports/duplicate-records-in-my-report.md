@@ -3,6 +3,7 @@ unique-page-id: 18874634
 description: Duplicate Records in My Report - [!DNL Marketo Measure] - Product Documentation
 title: Duplicate Records in My Report
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
+feature: Reporting
 ---
 # Duplicate Records in My Report {#duplicate-records-in-my-report}
 

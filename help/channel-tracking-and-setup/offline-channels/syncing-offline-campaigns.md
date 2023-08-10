@@ -3,6 +3,7 @@ unique-page-id: 18874600
 description: Syncing Offline Campaigns - [!DNL Marketo Measure] - Product Documentation
 title: Syncing Offline Campaigns
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
+feature: Channels
 ---
 # Syncing Offline Campaigns {#syncing-offline-campaigns}
 

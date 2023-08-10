@@ -3,6 +3,7 @@ unique-page-id: 18874708
 description: Salesforce Activities Attribution - [!DNL Marketo Measure] - Product Documentation
 title: Salesforce Activities Attribution
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
+feature: Attribution, Salesforce
 ---
 # Salesforce Activities Attribution {#salesforce-activities-attribution}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874684
 description: Campaign Sync Dates - [!DNL Marketo Measure] - Product Documentation
 title: Campaign Sync Dates
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
+feature: Channels
 ---
 # Campaign Sync Dates {#campaign-sync-dates}
 

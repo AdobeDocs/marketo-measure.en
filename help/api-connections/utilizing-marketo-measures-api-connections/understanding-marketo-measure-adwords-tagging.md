@@ -3,6 +3,7 @@ unique-page-id: 18874678
 description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure] - Product Documentation
 title: Understanding [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
+feature: APIs, Integration, UTM Parameters
 ---
 # Understanding [!DNL Marketo Measure] AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 

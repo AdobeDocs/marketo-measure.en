@@ -3,6 +3,7 @@ unique-page-id: 18874767
 description: Setting up Boomerang Stages - [!DNL Marketo Measure] - Product Documentation
 title: Setting up Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
+feature: Boomerang
 ---
 # Setting up Boomerang Stages {#setting-up-boomerang-stages}
 

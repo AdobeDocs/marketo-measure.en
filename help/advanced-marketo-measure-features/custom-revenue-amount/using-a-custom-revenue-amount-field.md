@@ -3,6 +3,7 @@ unique-page-id: 18874793
 description: Using a Custom Revenue Amount Field - [!DNL Marketo Measure] - Product Documentation
 title: Using a Custom Revenue Amount Field
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
+feature: Custom Revenue Amount
 ---
 # Using a Custom Revenue Amount Field {#using-a-custom-revenue-amount-field}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874696
 description: Recommended [!DNL Salesforce] Permissions for [!DNL Marketo Measure] Connected User - [!DNL Marketo Measure] - Product Documentation
 title: Recommended [!DNL Salesforce] Permissions for [!DNL Marketo Measure] Connected User
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
+feature: Salesforce
 ---
 # Recommended [!DNL Salesforce] Permissions for [!DNL Marketo Measure] Connected User {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 

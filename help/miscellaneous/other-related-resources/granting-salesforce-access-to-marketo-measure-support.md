@@ -3,6 +3,7 @@ unique-page-id: 18874791
 description: Granting [!DNL Salesforce] Access to [!DNL Marketo Measure] Support - [!DNL Marketo Measure] - Product Documentation
 title: Granting [!DNL Salesforce] Access to Marketo Measure Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
+feature: Salesforce
 ---
 # Granting [!DNL Salesforce] Access to Marketo Measure Support {#granting-salesforce-access-to-marketo-measure-support}
 

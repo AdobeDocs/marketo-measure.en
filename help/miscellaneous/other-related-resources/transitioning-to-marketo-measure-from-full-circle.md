@@ -3,6 +3,7 @@ unique-page-id: 18874535
 description: Transitioning to [!DNL Marketo Measure] from Full Circle - [!DNL Marketo Measure] - Product Documentation
 title: Transitioning to [!DNL Marketo Measure] from Full Circle
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
+feature: Attribution, Fundamentals
 ---
 # Transitioning to [!DNL Marketo Measure] from Full Circle {#transitioning-to-marketo-measure-from-full-circle}
 
