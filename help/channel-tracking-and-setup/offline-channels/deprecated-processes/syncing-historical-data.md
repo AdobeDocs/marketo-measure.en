@@ -85,7 +85,7 @@ If the data is housed elsewhere (such as still living in Marketing Automation) i
 
 As a result, you can mass set the date for everyone in that Marketing List that will be used for the Touchpoint Date. To have more accurate historical dates, create multiple Marketing Lists for the same campaign--each with its own Touchpoint Date. If the Campaign has a short time span, perhaps it would be worthwhile to create a Marketing List for each day. If the Campaign has a longer time span, it might make sense to create a Marketing List on a weekly basis.
 
-More information on Syncing Marketing Lists can be found here: [[!DNL Dynamics] Campaigns and Marketing Lists](/help/marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
+More information on Syncing Marketing Lists can be found here: [[!DNL Dynamics] Campaigns and Marketing Lists](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
 >

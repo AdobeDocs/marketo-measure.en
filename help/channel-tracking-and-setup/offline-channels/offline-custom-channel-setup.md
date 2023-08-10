@@ -53,7 +53,7 @@ Any existing campaign types must be included in your channel map and "NULL" shou
 
 Take time to go into [!DNL Salesforce] to determine the number and nature of your existing record types, which you want to include, and whether you need to create additional campaigns based on the information above. Once you have filled out all the necessary information, you're ready to upload.
 
-Learn more about [syncing offline [!DNL Salesforce] Campaigns with [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
+Learn more about [syncing offline [!DNL Salesforce] Campaigns with [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
 
 ## Handling SFDC Campaigns for Online Marketing Efforts {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
