@@ -9,6 +9,10 @@ feature: Channels
 
 [!DNL Marketo Measure] is a solution that provides the most granular, actionable data. We understand, however, that you might have existing data you'd like to have attribution for. It's possible to generate Touchpoints for historical data, but it's important to take a few factors into consideration before moving forward with this process.
 
+>[!NOTE]
+>
+>This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+
 ## Factors to Consider {#factors-to-consider}
 
 **Is the data already organized into campaigns?**

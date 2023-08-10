@@ -9,6 +9,10 @@ feature: Channels
 
 Learn how to create a List View for those campaigns that you want to sync with Buyer Touchpoints.
 
+>[!NOTE]
+>
+>This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+
 The Campaign list view that can be created allows you to have a 'go-to' location to see and manage the 'Type' and 'Enable Buyer Touchpoints' fields to ensure that each of your [!DNL Salesforce] campaigns that inform your offline marketing channels are setup properly.
 
 1. Head to Campaigns tab in [!DNL Salesforce] and create a new list view

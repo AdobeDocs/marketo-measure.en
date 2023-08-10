@@ -9,6 +9,10 @@ feature: Channels
 
 It can be difficult to accurately track offline campaigns and understand how they compare to your digital marketing efforts. [!DNL Marketo Measure] enables you to track and attribute Touchpoints to your offline campaigns in [!DNL Salesforce], even in situations when a [!DNL Salesforce] campaign isn't created until a few weeks after the event.
 
+>[!NOTE]
+>
+>This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+
 ## Before You Sync {#before-you-sync}
 
 Here are some tips for an efficient syncing process:

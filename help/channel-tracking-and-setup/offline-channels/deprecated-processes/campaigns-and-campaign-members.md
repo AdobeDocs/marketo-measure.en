@@ -9,6 +9,10 @@ feature: Channels
 
 [!DNL Salesforce] Campaigns are intended to track lists of Leads and Contacts that are associated to a marketing program, or activity. This has commonly been webinars, or registrations, or booth visits, for example. Marketers can select whether or not a Campaign should get credited in a touchpoint journey.
 
+>[!NOTE]
+>
+>This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+
 ## Enabling Touchpoints {#enabling-touchpoints}
 
 The [!DNL Marketo Measure] [!DNL Salesforce] Package will include a field labeled "Enable Buyer Touchpoints" on the Campaign object. Once the field has been added to the page layout, it'll appear similar to this:

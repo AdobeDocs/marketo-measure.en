@@ -9,6 +9,10 @@ feature: Channels
 
 Learn what the Campaign Sync Dates feature does, as well as offer some use cases for this feature.
 
+>[!NOTE]
+>
+>This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+
 **[!DNL Marketo Measure] Package Required: 6.9 or above**
 
 This feature consists of two simple date fields on the [!DNL Salesforce] Campaign Object:
