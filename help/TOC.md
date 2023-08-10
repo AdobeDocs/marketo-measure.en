@@ -74,12 +74,14 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Best Practices for Offline Channels](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)
       + [Offline Custom Channel Setup](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Custom Campaign Sync](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-      + [Syncing Historical Data](channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
-      + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
-      + [Campaign Sync Dates](channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
       + [Configurations for Multiple Campaign Record Types](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + [Creating a Campaign List View for [!DNL Salesforce] Campaigns](channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-      + [Syncing Offline Campaigns](channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+        + Deprecated Processes {#deprecated-processes}
+          + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+          + [Campaign Sync Dates](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+          + [Creating a Campaign List View for [!DNL Salesforce] Campaigns](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+          + [Dynamics Campaigns and Marketing Lists](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+          + [Syncing Historical Data](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+          + [Syncing Offline Campaigns](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API Connections {#api-connections}
    + Utilizing [!DNL Marketo Measure]'s API Connections {#utilizing-marketo-measures-api-connections}
       + [Integrated Ad Platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
@@ -168,7 +170,6 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [[!DNL Marketo Measure] and Dynamics Taxonomy](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics Reporting {#dynamics-reporting}
       + [Stock Reports and Dashboards in [!DNL Dynamics]](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
-      + [Dynamics Campaigns and Marketing Lists](marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
 + [!DNL Marketo Measure] and Marketo {#marketo-measure-and-marketo}
    + [!DNL Marketo Measure] Integrations with Marketo {#marketo-measure-integrations-with-marketo}
       + [Set Up [!DNL Marketo] Connection](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
