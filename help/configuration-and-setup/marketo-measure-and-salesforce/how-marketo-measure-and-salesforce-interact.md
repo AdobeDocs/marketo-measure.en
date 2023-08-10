@@ -716,6 +716,20 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>To ensure the precision of Marketo Measure capturing deletion events within your Salesforce account, replicable permissions for the objects below are required. Replicable permissions come standard with the following objects:
+>
+>* Account
+>* Campaign
+>* Campaign Member
+>* Contact
+>* Event
+>* Lead
+>* Opportunity
+>* Task
+
+
 ## [!DNL Marketo Measure] Custom Objects in [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
 Apart from creating custom fields on SFDC's Standard Objects, once the [!DNL Marketo Measure] package is installed, it will create a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that [!DNL Marketo Measure] will write to.
