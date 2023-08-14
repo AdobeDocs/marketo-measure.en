@@ -219,5 +219,6 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Privacy Request](miscellaneous/other-related-resources/privacy-requests.md)
       + [Remove [!DNL Marketo Measure] Tracking Parameters from the Landing Page URL in Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Transitioning to [!DNL Marketo Measure] from Full Circle](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
+   + [Test](miscellaneous/test.md)
 + Release Notes {#release-notes}
    + [Current Release Notes](release-notes/current.md)
