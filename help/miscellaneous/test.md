@@ -9,7 +9,7 @@ feature: Fundamentals
 
 Text
 
-   ![](assets/image.gif)
+   ![](assets/drilldown_3.gif)
 
 More text
 
