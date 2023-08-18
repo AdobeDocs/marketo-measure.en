@@ -65,5 +65,5 @@ Questions the board answers:
     <img src="assets/revenue-overview-dashboard-2.png"></td>
     <td>&nbsp;</td>
   </tr>
-</body>
+</tbody>
 </table>
