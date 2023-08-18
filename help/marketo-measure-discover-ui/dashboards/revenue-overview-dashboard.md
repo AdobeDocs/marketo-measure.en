@@ -40,30 +40,25 @@ Questions the board answers:
   <tr>
     <td>Total Deals Tile</td>
     <td>Total number of deals marked as "Closed Won" in the CRM.</td>
-    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Attributed Revenue Tile</td>
     <td>Total attributable revenue from "Closed Won" opportunities with recorded touchpoints.</td>
-    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Attributable Deals Tile</td>
     <td>Total number of "Closed Won" deals from attributable opportunities.</td>
-    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Revenue and Attributed Revenue Chart</td>
     <td>This side-by-side time series bar chart provides a comprehensive view of your attribution coverage by juxtaposing Total Revenue against Attributed Revenue.
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td>&nbsp;</td>
   </tr>
   <tr>
     <td>Attribution Coverage Chart</td>
     <td>This pie chart provides a clear visual comparison between Attributed Revenue and Non-Attributed Revenue. The pie covers the total revenue.
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td>&nbsp;</td>
   </tr>
 </tbody>
 </table>
