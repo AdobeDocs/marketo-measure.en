@@ -14,8 +14,8 @@ Questions the board answers:
 * What percentage of our revenue is attributable to our marketing efforts?
 * What percentage of our "Closed Won" deals have been influenced by our marketing efforts?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Component</th> 
    <th>Description</th>
@@ -52,13 +52,13 @@ Questions the board answers:
   <tr>
     <td>Revenue and Attributed Revenue Chart</td>
     <td>This side-by-side time series bar chart provides a comprehensive view of your attribution coverage by juxtaposing Total Revenue against Attributed Revenue.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Attribution Coverage Chart</td>
     <td>This pie chart provides a clear visual comparison between Attributed Revenue and Non-Attributed Revenue. The pie covers the total revenue.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
