@@ -144,9 +144,15 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [FAQ (Multi-Currency)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Discover UI {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
-      + [Cohort Journey Dashboard Documentation](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Passport Dashboard Documentation](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Snapshot Dashboard Documentation](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Discover Dashboard Basics](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Revenue Overview Dashboard](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + Legacy Dashboards {#legacy-dashboards}
+      + [Cohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Passport Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Snapshot Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + Using [!DNL Marketo Measure]'s Reporting Platform {#using-marketo-measures-reporting-platform}
       + [Common Use Cases](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Definitions and Encyclopedia](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
