@@ -60,3 +60,7 @@ What is the total amount of our attributed revenue and the count of our attribut
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Discover Dashboard Basics](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}

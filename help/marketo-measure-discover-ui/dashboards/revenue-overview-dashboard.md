@@ -60,3 +60,7 @@ Questions the board answers:
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Discover Dashboard Basics](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
