@@ -1,8 +1,6 @@
 ---
 description: ROI Dashboard - [!DNL Marketo Measure] - Product
 title: ROI Dashboard
-hide: yes
-hidefromtoc: yes
 feature: Reporting
 ---
 # ROI Dashboard {#roi-dashboard}
@@ -20,8 +18,8 @@ Questions the board answers:
  <tr> 
    <th>Component</th> 
    <th>Description</th>
+   <th>Date Type</th>
    <th>Drill Through Fields</th>
-   <th>Data Type</th>
    <th>Filters</th>
   </tr>
   <tr>

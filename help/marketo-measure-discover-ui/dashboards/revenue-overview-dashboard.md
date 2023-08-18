@@ -1,8 +1,6 @@
 ---
 description: Revenue Overview Dashboard - [!DNL Marketo Measure] - Product
 title: Revenue Overview Dashboard
-hide: yes
-hidefromtoc: yes
 feature: Reporting
 ---
 # Revenue Overview Dashboard {#revenue-overview-dashboard}
@@ -20,7 +18,7 @@ Questions the board answers:
    <th>Component</th> 
    <th>Description</th>
    <th>Drill Through Fields</th>
-   <th>Data Type</th>
+   <th>Date Type</th>
    <th>Filters</th>
   </tr>
   <tr>

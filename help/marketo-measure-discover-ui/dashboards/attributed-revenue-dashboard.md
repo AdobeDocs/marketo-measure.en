@@ -1,8 +1,6 @@
 ---
 description: Attributed Revenue Dashboard - [!DNL Marketo Measure] - Product
 title: Attributed Revenue Dashboard
-hide: yes
-hidefromtoc: yes
 feature: Reporting
 ---
 # Attributed Revenue Dashboard {#attributed-revenue-dashboard}
@@ -20,7 +18,7 @@ What is the total amount of our attributed revenue and the count of our attribut
    <th>Component</th> 
    <th>Description</th>
    <th>Drill Through Fields</th>
-   <th>Data Type</th>
+   <th>Date Type</th>
    <th>Filters</th>
   </tr>
   <tr>
