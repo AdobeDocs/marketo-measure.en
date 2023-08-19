@@ -31,7 +31,15 @@ Questions the board answers:
 <li>Both start and end dates are inclusive.</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">Transition date</td>
-    <td></td>
+    <td><li>Opportunity Id</li>
+<li>Opportunity Name</li>
+<li>Created date</li>
+<li>Closed date</li>
+<li>Is Closed (Y/N)</li>
+<li>Is Won (Y/N)</li>
+<li>Current Stage</li>
+<li>Transition In Date</li>
+<li>Transition Out Date</li></td>
     <td rowspan="2"><li>Date</li>
 <li>Channel</li>
 <li>Subchannel</li>
