@@ -1,6 +1,8 @@
 ---
 description: Discover Dashboard Basics - [!DNL Marketo Measure] - Product
 title: Discover Dashboard Basics
+hide: yes
+hidefromtoc: yes
 feature: Reporting
 ---
 # Discover Dashboard Basics {#discover-dashboard-basics}
