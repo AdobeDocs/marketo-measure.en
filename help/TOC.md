@@ -145,6 +145,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
 + [!DNL Marketo Measure] Discover UI {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
       + [Discover Dashboard Basics](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [New Discover Dashboard Guide](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Revenue Overview Dashboard](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
