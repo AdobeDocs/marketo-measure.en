@@ -7,7 +7,11 @@ feature: Reporting
 ---
 # Discover Dashboard Basics {#discover-dashboard-basics}
 
-This article will guide you through the foundational capabilities of the redesigned interface, ensuring you can effortlessly access and interpret your data. Delve into the dynamics of the filter pane and uncover the intricacies of our enhanced reporting functionalities, such as the drill features, cross-filtering, and tooltips.
+This article will guide you through the foundational capabilities of the redesigned interface, ensuring you can effortlessly access and interpret your data. Delve into the dynamics of the filter pane and uncover the intricacies of our enhanced reporting functionalities, such as drill features, cross-filtering, and tooltips.
+
+>[!NOTE]
+>
+>This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
 
 ## Filter Pane {#filter-pane}
 
@@ -17,26 +21,36 @@ Every dashboard has a range of filters, accompanied by the following controls fo
  <tbody> 
   <tr> 
    <th>Name</th> 
-   <th>Icon</th>
    <th>Description</th>
   </tr> 
   <tr> 
-   <td>Hamburger Button</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Toggle the filter pane open or closed.</td>
+   <td>Filter Toggle Button</td>
+   <td>Toggle the filter pane open or closed.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Reset</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Return filters to default settings.</td>
+   <td>Reset Button</td>
+   <td>Return filters to default settings.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Filters on Visual</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Hover over a visual's top-right corner and click the button to see its active filters.</td>
+   <td>Apply Button</td>
+   <td>Click to confirm and implement your filter changes on the dashboard.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Segment Button</td>
+   <td>On dashboards with Segment filters, click the Segment button at the bottom of the filter pane to transition to Segments.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Filters on Visual {#filters-on-visual}
+
+Hover over a visual's top-right corner to see a read-only list of applied filters.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Report Capabilities {#report-capabilities}
 
@@ -64,21 +78,24 @@ Use the fork-like icon to add an additional hierarchy level in your current view
 
 ### Drill through {#drill-through}
 
-* To explore the data behind the visual, right-click the visual element and select the "drill-through" option.
+To explore the data behind the visual, right-click the visual element and select the "drill-through" option.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* To export the underlying data, hover over the top-right corner of the drill-through page, click the "more options" button, and select "export data."
+### Export Data {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+To export the underlying data from a visual, hover over its top-right corner. Click the "more options" button, choose "export data," select your preferred format, then click "export."
+![](assets/discover-dashboard-basics-10.gif)
 
-* To zoom in on a specific visual or tile, hover over the top-right corner and select the "focus" button.
+### Focus Mode {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+To zoom in on a specific visual or tile, hover over the top-right corner and select the "focus" button.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Cross Filtering {#cross-filtering}
 
-By default, selecting a value or axis label in one visualization will cross-filter other visuals on the report page, ensuring they display only the relevant, filtered data.
+Selecting a value or axis label in one visualization will cross-filter other visuals on the report page, ensuring they display only the relevant, filtered data.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
