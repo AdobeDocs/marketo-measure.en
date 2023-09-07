@@ -36,8 +36,8 @@ This side-by-side time series bar chart contrasts Total Revenue with Attributed 
 
 **Questions the chart answers:**
 
-  * What % of our August 2022 revenue can be attributed to our marketing initiatives?
-  * How does the attributed revenue in Q3 of last year stack up against Q4?
+* What % of our August 2022 revenue can be attributed to our marketing initiatives?
+* How does the attributed revenue in Q3 of last year stack up against Q4?
 
 ![](assets/revenue-overview-dashboard-1.png)
 
