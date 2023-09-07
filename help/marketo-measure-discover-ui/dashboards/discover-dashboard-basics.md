@@ -24,23 +24,23 @@ Every dashboard has a range of filters, accompanied by the following controls fo
    <th>Description</th>
   </tr> 
   <tr> 
-   <td>Filter Toggle Button</td>
+   <td><b>Filter Toggle Button</b></td>
    <td>Toggle the filter pane open or closed.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Reset Button</td>
-   <td>Return filters to default settings.
+   <td><b>Search Bar</b></td>
+   <td>Use the search at the top of the filter pane to search for a specific filter. Each filter also has its own search bar.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Apply Button</td>
-   <td>Click to confirm and implement your filter changes on the dashboard.
+   <td><b>Clear Filter Button</b></td>
+   <td>To clear a filter, click on the eraser icon located at the top-right corner of each filter.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Segment Button</td>
-   <td>On dashboards with Segment filters, click the Segment button at the bottom of the filter pane to transition to Segments.
+   <td><b>Apply Button</b></td>
+   <td>Click to confirm and implement your filter changes on the dashboard.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
