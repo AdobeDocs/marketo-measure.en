@@ -41,7 +41,7 @@ This side-by-side time series bar chart contrasts Total Revenue with Attributed 
 
 ![](assets/revenue-overview-dashboard-1.png)
 
-### Attribution Coverage Chart {attribution-coverage-chart}
+### Attribution Coverage Chart {#attribution-coverage-chart}
 
 This pie chart distinctly visualizes your attribution coverage by segmenting total revenue into Attributed and Non-Attributed revenue, spotlighting the precise percentage of revenue influenced by your marketing efforts.
 
