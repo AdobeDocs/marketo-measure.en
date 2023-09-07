@@ -9,59 +9,54 @@ feature: Reporting
 
 The Revenue Overview dashboard provides insights into the total revenue derived from your CRM, shedding light on your marketing strategies' role. It offers an overview of how marketing influences your overall revenue and contributes to the successful closure of deals.
 
-Questions the board answers:
+>[!NOTE]
+>
+>This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
 
-* What percentage of our revenue is attributable to our marketing efforts?
-* What percentage of our "Closed Won" deals have been influenced by our marketing efforts?
+**Questions the board answers:**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Component</th> 
-   <th>Description</th>
-   <th>Drill Through Fields</th>
-   <th>Date Type</th>
-   <th>Filters</th>
-  </tr>
-  <tr>
-    <td>Total Revenue Tile</td>
-    <td>Total revenue sourced from the CRM, including attributed revenue.</td>
-    <td rowspan="6"><li>Opportunity ID</li>
-<li>Opportunity Name</li>
-<li>Opportunity Created Date</li>
-<li>Opportunity Closed Date</li>
-<li>Is Closed (Y/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Current Stage</li>
-<li>Revenue</li></td>
-    <td rowspan="6">Closed Date</td>
-    <td rowspan="6">Date</td>
-  </tr>
-  <tr>
-    <td>Total Deals Tile</td>
-    <td>Total number of deals marked as "Closed Won" in the CRM.</td>
-  </tr>
-  <tr>
-    <td>Attributed Revenue Tile</td>
-    <td>Total attributable revenue from "Closed Won" opportunities with recorded touchpoints.</td>
-  </tr>
-  <tr>
-    <td>Attributable Deals Tile</td>
-    <td>Total number of "Closed Won" deals from attributable opportunities.</td>
-  </tr>
-  <tr>
-    <td>Revenue and Attributed Revenue Chart</td>
-    <td>This side-by-side time series bar chart provides a comprehensive view of your attribution coverage by juxtaposing Total Revenue against Attributed Revenue.
-    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Attribution Coverage Chart</td>
-    <td>This pie chart provides a clear visual comparison between Attributed Revenue and Non-Attributed Revenue. The pie covers the total revenue.
-    <br/>
-    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
-  </tr>
-</tbody>
-</table>
+* What % of our revenue is attributable to our marketing efforts?
+* What % of our "Closed Won" deals have been influenced by our marketing efforts?
+
+## Dashboard Components {#dashboard-components}
+
+### KPI Tiles {#kpi-tiles}
+
+* Total Revenue: The total revenue from "Closed Won" Opportunities, including Opportunities without touchpoints.
+* Total Deals: The number of "Closed Won" Opportunities, including Opportunities without touchpoints.
+* Attributed Revenue: The total revenue from "Closed Won" Opportunities with touchpoints.
+* Attributed Deals: The number of "Closed Won" Opportunities that have touchpoints.
+
+### Revenue and Attributed Revenue Chart {#revenue-and-attributed-revenue-chart}
+
+This side-by-side time series bar chart contrasts Total Revenue with Attributed Revenue, clearly visualizing your marketing impact on overall revenue.
+
+* Leverage the drill-down and up functionalities to categorize the data by Quarter and Year.
+* Hover over a section of the bar chart to reveal its detailed information.
+
+**Questions the chart answers:**
+
+  * What % of our August 2022 revenue can be attributed to our marketing initiatives?
+  * How does the attributed revenue in Q3 of last year stack up against Q4?
+
+![](assets/revenue-overview-dashboard-1.png)
+
+### Attribution Coverage Chart {attribution-coverage-chart}
+
+This pie chart distinctly visualizes your attribution coverage by segmenting total revenue into Attributed and Non-Attributed revenue, spotlighting the precise percentage of revenue influenced by your marketing efforts.
+
+**Questions the chart answers:**
+
+* What was the % of revenue coverage attributed to our marketing efforts last year?
+
+![](assets/revenue-overview-dashboard-2.png)
+
+## Filter Pane {#filter-pane}
+
+This dashboard is equipped with the following settings and filters:
+
+* Attribution Model
+* Date (based on Closed Date)
 
 >[!MORELIKETHIS]
 >
