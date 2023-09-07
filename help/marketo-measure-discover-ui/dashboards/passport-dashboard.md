@@ -9,61 +9,47 @@ feature: Reporting
 
 The Passport dashboard offers marketers a dynamic view of Leads, Contacts, and Opportunities as they transition through various stages within a specified period. By filtering for a specific date, users can also obtain a snapshot of records for that day.
 
-Questions the board answers:
+>[!NOTE]
+>
+>This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
+
+**Questions the board answers:**
 
 * How many leads, contacts, or opportunities existed in each non-terminal stage on any chosen day?
 * Throughout a specified period, how many distinct Leads or Contacts progressed through each transient stage?
    * _Example_: If Lead A was in stage 1 on 1/1/2023 and advanced to stage 5 by 3/31/2023, the Q1 2023 Passport analysis would count Lead A in stages 1 through 5.
-* How many unique Opportunities passed through each transient stage during a given time frame?
+* How many unique opportunities passed through each transient stage during a given time frame?
 
-<table style="table-layout:auto"> 
-<tbody>
-<tr> 
-   <th>Component</th> 
-   <th>Description</th>
-   <th>Date Type</th>
-   <th>Drill Through Fields</th>
-   <th>Filters</th>
-  </tr>
-  <tr>
-    <td>Opportunities</td>
-    <td><li>Each stage shows the number of Opportunities with BATs that have passed through them in a given timeframe.</li>
-<ul style="padding-left: 30px;"><li>If an Opportunity progresses through multiple stages within that span, they're counted in every stage it passed.</li></ul>
-<li>Terminal stages such as "Closed Won" and "Closed Lost" are excluded.</li>
-<li>Both start and end dates are inclusive.</li>
-<br/><img src="assets/passport-dashboard-1.png" width="600"></td>
-    <td rowspan="2">Transition date</td>
-    <td><li>Opportunity Id</li>
-<li>Opportunity Name</li>
-<li>Created date</li>
-<li>Closed date</li>
-<li>Is Closed (Y/N)</li>
-<li>Is Won (Y/N)</li>
-<li>Current Stage</li>
-<li>Transition In Date</li>
-<li>Transition Out Date</li></td>
-    <td rowspan="2"><li>Date</li>
-<li>Channel</li>
-<li>Subchannel</li>
-<li>Campaign</li>
-<li>Segments</li></td>
-  </tr>
-  <tr>
-    <td>Leads/Contacts</td>
-    <td><li>Each stage shows the number of Leads or Contacts with BTs that have passed through them in a given timeframe.</li>
-<ul style="padding-left: 30px;"><li>Whether to display "Lead" or "Contact" is determined by the preference set in: Settings > Attribution Settings > Default Dashboard Object.</li></ul>
-<li>Terminal stages such as "Closed Won" and "Closed Lost" are excluded.</li>
-<li>Both start and end dates are inclusive.</li>
-<br/><img src="assets/passport-dashboard-2.png" width="600"></td>
-    <td><li>Lead/Contact Id</li>
-<li>Lead/Contact Email</li>
-<li>Created date</li>
-<li>Current Stage</li>
-<li>Transition In Date</li>
-<li>Transition Out Date</li></td>
-  </tr>
-</tbody>
-</table>
+## Dashboard Components {#dashboard-components}
+
+### Opportunities in Stage by Stage Name {#opportunities-in-stage-by-stage-name}
+
+* Each stage shows the number of Opportunities with touchpoints that have passed through them in a given timeframe.
+  * If an opportunity progresses through multiple stages within that span, it's counted in every stage it passes. 
+* Terminal stages such as "Closed Won" and "Closed Lost" are excluded.
+* Both start and end dates are inclusive.
+
+![](assets/passport-dashboard-1.png)
+
+### Contacts in Stage by Stage Name {#contacts-in-stage-by-stage-name}
+
+* Each stage shows the number of Leads or Contacts with touchpoints that have passed through them in a given timeframe.
+  * Whether to display "Lead" or "Contact" is determined by the preference set in: Settings > Attribution Settings > Default Dashboard Object.
+  * If a Lead or Contact progresses through multiple stages within that span, it's counted in every stage it passes. 
+* Terminal stages such as "Closed Won" and "Closed Lost" are excluded.
+* Both start and end dates are inclusive.
+
+![](assets/passport-dashboard-2.png)
+
+## Filter Pane {#filter-pane}
+
+This dashboard is equipped with the following settings and filters:
+
+* Date (based on Transition Date)
+* Attribution Model
+* Channel, Subchannel
+* Campaign
+* Segments
 
 >[!MORELIKETHIS]
 >
