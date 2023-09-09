@@ -24,7 +24,7 @@ The ROI Dashboard provides marketers with a granular view of returns on investme
 ### KPI Tiles {#kpi-tiles}
 
 * **Cost**: Total costs from connected data sources and manually uploaded costs.
-* **Attributed Revenue**: The total revenue from "Closed Won" Opportunities with touchpoints.
+* **Attributed Revenue**: The total revenue contribution, based on the chosen attribution model, from Opportunities with touchpoints that closed within the filtered date period.
 * **Realized Attributed Revenue**: The total revenue contribution, based on the chosen attribution model, from Opportunities with touchpoints within the filtered date period, regardless of when they were closed.
 * **Total New Leads**: Total number of new Leads generated, including both touched and untouched Leads.
 * **Cost per New Lead**: The average cost per new Lead, derived from the total cost divided by the total number of new Leads.

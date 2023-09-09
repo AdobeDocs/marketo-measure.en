@@ -22,7 +22,7 @@ The Attributed Revenue Dashboard offers a focused perspective on the revenue dir
 
 ### KPI Tiles {#kpi-tiles}
 
-* **Attributed Revenue**: The total revenue contribution, based on the chosen attribution model, from Opportunities with touchpoints that closed within the filtered date period
+* **Attributed Revenue**: The total revenue contribution, based on the chosen attribution model, from Opportunities with touchpoints.
 * **Attributed Deals**: The number of "Closed Won" Opportunities that have touchpoints.
 
 ### Attributed Revenue by Channel Over Time Chart {#attributed-revenue-by-channel-over-time-chart}
