@@ -31,7 +31,7 @@ The Passport dashboard offers marketers a dynamic view of Leads, Contacts, and O
 
 ![](assets/passport-dashboard-1.png)
 
-### Contacts in Stage by Stage Name {#contacts-in-stage-by-stage-name}
+### Leads or Contacts in Stage by Stage Name {#leads-or-contacts-in-stage-by-stage-name}
 
 * Each stage shows the number of Leads or Contacts with touchpoints that have passed through them in a given timeframe.
   * Whether to display "Lead" or "Contact" is determined by the preference set in: Settings > Attribution Settings > Default Dashboard Object.

@@ -22,10 +22,10 @@ The Revenue Overview dashboard provides insights into the total revenue derived 
 
 ### KPI Tiles {#kpi-tiles}
 
-* Total Revenue: The total revenue from "Closed Won" Opportunities, including Opportunities without touchpoints.
-* Total Deals: The number of "Closed Won" Opportunities, including Opportunities without touchpoints.
-* Attributed Revenue: The total revenue from "Closed Won" Opportunities with touchpoints.
-* Attributed Deals: The number of "Closed Won" Opportunities that have touchpoints.
+* **Total Revenue**: The total revenue from "Closed Won" Opportunities, including Opportunities without touchpoints.
+* **Total Deals**: The number of "Closed Won" Opportunities, including Opportunities without touchpoints.
+* **Attributed Revenue**: The total revenue from "Closed Won" Opportunities with touchpoints.
+* **Attributed Deals**: The number of "Closed Won" Opportunities that have touchpoints.
 
 ### Revenue and Attributed Revenue Chart {#revenue-and-attributed-revenue-chart}
 
