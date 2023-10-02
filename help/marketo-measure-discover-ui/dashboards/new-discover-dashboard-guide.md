@@ -1,8 +1,6 @@
 ---
 description: New Discover Dashboard Guide - [!DNL Marketo Measure] - Product
 title: New Discover Dashboard Guide
-hide: yes
-hidefromtoc: yes
 feature: Reporting
 ---
 # New Discover Dashboard Guide {#new-discover-dashboard-guide}

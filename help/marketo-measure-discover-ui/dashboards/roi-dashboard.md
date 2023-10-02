@@ -1,8 +1,6 @@
 ---
 description: ROI Dashboard - [!DNL Marketo Measure] - Product
 title: ROI Dashboard
-hide: yes
-hidefromtoc: yes
 feature: Reporting
 ---
 # ROI Dashboard {#roi-dashboard}
@@ -13,7 +11,7 @@ The ROI Dashboard provides marketers with a granular view of returns on investme
 >
 >This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
 
-**Questions the board answers:**
+**Questions the board answers**
 
 * What were the ROI values for each channel, subchannel, and campaign?
 * How did the costs and revenues distribute across each channel, subchannel, and campaign?
@@ -43,7 +41,7 @@ Bar chart illustrating cost and revenue, designed to offer a comparative perspec
 * Leverage the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
 * Hover over each bar to view the Simple and Realized ROIs.
 
-**Questions the chart answers:**
+**Questions the chart answers**
 
 * What were the ROI values for each channel, subchannel, and campaign?
 * Are there any outlier channels or subchannels with unusually high or low costs relative to their revenue?
@@ -56,7 +54,7 @@ Time series line chart displaying the comparison between Realized and Simple ROI
 
 * Hover over a section on the graph to view the Simple and Realized ROIs.
 
-**Questions the chart answers:**
+**Questions the chart answers**
 
 * How does the Realized ROI compare to the Simple ROI over specific time periods?
 * How does the trend of Realized ROI relate to any significant marketing events during the same period?
@@ -70,7 +68,7 @@ Stacked bar chart displaying Total Costs, segmented by associated Channels for e
 * Leverage the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a bar segment or the space between bars to reveal detailed information.
 
-**Questions the chart answers:**
+**Questions the chart answers**
 
 * How does the combined cost of all channels compare from one quarter/month to the next?
 * How have costs for a specific channel evolved over time?
@@ -83,7 +81,7 @@ Bar chart displaying marketing spend segmented by Channel/Subchannel/Campaign.
 
 * Leverage the drill-down and up functionalities to categorize the data by Channel/Subchannel/Campaign.
 
-**Questions the chart answers:**
+**Questions the chart answers**
 
 * Which subchannels or campaigns within a primary channel have the highest allocation?
 * Which marketing avenues (channel, subchannel, or campaign) seem underfunded compared to others?
@@ -96,7 +94,7 @@ Table displaying attributed revenue, costs, and ROI segmented by individual chan
 
 * Click the "+" icon beside each Channel to reveal the breakdown by Subchannel and Campaign.
 
-**Columns:**
+**Columns**
 
 * Channel/Subchannel/Campaign
 * Cost
@@ -112,7 +110,7 @@ Table displaying costs, new Leads, Opportunities, and deals closed segmented by 
 
 * Click the "+" icon beside each Channel to reveal the breakdown by Subchannel and Campaign.
 
-**Columns:**
+**Columns**
 
 * Channel/Subchannel/Campaign
 * Cost
