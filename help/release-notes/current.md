@@ -43,7 +43,7 @@ In our data warehouse, the "custom_properties" field has been serving as a stora
 
    * The outdated method of OAuth with a RefreshToken will be deprecated. Please refer to [this guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} for updating your credentials to adhere to Microsoft's best practices of using ClientSecret.
 
-### What's coming? {#whats-coming}
+### What's coming? {#q4-whats-coming}
 
 <p>
 
@@ -78,7 +78,7 @@ All Salesforce API versions of Apex classes, including the UserActivityContext c
 
 The new consolidated package installation link [can be found here](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1P000000VY6Z){target="_blank"}
 
-### What's coming? {#whats-coming}
+### What's coming? {#q2-whats-coming}
 
 <p>
 
