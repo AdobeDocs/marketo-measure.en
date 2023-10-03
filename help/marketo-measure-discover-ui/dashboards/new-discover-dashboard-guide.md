@@ -2,6 +2,7 @@
 description: New Discover Dashboard Guide - [!DNL Marketo Measure] - Product
 title: New Discover Dashboard Guide
 feature: Reporting
+exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
 ---
 # New Discover Dashboard Guide {#new-discover-dashboard-guide}
 

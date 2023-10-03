@@ -2,6 +2,7 @@
 description: Discover Dashboard Basics - [!DNL Marketo Measure] - Product
 title: Discover Dashboard Basics
 feature: Reporting
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
 ---
 # Discover Dashboard Basics {#discover-dashboard-basics}
 

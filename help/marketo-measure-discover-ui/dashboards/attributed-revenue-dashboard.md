@@ -2,6 +2,7 @@
 description: Attributed Revenue Dashboard - [!DNL Marketo Measure] - Product
 title: Attributed Revenue Dashboard
 feature: Reporting
+exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
 ---
 # Attributed Revenue Dashboard {#attributed-revenue-dashboard}
 
