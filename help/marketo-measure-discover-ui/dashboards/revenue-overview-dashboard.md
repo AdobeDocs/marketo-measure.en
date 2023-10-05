@@ -54,9 +54,9 @@ This pie chart distinctly visualizes your attribution coverage by segmenting tot
 
 This dashboard is equipped with the following settings and filters:
 
-* Attribution Model
 * Date (based on Closed Date)
 
 >[!MORELIKETHIS]
 >
->[Discover Dashboard Basics](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Discover Dashboard Basics](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
