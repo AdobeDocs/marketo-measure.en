@@ -122,6 +122,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
    + Custom Revenue Amount {#custom-revenue-amount}
       + [Best Practices for Utilizing a Custom Revenue Amount](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [Using a Custom Revenue Amount Field](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+      + [Test Doc](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [Using Data Loader to Update [!DNL Marketo Measure] Custom Amount Field](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + View Through Attribution {#view-through-attribution}
       + [[!DNL Marketo Measure] View Through Attribution FAQ](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
