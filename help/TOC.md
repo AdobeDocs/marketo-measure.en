@@ -35,7 +35,6 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [[!DNL Marketo Measure] Cookies](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [Definition of [!DNL Marketo Measure] Web Sessions](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [Best Practices for Testing](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [Delayed Cookie Sync](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + Configuration and Setup {#configuration-and-setup}
    + Getting Started with [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Touchpoint Generation and Mapping](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
