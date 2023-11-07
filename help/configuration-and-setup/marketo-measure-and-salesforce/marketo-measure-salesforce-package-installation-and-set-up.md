@@ -42,16 +42,6 @@ After you've completed the installation, you can update your [[!DNL Salesforce] 
 >
 >Read about the [!DNL Marketo Measure] Permissions sets created and [how they will be used](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
-## Install [!DNL Marketo Measure] Dashboard Package {#install-marketo-measure-dashboard-package}
-
-The [!UICONTROL Dashboard] Extension Package contains three pre-built dashboards. We recommend installing [!UICONTROL within] Production for all users.
-
-1. Install the package from the [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
-
-1. Select **[!UICONTROL Install for All Users]**.
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## Creating a [!DNL Marketo Measure] Profile and User {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] sends and receives data through a connected [!DNL Salesforce] user within the [!DNL Marketo Measure] app.
@@ -92,3 +82,7 @@ Step 4: Log-in to your [!DNL Marketo Measure] Account and re-authorize the [!DNL
 1. Select **[!UICONTROL Connections]** within the **[!UICONTROL Integrations]** grouping.
 
 1. Click the Key Icon to the right of the current connected [!DNL Salesforce] connection and select to **Re-authorize with Production**. Log in with the new user credentials again (if prompted).
+
+>[!MORELIKETHIS]
+>
+>[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
