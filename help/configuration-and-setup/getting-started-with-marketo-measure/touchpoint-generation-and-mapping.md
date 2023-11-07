@@ -41,7 +41,7 @@ The touchpoint mapping process answers the question, "Once this touchpoint's bee
 >[!MORELIKETHIS]
 >
 >* [Mapping Online Touchpoints to [!DNL Marketo Measure] Channels/Subchannels](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Syncing CRM Campaigns from within SFDC](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [Syncing CRM Campaigns from within SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [Syncing CRM Campaigns from within [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Mapping CRM Campaigns to [!DNL Marketo Measure] Channels/Subchannels](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Creating Touchpoints from Sales Activities](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
