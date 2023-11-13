@@ -14,7 +14,6 @@ If you chose to test [!DNL Marketo Measure] in a [!DNL Salesforce] Sandbox envir
 * Install the two [!DNL Marketo Measure] packages into Production with the "[!UICONTROL All Users]" setting
 
    * [Base Package](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [Dashboard Extension Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * For more information about the [!DNL Marketo Measure] relationship with [!DNL Salesforce], take a look at [this article](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * A bit of [!DNL Salesforce] configuration is necessary. The specific action items are outlined below in [Step 4 below](#salesforce-configuration)

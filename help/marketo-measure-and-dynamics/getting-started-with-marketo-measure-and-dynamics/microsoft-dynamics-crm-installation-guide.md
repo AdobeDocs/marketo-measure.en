@@ -39,9 +39,9 @@ For connection and authentication, [!DNL Marketo Measure] supports the following
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] User Permissions {#marketo-measure-user-permissions}
+## Creating a [!DNL Marketo Measure] User {#creating-a-marketo-measure-user}
 
-We recommend creating a dedicated [!DNL Marketo Measure] User within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password as well as the endpoint URL as this will be used when creating the [!DNL Marketo Measure] account.
+We recommend creating a dedicated Marketo Measure User as an "Application User" within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password, as well as the endpoint URL, as they will be used when creating the [!DNL Marketo Measure] account.
 
 ## Security Roles {#security-roles}
 
