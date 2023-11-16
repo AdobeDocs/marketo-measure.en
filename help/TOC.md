@@ -216,6 +216,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Security Session Restrictions: IP Addresses to Allowlist](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [[!DNL Marketo Measure] Ultimate Overview](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
+   + [Data Integrity Requirement](marketo-measure-ultimate/data-integrity-requirement.md)
 + Miscellaneous {#miscellaneous}
    + Other Related Resources {#other-related-resources}
       + [[!DNL Marketo Measure] Maintenance](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
