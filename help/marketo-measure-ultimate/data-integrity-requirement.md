@@ -884,7 +884,7 @@ feature: Integration, Tracking, Attribution
 
 ## ExperienceEvent {#experienceevent}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>XDM Class</th>
     <th>XDM Field Group</th>
