@@ -150,6 +150,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Web Traffic Dashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Dashboard Data Visibility Policy](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + Legacy Dashboards {#legacy-dashboards}
       + [Cohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)

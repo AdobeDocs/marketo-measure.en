@@ -11,7 +11,7 @@ feature: Integration, Tracking, Attribution
 
 ## Entity Object {#entity-object}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>XDM Class</th>
     <th>XDM Field Group</th>
@@ -1045,7 +1045,7 @@ feature: Integration, Tracking, Attribution
 
 ## ExperienceEvent Type Supported {#experienceevent-type-supported}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>Event Type</th>
     <th>XDM Event Type</th>
