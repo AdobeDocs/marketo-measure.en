@@ -2,6 +2,7 @@
 description: Adobe Admin Console Setup - Marketo Measure - Product Documentation
 title: Adobe Admin Console Setup
 feature: Installation
+exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
 ---
 # Adobe Admin Console Setup {#adobe-admin-console-setup}
 
@@ -51,4 +52,3 @@ When adding a user to their respective group, you'll see their [Identity Type li
 After a user has been added to a Product Profile, they're able to access their [!DNL Marketo Measure] instance(s) by choosing the **Sign in with Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
    ![](assets/adobe-admin-console-setup-3.png)
-   

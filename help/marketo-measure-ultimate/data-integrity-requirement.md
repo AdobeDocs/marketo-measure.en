@@ -4,6 +4,7 @@ title: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement'
 hide: yes
 hidefromtoc: yes
 feature: Integration, Tracking, Attribution
+exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 ---
 # [!DNL Marketo Measure] Ultimate Data Integrity Requirement {#marketo-measure-ultimate-data-integrity-requirement}
 
@@ -1365,4 +1366,3 @@ We recommend using a calculated field in field mapping to default the field to a
 
 * If leadOperation.campaignProgression.campaignID of some experienceevent records are null, create and use the following calculated field in field mapping
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
-   
