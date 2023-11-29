@@ -1,8 +1,6 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL Marketo Measure] - Product Documentation'
 title: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement'
-hide: yes
-hidefromtoc: yes
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 ---
