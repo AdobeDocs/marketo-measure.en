@@ -14240,102 +14240,52 @@ Aggregation of URLs from landing pages, referrer pages, and page views.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The full URL,.</p>
-      </td>
-      <td>
-        <p>https://www.adobe.com/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>The full URL,.</td>
+      <td>https://www.adobe.com/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>SCHEME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The secure communication of the web page over the network.</p>
-      </td>
-      <td>
-        <p>https</p>
-      </td>
+      <td>SCHEME</td>
+      <td>varchar</td>
+      <td>The secure communication of the web page over the network.</td>
+      <td>https</td>
     </tr>
     <tr>
-      <td>
-        <p>HOST</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The domain of the URL, with any subdomains.</p>
-      </td>
-      <td>
-        <p>www.adobe.com</p>
-      </td>
+      <td>HOST</td>
+      <td>varchar</td>
+      <td>The domain of the URL, with any subdomains.</td>
+      <td>www.adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>PORT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The port from an internet host, optional in a URL.</p>
-      </td>
-      <td>
-        <p>584</p>
-      </td>
+      <td>PAGE_TITLE</td>
+      <td>varchar</td>
+      <td>Title of the page.</td>
+      <td>The CMO's Guide to B2B Marketing Attribution Download</td>
     </tr>
     <tr>
-      <td>
-        <p>PATH</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The part of the URL that points to a specific location on the host.</p>
-      </td>
-      <td>
-        <p>/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>PATH</td>
+      <td>varchar</td>
+      <td>The part of the URL that points to a specific location on the host.</td>
+      <td>/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
-      <td>
-        <p>5686109553536636820</p>
-      </td>
+      <td>PORT</td>
+      <td>varchar</td>
+      <td>The port from an internet host, optional in a URL.</td>
+      <td>584</td>
+    </tr>
+    <tr>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Foreign Key to the Biz_Facts view.</td>
+      <td>5686109553536636820</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
