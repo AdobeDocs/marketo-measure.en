@@ -9,9 +9,9 @@ feature: Salesforce
 
 If you chose to test [!DNL Marketo Measure] in a [!DNL Salesforce] Sandbox environment, please follow these instructions to migrate to Production once you are ready. The following instructions assume that you have already downloaded the [!DNL Marketo Measure] package into your Sandbox org, performed the necessary testing and are ready to push [!DNL Marketo Measure] to Production.
 
-## Step 1: Install [!DNL Marketo Measure] Packages into your Production [!DNL Salesforce] Instance {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Step 1: Install the [!DNL Marketo Measure] Package into Your Production [!DNL Salesforce] Instance
 
-* Install the two [!DNL Marketo Measure] packages into Production with the "[!UICONTROL All Users]" setting
+* Install the [!DNL Marketo Measure] package into Production with the "[!UICONTROL All Users]" setting
 
    * [Base Package](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
