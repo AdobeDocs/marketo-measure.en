@@ -146,13 +146,16 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
    + Dashboards {#dashboards}
       + [Discover Dashboard Basics](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [New Discover Dashboard Guide](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Revenue Overview Dashboard](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-       [Engagement Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Web Traffic Dashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Dashboard Data Visibility Policy](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Engagement Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Lead Velocity Dashboard](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Opportunity Velocity Dashboard](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Revenue Overview Dashboard](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Web Traffic Dashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+      
    + Legacy Dashboards {#legacy-dashboards}
       + [Cohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Passport Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
