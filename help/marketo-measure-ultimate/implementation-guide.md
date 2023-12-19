@@ -9,7 +9,7 @@ feature: Integration, Tracking, Attribution
 
 INTRO SENTENCE
 
-Main Differences When Using Ultimate over Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
+## Main Differences When Using Ultimate over Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
 Import B2B Data Through AEP: Marketers are expected to bring their B2B data (e.g. Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. Ingest from nearly any data source as well as multiple data sources of the same type to bring in all your data for attribution.
    
@@ -30,42 +30,42 @@ Learn more about [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marke
 
 ## Schemas and Datasets {#schemas-and-datasets}
 
->[!TIP]
+>[!NOTE]
 >
 >Check out [Building Blocks of a Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) for an overview of schemas, classes, and field groups.
 
-XDM Schema = Class + Schema Field Group*
+**XDM Schema = Class + Schema Field Group&#42;**
 
    * Required fields are not changeable. Customers can create and add custom fields as needed.
    * Example of field name based on hierarchy: accountOrganization.annualRevenue.amount
 
 &#42; _A schema comprises a class and zero or more schema field groups. This means you could compose a dataset schema without using field groups._
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-ExL: Datasets overview: All data successfully ingested into AEP is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows).
+[Datasets overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): All data successfully ingested into AEP is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows).
 
 ## Creating a Schema {#creating-a-schema}
 
-We recommend customers use an auto-generation utility to create 10 standard B2B schemas.
+We recommend using an auto-generation utility to create 10 standard B2B schemas.
 
-Steps to download and set up the utility can be found in the "Set up B2B namespaces and schema auto-generation utility" section in ExL: B2B namespaces and schemas
+   * Steps to download and set up the utility [can be found here](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
 
-For customers with a CDP entitlement: Create schemas by going to the Sources page
+For those with a _**CDP entitlement**_: Create schemas by going to the Sources page.
 
-From a source, select Add Data > Use templates
+   * From a source, select Add Data > Use templates
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-Select an account and all B2B templates to create 10 standard B2B schemas.
+   * Select an account and all B2B templates to create 10 standard B2B schemas.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Dataflows {#dataflows}
 
-ExL: Dataflows overview
+[Dataflows Overview](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
 
-Steps to create a dataflow:
+**Steps to create a dataflow:**
 
 1. Select a Source.
 1. Select an existing account or create an account.
@@ -85,28 +85,31 @@ Steps to create a dataflow:
    >* You could edit a dataflow, but the data isn't backfilled when a mapping is changed.
    >* If a required field is NULL, the entire flow will be rejected.
 
-ExL: Marketo Measure Ultimate Data Integrity Requirement
+   >[!NOTE]
+   >
+   >[Marketo Measure Ultimate Data Integrity Requirement](help/marketo-measure-ultimate/data-integrity-requirement.md)
 
 1. Set a data load cadence.
 1. Review and Complete.
 1. Check "Account Status" page in Measure UI settings for dataflow status.
 
-Monitoring:
-Sources → Dataflows page to check the status of dataflows
-To view the activity details of a dataset, simply click on the dataset
-To view dataflow errors, select a dataflow, choose a dataflow run, and click "Error diagnostics preview"
+**Monitoring:**
+
+Sources > Dataflows page to check the status of dataflows
+
+   * To view the activity details of a dataset, simply click on the dataset.
+   * To view dataflow errors, select a dataflow, choose a dataflow run, and click "Error diagnostics preview."
 
 ## Data Inspection {#data-inspection}
 
 ExL: Marketo Measure Ultimate Data Integrity Requirement
-This doc includes required fields for each XDM as well as inspection queries. It will be published in ExL. 
+This doc includes required fields for each XDM as well as inspection queries. It will be published in ExL. - IT'S ALREADY TAGGED ABOVE - POST IT AGAIN???
 
 Option 1: To run queries directly from the UI, access the Queries tab under Data Management.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Option 2: Download and use PSQL (faster and more reliable)
-ExL: Connect PSQL to Query Service
+Option 2: [Download and use PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (faster and more reliable)
 
 ## Activate Dataset for Marketo Measure {#activate-dataset-for-marketo-measure}
 
@@ -117,41 +120,46 @@ Before you begin, go to the "Experience Platform > Sandbox Mapping" section in t
 >This can't be changed once selected. 
 
 1. In AEP, go to "Destinations > Marketo Measure page" to export datasets.
-
 1. Configure destination.
-
 1. Activate dataset.
-
 1. Check "Account Status" page in Measure UI settings for dataflow status.
 
-Things to note:
-Data for a given entity (e.g., Account) from a given source can only go into one dataset. Each dataset can only be included in one data flow. Violations will stop the data flow at run time.
-Delete the entire destination in AEP to delete data in Measure. Disabling will only stop new data exports and keep the old data. 
-The Measure configuration will mostly look the same, but some parts, like Stage Mapping, will look different.
-It takes a few hours for a new dataflow to generate a flow run, and then they occur at regular hourly intervals.
+>[!NOTE]
+>
+>* Data for a given entity (e.g., Account) from a given source can only go into one dataset. Each dataset can only be included in one data flow. Violations will stop the data flow at run time.
+>* Delete the entire destination in AEP to delete data in Measure. Disabling will only stop new data exports and keep the old data. 
+>* The Measure configuration will mostly look the same, but some parts, like Stage Mapping, will look different.
+>* It takes a few hours for a new dataflow to generate a flow run, and then they occur at regular hourly intervals.
 
 In Measure, the default currency needs to be set in the "Currency" section
-If customers use multi-currency, the currency conversion rate schema has to be populated in AEP for us to read and use for conversions. 
 
-Stage Mapping
-We don't automatically import stages from customer data, so all stages must be mapped manually.
+   * If you use multi-currency, the currency conversion rate schema has to be populated in AEP for us to read and use for conversions. 
 
-Users can map stages from different sources.
+**Stage Mapping:**
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+We don't automatically import stages from user data, so all stages must be mapped manually.
+
+   * Users can map stages from different sources.
+
+![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 If the stages are not mapped, the system will not function because there will be nowhere for the data to go.
-Campaign Member Rules 
+
+**Campaign Member Rules:**
+
 Need to pick a dataset and set rules for each. 
 
-Experience Events Rules
-Need to pick a dataset and select activity types.
-Custom activities are not supported yet. 
-If the customer has activities that do not fit the available options, we suggest categorizing them as "Interesting Moments" and using custom fields to distinguish them.
+**Experience Events Rules:**
 
-Offline Channels
-We don't do dataset-specific channel mapping rules, so this would be global.
-We need to match both CRM Campaign Type and Channel eventually, but for now, we can map the channel name to both fields as a workaround. 
-Channel rules: Backfilled data won't have stage transition data.
+Need to pick a dataset and select activity types.
+
+   * Custom activities are not supported yet. 
+   * If the customer has activities that do not fit the available options, we suggest categorizing them as "Interesting Moments" and using custom fields to distinguish them.
+
+**Offline Channels:**
+
+   * We don't do dataset-specific channel mapping rules, so this would be global.
+   * We need to match both CRM Campaign Type and Channel eventually, but for now, we can map the channel name to both fields as a workaround. 
+   * **Channel rules: Backfilled data won't have stage transition data.**
 
 Touchpoint and Segment settings remain the same.
