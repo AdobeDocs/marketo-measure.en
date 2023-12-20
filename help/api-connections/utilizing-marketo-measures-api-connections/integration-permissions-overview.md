@@ -27,24 +27,24 @@ This guide outlines the necessary permissions for seamless integration with Mark
     <td>B2B System Data    
 </td>
     <td>Marketo Measure is tracking:
-    <br>
+    <p>
     <li>Account</li>
-<li>Campaign</li>
-<li>CampaignMember</li>
-<li>Contact</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>Events</li>
-<li>FieldHistory (Lead, Contact, and Opportunity)</li>
-<li>Lead</li>
-<li>Opportunity</li>
-<li>OpportunityContactRole</li>
-<li>OpportunityHistory</li>
-<li>Tasks</li>
-<br>
+    <li>Campaign</li>
+    <li>CampaignMember</li>
+    <li>Contact</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>Events</li>
+    <li>FieldHistory (Lead, Contact, and Opportunity)</li>
+    <li>Lead</li>
+    <li>Opportunity</li>
+    <li>OpportunityContactRole</li>
+    <li>OpportunityHistory</li>
+    <li>Tasks</li>
+<p>
 Touchpoints created and other data are written into custom bizible fields on Account, Campaign, CampaignMember, Case, Contact, Lead, and Opportunity.</td>
-    <td><b>Salesforce connected user permissions (required)</b>
-    <br>
+    <td><b>Salesforce Connected User Permissions (required)</b>
+    <p>
     <b>Marketo Measure Administrator Permission Set For Dedicated User:</b> Allow SFDC admin to perform CRUD operations on marketo measure objects.
     <br>
     <b>View and Edit Converted Leads Permission Set:</b> This allows Marketo Measure to decorate leads after they have been converted to contacts.
