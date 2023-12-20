@@ -1,13 +1,11 @@
 ---
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure] - Product Documentation'
 title: '[!DNL Marketo Measure] Ultimate Implementation Guide'
-hide: yes
-hidefromtoc: yes
 feature: Integration, Tracking, Attribution
 ---
 # [!DNL Marketo Measure] Ultimate Implementation Guide {#marketo-measure-ultimate-implementation-guide}
 
-INTRO SENTENCE
+This article serves as an implementation guide for Marketo Measure Ultimate, providing clear steps and insights to ensure a successful integration and utilization.
 
 ## Main Differences When Using Ultimate over Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -78,7 +76,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
    >* If you map one schema type to another identical one, it will be done automatically.
    >* You can also import mapping from another flow in the system. 
    >* You can map one Source field to multiple destination fields but can't do the opposite.
-   >* You can create calculated fields (ExL: Data Prep mapping functions).
+   >* You can create calculated fields ([Data Prep mapping functions](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -101,9 +99,6 @@ Sources > Dataflows page to check the status of dataflows
    * To view dataflow errors, select a dataflow, choose a dataflow run, and click "Error diagnostics preview."
 
 ## Data Inspection {#data-inspection}
-
-ExL: Marketo Measure Ultimate Data Integrity Requirement
-This doc includes required fields for each XDM as well as inspection queries. It will be published in ExL. - IT'S ALREADY TAGGED ABOVE - POST IT AGAIN???
 
 Option 1: To run queries directly from the UI, access the Queries tab under Data Management.
 
