@@ -20,6 +20,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Best Practices for Implementing [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Adding [!DNL Marketo Measure] Script](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Adding [!DNL Marketo Measure] Script via Google Tag Manager](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [Data Collected by JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + Adding [!DNL Marketo Measure] Script to Different Form Providers {#adding-marketo-measure-script-to-different-form-providers}
          + [Adding [!DNL Marketo Measure] JavaScript to Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Adding [!DNL Marketo Measure] Script to Lightbox Forms](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
