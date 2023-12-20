@@ -86,6 +86,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
 + API Connections {#api-connections}
    + Utilizing [!DNL Marketo Measure]'s API Connections {#utilizing-marketo-measures-api-connections}
       + [Integrated Ad Platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [Integration Permissions Overview](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Best Practices for API Connections](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [How Bid Management Tools Affect [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] Parameters](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)

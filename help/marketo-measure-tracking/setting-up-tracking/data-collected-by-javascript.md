@@ -43,25 +43,25 @@ Marketo Measure collects the following common data for all types of requests:
     <td>Query parameter</td>
     <td>_biz_u</td>
     <td>string</td>
-    <td>Bizible cookie ID</td>
+    <td>Bizible cookie ID.</td>
   </tr>
   <tr>
     <td>Query parameter</td>
     <td>_biz_l</td>
     <td>string</td>
-    <td>Current page URL</td>
+    <td>Current page URL.</td>
   </tr>
   <tr>
     <td>Query parameter</td>
     <td>_biz_t</td>
     <td>long</td>
-    <td>Activity timestamp</td>
+    <td>Activity timestamp.</td>
   </tr>
   <tr>
     <td>Query parameter</td>
     <td>_biz_i</td>
     <td>string</td>
-    <td>Current page title</td>
+    <td>Current page title.</td>
   </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ In addition to the common data above, bizible.js also appends additional data de
     <td></td>
     <td>_biz_c</td>
     <td>string</td>
-    <td>Optional parameter. If this parameter is present, it indicates that tenant configures bizible.js to wait for users consent before tracking, and that bizible.js has received the user's consent to be tracked.</td>
+    <td>Optional parameter. If this parameter is present, it indicates that tenant configures bizible.js to wait for user's consent before tracking, and that bizible.js has received the user's consent to be tracked.</td>
   </tr>
   <tr>
     <td>Form submits</td>
@@ -112,7 +112,7 @@ In addition to the common data above, bizible.js also appends additional data de
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>What kind of user id mapping bizible.js detected (Marketo munchkin id and Adobe ECID)</td>
+    <td>What kind of user id mapping bizible.js detected (Marketo Munchkin id and Adobe ECID)</td>
   </tr>
   <tr>
     <td></td>
