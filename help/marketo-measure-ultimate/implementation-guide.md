@@ -26,13 +26,13 @@ Ultimate users will be provisioned AEP. If they already have AEP, we will not re
 
    * The AEP version provisioned will include all source connectors, schema data modeling, datasets, ad hoc query service, and a destination for Marketo Measure only.
 
-Learn more about [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+Learn more about [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## Schemas and Datasets {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Check out [Building Blocks of a Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) for an overview of schemas, classes, and field groups.
+>Check out [Building Blocks of a Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} for an overview of schemas, classes, and field groups.
 
 **XDM Schema = Class + Schema Field Group&#42;**
 
@@ -43,13 +43,13 @@ Learn more about [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marke
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Datasets overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): All data successfully ingested into AEP is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows).
+[Datasets overview](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: All data successfully ingested into AEP is persisted within the Data Lake as datasets. A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows).
 
 ## Creating a Schema {#creating-a-schema}
 
 We recommend using an auto-generation utility to create 10 standard B2B schemas.
 
-   * Steps to download and set up the utility [can be found here](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+   * Steps to download and set up the utility [can be found here](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 For those with a _**CDP entitlement**_: Create schemas by going to the Sources page.
 
@@ -63,7 +63,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
 ## Dataflows {#dataflows}
 
-[Dataflows Overview](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[Dataflows Overview](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Steps to create a dataflow:**
 
@@ -87,7 +87,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
    >[!NOTE]
    >
-   >[Marketo Measure Ultimate Data Integrity Requirement](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Marketo Measure Ultimate Data Integrity Requirement](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Set a data load cadence.
 1. Review and Complete.
@@ -109,7 +109,7 @@ Option 1: To run queries directly from the UI, access the Queries tab under Data
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Option 2: [Download and use PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (faster and more reliable)
+Option 2: [Download and use PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (faster and more reliable).
 
 ## Activate Dataset for Marketo Measure {#activate-dataset-for-marketo-measure}
 
