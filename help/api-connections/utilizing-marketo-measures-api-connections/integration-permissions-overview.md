@@ -12,13 +12,13 @@ This guide outlines the necessary permissions for seamless integration with Mark
 <table>
 <thead>
   <tr>
-    <th>Integration</th>
-    <th>Data Type
+    <th style="width:10%">Integration</th>
+    <th style="width:20%">Data Type
     <li>Web Interaction Data</li>
     <li>B2B System Data</li>
     <li>Ad Platform Data</li></th>
-    <th>What We Track</th>
-    <th>Permission Requirements</th>
+    <th style="width:30%">What We Track</th>
+    <th style="width:40%">Permission Requirements</th>
   </tr>
 </thead>
 <tbody>
