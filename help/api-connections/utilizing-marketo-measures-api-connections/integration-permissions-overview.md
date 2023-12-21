@@ -62,55 +62,118 @@ Touchpoints created and other data are written into custom bizible fields on Acc
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td>Dynamics</td>
+    <td>B2B System Data</td>
+    <td>Marketo Measure is tracking:
+    <p>
+    <li>Account
+<li>ActivityParty
+<li>ActivityPointer
+<li>Campaign
+<li>CampaignItem (CampaignList in our system)
+<li>CampaignResponse (CampaignMember in our system)
+<li>Contact
+<li>Lead
+<li>List (MarketingList in our system)
+<li>ListMember (MarketingListMember in our system)
+<li>Opportunity
+<li>Organization
+<li>TransactionCurrency (CurrencyConversionRange and CurrencyStatus in our system)
+<li>Appointment, CampaignActivity, Email, Fax, IncidentResolution, Letter, PhoneCall, RecurringAppointmentMaster, ServiceAppointment, Task
+<li>bizible2_bizible_abtest
+<li>bizible2_bizible_attribution_touchpoint
+<li>bizible2_bizible_event
+<li>bizible2_bizible_history
+<li>bizible2_bizible_touchpoint
+<p>
+Touchpoints created and other data are written into custom bizible fields on Account, Campaign, CampaignResponse, Contact, Lead, List, Opportunity, and PhoneCall</td>
+    <td><b>Marketo Measure User Permissions</b>
+<p>
+We recommend creating a dedicated Marketo Measure User within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password as well as the endpoint URL as this will be used when creating the Marketo Measure account.
+<p>
+<b>Security Roles</b>
+<p>
+If your organization uses Dynamics Security Roles, please make sure the connected user, or the dedicated Marketo Measure User has sufficient read/write permissions to the required entities.
+<br>
+Security Roles are located here: Settings > Security > Security Roles
+<br>
+For Marketo Measure custom entities, we will need full permissions across all of our entities.
+<p>
+<b>Dynamics Standard Field Permissions</b>
+<br>
+<a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics Schema</a>
+<p>
+<b>Dynamics Custom Field Permissions</b>
+<br>
+We need READ access for any field on the Lead or Contact entity that the customer wants to use for custom Suppress/Remove Touchpoint Settings rules.
+<br>
+We need READ access for any field on the Lead or Opportunity entity that the customer wants to use for Segment rules or Stage Mapping.
+<br>
+We need READ access for any field on the Campaign, CampaignResponse, and List entities that the customer wants to use for Syncing Campaign/MarketingList members.
+</td>
+  </tr>
+  <tr>
+    <td>Facebook</td>
+    <td>Ad Platform Data</td>
+    <td>We integrate with Facebook to:
+<p>
+<li>Import customer ads data</li>
+<li>Import customer ads cost data</li>
+<li>Update client's ads by appending url parameters</li>
+<p>
+Marketo Measure is tracking Accounts, Campaigns, Ad Groups, Ads, Filter IDs and URLs.</td>
+    <td><li>The ads_management permission is required to create campaigns, manage ads or fetch Ad metrics.</li>
+<li>The email permission is required to allow users to login their Facebook email.</li>
+<p>
+<b>Scopes</b>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
+<br>
+<li>Programmatically create campaigns, manage ads, and fetch metrics.</li>
+<li>Build ad management tools that provide innovative solutions and differentiated value for advertisers.</li>
+<p>
+<a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
+<br>
+<li>Communicating with people and letting them log into your app with the email address associated with their Facebook profile.</li></td>
+  </tr>
+  <tr>
+    <td>LinkedIn</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>DoubleClick</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>AdWords</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
+    <td>Bing</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>Marketo Engage</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
+    <td>Adobe Analytics</td>
     <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bizible Javascript</td>
     <td></td>
     <td></td>
     <td></td>
