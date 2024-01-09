@@ -13,11 +13,11 @@ This guide outlines the necessary permissions for seamless integration with Mark
 <thead>
   <tr>
     <th style="width:10%">Integration</th>
-    <th style="width:20%">Data Type
+    <th style="width:25%">Data Type
     <li>Web Interaction Data</li>
     <li>B2B System Data</li>
     <li>Ad Platform Data</li></th>
-    <th style="width:30%">What We Track</th>
+    <th style="width:25%">What We Track</th>
     <th style="width:40%">Permission Requirements</th>
   </tr>
 </thead>
@@ -54,6 +54,7 @@ Touchpoints created and other data are written into custom bizible fields on Acc
     <b>Marketo Measure Standard User:</b> Gives a user the ability to read records from Marketo Measure objects.
     <p>
     <b>Salesforce Standard Field Permissions</b>
+    <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce standard objects and access</a>
     <p>
     <b>Salesforce Custom Field Permissions</b>
@@ -88,11 +89,11 @@ Touchpoints created and other data are written into custom bizible fields on Acc
 <p>
 Touchpoints created and other data are written into custom bizible fields on Account, Campaign, CampaignResponse, Contact, Lead, List, Opportunity, and PhoneCall</td>
     <td><b>Marketo Measure User Permissions</b>
-<p>
+<br>
 We recommend creating a dedicated Marketo Measure User within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password as well as the endpoint URL as this will be used when creating the Marketo Measure account.
 <p>
 <b>Security Roles</b>
-<p>
+<br>
 If your organization uses Dynamics Security Roles, please make sure the connected user, or the dedicated Marketo Measure User has sufficient read/write permissions to the required entities.
 <br>
 Security Roles are located here: Settings > Security > Security Roles
@@ -126,21 +127,36 @@ Marketo Measure is tracking Accounts, Campaigns, Ad Groups, Ads, Filter IDs and 
 <li>The email permission is required to allow users to login their Facebook email.</li>
 <p>
 <b>Scopes</b>
-<p>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>Programmatically create campaigns, manage ads, and fetch metrics.</li>
 <li>Build ad management tools that provide innovative solutions and differentiated value for advertisers.</li>
-<p>
+<br>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/email">email</a>
 <br>
 <li>Communicating with people and letting them log into your app with the email address associated with their Facebook profile.</li></td>
   </tr>
   <tr>
     <td>LinkedIn</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data
+    <p>
+    B2B System Data (Lead Gen Form Data, including forms and submissions, which categorized as CRM Activity).</td>
+    <td>Marketo Measure is tracking LinkedIn Ads Campaigns, Creatives, and cost data, as well as Lead Gen Forms and responses. Based on data imported, we can generate LinkedIn touchpoints and associate lead form responses to leads for customers.</td>
+    <td><li>Campaign Manager or Account Manager role is required for Marketo Measure to download cost data. (Scope row 1)</li>
+    <br>
+    <li>Super Admin (Page Admin Role, Scopes row 2) or Lead Gen Forms Manager (Paid Media Admin Role, Scopes row 3) is required for Marketo Measure to access lead gen forms data</li>
+    <br>
+    <li>Super Admin (Page Admin Role, Scopes row 2) or Sponsored Content Poster (Paid Media Admin Role, Scopes row 3) is required for Marketo Measure to manipulate auto-tagging</li>
+    <p>
+    <b>Scopes</b>
+    <br>
+    <a href="https://www.linkedin.com/campaignmanager/accounts">Set up user role in portal (requires login to LinkedIn account)</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">User Roles Overview</a>: User role, view and manage user permission, assign roles like account manager or campaign manager
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Set up Page Admin Role - <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">Page Admin Role Definitions</a>: Page admin role, on the desired admin page
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">Set up Paid Media Admin Role (look for Paid Media Admin) - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">Paid Media Admin Definitions</a>: Paid Media Admin Roles</td>
   </tr>
   <tr>
     <td>DoubleClick</td>
