@@ -1,8 +1,6 @@
 ---
 description: Lead Velocity Dashboard - [!DNL Marketo Measure] - Product
 title: Lead Velocity Dashboard
-hide: yes
-hidefromtoc: yes
 feature: Reporting
 ---
 # Lead Velocity Dashboard {#lead-velocity-dashboard}
@@ -41,7 +39,7 @@ Questions the chart answers:
 
 ![](assets/lead-velocity-dashboard-2.png)
 
-## Lead/Contact Velocity by Channel {#lead-contact-velocity-by-channel}
+### Lead/Contact Velocity by Channel {#lead-contact-velocity-by-channel}
 
 The bar chart displays the average duration, in days, that leads/contacts remain in each funnel stage, segmented by Channel.
 
