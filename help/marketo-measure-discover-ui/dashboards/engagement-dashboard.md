@@ -26,7 +26,7 @@ Questions the dashboard answers:
 * People Touched: The total number of people who have any touchpoints.
 * Touchpoints per Person: Average number of touchpoints per person who have been touched.
 
-## Touchpoints and People Touched Over Time {#touchpoints-and-people-touched-over-time}
+### Touchpoints and People Touched Over Time {#touchpoints-and-people-touched-over-time}
 
 The time series bar chart displays the number of touchpoints, People Touched, and touchpoints per person for each month, quarter, and year.
 
@@ -40,7 +40,7 @@ Questions the chart answers:
 
 ![](assets/engagement-dashboard-1.png)
 
-## Touchpoints/People Touched by Channel {#touchpoints-people-touched-by-channel}
+### Touchpoints/People Touched by Channel {#touchpoints-people-touched-by-channel}
 
 Bar chart displaying touchpoints or People Touched segmented by Channel/Subchannel/Campaign.
 
