@@ -20,7 +20,7 @@ The new set of pre-built dashboards is scheduled to be introduced in waves, conc
 
 >[!NOTE]
 >
->While the current dashboards will be deprecated by mid-January 2024, you can utilize both versions until then, ensuring a smooth transition.
+>While the current dashboards will be deprecated by March 2024, you can utilize both versions until then, ensuring a smooth transition.
 
 **IP Address Data Removal**
 
@@ -90,7 +90,7 @@ The new set of pre-built dashboards is scheduled to be introduced in waves, begi
 
 >[!NOTE]
 >
->While the current dashboards will be deprecated by mid-January 2024, you can utilize both versions until then, ensuring a smooth transition.
+>While the current dashboards will be deprecated by March 2024, you can utilize both versions until then, ensuring a smooth transition.
 
 ### Deprecations {#deprecations}
 
