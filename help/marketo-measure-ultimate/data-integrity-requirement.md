@@ -401,7 +401,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
       <td>b2b.personStatus</td>
       <td>string</td>
       <td>Status</td>
-      <td><mark>Yes for Lead personType only</mark></td>
+      <td><font color="red">Yes for Lead personType only</font></td>
       <td>Only required if b2b.personType is "Lead"</td>
     </tr>
     <tr>
@@ -425,7 +425,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td><mark>Yes for Lead personType only</mark></td>
+      <td><font color="red">Yes for Lead personType only</font></td>
       <td>Only required if b2b.personType is "Lead"</td>
     </tr>
     <tr>
