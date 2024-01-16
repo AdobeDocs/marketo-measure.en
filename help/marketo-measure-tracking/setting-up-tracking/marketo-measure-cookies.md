@@ -9,6 +9,10 @@ feature: Tracking
 
 Learn about the various [!DNL Marketo Measure] Cookies that are loaded onto your site when you apply the [!DNL Marketo Measure] JavaScript to your landing pages. This information may serve as useful for the web development team during implementation.
 
+>[!IMPORTANT]
+>
+>Due to privacy concerns, third-party cookies are on the way out. Google Chrome's announced Q3 2024 deprecation of third-party cookies effectively marks the end of this form of tracking. As a result, Adobe will be deprecating Marketo Measure functions which rely on third-party cookies; specifically, Cross-Domain Tracking and View-through Attribution, which use the Google/DoubleClick impression cookie. No other functions of Marketo Measure will be impacted. First-party cookie usage is also not impacted. In light of Google's schedule, the expected deprecation date for the two functions above is 6/1/2024. Related data collected before this date will remain available to Adobe customers.
+
 <table>
 <thead>
   <tr>
