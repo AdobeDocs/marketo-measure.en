@@ -67,6 +67,11 @@ If rules aren't set up for both Leads/Contacts and Opportunities, you will see o
 
 When you're done, click [!UICONTROL Save] first, double check everything, and then click [!UICONTROL Save and Process]. Remember that you will be unable to edit your settings for seven days when you save and process, as [!DNL Marketo Measure] is reformatting your data during this time.
 
+If you're a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+
+* b2b.personStatus
+* b2b.isConverted
+
 **How do I save the generated reports?**
 
 You cannot save the generated reports directly in the user interface. However, [!DNL Marketo Measure] saves the segment names in the URL so you can keep a record of each report by bookmarking the page.

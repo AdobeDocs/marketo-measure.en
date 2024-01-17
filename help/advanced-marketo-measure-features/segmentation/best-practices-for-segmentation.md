@@ -24,6 +24,9 @@ Whether you're defining segmentation for the first time or just reviewing the se
 * Align your segment name to the nomenclature of your organization, i.e., the category = filter name, segment = filter value
 * Don't use formula fields in your rules
 * Whenever possible, build the segmentation on both the Lead/Contact and Opportunity so that you can use it across the entire funnel
+  * If you're a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+      * b2b.personStatus
+      * b2b.isConverted
   * Not every Segment category will align throughout the entire funnel
     * A Segment category of 'Opportunity Type' won't relate to Leads for example, however a Segment related to 'Region' is likely a category that can be defined throughout the funnel
 * Think about the ways you currently like to slice your data, whether it's in the CRM or a BI tool, consider building this as a Segment in [!DNL Marketo Measure] so you can have the same reporting in Discover
