@@ -13,19 +13,19 @@ This article provides an overview of how to connect your [!DNL Salesforce] accou
 
 1. Use an incognito browser to log in to [!DNL Marketo Measure].
 
-1. In the menu bar at the top of the screen, navigate to **[!UICONTROL My Account]** and click the [!UICONTROL Settings] option.
+1. In the menu bar at the top of the screen, navigate to **[!UICONTROL My Account]** and click the **[!UICONTROL Settings]** option.
 
-1. In the column of setting options on the left, click [!UICONTROL Connections] located under the [!UICONTROL Integrations] section.
+1. In the column of setting options on the left, click **[!UICONTROL Connections]** located under the [!UICONTROL Integrations] section.
 
-   ![](assets/1.png)
+   ![](assets/connect-marketo-measure-to-salesforce-1.png)
 
 1. Under the CRM section in Connections, click **[!UICONTROL Set Up New CRM Connection]**.
 
-   ![](assets/2.png)
+   ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. A pop-up window will appear asking you to Select CRM connection. Click the [!UICONTROL Connect] button next to the [!DNL Salesforce] logo.
+1. A pop-up window will appear asking you to Select CRM connection. Click the **[!UICONTROL Connect]** button next to the [!DNL Salesforce] logo.
 
-   ![](assets/3.png)
+   ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
 1. A final pop-up window will appear, asking you for your [!DNL Salesforce] credentials, sandbox or production. Enter your information and click **[!UICONTROL Authorize]** to connect the account to [!DNL Marketo Measure].
 
@@ -37,3 +37,28 @@ This article provides an overview of how to connect your [!DNL Salesforce] accou
 >* If you test first with a SFDC Sandbox, we highly recommend you test with one which is an exact replica of your SFDC production instance in terms of fields on the Lead, Contact, Account, Opportunity, Campaign and Case objects. If you have any active APEX triggers in production which fire on updates to the Lead, Contact, Account, Opportunity, Campaign and Case objects, you should try to have them active in your sandbox.
 >* Once you are done with testing, you will update your [!DNL Marketo Measure] account to point at your Production [!DNL Salesforce] (instead of Sandbox [!DNL Salesforce]). Due to the way the integration was built, once a [!DNL Marketo Measure] account is connected to Production [!DNL Salesforce], you cannot go "backwards" and connect to a Sandbox [!DNL Salesforce] org.
 
+## API Credits Usage {#api-credits-usage}
+
+Marketo Measure employs a CRM integration task to interface with a client's Salesforce through an Integrated User. All data exchanges via this user utilize Salesforce API credits. You have the capability to allocate a credit quota to an integration user, which serves to regulate excessive API calls. This quota or limit is reset every 24 hours.
+
+You can access this limit in Marketo Measure via: **My Account** > **Settings** > **CRM** > **General** > **Daily CRM API limit**, and can configure it for your tenants.
+
+   ![](assets/connect-marketo-measure-to-salesforce-4.png)
+
+### Setting a Limit for API Credits {#setting-a-limit-for-api-credits}
+
+1. Navigate to **My Account** > **Settings**.
+
+1. Under CRM, click **General**. You'll see the **Daily CRM API limit** option.
+
+1. Click the Lock icon to edit.
+
+   ![](assets/connect-marketo-measure-to-salesforce-5.png)
+
+1. Enter a desired limit equal to or greater than 100,000. Click **Save** when done.
+
+   ![](assets/connect-marketo-measure-to-salesforce-6.png)
+
+>[!NOTE]
+>
+>To increase available Salesforce API credits for your connected solution, contact your Salesforce admin and reference [this Salesforce document](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
