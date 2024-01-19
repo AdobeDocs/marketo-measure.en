@@ -141,8 +141,23 @@ Accounts imported from the source system.
       <td>Date the record was marked as deleted in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>&#8727;</b> INDUSTRY</td>
+      <td>varchar</td>
+      <td>Primary business of the Account.</td>
+      <td>Retail, Telecommunication</td>
+    </tr>
+    <tr>
+      <td><b>&#8727;</b> COUNTRY</td>
+      <td>varchar</td>
+      <td>Country portion of the Account's address.</td>
+      <td>USA, Canada</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>&#8727;</b> <i>Only available in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -163,74 +178,34 @@ Mapping table between known Lead/Contact email addresses and Accounts. This tabl
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13.000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Source system Account Id.</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>Source system Account Id.</td>
+      <td>0013100001phrBAAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Email address that has been mapped to the Account, either through Contact relationships or Lead to Account mapping.</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>Email address that has been mapped to the Account, either through Contact relationships or Lead to Account mapping.</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>The last modified date of the Account, from the source system.</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>The last modified date of the Account, from the source system.</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>The created date of the Account, from the source system.</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32.000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>The created date of the Account, from the source system.</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Whether or not the record is considered deleted.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Whether or not the record is considered deleted.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -266,58 +241,29 @@ Activities imported from a source system or connected Ad Account.
     <th><strong>Sample Data</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>The Activity Id from the source system.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>The Activity Id from the source system.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>Id for the Lead associated with the Activity.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>Id for the Contact associated with the Activity.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id for the Contact associated with the Activity.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Id for the Activity Type, from the source system.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>Id for the Activity Type, from the source system.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -366,7 +312,7 @@ Activities imported from a source system or connected Ad Account.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
+      <td>IS_DELETED</td>
       <td>boolean</td>
       <td>Whether or not the record is considered deleted in the source system.</td>
       <td>false</td>
@@ -4382,18 +4328,10 @@ Contacts imported from the source system.
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Foreign Key to the Biz_Facts view.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4413,8 +4351,17 @@ Contacts imported from the source system.
       <td>Date the record was marked as deleted in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>&#8727;</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>Job Title of the Contact.</td>
+      <td>CEO, Vice President</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>&#8727;</b> <i>Only available in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10265,8 +10212,17 @@ Opportunities imported from the source system.
       <td>Date the record was marked as deleted in Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>&#8727;</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>Type of Opportunity, such as New Business, Renewal, etc.</td>
+      <td>Renewal, Prospect</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>&#8727;</b> <i>Only available in Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
