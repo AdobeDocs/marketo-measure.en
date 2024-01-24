@@ -96,7 +96,7 @@ The new set of pre-built dashboards is scheduled to be introduced in waves, begi
 
 <p>
 
-#### Salesforce Field Deprecations {#salesforce-field-deprecations}
+#### Salesforce Field Deprecations
 
 We will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. The denormalized fields listed below will also be deprecated, as customers can obtain the same data from their Touchpoint objects. _**The timeline of deprecation is June 2024.**_ 
 
@@ -169,13 +169,13 @@ The fields which contain the same information on the Touchpoint and Attribution 
 
 <p>
 
-* **Dynamics Package related**
+#### Dynamics Package related
 
    * To stay connected to Dynamics, install our latest package version, v6.12. Old versions `(<v6.12)` will no longer be supported. This update optimizes historical record creation to reduce storage usage.
 
    * The outdated method of OAuth with a RefreshToken will be deprecated. Please refer to [this guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} for updating your credentials to adhere to Microsoft's best practices of using ClientSecret.
 
-* **"custom_properties" Field** 
+#### "custom_properties" Field
 
 In our data warehouse, the "custom_properties" field has been serving as a storage for additional data points not covered by our fixed schema. Stored in JSON format, this field's usage is limited and its integration with SQL queries can be complicated, affecting performance. Given these factors, we've decided to deprecate this field. This change will mainly affect the data processing layer within our Azure table storage and the data exported to our data warehouse.
 
