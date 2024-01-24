@@ -160,38 +160,74 @@ Marketo Measure is tracking Accounts, Campaigns, Ad Groups, Ads, Filter IDs and 
   </tr>
   <tr>
     <td>DoubleClick</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data</td>
+    <td>Marketo Measure is tracking Accounts, Advertisers, Campaigns, (custom) Landing Pages, Ads, Creatives, Placements, and Sites.</td>
+    <td><li>User's primary Google Account email address is required</li>
+<li>Campaign Manager permissions required to access Campaign Manager 360 account</li>
+<ul>
+<li>View and manage DoubleClick advertisers reports</li>
+<li>View and manage DoubleClick Campaign Managers display ad campaigns</li>
+<p>
+    <b>Scopes</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: See your primary Google Account email address
+    <p>
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>: View and manage DoubleClick for Advertisers reports
+    <p>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>: View and manage your DoubleClick Campaign Manager's (DCM) display ad campaigns</td>
   </tr>
   <tr>
     <td>AdWords</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data</td>
+    <td>We integrate with AdWords to:
+<p>
+<li>Import customer ads data</li>
+<li>Import customer ads cost data</li>
+<li>Update client's ads by appending url parameters/updating Url Tracking Templates</li>
+<p>
+Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Keywords.</td>
+    <td><li>User's primary Google Account email address is required</li>
+<p>
+    <b>Scopes</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>: See your primary Google Account email address</td>
   </tr>
   <tr>
     <td>Bing</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Ad Platform Data</td>
+    <td>Marketo Measure is tracking Accounts, Campaigns, Ad Groups, Creatives, and Keywords.</td>
+    <td><li>User must grant "offline access" via their Microsoft Account (Which grants Marketo Measure access to the End-User's UserInfo even when not logged in). See <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoft's page</a> on how to do so.</li>
+<p>
+    <b>Scopes</b>
+    <br>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>: Maintain access to data you have given it access to permission.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B System Data</td>
+    <td>The Marketo integration enables Marketo Measure to collect Marketo Activities, People, Programs, and Program Memberships. Additionally, Marketo Measure tracks Marketo cookies (Munchkin IDs) for the purposes of linking Marketo web activities to Marketo Measure lead touchpoints, <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">as described here</a>:
+    <p>
+    <i>As a result of the Marketo Measure integration with Marketo, the Marketo Measure Cookie Id is also now mapped and synced with the Marketo Munchkin Id. This helps close the gap to attribute the anonymous first touch to a web session rather than attributing both the FT and LC touches to a Marketo Activity.</i>
+    </td>
+    <td>The customer must create a dedicated Marketo Engage API User and supply the credentials to Marketo Measure. No additional permissions configuration is required. <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">Learn more</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B System Data</td>
+    <td>The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from the Marketo Measure attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Learn more</a>.</td>
+    <td>The customer must provide Marketo Measure with an Alias ID and FTP server credentials to a location that data will be uploaded to their Analytics instance.
+    <p>
+    Take note of the following information, as you'll need it for some of the later steps in the process:
+    <p>
+    <li>The Alias ID, which can be any value you want it to be. We recommend "marketomeasure_id"</li>
+    <li>The FTP server hostname and credentials (user name and password)</li>
+    <p>
+    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Learn more</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
     <td></td>
-    <td></td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">What data bizible.js collects</a>.</td>
     <td></td>
   </tr>
 </tbody>
