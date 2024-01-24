@@ -100,7 +100,7 @@ The new set of pre-built dashboards is scheduled to be introduced in waves, begi
 
 We will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. The denormalized fields listed below will also be deprecated, as customers can obtain the same data from their Touchpoint objects. _**The timeline of deprecation is June 2024.**_ 
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2__Ad_Campaign_Name_FT__c</td>
@@ -134,6 +134,40 @@ We will be phasing out our export jobs to Lead/Contact objects to simplify our i
   </tr>
 </tbody>
 </table>
+
+The fields which contain the same information on the Touchpoint and Attribution Touchpoint objects are:
+
+* bizible2__Ad_Campaign_Name__c
+* bizible2__Landing_Page__c
+* bizible2__Marketing_Channel__c
+* bizible2__Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**Required Actions**
+
+* Create new Report Types for Leads and Contacts with or without Touchpoints.
+
+![](assets/release-notes-2023-1.png)
+
+* Create reports which capture the functionality of any existing report which utilizes the removed fields. As part of this process you will want to change the fields in the report as specified below:
+
+  * Remove Lead/Contact FT/LC fields:
+
+![](assets/release-notes-2023-2.png)
+
+  * Add Touchpoint fields:
+
+![](assets/release-notes-2023-3.png)
+
+  * The Touchpoint Position filter and any filters that use the FT/LC fields, including the Date Field, should be updated as follows:
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* Delete any pre-existing reports that utilized the removed fields from the Lead/Contact object to no longer reference those fields.
+
+<p>
 
 * **Dynamics Package related**
 
