@@ -96,7 +96,7 @@ The new set of pre-built dashboards is scheduled to be introduced in waves, begi
 
 <p>
 
-* **Salesforce Field Deprecations**
+#### Salesforce Field Deprecations {#salesforce-field-deprecations}
 
 We will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. The denormalized fields listed below will also be deprecated, as customers can obtain the same data from their Touchpoint objects. _**The timeline of deprecation is June 2024.**_ 
 
