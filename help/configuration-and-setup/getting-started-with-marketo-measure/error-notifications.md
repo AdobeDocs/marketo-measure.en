@@ -42,7 +42,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
             </li>
           </ul>
           <p>
-            SCREENSHOT
+           <img src="assets/error-notifications-1.png">
           </p>
       </td>
     </tr>
