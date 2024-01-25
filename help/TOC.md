@@ -42,6 +42,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Attribution Mapping Methodology](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+      + [Error Notifications](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
       + [Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] CRM Packageless Integration](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] and Salesforce {#marketo-measure-and-salesforce}
