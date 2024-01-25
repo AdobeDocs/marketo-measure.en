@@ -12,10 +12,10 @@ Below is a list of errors you may receive via in-app notification or email. If y
 <table>
   <tbody>
     <tr>
-      <th>Error Code</th>
-      <th>Notification Example</th>
-      <th>Description</th>
-      <th>Troubleshooting Steps</th>
+      <th style="width:31%">Error Code</th>
+      <th style="width:23%">Notification Example</th>
+      <th style="width:23%">Description</th>
+      <th style="width:23%">Troubleshooting Steps</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
