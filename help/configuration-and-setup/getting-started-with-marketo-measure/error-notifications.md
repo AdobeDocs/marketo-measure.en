@@ -36,10 +36,10 @@ Below is a list of errors you may receive via in-app notification or email. If y
           </ul>
           <p>You may also adjust the CRM credits Marketo Measure uses following the below steps:</p>
           <ul>
-            <li>Navigate to Settings → CRM → General</li>
+            <li>Navigate to <b>Settings</b> > <b>CRM</b> > <b>General</b></li>
             <li>Update the Daily CRM API Limit<br/>
               <ul>
-                <li><b>Note</b>: Default is 100,000</li>
+                <li><b>Note: Default is 100,000</b></li>
               </ul>
             </li>
           </ul>
