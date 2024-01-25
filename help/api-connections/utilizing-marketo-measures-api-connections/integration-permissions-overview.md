@@ -1,8 +1,6 @@
 ---
 description: Integration Permissions Overview - [!DNL Marketo Measure] - Product Documentation
 title: Integration Permissions Overview
-hide: yes
-hidefromtoc: yes
 feature: APIs, Integration
 ---
 # Integration Permissions Overview {#integration-permissions-overview}
