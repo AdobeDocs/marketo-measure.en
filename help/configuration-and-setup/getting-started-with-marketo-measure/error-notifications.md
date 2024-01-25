@@ -1,8 +1,6 @@
 ---
 description: Error Notifications - [!DNL Marketo Measure] - Product Documentation
 title: Error Notifications
-hide: yes
-hidefromtoc: yes
 feature: Fundamentals
 ---
 # Error Notifications {#error-notifications}

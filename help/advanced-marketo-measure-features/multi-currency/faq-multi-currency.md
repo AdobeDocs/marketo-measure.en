@@ -48,3 +48,7 @@ For the interested reader, here's why it works this way. Our touchpoints use for
 **If my customer used a workflow to populate a converted field, how should they use this field moving forward?**
 
 Since our offering will now handle the conversions for the customer, we recommend they remove the workflows and custom field and allow us to import their raw Amount value.
+
+>[!MORELIKETHIS]
+>
+>[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

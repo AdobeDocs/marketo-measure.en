@@ -62,3 +62,7 @@ You can access this limit in Marketo Measure via: **My Account** > **Settings** 
 >[!NOTE]
 >
 >To increase available Salesforce API credits for your connected solution, contact your Salesforce admin and reference [this Salesforce document](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.
+
+>[!MORELIKETHIS]
+>
+>[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

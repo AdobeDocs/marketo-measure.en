@@ -230,3 +230,7 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
