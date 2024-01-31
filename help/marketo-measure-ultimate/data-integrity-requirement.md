@@ -1360,7 +1360,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 We recommend using a calculated field in field mapping to default the field to a non-NULL value. The following are two examples:
 
 * If opportunityName of some opportunity records are null, create and use the following calculated field in field mapping
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * If leadOperation.campaignProgression.campaignID of some experienceevent records are null, create and use the following calculated field in field mapping
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
