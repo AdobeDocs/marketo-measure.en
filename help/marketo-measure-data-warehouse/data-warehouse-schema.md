@@ -6737,7 +6737,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
 
 >[!IMPORTANT]
 >
->Marketo Measure will be deprecating this table in mid-2024. If you wish to use it in the meantime, please run [this SQL query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure will be deprecating this table in mid-2024. If you wish to create it on your side, please run [this SQL query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
