@@ -6735,6 +6735,10 @@ Mapping table for email addresses and visitor ids.
 
 Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT), and Cost data. Used internally to support [!DNL Marketo Measure] reporting.
 
+>[!IMPORTANT]
+>
+>Marketo Measure will be deprecating this table in mid-2024. If you wish to use it in the meantime, please run [this SQL query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+
 <table>
   <tbody>
     <tr>
