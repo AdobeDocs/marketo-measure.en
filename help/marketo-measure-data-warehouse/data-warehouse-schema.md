@@ -8114,9 +8114,7 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>The name of the internet service provider, used by customers with advanced Geo IP tracking.</p>
-      </td>
+      <td>Expected to be null since the field is obsolete.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
@@ -12031,9 +12029,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>The internet service provider of the user</p>
-      </td>
+      <td>Expected to be null since the field is obsolete.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
