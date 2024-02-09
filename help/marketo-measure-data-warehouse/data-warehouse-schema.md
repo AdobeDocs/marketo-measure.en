@@ -5408,9 +5408,7 @@ Creatives imported from any connected Ad Account.
       <td>
         <p>number(38,0)</p>
       </td>
-      <td>
-        <p>Foreign Key to the Biz_Facts view.</p>
-      </td>
+      <td>Foreign Key to the Biz_Facts view.</td>
       <td>6008900572523230000</td>
     </tr>
     <tr>
