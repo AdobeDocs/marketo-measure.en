@@ -723,18 +723,10 @@ Advertisers imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -1037,18 +1029,10 @@ Ad Accounts imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -1481,18 +1465,10 @@ Campaigns imported from connected Ad Accounts, source systems, utm, and self rep
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -2086,18 +2062,10 @@ Ad Groups imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -2460,18 +2428,10 @@ Ad Groups imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -2542,18 +2502,10 @@ Ad Groups imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -3742,18 +3694,10 @@ Campaign Members imported from the source system. This table will be empty if Ca
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -4055,18 +3999,10 @@ Marketing Channels, as created in the [!DNL Marketo Measure] application.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -4138,18 +4074,10 @@ Contacts imported from the source system.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -5020,18 +4948,10 @@ Creatives imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -5521,18 +5441,10 @@ Events imported from the source system. This table will be empty if Activities S
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -5734,18 +5646,10 @@ Tasks imported from the source system. This table will populate if Activities Sy
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -6036,15 +5940,9 @@ AB Tests recorded. This table will be empty if AB Tests are not enabled.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
       <th>Sample Data</th>
     </tr>
     <tr>
@@ -6199,15 +6097,9 @@ Web events that have been recorded using custom events in the Javascript. This t
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
       <th>Sample Data</th>
     </tr>
     <tr>
@@ -6328,15 +6220,9 @@ Landing Pages downloaded from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
       <th>Sample Data</th>
     </tr>
     <tr>
@@ -6613,18 +6499,10 @@ Mapping table for email addresses and visitor ids.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7534,17 +7412,11 @@ Captured Form Submissions.
   <tbody>
     <tr>
       <th>
-        <p>Column</p>
+        Column
       </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -7846,18 +7718,10 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -8115,9 +7979,7 @@ Impressions fired and recorded. This table requires a DoubleClick connection and
         <p>varchar</p>
       </td>
       <td>Expected to be null since the field is obsolete.</td>
-      <td>
-        <p>AT&amp;T U-verse</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8595,18 +8457,10 @@ Keywords imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -9020,15 +8874,9 @@ Landing Pages imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
       <th>Sample Data</th>
     </tr>
     <tr>
@@ -9287,18 +9135,10 @@ Leads imported from the source system.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -9626,18 +9466,10 @@ Stage transitions for Leads or Contacts.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -9903,18 +9735,10 @@ Opportunities imported from the source system.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -10233,18 +10057,10 @@ Stage transitions for Opportunities.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -10522,18 +10338,10 @@ Page Views collected from web visits. Multiple page views can compose a single S
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -10847,15 +10655,9 @@ Table that stores all placements downloaded from any connected ads accounts, an 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
       <th>Sample Data</th>
     </tr>
     <tr>
@@ -11125,18 +10927,10 @@ Segment values as defined in the [!DNL Marketo Measure] application.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -11208,18 +11002,10 @@ Maps the name of the custom segment to it's category value. (This maps the colum
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -11303,18 +11089,10 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -12031,7 +11809,7 @@ Sessions as processed from Page Views. Multiple Page Views can make up one Sessi
       </td>
       <td>Expected to be null since the field is obsolete.</td>
       <td>
-        <p>AT&amp;T U-verse</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12170,18 +11948,10 @@ Sites imported from any connected Ad Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -12456,18 +12226,10 @@ Sites Links from any connected Ads Account.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -12795,18 +12557,10 @@ List of stages as imported or defined in the [!DNL Marketo Measure] application.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -14271,18 +14025,10 @@ All Touchpoints created from any event tied to an email.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
@@ -15172,18 +14918,10 @@ Mapping table to map [!DNL Marketo Measure] Session Id to Adobe ECID and Munckin
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Column</p>
-      </th>
-      <th>
-        <p>Data Type</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Sample Data</p>
-      </th>
+      <th>Column</th>
+      <th>Data Type</th>
+      <th>Description</th>
+      <th>Sample Data</th>
     </tr>
     <tr>
       <td>
