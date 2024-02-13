@@ -3037,7 +3037,7 @@ Ad Groups imported from any connected Ad Account.
   </tbody>
 </table>
 
-## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
 Data generated from the Attribution AI integration. These fields are only populated for Marketo Measure Ultimate customers. 
 
