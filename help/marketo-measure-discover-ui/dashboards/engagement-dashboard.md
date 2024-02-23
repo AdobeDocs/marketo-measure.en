@@ -53,3 +53,11 @@ Questions the chart answers:
 * How does the number of touchpoints compare to People Touched within a specific Channel/Subchannel/Campaign?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Filter Pane {#filter-pane}
+
+This dashboard is equipped with the following settings and filters:
+
+* Date (based on Touchpoint Date)
+* Channel, Subchannel
+* Campaign
