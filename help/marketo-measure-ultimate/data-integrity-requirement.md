@@ -1350,9 +1350,9 @@ select 'source instance id', count(*) from currency_conversion_rate where extSou
 union all
 select 'source key', count(*) from currency_conversion_rate where extSourceSystemAudit.externalKey.sourceKey is null
 union all
-select 'created date', count(*) from salesforce_contact where extSourceSystemAudit.createdDate is null
+select 'created date', count(*) from currency_conversion_rate where extSourceSystemAudit.createdDate is null
 union all
-select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
+select 'last updated date', count(*) from currency_conversion_rate where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
 ## Recommended Solution for Required Fields with a NULL Value {#recommended-solution-for-required-fields-with-a-null-value}
