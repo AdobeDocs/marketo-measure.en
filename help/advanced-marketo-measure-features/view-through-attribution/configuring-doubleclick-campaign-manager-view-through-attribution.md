@@ -11,9 +11,9 @@ feature: Attribution
 
 >[!NOTE]
 >
->If you're using the [!DNL Marketo Measure] and DoubleClick Campaign Manager integration, we require an [API connection](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
+>If you're using the [!DNL Marketo Measure] and [!DNL DoubleClick Campaign Manager] integration, we require an [API connection](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
 
-To begin gaining more granular insight from view through tracking with Doubleclick Campaign Manager, our tracking pixel needs to be configured.
+To begin gaining more granular insight from view through tracking with [!DNL Doubleclick Campaign Manager], our tracking pixel needs to be configured.
 
 Please [click here](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) for more information about the [!DNL Marketo Measure] View Through Attribution functionality.
 
@@ -23,7 +23,7 @@ In the event you leverage a Parent and Child hierarchy in DCM, we will need our 
 
 ## How to add the Image Tag {#how-to-add-the-image-tag}
 
-You will add the tag into Doubleclick under the Advertiser setting and you'll want to create an Impression Event Tag.
+You will add the tag into [!DNL Doubleclick] under the Advertiser setting and you'll want to create an Impression Event Tag.
 
 1. Add the following code as a 1x1 image pixel.
 
@@ -31,12 +31,12 @@ You will add the tag into Doubleclick under the Advertiser setting and you'll wa
 
 1. Once it's added, confirm the delimiters are mapped as follows. This should be automatic once the tag is applied:
 
-   v = %eadv! Expand Advertiser Id  
-   a = %eaid! Expand Ad Id  
-   c = %ecid! Expand Creative Id  
-   s = %esid! Expand Site Id  
-   p = %epid! Expand Placement Id  
-   m = %m Match Code Macro  
+   v = %eadv! [!DNL Expand] Advertiser Id\
+   a = %eaid! Expand Ad Id\
+   c = %ecid! Expand Creative Id\
+   s = %esid! Expand Site Id\
+   p = %epid! Expand Placement Id\
+   m = %m Match Code Macro\
    n = %n Random Number Macro
 
    ![](assets/1.png)

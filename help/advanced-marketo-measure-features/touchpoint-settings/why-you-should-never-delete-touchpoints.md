@@ -15,4 +15,4 @@ When a touchpoint is deleted, it creates a hole in the attribution data. Typical
 
 ![](assets/1.png)
 
-If touchpoints have been deleted from your SFDC, please reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} to request a reimport of your data.
+If touchpoints have been deleted from your SFDC, please reach out to [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} to request a reimport of your data.

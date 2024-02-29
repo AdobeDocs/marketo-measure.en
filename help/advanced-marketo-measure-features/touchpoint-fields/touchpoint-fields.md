@@ -29,7 +29,7 @@ To create a calculated field, keep in mind there are three different actions tha
 
 Extracts
 
-The extracts operator pulls the value out of a field from another location, such as: a Campaign field, Lead field, or in a more advanced use case, [extract custom parameters from the landing page](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+The [!UICONTROL extracts] operator pulls the value out of a field from another location, such as: a Campaign field, Lead field, or in a more advanced use case, [extract custom parameters from the landing page](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Example #1**
 
@@ -42,17 +42,17 @@ Goal: Use the value of a custom field and put it onto the Touchpoint object for 
 * Use the operator "extracts" since we need to pull out the value from the parameter
 * To extract the full string from the field, we will use the expression "(.&#42;)"
 
-    * **(** marks the start of the extraction
-    * **)** marks the end of the extraction
-    * **.&#42;** tells us that we are extracting the full string
+   * **(** marks the start of the extraction
+   * **)** marks the end of the extraction
+   * **.&#42;** tells us that we are extracting the full string
 
 ![](assets/two.png)
 
 **Example #2**
 
 A common use case this feature enables is to pull out values from custom parameters of a URL string. This is useful if you use parameters other than UTMs but want to parse out the values onto touchpoint fields.
-  
-**Link:** `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=5OFF` or `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=25OFF`.  
+
+**Link:** `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=5OFF` or `https://www.adobe.com/blog/marketing-revenue-reporting-overview?promo=25OFF`.\
 **Goal:** Create a custom field called "Discount Code" and drop in the value "5OFF" or "25OFF," whatever value gets passed.
 
 * Create a Calculated Field and label it "Discount Code"
@@ -60,18 +60,18 @@ A common use case this feature enables is to pull out values from custom paramet
 * Use the operator "extracts" since we need to pull out the value from the parameter
 * To extract the value of the promo, we will define the value as "promo=(\w+)"
 
-    * **(** marks the start of the extraction
-    * **)** marks the end of the extraction
-    * **\w** tells us that we are extracting a "word" which includes 0-9
-    * **+** will extract the full value of the parameter with no limit on characters
-    * Take note that you're using a forward slash and not a back slash
+   * **(** marks the start of the extraction
+   * **)** marks the end of the extraction
+   * **\w** tells us that we are extracting a "word" which includes 0-9
+   * **+** will extract the full value of the parameter with no limit on characters
+   * Take note that you're using a forward slash and not a back slash
 
 ![](assets/three.png)
 
 **Example #3**
 
-Let's try a similar example where we extract a tracking code such as: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?cid=123456`.  
-  
+Let's try a similar example where we extract a tracking code such as: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?cid=123456`.
+
 **Goal:** Create a Calculated Field and label it "Adobe Campaign Id" with the value from the cid parameter.
 
 * Create a Calculated Field and label it "Adobe Campaign Id"
@@ -79,18 +79,18 @@ Let's try a similar example where we extract a tracking code such as: `https://w
 * Use the operator "extracts" since we need to pull out the value from the parameter
 * To extract the "123456" value, we will define the value as "cid=(\d{6})"
 
-    * **(** marks the start of the extraction
-    * **)** marks the end of the extraction
-    * **\d** tells us that we are extracting a "digit"
-    * **{6}** is the number of characters we are extracting
+   * **(** marks the start of the extraction
+   * **)** marks the end of the extraction
+   * **\d** tells us that we are extracting a "digit"
+   * **{6}** is the number of characters we are extracting
 
 ![](assets/four.png)
 
 **Example #4**
 
 As your landing pages get more complicated and you have multiple tracking parameters, you might need to build multiple touchpoint fields and extract values multiple times, such as:
-`https://www.adobe.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.  
-  
+`https://www.adobe.com/blog/marketing-revenue-reporting-overview?trackID=123456&country=US&campaign_ID=7890`.
+
 **Goal:** Create multiple Calculated Fields for "Target Country" and "Custom Campaign Id" with the respective values from the parameters.
 
 * Create a Calculated Field and label it "Target Country"
@@ -98,26 +98,26 @@ As your landing pages get more complicated and you have multiple tracking parame
 * Use the operator "extracts" since we need to pull out the value from the parameter
 * To extract the "US" value, we will define the value as "country=(\w{2})"
 
-    * **(** marks the start of the extraction
-    * **)** marks the end of the extraction
-    * **\w** tells us that we are extracting a "word"
-    * **{2}** is the number of characters we are extracting
+   * **(** marks the start of the extraction
+   * **)** marks the end of the extraction
+   * **\w** tells us that we are extracting a "word"
+   * **{2}** is the number of characters we are extracting
 
 * Create a Calculated Field and label it "Custom Campaign Id"
 * Define the rule by starting out with searching for the Touchpoint.Session.LandingPage field
 * Use the operator "extracts" since we need to pull out the value from the parameter
 * To extract the "123456" value, we will define the value as "campaign_ID=(\d{6})"
 
-    * **(** marks the start of the extraction
-    * **)** marks the end of the extraction
-    * **\d** tells us that we are extracting a "digit"
-    * **{6}** is the number of characters we are extracting
+   * **(** marks the start of the extraction
+   * **)** marks the end of the extraction
+   * **\d** tells us that we are extracting a "digit"
+   * **{6}** is the number of characters we are extracting
 
 ![](assets/five.png)
 
 **Maps to**
 
-The maps to operator creates a table of values that need to be translated or bucketed into another value. Usually, this takes the form of a key value where a code represents a friendly name and needs to be mapped to that friendly name.
+The [!UICONTROL maps to] operator creates a table of values that need to be translated or bucketed into another value. Usually, this takes the form of a key value where a code represents a friendly name and needs to be mapped to that friendly name.
 
 **Example #1**
 
@@ -127,8 +127,8 @@ There are campaigns that you've created for an "End of summer promotion" and "Bl
 
 **Example #2**
 
-Now that we've learned how to extract and map to fields, let's combine those actions in order to first extract a value from a parameter, then map it to a friendly name that makes a little more sense. So let's start with this landing page: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.  
-  
+Now that we've learned how to extract and map to fields, let's combine those actions in order to first extract a value from a parameter, then map it to a friendly name that makes a little more sense. So let's start with this landing page: `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.
+
 **Goal:** Create multiple Calculated Fields, where the first number maps to a Region, the second maps to a Product, the third maps to an Initiative, the fourth maps to a Persona, and the fifth maps to a Media Platform. Then, map the numerical value to a "friendly name."
 
 * Create a Calculated Field and label it "Region"
@@ -136,36 +136,36 @@ Now that we've learned how to extract and map to fields, let's combine those act
 * Use the operator "[!UICONTROL extracts]" since we need to pull out the value from the parameter
 * To extract the "04" value, we will define the value as "BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}"
 
-    * **(** marks the start of the extraction
+   * **(** marks the start of the extraction
 
-        * Notice that since we are only extracting the 4, only the first digits have the open parenthesis
+      * Notice that since we are only extracting the 4, only the first digits have the open parenthesis
+   * **)** marks the end of the extraction
 
-    * **)** marks the end of the extraction
+      * Notice that since we are only extracting the 4, only the first digits have the closed parenthesis
+   * **\d** tells us that we are extracting a "digit"
+   * **{2}** is the number of characters we are extracting
 
-        * Notice that since we are only extracting the 4, only the first digits have the closed parenthesis
 
-    * **\d** tells us that we are extracting a "digit"
-    * **{2}** is the number of characters we are extracting
 
 * Click [!UICONTROL Save]. You must save your new field before it can be available to use for the next rule!
 * Next, we'll want to map all the possible values for the first digits to its friendly names
 * Create a Calculated Field and label it "Region_Name"
-* Define the rule by starting out with searching for your extracted field. In this case, Touchpoint.Region
+* Define the rule by starting out with searching for your extracted field. In this case, [!DNL Touchpoint.Region]
 * Use the operator "[!UICONTROL maps to]" since we want to create a mapping for each number to its value
 * You'll be presented with a table to list each mapping. In the end, it will look something like this:
 * Based off the mapping and the URL above, the "Region_Value" for a touchpoint with this landing page would be "EMEA"
 * Repeat the extraction and the mapping for the remaining 4 sets of digits
 
-    * To extract the 01, you would define the value as "BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2}"
-    * To extract the 09, you would define the value as "BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}"
-    * To extract the 03, you would define the value as "BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}"
-    * To extract the 10, you would define the value as "BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**"
+   * To extract the 01, you would define the value as "BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2}"
+   * To extract the 09, you would define the value as "BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}"
+   * To extract the 03, you would define the value as "BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}"
+   * To extract the 10, you would define the value as "BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**"
 
 ![](assets/seven.png)
 
 **Concatenates**
 
-The concatenates operator combines values from multiple fields into a single field. This is useful to create a custom value that pulls data across various fields in order to make
+The [!UICONTROL concatenates] operator combines values from multiple fields into a single field. This is useful to create a custom value that pulls data across various fields in order to make
 
 **Example #1**
 
@@ -215,7 +215,7 @@ There is additional work needed to expose the new fields in the [!DNL Marketo Me
 
 **How can I validate that my extract expression is valid and pulling the correct value?**
 
-There's an online tool ([https://regex101.com/](https://regex101.com/){target="_blank"}) that you can run and test out the expression. The expression will appear green if it's valid or red if it's invalid. Also, the explanation box at the top right is helpful and tells you what you're extracting.
+There's an online tool ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) that you can run and test out the expression. The expression will appear green if it's valid or red if it's invalid. Also, the [!UICONTROL explanation] box at the top right is helpful and tells you what you're extracting.
 
 ![](assets/twelve.png)
 
