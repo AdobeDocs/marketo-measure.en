@@ -3,6 +3,7 @@ unique-page-id: 18874763
 description: "[!DNL Microsoft Dynamics] CRM Installation Guide - Marketo Measure - Product Documentation"
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
+feature: Installation, Microsoft Dynamics
 ---
 # [!DNL Microsoft Dynamics] CRM Installation Guide {#microsoft-dynamics-crm-installation-guide}
 
@@ -24,7 +25,7 @@ For connection and authentication, [!DNL Marketo Measure] supports the following
 
 ## Install the Managed Solution {#install-the-managed-solution}
 
-[Download and install](assets/marketo-measure-dynamics-extension.zip) the zip file within Dynamics CRM.
+[Download and install](assets/marketo-measure-dynamics-extension.zip) the zip file within the Dynamics CRM.
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (button) > **[!UICONTROL Choose File]**.
 
@@ -38,9 +39,9 @@ For connection and authentication, [!DNL Marketo Measure] supports the following
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] User Permissions {#marketo-measure-user-permissions}
+## Creating a [!DNL Marketo Measure] User {#creating-a-marketo-measure-user}
 
-We recommend creating a dedicated [!DNL Marketo Measure] User within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password as well as the endpoint URL as this will be used when creating the [!DNL Marketo Measure] account.
+We recommend creating a dedicated Marketo Measure User as an "Application User" within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password, as well as the endpoint URL, as they will be used when creating the [!DNL Marketo Measure] account.
 
 ## Security Roles {#security-roles}
 
@@ -92,53 +93,6 @@ For Dynamics standard entities, please refer to the [!DNL Marketo Measure] Dynam
 **Close Date**
 
 [!DNL Marketo Measure] points to the Actual Close Date field out of the box. If you are not using this or also use the Estimated Close Date field, please explain your process to your Solutions Engineer or Success Manager. A custom workflow may be need to account for both fields.
-
-## Set up Your Adobe Admin Console and Identity Provider {#set-up-your-adobe-admin-console-and-identity-provider}
-
-The first step to using [!DNL Marketo Measure] is to create and sign-in to your provisioned Adobe Admin Console. If you haven't already received the email with log in instructions, please contact your [!DNL Marketo Measure] Account Representative.
-
-As a product within the Adobe Suite, [!DNL Marketo Measure] leverages the full functionality of Adobe Admin Console for Identity Management. More resources can be [found here](https://helpx.adobe.com/enterprise/using/admin-console.html).
-
-We recommend reviewing all of the resources, best practices, and options available to you for [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
-
-For guidance and review of setting up your Identity Management within the Adobe Admin Console, please reach out to your [!DNL Marketo Measure] Account Representative.
-
-In order to facilitate user authentication and authorization with your [!DNL Marketo Measure] instance(s), the following steps are required within the Adobe Admin Console:
-
-**Setting Up the [!DNL Marketo Measure] Product Card**
-
-Upon accessing the Adobe Admin Console, you will see your [!DNL Marketo Measure] Product instance(s) present in the Overview section.
-
-   ![](assets/microsoft-dynamics-crm-installation-guide-8a.png)
-
-Clicking the [!DNL Marketo Measure] Product Card will show you all of your [!DNL Marketo Measure] instance(s). By default, each [!DNL Marketo Measure] Instance has its own profile prefixed with '[!DNL Marketo Measure]'. Any Admins or Users added to this or any other profile within this instance will be able to log in to [!DNL Marketo Measure].
-
-   ![](assets/microsoft-dynamics-crm-installation-guide-8b.png)
-
-No action is required to create a new profile within the [!DNL Marketo Measure] Product instance(s).
-
-To begin adding users who can access [!DNL Marketo Measure], please refer to the [Adding [!DNL Marketo Measure] Admins and [!DNL Marketo Measure] Users](#adding-marketo-measure-admins-and-marketo-measure-users) section below.
-
-## Adding [!DNL Marketo Measure] Admins and [!DNL Marketo Measure] Users {#adding-marketo-measure-admins-and-marketo-measure-users}
-
-The next step is to grant access to the [!DNL Marketo Measure] application by adding users. This can be done in the admins and users directory of the [!DNL Marketo Measure] product card.
-
-| User Type | Description |
-|---|---|
-|Admins|these are administrators and power users of the [!DNL Marketo Measure] Application with full ability to update and manage [!DNL Marketo Measure]-specific configuration options|
-|Users|these are standard users of the [!DNL Marketo Measure] Application with read only permissions within the [!DNL Marketo Measure] application|
-
-When adding a user to their respective group, you'll see their [Identity Type listed](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html).
-
->[!NOTE]
->
->In order to be a [!DNL Marketo Measure] administrator (in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}), a user must be added as a User _and_ an Admin to any [!DNL Marketo Measure] product profile within the [!DNL Marketo Measure] product card.
-
-**Signing in to [!DNL Marketo Measure]**
-
-After a user has been added to a Product Profile, they're able to access their [!DNL Marketo Measure] instance(s) by choosing the **Sign in with Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
-
-   ![](assets/microsoft-dynamics-crm-installation-guide-15.png)
 
 ## Configuring your Connections and Data Providers {#configuring-your-connections-and-data-providers}
 
@@ -211,3 +165,11 @@ In order for [!DNL Marketo Measure] to track your web activities, there are mult
    >By default, [!DNL Marketo Measure] exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by [!DNL Marketo Measure] and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, [!DNL Marketo Measure] allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the [!DNL Marketo Measure] web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
    >
    >When modifying this setting, please keep in mind that smaller batch sizes will consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
+
+   >[!NOTE]
+   >
+   >When you disable Marketo Measure exporting data to Dynamics, it won't remove any existing data. For help with removing existing data, please contact Dynamics Support.
+
+   >[!MORELIKETHIS]
+   >
+   >[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

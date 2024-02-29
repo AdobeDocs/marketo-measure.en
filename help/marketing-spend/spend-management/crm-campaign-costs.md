@@ -3,6 +3,7 @@ unique-page-id: 18874688
 description: CRM Campaign Costs - [!DNL Marketo Measure] - Product Documentation
 title: CRM Campaign Costs
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
+feature: Spend Management
 ---
 # CRM Campaign Costs {#crm-campaign-costs}
 

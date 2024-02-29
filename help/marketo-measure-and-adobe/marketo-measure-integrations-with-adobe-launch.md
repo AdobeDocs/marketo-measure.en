@@ -2,6 +2,7 @@
 description: '[!DNL Marketo Measure] Integrations with Adobe Launch - [!DNL Marketo Measure] - Product Documentation'
 title: '[!DNL Marketo Measure] Integrations with Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
+feature: Integration
 ---
 # [!DNL Marketo Measure] Integrations with Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
@@ -37,13 +38,13 @@ When installed and configured in Adobe Launch, the [!DNL Marketo Measure] extens
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
-1. In the Bizible AccountId field, type in the URL of your website.
+1. In the Bizible AccountId field, type in the URL of your website (e.g., `adobe.com`).
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
    >[!NOTE]
    >
-   >This field is not the "Account ID" in the Business_Prod.Business table. All web activities from the given URL will be mapped to the [!DNL Marketo Measure] tenant.
+   >This field is not the "Account ID" in the Business_Prod.Business table. All web activities from the given URL (e.g., `adobe.com`) will be mapped to the [!DNL Marketo Measure] tenant.
 
 1. Click **[!UICONTROL Save]**.
 

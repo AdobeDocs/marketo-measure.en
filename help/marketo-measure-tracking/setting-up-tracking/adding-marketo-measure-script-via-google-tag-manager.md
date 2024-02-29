@@ -3,6 +3,7 @@ unique-page-id: 18874797
 description: Adding [!DNL Marketo Measure] Script via [!DNL Google Tag Manager] - [!DNL Marketo Measure] - Product Documentation
 title: Adding [!DNL Marketo Measure] Script via [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
+feature: Tracking
 ---
 # Adding [!DNL Marketo Measure] Script via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 

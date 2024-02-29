@@ -3,6 +3,7 @@ unique-page-id: 18874678
 description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure] - Product Documentation
 title: Understanding [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
+feature: APIs, Integration, UTM Parameters
 ---
 # Understanding [!DNL Marketo Measure] AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 
@@ -99,6 +100,10 @@ A: 6 hours
 **Q: How long can it take to import ad data?**
 
 A: 4 hours
+
+**Q: For Dynamic Search Ads, can we track the combination of headline, description, etc., in the creative that was served?**
+
+A: We cannot retrieve individual creative details for dynamic search ads, but if autotagging is enabled, we can still get the creative ID and attribute revenue.
 
 >[!NOTE]
 >

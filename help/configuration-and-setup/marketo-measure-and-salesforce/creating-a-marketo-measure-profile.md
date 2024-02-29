@@ -3,6 +3,7 @@ unique-page-id: 18874698
 description: Creating a [!DNL Marketo Measure] Profile - [!DNL Marketo Measure] - Product Documentation
 title: Creating a [!DNL Marketo Measure] Profile
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
+feature: Salesforce
 ---
 # Creating a [!DNL Marketo Measure] Profile {#creating-a-marketo-measure-profile}
 
@@ -32,4 +33,4 @@ Learn how to create a [!DNL Marketo Measure] profile. Creating a [!DNL Marketo M
 
    Done!
 
-   If you have any questions around creating a dedicated [!DNL Marketo Measure] profile, please reach out to your customer success manager or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   If you have any questions around creating a dedicated [!DNL Marketo Measure] profile, please reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -3,6 +3,7 @@ unique-page-id: 37356962
 description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Resource List"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
+feature: Fundamentals
 ---
 # [!DNL Marketo Measure] Resource List {#marketo-measure-resource-list}
 
@@ -22,7 +23,7 @@ Here are various links to pertinent articles/videos to help you get up and runni
 * [Offline Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [What are UTM Parameters?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [Syncing SFDC Campaigns with Buyer Touchpoints](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [Syncing SFDC Campaigns with Buyer Touchpoints](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Uploading Marketing Spend](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Re-connect Ad Accounts](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Adding [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)

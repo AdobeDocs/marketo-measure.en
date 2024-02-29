@@ -3,6 +3,7 @@ unique-page-id: 27656737
 description: Report Marketing Spend - [!DNL Marketo Measure] - Product Documentation
 title: Report Marketing Spend
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
+feature: Reporting, Spend Management
 ---
 # Report Marketing Spend {#report-marketing-spend}
 

@@ -3,6 +3,7 @@ unique-page-id: 18874598
 description: Offline Custom Channel Setup - [!DNL Marketo Measure] - Product Documentation
 title: Offline Custom Channel Setup
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
+feature: Channels
 ---
 # Offline Custom Channel Setup {#offline-custom-channel-setup}
 
@@ -52,7 +53,7 @@ Any existing campaign types must be included in your channel map and "NULL" shou
 
 Take time to go into [!DNL Salesforce] to determine the number and nature of your existing record types, which you want to include, and whether you need to create additional campaigns based on the information above. Once you have filled out all the necessary information, you're ready to upload.
 
-Learn more about [syncing offline [!DNL Salesforce] Campaigns with [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md).
+Learn more about [syncing offline [!DNL Salesforce] Campaigns with [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## Handling SFDC Campaigns for Online Marketing Efforts {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

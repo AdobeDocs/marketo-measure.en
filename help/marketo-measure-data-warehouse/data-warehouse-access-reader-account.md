@@ -1,9 +1,10 @@
 ---
-description: Data Warehouse Access – Reader Account - Product Documentation
-title: Data Warehouse Access – Reader Account
+description: Data Warehouse Access - Reader Account - Product Documentation
+title: Data Warehouse Access - Reader Account
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
+feature: Data Warehouse
 ---
-# Data Warehouse Access – Reader Account {#data-warehouse-access-reader-account}
+# Data Warehouse Access - Reader Account {#data-warehouse-access-reader-account}
 
 ## Snowflake Access Link {#snowflake-access-link}
 

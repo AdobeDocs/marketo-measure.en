@@ -3,6 +3,7 @@ unique-page-id: 18874554
 description: Touchpoint Generation and Mapping - [!DNL Marketo Measure] - Product Documentation
 title: Touchpoint Generation and Mapping
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
+feature: Touchpoints
 ---
 # Touchpoint Generation and Mapping {#touchpoint-generation-and-mapping}
 
@@ -16,6 +17,10 @@ In order for you to get the most out of [!DNL Marketo Measure], you should work 
 Touchpoint Generation Methods
 
 The touchpoint generation process answers the question, "How is [!DNL Marketo Measure] going to know that this occurred?" Depending on your feature set and the types of interactions your prospective customers can have, there are up to three ways [!DNL Marketo Measure] can pick up on an interaction and create a touchpoint to represent it.
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] only generates one Touchpoint per Session. If more than one form has been filled out, only the first form fill will be captured.
 
 | **Type of Interaction** | **Example** | **Touchpoint Generation Method** |
 |---|---|---|
@@ -36,7 +41,7 @@ The touchpoint mapping process answers the question, "Once this touchpoint's bee
 >[!MORELIKETHIS]
 >
 >* [Mapping Online Touchpoints to [!DNL Marketo Measure] Channels/Subchannels](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Syncing CRM Campaigns from within SFDC](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+>* [Syncing CRM Campaigns from within SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [Syncing CRM Campaigns from within [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Mapping CRM Campaigns to [!DNL Marketo Measure] Channels/Subchannels](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Creating Touchpoints from Sales Activities](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)

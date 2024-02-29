@@ -3,6 +3,7 @@ unique-page-id: 18874680
 description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
+feature: APIs, Integration, UTM Parameters
 ---
 # [!DNL Facebook] API {#facebook-api}
 

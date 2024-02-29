@@ -3,6 +3,7 @@ unique-page-id: 18874710
 description: Touchpoint Removal and Touchpoint Suppression - [!DNL Marketo Measure] - Product Documentation
 title: Touchpoint Removal and Touchpoint Suppression
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
+feature: Touchpoints
 ---
 # Touchpoint Removal and Touchpoint Suppression {#touchpoint-removal-and-touchpoint-suppression}
 

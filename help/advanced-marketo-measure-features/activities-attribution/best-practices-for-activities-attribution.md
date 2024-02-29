@@ -2,6 +2,7 @@
 description: Best Practices for Activities Attribution - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Activities Attribution
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
+feature: Attribution
 ---
 # Best Practices for Activities Attribution {#best-practices-for-activities-attribution}
 

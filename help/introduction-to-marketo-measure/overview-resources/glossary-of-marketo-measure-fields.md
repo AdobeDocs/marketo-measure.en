@@ -3,6 +3,7 @@ unique-page-id: 18874586
 description: Glossary of Marketo Measure Fields - Marketo Measure - Product Documentation
 title: Glossary of Marketo Measure Fields
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
+feature: Fundamentals
 ---
 # Glossary of Marketo Measure Fields {#glossary-of-marketo-measure-fields}
 

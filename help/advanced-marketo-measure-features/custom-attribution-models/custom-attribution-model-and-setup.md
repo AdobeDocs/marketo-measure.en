@@ -3,6 +3,7 @@ unique-page-id: 18874779
 description: Custom Attribution Model and Setup - [!DNL Marketo Measure] - Product Documentation
 title: Custom Attribution Model and Setup
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
+feature: Attribution, Custom Models
 ---
 # Custom Attribution Model and Setup {#custom-attribution-model-and-setup}
 

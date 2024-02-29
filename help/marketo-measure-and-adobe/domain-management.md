@@ -2,10 +2,11 @@
 description: Domain Management - [!DNL Marketo Measure] - Product Documentation
 title: Domain Management
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
+feature: Integration, Tracking
 ---
 # Domain Management {#domain-management}
 
-For IMS-enabled tenants running [!DNL Marketo Measure] in the Unified Shell, [!DNL Marketo Measure] provides an interface that allows users to manage their own list of domains. [!DNL Marketo Measure] users must first verify any domains they wish to track in the [Adobe Admin Console](https://adminconsole.adobe.com/). Once domains are verified in the Admin Console, users can manage if [!DNL Marketo Measure] uses these domains for tracking website traffic.
+For IMS-enabled tenants running [!DNL Marketo Measure] in the Experience Cloud Interface, [!DNL Marketo Measure] provides an interface that allows users to manage their own list of domains. [!DNL Marketo Measure] users must first verify any domains they wish to track in the [Adobe Admin Console](https://adminconsole.adobe.com/). Once domains are verified in the Admin Console, users can manage if [!DNL Marketo Measure] uses these domains for tracking website traffic.
 
 ## Adding Domains in Admin Console {#adding-domains-in-admin-console}
 

@@ -3,6 +3,7 @@ unique-page-id: 42762762
 description: Set Up Marketo Connection - [!DNL Marketo Measure] - Product Documentation
 title: Set Up Marketo Connection
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
+feature: Integration
 ---
 # Set Up Marketo Connection {#set-up-marketo-connection}
 
@@ -10,7 +11,7 @@ Here's how to set up your connection to Marketo.
 
 >[!PREREQUISITES]
 >
->[Create an API Only User role](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) for the Marketo Measure/Marketo Engage connection.
+>[Create an API Only User role](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) for the [!DNL Marketo Measure]/Marketo Engage connection.
 
 1. In [!DNL Marketo Measure], click the **[!UICONTROL My Account]** drop-down and select **[!UICONTROL Settings]**.
 

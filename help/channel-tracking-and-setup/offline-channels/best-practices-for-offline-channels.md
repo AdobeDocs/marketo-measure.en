@@ -2,6 +2,7 @@
 description: Best Practices for Offline Channels - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Offline Channels
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
+feature: Channels
 ---
 # Best Practices for Offline Channels {#best-practices-for-offline-channels}
 
@@ -65,9 +66,9 @@ If your team has recently experienced any of the above, [!DNL Marketo Measure] r
 >
 >* [Offline Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Custom Campaign Sync - App Sync](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Syncing Offline Campaigns - CRM Sync](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
->* [Offline Campaign & Campaign Members - CRM Sync](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
->* [Campaign Sync Dates - CRM Sync](/help/channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
+>* [Syncing Offline Campaigns - CRM Sync](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [Offline Campaign & Campaign Members - CRM Sync](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Campaign Sync Dates - CRM Sync](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [Configurations for Multiple Campaign Record Types](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Creating a Campaign List View](/help/channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Syncing Historical Data](/help/channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
+>* [Creating a Campaign List View](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Syncing Historical Data](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

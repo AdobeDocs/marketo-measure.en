@@ -2,6 +2,7 @@
 description: "[!DNL Marketo Measure] Integrations with Adobe Analytics - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Integrations with [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
+feature: Integration
 ---
 # [!DNL Marketo Measure] Integrations with Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
@@ -25,7 +26,7 @@ The B2B Customer Attributes integration enables mutual users of [!DNL Marketo Me
 
 1. Click on the **[!UICONTROL Set Up New Customer Attributes Connection]** button and follow the instructions to configure the Customer Attributes integration. The UI will prompt you for the Alias ID and FTP connection information that you acquired when creating the Customer Attributes Source in your Core Services Console, as well as to select the set of account attributes that you'd like to sync to your [!DNL Adobe Analytics] account.
 
-   You'll also need to input your Adobe IMS Org ID. This ID is displayed in the lower-right corner of your Adobe Experience Cloud Admin Console. For more help with finding this ID, please consult with your Customer Success Manager.
+   You'll also need to input your Adobe IMS Org ID. This ID is displayed in the lower-right corner of your Adobe Experience Cloud Admin Console. For more help with finding this ID, please consult with the Adobe Account Team (your Account Manager).
 
 1. Once you've finished creating the connection in your [!DNL Marketo Measure] account, you'll need to head back to your Experience Cloud console in order to [validate the schema](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). You don't need to worry about the FTP file upload, [!DNL Marketo Measure] has automated that part for you. All you need to do is go to the "View/Edit" schema screen for the Customer Attribute Source you created in Step 1 and tell Adobe what the data types are for each of the attributes that [!DNL Marketo Measure] has uploaded on your behalf. You can also create new display-friendly names for the uploaded attributes, if desired.
 

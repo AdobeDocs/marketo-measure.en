@@ -3,6 +3,7 @@ unique-page-id: 18874730
 description: Account Based Marketing Overview - [!DNL Marketo Measure] - Product Documentation
 title: Account Based Marketing Overview
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
+feature: Account-based Marketing
 ---
 # Account Based Marketing Overview {#account-based-marketing-overview}
 
@@ -32,6 +33,10 @@ Lead-to-account mapping is a crucial part of an effective ABM approach. With lea
 * Lead Company Name to Account Name
 * Lead Company to Account Website Domain
 * Matching the Domain on the Lead's Email Address to the Account via the Contact's Email Address
+
+>[!NOTE]
+>
+>Each Lead is attempted to be matched to an Account in the preferential order of methods above. Once a match is made, the AccountId is immediately set on the Lead and won't be matched using another method. If the Lead already has a valid AccountId, the Lead is skipped.
 
 ## Predictive Engagement Score {#predictive-engagement-score}
 

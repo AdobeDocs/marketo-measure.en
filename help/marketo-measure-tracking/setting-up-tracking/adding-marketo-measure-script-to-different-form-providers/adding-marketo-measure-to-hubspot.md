@@ -3,6 +3,7 @@ unique-page-id: 18874759
 description: Adding [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Measure] - Product Documentation
 title: Adding [!DNL Marketo Measure] to [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
+feature: Tracking
 ---
 # Adding [!DNL Marketo Measure] to [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 

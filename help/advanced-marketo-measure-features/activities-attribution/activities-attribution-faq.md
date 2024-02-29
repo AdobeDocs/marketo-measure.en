@@ -3,6 +3,7 @@ unique-page-id: 18874704
 description: Activities Attribution FAQ - [!DNL Marketo Measure] - Product Documentation
 title: Activities Attribution FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
+feature: Attribution
 ---
 # Activities Attribution FAQ {#activities-attribution-faq}
 

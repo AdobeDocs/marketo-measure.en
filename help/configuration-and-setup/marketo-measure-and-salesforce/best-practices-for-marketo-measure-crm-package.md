@@ -2,6 +2,7 @@
 description: Best Practices for [!DNL Marketo Measure] CRM Package - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for [!DNL Marketo Measure] CRM Package
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
+feature: Salesforce
 ---
 # Best Practices for [!DNL Marketo Measure] CRM Package {#best-practices-for-marketo-measure-crm-package}
 
@@ -40,6 +41,10 @@ Other reasons to that might trigger a review...
 * Migration for [!DNL Salesforce] Classic to Lightening
 * Upgrades to your [!DNL Marketo Measure] contract
 * Check that you have the most recent version of our Buyer Touchpoints Package installed in [!DNL Salesforce]
+
+>[!NOTE]
+>
+>When you disable Marketo Measure exporting data to Salesforce, it won't remove any existing data. To remove it, please follow the steps in [this Salesforce help article](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

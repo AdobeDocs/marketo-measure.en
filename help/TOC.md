@@ -20,6 +20,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Best Practices for Implementing [!DNL Marketo Measure] JavaScript](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Adding [!DNL Marketo Measure] Script](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Adding [!DNL Marketo Measure] Script via Google Tag Manager](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [Data Collected by JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + Adding [!DNL Marketo Measure] Script to Different Form Providers {#adding-marketo-measure-script-to-different-form-providers}
          + [Adding [!DNL Marketo Measure] JavaScript to Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Adding [!DNL Marketo Measure] Script to Lightbox Forms](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
@@ -35,16 +36,18 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [[!DNL Marketo Measure] Cookies](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [Definition of [!DNL Marketo Measure] Web Sessions](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [Best Practices for Testing](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [Delayed Cookie Sync](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + Configuration and Setup {#configuration-and-setup}
    + Getting Started with [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Touchpoint Generation and Mapping](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Attribution Mapping Methodology](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
+      + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+      + [Error Notifications](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
       + [Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] CRM Packageless Integration](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] and Salesforce {#marketo-measure-and-salesforce}
       + [[!DNL Marketo Measure] Salesforce Package Installation and Set Up](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
+      + [[!DNL Salesforce] Package Consolidation](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [Connect [!DNL Marketo Measure] to Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices for [!DNL Marketo Measure] CRM Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce Objects](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
@@ -73,15 +76,18 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Best Practices for Offline Channels](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)
       + [Offline Custom Channel Setup](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [Custom Campaign Sync](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-      + [Syncing Historical Data](channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
-      + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
-      + [Campaign Sync Dates](channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
       + [Configurations for Multiple Campaign Record Types](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + [Creating a Campaign List View for [!DNL Salesforce] Campaigns](channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-      + [Syncing Offline Campaigns](channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+      + Legacy Processes {#legacy-processes}
+        + [[!UICONTROL Campaigns and Campaign Members]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+        + [Campaign Sync Dates](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+        + [Creating a Campaign List View for [!DNL Salesforce] Campaigns](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+        + [Dynamics Campaigns and Marketing Lists](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
+        + [Syncing Historical Data](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+        + [Syncing Offline Campaigns](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 + API Connections {#api-connections}
    + Utilizing [!DNL Marketo Measure]'s API Connections {#utilizing-marketo-measures-api-connections}
       + [Integrated Ad Platforms](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [Integration Permissions Overview](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Best Practices for API Connections](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [How Bid Management Tools Affect [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] Parameters](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
@@ -141,23 +147,36 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [FAQ (Multi-Currency)](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Discover UI {#marketo-measure-discover-ui}
    + Dashboards {#dashboards}
-      + [Cohort Journey Dashboard Documentation](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Passport Dashboard Documentation](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Snapshot Dashboard Documentation](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
-   + Using [!DNL Marketo Measure]'s Reporting Platform {#using-marketo-measures-reporting-platform}
-      + [Common Use Cases](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
-      + [Definitions and Encyclopedia](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-      + [Drill Throughs](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/drill-throughs.md)
-      + [Filters](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/filters.md)
-      + [FAQ](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/faq.md)
-      + [Engagement Path](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/engagement-path.md)
-      + [Marketing Ops Tiles](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-      + [Overview Board Tiles](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
+      + [Discover Dashboard Basics](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [New Discover Dashboard Guide](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
+      + [Dashboard Data Visibility Policy](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Engagement Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Lead Velocity Dashboard](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Opportunity Velocity Dashboard](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Passport Dashboard](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Revenue Overview Dashboard](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [ROI Dashboard](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Web Traffic Dashboard](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+      
+   + Legacy Dashboards {#legacy-dashboards}
+      + [Cohort Journey Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Passport Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Snapshot Dashboard Documentation](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
+      + Using [!DNL Marketo Measure]'s Reporting Platform {#using-marketo-measures-reporting-platform}
+        + [Common Use Cases](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
+        + [Definitions and Encyclopedia](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
+        + [Drill Throughs](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
+        + [Filters](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
+        + [FAQ](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
+        + [Engagement Path](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
+        + [Marketing Ops Tiles](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
+        + [Overview Board Tiles](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] and Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] Integrations with Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] Integrations with Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [Domain Management](marketo-measure-and-adobe/domain-management.md)
-   + [Unified Shell Overview](marketo-measure-and-adobe/unified-shell-overview.md)
+   + [Adobe Experience Cloud Interface Overview](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] and Dynamics {#marketo-measure-and-dynamics}
    + Getting Started with [!DNL Marketo Measure] and Dynamics {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamics Schema](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
@@ -167,7 +186,6 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [[!DNL Marketo Measure] and Dynamics Taxonomy](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics Reporting {#dynamics-reporting}
       + [Stock Reports and Dashboards in [!DNL Dynamics]](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
-      + [Dynamics Campaigns and Marketing Lists](marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
 + [!DNL Marketo Measure] and Marketo {#marketo-measure-and-marketo}
    + [!DNL Marketo Measure] Integrations with Marketo {#marketo-measure-integrations-with-marketo}
       + [Set Up [!DNL Marketo] Connection](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
@@ -206,6 +224,8 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Security Session Restrictions: IP Addresses to Allowlist](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [[!DNL Marketo Measure] Ultimate Overview](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
+   + [Data Integrity Requirement](marketo-measure-ultimate/data-integrity-requirement.md)
+   + [Implementation Guide](marketo-measure-ultimate/implementation-guide.md)
 + Miscellaneous {#miscellaneous}
    + Other Related Resources {#other-related-resources}
       + [[!DNL Marketo Measure] Maintenance](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
@@ -217,3 +237,6 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Privacy Request](miscellaneous/other-related-resources/privacy-requests.md)
       + [Remove [!DNL Marketo Measure] Tracking Parameters from the Landing Page URL in Google Analytics](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Transitioning to [!DNL Marketo Measure] from Full Circle](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
+   + [Test](miscellaneous/test.md)
++ Release Notes {#release-notes}
+   + [Current Release Notes](release-notes/current.md)

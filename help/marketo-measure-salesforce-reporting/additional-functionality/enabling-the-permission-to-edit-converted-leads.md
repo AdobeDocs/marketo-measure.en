@@ -3,6 +3,7 @@ unique-page-id: 18874700
 description: Enabling the Permission to Edit Converted Leads - [!DNL Marketo Measure] - Product Documentation
 title: Enabling the Permission to Edit Converted Leads
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
+feature: Tracking
 ---
 # Enabling the Permission to Edit Converted Leads {#enabling-the-permission-to-edit-converted-leads}
 

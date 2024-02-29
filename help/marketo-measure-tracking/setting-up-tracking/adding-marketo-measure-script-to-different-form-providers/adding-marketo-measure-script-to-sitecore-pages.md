@@ -3,6 +3,7 @@ unique-page-id: 18874747
 description: Adding [!DNL Marketo Measure] Script to Sitecore Pages - [!DNL Marketo Measure] - Product Documentation
 title: Adding [!DNL Marketo Measure] Script to Sitecore Pages
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
+feature: Tracking
 ---
 # Adding [!DNL Marketo Measure] Script to Sitecore Pages {#adding-marketo-measure-script-to-sitecore-pages}
 

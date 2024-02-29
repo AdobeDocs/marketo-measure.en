@@ -3,6 +3,7 @@ unique-page-id: 18874785
 description: Hiding Unnecessary Report Types - [!DNL Marketo Measure] - Product Documentation
 title: Hiding Unnecessary Report Types
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
+feature: Salesforce
 ---
 # Hiding Unnecessary Report Types {#hiding-unnecessary-report-types}
 

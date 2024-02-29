@@ -2,6 +2,7 @@
 description: Best Practices for Online Channels - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Online Channels
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
+feature: Channels
 ---
 # Best Practices for Online Channels {#best-practices-for-online-channels}
 

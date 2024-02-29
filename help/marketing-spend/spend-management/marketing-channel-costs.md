@@ -3,6 +3,7 @@ unique-page-id: 18874602
 description: Marketing Channel Costs - [!DNL Marketo Measure] - Product Documentation
 title: Marketing Channel Costs
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
+feature: Channels, Spend Management
 ---
 # Marketing Channel Costs {#marketing-channel-costs}
 

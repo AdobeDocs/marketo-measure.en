@@ -3,6 +3,7 @@ unique-page-id: 18874789
 description: "[!DNL Marketo Measure] Permission Sets - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Permission Sets"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
+feature: Salesforce
 ---
 # [!DNL Marketo Measure] Permission Sets {#marketo-measure-permission-sets}
 

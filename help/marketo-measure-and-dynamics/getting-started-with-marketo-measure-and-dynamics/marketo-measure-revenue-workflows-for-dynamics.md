@@ -3,6 +3,7 @@ unique-page-id: 37356132
 description: "[!DNL Marketo Measure] Revenue Workflows for Dynamics - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Revenue Workflows for Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
+feature: Microsoft Dynamics
 ---
 # [!DNL Marketo Measure] Revenue Workflows for Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 

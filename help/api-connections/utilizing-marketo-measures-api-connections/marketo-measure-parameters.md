@@ -3,6 +3,7 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Parameters"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
+feature: APIs, Integration, UTM Parameters
 ---
 # [!DNL Marketo Measure] Parameters {#marketo-measure-parameters}
 
@@ -33,7 +34,7 @@ Example of a URL with [!DNL Marketo Measure] parameters:
    * Keyword match types help control which searches trigger your ad. For example, you could use broad match to show your ad to a wide audience or you could use exact match to hone in on specific groups of customers.
    * The three match types are: broad, fuzzy and exact.
 
->[!NOTE]
+>[!TIP]
 >
 >For more information on match types, [here's a relevant AdWords article](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
@@ -43,6 +44,10 @@ Example of a URL with [!DNL Marketo Measure] parameters:
 
 * `_bg={adgroupID}`
    * Represents the ID of the Ad Group the ad belongs to
+
+>[!NOTE]
+>
+>We do not support Redirect URL parameters.
 
 ## Bing Ads Parameters {#bing-ads-parameters}
 

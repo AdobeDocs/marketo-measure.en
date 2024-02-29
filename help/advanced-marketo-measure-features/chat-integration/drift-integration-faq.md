@@ -3,10 +3,11 @@ unique-page-id: 27656441
 description: Drift Integration FAQ - [!DNL Marketo Measure] - Product Documentation
 title: Drift Integration FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
+feature: Integration
 ---
 # Drift Integration FAQ {#drift-integration-faq}
 
-As a part of the [!DNL Marketo Measure] integration with Drift, we've outlined some of the most frequently asked questions. If there are any questions not outlined below, please reach out to your Customer Success Manager or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+As a part of the [!DNL Marketo Measure] integration with Drift, we've outlined some of the most frequently asked questions. If there are any questions not outlined below, please reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **How is the integration enabled?**
 

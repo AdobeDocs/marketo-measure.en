@@ -3,6 +3,7 @@ unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Dynamics Schema - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Dynamics Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
+feature: Microsoft Dynamics
 ---
 # [!DNL Marketo Measure] Dynamics Schema {#marketo-measure-dynamics-schema}
 

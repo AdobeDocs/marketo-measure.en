@@ -3,16 +3,19 @@ unique-page-id: 27656735
 description: Overview - [!DNL Marketo Measure] - Product Documentation
 title: Overview
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
+feature: Multi-Currency
 ---
 # Overview {#overview}
 
-Today, the [!DNL Marketo Measure] application only supports a single currency (assumed to be USD), whereas we know and are aware that we have customers around the world who need to report on their own corporate and user currencies. This feature builds in the ability for users to switch between different currencies when they're looking at either reported spend or sales revenue.
+Today, the [!DNL Marketo Measure] application only supports a single currency (assumed to be USD), whereas we know and are aware that we have customers around the world who need to report on their own corporate and user currencies. This feature enables users to switch between the same currencies used in their CRM when viewing reported spend or sales revenue in [!DNL Marketo Measure].
 
 ## Availability {#availability}
 
 Tier 2 and higher.
 
 ## Requirements {#requirements}
+
+[!DNL Marketo Measure] will automatically pull the currency setting from the customer's CRM. Manual configuration in [!DNL Marketo Measure] to match the CRM is no longer required. The currency setting can be found in the "General" page under "CRM".
 
 In [!DNL Salesforce], the customer must have "Activate Multiple Currencies" enabled. Optionally, the customer can also select "Yes, I want to enable Advanced Currency Management."
 

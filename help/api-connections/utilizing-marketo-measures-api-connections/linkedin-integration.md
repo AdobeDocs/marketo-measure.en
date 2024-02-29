@@ -3,6 +3,7 @@ unique-page-id: 35586080
 description: LinkedIn Integration - [!DNL Marketo Measure] - Product Documentation
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
+feature: APIs, Integration
 ---
 # LinkedIn Integration {#linkedin-integration}
 
@@ -16,7 +17,7 @@ Lead Gen Forms: Through the integration with LinkedIn's Lead Gen Forms, Marketo 
 
 ## Availability {#availability}
 
-Available to all customers.
+Available to all users.
 
 ## Requirements {#requirements}
 
@@ -120,6 +121,12 @@ Creative D : Share 234
 
 ## How It Works: Lead Gen Forms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's] Unique Auto-Tagging Requirements**
+
+[!DNL Marketo Measure] can help track your [!DNL LinkedIn] campaign performance by auto-tagging your landing pages.
+
+[!DNL Marketo Measure] will search for creatives with a unique LinkedIn Share and add a `?_bl={creativeId}` parameter to the end of it.
+
 **The Process**
 
 Through [!DNL LinkedIn's] Ad Form API and Ad Form Response API, we are able to gather form submission data for an ad account and associate the email address to a lead from the CRM or Marketo.
@@ -155,95 +162,99 @@ Once [!DNL Marketo Measure] has successfully tagged your landing page on the Lin
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>Touchpoint Field</th> 
+   <th style="width:30%">Touchpoint Field</th> 
    <th>Sample Value</th> 
   </tr> 
   <tr> 
-   <td><p>Ad Id </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>Ad Id</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>Ad Content </p></td> 
-   <td><p>copy-1-image-2-man 95% of #B2B marketers consider demand creation strategy to be successful. Learn more: [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>Ad Content</td>
+   <td>copy-1-image-2-man 95% of #B2B marketers consider demand creation strategy to be successful. Learn more: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>Ad Group Id </p></td> 
-   <td><p>(blank) </p></td> 
+   <td>Ad Group Id</td>
+   <td>(blank)</td>
   </tr> 
   <tr> 
-   <td><p>Ad Group Name </p></td> 
-   <td><p>(blank) </p></td> 
+   <td>Ad Group Name</td>
+   <td>(blank)</td>
   </tr> 
   <tr> 
-   <td><p>Ad Campaign Id </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>Ad Campaign Id</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>Ad Campaign Name </p></td> 
-   <td><p>SU - COM Accounts - Demand Skills </p></td> 
+   <td>Ad Campaign Name</td>
+   <td>SU - COM Accounts - Demand Skills</td>
   </tr> 
   <tr> 
-   <td><p>Ad Destination URL </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Ad Destination URL <b>&#42;</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Form URL </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Form URL</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Form URL - Raw </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>Form URL - Raw</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Keyword Id </p></td> 
-   <td><p>(blank) </p></td> 
+   <td>Keyword Id</td> 
+   <td>(blank)</td> 
   </tr> 
   <tr> 
-   <td><p>Keyword Match Type </p></td> 
-   <td><p>(blank) </p></td> 
+   <td>Keyword Match Type</td> 
+   <td>(blank)</td> 
   </tr> 
   <tr> 
-   <td><p>Landing Page </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>Landing Page</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>Landing Page - Raw </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Landing Page - Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Marketing Channel </p></td> 
-   <td><p>Paid Social </p></td> 
+   <td>Marketing Channel</td> 
+   <td>Paid Social</td> 
   </tr> 
   <tr> 
-   <td><p>Marketing Channel - Path </p></td> 
-   <td><p>Paid Social.LinkedIn </p></td> 
+   <td>Marketing Channel - Path</td> 
+   <td>Paid Social.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>Medium </p></td> 
-   <td><p>"cpc" or "Lead Gen Form"</p></td> 
+   <td>Medium</td> 
+   <td>"cpc" or "Lead Gen Form"</td> 
   </tr> 
   <tr> 
-   <td><p>Referrer Page </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referrer Page</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Referrer Page - Raw </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Referrer Page - Raw</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Serach Phrase </p></td> 
-   <td><p>(blank) </p></td> 
+   <td>Serach Phrase</td> 
+   <td>(blank)</td> 
   </tr> 
   <tr> 
-   <td><p>Touchpoint Type </p></td> 
-   <td><p>Web Form </p></td> 
+   <td>Touchpoint Type</td> 
+   <td>Web Form</td>
   </tr> 
   <tr> 
-   <td><p>Touchpoint Source </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Touchpoint Source</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _"Ad Destination URL" field is only populated for Sponsored Content. It is not populated for Lead Gen Forms._
+
+<br>
 
 ## Costs {#costs}
 

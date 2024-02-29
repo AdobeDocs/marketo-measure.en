@@ -2,6 +2,7 @@
 description: Best Practices for Implementing [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - Product Documentation
 title: Best Practices for Implementing [!DNL Marketo Measure] JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
+feature: Tracking
 ---
 # Best Practices for Implementing [!DNL Marketo Measure] JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
 

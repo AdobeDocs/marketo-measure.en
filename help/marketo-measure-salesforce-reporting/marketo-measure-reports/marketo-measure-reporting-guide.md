@@ -2,6 +2,7 @@
 description: "[!DNL Marketo Measure] Reporting Guide - [!DNL Marketo Measure] - Product Documentation"
 title: "[!DNL Marketo Measure] Reporting Guide"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
+feature: Reporting
 ---
 # [!DNL Marketo Measure] Reporting Guide {#marketo-measure-reporting-guide}
 
@@ -551,7 +552,7 @@ When looking to measure marketing's impact on closed won Deals or closed won Rev
 
 >[!NOTE]
 >
->The Custom Attribution Model is an additional feature not available to all customers. Contact your Customer Success manager to learn more about how to add this feature to your account.
+>The Custom Attribution Model is an additional feature not available to all customers. Contact the Adobe Account Team (your Account Manager) to learn more about how to add this feature to your account.
 
 Commonly, marketers need to know, "where are my Opportunities coming from?". Similar to Lead level reporting, this question was historically answered with a single, one-dimensional value (Primary Campaign Source for example). However, we know that much more goes into the development of an Opportunity than a single touchpoint from a single Contact. There are typically several touchpoints from various channels and by multiple stakeholders that influence an Opportunity into creation. With [!DNL Marketo Measure], we can surface all the touchpoints from an Account to best understand where an Opportunity came from. Beyond that however, we can continue to surface any touchpoint that occurred after the Opportunity was created and up to the point the Opportunity is closed. This allows us to not only take a multi-touch approach into understanding where an Opportunity came from, but also what influenced it to close and ultimately to represent closed won revenue. This gives insight into different questions such as, "what is marketing's impact on influencing Deals to close?", "what marketing is driving closed won Revenue?" and ultimately, "which of my marketing efforts are seeing the greatest ROI?"
 

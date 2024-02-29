@@ -3,6 +3,7 @@ unique-page-id: 18874686
 description: Configurations for Multiple Campaign Record Types - [!DNL Marketo Measure] - Product Documentation
 title: Configurations for Multiple Campaign Record Types
 exl-id: 10499556-a591-4630-9149-ae676e6494af
+feature: Channels
 ---
 # Configurations for Multiple Campaign Record Types {#configurations-for-multiple-campaign-record-types}
 

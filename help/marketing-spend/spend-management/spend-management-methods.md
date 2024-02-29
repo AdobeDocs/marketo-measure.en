@@ -2,6 +2,7 @@
 description: Spend Management Methods - [!DNL Marketo Measure] - Product Documentation
 title: Spend Management Methods
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
+feature: Spend Management
 ---
 # Spend Management Methods {#spend-management-methods}
 
@@ -21,7 +22,7 @@ Every [!DNL Marketo Measure] account has access to a feature called [Sync CRM Ca
 
 Once enabled this feature will automatically pull spend in from any CRM campaign/program that meets the following criteria
 
-i. [!DNL Marketo Measure] first looks to see if the Campaign/Program is creating touchpoints, either from a matching [Campaign Sync rule](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) that was created, or a matching [Program Sync rule](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) that was created, or the [Enable Buyer Touchpoints value](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is "Include All Campaign Members" or "Include 'Responded' Campaign Members."
+i. [!DNL Marketo Measure] first looks to see if the Campaign/Program is creating touchpoints, either from a matching [Campaign Sync rule](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) that was created, or a matching [Program Sync rule](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) that was created, or the [Enable Buyer Touchpoints value](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is "Include All Campaign Members" or "Include 'Responded' Campaign Members."
 
 ii. A Start Date must be populated on the campaign/program
 

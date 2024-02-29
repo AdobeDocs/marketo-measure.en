@@ -3,6 +3,7 @@ unique-page-id: 18874604
 description: Custom Segmentation - [!DNL Marketo Measure] - Product Documentation
 title: Custom Segmentation
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
+feature: Segmentation
 ---
 # Custom Segmentation {#custom-segmentation}
 
@@ -10,7 +11,7 @@ Segments provide the ability to filter data in the [!DNL Marketo Measure] ROI Da
 
 **Why Custom Segmentation?**
 
-The Custom Segmentation feature allows you to filter Touchpoints by one category and by up to five segments. Depending on what Object your ROI Dash is pointed to (Lead or Contact), you can create segments based on the fields found on the Lead/Contact Object. As well, you'll be able to create segments based on any fields found on the Opportunity Object.
+Custom Segmentation allows you to filter Touchpoints by categories (filter name) and rules (filter values). Tier 1 customers get one segment, Tiers 2 and up get ten. Depending on what Object your ROI Dash is pointed to (Lead or Contact), you can create segments based on the fields found on the Lead/Contact Object. As well, you'll be able to create segments based on any fields found on the Opportunity Object.
 
 **When is the Custom Segmentation feature helpful?**
 
@@ -65,6 +66,11 @@ Step 4 - Add Filter Rules.
 If rules aren't set up for both Leads/Contacts and Opportunities, you will see only a portion of your data. To elaborate, if you do not set up the Opportunities rules, you will only see Lead/Contact data without the Opportunities associated with it. The same is true if you do not set up rules for Leads/Contacts--you will only see Opportunities without the associated Leads/Contacts.
 
 When you're done, click [!UICONTROL Save] first, double check everything, and then click [!UICONTROL Save and Process]. Remember that you will be unable to edit your settings for seven days when you save and process, as [!DNL Marketo Measure] is reformatting your data during this time.
+
+If you're a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+
+* b2b.personStatus
+* b2b.isConverted
 
 **How do I save the generated reports?**
 
