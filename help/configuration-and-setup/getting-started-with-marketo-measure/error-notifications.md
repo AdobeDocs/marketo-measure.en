@@ -5,7 +5,7 @@ feature: Fundamentals
 ---
 # Error Notifications {#error-notifications}
 
-Below is a list of errors you may receive via in-app notification or email. If you receive any of these, please follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Below is a list of errors that you may receive via in-app notification or email. If you receive any of these, please follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -19,7 +19,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
       <td>API_DISABLED</td>
       <td>Error occurred during Crm Import : API_DISABLED : API calls have been disabled for this user</td>
       <td>The API permission has been disabled for the Marketo Measure user.</td>
-      <td>Refer to the following Salesforce documentation on <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">how to enable API access</a>.</td>
+      <td>Refer to the following Salesforce documentation on <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">how to enable API access</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -48,7 +48,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Error occurred during AdobeAnalytics Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Error: Upload not allowed. Please confirm the datasource schema before upload. Datasource Id:1234</td>
+      <td>Error occurred during Adobe Analytics Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Error: Upload not allowed. Confirm the datasource schema before upload. Datasource Id:1234</td>
       <td>The Adobe Analytics integration is not configured correctly.</td>
       <td>Refer to the following help articles to ensure correct configuration:
         <ul>
@@ -67,7 +67,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
       <p>
       Error occurred during Ad Import: INVALID_CURRENCY_ISO_CODE : Currency XXX on Account for 1234 is not supported by Marketo Measure.</td>
       <td>An unsupported currency was encountered.</td>
-      <td>In the source system indicated in the notification (Ad, Crm, Marketo) ensure the currency associated to the record has a supported & valid currency. Supported currencies are derived from ISO currency standards.</td>
+      <td>In the source system indicated in the notification (Ad, Crm, Marketo) ensures the currency associated to the record has a supported & valid currency. Supported currencies are derived from ISO currency standards.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -121,7 +121,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
           Error occurred during Crm Import: NULL_EMPTY_CURRENCY_ISO_CODE: Currency ISO code is NULL or Empty when MultiCurrency is enabled for RecordId 1234
       </td>
       <td>Currency must be a supported ISO currency code.</td>
-      <td>In the source system indicated in the notification (Ad, Crm, Marketo) ensure the currency associated to the record has a supported & valid currency. Supported currencies are derived from ISO currency standards.</td>
+      <td>In the source system indicated in the notification (Ad, Crm, Marketo) ensures the currency associated to the record has a supported & valid currency. Supported currencies are derived from ISO currency standards.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

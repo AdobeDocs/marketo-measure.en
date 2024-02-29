@@ -7,7 +7,7 @@ feature: Integration
 ---
 # [!DNL Marketo Measure] CRM Packageless Integration {#marketo-measure-crm-packageless-integration}
 
-We understand that not all Marketing teams want (or have access) to run marketing reporting out of the CRM, whether it's because of limited access, CRM ownership, longer time to value, or legal implications. Going down the path of [!DNL Marketo Measure] Quick Start gives you the ability to effectively implement and run [!DNL Marketo Measure] with as little reliance on the CRM as possible.
+Not all Marketing teams want (or have access) to run marketing reporting out of the CRM, whether it's because of limited access, CRM ownership, longer time to value, or legal implications. Going down the path of [!DNL Marketo Measure] Quick Start gives you the ability to effectively implement and run [!DNL Marketo Measure] with as little reliance on the CRM as possible.
 
 ## Standard [!DNL Marketo Measure] Installation {#standard-marketo-measure-installation}
 
@@ -19,7 +19,7 @@ A packageless integration with [!DNL Marketo Measure] is for customers who don't
 
 A [!DNL Marketo Measure] CRM packageless integration still requires access to standard CRM objects such as Leads and Contacts. We strongly recommend a dedicated user serve as the connected user, as they will have the proper data access privileges.
 
-In order to ensure that all data is properly pulling from your CRM, we require the following security and accessibility settings: View All Data for the Profile of the dedicated user. This permission set gives [!DNL Marketo Measure] the access needed to download data from standard objects. This permission set is at profile level.
+To ensure that all data is properly pulling from your CRM, we require the following security and accessibility settings: View All Data for the Profile of the dedicated user. This permission set gives [!DNL Marketo Measure] the access needed to download data from standard objects. This permission set is at profile level.
 
 ## Setup up your Identity Provider and Data Connections {#setup-your-identity-provider-and-data-connections}
 
@@ -29,7 +29,7 @@ In the guides below, skip the steps to install the [!DNL Salesforce] package or 
 
 [!DNL Microsoft Dynamics] customers, click [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Once you complete all of the above steps, you're good to go. If you run into any issues along the way, please don't hesitate to reach out to your [!DNL Marketo Measure] representative or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Once you complete the above steps, you are good to go. If you run into any issues along the way, please don't hesitate to reach out to your [!DNL Marketo Measure] representative or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >
