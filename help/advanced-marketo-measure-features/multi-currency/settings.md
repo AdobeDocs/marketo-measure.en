@@ -7,7 +7,7 @@ feature: Multi-Currency
 ---
 # Settings {#settings}
 
-There are two separate feature bits tied to this feature, located in the CRM's General Settings tab: Multiple Currencies and Advanced Currencies.
+There are two separate feature bits tied to this feature, located in the CRM's [!UICONTROL General Settings] tab: Multiple Currencies and Advanced Currencies.
 
 **Multiple Currencies**: Enabled if the customer utilizes more than a single currency.
 

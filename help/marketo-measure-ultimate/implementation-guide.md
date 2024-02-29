@@ -61,6 +61,10 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
 ## Dataflows {#dataflows}
 
+>[!IMPORTANT]
+>
+>When adding a new dataset, we recommend creating a new flow instead of using an existing one. 
+
 [Dataflows Overview](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Steps to create a dataflow:**

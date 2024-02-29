@@ -19,7 +19,7 @@ The new consolidated V2 package incorporates all features and functionality from
 There are two new fields to enhance your reporting capabilities:
 
 * form_name: Now available in BT/BAT objects, this field enables users to create reports based on form names.
-* user_touchpoint_id: This field enables users to create reports with unique user touchpoint counts.
+* user_touchpoint_id: This field enables users to create reports with unique user touchpoint counts (`bizible2__User_Touchpoint_V2__c` in Salesforce).
 
 ## Support and Transition {#support-and-transition}
 

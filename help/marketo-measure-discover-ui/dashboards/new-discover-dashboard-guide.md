@@ -33,14 +33,12 @@ We're thrilled to introduce our Discover dashboard redesign. Our primary goal is
           <li>
             <strong>Pipeline Revenue:</strong>Deprecated (see below)</li>
           <li>
-            <strong>Average Deal Size: </strong>Deprecated (see below)</li>
-        </ul>
+            <strong>Average Deal Size: </strong>Deprecated (see below)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Growth</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Revenue &amp; Revenue Over Time</strong>: Attributed Revenue, Revenue Overview, ROI Dashboards</li>
           <li>
