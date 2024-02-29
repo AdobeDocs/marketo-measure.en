@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874761
-description: Single Sign On - [!DNL Marketo Measure] - Product Documentation
+description: Single Sign On - [!DNL Marketo Measure]
 title: Single Sign On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
 ---
@@ -10,7 +10,7 @@ SAML (security assertion markup language) for SSO (single sign-on) makes it poss
 
 >[!CAUTION]
 >
->This article outlines Single Sign On (SSO) and advanced CRM User Management. If your account was provisioned **after 9/10/2020**, please disregard this article, as SSO and Identity Management will be set up within the [Adobe Admin Console for your [!DNL Marketo Measure] integration](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
+>This article outlines Single Sign On (SSO) and advanced CRM User Management. If your account was provisioned **after 9/10/2020**, disregard this article, as SSO and Identity Management will be set up within the [Adobe Admin Console for your [!DNL Marketo Measure] integration](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
 
 >[!NOTE]
 >
@@ -87,7 +87,7 @@ Test the Single Sign On configuration
 
     a. Before you can hit Save, you will be required to click the [!UICONTROL Test SAML Authentication] button to verify that your settings were configured properly.
     
-    b. If you see a "failure" error, please follow the message and attempt again.
+    b. If you see a "failure" error, follow the message and attempt again.
 
 ![](assets/single-sign-on-4.png)
 
@@ -109,7 +109,7 @@ Try it out!
 
 >[!NOTE]
 >
->After you configure SSO, you'll no longer need to add users within the [!DNL Marketo Measure] application. User provisioning should be handled directly within your Identity Provider.
+>After you configure SSO, you will no longer need to add users within the [!DNL Marketo Measure] application. User provisioning should be handled directly within your Identity Provider.
 
 ## CRM Users (Advanced Setup) {#crm-users-advanced-setup}
 

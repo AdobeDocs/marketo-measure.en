@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] View Through Attribution FAQ - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] View Through Attribution FAQ - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] View Through Attribution FAQ"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution

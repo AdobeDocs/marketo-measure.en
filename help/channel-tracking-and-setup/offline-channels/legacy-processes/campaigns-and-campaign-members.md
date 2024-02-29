@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874578
-description: Campaigns and Campaign Members - [!DNL Marketo Measure] - Product Documentation
+description: Campaigns and Campaign Members - [!DNL Marketo Measure]
 title: Campaigns and Campaign Members
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
@@ -27,7 +27,7 @@ The options available in the picklist are:
 * Include only "Responded" campaign Members - Only Leads or Contacts that have a Campaign Member Status of "Responded" will receive a Touchpoint associated to that campaign.
 * Exclude all Campaign Members - None of the Leads or Contacts will receive a Touchpoint associated to that campaign.
 
-Please note that campaign members must have an email address associated to their record in order for [!DNL Marketo Measure] to create a touchpoint. Without an email address, [!DNL Marketo Measure] will not assign a touchpoint to the campaign member.
+Note that campaign members must have an email address associated to their record in order for [!DNL Marketo Measure] to create a touchpoint. Without an email address, [!DNL Marketo Measure] will not assign a touchpoint to the campaign member.
 
 ## Campaign Sync Dates {#campaign-sync-dates}
 
@@ -41,7 +41,7 @@ Start date can be used in the case that an existing Campaign is used for trackin
 
 ## Use Case for Touchpoint End Date {#use-case-for-touchpoint-end-date}
 
-If before using [!DNL Marketo Measure], you used a Marketing Automation platform that tracked Leads' digital interactions (IE form submissions), and then uploaded those Leads into a [!DNL Saleforce] Campaign, you can leverage the Touchpoint End Date field. You'd set the Touchpoint End Date as your start date with [!DNL Marketo Measure] and enable Buyer Touchpoints, then each of these Leads' digital interaction would be created as a Touchpoint. The reason you'll set the Touchpoint End Date to be your Start Date with [!DNL Marketo Measure] is because, moving forward, we will be tracking these digital interactions through our javascript.
+If before using [!DNL Marketo Measure], you used a Marketing Automation platform that tracked Leads' digital interactions (IE form submissions), and then uploaded those Leads into a [!DNL Saleforce] Campaign, you can use the Touchpoint End Date field. You'd set the Touchpoint End Date as your start date with [!DNL Marketo Measure] and enable Buyer Touchpoints, then each of these Leads' digital interaction would be created as a Touchpoint. The reason you will set the Touchpoint End Date to be your Start Date with [!DNL Marketo Measure] is because, moving forward, we will be tracking these digital interactions through our javascript.
 
 ![](assets/3.png)
 

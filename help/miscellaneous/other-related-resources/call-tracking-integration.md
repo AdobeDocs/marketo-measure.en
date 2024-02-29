@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874592
-description: Call Tracking Integration - [!DNL Marketo Measure] - Product Documentation
+description: Call Tracking Integration - [!DNL Marketo Measure]
 title: Call Tracking Integration
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration

@@ -1,5 +1,5 @@
 ---
-description: Privacy Requests - [!DNL Marketo Measure] - Product Documentation
+description: Privacy Requests - [!DNL Marketo Measure]
 title: Privacy Requests
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking

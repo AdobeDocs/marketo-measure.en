@@ -37,7 +37,7 @@ Questions the chart answers:
 
 The time series line chart displays the average time, in days, opportunities spend at each sales stage across the specified timeframe.
 
-* Leverage the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a line to reveal detailed information.
 
 Questions the chart answers:

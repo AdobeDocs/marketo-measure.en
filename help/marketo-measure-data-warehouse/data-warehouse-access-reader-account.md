@@ -8,7 +8,7 @@ feature: Data Warehouse
 
 ## Snowflake Access Link {#snowflake-access-link}
 
-To access your Snowflake data warehouse, you'll need to navigate to the specific URL for your Snowflake account. You can find this access link by logging into [!DNL Marketo Measure] and following the steps below to navigate to the Data Warehouse information page.
+To access your Snowflake data warehouse, you will need to navigate to the specific URL for your Snowflake account. You can find this access link by logging into [!DNL Marketo Measure] and following the steps below to navigate to the Data Warehouse information page.
 
 1. In [!DNL Marketo Measure], at the top of the page, Click **[!UICONTROL My Account]** > **[!UICONTROL Settings]**.
 
@@ -18,7 +18,7 @@ To access your Snowflake data warehouse, you'll need to navigate to the specific
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
-1. On this page, you'll find the link to your Snowflake data warehouse and your username.
+1. On this page, you will find the link to your Snowflake data warehouse and your username.
 
    ![](assets/data-warehouse-access-reader-account-3.png)
 
@@ -26,7 +26,7 @@ To access your Snowflake data warehouse, you'll need to navigate to the specific
    >
    >This is a read-only account that's available for your organization, not just an individual user. Any user within your organization that has access to [!DNL Marketo Measure] can use this account to log into the Snowflake Data Warehouse reader account.
 
-1. Click the link provided in the Snowflake URL, this will take you to the Snowflake login page where you'll enter your username and password. _If you don't have your password, see the steps below to reset it_.
+1. Click the link provided in the Snowflake URL, this will take you to the Snowflake login page where you will enter your username and password. _If you don't have your password, see the steps below to reset it_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -53,7 +53,7 @@ To access your Snowflake data warehouse, you'll need to navigate to the specific
 
 ## Connecting to Snowflake via Third-Party Tools {#connecting-to-snowflake-via-third-party-tools}
 
-You'll need to enter a few pieces of information to connect your Snowflake data warehouse to a third-party tool.
+you will need to enter a few pieces of information to connect your Snowflake data warehouse to a third-party tool.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ You'll need to enter a few pieces of information to connect your Snowflake data 
 * **Username** (always required)
   * The username is listed on the Data Warehouse information page in [!DNL Marketo Measure].
 * **Password** (always required)
-  * This is the password you set the first time you logged into your Snowflake account.  To reset your password, please see the steps outlined above.
+  * This is the password you set the first time you logged into your Snowflake account.  To reset your password, see the steps outlined above.
 * **Database Name** (not always required)
   * The database is what stores the data in Snowflake. It is the storage resource. The database name is listed on the Data Warehouse information page in [!DNL Marketo Measure].
 * **Warehouse Name** (not always required)

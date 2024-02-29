@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874602
-description: Marketing Channel Costs - [!DNL Marketo Measure] - Product Documentation
+description: Marketing Channel Costs - [!DNL Marketo Measure]
 title: Marketing Channel Costs
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
@@ -55,7 +55,7 @@ The downloaded CSV will pull the results from your current screen, meaning that 
 
 Regardless of which view is sitting in the browser, if it's a filtered view or the default view with all dates and channels, you can upload any CSV.
 
-The most common error we face is the format of the date columns, which happens if the date format is changed and could happen intentionally if moving between Excel and/or Google Sheets. Please keep in mind that the date should be MM-YY, so Sep-12 and not Sept-12, or May-12 and not 05-12.
+The most common error we face is the format of the date columns, which happens if the date format is changed and could happen intentionally if moving between Excel and/or Google Sheets. Keep in mind that the date should be MM-YY, so Sep-12 and not Sept-12, or May-12 and not 05-12.
 
 ## Before You Begin {#before-you-begin}
 
@@ -123,4 +123,4 @@ With the ability to change the date range, or filter the channel, or search for 
 
 **Why can't I upload a file?**
 
-We have different permission sets within the [!DNL Marketo Measure] App. In order to upload a file, you need to be an "AccountAdmin." To get around this, please request access from your AccountAdmin or have your AccountAdmin upload the file on your behalf. A list of users and their roles can be found under **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.
+We have different permission sets within the [!DNL Marketo Measure] App. In order to upload a file, you need to be an "AccountAdmin." To get around this, request access from your AccountAdmin or have your AccountAdmin upload the file on your behalf. A list of users and their roles can be found under **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.

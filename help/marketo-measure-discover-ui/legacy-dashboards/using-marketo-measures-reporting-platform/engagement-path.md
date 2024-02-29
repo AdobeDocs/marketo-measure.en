@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586105
-description: Engagement Path - [!DNL Marketo Measure] - Product Documentation
+description: Engagement Path - [!DNL Marketo Measure]
 title: Engagement Path
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 feature: Reporting

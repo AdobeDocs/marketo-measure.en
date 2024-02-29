@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874781
-description: Configuring Doubleclick Campaign Manager View Through Attribution - [!DNL Marketo Measure] - Product Documentation
+description: Configuring Doubleclick Campaign Manager View Through Attribution - [!DNL Marketo Measure]
 title: Configuring Doubleclick Campaign Manager View Through Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
@@ -15,15 +15,15 @@ feature: Attribution
 
 To begin gaining more granular insight from view through tracking with Doubleclick Campaign Manager, our tracking pixel needs to be configured.
 
-Please [click here](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) for more information about the [!DNL Marketo Measure] View Through Attribution functionality.
+[Click here](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) for more information about the [!DNL Marketo Measure] View Through Attribution functionality.
 
 [!DNL Marketo Measure] is considered a piggyback tag because it's a third party call through the DCM ad tag. Piggyback tags do not work with image tags, only iframe or javascript tags. According to DCM Support, this did not change recently and has always been the case. Standard tags were deprecated on Oct 2, 2017 but do not affect the ability of [!DNL Marketo Measure] to track the impressions.
 
-In the event you leverage a Parent and Child hierarchy in DCM, we will need our tag applied to all levels for impression tracking.
+In the event you use a Parent and Child hierarchy in DCM, we will need our tag applied to all levels for impression tracking.
 
 ## How to add the Image Tag {#how-to-add-the-image-tag}
 
-You will add the tag into Doubleclick under the Advertiser setting and you'll want to create an Impression Event Tag.
+You will add the tag into Doubleclick under the Advertiser setting and you will want to create an Impression Event Tag.
 
 1. Add the following code as a 1x1 image pixel.
 

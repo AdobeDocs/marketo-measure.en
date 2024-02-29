@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874775
-description: Machine Learning Model FAQ - [!DNL Marketo Measure] - Product Documentation
+description: Machine Learning Model FAQ - [!DNL Marketo Measure]
 title: Machine Learning Model FAQ
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
@@ -41,7 +41,7 @@ Assigning 10% attribution credit to Middle Touches is a standard setting across 
 
 When should I change my attribution distribution?
 
-Please reach out to your account manager to discuss the implications of changing your attribution percentages, and which stages to include in your custom model. Each [!DNL Salesforce] and sales process is unique, and we want to ensure that your custom model is accurately modeled.
+Reach out to your account manager to discuss the implications of changing your attribution percentages, and which stages to include in your custom model. Each [!DNL Salesforce] and sales process is unique, and we want to ensure that your custom model is accurately modeled.
 
 That being said, we've identified some general trends across our customers:
 
@@ -49,4 +49,4 @@ One trend we've noticed is that it's not always beneficial to include more stage
 
 We've also noticed that there is a high conversion rate from Lead Creation to Marketing Qualified stages, and consequently, the Marketing Qualified stage could receive a lower percentage attribution weighting. Depending on your business and sales cycle, it may be beneficial to remove this stage from the custom model.
 
-Please keep in mind if you'd like to track marketing activities through a specific stage transition but you do not want this stage to receive attribution credit, you can include this stage in your model and assign 0% attribution credit to that stage.
+Keep in mind if you'd like to track marketing activities through a specific stage transition but you do not want this stage to receive attribution credit, you can include this stage in your model and assign 0% attribution credit to that stage.

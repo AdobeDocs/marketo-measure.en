@@ -1,12 +1,12 @@
 ---
-description: Current Release Notes - [!DNL Marketo Measure] - Product Documentation
+description: Current Release Notes - [!DNL Marketo Measure]
 title: Current Release Notes
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 ---
 # Release Notes: 2023 {#release-notes-2023}
 
-Below you'll find all the new and updated features for our 2023 releases.
+Below you will find all the new and updated features for our 2023 releases.
 
 ## Q4 Release {#q4-release}
 
@@ -73,7 +73,7 @@ We are removing IP address data from our long-term storage to ensure data privac
 
 The URL table in the [data warehouse](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} will now include a page title field, in addition to web data tables.
 
-Please note that the page title in the URL table may not always match the page title in other web tables. The URL table will have the most recent page title. If the title has been changed for the URL after the web activity took place, it will not match what's in the URL table.
+Note that the page title in the URL table may not always match the page title in other web tables. The URL table will have the most recent page title. If the title has been changed for the URL after the web activity took place, it will not match what's in the URL table.
 
 **Discover Dashboard Redesign**
 
@@ -173,7 +173,7 @@ The fields which contain the same information on the Touchpoint and Attribution 
 
    * To stay connected to Dynamics, install our latest package version, v6.12. Old versions `(<v6.12)` will no longer be supported. This update optimizes historical record creation to reduce storage usage.
 
-   * The outdated method of OAuth with a RefreshToken will be deprecated. Please refer to [this guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} for updating your credentials to adhere to Microsoft's best practices of using ClientSecret.
+   * The outdated method of OAuth with a RefreshToken will be deprecated. Refer to [this guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} for updating your credentials to adhere to Microsoft's best practices of using ClientSecret.
 
 #### "custom_properties" Field
 

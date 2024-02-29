@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874753
-description: Adding [!DNL Marketo Measure] to Act-On Forms - [!DNL Marketo Measure] - Product Documentation
+description: Adding [!DNL Marketo Measure] to Act-On Forms - [!DNL Marketo Measure]
 title: Adding [!DNL Marketo Measure] to Act-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking

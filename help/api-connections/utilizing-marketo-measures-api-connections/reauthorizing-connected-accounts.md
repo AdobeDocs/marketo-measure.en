@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874690
-description: Reauthorizing Connected Accounts - [!DNL Marketo Measure] - Product Documentation
+description: Reauthorizing Connected Accounts - [!DNL Marketo Measure]
 title: Reauthorizing Connected Accounts
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration

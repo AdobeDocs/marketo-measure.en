@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656741
-description: Settings - [!DNL Marketo Measure] - Product Documentation
+description: Settings - [!DNL Marketo Measure]
 title: Settings
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Resource List"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
@@ -48,7 +48,7 @@ Here are a couple of videos to help you get up to speed:
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minutes)**
 
-This course series is designed as a general introduction to the basic concepts you'll need to know to master [!DNL Marketo Measure]. It provides an introduction to the concept of attribution, what [!DNL Marketo Measure] does as a tool, and the general framework on which [!DNL Marketo Measure] operates.
+This course series is designed as a general introduction to the basic concepts you will need to know to master [!DNL Marketo Measure]. It provides an introduction to the concept of attribution, what [!DNL Marketo Measure] does as a tool, and the general framework on which [!DNL Marketo Measure] operates.
 
 Topics covered:
 
@@ -60,7 +60,7 @@ Topics covered:
 
 **[[!DNL Marketo Measure] Reporting in SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30-45 minutes)**
 
-This course series is designed as an introduction to the [!DNL Marketo Measure] stock reports that have been installed into Salesforce. These reports act as the foundation for most reporting you'll do with [!DNL Marketo Measure] data.
+This course series is designed as an introduction to the [!DNL Marketo Measure] stock reports that have been installed into Salesforce. These reports act as the foundation for most reporting you will do with [!DNL Marketo Measure] data.
 
 Topics covered:
 

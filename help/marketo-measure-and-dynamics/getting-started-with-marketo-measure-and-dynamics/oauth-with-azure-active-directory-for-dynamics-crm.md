@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37357059
-description: OAuth with [!DNL Azure Active Directory] for Dynamics CRM - [!DNL Marketo Measure] - Product Documentation
+description: OAuth with [!DNL Azure Active Directory] for Dynamics CRM - [!DNL Marketo Measure]
 title: OAuth with [!DNL Azure Active Directory] for Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
@@ -112,7 +112,7 @@ Once the application registration is done, then an application user can be creat
   
   c. Application ID URI is the URL of the target web API (secured resource). To find the App ID URL, in the Azure Portal, click [!DNL Azure Active Directory], click Application registrations, open the application's Settings page, then click Properties. It may also be an external resource like `https://graph.microsoft.com`. This is normally the URL of the Dynamics instance.
 
-1. After you click **[!UICONTROL Submit]**, you'll be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be connected as a data provider within [!DNL Marketo Measure].
+1. After you click **[!UICONTROL Submit]**, you will be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be connected as a data provider within [!DNL Marketo Measure].
 
 ## Re-authenticating your Dynamics Account {#re-authenticating-your-dynamics-account}
 
@@ -120,8 +120,8 @@ Once the application registration is done, then an application user can be creat
 
 1. Click on the key icon in the CRM section next to the Dynamics connection.
 
-1. Once the key is clicked, a pop-up will appear and you'll be prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
+1. Once the key is clicked, a pop-up will appear and you will be prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
 
    ![](assets/re-authenticating-3.png)
 
-1. After you click **[!UICONTROL Submit]**, you'll be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be re-authorized within [!DNL Marketo Measure].
+1. After you click **[!UICONTROL Submit]**, you will be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be re-authorized within [!DNL Marketo Measure].

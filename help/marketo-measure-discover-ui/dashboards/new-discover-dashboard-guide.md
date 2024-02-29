@@ -496,7 +496,7 @@ New features can be found in the [Discover Dashboard Basics](/help/marketo-measu
 
 ## Feedback {#feedback}
 
-As we continually strive to enhance your experience, we'd greatly appreciate your feedback on this latest update. Your thoughts will directly influence future refinements, ensuring our platform always aligns with your needs. Please keep an eye out for a feedback form in Marketo Measure.
+As we continually strive to enhance your experience, we'd greatly appreciate your feedback on this latest update. Your thoughts will directly influence future refinements, ensuring our platform always aligns with your needs. Keep an eye out for a feedback form in Marketo Measure.
 
 >[!MORELIKETHIS]
 >

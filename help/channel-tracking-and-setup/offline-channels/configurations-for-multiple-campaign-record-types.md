@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874686
-description: Configurations for Multiple Campaign Record Types - [!DNL Marketo Measure] - Product Documentation
+description: Configurations for Multiple Campaign Record Types - [!DNL Marketo Measure]
 title: Configurations for Multiple Campaign Record Types
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
@@ -9,7 +9,7 @@ feature: Channels
 
 **Missing Picklist Values from the "Enable Buyer Touchpoints" Field**
 
-If your SFDC org uses multiple campaign record types, the picklist values for the "Enable Buyer Touchpoints" must be added for each record type. In order to add the options, follow the steps below.
+If your SFDC org uses multiple campaign record types, the picklist values for the "Enable Buyer Touchpoints" must be added for each record type. To add the options, follow the steps below.
 
 1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Record Types]**.
 

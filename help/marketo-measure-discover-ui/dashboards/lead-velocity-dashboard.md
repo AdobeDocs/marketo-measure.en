@@ -29,7 +29,7 @@ How does the time spent in the 'First touch' stage compare to the 'MQL' stage?
 
 The time series line chart displays the average time, in days, that leads/contacts spend at each sales stage across the specified timeframe.
 
-* Leverage the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a line to reveal detailed information.
 
 Questions the chart answers:

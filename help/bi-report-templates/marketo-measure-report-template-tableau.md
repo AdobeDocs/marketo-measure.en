@@ -1,5 +1,5 @@
 ---
-description: "[!DNL Marketo Measure] Report Template - Tableau - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Report Template - Tableau - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Report Template - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
@@ -12,13 +12,13 @@ You can access the [!DNL Tableau] report template [here](https://github.com/adob
 
 Open the [!DNL Adobe Marketo Measure] Reporting Template Tableau Workbook file.
 
-You will need to update the existing connection data to your specific Snowflake connection information. Click the [!UICONTROL Edit Connection] button and follow the steps outlined in the [[!UICONTROL Data Connection]](#data-connection) section of this documentation.
+You need to update the existing connection data to your specific Snowflake connection information. Click the [!UICONTROL Edit Connection] button and follow the steps outlined in the [[!UICONTROL Data Connection]](#data-connection) section of this documentation.
 
 ![](assets/marketo-measure-report-template-tableau-1.png)
 
 ## Data Connection {#data-connection}
 
-You'll need to set up a data connection to your Snowflake instance. For this you'll need the Server name along with your Username and Password. Details on where to find this information and reset your password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+You need to set up a data connection to your Snowflake instance. For this, you need the Server name along with your Username and Password. Details on where to find this information and reset your password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -41,7 +41,7 @@ Because [!DNL Tableau] applies data source filters to the overall query and not 
     and sn._deleted_date is null
 ```
 
-However, this is incorrect in that if a session was deleted, but the corresponding touchpoint is not deleted, the touchpoint data is removed from the data set. We want the touchpoint data present in the data set, as the touchpoint has not been deleted. Adding custom SQL ensures the filter criteria is applied at the table level, resulting in the following query.
+However, this is incorrect in that if a session was deleted, but the corresponding touchpoint is not deleted, the touchpoint data is removed from the data set. We want the touchpoint data present in the data set, as the touchpoint has not been deleted. Adding custom SQL ensures that the filter criteria is applied at the table level, resulting in the following query.
 
 **Filters Applied via Custom SQL**
 
@@ -56,7 +56,7 @@ However, this is incorrect in that if a session was deleted, but the correspondi
 
 ## Data Transformations {#data-transformations}
 
-A few transformations have been applied to the data in [!DNL Tableau] from its original state in Snowflake. Most of these transformations are applied in the custom SQL queries which generate the tables in the [!DNL Tableau] model. To view the custom SQL used to generate a table, right click on the table name and select "Edit Custom SQL Query". Some of the specific transformations are outlined below.
+A few transformations have been applied to the data in [!DNL Tableau] from its original state in Snowflake. Most of these transformations are applied in the custom SQL queries which generate the tables in the [!DNL Tableau] model. To view the custom SQL used to generate a table, right-click on the table name and select "Edit Custom SQL Query". Some of the specific transformations are outlined below.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 
@@ -64,7 +64,7 @@ A few transformations have been applied to the data in [!DNL Tableau] from its o
 
 ### Removed Columns {#removed-columns}
 
-To simplify the data model and remove redundant and unnecessary data, we've reduced the number of columns imported into Tableau from the original Snowflake table. Columns removed include unnecessary foreign keys, denormalized dimensional data better leveraged via relationships to other tables in the model, audit columns, and fields used for internal [!DNL Marketo Measure] processing. You may add or remove columns as required for your business needs by editing the list of imported columns in the Select section of the custom SQL.
+To simplify the data model and remove redundant and unnecessary data, we've reduced the number of columns imported into Tableau from the original Snowflake table. Columns removed include unnecessary foreign keys, denormalized dimensional data better used via relationships to other tables in the model, audit columns, and fields used for internal [!DNL Marketo Measure] processing. You may add or remove columns as required for your business needs by editing the list of imported columns in the Select section of the custom SQL.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ To simplify the data model and remove redundant and unnecessary data, we've redu
 
 ### Renamed Columns {#renamed-columns}
 
-Tables and columns have been renamed to make them more user friendly and to standardize naming conventions. To view the column name changes, reference the custom SQL statements which create the tables.
+Tables and columns have been renamed to make them more user-friendly and to standardize naming conventions. To view the column name changes, reference the custom SQL statements which create the tables.
 
 ### Rows Added {#rows-added}
 
@@ -114,7 +114,7 @@ Lead Touchpoints and Attribution Touchpoints are combined into one table in this
 
 Opportunity Stage Transitions and Lead Stage Transitions are combined into one table in this model, with a link to the [!UICONTROL Lead and Attribution] Touchpoint table. The "Transition Type" column has been added to designate if a row is an Opportunity or Lead stage transition.
 
-Both Cost and Touchpoint data share Channel and Campaign dimensions. However, Tableau is limited in it's ability to model shared dimensions between facts tables. Since we are limited to only one shared dimension table, Channel and Campaign data has been combined into one table. They are combined using a cross join of the two dimensions into one table in Tableau: Channel and Campaign. The unique id is created by concatenating the channel and campaign ids. This same id value is added to both the Touchpoint and Cost tables to create a relationship to this combined dimension table.
+Both Cost and Touchpoint data share Channel and Campaign dimensions. However, Tableau is limited in its ability to model shared dimensions between facts tables. Since we are limited to only one shared dimension table, Channel and Campaign data have been combined into one table. They are combined using a cross join of the two dimensions into one table in Tableau: Channel and Campaign. The unique id is created by concatenating the channel and campaign ids. This same id value is added to both the Touchpoint and Cost tables to create a relationship to this combined dimension table.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -137,7 +137,7 @@ The rates in the Conversion Rate table represent the value needed to convert an 
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-The currency conversion measures in this model substitute a value of 1.0 for the rate if no conversion rate can be identified. Separate measures have been created to display the currency value for the measure, and alert if a calculation includes more than one currency value (i.e. a value could not be converted to the selected currency). These measures, Cost Currency and Revenue Currency, are included as tooltips in any visual which displays Cost or Revenue data.
+The currency conversion measures in this model substitute a value of 1.0 for the rate if no conversion rate can be identified. Separate measures have been created to display the currency value for the measure, and alert if a calculation includes more than one currency value (that is, a value could not be converted to the selected currency). These measures, Cost Currency and Revenue Currency, are included as tooltips in any visual which displays Cost or Revenue data.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -147,7 +147,7 @@ Definitions have been added to the [!DNL Tableau model] for parameters, custom c
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-To view definitions for columns coming directly from [!DNL Snowflake], please see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+To view definitions for columns coming directly from [!DNL Snowflake], see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Discrepancies Between Templates and Discover {#discrepancies-between-templates-and-discover}
 
@@ -161,7 +161,7 @@ Lead Touchpoints and Attribution Touchpoints inherit dimensional data from the o
 
 ### Cost {#cost}
 
-Cost reporting in the templates is only available at the campaign and channel level, however, Discover offers reporting at lower levels of granularity for some ad providers, (i.e., creative, keyword, ad groups, etc.). For more detail on how the cost data is modeled in the templates, reference the [!UICONTROL Data Model] section of this documentation. If the dimension filter in [!UICONTROL Discover] is set to channel or campaign, costs at the channel, subchannel, and campaign levels should line up between Discover and the report templates.
+Cost reporting in the templates is only available at the campaign and channel level, however, Discover offers reporting at lower levels of granularity for some ad providers, (i.e., creative, keyword, ad groups, etc.). For more detail on how the cost data are modeled in the templates, reference the [!UICONTROL Data Model] section of this documentation. If the dimension filter in [!UICONTROL Discover] is set to channel or campaign, costs at the channel, subchannel, and campaign levels should line up between Discover and the report templates.
 
 ### ROI {#roi}
 
@@ -173,13 +173,13 @@ These metrics, as shown in the reporting templates, are not mirrored in Discover
 
 ### Web Traffic {#web-traffic}
 
-The reporting template data model normalizes channel, subchannel, and campaign dimensional data via the relationship between Session and Touchpoint. This is different from the Discover data model, which denormalizes these dimensions to Session. Because of this distinction, overall counts for visits and visitors should match between Discover and the reporting template, however, once displayed or filtered by dimension, these numbers are not expected to line up. This is because the dimensional data in the template is only available for web events which resulted in a touchpoint (i.e. non- anonymous events). For more details, please reference the [Data Model](#data-model) section of this documentation.
+The reporting template data model normalizes channel, subchannel, and campaign dimensional data via the relationship between Session and Touchpoint. This is different from the Discover data model, which denormalizes these dimensions to Session. Because of this distinction, overall counts for visits and visitors should match between Discover and the reporting template, however, once displayed or filtered by dimension, these numbers are not expected to line up. This is because the dimensional data in the template is only available for web events which resulted in a touchpoint (that is, non- anonymous events). For more details, reference the [Data Model](#data-model) section of this documentation.
 
 There may be small discrepancies in total site form counts between [!DNL Discover] and the template. This is because the data model in the reporting template obtains dimensional data for Site Form via a relationship to Session and then Touchpoint; there are a few instances where site form data does not have a correlated session.
 
 ### Leads and Accounts {#leads-and-accounts}
 
-Dimensional reporting for accounts touched may differ slightly between [!DNL Discover] and the template, this is again due to the dimensional modeling coming from the relationship between Touchpoint and Lead Touchpoint or Attribution Touchpoint. Please reference the details outlined in the Attributed Revenue section for more details.
+Dimensional reporting for accounts touched may differ slightly between [!DNL Discover] and the template, this is again due to the dimensional modeling coming from the relationship between Touchpoint and Lead Touchpoint or Attribution Touchpoint. Reference the details outlined in the Attributed Revenue section for more details.
 
 All lead counts in [!UICONTROL Discover] are attributed lead counts, and in the reporting template the metric is [!UICONTROL leads] touched. Therefore, there is no direct comparison possible between the two reports for this measure.
 

@@ -1,5 +1,5 @@
 ---
-description: Best Practices for Custom Model - [!DNL Marketo Measure] - Product Documentation
+description: Best Practices for Custom Model - [!DNL Marketo Measure]
 title: Best Practices for Custom Model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models

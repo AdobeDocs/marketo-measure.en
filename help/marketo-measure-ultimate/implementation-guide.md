@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure] - Product Documentation'
+description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
 ---
@@ -80,7 +80,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
    >[!CAUTION]
    >
-   >* You could edit a dataflow, but the data isn't backfilled when a mapping is changed.
+   >* You could edit a dataflow, but the data is not backfilled when a mapping is changed.
    >* If a required field is NULL, the entire flow will be rejected.
 
    >[!NOTE]

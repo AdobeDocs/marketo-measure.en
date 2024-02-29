@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586080
-description: LinkedIn Integration - [!DNL Marketo Measure] - Product Documentation
+description: LinkedIn Integration - [!DNL Marketo Measure]
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
@@ -40,7 +40,7 @@ For [!DNL Marketo Measure] to be able to Create/Update Sponsored Creatives, you 
 
 Learn more: [LinkedIn Page Admin Roles](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
-There are other [!DNL LinkedIn] roles which we do **not** require for our integration. These roles are often mistaken for the required roles, so please note there is a difference!
+There are other [!DNL LinkedIn] roles which we do **not** require for our integration. These roles are often mistaken for the required roles, so note there is a difference!
 
 **Page Admin Roles**
 
@@ -141,7 +141,7 @@ Regardless of Campaign or Creative status, all Form Responses will result in a t
 
 **Tracking Lead Gen Forms in CRM or Marketo**
 
-Before the [!DNL Marketo Measure] and LinkedIn Lead Gen Forms Integration existed, it was common practice for customers to push their form submissions to a Marketo Program and/or CRM Campaign to track the forms and receive attribution on those activities. Once the Lead Gen Forms setting is enabled, we want to make sure those form submissions aren't double counted. Please check the following:
+Before the [!DNL Marketo Measure] and LinkedIn Lead Gen Forms Integration existed, it was common practice for customers to push their form submissions to a Marketo Program and/or CRM Campaign to track the forms and receive attribution on those activities. Once the Lead Gen Forms setting is enabled, we want to make sure those form submissions aren't double counted. Check the following:
 
 * "Enable Buyer Touchpoints" field on the CRM object is set to "None" or "Exclude All Campaign Members"
 * Update any related Marketo Program or Marketo Activity rules
@@ -153,7 +153,7 @@ Before the [!DNL Marketo Measure] and LinkedIn Lead Gen Forms Integration existe
 
 ## Touchpoint Details {#touchpoint-details}
 
-Once [!DNL Marketo Measure] has successfully tagged your landing page on the LinkedIn creative, you'll be able to view the resolved ads data on the touchpoint. Here's the mapping of data values that you should expect to see:
+Once [!DNL Marketo Measure] has successfully tagged your landing page on the LinkedIn creative, you will be able to view the resolved ads data on the touchpoint. Here's the mapping of data values that you should expect to see:
 
 <table> 
  <colgroup> 
@@ -316,13 +316,13 @@ Both. The [!DNL Marketo Measure] integration allows us to tag the destination UR
 
 ![](assets/five.png)
 
-**I've connected my [!DNL LinkedIn ads] account. Why isn't [!DNL Marketo Measure] tagging my links?**
+**I've connected my [!DNL LinkedIn ads] account. Why is not [!DNL Marketo Measure] tagging my links?**
 
 The connected [!DNL LinkedIn] user needs to have proper editing access, which means the user needs to be an Account Manager, Campaign Manager, or Creative Manager.
 
 **How do I know if my creative will be copied? Can I see if my creatives are using the same share?**
 
-The share Id isn't provided in a [!DNL LinkedIn] report, so there isn't a clear and obvious way to check for creative-to-share mappings. If you suspect a creative might be a copy, you can manually check by opening the ad from within your [!DNL LinkedIn] Campaign manager--this will open the ad in a new tab and you'll find the share Id in the URL.
+The share Id is not provided in a [!DNL LinkedIn] report, so there is not a clear and obvious way to check for creative-to-share mappings. If you suspect a creative might be a copy, you can manually check by opening the ad from within your [!DNL LinkedIn] Campaign manager--this will open the ad in a new tab and you will find the share Id in the URL.
 
 ![](assets/six.png)
 

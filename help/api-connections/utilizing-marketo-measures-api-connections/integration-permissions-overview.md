@@ -1,5 +1,5 @@
 ---
-description: Integration Permissions Overview - [!DNL Marketo Measure] - Product Documentation
+description: Integration Permissions Overview - [!DNL Marketo Measure]
 title: Integration Permissions Overview
 feature: APIs, Integration
 ---
@@ -92,7 +92,7 @@ We recommend creating a dedicated Marketo Measure User within Dynamics for us to
 <p>
 <b>Security Roles</b>
 <br>
-If your organization uses Dynamics Security Roles, please make sure the connected user, or the dedicated Marketo Measure User has sufficient read/write permissions to the required entities.
+If your organization uses Dynamics Security Roles, make sure the connected user, or the dedicated Marketo Measure User has sufficient read/write permissions to the required entities.
 <br>
 Security Roles are located here: Settings > Security > Security Roles
 <br>
@@ -215,7 +215,7 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
     <td>The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from the Marketo Measure attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Learn more</a>.</td>
     <td>The customer must provide Marketo Measure with an Alias ID and FTP server credentials to a location that data will be uploaded to their Analytics instance.
     <p>
-    Take note of the following information, as you'll need it for some of the later steps in the process:
+    Take note of the following information, as you will need it for some of the later steps in the process:
     <p>
     <li>The Alias ID, which can be any value you want it to be. We recommend "marketomeasure_id"</li>
     <li>The FTP server hostname and credentials (user name and password)</li>

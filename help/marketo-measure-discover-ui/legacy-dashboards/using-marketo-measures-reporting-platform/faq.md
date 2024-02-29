@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874660
-description: FAQ - [!DNL Marketo Measure] - Product Documentation
+description: FAQ - [!DNL Marketo Measure]
 title: FAQ
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
@@ -27,15 +27,15 @@ One of the features of the Growth board is that you can't group the trending cha
 
 **When I change the grouping, the totals don't always equal the same amount. Why is that?**
 
-Values don't exist for every single hierarchy of data because the hierarchy isn't always a clear cut flow. For example, whether the costs are being self reported or imported from an ads provider, the total cost for Channel 1 might be $10,000 but by individual campaign, only a total of $5,500 was actually reported, so when the grouping changes between Channel and Campaign, the totals will vary.
+Values don't exist for every single hierarchy of data because the hierarchy is not always a clear cut flow. For example, whether the costs are being self reported or imported from an ads provider, the total cost for Channel 1 might be $10,000 but by individual campaign, only a total of $5,500 was actually reported, so when the grouping changes between Channel and Campaign, the totals will vary.
 
 **What is "matches a user attribute" in the Filter operators?**
 
-User attributes are applied to users such as business Id, first name, or last name, but because our users are you (our customers), and not your customers, user attributes actually can not be used in the [!DNL Marketo Measure Discover] experience. Please feel free to ignore this option. We are working on a better custom filter experience that will remove filters that don't apply to our customers.
+User attributes are applied to users such as business Id, first name, or last name, but because our users are you (our customers), and not your customers, user attributes actually can not be used in the [!DNL Marketo Measure Discover] experience. We are working on a better custom filter experience that will remove filters that don't apply to our customers.
 
 **How come some default date ranges go through the first of the following month?**
 
-While the date range isn't always intuitive, the default filter UI has the helpful "before" text that corresponds with the end date, so this should help remind you that end date that you use should be 1 day outside of your desired range.
+While the date range is not always intuitive, the default filter UI has the helpful "before" text that corresponds with the end date, so this should help remind you that end date that you use should be 1 day outside of your desired range.
 
 **What Attribution Model is used for Leads and Contacts?**
 
@@ -43,7 +43,7 @@ Buyer Touchpoints that are mapped to Leads and Contacts measure up to the Lead C
 
 **Why are my Visits, Unique Visits, and Forms tiles blank on the Growth board?**
 
-If these tiles happen to be 0 or blank in your view, that means the tiles are not provisioned for your account. Please reach out to your Success Manager if there are any questions around this.
+If these tiles happen to be 0 or blank in your view, that means the tiles are not provisioned for your account. Reach out to your Success Manager if there are any questions around this.
 
 **For Leads over time and Contacts over time, what is the count referencing?**
 
@@ -91,7 +91,7 @@ Discover utilizes third party tools and does not support the GB18030 character s
 
 **When loading Discover, why do I see a 401 error stating "You are not authenticated to view this page"?**
 
-[!DNL Marketo Measure Discover] requires third-party cookies to display properly. To use Discover, please enable third-party cookies in your browser and refresh the page.
+[!DNL Marketo Measure Discover] requires third-party cookies to display properly. To use Discover, enable third-party cookies in your browser and refresh the page.
 
 >[!NOTE]
 >

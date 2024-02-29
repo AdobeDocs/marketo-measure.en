@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874576
-description: "[!DNL Salesforce] Record Storage Sizes - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Salesforce] Record Storage Sizes - [!DNL Marketo Measure]"
 title: "[!DNL Salesforce] Record Storage Sizes"
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce

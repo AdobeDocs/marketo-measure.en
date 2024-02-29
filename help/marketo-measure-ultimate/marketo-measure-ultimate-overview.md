@@ -1,5 +1,5 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure] - Product Documentation'
+description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate Overview'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
@@ -51,7 +51,7 @@ Marketers are expected to bring their B2B data (e.g. Account, Opportunity, Conta
 >
 >A [!DNL Marketo Measure Ultimate] production instance needs to be mapped to an AEP production sandbox, a [!DNL Marketo Measure Ultimate] developers instance needs to be mapped to an AEP developers sandbox.
 
-Once the sandbox mapping selection is saved, you cannot change it in the application at this time. To change it, please reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Once the sandbox mapping selection is saved, you cannot change it in the application at this time. To change it, reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Data for a given entity (e.g., Account) from a given data source can only go into one dataset. Each dataset can only be included in one data flow. Violations will stop the data flow at run time.
 

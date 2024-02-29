@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874789
-description: "[!DNL Marketo Measure] Permission Sets - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Permission Sets - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Permission Sets"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
@@ -11,7 +11,7 @@ Learn how to access and assign [!DNL Marketo Measure] Permission Sets in Salesfo
 
 ## [!DNL Marketo Measure] Permission Sets {#marketo-measure-permission-sets-1}
 
-Three permission sets are included with the [!DNL Marketo Measure] Salesforce package. These permission sets provide access to [!DNL Marketo Measure] for Admins, Marketers and Standard Users.
+Three permission sets are included with the [!DNL Marketo Measure] Salesforce package. These permission sets provide access to [!DNL Marketo Measure] for Admins, Marketers, and Standard Users.
 
 To access and assign Permission Sets in Salesforce:
 
@@ -29,7 +29,7 @@ To access and assign Permission Sets in Salesforce:
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administrator</strong></span></td> 
-   <td><span>Gives an SFDC admin the ability to create, read, write, delete records from [!DNL Marketo Measure] objects. The license under which [!DNL Marketo Measure] pushes data to SFDC should have this permission set enabled. Additionally, it's recommended this license has the ability to edit converted Leads in the scenarios where the Lead is converted prior to [!DNL Marketo Measure] applying data to the record. This will ensure accuracy in reporting between Salesforce and [!DNL Marketo Measure]. <a href="http://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm">Read more here</a>.</span></td> 
+   <td><span>Gives an SFDC admin the ability to create, read, write, delete records from [!DNL Marketo Measure] objects. The license under which [!DNL Marketo Measure] pushes data to SFDC should have this permission set enabled. Also, it's recommended this license has the ability to edit converted Leads in the scenarios where the Lead is converted before [!DNL Marketo Measure] applying data to the record. This ensures accuracy in reporting between Salesforce and [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">Read more here</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Marketing User</strong></span></td> 
@@ -46,4 +46,4 @@ Inbound sales development teams and account executives may benefit from [!DNL Ma
 
 >[!NOTE]
 >
->In addition, the user we are connected through needs to have the "Marketing User" [!DNL Salesforce] Profile enabled at a user level in order for us to access the Campaign object. To check for this, click into **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Assigned Users**.
+>In addition, the user we are connected through must have the "Marketing User" [!DNL Salesforce] Profile enabled at a user level for us to access the Campaign object. To check for this, click into **[!UICONTROL Setup]** > **[!UICONTROL Manage Users]** > **[!UICONTROL Profiles]** > **[!UICONTROL Marketing User]** > **Assigned Users**.

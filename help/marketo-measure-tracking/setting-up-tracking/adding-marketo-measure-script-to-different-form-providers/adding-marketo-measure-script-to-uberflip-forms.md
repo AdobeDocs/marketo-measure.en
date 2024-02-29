@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874749
-description: Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms - [!DNL Marketo Measure] - Product Documentation
+description: Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms - [!DNL Marketo Measure]
 title: Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
@@ -17,7 +17,7 @@ If you are currently using [!DNL Uberflip] to manage your content, it's importan
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   You'll add this preamble to both the [!DNL Hubs.onLoad] and the [!DNL Hubs.onPageChange] AJAX Javascript event hooks per below. (Note: You may have other codes in these event hooks as well. Just make sure you include the preamble too.)
+   you will add this preamble to both the [!DNL Hubs.onLoad] and the [!DNL Hubs.onPageChange] AJAX Javascript event hooks per below. (Note: You may have other codes in these event hooks as well. Just make sure you include the preamble too.)
 
    `Hubs.onLoad = function () {`
 

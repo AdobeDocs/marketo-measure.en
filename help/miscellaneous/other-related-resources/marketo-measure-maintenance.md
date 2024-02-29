@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874556
-description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Maintenance"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
 ---
 # [!DNL Marketo Measure] Maintenance {#marketo-measure-maintenance}
 
-[!DNL Marketo Measure] pulls almost everything it needs from your CRM on a daily basis, but there are a few maintenance tasks you'll want to schedule regularly to keep [!DNL Marketo Measure] humming along and outputting the most accurate information possible.
+[!DNL Marketo Measure] pulls almost everything it needs from your CRM on a daily basis, but there are a few maintenance tasks you will want to schedule regularly to keep [!DNL Marketo Measure] humming along and outputting the most accurate information possible.
 
 **Sync Buyer Touchpoints for new offline campaigns (2x/month)**
 
@@ -25,7 +25,7 @@ Marketo Measure tracks all pages and subdomains where our Javascript is active, 
 
 **Review custom channel mapping for accuracy (1x/month)**
 
-During onboarding, you set up custom channel mapping for your online and offline marketing efforts. As your marketing strategy and use of Marketo Measure evolve, you'll want to keep an eye on that mapping logic to ensure that all your Touchpoints are being categorized appropriately.
+During onboarding, you set up custom channel mapping for your online and offline marketing efforts. As your marketing strategy and use of Marketo Measure evolve, you will want to keep an eye on that mapping logic to ensure that all your Touchpoints are being categorized appropriately.
 
 Remember, [!DNL Marketo Measure] reprocesses your data when you edit mapping logic, so you won't be able to change these rules more than once every 7 days.
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874743
-description: Connecting [!DNL Marketo Measure] to Unbounce Script Manager - [!DNL Marketo Measure] - Product Documentation
+description: Connecting [!DNL Marketo Measure] to Unbounce Script Manager - [!DNL Marketo Measure]
 title: Connecting [!DNL Marketo Measure] to Unbounce Script Manager
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking

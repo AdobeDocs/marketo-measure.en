@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874535
-description: Transitioning to [!DNL Marketo Measure] from Full Circle - [!DNL Marketo Measure] - Product Documentation
+description: Transitioning to [!DNL Marketo Measure] from Full Circle - [!DNL Marketo Measure]
 title: Transitioning to [!DNL Marketo Measure] from Full Circle
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
@@ -18,7 +18,7 @@ Generally speaking, here's how [!DNL Marketo Measure] creates touchpoint records
 * Form fills on your site(s): [!DNL Marketo Measure] Javascript
 * Page views on your site(s): Created by [!DNL Marketo Measure] Javascript only if this page view drove a designated CRM milestone (such as Lead or Opportunity Creation)
 * Offline interactions such as conferences or tradeshows: CRM campaign membership
-* Digital interactions that happen anywhere on the internet that isn't your site (such as a webinar hosted on a third-party site that generates a list upload): CRM campaign membership
+* Digital interactions that happen anywhere on the internet that is not your site (such as a webinar hosted on a third-party site that generates a list upload): CRM campaign membership
 * Interactions with your Sales team: CRM Activity records
 
 If you're comfortable with your CRM campaign management and prefer to keep existing processes in place, that's fine. It doesn't hurt [!DNL Marketo Measure] to continue tracking all interactions in CRM campaigns. You can design logic that only creates touchpoints from a desired subset of campaigns to avoid touchpoint duplication.
@@ -27,7 +27,7 @@ If you're comfortable with your CRM campaign management and prefer to keep exist
 
 With most Full Circle setups, you see every single interaction a person has with your marketing or sales efforts. Page views, repeated page visits, membership in duplicate and triplicate campaigns—Full Circle surfaces all of those. If you view a page 300 times, Full Circle creates 300 duplicate campaigns and gives you a membership in each of them. [!DNL Marketo Measure] does not, and that was a conscious design decision on our part.
 
-[!DNL Marketo Measure] aims to provide you with an attribution story that surfaces meaningful interactions and distributes weight among the most impactful touchpoints appropriately. For example, the [!DNL Marketo Measure] framework won't surface page views (without form fills) as routine touchpoints. A standalone page view isn't likely to have an impact on driving a purchasing journey forward, but we will create a touchpoint if it's the most recent interaction before a designated CRM milestone (such as Lead or Opportunity Creation). We don't want to show you everything. We want to show you the stuff that matters, from an attribution standpoint.
+[!DNL Marketo Measure] aims to provide you with an attribution story that surfaces meaningful interactions and distributes weight among the most impactful touchpoints appropriately. For example, the [!DNL Marketo Measure] framework won't surface page views (without form fills) as routine touchpoints. A standalone page view is not likely to have an impact on driving a purchasing journey forward, but we will create a touchpoint if it's the most recent interaction before a designated CRM milestone (such as Lead or Opportunity Creation). We don't want to show you everything. We want to show you the stuff that matters, from an attribution standpoint.
 
 Work with your [!DNL Marketo Measure] rep to set appropriate expectations around what data will no longer be available to your team.
 

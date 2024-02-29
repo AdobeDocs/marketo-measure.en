@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874539
-description: Creating Custom [!DNL Marketo Measure] Report Types - [!DNL Marketo Measure] - Product Documentation
+description: Creating Custom [!DNL Marketo Measure] Report Types - [!DNL Marketo Measure]
 title: Creating Custom [!DNL Marketo Measure] Report Types
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
@@ -9,7 +9,7 @@ feature: Reporting
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types. There are three different report types we recommend creating: Leads with Buyer Touchpoints (Custom), [!DNL Marketo Measure] Person with Buyer Touchpoints (Custom), Opportunities with Buyer Attribution Touchpoint (Custom).
 
@@ -84,7 +84,7 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
 
 ## Adding Custom Fields to Custom Report Types {#adding-custom-fields-to-custom-report-types}
 
-1. Once the reports are created, you'll be redirected to an overview of the report type. Click **[!UICONTROL Edit Layout]**.
+1. Once the reports are created, you will be redirected to an overview of the report type. Click **[!UICONTROL Edit Layout]**.
 
    ![](assets/10.png)
 

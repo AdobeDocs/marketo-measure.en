@@ -1,5 +1,5 @@
 ---
-description: Adobe Experience Cloud Interface Overview - [!DNL Marketo Measure] - Product Documentation
+description: Adobe Experience Cloud Interface Overview - [!DNL Marketo Measure]
 title: Adobe Experience Cloud Interface Overview
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
@@ -22,7 +22,7 @@ If you're _not_ already logged in to an Adobe Experience Cloud product, log in d
 
 ## New Features {#new-features}
 
-In addition to the updated look and feel, you'll notice the following features:
+In addition to the updated look and feel, notice the following features:
 
 **Domain Management**
 
@@ -38,7 +38,7 @@ Search for support articles, submit tickets, provide feedback, all from within t
 
 **Application Switcher**
 
-Those with with access to multiple Adobe products will be able to easily toggle between them.
+Those with access to multiple Adobe products are able to easily toggle between them.
 
    ![](assets/unified-shell-overview-7.png)
 
@@ -52,7 +52,7 @@ View and interact with product-specific notifications and general Adobe product 
 
 **Adobe Settings**
 
-Click your profile icon to change your language or other Adobe-wide preferences. You can also make [!DNL Marketo Measure]-specific changes by clicking **My Settings**.
+To change your language or other Adobe-wide preferences, click your profile icon t. You can also make [!DNL Marketo Measure]-specific changes by clicking **My Settings**.
 
    ![](assets/unified-shell-overview-10.png)
 
@@ -60,12 +60,12 @@ Click your profile icon to change your language or other Adobe-wide preferences.
 
 **What happens to my bookmarks?**
 
-Bookmarks will be redirected. For example, if you were to navigate to https://apps.marketo-measure.com/Discover/391, you would be redirected to https://experience.adobe.com/marketo-measure/Discover/391 after completing authentication.
+Bookmarks are redirected. For example, if you were to navigate to https://apps.marketo-measure.com/Discover/391, you would be redirected to https://experience.adobe.com/marketo-measure/Discover/391 after completing authentication.
 
 **I can't log in to [!DNL Marketo Measure] through the Experience Cloud Interface. What might the issue be?**
 
-If you can log in to Adobe Experience Cloud, but see the a page like the following, the issue could be on the [!DNL Marketo Measure] side:
+If you can log in to Adobe Experience Cloud, but see a page like the following, the issue could be on the [!DNL Marketo Measure] side:
 
    ![](assets/unified-shell-overview-11.png)
 
-If you receive the above error, please [contact Support](https://nation.marketo.com/t5/support/ct-p/Support) for assistance.
+If you receive the above error, [contact Support](https://nation.marketo.com/t5/support/ct-p/Support) for assistance.

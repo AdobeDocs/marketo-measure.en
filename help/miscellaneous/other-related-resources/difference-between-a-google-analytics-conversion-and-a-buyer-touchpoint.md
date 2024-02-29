@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874648
-description: Difference between a Google Analytics Conversion and a Buyer Touchpoint - [!DNL Marketo Measure] - Product Documentation
+description: Difference between a Google Analytics Conversion and a Buyer Touchpoint - [!DNL Marketo Measure]
 title: Difference between a Google Analytics Conversion and a Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints

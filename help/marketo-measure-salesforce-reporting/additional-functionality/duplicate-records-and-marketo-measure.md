@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874572
-description: Duplicate Records and [!DNL Marketo Measure] - [!DNL Marketo Measure] - Product Documentation
+description: Duplicate Records and [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Duplicate Records and [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
@@ -9,9 +9,9 @@ feature: Tracking
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-[!DNL Marketo Measure] leverages the email address as our unique identifier when matching data to a related Lead or Contact in the CRM. When [!DNL Marketo Measure] finds multiple Leads or Contacts with the same email address, we will surface the same data on all records. The impact of this comes when you are reporting on the Leads or Contacts with [!DNL Marketo Measure] and can incorrectly inflate the amount of unique people who have Buyer Touchpoints.
+[!DNL Marketo Measure] uses the email address as our unique identifier when matching data to a related Lead or Contact in the CRM. When [!DNL Marketo Measure] finds multiple Leads or Contacts with the same email address, we will surface the same data on all records. The impact of this comes when you are reporting on the Leads or Contacts with [!DNL Marketo Measure] and can incorrectly inflate the amount of unique people who have Buyer Touchpoints.
   
 What does this look like in [!DNL Marketo Measure] Reporting?
 

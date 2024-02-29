@@ -20,7 +20,7 @@ Data Warehouse allows you to track as much as you want, report on your attributi
 
 ## Entity Relationship Diagrams {#entity-relationship-diagrams}
 
-The _Data Warehouse Data Model_ ERD shows how data in the data warehouse is intended to flow and be linked together. This diagram does not include all tables available in the data warehouse because some of them represent mapping tables, views of other tables already present, or deprecated tables we don't recommend using any more. Please see the detailed descriptions of tables and columns present in the data warehouse below. Many of these tables contain denormalized fields, however, this diagram is the recommended data model, leveraging data from dimensional tables instead.  
+The _Data Warehouse Data Model_ ERD shows how data in the data warehouse is intended to flow and be linked together. This diagram does not include all tables available in the data warehouse because some of them represent mapping tables, views of other tables already present, or deprecated tables we don't recommend using any more. See the detailed descriptions of tables and columns present in the data warehouse below. Many of these tables contain denormalized fields, however, this diagram is the recommended data model, leveraging data from dimensional tables instead.  
 
 The additional _Ads Dimensional Data Model_ ERD presents a view of how tables for ads specific dimensions can be best linked back to the tables in the main data model. Though ads dimensions are also denormalized in other tables, this represents the recommended model for joining these dimensions.
 
@@ -3626,7 +3626,7 @@ Contacts imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>This feature has been deprecated. Please do not use this column.</p>
+        <p>This feature has been deprecated. Do not use this column.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -5796,7 +5796,7 @@ Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints,
 
 >[!IMPORTANT]
 >
->Marketo Measure will be deprecating this table in mid-2024. If you wish to create it on your side, please run [this SQL query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure will be deprecating this table in mid-2024. If you wish to create it on your side, run [this SQL query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -8239,7 +8239,7 @@ Leads imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>This feature has been deprecated. Please do not use this column.</p>
+        <p>This feature has been deprecated. Do not use this column.</p>
       </td>
       <td>
         <p>N/A</p>
@@ -8779,7 +8779,7 @@ Opportunities imported from the source system.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>This feature has been deprecated. Please do not use this column.</p>
+        <p>This feature has been deprecated. Do not use this column.</p>
       </td>
       <td>
         <p>N/A</p>

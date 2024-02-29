@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874710
-description: Touchpoint Removal and Touchpoint Suppression - [!DNL Marketo Measure] - Product Documentation
+description: Touchpoint Removal and Touchpoint Suppression - [!DNL Marketo Measure]
 title: Touchpoint Removal and Touchpoint Suppression
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
@@ -26,7 +26,7 @@ Once the rules are saved, [!DNL Marketo Measure] will clean up and redistribute 
   
 Start with adding a rule and selecting the Field that will define your criteria.  
   
-Choose from a list of Operators that will relate to the next set of values, which you'll add in the next column.
+Choose from a list of Operators that will relate to the next set of values, which you will add in the next column.
   
 ![](assets/1-1.png)
 

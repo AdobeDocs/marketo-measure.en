@@ -1,5 +1,5 @@
 ---
-description: Best Practices for Online Channels - [!DNL Marketo Measure] - Product Documentation
+description: Best Practices for Online Channels - [!DNL Marketo Measure]
 title: Best Practices for Online Channels
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
@@ -8,17 +8,17 @@ feature: Channels
 
 ## Overview {#overview}
 
-To have accurate [!DNL Marketo Measure] reporting, your marketing channels must be correctly setup. The marketing channel field displays the highest-level group of marketing activities that a touchpoint can belong to (e.g., Paid Search, Direct, Social, etc).
+To have accurate [!DNL Marketo Measure] reporting, your marketing channels must be correctly set up. The marketing channel field displays the highest-level group of marketing activities that a touchpoint can belong to (for example, Paid Search, Direct, Social, and so on).
 
-There are two aspects to setting up your marketing channels: online and offline. This document will be focused on the [!DNL Marketo Measure] best practice recommendations for setting up and maintaining your Online Channels.
+There are two aspects to setting up your marketing channels: online and offline. This document is focused on the [!DNL Marketo Measure] best practice recommendations for setting up and maintaining your Online Channels.
 
-Online Channel rules are the guidelines for how [!DNL Marketo Measure] maps your digital touchpoints, i.e. any touchpoints that are tracked and created via the [!DNL Marketo Measure] JS on your site. If these rules are not comprehensive, or not ordered correctly, touchpoints can be attributed to the incorrect channel, therefore diminishing the accuracy of your reporting. Ensuring that your Online Channel rules are accurate and up to date will guarantee that your digital data is being attributed to the correct channel and subchannels in your [!DNL Marketo Measure] Reporting.
+Online Channel rules are the guidelines for how [!DNL Marketo Measure] maps your digital touchpoints, that is, any touchpoints that are tracked and created via the [!DNL Marketo Measure] JS on your site. If these rules are not comprehensive, or not ordered correctly, touchpoints can be attributed to the incorrect channel, therefore diminishing the accuracy of your reporting. Ensuring that your Online Channel rules are accurate and up to date will guarantee that your digital data is being attributed to the correct channel and subchannels in your [!DNL Marketo Measure] Reporting.
 
 ## Best Practice {#best-practice}
 
 Whether you're setting up your rules for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
 
-Take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. Determine which Channels and Subchannels should be represented in your Online Channels as well as what campaigns, UTM parameters, or referring websites differentiate those channels from one another.
+Take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. Determine which Channels and Subchannels should be represented in your Online Channels and what campaigns, UTM parameters, or referring websites differentiate those channels from one another.
 
 Things to keep in mind:
 
@@ -28,15 +28,15 @@ Things to keep in mind:
    * Multiple rules can be thought of as "casting a wider net" to ensure that each touchpoint is mapped correctly. Often parameters can be incorrectly added or missed completely, therefore having multiple rules to capture a channel/subchannel is a good idea to ensure mapping accuracy.
 * [!DNL Marketo Measure] logic prioritizes touchpoint mapping in descending order starting with the top row of the spreadsheet and making its way down
    * [!DNL Marketo Measure] reads each rule (row), looking for the true and first fit. The touchpoint is then mapped to that channel/subchannel
-   * Do not sort your sheet in alphabetical order as this will interfere with the logic rules.
+   * Do not sort your sheet in alphabetical order as this interferes with the logic rules.
 * Maintain the bracketed rules, do not edit or add to the bracketed rules (example; [AdWords Paid Search] or [Facebook Paid] )
-   * These are out of the box [!DNL Marketo Measure] rules that have built in logic, which are tied the [!DNL Marketo Measure] integrations. Give these rules top priority for that channel/subchannel section to ensure the [!DNL Marketo Measure] integrations are able to work as designed.
+   * These are out of the box [!DNL Marketo Measure] rules that have built-in logic, which are tied the [!DNL Marketo Measure] integrations. Give these rules top priority for that channel/subchannel section to ensure [!DNL Marketo Measure] integrations are able to work as designed.
 * Once the file is uploaded, you cannot change any of the rules for seven days
    * [!DNL Marketo Measure] utilizes this time to process and update the Touchpoints, therefore make sure to double check your rules before uploading.
 
-## Best Practice for Maintenace {#best-practice-for-maintenace}
+## Best Practice for Maintenance {#best-practice-for-maintenace}
 
-Once saved and processed, Online Channel rules continuously work to bucket your digital touchpoints. However certain changes or scenarios cause you want to review your Online Channel setup. [!DNL Marketo Measure] recommends that you review your Online Channel rules once every six months. This will ensure that your [!DNL Marketo Measure] data is aligned with your internal definitions of online channels/subchannels and your usage of UTMs.
+Once saved and processed, Online Channel rules continuously work to bucket your digital touchpoints. However certain changes or scenarios cause you want to review your Online Channel setup. [!DNL Marketo Measure] recommends that you review your Online Channel rules once every six months. This ensures that your [!DNL Marketo Measure] data is aligned with your internal definitions of online channels/subchannels and your usage of UTMs.
 
 Other items that might trigger your team to do Online Channel maintenance include....
 

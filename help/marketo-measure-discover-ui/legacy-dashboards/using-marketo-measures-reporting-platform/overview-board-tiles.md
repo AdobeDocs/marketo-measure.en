@@ -1,6 +1,6 @@
 ---
 unique-page-id: 34406468
-description: Overview Board Tiles - [!DNL Marketo Measure] - Product Documentation
+description: Overview Board Tiles - [!DNL Marketo Measure]
 title: Overview Board Tiles
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
 feature: Reporting

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874598
-description: Offline Custom Channel Setup - [!DNL Marketo Measure] - Product Documentation
+description: Offline Custom Channel Setup - [!DNL Marketo Measure]
 title: Offline Custom Channel Setup
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
@@ -27,7 +27,7 @@ The spreadsheet has three columns:
 
 [!DNL Marketo Measure] offline channel logic is determined by the Campaign object, specifically the [!DNL Salesforce] Campaign Type. Each offline effort must have a [!DNL Salesforce] Campaign Type, such as dinner or tradeshow, because [!DNL Marketo Measure] relies on this field to understand which Channel and SubChannel to map to.
 
-The SFDC campaign types will appear in the Offline Channel's tab, listed under [!DNL Salesforce] Campaign Type. Please note that [!DNL Marketo Measure] is only able to import SFDC Campaign Types for campaigns that have Buyer touchpoints associated to them.
+The SFDC campaign types will appear in the Offline Channel's tab, listed under [!DNL Salesforce] Campaign Type. Note that [!DNL Marketo Measure] is only able to import SFDC Campaign Types for campaigns that have Buyer touchpoints associated to them.
 
 ![](assets/2-2.png)
 
@@ -71,7 +71,7 @@ Once you've edited and updated the spreadsheet with your custom rules, the next 
 
 >[!TIP]
 >
->Want to determine _when_ a [!DNL Salesforce] Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Simply go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "[!UICONTROL Offline Channels]" section. Please note, this process can take anywhere from a few minutes up to 48 hours.
+>Want to determine _when_ a [!DNL Salesforce] Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Simply go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "[!UICONTROL Offline Channels]" section. Note, this process can take anywhere from a few minutes up to 48 hours.
 
 Click **[!UICONTROL Save]** when you're finished and [!DNL Marketo Measure] will upload the changes and reprocess the data.
 
