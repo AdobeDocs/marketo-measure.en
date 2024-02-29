@@ -151,15 +151,15 @@ The fields which contain the same information on the Touchpoint and Attribution 
 
 * Create reports which capture the functionality of any existing report which utilizes the removed fields. As part of this process you will want to change the fields in the report as specified below:
 
-  * Remove Lead/Contact FT/LC fields:
+* Remove Lead/Contact FT/LC fields:
 
 ![](assets/release-notes-2023-2.png)
 
-  * Add Touchpoint fields:
+* Add Touchpoint fields:
 
 ![](assets/release-notes-2023-3.png)
 
-  * The Touchpoint Position filter and any filters that use the FT/LC fields, including the Date Field, should be updated as follows:
+* The Touchpoint Position filter and any filters that use the FT/LC fields, including the Date Field, should be updated as follows:
 
 ![](assets/release-notes-2023-4.png)
 
@@ -171,9 +171,9 @@ The fields which contain the same information on the Touchpoint and Attribution 
 
 #### Dynamics Package related
 
-   * To stay connected to Dynamics, install our latest package version, v6.12. Old versions `(<v6.12)` will no longer be supported. This update optimizes historical record creation to reduce storage usage.
+* To stay connected to Dynamics, install our latest package version, v6.12. Old versions `(<v6.12)` will no longer be supported. This update optimizes historical record creation to reduce storage usage.
 
-   * The outdated method of OAuth with a RefreshToken will be deprecated. Refer to [this guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} for updating your credentials to adhere to Microsoft's best practices of using ClientSecret.
+* The outdated method of OAuth with a RefreshToken will be deprecated. Refer to [this guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} for updating your credentials to adhere to Microsoft's best practices of using ClientSecret.
 
 #### "custom_properties" Field
 
