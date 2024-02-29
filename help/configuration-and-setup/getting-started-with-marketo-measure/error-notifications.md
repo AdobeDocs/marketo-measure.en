@@ -1,11 +1,11 @@
 ---
-description: Error Notifications - [!DNL Marketo Measure] - Product Documentation
+description: Error Notifications - [!DNL Marketo Measure]
 title: Error Notifications
 feature: Fundamentals
 ---
 # Error Notifications {#error-notifications}
 
-Below is a list of errors you may receive via in-app notification or email. If you receive any of these, please follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Below is a list of errors you may receive via in-app notification or email. If you receive any of these, follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -48,7 +48,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Error occurred during AdobeAnalytics Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Error: Upload not allowed. Please confirm the datasource schema before upload. Datasource Id:1234</td>
+      <td>Error occurred during AdobeAnalytics Export: INVALID_ADOBE_ANALYTICS_CONFIGURATION : Error: Upload not allowed. Confirm the datasource schema before upload. Datasource Id:1234</td>
       <td>The Adobe Analytics integration is not configured correctly.</td>
       <td>Refer to the following help articles to ensure correct configuration:
         <ul>
@@ -133,7 +133,7 @@ Below is a list of errors you may receive via in-app notification or email. If y
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Error occurred during Crm Import: UNSUPPORTED_CRM_PACKAGE_VERSION : Please update your crm package</td>
+      <td>Error occurred during Crm Import: UNSUPPORTED_CRM_PACKAGE_VERSION : Update your crm package</td>
       <td>The current package detected is no longer supported.</td>
       <td>Upgrade your package to the most recent version:
         <ul>

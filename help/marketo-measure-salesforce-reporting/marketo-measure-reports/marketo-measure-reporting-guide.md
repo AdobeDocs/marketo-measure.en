@@ -1,5 +1,5 @@
 ---
-description: "[!DNL Marketo Measure] Reporting Guide - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Reporting Guide - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Reporting Guide"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
@@ -8,7 +8,7 @@ feature: Reporting
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Before building a [!DNL Marketo Measure] report, it's most crucial to confirm your [!DNL Marketo Measure] Account Settings have been reviewed and configured to ensure the data within the reports is accurate and reflects the specificities of your business. In addition to this, reporting projects work best when they follow a structured process. Justin Norris, a [!DNL Marketo Measure] power-user, advocate and partner from [Perkuto](https://perkuto.com/) expertly summarized [how to approach reporting in [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
@@ -35,11 +35,11 @@ an offline campaign or activity.
 1. **Buyer Attribution Touchpoints** (BATs) / Opportunity / Account level / Revenue
 
    * Commonly used for 'middle and/or bottom of the funnel' (MOFU and BOFU) metrics and reporting related to _Opportunities_.
-   * BATs represent the relevant touchpoints of all the people connected to the **opportunity** (either via Opportunity Contact Roles or via a shared Account ID, depending on your settings). Unlike BTs which relate only to people, BATs can also be associated with **revenue**. As such, you'll use BATs to answer questions related to opportunities, including how many opportunities were opened or closed, or the pipeline value and revenue won.
+   * BATs represent the relevant touchpoints of all the people connected to the **opportunity** (either via Opportunity Contact Roles or via a shared Account ID, depending on your settings). Unlike BTs which relate only to people, BATs can also be associated with **revenue**. As such, you will use BATs to answer questions related to opportunities, including how many opportunities were opened or closed, or the pipeline value and revenue won.
 
 >[!NOTE]
 >
->BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you'll want to use one or the other depending on what questions you're trying to answer: questions related to 'People' metrics (BT reports), or questions related to 'Opportunity' metrics (BAT reports)
+>BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you will want to use one or the other depending on what questions you're trying to answer: questions related to 'People' metrics (BT reports), or questions related to 'Opportunity' metrics (BAT reports)
 
 Support Article: [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -260,7 +260,7 @@ Events Managers however may be more interested in which specific Events or which
 >   * /contact
 >   * /demo
 
-'Content' based reports provide great value when reporting on any part of the funnel, however they are most commonly used at the top of the funnel to provide additional insight into a Leads initial engagement. Considering "Organic Search" tends to be the strongest channel at driving initial engagement (FT), there isn't as much 'Campaign' level data.
+'Content' based reports provide great value when reporting on any part of the funnel, however they are most commonly used at the top of the funnel to provide additional insight into a Leads initial engagement. Considering "Organic Search" tends to be the strongest channel at driving initial engagement (FT), there is not as much 'Campaign' level data.
 
 'Content' based reports are great for gaining insight into what's driving Leads more specifically within the higher-level Marketing Channel, in this case "Organic Search".
 
@@ -296,7 +296,7 @@ Events Managers however may be more interested in which specific Events or which
  </tbody>
 </table>
 
-**REMINDER**: Basing your reports around 'Touchpoint Date' is the most reflective way of understanding marketing performance during a certain date range. 'Touchpoint Date' structures the report in a way where the attribution isn't only related to the channel, campaign, or content, but also shows when the touchpoint occured. This is the most effective way at understanding what marketing engagement was happening at a certain point in time and also the recommended way of measuring marketing's impact as it compares to marketing spend invested during the same time. It is recommended when doing any marketing spend or ROI analysis (see 5.1).
+**REMINDER**: Basing your reports around 'Touchpoint Date' is the most reflective way of understanding marketing performance during a certain date range. 'Touchpoint Date' structures the report in a way where the attribution is not only related to the channel, campaign, or content, but also shows when the touchpoint occured. This is the most effective way at understanding what marketing engagement was happening at a certain point in time and also the recommended way of measuring marketing's impact as it compares to marketing spend invested during the same time. It is recommended when doing any marketing spend or ROI analysis (see 5.1).
 
 **2. MARKETING QUALIFIED LEADS with BUYER TOUCHPOINTS**
 
@@ -324,7 +324,7 @@ This approach towards measuring marketing's impact on influencing MQLs is essent
   </tr>
   <tr>
    <td>Date Field / Date Type</td> 
-   <td>MQL Date (or equivalent) / Created Date ([!DNL Marketo Measure] Discover)<br> <i>Lead Created Date could also be used in CRM reporting if 'MQL Date' isn't an option in your CRM. It's important to keep in mind what Date Field you're using at it defines the cohorted data set.</i></td> 
+   <td>MQL Date (or equivalent) / Created Date ([!DNL Marketo Measure] Discover)<br> <i>Lead Created Date could also be used in CRM reporting if 'MQL Date' is not an option in your CRM. It's important to keep in mind what Date Field you're using at it defines the cohorted data set.</i></td> 
   </tr>
   <tr>
    <td>Date Range</td> 
@@ -379,7 +379,7 @@ This approach towards measuring marketing's impact on influencing MQLs is focuse
   </tr>
   <tr>
    <td>Optimal Models</td> 
-   <td><i>Because this report is filtered on a single touchpoint, the Lead level attribution models aren't as relevant. Like the 'Lead Engagement Report' (1.4), the number of touchpoint records would be leveraged here to understand which channels are the strongest (each Lead would only have one MQL touchpoint).</i></td> 
+   <td><i>Because this report is filtered on a single touchpoint, the Lead level attribution models aren't as relevant. Like the 'Lead Engagement Report' (1.4), the number of touchpoint records would be used here to understand which channels are the strongest (each Lead would only have one MQL touchpoint).</i></td> 
   </tr>
  </tbody>
 </table>
@@ -392,7 +392,7 @@ This approach towards measuring marketing's impact on influencing MQLs is focuse
 
 There's a third custom [!DNL Marketo Measure] object in Salesforce that can be very useful when reporting on people related metrics: **the [!DNL Marketo Measure] Person (BP)**. The BP solves the age-old problem of how to represent both Leads and Contacts information in the same report. It unites all BTs related to a "person" (a [!DNL Marketo Measure] Person's ID is their email address). Whether they exist as a Lead or a Contact, the BP acts as a bridge object, to help reports span across Lead and Contact, and is very useful in producing more sophisticated reports on people.
 
-The [!DNL Marketo Measure] Person relates to only one of the touchpoint objects, the Buyer Touchpoint (BT). This means that it can't be leveraged for an Opportunity or revenue related metrics. A '[!DNL Marketo Measure] Person and Buyer Touchpoints' report type is great for understanding _total engagement_ as it surfaces all BTs whether the BT relates to a Lead or Contact more specifically. For example - if you have a Salesforce Campaign being used to track an Event, you may have campaign members within the CRM Campaign that exist either as Leads OR Contacts. [!DNL Marketo Measure] will create touchpoints for the campaign members regardless, but without the [!DNL Marketo Measure] Person, standard Salesforce reporting would require two separate reports to understand how many _total_ touchpoints you have from the Event: one that's 'Leads with Buyer Touchpoints' and one that's 'Contacts with Buyer Touchpoints'. A few other [!DNL Marketo Measure] Person based reporting use cases are listed below:
+The [!DNL Marketo Measure] Person relates to only one of the touchpoint objects, the Buyer Touchpoint (BT). This means that it can't be used for an Opportunity or revenue related metrics. A '[!DNL Marketo Measure] Person and Buyer Touchpoints' report type is great for understanding _total engagement_ as it surfaces all BTs whether the BT relates to a Lead or Contact more specifically. For example - if you have a Salesforce Campaign being used to track an Event, you may have campaign members within the CRM Campaign that exist either as Leads OR Contacts. [!DNL Marketo Measure] will create touchpoints for the campaign members regardless, but without the [!DNL Marketo Measure] Person, standard Salesforce reporting would require two separate reports to understand how many _total_ touchpoints you have from the Event: one that's 'Leads with Buyer Touchpoints' and one that's 'Contacts with Buyer Touchpoints'. A few other [!DNL Marketo Measure] Person based reporting use cases are listed below:
 
 **3.1 [!DNL Marketo Measure] Persons who have Downloaded 'ebooks' or 'whitepapers' (total downloads)**
 
@@ -506,7 +506,7 @@ Essentially, the touchpoint data will reflect what's been tracked by [!DNL Marke
 
 **BUYER ATTRIBUTION TOUCHPOINT (BAT)**
 
-Buyer Attribution Touchpoints (BATs) represent the relevant touchpoints of all the Contacts connected to the Opportunity (either via Opportunity Contact Roles or via a shared Account ID, depending on your settings). Unlike BTs (which are mainly connected to people) BATs can be associated with revenue. As such, you'll use BATs to answer questions related to opportunities, primarily open _Opportunities/Pipeline Revenue_ and closed won _Opportunities/Deals/Revenue_. A BAT is created via a Contact's BT records as soon as an Opportunity is created under the same Account as the Contact (the BT is not converted into a BAT. The BT data is simply referenced to create an additional record - the BAT that then relates to the Opportunity).
+Buyer Attribution Touchpoints (BATs) represent the relevant touchpoints of all the Contacts connected to the Opportunity (either via Opportunity Contact Roles or via a shared Account ID, depending on your settings). Unlike BTs (which are mainly connected to people) BATs can be associated with revenue. As such, you will use BATs to answer questions related to opportunities, primarily open _Opportunities/Pipeline Revenue_ and closed won _Opportunities/Deals/Revenue_. A BAT is created via a Contact's BT records as soon as an Opportunity is created under the same Account as the Contact (the BT is not converted into a BAT. The BT data is simply referenced to create an additional record - the BAT that then relates to the Opportunity).
 
 The Buyer Attribution Touchpoint allows us to measure marketing's impact deeper in the funnel. _The depth of the funnel at which you want to measure can be represented by the various multi-touch attribution models_.
 
@@ -578,7 +578,7 @@ Summarizing your Opportunities' Buyer Attribution Touchpoint data by the field '
    <td>
    <li>Opportunity Stage&#42; <i>(optional depending on which specific Opportunities you may want to limit to the report. You may only want to report on BATs that are still associated to only 'Open' Opportunities for example)</i></li>
    <li>Opportunity Type (it's common to filter in on certain Opportunities i.e. 'New Business' as opposed to <i>all</i> Opportunities)</li><br>
-   &#42;A Segment filter for 'Opportunity Type' should be leveraged in [!DNL Marketo Measure] Discover</td> 
+   &#42;A Segment filter for 'Opportunity Type' should be used in [!DNL Marketo Measure] Discover</td> 
   </tr>
   <tr>
    <td>Date Field / Date Type</td> 
@@ -630,7 +630,7 @@ Summarizing your Opportunities' Buyer Attribution Touchpoint data by the field '
    <li>Marketing Channel = Paid Search</li>
    <li>Opportunity Stage&#42; <i>(optional depending on which specific Opportunities you may want to limit to the report. This example is based on Pipeline Revenue which is defined in [!DNL Marketo Measure] by 'Open' Opportunities representing potential revenue/open pipeline)</i></li>
    <li>Opportunity Type (it's common to filter in on certain Opportunities i.e. 'New Business' as opposed to <i>all</i> Opportunities)</li><br>
-   &#42;A Segment filter for 'Opportunity Type' should be leveraged in [!DNL Marketo Measure] Discover</td> 
+   &#42;A Segment filter for 'Opportunity Type' should be used in [!DNL Marketo Measure] Discover</td> 
   </tr>
   <tr>
    <td>Date Field / Date Type</td> 
@@ -718,7 +718,7 @@ The [!DNL Marketo Measure] Discover dashboards are comprised of Buyer Touchpoint
 
 When reporting on ROI in [!DNL Marketo Measure] Discover, it is recommended to use a 'Date Type' = "Touchpoint Date". In order to determine the return of each dollar invested, we need to ensure the revenue is attributed back to the date in which the investment was made. 'Date Type' = "Touchpoint Date" ensures the reports are structured in this way as opposed to when the Opportunity was created (Create Date) or closed (Closed Date). Let's take a closer look:
 
-The filters highlighted below are crucial to an ROI focused report in [!DNL Marketo Measure] (most likely, you'll be setting these filters in the 'Overview', 'CMO', or 'ROI' boards):
+The filters highlighted below are crucial to an ROI focused report in [!DNL Marketo Measure] (most likely, you will be setting these filters in the 'Overview', 'CMO', or 'ROI' boards):
 
 **5.1 | ROI in the 'Overview' Board**
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874554
-description: Touchpoint Generation and Mapping - [!DNL Marketo Measure] - Product Documentation
+description: Touchpoint Generation and Mapping - [!DNL Marketo Measure]
 title: Touchpoint Generation and Mapping
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
@@ -12,7 +12,7 @@ feature: Touchpoints
 * Touchpoint generation, which creates touchpoints that represent a person's interactions with your marketing and sales efforts
 * Touchpoint mapping, which credits touchpoints to the appropriate channel and subchannel
 
-In order for you to get the most out of [!DNL Marketo Measure], you should work with your [!DNL Marketo Measure] rep to customize both processes to suit your organization's needs.
+For you to get the most out of [!DNL Marketo Measure], you should work with your [!DNL Marketo Measure] rep to customize both processes to suit your organization's needs.
 
 Touchpoint Generation Methods
 
@@ -20,12 +20,12 @@ The touchpoint generation process answers the question, "How is [!DNL Marketo Me
 
 >[!IMPORTANT]
 >
->[!DNL Marketo Measure] only generates one Touchpoint per Session. If more than one form has been filled out, only the first form fill will be captured.
+>[!DNL Marketo Measure] only generates one Touchpoint per Session. If more than one form has been filled out, only the first form fill is captured.
 
 | **Type of Interaction** | **Example** | **Touchpoint Generation Method** |
 |---|---|---|
-| Online, on your site(s) | Form fill | [!DNL Marketo Measure] JavaScript |
-| Offline; Online not on your site(s) | Tradeshows; Content syndication partner delivers a list of Lead who engaged with your content | CRM Campaign membership synced to [!DNL Marketo Measure], either by setting the Campaign Sync Type directly in the campaign or by setting rules on the Campaigns page in [!DNL Marketo Measure] |
+| Online, on your sites | Form fill | [!DNL Marketo Measure] JavaScript |
+| Offline; Online not on your sites | Tradeshows; Content syndication partner delivers a list of Leads who engaged with your content | CRM Campaign membership synced to [!DNL Marketo Measure], either by setting the Campaign Sync Type directly in the campaign or by setting rules on the Campaigns page in [!DNL Marketo Measure] |
 | Sales activity | Outbound call by SDR | CRM Activity (Task or Event) record synced to [!DNL Marketo Measure], through logic on the [!UICONTROL Activities] page in [!DNL Marketo Measure] |
 
 Touchpoint Mapping Methods
@@ -34,8 +34,8 @@ The touchpoint mapping process answers the question, "Once this touchpoint's bee
 
 | **Type of Interaction** | **Generation Method** | **Mapping Method** |
 |---|---|---|
-| Online, on your site(s) | [!DNL Marketo Measure] JavaScript | Through the [!DNL Online Channels] page in [!DNL Marketo Measure], by referencing UTM values, landing page, and referring page information |
-| Offline; Online, not on your site(s) | CRM Campaign membership sync | Through the [!UICONTROL Offline Channels] page in [!DNL Marketo Measure], by referencing Campaign Type |
+| Online, on your sites | [!DNL Marketo Measure] JavaScript | Through the [!DNL Online Channels] page in [!DNL Marketo Measure], by referencing UTM values, landing page, and referring page information |
+| Offline; Online, not on your sites | CRM Campaign membership sync | Through the [!UICONTROL Offline Channels] page in [!DNL Marketo Measure], by referencing Campaign Type |
 | Sales activity | CRM Activity sync | Through the [!UICONTROL Online Channels] page in [!DNL Marketo Measure], by referencing the Campaign Name assigned on the [!UICONTROL Activities] page |
 
 >[!MORELIKETHIS]

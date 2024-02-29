@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874793
-description: Using a Custom Revenue Amount Field - [!DNL Marketo Measure] - Product Documentation
+description: Using a Custom Revenue Amount Field - [!DNL Marketo Measure]
 title: Using a Custom Revenue Amount Field
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
@@ -90,14 +90,14 @@ The following steps are for Salesforce Classic users. If you have made the switc
 1. Add a workflow action. Set this picklist to "[!UICONTROL New Field Update]."
    ![](assets/using-a-custom-revenue-amount-field-14.png)
 
-1. Here you'll fill out field information. In the "Name" field, we recommend using this naming: "[!DNL Marketo Measure] Opp Amount." The "Unique Name" will automatically populate based off the "Name" field. In the "Field to Update" picklist select "[!DNL Marketo Measure] Opportunity Amount." After selecting the field, select the "Re-Evaulate Workflow Rules after Field Change" box. In the "Specify New Field Value," select "Use a formula to set the new value." In the empty box, drop the API name of your custom Amount field. Click **[!UICONTROL Save]**.
+1. Here you will fill out field information. In the "Name" field, we recommend using this naming: "[!DNL Marketo Measure] Opp Amount." The "Unique Name" will automatically populate based off the "Name" field. In the "Field to Update" picklist select "[!DNL Marketo Measure] Opportunity Amount." After selecting the field, select the "Re-Evaulate Workflow Rules after Field Change" box. In the "Specify New Field Value," select "Use a formula to set the new value." In the empty box, drop the API name of your custom Amount field. Click **[!UICONTROL Save]**.
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. You'll be brought back to a roll-up page for your workflow, be sure to "Activate" and you'll be good to go. To activate, click **[!UICONTROL Edit]** next to your new workflow and then click **[!UICONTROL Activate]**.
+1. you will be brought back to a roll-up page for your workflow, be sure to "Activate" and you will be good to go. To activate, click **[!UICONTROL Edit]** next to your new workflow and then click **[!UICONTROL Activate]**.
 
    Once you've completed these steps, the opportunities will need to be updated in order to trigger the workflow to have the new value from the [!UICONTROL custom opportunity] field.
 
-   This can be accomplished by running your opportunities through Data Loader within SFDC. Please find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   This can be accomplished by running your opportunities through Data Loader within SFDC. Find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-If there are any questions along the way, please don't hesitate to reach out to the Adobe Account Team (your Account Manager) or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+If there are any questions along the way, do not hesitate to reach out to the Adobe Account Team (your Account Manager) or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

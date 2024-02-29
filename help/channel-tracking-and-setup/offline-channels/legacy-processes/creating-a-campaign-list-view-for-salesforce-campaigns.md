@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874718
-description: Creating a Campaign List View for [!DNL Salesforce Campaigns] - [!DNL Marketo Measure] - Product Documentation
+description: Creating a Campaign List View for [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
 title: Creating a Campaign List View for [!DNL Salesforce] Campaigns
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels

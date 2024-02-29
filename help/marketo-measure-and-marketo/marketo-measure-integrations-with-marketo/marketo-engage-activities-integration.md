@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Activities Integration - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Engage] Activities Integration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Activities Integration"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
@@ -36,7 +36,7 @@ As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integrat
 
    ![](assets/four-1.png)
 
-1. For each Activity Type, you'll need to define one or more rules that determine which records are eligible for touchpoints. For our example, we will add a rule for the "Change Score" activity type so that the system will create a touchpoint when a Marketo Person reaches a score of 90 or greater.
+1. For each Activity Type, you will need to define one or more rules that determine which records are eligible for touchpoints. For our example, we will add a rule for the "Change Score" activity type so that the system will create a touchpoint when a Marketo Person reaches a score of 90 or greater.
 
 1. First, depending on the Activity Type, you may need to set up a [!DNL Marketo Measure] Campaign Name that can be used later on for channel mapping. [!DNL Marketo Measure] Campaign Names can be re-used across multiple rules. This helps have broader names that can be used in a single channel rule. Not all Activity Types contain a Marketo Program, hence the need for a name as this first step.
 
@@ -153,7 +153,7 @@ Custom Activity (xxx)
 
 ## Channel Mapping {#channel-mapping}
 
-For any of the rules from an Activity Type with a Program Id, the Marketo Program Channel is determined from the Program. We use the Program Channel to map to your custom Offline Channels, so you'll need to make sure your channels are configured properly [as instructed here](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+For any of the rules from an Activity Type with a Program Id, the Marketo Program Channel is determined from the Program. We use the Program Channel to map to your custom Offline Channels, so you will need to make sure your channels are configured properly [as instructed here](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
   
 And for any of the rules from an Activity Type without a Program Id, your first step was to create a Campaign Name. Use this Campaign Name to set up your custom Online Channels [laid out here](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
   
@@ -187,7 +187,7 @@ With this cookie mapping enhancement, the FT would go back and get credited to t
 
 **How do I know whether to create a Marketo Programs rule or a Marketo Activities rule?**
 
-The [!DNL Marketo Engage] Programs Integration is a simple way to generate touchpoints based on whether or not a Person is a program member of a program. If you're interested in defining a rule based on the time a Person changes to a particular Program status, the [!DNL Marketo Engage] Activities Integration will be the setup you'll want, specifically the "Change Status in Progression" activity type so that your Touchpoint Date can be mapped to the system generated Activity Date.
+The [!DNL Marketo Engage] Programs Integration is a simple way to generate touchpoints based on whether or not a Person is a program member of a program. If you're interested in defining a rule based on the time a Person changes to a particular Program status, the [!DNL Marketo Engage] Activities Integration will be the setup you will want, specifically the "Change Status in Progression" activity type so that your Touchpoint Date can be mapped to the system generated Activity Date.
 
 **Why is the name of my Touchpoint Type truncated?**
 

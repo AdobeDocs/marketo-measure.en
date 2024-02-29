@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874734
-description: Best Practices for Merging Leads - [!DNL Marketo Measure] - Product Documentation
+description: Best Practices for Merging Leads - [!DNL Marketo Measure]
 title: Best Practices for Merging Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
@@ -17,6 +17,6 @@ If there are multiple records with [!DNL Marketo Measure] data, ensure that the 
   
 From there, you should be free to merge the Leads and [!DNL Marketo Measure] data will be carried across to the new record.  
   
-Should you have any questions, please don't hesitate to reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Should you have any questions, don't hesitate to reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

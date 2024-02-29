@@ -1,5 +1,5 @@
 ---
-description: "[!DNL Marketo Measure] Report Template - Power BI - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Report Template - Power BI - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Report Template - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
@@ -16,19 +16,19 @@ Open the Adobe [!DNL Marketo Measure] Reporting Template Power BI file.
 
 You can find your specific Server, Warehouse, and Schema information in the [!DNL Marketo Measure] UI on the [!DNL Data Warehouse] information page. Instructions for how to locate this page are detailed [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-The QueryFilterStartDate and QueryFilterEndDate parameters are used to limit the amount of data imported. These parameters must be in SQL format as they are used to in the queries sent to [!DNL Snowflake]. For example, if you want to limit data to the past two years, the QueryFilterStartDate would be dateadd (year,-2,current_date()). These parameters are compared against datetime data types, so it's recommended to use dateadd (day,1,current_date()) for the QueryFilterEndDate to return all data to the current time.
+The QueryFilterStartDate and QueryFilterEndDate parameters are used to limit the amount of data imported. These parameters must be in SQL format as they are used to in the queries sent to [!DNL Snowflake]. For example, if you want to limit data to the past two years, the QueryFilterStartDate would be `dateadd` (year,-2,current_date()). These parameters are compared against datetime data types, so it's recommended to use `dateadd` (day,1,current_date()) for the QueryFilterEndDate to return all data to the current time.
 
 ## Data Connection {#data-connection}
 
-The parameters entered when opening the file are used to structure native queries which import tables from the data warehouse. You will still need to set up a data connection to your [!DNL Snowflake] instance. For this you'll need the same Server and Warehouse names along with your Username and Password. Details on where to find your Username and reset your Password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+The parameters entered when opening the file are used to structure native queries which import tables from the data warehouse. You still need to set up a data connection to your [!DNL Snowflake] instance. For this, you need the same Server and Warehouse names along with your Username and Password. Details on where to find your Username and reset your Password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Data Import {#data-import}
 
-In order to improve report performance, and take advantage of transformation capabilities in Power Query, we've elected to set up this template using the import storage method.
+To improve report performance, and take advantage of transformation capabilities in Power Query, set up this template using the import storage method.
 
 ### Query Parameters {#query-parameters}
 
-To limit the data imported into the model, each table is set up using a native query as the source. Native queries require approval to execute, you'll need to click run for each query. This step is only needed the first time the queries are run, or if the parameters change.
+To limit the data imported into the model, each table is set up using a native query as the source. Native queries require approval to execute, you need to click run for each query. This step is only needed the first time that the queries are run, or if the parameters change.
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
@@ -36,7 +36,7 @@ All queries filter out deleted rows and the [!UICONTROL facts] tables are set to
 
 >[!NOTE]
 >
->Because the date filters are applied to the modified date of a row, use caution when reporting on dates that fall outside the restricted date range. For example, the modified date range is limited to the past two years. This can include an event with an event date of three years ago, but which has been modified recently. However, reporting on events from three years ago will return incomplete results since not all rows will have been modified within the two-year time frame.
+>Because the date filters are applied to the modified date of a row, use caution when reporting on dates that fall outside the restricted date range. For example, the modified date range is limited to the past two years. This can include an event with an event date of three years ago, but which has been modified recently. However, reporting on events from three years ago return incomplete results since not all rows have been modified within the two-year time frame.
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
@@ -74,11 +74,11 @@ A few transformations have been applied to the data in Power Query. To view the 
 
 ### Removed Columns {#removed-columns}
 
-To simplify the data model and remove redundant and unnecessary data, we've reduced the number of columns imported into Power BI from the original [!DNL Snowflake] table. Columns removed include unnecessary foreign keys, denormalized dimensional data better leveraged via relationships to other tables in the model, audit columns, and fields used for internal [!DNL Marketo Measure] processing. You may add or remove columns as required for your business needs. Navigate to the "Removed Other Columns" step after the "Source" step in any table, click the gear icon, and update the selected columns in the list provided.
+To simplify the data model and remove redundant and unnecessary data, we've reduced the number of columns imported into Power BI from the original [!DNL Snowflake] table. Columns removed include unnecessary foreign keys, denormalized dimensional data better applied via relationships to other tables in the model, audit columns, and fields used for internal [!DNL Marketo Measure] processing. You may add or remove columns as required for your business needs. Navigate to the "Removed Other Columns" step after the "Source" step in any table, click the gear icon, and update the selected columns in the list provided.
 
 >[!NOTE]
 >
->* Be cautious when adding additional foreign key values. Power BI is often set to auto detect relationships in the model and adding foreign key values may result in undesirable links between tables and/or disabling existing relationships.
+>* Be cautious when adding additional foreign key values. Power BI is often set to auto-detect relationships in the model and adding foreign key values may result in undesirable links between tables and/or disabling existing relationships.
 >
 >* Most tables in the [!DNL Marketo Measure] data warehouse contain denormalized dimensional data. We've worked to normalize and clean up the model in Power BI as much as possible to improve performance and data accuracy. Exercise caution when including any additional denormalized fields in facts tables, this may break dimensional filtering across tables and could also result in inaccurate reporting.
 
@@ -87,7 +87,7 @@ To simplify the data model and remove redundant and unnecessary data, we've redu
 
 ### Renamed Columns {#renamed-columns}
 
-Tables and columns have been renamed to make them more user friendly and to standardize naming conventions. To view the column name changes, navigate to the "Renamed Columns" step after the "Removed Other Columns" step in any table.
+Tables and columns have been renamed to make them more user-friendly and to standardize naming conventions. To view the column name changes, navigate to the "Renamed Columns" step after the "Removed Other Columns" step in any table.
 
 ![](assets/marketo-measure-report-template-power-bi-6.png)
 
@@ -97,10 +97,10 @@ Since segment names are customizable, they have generic column names in the Snow
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
-### Case Sensitive ID Conversion {#case-sensitive-id-conversion}
+### Case-Sensitive ID Conversion {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] data has a couple tables where the primary key (ID) values are case sensitive, namely Touchpoint and Campaign. The data engine that drives the Power BI modeling layer is case insensitive, thus resulting in "duplicate" id values. To preserve the case sensitivity of these key values, we've implemented transformation steps which attach invisible characters to lower case characters, preserving the uniqueness of the ID when evaluated in the data engine layer. More details about the issue and the detailed steps on the method we've employed can be found [here] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. These case sensitive ID values are labeled as "Join IDs" and are used as join keys in the relationship layer. We've hidden the Join IDs from the reporting layer, keeping the original ID values visible for use in reporting, since the invisible characters can interfere with cut
+[!DNL Marketo Measure] data has a couple tables where the primary key (ID) values are case-sensitive, namely Touchpoint, and Campaign. The data engine that drives the Power BI modeling layer is case insensitive, thus resulting in "duplicate" id values. To preserve the case sensitivity of these key values, we've implemented transformation steps which attach invisible characters to lower case characters, preserving the uniqueness of the ID when evaluated in the data engine layer. More details about the issue and the detailed steps on the method we've employed can be found [here] (https://blog.crossjoin.co.uk/2019
+/10/06/power-bi-and-case-sensitivity/){target="_blank"}. These case-sensitive ID values are labeled as "Join IDs" and are used as join keys in the relationship layer. We've hidden the Join IDs from the reporting layer, keeping the original ID values visible for use in reporting, since the invisible characters can interfere with cut
 /paste functions and filtering.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
@@ -113,7 +113,7 @@ To add currency conversion capabilities to the calculations in the model, we've 
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-The Conversion Rate table stored in [!DNL Snowflake] contains a date range for each conversion. Power BI does not allow join criteria on a calculation (i.e., between a range of dates). In order to join on date, we added steps to the Conversion Rate table to expand the rows so there is one row for each date in the conversion date range.
+The Conversion Rate table stored in [!DNL Snowflake] contains a date range for each conversion. Power BI does not allow join criteria on a calculation (that is, between a range of dates). In order to join on date, we added steps to the Conversion Rate table to expand the rows so there is one row for each date in the conversion date range.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -160,7 +160,7 @@ The rates in the Conversion Rate table represent the value needed to convert an 
 
 Because conversion rates are not required to be static, and can change by specified date ranges, all currency conversion calculations must be performed at the row level. Again, because conversion rates pertain to a specific date range, the lookup calculation must be performed within the DAX of the measure, so the relationship can be defined on both the currency code and the date.
 
-The currency conversion measures in this model substitute a value of 1.0 for the rate if no conversion rate can be identified. Separate measures have been created to display the currency value for the measure, and alert if a calculation includes more than one currency value (i.e., a value could not be converted to the selected currency).
+The currency conversion measures in this model substitute a value of 1.0 for the rate if no conversion rate can be identified. Separate measures have been created to display the currency value for the measure, and alert if a calculation includes more than one currency value (that is, a value could not be converted to the selected currency).
 
 ![](assets/marketo-measure-report-template-power-bi-13.png)
 
@@ -174,7 +174,7 @@ Definitions have been added to the Power BI model for tables, custom columns, an
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-To view definitions for columns coming directly from [!DNL Snowflake], please see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
+To view definitions for columns coming directly from [!DNL Snowflake], see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Discrepancies Between Templates and Discover {#discrepancies-between-templates-and-discover}
 
@@ -184,7 +184,7 @@ Lead Touchpoints and Attribution Touchpoints inherit dimensional data from the o
 
 ### Cost {#cost}
 
-Cost reporting in the templates is only available at the campaign and channel level, however, Discover offers reporting at lower levels of granularity for some ad providers, (i.e., creative, keyword, ad groups, etc.). For more detail on how the cost data is modeled in the templates, reference the Data Model section of this documentation. If the dimension filter in [!UICONTROL Discover] is set to channel or campaign, costs at the channel, subchannel, and campaign levels should line up between Discover and the report templates.
+Cost reporting in the templates is only available at the campaign and channel level, however, Discover offers reporting at lower levels of granularity for some ad providers, (that is, creative, keyword, ad groups, and so on). For more detail on how the cost data are modeled in the templates, reference the Data Model section of this documentation. If the dimension filter in [!UICONTROL Discover] is set to channel or campaign, costs at the channel, subchannel, and campaign levels should line up between Discover and the report templates.
 
 ### ROI {#roi}
 
@@ -196,13 +196,13 @@ These metrics, as shown in the reporting templates, are not mirrored in Discover
 
 ### Web Traffic {#web-traffic}
 
-The reporting template data model normalizes channel, subchannel, and campaign dimensional data via the relationship between Session and Touchpoint. This is different from the Discover data model, which denormalizes these dimensions to Session. Because of this distinction, overall counts for visits and visitors should match between Discover and the reporting template, however, once displayed or filtered by dimension, these numbers are not expected to line up. This is because the dimensional data in the template is only available for web events which resulted in a touchpoint (i.e. non- anonymous events). For more details, please reference the [Data Model](#data-model) section of this documentation.
+The reporting template data model normalizes channel, subchannel, and campaign dimensional data via the relationship between Session and Touchpoint. This is different from the Discover data model, which denormalizes these dimensions to Session. Because of this distinction, overall counts for visits and visitors should match between Discover and the reporting template, however, once displayed or filtered by dimension, these numbers are not expected to line up. This is because the dimensional data in the template is only available for web events which resulted in a touchpoint (i.e. non- anonymous events). For more details, reference the [Data Model](#data-model) section of this documentation.
 
 There may be small discrepancies in total site form counts between [!DNL Discover] and the template. This is because the data model in the reporting template obtains dimensional data for Site Form via a relationship to Session and then Touchpoint; there are a few instances where site form data does not have a correlated session.
 
 ### Leads and Accounts {#leads-and-accounts}
 
-Dimensional reporting for accounts touched may differ slightly between Discover and the template, this is again due to the dimensional modeling coming from the relationship between Touchpoint and Lead Touchpoint or Attribution Touchpoint. Please reference the details outlined in the Attributed Revenue section for more details.
+Dimensional reporting for accounts touched may differ slightly between Discover and the template, this is again due to the dimensional modeling coming from the relationship between Touchpoint and Lead Touchpoint or Attribution Touchpoint. Reference the details outlined in the Attributed Revenue section for more details.
 
 All lead counts in Discover are attributed lead counts, and in the reporting template the metric is leads touched. Therefore, there is no direct comparison possible between the two reports for this measure.
 

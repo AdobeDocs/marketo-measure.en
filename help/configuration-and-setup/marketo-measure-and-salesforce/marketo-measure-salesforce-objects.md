@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce Objects - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Salesforce Objects - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Salesforce Objects"
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
@@ -9,7 +9,7 @@ feature: Salesforce
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 When [!DNL Marketo Measure] is installed in [!DNL Salesforce] (SFDC), several custom [!DNL Marketo Measure] Objects are added. This article provides an explanation of several of those custom [!DNL Marketo Measure] Objects. Some Objects that [!DNL Marketo Measure] adds to [!DNL Salesforce] are:
 
@@ -49,7 +49,7 @@ The BAT Object is visible on the [!UICONTROL Opportunity], [!UICONTROL Contact],
 
 ## [!DNL Marketo Measure] Person {#marketo-measure-person}
 
-The [!DNL Marketo Measure] Person Object relates the Lead and Contact objects together. Out of the box, Salesforce does not provide the option to create reports using the Lead and Contact object in the same report. By relating to the Lead and Contact Object, the [!DNL Marketo Measure] Person allows you to report on both Objects within the same report. This is especially helpful when a Lead has been converted into a Contact. On a [!DNL Marketo Measure] Person record you'll see a look-up to the corresponding Lead and/or Contact record, a related list of the Touchpoints tied to the person, and the Person ID (which is always the email address of the Lead/Contact). Since the [!DNL Marketo Measure] Person relates to the Lead & Contact Object, there won't ever be a [!DNL Marketo Measure] Person record that is tied to a Buyer Attribution Touchpoint. Below is an example of a [!DNL Marketo Measure] Person record within Salesforce:
+The [!DNL Marketo Measure] Person Object relates the Lead and Contact objects together. Out of the box, Salesforce does not provide the option to create reports using the Lead and Contact object in the same report. By relating to the Lead and Contact Object, the [!DNL Marketo Measure] Person allows you to report on both Objects within the same report. This is especially helpful when a Lead has been converted into a Contact. On a [!DNL Marketo Measure] Person record you will see a look-up to the corresponding Lead and/or Contact record, a related list of the Touchpoints tied to the person, and the Person ID (which is always the email address of the Lead/Contact). Since the [!DNL Marketo Measure] Person relates to the Lead & Contact Object, there won't ever be a [!DNL Marketo Measure] Person record that is tied to a Buyer Attribution Touchpoint. Below is an example of a [!DNL Marketo Measure] Person record within Salesforce:
 
 ![](assets/4.png)
 
@@ -67,7 +67,7 @@ The [!DNL Marketo Measure] Events Object allows you to track specific events tha
 
 ## [!DNL Marketo Measure] Fields {#marketo-measure-fields}
 
-Data captured by the [!DNL Marketo Measure] Javascript will be pushed into the custom [!DNL Marketo Measure] Fields within our [!DNL Marketo Measure] Objects. Certain fields will only be present on certain objects. For a glossary of all the [!DNL Marketo Measure] fields, please [click here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). For a visualization of which [!DNL Marketo Measure] Object each [!DNL Marketo Measure] Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Data captured by the [!DNL Marketo Measure] JavaScript is pushed into the custom [!DNL Marketo Measure] Fields within the [!DNL Marketo Measure] Objects. Certain fields are present only on certain objects. You can review the [glossary of [[!DNL Marketo Measure] fields]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) and a [visualization of the related [!DNL Marketo Measure] Objects](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] Reports and Dashboards {#marketo-measure-reports-and-dashboards}
 

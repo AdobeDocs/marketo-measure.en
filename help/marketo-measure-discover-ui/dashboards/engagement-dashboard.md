@@ -30,7 +30,7 @@ Questions the dashboard answers:
 
 The time series bar chart displays the number of touchpoints, People Touched, and touchpoints per person for each month, quarter, and year.
 
-* Leverage the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a bar or line to reveal detailed information.
 
 Questions the chart answers:
@@ -44,7 +44,7 @@ Questions the chart answers:
 
 Bar chart displaying touchpoints or People Touched segmented by Channel/Subchannel/Campaign.
 
-* Leverage the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
+* use the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
 * Hover over each bar to view the touchpoints or People Touched.
 
 Questions the chart answers:

@@ -27,7 +27,7 @@ PostLC touchpoints are dynamic. As a Lead or Contact continues to submit PostLC 
 
 ## How to Change PostLC Touchpoint Settings {#how-to-change-postlc-touchpoint-settings}
 
-To adjust the PostLC touchpoint settings for your Leads or Contacts, please follow the instructions below.
+To adjust the PostLC touchpoint settings for your Leads or Contacts, follow the instructions below.
 
 **Leads**
 

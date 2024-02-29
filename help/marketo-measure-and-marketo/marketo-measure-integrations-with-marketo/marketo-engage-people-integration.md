@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] People Integration - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Engage] People Integration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] People Integration"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
@@ -14,7 +14,7 @@ The Marketo people integration allows [!DNL Marketo Measure] to start downloadin
 * Production Marketo instance
 * Production [!DNL Salesforce] or [!DNL Microsoft Dynamics] instance
 * Any paid [!DNL Marketo Measure] subscription
-* SOLR enabled (please reach out to [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) to have this enabled)
+* SOLR enabled (reach out to [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) to have this enabled)
 
 ## How It Works {#how-it-works}
 
@@ -34,7 +34,7 @@ Customers have the option of reporting the full set of Marketo people and CRM pe
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-When reporting on leads (people) in [!DNL Marketo Measure Discover], you'll see the total of your Marketo and CRM leads. In order to report on only Marketo people or only CRM leads, you'll want to create a Segment Category for your source, then create Segment rules for Marketo and CRM using the "Source System" field to define the rule. Once your segments are created, you'll see the Source category available to filter across your [!DNL Marketo Measure Discover] dashboards.
+When reporting on leads (people) in [!DNL Marketo Measure Discover], you will see the total of your Marketo and CRM leads. In order to report on only Marketo people or only CRM leads, you will want to create a Segment Category for your source, then create Segment rules for Marketo and CRM using the "Source System" field to define the rule. Once your segments are created, you will see the Source category available to filter across your [!DNL Marketo Measure Discover] dashboards.
 
 ![](assets/bizible-discover-1.png)
 

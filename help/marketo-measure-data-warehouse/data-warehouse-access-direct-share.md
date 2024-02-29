@@ -57,4 +57,4 @@ GRANT IMPORTED PRIVILEGES ON DATABASE <database_name> TO ROLE <role_name>
 GRANT IMPORTED PRIVILEGES ON ALL SCHEMAS IN DATABASE <database_name> TO ROLE <role_name>
 ```
 
-For more detailed instructions and steps to accomplish these steps from the Snowflake UI, please reference [Snowflake's documentation directly](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.
+For more detailed instructions and steps to accomplish these steps from the Snowflake UI, reference [Snowflake's documentation directly](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"}.

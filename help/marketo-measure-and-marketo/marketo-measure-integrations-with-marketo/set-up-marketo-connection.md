@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762762
-description: Set Up Marketo Connection - [!DNL Marketo Measure] - Product Documentation
+description: Set Up Marketo Connection - [!DNL Marketo Measure]
 title: Set Up Marketo Connection
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
@@ -29,7 +29,7 @@ Here's how to set up your connection to Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. In a new tab, log in to your Marketo Engage account. Go to **Admin** > **Web Services**. Scroll down to REST API. Highlight and save the Endpoint and Identity Service URL. You'll need them in a bit.
+1. In a new tab, log in to your Marketo Engage account. Go to **Admin** > **Web Services**. Scroll down to REST API. Highlight and save the Endpoint and Identity Service URL. you will need them in a bit.
 
    ![](assets/set-up-marketo-connection-5.png)
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874600
-description: Syncing Offline Campaigns - [!DNL Marketo Measure] - Product Documentation
+description: Syncing Offline Campaigns - [!DNL Marketo Measure]
 title: Syncing Offline Campaigns
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
 ---
 # Syncing Offline Campaigns {#syncing-offline-campaigns}
 
-It can be difficult to accurately track offline campaigns and understand how they compare to your digital marketing efforts. [!DNL Marketo Measure] enables you to track and attribute Touchpoints to your offline campaigns in [!DNL Salesforce], even in situations when a [!DNL Salesforce] campaign isn't created until a few weeks after the event.
+It can be difficult to accurately track offline campaigns and understand how they compare to your digital marketing efforts. [!DNL Marketo Measure] enables you to track and attribute Touchpoints to your offline campaigns in [!DNL Salesforce], even in situations when a [!DNL Salesforce] campaign is not created until a few weeks after the event.
 
 >[!NOTE]
 >

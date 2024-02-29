@@ -30,7 +30,7 @@ The Revenue Overview dashboard provides insights into the total revenue derived 
 
 This side-by-side time series bar chart contrasts Total Revenue with Attributed Revenue, clearly visualizing your marketing impact on overall revenue.
 
-* Leverage the drill-down and up functionalities to categorize the data by Quarter and Year.
+* use the drill-down and up functionalities to categorize the data by Quarter and Year.
 * Hover over a section of the bar chart to reveal its detailed information.
 
 **Questions the chart answers:**

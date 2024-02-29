@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874588
-description: Custom Campaign Sync - [!DNL Marketo Measure] - Product Documentation
+description: Custom Campaign Sync - [!DNL Marketo Measure]
 title: Custom Campaign Sync
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
@@ -69,7 +69,7 @@ You can easily check the Buyer Touchpoints and Buyer Attribution Touchpoint reco
 
    ![](assets/8-1.png)
 
-1. After you click [!UICONTROL Test], you'll see the name of the Campaign and the number of Campaign Members that are eligible for touchpoints. A table will appear below that shows all of the rules that match to your Campaign Id. Only the matches will appear.
+1. After you click [!UICONTROL Test], you will see the name of the Campaign and the number of Campaign Members that are eligible for touchpoints. A table will appear below that shows all of the rules that match to your Campaign Id. Only the matches will appear.
 
    ![](assets/9.png)
 

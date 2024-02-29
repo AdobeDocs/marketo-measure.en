@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874564
-description: Definition of [!DNL Marketo Measure] Web Sessions - [!DNL Marketo Measure] - Product Documentation
+description: Definition of [!DNL Marketo Measure] Web Sessions - [!DNL Marketo Measure]
 title: Definition of [!DNL Marketo Measure] Web Sessions
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
@@ -60,4 +60,4 @@ _However_, if Haley's first web session originated from Web Direct, and then she
 
 ## Google Analytics Sessions {#google-analytics-sessions}
 
-There are some similarities to how [!DNL Marketo Measure] and Google Analytics defines sessions. For more information on how Google Analytics defines sessions, please visit: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+There are some similarities to how [!DNL Marketo Measure] and Google Analytics defines sessions. For more information on how Google Analytics defines sessions, visit: [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

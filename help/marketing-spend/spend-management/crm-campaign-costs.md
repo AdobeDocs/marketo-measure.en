@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874688
-description: CRM Campaign Costs - [!DNL Marketo Measure] - Product Documentation
+description: CRM Campaign Costs - [!DNL Marketo Measure]
 title: CRM Campaign Costs
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
@@ -53,7 +53,7 @@ This could be helpful for tracking spend on excess Marketing costs or tools to r
 
 ## Marketo Program Sync {#marketo-program-sync}
 
-If you bring in Marketo Programs into the CRM as Campaigns, you'll want to ensure you have the Start Date, End Date, and Period Cost mapping set up to the required CRM fields. Since there is no mapping to the Enable Buyer Touchpoints field, you will still need to enable these campaigns so that we know to pull the costs for them.
+If you bring in Marketo Programs into the CRM as Campaigns, you will want to ensure you have the Start Date, End Date, and Period Cost mapping set up to the required CRM fields. Since there is no mapping to the Enable Buyer Touchpoints field, you will still need to enable these campaigns so that we know to pull the costs for them.
 
 ## Editing the Costs {#editing-the-costs}
 
@@ -69,7 +69,7 @@ Any changes to the cost or distribution must be done in the CRM so that we can p
 
 **I have the start date, end date, and cost filled out but why are my costs are still not showing up in [!DNL Marketo Measure]?**
 
-Please check that you either have the Enable Buyer Touchpoint value set to "Include All Campaign Members" or at least "Include 'Responded' Campaign Members, or that you have created a custom Campaign Sync rule that includes this Campaign. If you've confirmed this and still do not see the Campaign, please reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} so we can check that your Campaigns are importing properly.
+Check that you either have the Enable Buyer Touchpoint value set to "Include All Campaign Members" or at least "Include 'Responded' Campaign Members, or that you have created a custom Campaign Sync rule that includes this Campaign. If you've confirmed this and still do not see the Campaign, reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} so we can check that your Campaigns are importing properly.
 
 **I need to change the distribution of my Campaign so that I can weight it heavier in certain months. How do I do that?**
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762600
-description: Snapshot Dashboard Documentation - [!DNL Marketo Measure] - Product Documentation
+description: Snapshot Dashboard Documentation - [!DNL Marketo Measure]
 title: Snapshot Dashboard Documentation
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
 feature: Reporting

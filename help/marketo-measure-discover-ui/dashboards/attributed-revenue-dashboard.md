@@ -28,7 +28,7 @@ The Attributed Revenue Dashboard offers a focused perspective on the revenue dir
 
 Stacked bar chart displaying Total Attributed Revenue, segmented by Channel, for each Month/Quarter/Year.
 
-* Leverage the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a bar segment or the space between bars to reveal detailed information.
 
 **Questions the chart answers:**

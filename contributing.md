@@ -7,7 +7,7 @@ The following are a set of guidelines to follow when contributing to this projec
 ## Code Of Conduct
 
 This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
+you are expected to uphold this code. Report unacceptable behavior to
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Have A Question?
@@ -31,7 +31,7 @@ by project committers. Read [GitHub's pull request documentation](https://help.g
 for more information on sending pull requests.
 
 <!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+Lastly, follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874612
-description: Stock Reports and Dashboards in Dynamics - [!DNL Marketo Measure] - Product Documentation
+description: Stock Reports and Dashboards in Dynamics - [!DNL Marketo Measure]
 title: Stock Reports and Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
@@ -9,7 +9,7 @@ feature: Microsoft Dynamics
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 The [!DNL Marketo Measure] Managed Solution comes with a number of stock Dashboards and Reports, designed to cover your basic needs when viewing [!DNL Marketo Measure] data in Dynamics. Below is the full list and some common use cases.
 

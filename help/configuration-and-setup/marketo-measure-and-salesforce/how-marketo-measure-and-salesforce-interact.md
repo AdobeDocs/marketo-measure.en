@@ -9,15 +9,15 @@ feature: Salesforce
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Let's take a high-level look at the relationship between [!DNL Marketo Measure] and Salesforce.
 
 ## Salesforce and [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
-Once the [!DNL Marketo Measure] account is created and [!DNL Salesforce] is connected, [!DNL Marketo Measure] will begin pushing marketing data into the CRM instance as long as the [!DNL Marketo Measure] managed package is installed and the [!DNL Marketo Measure] Salesforce user has edit permissions.
+Once the [!DNL Marketo Measure] account is created and [!DNL Salesforce] is connected, [!DNL Marketo Measure] begins pushing marketing data into the CRM instance as long as the [!DNL Marketo Measure] managed package is installed and the [!DNL Marketo Measure] Salesforce user has edit permissions.
 
-If you didn't install the [!DNL Marketo Measure] Salesforce package, [!DNL Marketo Measure] will not write any data to your Salesforce instance.
+If you did not install the [!DNL Marketo Measure] Salesforce package, [!DNL Marketo Measure] will not write any data to your Salesforce instance.
 
 ![](assets/1-3.png)
 
@@ -25,11 +25,11 @@ By default, [!DNL Marketo Measure] exports 200 records per API credit each time 
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-When modifying this setting, please keep in mind that smaller batch sizes will consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
+When modifying this setting, keep in mind that smaller batch sizes consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
 
 ## Salesforce Standard Objects and Access {#salesforce-standard-objects-and-access}
 
-This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] interacts with, as well as the custom fields that we add to these objects once the connection is established and the [!DNL Marketo Measure] package is installed. Out of the box, [!DNL Marketo Measure] will NOT write into any standard [!DNL Salesforce] Object fields.
+This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] interacts with, and the custom fields that we add to these objects once the connection is established and the [!DNL Marketo Measure] package is installed. Out of the box, [!DNL Marketo Measure] will NOT write into any standard [!DNL Salesforce] Object fields.
 
 **Lead**
 
@@ -800,7 +800,7 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
 
 ## [!DNL Marketo Measure] Custom Objects in [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
-Apart from creating custom fields on SFDC's Standard Objects, once the [!DNL Marketo Measure] package is installed, it will create a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that [!DNL Marketo Measure] will write to.
+Apart from creating custom fields on SFDC's Standard Objects, once the [!DNL Marketo Measure] package is installed, it creates a couple of Custom Objects. Below is a list of these Custom Objects along with a table denoting the fields that [!DNL Marketo Measure] will write to.
 
 **Buyer Touchpoint**
 

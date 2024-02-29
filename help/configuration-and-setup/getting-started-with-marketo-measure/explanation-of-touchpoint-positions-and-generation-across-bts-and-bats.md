@@ -1,5 +1,5 @@
 ---
-description: Explanation of Touchpoint Positions and Generation Across BTs and BATs - [!DNL Marketo Measure] - Product Documentation
+description: Explanation of Touchpoint Positions and Generation Across BTs and BATs - [!DNL Marketo Measure]
 title: Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints

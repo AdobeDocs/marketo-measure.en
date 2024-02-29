@@ -1,5 +1,5 @@
 ---
-description: Best Practices for Implementing [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - Product Documentation
+description: Best Practices for Implementing [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
 title: Best Practices for Implementing [!DNL Marketo Measure] JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
@@ -24,7 +24,7 @@ Inconsistencies in the deployment of the [!DNL Marketo Measure] JavaScript will 
 When it comes to implementing and managing your [!DNL Marketo Measure] JavaScript, keep the following best practices in mind.
 
 * Confirm all your domains are listed in your [!DNL Marketo Measure] account
-   * If you have concerns regarding your domains please contact Support
+   * If you have concerns regarding your domains contact Support
 * Deploy JavaScript across ALL pages.
    * Placing JavaScript on only certain pages will cause breaks in your session data which will cause incorrect [!DNL Marketo Measure] data
 * For a form on your site that you do not want to create touchpoints from, make sure to add the [!DNL Marketo Measure] Exclude Script

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37355835
-description: Touchpoint Fields - [!DNL Marketo Measure] - Product Documentation
+description: Touchpoint Fields - [!DNL Marketo Measure]
 title: Touchpoint Fields
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
@@ -152,7 +152,7 @@ Now that we've learned how to extract and map to fields, let's combine those act
 * Create a Calculated Field and label it "Region_Name"
 * Define the rule by starting out with searching for your extracted field. In this case, [!DNL Touchpoint.Region]
 * Use the operator "[!UICONTROL maps to]" since we want to create a mapping for each number to its value
-* You'll be presented with a table to list each mapping. In the end, it will look something like this:
+* You are presented with a table to list each mapping. In the end, it will look something like this:
 * Based off the mapping and the URL above, the "Region_Value" for a touchpoint with this landing page would be "EMEA"
 * Repeat the extraction and the mapping for the remaining 4 sets of digits
 
@@ -207,7 +207,7 @@ Don't forget to save your rules after you create it. If you don't see your new f
 
 **What expression do I use to extract multiple parameters from a single landing page?**
 
-Like in the Extract Example #4, you'll need to create multiple fields to extract each of the parameters. So if you have five different values, you will create five Touchpoint Fields to extract each of them.
+Like in the Extract Example #4, you need to create multiple fields to extract each of the parameters. So if you have five different values, you will create five Touchpoint Fields to extract each of them.
 
 **Why don't I see my new fields in the [!DNL Marketo Measure] schema?**
 

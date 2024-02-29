@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
@@ -9,7 +9,7 @@ feature: Salesforce
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Learn about the various [!DNL Marketo Measure] fields that are added to [!DNL Salesforce] standard objects.
 
@@ -61,11 +61,11 @@ Update [!DNL Marketo Measure] Attribution (Validation Rule): This rule is deprec
 
 There are 5 fields and 1 Apex Trigger added with the package.
 
-Touchpoint Status (Lead): This is a diagnostic field related to a feature that isn't turned on out of the box. We use this to understand whether a Touchpoint was created against the related Lead record or if not, why.
+Touchpoint Status (Lead): This is a diagnostic field related to a feature that is not turned on out of the box. We use this to understand whether a Touchpoint was created against the related Lead record or if not, why.
 
-Touchpoint Status (Contact): This is a diagnostic field related to a feature that isn't turned on out of the box. We use this to understand whether a Touchpoint was created against the related Contact record or if not, why.
+Touchpoint Status (Contact): This is a diagnostic field related to a feature that is not turned on out of the box. We use this to understand whether a Touchpoint was created against the related Contact record or if not, why.
 
-Touchpoint Status (Opportunity): This is a diagnostic field related to a feature that isn't turned on out of the box. We use this to understand whether a Touchpoint was created against the related Opportunity record or if not, why.
+Touchpoint Status (Opportunity): This is a diagnostic field related to a feature that is not turned on out of the box. We use this to understand whether a Touchpoint was created against the related Opportunity record or if not, why.
 
 Touchpoint Status Date: This is the date the diagnostic fields were populated.
 
@@ -131,7 +131,7 @@ This is used for our Lead to Account mapping for our ABM feature. We populate th
 
 ## Opportunity {#opportunity}
 
-[!DNL Marketo Measure] Opportunity Amount: This field is used in the scenario where a custom amount field is leveraged on the Opportunity. We map that custom field value to [!DNL Marketo Measure] Opportunity Amount using a workflow and then read this field for our Revenue attribution fields on the Buyer Attribution Touchpoint object.
+[!DNL Marketo Measure] Opportunity Amount: This field is used in the scenario where a custom amount field is used on the Opportunity. We map that custom field value to [!DNL Marketo Measure] Opportunity Amount using a workflow and then read this field for our Revenue attribution fields on the Buyer Attribution Touchpoint object.
 
 ## Activity {#activity}
 

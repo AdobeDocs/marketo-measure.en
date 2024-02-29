@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874606
-description: UTM Parameters - [!DNL Marketo Measure] - Product Documentation
+description: UTM Parameters - [!DNL Marketo Measure]
 title: UTM Parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
@@ -9,7 +9,7 @@ feature: UTM Parameters
 
 Tagging URLs is a simple and effective way to capture data about your digital marketing efforts. It is the process of adding parameters to the end of URLs that gather and record data. The most commonly used parameters are Urchin Tracking Modules (UTMs), which are supported by Google. There are five main UTMs parameters available: Medium, Source, Campaign, Content, and Term. These are discussed in more detail in the next section.
 
-UTM parameters can be added manually to URLs or appended through auto-tagging with certain platforms, such as AdWords for example. Auto-tagging automates the process of appending parameters to URLs. There is also the option of [URL builders](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} to speed up tagging URLs manually. With a URL builder, you simply need to specify the values to be used for each parameters and the builder will format the URL for you.
+UTM parameters can be added manually to URLs or appended through auto-tagging with certain platforms, such as AdWords . Auto-tagging automates the process of appending parameters to URLs. There is also the option of [URL builders](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} to speed up tagging URLs manually. With a URL builder, you simply specify the values to be used for each parameter and the builder formats the URL for you.
 
 ## What are UTM Parameters? {#what-are-utm-parameters}
 
@@ -21,13 +21,13 @@ Now, let's check out a URL with UTMs:
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-As you can see, the second link contains much more text. UTM parameters always go after the top-level domain (.com in this example) and begin with a question mark. After this, the order of the parameters don't matter, but following a consistent naming convention is advised. Ampersands need to be placed between each parameter to separate each UTM. Now we can go into more detail about what each parameter represents.
+The second link contains more text. UTM parameters always go after the top-level domain (.com in this example) and begin with a question mark. After this, the order of the parameters do not matter, but following a consistent naming convention is advised. Ampersands must be placed between each parameter to separate each UTM. Now we can go into more detail about what each parameter represents.
 
 Learn about [best practices for setting up UTM parameters](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
 **utm_medium**
 
-* Medium identifies the vehicles you are using to market your company.
+* Medium identifies the vehicles that you are using to market your company.
 * It answers the question: "How are they getting to you?"
 * It denotes the highest level channel.
 * Social media, email, organic search, and paid search are all examples of potential Medium values.
@@ -42,7 +42,7 @@ Learn about [best practices for setting up UTM parameters](/help/channel-trackin
    * In this example, [!DNL Facebook] is the Source Value. Other examples are Twitter and Instagram. If the UTM Medium is [!DNL Paid Search], on the other hand, the UTM Source could be AdWords or BingAds.
 
 * This parameter maps to the [!DNL Marketo Measure] 'Touchpoint Source' field in SFDC.
-* _[!DNL Marketo Measure] Best Practice:_ This parameter tracks the source of your traffic, so it is not suitable to use it to indicate the ad type, E.g. retargeting, sponsored, etc. It is best used to track the higher level subchannel. Remember, you are answering the question "where is my traffic coming from?" You are looking for the referrer. In this example, UTM Source is the place where your ad is located (not the actual webpage, as that is automatically tracked outside of tags). If you are tracking a drip-email campaign, then drip email is the source.
+* _[!DNL Marketo Measure] Best Practice:_ This parameter tracks the source of your traffic, so it is not suitable to use it to indicate the ad type, for example, retargeting, sponsored, and so on. It is best used to track the higher-level subchannel. Remember, you are answering the question "where is my traffic coming from?" You are looking for the referrer. In this example, UTM Source is the place where your ad is located (not the actual webpage, as that is automatically tracked outside of tags). If you are tracking a drip-email campaign, then drip email is the source.
 
 **utm_campaign**
 
@@ -56,7 +56,7 @@ Learn about [best practices for setting up UTM parameters](/help/channel-trackin
 
 * Use the UTM Content parameter when you want to track more than one marketing piece existing on a single web page. For example, if you have a "Request a Demo" button and a "Sign Up for Our Weekly Newsletter" button, and wanted to know which one is generating the most traffic, you would name each one and use a UTM Content tag to track them. The name of each piece of "content" is the tag's value.
 * This parameter maps to the [!DNL Marketo Measure] 'Ad Content' field in SFDC.
-* _[!DNL Marketo Measure] Best Practice_: This is an optional value but [!DNL Marketo Measure] recommends using it. This tag is associated with the title of the ad or marketing piece you want to track. If you use an image ad, be sure to write the dimensions of the image in its title.
+* _[!DNL Marketo Measure] Best Practice_: This is an optional value but [!DNL Marketo Measure] recommends using it. This tag is associated with the title of the ad or marketing piece that you want to track. If you use an image ad, be sure to write the dimensions of the image in its title.
 
 **utm_term**
 

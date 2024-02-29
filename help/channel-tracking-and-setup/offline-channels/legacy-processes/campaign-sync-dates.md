@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874684
-description: Campaign Sync Dates - [!DNL Marketo Measure] - Product Documentation
+description: Campaign Sync Dates - [!DNL Marketo Measure]
 title: Campaign Sync Dates
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
@@ -30,7 +30,7 @@ Similarly, if you were to add a Touchpoint Start Date on a Campaign (let's say J
 
 **Back-filling Touchpoints**
 
-There may be times when a marketing team may miss adding utm parameters to a particular marketing effort. Campaign Sync Dates will allow you to (if you use SFDC campaigns for online efforts) back-fill some missed data. Let's say that you're running an e-mail campaign that started May 1st, but your team didn't add utm parameters on that e-mail campaign until May 15th. If you're tracking e-mail conversions via a SFDC Campaign, you'll be able to set a Touchpoint End Date of May 15th on that Campaign and enable Touchpoints for 'Responded' members of the Campaign. This action will tell [!DNL Marketo Measure] to create Touchpoints for all of those responses up to May 15th.
+There may be times when a marketing team may miss adding utm parameters to a particular marketing effort. Campaign Sync Dates will allow you to (if you use SFDC campaigns for online efforts) back-fill some missed data. Let's say that you're running an e-mail campaign that started May 1st, but your team didn't add utm parameters on that e-mail campaign until May 15th. If you're tracking e-mail conversions via a SFDC Campaign, you will be able to set a Touchpoint End Date of May 15th on that Campaign and enable Touchpoints for 'Responded' members of the Campaign. This action will tell [!DNL Marketo Measure] to create Touchpoints for all of those responses up to May 15th.
 
 **Retroactive Campaign Membership Touchpoints**
 

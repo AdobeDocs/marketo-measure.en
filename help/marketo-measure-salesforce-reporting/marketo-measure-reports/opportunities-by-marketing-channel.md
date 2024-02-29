@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874628
-description: Opportunities by Marketing Channel - [!DNL Marketo Measure] - Product Documentation
+description: Opportunities by Marketing Channel - [!DNL Marketo Measure]
 title: Opportunities by Marketing Channel
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting

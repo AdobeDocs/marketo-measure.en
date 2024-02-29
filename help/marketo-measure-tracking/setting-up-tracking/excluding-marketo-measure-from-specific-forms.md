@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874783
-description: Excluding [!DNL Marketo Measure] from Specific Forms - [!DNL Marketo Measure] - Product Documentation
+description: Excluding [!DNL Marketo Measure] from Specific Forms - [!DNL Marketo Measure]
 title: Excluding [!DNL Marketo Measure] from Specific Forms
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking

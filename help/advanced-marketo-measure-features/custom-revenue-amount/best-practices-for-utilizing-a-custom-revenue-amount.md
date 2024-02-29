@@ -1,5 +1,5 @@
 ---
-description: Best Practices for Utilizing a Custom Revenue Amount - [!DNL Marketo Measure] - Product Documentation
+description: Best Practices for Utilizing a Custom Revenue Amount - [!DNL Marketo Measure]
 title: Best Practices for Utilizing a Custom Revenue Amount
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Revenue Workflows for Dynamics - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Revenue Workflows for Dynamics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Revenue Workflows for Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
@@ -47,11 +47,11 @@ If open opportunities have no data in the Actual Close Date field, we are not se
 1. Customer to provide the Custom Close Date API name to [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] to update the [!DNL Marketo Measure] app settings to point to the [!DNL Marketo Measure] Custom Close Date field in the Dashboard.
 
-   Upon completion of the above steps, we will need to run workflows to update both the Custom [!DNL Marketo Measure] Opp Amount field and the [!DNL Marketo Measure] Custom Close Date field on your historical opportunities to reflect the correct data. This will likely change the modified on/by fields so you'll want to check with your team to see if that presents any issues.
+   Upon completion of the above steps, we will need to run workflows to update both the Custom [!DNL Marketo Measure] Opp Amount field and the [!DNL Marketo Measure] Custom Close Date field on your historical opportunities to reflect the correct data. This will likely change the modified on/by fields so you will want to check with your team to see if that presents any issues.
 
 To update the closed opportunities...
 
-1. Isolate opportunities that have closed since your [!DNL Marketo Measure] start date up til the workflow is active. This is the group of historical opportunities that you'll need to update via workflow.
+1. Isolate opportunities that have closed since your [!DNL Marketo Measure] start date up til the workflow is active. This is the group of historical opportunities that you will need to update via workflow.
 1. Export all records to Excel.
 1. Open Excel file, enable content.
 1. Copy Actual Close Date data to [!DNL Marketo Measure] Custom Close Date.

@@ -1,5 +1,5 @@
 ---
-description: Best Practices for API Connections - [!DNL Marketo Measure] - Product Documentation
+description: Best Practices for API Connections - [!DNL Marketo Measure]
 title: Best Practices for API Connections
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
@@ -21,7 +21,7 @@ Regardless of the ad platform you're connecting, the following guidelines are im
 * Connect all possible ad accounts to automate your spend reporting as much as possible
 * If available, always implement a tracking template. The template ensures that even if the ad account becomes disconnected, [!DNL Marketo Measure] is still able to pull in granular ad details
 
-To optimize each [!DNL Marketo Measure] API, please abide by the following best practices.
+To optimize each [!DNL Marketo Measure] API, abide by the following best practices.
 
 **[!DNL Facebook]**: Connect with auto-tagging
 
@@ -78,7 +78,7 @@ Reasons for disconnection and reauthorization include...
 * That person is no longer at the company
 * Updates to the APIs
 
-If your team has experienced any of the above scenarios, please check your API connections in the [!DNL Marketo Measure] app to make sure they do not need to be reauthorized.
+If your team has experienced any of the above scenarios, check your API connections in the [!DNL Marketo Measure] app to make sure they do not need to be reauthorized.
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874745
-description: AJAX Form Handling - [!DNL Marketo Measure] - Product Documentation
+description: AJAX Form Handling - [!DNL Marketo Measure]
 title: AJAX Form Handling
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
@@ -11,7 +11,7 @@ To manually report customer conversions to [!DNL Marketo Measure], we have provi
 
 ## Scenario 1 - HTML form with an AJAX submit {#scenario-html-form-with-an-ajax-submit}
 
-When using forms containing AJAX (or another mechanism) to submit conversion dates from the client to our servers, [!DNL Marketo Measure] may not be aware of the customer conversion through any of the standard paths that we monitor. In this scenario, we can leverage a simple API (provided below).
+When using forms containing AJAX (or another mechanism) to submit conversion dates from the client to our servers, [!DNL Marketo Measure] may not be aware of the customer conversion through any of the standard paths that we monitor. In this scenario, we can use a simple API (provided below).
 
 If you handle your own form submissions, you can explicitly call [!DNL Marketo Measure] from the Javascript. [!DNL Marketo Measure] will collect all the relevant information from the form and post it asynchronously to our servers.
 
