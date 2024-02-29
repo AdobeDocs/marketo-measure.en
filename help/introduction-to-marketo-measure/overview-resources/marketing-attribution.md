@@ -15,7 +15,7 @@ Marketo Measure gives marketers insight into which marketing efforts are the mos
 
 **Marketing attribution** is the process of assigning revenue credit to a marketing touchpoint. This is done by tracking a prospect’s entire customer journey, starting from their very first interaction with your company to when the deal closes. The revenue generated from the deal gets attributed back to the marketing touchpoints that drove the sale. The amount of revenue credit given to a touchpoint depends on how much that touchpoint influenced the customer’s purchasing decision.
 
-**Touchpoints** refer to the interactions a prospect/lead has with your online or offline marketing efforts. There are four **major* *touchpoints** that are considered in marketing attribution. They reflect the different stages in the customer’s journey. These major touchpoints, also referred to as **milestone touchpoints**, are: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
+**Touchpoints** refer to the interactions a prospect/lead has with your online or offline marketing efforts. There are four **major touchpoints** that are considered in marketing attribution. They reflect the different stages in the customer’s journey. These major touchpoints, also referred to as **milestone touchpoints**, are: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
 
 ![](assets/1.png)
 
