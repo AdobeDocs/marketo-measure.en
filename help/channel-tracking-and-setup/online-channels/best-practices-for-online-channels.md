@@ -36,7 +36,7 @@ Things to keep in mind:
 
 ## Best Practice for Maintenance {#best-practice-for-maintenace}
 
-Once saved and processed, Online Channel rules continuously work to bucket your digital touchpoints. However certain changes or scenarios cause you want to review your Online Channel setup. [!DNL Marketo Measure] recommends that you review your Online Channel rules once every six months. This ensures that your [!DNL Marketo Measure] data is aligned with your internal definitions of online channels/subchannels and your usage of UTMs.
+After Online Channel rules are saved and processed, they continuously work to bucket your digital touchpoints. However certain changes or scenarios cause you want to review your Online Channel setup. [!DNL Marketo Measure] recommends that you review your Online Channel rules once every six months. This ensures that your [!DNL Marketo Measure] data is aligned with your internal definitions of online channels/subchannels and your usage of UTMs.
 
 Other items that might trigger your team to do Online Channel maintenance include....
 

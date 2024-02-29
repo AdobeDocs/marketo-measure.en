@@ -7,7 +7,7 @@ feature: Integration
 ---
 # Drift Integration FAQ {#drift-integration-faq}
 
-As a part of the [!DNL Marketo Measure] integration with Drift, her are some of the most frequently asked questions. If there are any questions not outlined below, reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+As a part of the [!DNL Marketo Measure] integration with Drift, here are some of the most frequently asked questions. If there are any questions not outlined below, reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **How is the integration enabled?**
 

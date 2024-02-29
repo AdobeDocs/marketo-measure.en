@@ -1,15 +1,15 @@
 ---
 unique-page-id: 18874730
-description: Account Based Marketing Overview - [!DNL Marketo Measure]
+description: Learn about Account-Based Marketing (ABM) and how Adobe Marketo Measure helps Marketing and Sales teams execute successful ABM strategies.
 title: Account Based Marketing Overview
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 ---
 # Account Based Marketing Overview {#account-based-marketing-overview}
 
-Below is a brief overview of ABM, the components of the [!DNL Marketo Measure] ABM feature, and how to add it to your [!DNL Salesforce] page layout. To read more about ABM, check out [this page](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
+The following sections provide a brief overview of ABM, the components of the [!DNL Marketo Measure] ABM feature, and how to add it to your [!DNL Salesforce] page layout. To read more about ABM, review Adobe's [ABM blog](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
 
-To navigate directly to the instructions for setting up ABM within your [!DNL Salesforce] instance, [click here](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+For detailed instructions for setting up ABM within your [!DNL Salesforce] instance, go to [Setting up ABM page layout in Salesforce](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## What is ABM {#what-is-abm}
 
@@ -22,7 +22,7 @@ For our Account Based Marketing model to begin to populate in your CRM, [!DNL Ma
 
 >[!NOTE]
 >
->The above "bad" accounts must be open for at least 12 months without accumulating a Closed Won opp; that's the basic guideline for whether an Opp has gone stale for the model's purposes.
+>The above "bad" accounts must be open for at least 12 months without accumulating a Closed Won opp; that is the basic guideline for whether an Opp has gone stale for the model's purposes.
 
 ## Lead-to-Account Mapping {#lead-to-account-mapping}
 

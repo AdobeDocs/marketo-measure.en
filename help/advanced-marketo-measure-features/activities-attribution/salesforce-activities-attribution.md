@@ -26,7 +26,7 @@ Get familiar with this hierarchy:
 
 >[!TIP]
 >
->If you want to set a unique Campaign for each Sales rep for example, use dynamic replacement parameters to fill in the [!DNL Marketo Measure] Campaign Name. In the same example, you can enter `"Outbound Sales - {AssignedTo}"` and it morphs it into something like `"Outbound Sales - Jill"` or `"Outbound Sales - Jack."`
+>If you want to set a unique Campaign for each Sales rep for example, use dynamic replacement parameters to fill in the [!DNL Marketo Measure] Campaign Name. In the same example, you can enter `"Outbound Sales - {AssignedTo}"` and it changes it to something like `"Outbound Sales - Jill"` or `"Outbound Sales - Jack."`
 
 ![](assets/2.png)
 
@@ -54,7 +54,7 @@ Do not forget to set different rules for Tasks or Events. You must know which ob
 
 ![](assets/5.png)
 
-you will probably want to place these new touchpoints into their appropriate [Marketing Channel](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Do that by defining the Channel with its new Campaign mapping that was just created.
+You will probably want to place these new touchpoints into their appropriate [Marketing Channel](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Do that by defining the Channel with its new Campaign mapping that was just created.
 
 >[!TIP]
 >

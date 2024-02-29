@@ -52,7 +52,7 @@ View and interact with product-specific notifications and general Adobe product 
 
 **Adobe Settings**
 
-To change your language or other Adobe-wide preferences, click your profile icon t. You can also make [!DNL Marketo Measure]-specific changes by clicking **My Settings**.
+To change your language or other Adobe-wide preferences, click your profile icon. You can also make [!DNL Marketo Measure]-specific changes by clicking **My Settings**.
 
    ![](assets/unified-shell-overview-10.png)
 

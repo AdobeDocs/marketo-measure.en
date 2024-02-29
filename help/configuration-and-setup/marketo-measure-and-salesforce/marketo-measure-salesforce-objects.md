@@ -67,7 +67,7 @@ The [!DNL Marketo Measure] Events Object allows you to track specific events tha
 
 ## [!DNL Marketo Measure] Fields {#marketo-measure-fields}
 
-Data captured by the [!DNL Marketo Measure] Javascript will be pushed into the custom [!DNL Marketo Measure] Fields within our [!DNL Marketo Measure] Objects. Certain fields will only be present on certain objects. For a glossary of all the [!DNL Marketo Measure] fields, [click here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). For a visualization of which [!DNL Marketo Measure] Object each [!DNL Marketo Measure] Field relates to, [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Data captured by the [!DNL Marketo Measure] JavaScript is pushed into the custom [!DNL Marketo Measure] Fields within the [!DNL Marketo Measure] Objects. Certain fields are present only on certain objects. You can review the [glossary of [[!DNL Marketo Measure] fields](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) and a [visualization of the related [!DNL Marketo Measure] Objects](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] Reports and Dashboards {#marketo-measure-reports-and-dashboards}
 

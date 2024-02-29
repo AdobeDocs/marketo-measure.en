@@ -78,4 +78,4 @@ The cap applies to Data Warehouse and CRMs because of the processing limits that
 
 Using [!UICONTROL Boomerang] Stages with Custom Modelling allows you to assign attribution weighting to [!UICONTROL Boomerang] touchpoints, which allocates revenue credit to these stages.
 
-Without custom modeling, [!DNL Marketo Measure] will create touchpoints for each boomerang and stage transition but will not assign any attribution credit to these touchpoints. The only boomerang touchpoints that receive attribution credits are form submission touchpoints. Without custom model, [!DNL Boomerang] touchpoints are considered the same as a 'middle touch' and receive attribution credit accordingly.
+Without custom modeling, [!DNL Marketo Measure] creates touchpoints for each boomerang and stage transition but does not assign any attribution credit to these touchpoints. The only boomerang touchpoints that receive attribution credits are from submission touchpoints. Without custom model, [!DNL Boomerang] touchpoints are considered the same as a 'middle touch' and receive attribution credit accordingly.

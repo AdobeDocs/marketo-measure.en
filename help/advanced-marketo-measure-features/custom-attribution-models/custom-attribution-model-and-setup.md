@@ -21,7 +21,7 @@ The [!DNL Marketo Measure] Custom Attribution model allows users to choose which
 
    Sign in to [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Go to [!UICONTROL My Account] > [!UICONTROL Settings] > and under the CRM section, select **[!UICONTROL Stage Mapping]**.
 
-   Once here, you will need to select which Leads/Contacts, and Opportunity stages to include by selecting the **[!UICONTROL Include in Model]** box.
+   Next, choose which Leads/Contacts and Opportunity stages to include by selecting the **[!UICONTROL Include in Model]** box.
 
    >[!NOTE]
    >
@@ -45,7 +45,7 @@ The [!DNL Marketo Measure] Custom Attribution model allows users to choose which
    >
    >Don't forget to enable history tracking for custom fields.
 
-If a custom field is being used in your custom model, Field History tracking MUST be enabled in the CRM. For instructions on how to enable field history tracking, [click here](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+If a custom field is used in your custom model, Field History tracking MUST be enabled in the CRM. For instructions  to enable field history tracking, refer to [Custom Model Setup: Enable Field History Tracking](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. Determine the attribution percentages for the custom model.
 
@@ -53,7 +53,7 @@ If a custom field is being used in your custom model, Field History tracking MUS
 
    In the far right column labeled "**[!UICONTROL Custom]**," you can set the percentage weighting for each stage in your custom attribution model. Simply input the values for each stage under the Custom column. Then **[!UICONTROL Save and Reprocess]** once complete.
 
-   To the left of the "Custom" column is the **[!DNL Marketo Measure] Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, [click here](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   To the left of the _Custom_ column is the **[!DNL Marketo Measure] Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, refer to [Machine Learning Model FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

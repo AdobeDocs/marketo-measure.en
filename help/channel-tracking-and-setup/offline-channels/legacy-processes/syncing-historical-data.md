@@ -27,7 +27,7 @@ It's important to have a balanced picture of attribution in order to have accura
 
 **What level of granularity are you expecting?**
 
-you will essentially know the Channel, Subchannel, and Campaign name only.
+You will essentially know the Channel, Subchannel, and Campaign name only.
 
 **What are your reporting goals in the future?**
 

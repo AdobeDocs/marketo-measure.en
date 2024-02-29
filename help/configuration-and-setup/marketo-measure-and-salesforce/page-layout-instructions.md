@@ -17,7 +17,7 @@ To begin, first navigate to your [!DNL Salesforce] Setup settings and locate the
 
 ## Campaign Object {#campaign-object}
 
-We recommend adding the [!DNL Marketo Measure] fields to your SFDC Campaign for only your sandbox. The fields can be used to test touchpoint generation. In production, it is recommended only adding the [!DNL Marketo Measure] Bulk Update Touchpoint Date button. It is not recommended adding the [!DNL Marketo Measure] fields to production since you can create Campaign Sync rule.
+It is recommended that you add the [!DNL Marketo Measure] fields to your SFDC Campaign for only your sandbox. The fields can be used to test touchpoint generation. In production, it is recommended only adding the [!DNL Marketo Measure] Bulk Update Touchpoint Date button. It is not recommended adding the [!DNL Marketo Measure] fields to production since you can create Campaign Sync rule.
 
 1. Within your Build option, select **[!UICONTROL Campaigns]**.
 
@@ -43,7 +43,7 @@ We recommend adding the [!DNL Marketo Measure] fields to your SFDC Campaign for 
 
    >[!NOTE]
    >
-   >If you are using multiple Campaign record types, the picklist values for the **[!UICONTROL Enable Buyer Touchpoints]** field needs to be updated. Reference [this article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) for instructions.
+   >If you are using multiple Campaign record types, you must update the picklist values for the **[!UICONTROL Enable Buyer Touchpoints]** field. Refer to [this article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) for instructions.
 
 ## Leads {#leads}
 
@@ -184,4 +184,4 @@ If you're using the [!DNL Marketo Measure] ABM feature, [click here for addition
 
 1. Click **[!UICONTROL Save]**.
 
-If you are using the [!DNL Marketo Measure] ABM feature,  [click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+If you are using the [!DNL Marketo Measure] ABM feature, review the [additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

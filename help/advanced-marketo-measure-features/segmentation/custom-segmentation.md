@@ -55,7 +55,7 @@ Step 4 - Add Filter Rules.
 * Repeat this process for the Opportunities segment rules
 * The "Other" category is a default segment that will capture any undefined Touchpoints. You can change the default segment's name
 * Click the trashcan icon to delete a whole category or an individual rule within a category. Alternatively, click the pencil icon to edit the category or rule
-* you will notice that you have a "Save" button and a "Save and Process" button. Use the Save button to save your work and changes over time. Use the Save and Process button ONLY once you have made sure that:
+* Notice that you have a "Save" button and a "Save and Process" button. Use the Save button to save your work and changes over time. Use the Save and Process button ONLY once you have made sure that:
 
     * Your mapping is accurate
     * You added all the segments you want to track within a category

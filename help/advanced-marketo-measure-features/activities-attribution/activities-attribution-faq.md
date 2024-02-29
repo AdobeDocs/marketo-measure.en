@@ -27,7 +27,7 @@ A good suggestion is to set up your filters using the Activity object in your CR
 
 **What is the [!DNL Marketo Measure] Campaign Name?**
 
-Since these Activities result in a Touchpoint, [!DNL Marketo Measure] must know which Channel and Subchannel they belong to. For each rule, you are required to provide a [!DNL Marketo Measure] Campaign Name. Once that is created, use the Online Channels CSV to map that [!DNL Marketo Measure] Campaign Name to its appropriate Channel. The [!DNL Marketo Measure] Campaign Name also appears on the Touchpoint itself within the [!UICONTROL Ad Campaign Name] field.
+Since these Activities result in a Touchpoint, [!DNL Marketo Measure] must know which Channel and Subchannel they belong to. For each rule, you are required to provide a [!DNL Marketo Measure] Campaign Name. After that is created, use the Online Channels CSV to map that [!DNL Marketo Measure] Campaign Name to its appropriate Channel. The [!DNL Marketo Measure] Campaign Name also appears on the Touchpoint itself within the [!UICONTROL Ad Campaign Name] field.
 
 **What other Touchpoint fields are populated?**
 
@@ -63,6 +63,6 @@ Directions on how to configure Activities within the [!UICONTROL Marketo] Measur
 
 **What Channel do these Activities go under?**
 
-Once the Activity rule, and its corresponding [!DNL Marketo Measure] Campaign Name, are created you will use the Online Channels definitions to place those Campaigns under the correct Marketing Channel. [!DNL Marketo Measure] can define Channels using not only medium and source, but also campaign.
+When the Activity rule and its corresponding [!DNL Marketo Measure] Campaign Name are created, use the Online Channels definitions to place those Campaigns under the correct Marketing Channel. [!DNL Marketo Measure] can define Channels using not only medium and source, but also campaign.
 
 In the example above, to assign the "Outbound Call {Assigned To}" campaign to the BDR channel, insert a row in your Online Channels CSV for the BDR channel with a campaign definition of "Outbound Call&#42;" - the asterisk denotes a wildcard value, so all campaigns that start with "Outbound Call" will fall under the BDR channel, rather than having to create a separate row for each campaign name.

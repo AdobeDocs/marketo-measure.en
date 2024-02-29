@@ -153,7 +153,7 @@ Before the [!DNL Marketo Measure] and LinkedIn Lead Gen Forms Integration existe
 
 ## Touchpoint Details {#touchpoint-details}
 
-Once [!DNL Marketo Measure] has successfully tagged your landing page on the LinkedIn creative, you will be able to view the resolved ads data on the touchpoint. Here's the mapping of data values that you should expect to see:
+After [!DNL Marketo Measure] has successfully tagged your landing page on the LinkedIn creative, you are able to view the resolved ads data on the touchpoint. Here's the mapping of data values that you should expect to see:
 
 <table> 
  <colgroup> 
@@ -322,7 +322,7 @@ The connected [!DNL LinkedIn] user needs to have proper editing access, which me
 
 **How do I know if my creative will be copied? Can I see if my creatives are using the same share?**
 
-The share Id is not provided in a [!DNL LinkedIn] report, so there is not a clear and obvious way to check for creative-to-share mappings. If you suspect a creative might be a copy, you can manually check by opening the ad from within your [!DNL LinkedIn] Campaign manager--this will open the ad in a new tab and you will find the share Id in the URL.
+The share ID is not provided in a [!DNL LinkedIn] report, so there is not a clear and obvious way to check for creative-to-share mappings. If you suspect a creative might be a copy, you can manually check by opening the ad from within your [!DNL LinkedIn] Campaign manager--this opens the ad in a new tab and you can find the share ID in the URL.
 
 ![](assets/six.png)
 

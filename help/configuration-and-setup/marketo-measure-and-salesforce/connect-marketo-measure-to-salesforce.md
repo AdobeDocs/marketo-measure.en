@@ -23,7 +23,7 @@ This article provides an overview of how to connect your [!DNL Salesforce] accou
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. A pop-up window appears asking you to Select CRM connection. Click the **[!UICONTROL Connect]** button next to the [!DNL Salesforce] logo.
+1. A pop-up window appears asking you to Select CRM connection. Click **[!UICONTROL Connect]** next to the [!DNL Salesforce] logo.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 

@@ -18,7 +18,7 @@ Instructions for adding domains can be found in the [Admin Console documentation
 
 ## Managing Domains in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-Once a domain is added in the Admin Console, [!DNL Marketo Measure] syncs this record into the database regularly. This synchronization happens nightly, and also every time a user visits the **[!UICONTROL Domains]** page in the [!DNL Marketo Measure] UI. By default, any records that [!DNL Marketo Measure] imports are disabled, and the tenant must manually enable each domain.
+After a domain is added in the Admin Console, [!DNL Marketo Measure] syncs this record into the database regularly. This synchronization happens nightly, and also every time a user visits the **[!UICONTROL Domains]** page in the [!DNL Marketo Measure] UI. By default, any records that [!DNL Marketo Measure] imports are disabled, and the tenant must manually enable each domain.
 
    ![](assets/domain-management-2.png)
 

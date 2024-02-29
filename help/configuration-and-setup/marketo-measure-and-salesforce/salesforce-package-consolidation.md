@@ -59,4 +59,4 @@ Yes. The consolidated package contains the same fields in V1 with further breakd
 
 **Can reports that use V2_EXT fields be re-created in the consolidated package?**
 
-Yes. Follow the steps in the [Required Actions](#retired-actions) section above.
+Yes. Follow the steps in the [Required Actions](#retired-actions) section.

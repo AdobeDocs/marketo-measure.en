@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874650
-description: Account-Based Attribution - [!DNL Marketo Measure]
+description: Learn about Account-Based Attribution and how Adobe Marketo Measure complements your Account-Based Marketing (ABM) strategy.
 title: Account-Based Attribution
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
