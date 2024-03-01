@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656737
-description: Report Marketing Spend - [!DNL Marketo Measure] - Product Documentation
+description: Report Marketing Spend - [!DNL Marketo Measure]
 title: Report Marketing Spend
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
@@ -11,7 +11,7 @@ feature: Reporting, Spend Management
 
 The Marketing Spend table will now contain a new column to display the currency for each Channel, Subchannel, and Campaign row. This new column will display for all customers, even if they don't have Multiple Currencies enabled.
 
-The table will now contain a mix of different currencies. Please refer to the Marketing Spend dashboard if you need to get a sum of any Channels, Subchannels, or Campaigns in a single currency.
+The table will now contain a mix of different currencies. Refer to the Marketing Spend dashboard if you need to get a sum of any Channels, Subchannels, or Campaigns in a single currency.
 
 ## Upload Costs {#upload-costs}
 

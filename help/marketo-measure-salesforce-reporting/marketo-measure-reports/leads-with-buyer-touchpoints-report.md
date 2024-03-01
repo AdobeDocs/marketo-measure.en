@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874614
-description: Leads with Buyer Touchpoints Report - [!DNL Marketo Measure] - Product Documentation
+description: Leads with Buyer Touchpoints Report - [!DNL Marketo Measure]
 title: Leads with Buyer Touchpoints Report
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
@@ -9,7 +9,7 @@ feature: Touchpoints, Reporting
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Out of the box you have many reporting capabilities at your fingertips when it comes to [!DNL Marketo Measure], but there are some additional report types we recommend building. Learn about creating an inclusive Leads with Buyer Touchpoints report type below.
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874662
-description: Definitions and Encyclopedia - [!DNL Marketo Measure] - Product Documentation
+description: Definitions and Encyclopedia - [!DNL Marketo Measure]
 title: Definitions and Encyclopedia
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting

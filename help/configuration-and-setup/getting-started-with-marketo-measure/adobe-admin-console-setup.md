@@ -14,7 +14,7 @@ As a product within the Adobe Suite, [!DNL Marketo Measure] uses the full functi
 
 It is recommended to review the resources, best practices, and options available to you for [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
-For guidance and review of setting up your Identity Management within the Adobe Admin Console, please reach out to your [!DNL Marketo Measure] Account Representative.
+For guidance and review of setting up your Identity Management within the Adobe Admin Console, reach out to your [!DNL Marketo Measure] Account Representative.
 
 To facilitate user authentication and authorization with your [!DNL Marketo Measure] instances, the following steps are required within the Adobe Admin Console:
 
@@ -30,7 +30,7 @@ Clicking the [!DNL Marketo Measure] Product Card shows you all of your [!DNL Mar
 
 No action is required to create a profile within the [!DNL Marketo Measure] Product instance(s).
 
-To begin adding users who can access [!DNL Marketo Measure], please refer to the [Adding [!DNL Marketo Measure] Admins and [!DNL Marketo Measure] Users](#adding-marketo-measure-admins-and-marketo-measure-users) section below.
+To begin adding users who can access [!DNL Marketo Measure], refer to the [Adding [!DNL Marketo Measure] Admins and [!DNL Marketo Measure] Users](#adding-marketo-measure-admins-and-marketo-measure-users) section below.
 
 ## Adding [!DNL Marketo Measure] Admins and [!DNL Marketo Measure] Users {#adding-marketo-measure-admins-and-marketo-measure-users}
 

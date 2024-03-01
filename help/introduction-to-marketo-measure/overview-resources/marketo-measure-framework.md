@@ -22,7 +22,7 @@ The Marketo Measure JavaScript tracks all the online marketing interactions, als
 
 >[!NOTE]
 >
->For instructions on how to add the Marketo Measure JS, please [click here](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>For instructions on how to add the Marketo Measure JS, [click here](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 Marketo Measure’s JS captures data from web visits (including anonymous web visits), general traffic/page navigation, content downloads, and form submissions. This data is pushed into your CRM and each marketing interaction is displayed as a touchpoint.
 

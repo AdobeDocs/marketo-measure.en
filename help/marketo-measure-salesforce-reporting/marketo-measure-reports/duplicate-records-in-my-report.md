@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874634
-description: Duplicate Records in My Report - [!DNL Marketo Measure] - Product Documentation
+description: Duplicate Records in My Report - [!DNL Marketo Measure]
 title: Duplicate Records in My Report
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
@@ -9,11 +9,11 @@ feature: Reporting
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 As you dive into the [!DNL Marketo Measure] Reports in [!DNL Salesforce], you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review [!DNL Marketo Measure] out-of-the-box reports.
 
-When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you'll be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
+When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you will be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
 
 Let's take the following report as an example:
 

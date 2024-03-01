@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874755
-description: Adding [!DNL Marketo Measure] to [!DNL Marketo] Landing Pages - [!DNL Marketo Measure] - Product Documentation
+description: Adding [!DNL Marketo Measure] to [!DNL Marketo] Landing Pages - [!DNL Marketo Measure]
 title: Adding [!DNL Marketo Measure] to Marketo Landing Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking

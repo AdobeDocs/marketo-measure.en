@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656745
-description: FAQ (Multi-Currency) - [!DNL Marketo Measure] - Product Documentation
+description: FAQ (Multi-Currency) - [!DNL Marketo Measure]
 title: FAQ (Multi-Currency)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
@@ -25,7 +25,7 @@ If you have a tile that has a "Mixed Currencies" message at the bottom, that mea
 
 Declaring a new currency or conversion rate can only be done in [!DNL Salesforce] or [!DNL Dynamics] so that there is only a single source of truth for these values. Once a new currency or conversion rate is detected, [!DNL Marketo Measure] will download that and make it available to you. We do not offer an area to enter these rates.
 
-**The currency isn't displaying in the correct format. How can I change this?**
+**The currency is not displaying in the correct format. How can I change this?**
 
 We understand that some countries have a different way of formatting amounts (e.g., 1,234.00, 1.234, 1 234). But we introduce another level of complexity if we have to not only determine a user's currency, but their country of origin, since different countries and currencies can be handled differently. The consistent format we have chosen is 1,234.00. This cannot be changed.
 

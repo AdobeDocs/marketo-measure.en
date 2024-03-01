@@ -9,7 +9,7 @@ feature: Fundamentals
 
 This article provides a glossary of all the Marketo Measure Fields that are added to your Salesforce from the Marketo Measure Base Package. You will also find information on which Object the Field can be found on and how each Field is populated with information.
   
-For a map of which Object each Marketo Measure Field relates to, please [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+For a map of which Object each Marketo Measure Field relates to, [click here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · W · X · Y · Z
 
@@ -293,7 +293,7 @@ This field displays the name of the lead a touchpoint belongs to.
 
 **Marketing Channel** | Buyer Touchpoint, Buyer Attribution Touchpoint  
   
-This field shows you the general group of marketing activity or marketing channel the touchpoint belongs to (i.e. Paid Search, Direct, Social, etc.). Touchpoints are grouped according to how your channels have been set up in the Marketo Measure App. For more information about marketing channels, or how to set up your channels, please [click here](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).  
+This field shows you the general group of marketing activity or marketing channel the touchpoint belongs to (i.e. Paid Search, Direct, Social, etc.). Touchpoints are grouped according to how your channels have been set up in the Marketo Measure App. For more information about marketing channels, or how to set up your channels, [click here](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).  
   
 **Marketing Channel - Path** | Buyer Touchpoint, Buyer Attribution Touchpoint  
   

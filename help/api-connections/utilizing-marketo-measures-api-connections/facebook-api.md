@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
@@ -44,7 +44,7 @@ As for setup, there are seven steps to be completed within the [!DNL Marketo Mea
 
 Once you've enabled the integration, [!DNL Marketo Measure] will start downloading ad level cost into the [!DNL Marketo Measure Marketing ROI] Dashboard.
 
-For the integration to properly work, you'll need to enable auto-tagging on your [!DNL Facebook] account. This will allow our system to add a _bf parameter across all ad links. This process will add the new parameter on top of any other tracking parameters you've already added to your [!DNL Facebook] ads.
+For the integration to properly work, you must enable auto-tagging on your [!DNL Facebook] account. This will allow our system to add a _bf parameter across all ad links. This process will add the new parameter on top of any other tracking parameters you've already added to your [!DNL Facebook] ads.
 
 ![](assets/3.gif)
 

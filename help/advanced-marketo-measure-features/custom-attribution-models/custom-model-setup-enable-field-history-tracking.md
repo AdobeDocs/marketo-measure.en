@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874777
-description: Custom Model Setup - Enable Field History Tracking - [!DNL Marketo Measure] - Product Documentation
+description: Custom Model Setup - Enable Field History Tracking - [!DNL Marketo Measure]
 title: Custom Model Setup - Enable Field History Tracking
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
@@ -13,7 +13,7 @@ If you decide to include a custom field as a stage in your custom attribution mo
 
 If only [!UICONTROL Lead Status] or Opportunity Stages are used in the custom model, there is no need to turn on Field History tracking because it will tracked automatically as a stage transition.
 
-To enable field history tracking, please follow the instructions below.
+To enable field history tracking, follow the instructions below.
 
 ## Enable Field History Tracking {#enable-field-history-tracking}
 

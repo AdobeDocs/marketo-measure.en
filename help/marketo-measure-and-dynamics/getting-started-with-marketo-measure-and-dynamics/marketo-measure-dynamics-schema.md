@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics Schema - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Dynamics Schema - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
@@ -9,9 +9,9 @@ feature: Microsoft Dynamics
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-Below you'll find the required Dynamics schema in order to get started with [!DNL Marketo Measure]. All entities and fields are listed, along with the required read and/or write access.
+Below you will find the required Dynamics schema in order to get started with [!DNL Marketo Measure]. All entities and fields are listed, along with the required read and/or write access.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 

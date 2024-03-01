@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874658
-description: Common Use Cases - [!DNL Marketo Measure] - Product Documentation
+description: Common Use Cases - [!DNL Marketo Measure]
 title: Common Use Cases
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting

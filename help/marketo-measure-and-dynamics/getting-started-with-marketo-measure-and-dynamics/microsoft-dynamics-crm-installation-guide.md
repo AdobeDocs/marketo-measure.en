@@ -9,7 +9,7 @@ feature: Installation, Microsoft Dynamics
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 ## Supported Versions {#supported-versions}
 
@@ -45,7 +45,7 @@ We recommend creating a dedicated Marketo Measure User as an "Application User" 
 
 ## Security Roles {#security-roles}
 
-If your organization uses Dynamics Security Roles, please make sure the connected user, or the dedicated [!DNL Marketo Measure] User has sufficient read/write permissions to the required entities.
+If your organization uses Dynamics Security Roles, make sure the connected user, or the dedicated [!DNL Marketo Measure] User has sufficient read/write permissions to the required entities.
 
 Security Roles are located here: **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**.
 
@@ -57,7 +57,7 @@ For [!DNL Marketo Measure] custom entities, we will need full permissions across
 
 ![](assets/4.png)
 
-For Dynamics standard entities, please refer to the [!DNL Marketo Measure] Dynamics schema document. At a high level, [!DNL Marketo Measure] just needs to read in certain entities in order to gather the appropriate data and write to custom fields that will get installed with the managed solution. We will not create new standard records, nor will we update any standard fields.
+For Dynamics standard entities, refer to the [!DNL Marketo Measure] Dynamics schema document. At a high level, [!DNL Marketo Measure] just needs to read in certain entities in order to gather the appropriate data and write to custom fields that will get installed with the managed solution. We will not create new standard records, nor will we update any standard fields.
 
 ## Include Touchpoints on Page Layouts: {#include-touchpoints-on-page-layouts}
 
@@ -88,11 +88,11 @@ For Dynamics standard entities, please refer to the [!DNL Marketo Measure] Dynam
 
 **Revenue**
 
-[!DNL Marketo Measure] points to the standard Actual Revenue field by default. If you are not using this, please explain how you report on revenue to your Solutions Engineer or Success Manager as a custom workflow will be needed.
+[!DNL Marketo Measure] points to the standard Actual Revenue field by default. If you are not using this, explain how you report on revenue to your Solutions Engineer or Success Manager as a custom workflow will be needed.
 
 **Close Date**
 
-[!DNL Marketo Measure] points to the Actual Close Date field out of the box. If you are not using this or also use the Estimated Close Date field, please explain your process to your Solutions Engineer or Success Manager. A custom workflow may be need to account for both fields.
+[!DNL Marketo Measure] points to the Actual Close Date field out of the box. If you are not using this or also use the Estimated Close Date field, explain your process to your Solutions Engineer or Success Manager. A custom workflow may be need to account for both fields.
 
 ## Configuring your Connections and Data Providers {#configuring-your-connections-and-data-providers}
 
@@ -122,11 +122,11 @@ After you've logged in to the [!DNL Marketo Measure] application and have been s
 
    >[!NOTE]
    >
-   >For more information on OAuth, please visit [this article](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). If you have any questions about the process, please contact your [!DNL Marketo Measure] Account representative.
+   >For more information on OAuth, visit [this article](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). If you have any questions about the process, contact your [!DNL Marketo Measure] Account representative.
 
 1. In this example, we've chosen Credentials. Enter your credentials and click **[!UICONTROL Next]**.
 
-After connecting, you'll see the details of your Dynamics connection in the CRM/MAP Connections list.
+After connecting, you will see the details of your Dynamics connection in the CRM/MAP Connections list.
 
 **Ad Account Connections**
 
@@ -156,7 +156,7 @@ In order for [!DNL Marketo Measure] to track your web activities, there are mult
 
    >[!NOTE]
    >
-   >To add multiple root domains, please contact your [!DNL Marketo Measure] Account Representative.
+   >To add multiple root domains, contact your [!DNL Marketo Measure] Account Representative.
 
 1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) then needs to be placed across the entire site and landing pages. We recommend hardcoding the script within the head of your landing pages or adding through a Tag Management System such as [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
@@ -164,11 +164,11 @@ In order for [!DNL Marketo Measure] to track your web activities, there are mult
    >
    >By default, [!DNL Marketo Measure] exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by [!DNL Marketo Measure] and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, [!DNL Marketo Measure] allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the [!DNL Marketo Measure] web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
    >
-   >When modifying this setting, please keep in mind that smaller batch sizes will consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
+   >When modifying this setting, keep in mind that smaller batch sizes will consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
 
    >[!NOTE]
    >
-   >When you disable Marketo Measure exporting data to Dynamics, it won't remove any existing data. For help with removing existing data, please contact Dynamics Support.
+   >When you disable Marketo Measure exporting data to Dynamics, it won't remove any existing data. For help with removing existing data, contact Dynamics Support.
 
    >[!MORELIKETHIS]
    >

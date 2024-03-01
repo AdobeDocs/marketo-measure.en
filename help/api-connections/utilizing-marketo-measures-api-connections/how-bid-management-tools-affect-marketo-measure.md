@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874720
-description: How Bid Management Tools Affect [!DNL Marketo Measure] - [!DNL Marketo Measure] - Product Documentation
+description: How Bid Management Tools Affect [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: How Bid Management Tools Affect [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters

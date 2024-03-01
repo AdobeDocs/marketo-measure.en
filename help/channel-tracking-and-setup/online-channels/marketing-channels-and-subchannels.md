@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874682
-description: Marketing Channels and Subchannels - [!DNL Marketo Measure] - Product Documentation
+description: Marketing Channels and Subchannels - [!DNL Marketo Measure]
 title: Marketing Channels and Subchannels
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels

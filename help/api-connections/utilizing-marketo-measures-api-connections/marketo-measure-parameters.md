@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874608
-description: "[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Parameters"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters

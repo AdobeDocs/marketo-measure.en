@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874678
-description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure] - Product Documentation
+description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure]
 title: Understanding [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
@@ -39,7 +39,7 @@ As explained by [!DNL Google AdWords], a tracking template is the URL that is us
 
 [!DNL Marketo Measure] recommends using an Account Level, Campaign Level, or Ad Group Level Tracking template, as it allows for the addition and subtraction of parameters for all ads without the risk of Ad History interruptions or deletion.
 
-There are two tracking templates [!DNL Marketo Measure] recommends using. Please use the following to determine which version is appropriate for you:
+There are two tracking templates [!DNL Marketo Measure] recommends using. Use the following to determine which version is appropriate for you:
 
 * If all of your ad URLs have a "?" in them, use this URL:
 

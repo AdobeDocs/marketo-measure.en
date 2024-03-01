@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874710
-description: Touchpoint Removal and Touchpoint Suppression - [!DNL Marketo Measure] - Product Documentation
+description: Touchpoint Removal and Touchpoint Suppression - [!DNL Marketo Measure]
 title: Touchpoint Removal and Touchpoint Suppression
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
@@ -21,12 +21,12 @@ Before getting started with creating Touchpoint removal/suppression rules, it's 
 * Delete Touchpoints from unqualified leads
 
 Once the rules are saved, [!DNL Marketo Measure] will clean up and redistribute your attribution model. This means the milestones and positions will change, and your channel's attribution credit will change! This will modify your data, so contact your Success Manager if you need assistance.
-
-`1)` There are two sections for removal/suppression settings. You have the option of setting it up for Buyer Touchpoints (Leads and Contacts) or Buyer Attribution Touchpoints (Contacts, Opportunities, and Accounts).
-
-Start with adding a rule and selecting the Field that will define your criteria.
-
-Choose from a list of Operators that will relate to the next set of values, which you'll add in the next column.
+  
+`1)` There are two sections for removal/suppression settings. You have the option of setting it up for Buyer Touchpoints (Leads and Contacts) or Buyer Attribution Touchpoints (Contacts, Opportunities, and Accounts).  
+  
+Start with adding a rule and selecting the Field that will define your criteria.  
+  
+Choose from a list of Operators that will relate to the next set of values, which you will add in the next column.
 
 ![](assets/1-1.png)
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874594
-description: Integrated Ad Platforms - [!DNL Marketo Measure] - Product Documentation
+description: Integrated Ad Platforms - [!DNL Marketo Measure]
 title: Integrated Ad Platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
@@ -42,9 +42,9 @@ Learn more about our [[!DNL AdWords] auto-tagging functionality](/help/api-conne
 
 ## How to Enable [!DNL Marketo Measure] Auto-tagging for Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-Before enabling [!DNL Marketo Measure] auto-tagging, **please ensure that you have a tracking template enabled at the Account, Campaign or Ad Group level within your Adwords account. This is required for any Adwords account that will have [!DNL Marketo Measure] auto-tagging enabled.** Enabling a tracking template prevents any loss in ad performance history data. Please note that enabling tracking templates at the Keyword, Sitelink, or Ad level will cause the ad to go through the review and approval process and can potentially restart your ads' performance history. If there is no tracking template enabled at all, [!DNL Marketo Measure] will append the [!DNL Marketo Measure] tracking parameters directly to the ad's "Final URL" which can also result in loss of ad history data.
+Before enabling [!DNL Marketo Measure] auto-tagging, **ensure that you have a tracking template enabled at the Account, Campaign or Ad Group level within your Adwords account. This is required for any Adwords account that will have [!DNL Marketo Measure] auto-tagging enabled.** Enabling a tracking template prevents any loss in ad performance history data. Note that enabling tracking templates at the Keyword, Sitelink, or Ad level will cause the ad to go through the review and approval process and can potentially restart your ads' performance history. If there is no tracking template enabled at all, [!DNL Marketo Measure] will append the [!DNL Marketo Measure] tracking parameters directly to the ad's "Final URL" which can also result in loss of ad history data.
 
-Once you have a tracking template in place, please follow the instructions below to enable [!DNL Marketo Measure] Auto-tagging. Note: [!DNL Marketo Measure] will also auto-tag any paused ads in your account.
+Once you have a tracking template in place, follow the instructions below to enable [!DNL Marketo Measure] Auto-tagging. Note: [!DNL Marketo Measure] will also auto-tag any paused ads in your account.
 
 1. Sign in to your [!DNL Marketo Measure] account at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
@@ -139,9 +139,9 @@ The [!DNL Marketo Measure] integration with [!DNL Facebook] allows it to automat
 
 Before enabling auto-tagging with [!DNL Facebook Ads], it is important to export the previous performance history as a CSV. At this point, when [!DNL Marketo Measure] tags [!DNL Facebook Ads] with its _bf parameter, [!DNL Facebook] reads the ads as brand new and erases the performance history. Therefore it is important to export a record of the previous performance if that is something of value to you and your organization.
 
-Please note that you may connect your [!DNL Facebook] account at any time to the [!DNL Marketo Measure] app and no data will be lost--it is only when auto-tagging is enabled that the performance history is wiped.
+Note that you may connect your [!DNL Facebook] account at any time to the [!DNL Marketo Measure] app and no data will be lost--it is only when auto-tagging is enabled that the performance history is wiped.
 
-[Please see this article](https://www.facebook.com/business/help/393890194130036){target="_blank"} from Facebook for more information about exporting [!DNL Facebook] Ad reports.
+See [this article](https://www.facebook.com/business/help/393890194130036){target="_blank"} from Facebook for more information about exporting [!DNL Facebook] Ad reports.
 
 ## LinkedIn Sponsored Content {#linkedin-sponsored-content}
 

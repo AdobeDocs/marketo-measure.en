@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874580
-description: Connect Marketo Measure to Salesforce - [!DNL Marketo Measure] - Product Documentation
+description: Connect Marketo Measure to Salesforce - [!DNL Marketo Measure]
 title: Connect Marketo Measure to Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
@@ -23,23 +23,23 @@ This article provides an overview of how to connect your [!DNL Salesforce] accou
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. A pop-up window will appear asking you to Select CRM connection. Click the **[!UICONTROL Connect]** button next to the [!DNL Salesforce] logo.
+1. A pop-up window appears asking you to Select CRM connection. Click **[!UICONTROL Connect]** next to the [!DNL Salesforce] logo.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. A final pop-up window will appear, asking you for your [!DNL Salesforce] credentials, sandbox or production. Enter your information and click **[!UICONTROL Authorize]** to connect the account to [!DNL Marketo Measure].
+1. A final pop-up window appears, asking you for your [!DNL Salesforce] credentials, sandbox, or production. Enter your information and click **[!UICONTROL Authorize]** to connect the account to [!DNL Marketo Measure].
 
 >[!NOTE]
 >
 >[!DNL Marketo Measure] can only be connected to one [!DNL Salesforce] instance at a time.
 >
->* A [!DNL Marketo Measure] instance can be connected to a SFDC Sandbox Instance to test the integration before switching the connection to your SFDC Production Instance.
->* If you test first with a SFDC Sandbox, we highly recommend you test with one which is an exact replica of your SFDC production instance in terms of fields on the Lead, Contact, Account, Opportunity, Campaign and Case objects. If you have any active APEX triggers in production which fire on updates to the Lead, Contact, Account, Opportunity, Campaign and Case objects, you should try to have them active in your sandbox.
->* Once you are done with testing, you will update your [!DNL Marketo Measure] account to point at your Production [!DNL Salesforce] (instead of Sandbox [!DNL Salesforce]). Due to the way the integration was built, once a [!DNL Marketo Measure] account is connected to Production [!DNL Salesforce], you cannot go "backwards" and connect to a Sandbox [!DNL Salesforce] org.
+>* A [!DNL Marketo Measure] instance can be connected to an SFDC Sandbox Instance to test the integration before switching the connection to your SFDC Production Instance.
+>* If you test first with an SFDC Sandbox, we highly recommend you test with one which is an exact replica of your SFDC production instance in terms of fields on the Lead, Contact, Account, Opportunity, Campaign, and Case objects. If you have any active APEX triggers in production which fire on updates to the Lead, Contact, Account, Opportunity, Campaign and Case objects, you should try to have them active in your sandbox.
+>* Once you are done with testing, you update your [!DNL Marketo Measure] account to point at your Production [!DNL Salesforce] (instead of Sandbox [!DNL Salesforce]). Due to the way the integration was built, once a [!DNL Marketo Measure] account is connected to Production [!DNL Salesforce], you cannot go "backwards" and connect to a Sandbox [!DNL Salesforce] org.
 
 ## API Credits Usage {#api-credits-usage}
 
-Marketo Measure employs a CRM integration task to interface with a client's Salesforce through an Integrated User. All data exchanges via this user utilize Salesforce API credits. You have the capability to allocate a credit quota to an integration user, which serves to regulate excessive API calls. This quota or limit is reset every 24 hours.
+Marketo Measure employs a CRM integration task to interface with a client's Salesforce through an Integrated User. All data exchanges via this user uses Salesforce API credits. You have the capability to allocate a credit quota to an integration user, which serves to regulate excessive API calls. This quota or limit is reset every 24 hours.
 
 You can access this limit in Marketo Measure via: **My Account** > **Settings** > **CRM** > **General** > **Daily CRM API limit**, and can configure it for your tenants.
 
@@ -49,7 +49,7 @@ You can access this limit in Marketo Measure via: **My Account** > **Settings** 
 
 1. Navigate to **My Account** > **Settings**.
 
-1. Under CRM, click **General**. You'll see the **Daily CRM API limit** option.
+1. Under CRM, click **General**. You see the **Daily CRM API limit** option.
 
 1. Click the Lock icon to edit.
 

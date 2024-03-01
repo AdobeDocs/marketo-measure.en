@@ -1,5 +1,5 @@
 ---
-description: Data Collected by JavaScript - [!DNL Marketo Measure] - Product Documentation
+description: Data Collected by JavaScript - [!DNL Marketo Measure]
 title: Data Collected by JavaScript
 feature: Tracking
 ---

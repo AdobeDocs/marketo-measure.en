@@ -1,5 +1,5 @@
 ---
-description: Spend Management Methods - [!DNL Marketo Measure] - Product Documentation
+description: Spend Management Methods - [!DNL Marketo Measure]
 title: Spend Management Methods
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management

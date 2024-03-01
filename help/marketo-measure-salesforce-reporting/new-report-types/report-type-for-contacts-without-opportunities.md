@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874616
-description: Report Type for Contacts Without Opportunities - [!DNL Marketo Measure] - Product Documentation
+description: Report Type for Contacts Without Opportunities - [!DNL Marketo Measure]
 title: Report Type for Contacts Without Opportunities
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
@@ -9,7 +9,7 @@ feature: Reporting
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 In order to report on Contacts with Buyer Touchpoints that are not associated to an Opportunity, you need to create a custom report type.
 

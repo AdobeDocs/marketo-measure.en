@@ -1,5 +1,5 @@
 ---
-description: Error Notifications - [!DNL Marketo Measure] - Product Documentation
+description: Error Notifications - [!DNL Marketo Measure]
 title: Error Notifications
 feature: Fundamentals
 ---
@@ -133,7 +133,7 @@ Below is a list of errors that you may receive via in-app notification or email.
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>Error occurred during Crm Import: UNSUPPORTED_CRM_PACKAGE_VERSION : Please update your crm package</td>
+      <td>Error occurred during Crm Import: UNSUPPORTED_CRM_PACKAGE_VERSION : Update your crm package</td>
       <td>The current package detected is no longer supported.</td>
       <td>Upgrade your package to the most recent version:
         <ul>

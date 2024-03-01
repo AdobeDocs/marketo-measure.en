@@ -1,5 +1,5 @@
 ---
-description: "[!DNL Marketo Measure] 101 Reports Overview - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] 101 Reports Overview - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] 101 Reports Overview"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
@@ -8,7 +8,7 @@ feature: Reporting
 
 >[!NOTE]
 >
->You may see instructions specifying "[!DNL Marketo Measure]" in our documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 All [!DNL Marketo Measure] customers using [!DNL Marketo Measure] and [!DNL Salesforce] have access to the 'Buyer Touchpoints Reports' folder within their SFDC instance. This folder contains a number of pre-built reports that can help you get started on reporting with Buyer Touchpoint data.
 
@@ -24,7 +24,7 @@ While many of these reports have specific reporting goals already established, t
 
 These reports provide you with the basic fields and infrastructure needed for any [!DNL Marketo Measure] related report that you want to create. We encourage all customers, new and old, to begin with these reports when exploring marketing attribution questions. Below you will find an explanation of each of the six "_[!DNL Marketo Measure] 101…_" reports.
 
-_If you cannot find the Buyer Touchpoints Report folder or the six "_[!DNL Marketo Measure] 101…_" reports within that folder, please reach out to support for assistance._
+_If you cannot find the Buyer Touchpoints Report folder or the six "_[!DNL Marketo Measure] 101…_" reports within that folder, reach out to support for assistance._
 
 **Leads with Buyer Touchpoints** | The following two variations, report on Leads and their Buyer Touchpoints. Although they use the same base report type, they are grouped by different metrics, Lead ID vs Marketing Channel, to provide two key views of the data. This report type is designed for top of funnel reporting and is ideal when looking to explore how your Leads are engaging with your marketing efforts. Before any customization, the two reports below display the following:
 
@@ -47,6 +47,6 @@ The following two report variations use the same report type, but are grouped by
 
 It's considered a best practice to treat the "_[!DNL Marketo Measure] 101…_" reports as templates for your reporting needs. Starting with one of the reports above will save you time and ensure that you are working with the correct fields related to [!DNL Marketo Measure] data. Always make sure you "Save As" any time you make customizations to the "_[!DNL Marketo Measure] 101…_" templates in order to retain the original variation of the report.
 
-The "Buyer Touchpoint Reports" folder is designed to help you get started on your [!DNL Marketo Measure] reporting, for actionable reports you will need to customize those reports so that they are tailored to your reporting needs. You'll need to add necessary filters to ensure the records within the report (and their related touchpoints) are aligned with your reporting goal.
+The "Buyer Touchpoint Reports" folder is designed to help you get started on your [!DNL Marketo Measure] reporting, for actionable reports you will need to customize those reports so that they are tailored to your reporting needs. you will need to add necessary filters to ensure the records within the report (and their related touchpoints) are aligned with your reporting goal.
 
 Once you're familiar with the "_[!DNL Marketo Measure] 101…_" reports, you may want to recreate them from custom report types for more custom reporting needs. Creating the [[!DNL Marketo Measure] Custom Report Types](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) will allow you to pull in custom fields that you might commonly use in other CRM reports. This will help you take you [!DNL Marketo Measure] reporting to the next level!

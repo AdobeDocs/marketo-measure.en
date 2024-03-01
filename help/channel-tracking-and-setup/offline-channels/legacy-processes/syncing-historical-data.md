@@ -1,6 +1,6 @@
 ---
 unique-page-id: 42762310
-description: Syncing Historical Data - [!DNL Marketo Measure] - Product Documentation
+description: Syncing Historical Data - [!DNL Marketo Measure]
 title: Syncing Historical Data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
@@ -17,7 +17,7 @@ feature: Channels
 
 **Is the data already organized into campaigns?**
 
-a. The data needs to be organized into Campaigns to be synced to [!DNL Marketo Measure] in order to have Touchpoints generated. If it's not currently organized into Campaigns, you'll want to evaluate if it's worth the time and resources needed to segment the data into the appropriate campaigns.
+a. The data needs to be organized into Campaigns to be synced to [!DNL Marketo Measure] in order to have Touchpoints generated. If it's not currently organized into Campaigns, you will want to evaluate if it's worth the time and resources needed to segment the data into the appropriate campaigns.
 
 b. The date the member was added to the campaign or marked as responded will be used for the Touchpoint date, so this needs to be accurate as well. [!DNL Marketo Measure] offers workarounds in both SFDC and MSD to update the dates, but this could be time-consuming depending on the volume.
 
@@ -27,7 +27,7 @@ It's important to have a balanced picture of attribution in order to have accura
 
 **What level of granularity are you expecting?**
 
-You'll essentially know the Channel, Subchannel, and Campaign name only.
+You will essentially know the Channel, Subchannel, and Campaign name only.
 
 **What are your reporting goals in the future?**
 
@@ -61,15 +61,15 @@ The channel mapping component for historical online data can be a bit tricky. We
 
 Online data added in this way will inherently be less granular than online data [!DNL Marketo Measure] tracks via JavaScript. For example, fields such as Form URL, Landing Page, Referrer Page, etc will not be populated. Therefore, it is recommended to break out the campaigns into each source if possible. As seen in the example above, you'd need to have multiple Campaign Types for each source in order to have granularity in reporting.
 
-It might not be possible or reasonable to have the number of SFDC Campaign Types to support granular channel mapping, so you may resort to just mapping to the Channel level and ignoring subchannels. If the Channel level isn't known either, you could set up a proxy channel like "Historic Digital" so that you at least know it was an online touch.
+It might not be possible or reasonable to have the number of SFDC Campaign Types to support granular channel mapping, so you may resort to just mapping to the Channel level and ignoring subchannels. If the Channel level is not known either, you could set up a proxy channel like "Historic Digital" so that you at least know it was an online touch.
 
-If you need to mass edit the touchpoint date that will be pushed for these historical online efforts, please use the [!DNL Marketo Measure] custom "[!UICONTROL Bulk Update Touchpoint Date]" button (this is available as a custom field on the Campaign Object in SFDC). If the Campaign has a short time span, perhaps it would be worthwhile to mass edit the Touchpoint date on a day by day interval, while it might make sense to mass update on a weekly basis if the Campaign has a longer time span. If you do leverage the Bulk Update Touchpoint Date functionality, make sure to update the Campaign Sync Rule to use the Buyer Touchpoint Date on the date field. Note that this could require getting creative with your Campaign Sync rules if this will only apply to a Campaign or two and not all.
+If you need to mass edit the touchpoint date that will be pushed for these historical online efforts, use the [!DNL Marketo Measure] custom "[!UICONTROL Bulk Update Touchpoint Date]" button (this is available as a custom field on the Campaign Object in SFDC). If the Campaign has a short time span, perhaps it would be worthwhile to mass edit the Touchpoint date on a day by day interval, while it might make sense to mass update on a weekly basis if the Campaign has a longer time span. If you do use the Bulk Update Touchpoint Date functionality, make sure to update the Campaign Sync Rule to use the Buyer Touchpoint Date on the date field. Note that this could require getting creative with your Campaign Sync rules if this will only apply to a Campaign or two and not all.
 
 **Offline:**
 
-Historical data of offline marketing efforts (those that cannot be tracked via JavaScript) will also need to be organized into SFDC campaigns. SFDC campaigns are the way [!DNL Marketo Measure] tracks offline efforts regardless of if the activity is "historical" or "current/post-[!DNL Marketo Measure] implementation" so please follow the same channel mapping decided on in the original Offline Channel Configuration training.
+Historical data of offline marketing efforts (those that cannot be tracked via JavaScript) will also need to be organized into SFDC campaigns. SFDC campaigns are the way [!DNL Marketo Measure] tracks offline efforts regardless of if the activity is "historical" or "current/post-[!DNL Marketo Measure] implementation" so follow the same channel mapping decided on in the original Offline Channel Configuration training.
 
-If necessary, use the "Bulk Update Touchpoint Date" button to mass edit the touchpoint date for campaign members. For example, if you are creating SFDC campaigns after the event occurred--you'd want to mass edit for the correct date. If you do leverage the Bulk Update Touchpoint Date functionality, make sure to update the Campaign Sync Rule to use the Buyer Touchpoint Date on the date field. Note that this could require getting creative with your Campaign Sync rules if this will only apply to a Campaign or two and not all.
+If necessary, use the "Bulk Update Touchpoint Date" button to mass edit the touchpoint date for campaign members. For example, if you are creating SFDC campaigns after the event occurred--you'd want to mass edit for the correct date. If you do use the Bulk Update Touchpoint Date functionality, make sure to update the Campaign Sync Rule to use the Buyer Touchpoint Date on the date field. Note that this could require getting creative with your Campaign Sync rules if this will only apply to a Campaign or two and not all.
 
 ## Syncing Historic Campaigns in [!DNL Dynamics] {#syncing-historic-campaigns-in-dynamics}
 
@@ -77,13 +77,13 @@ If necessary, use the "Bulk Update Touchpoint Date" button to mass edit the touc
 
 This usually involves work in the CRM to account for historical dates. The handling will also be different for online efforts (tracked by JS) and offline efforts (not able to be tracked by JS).
 
-Please follow the instructions below for organizing historical data in [!DNL Dynamics] in a format that can be synced to [!DNL Marketo Measure].
+Follow the instructions below for organizing historical data in [!DNL Dynamics] in a format that can be synced to [!DNL Marketo Measure].
 
 **Online:**
 
 Historic digital data needs to be organized into [!DNL Dynamics] campaigns in order to be backfilled. Ideally, this structure is already in place.
 
-If the data is housed elsewhere (such as still living in Marketing Automation) it will need to be pushed into [!DNL Dynamics] and organized into the appropriate campaigns. Then you'll need to account for the Touchpoint Date as you want it to reflect the date from the past, not the date you pushed it into [!DNL Dynamics]. To override this date, you can use the custom "Buyer Touchpoint Date" field to change the date. You will need to add this to the Marketing List Form.
+If the data is housed elsewhere (such as still living in Marketing Automation) it will need to be pushed into [!DNL Dynamics] and organized into the appropriate campaigns. Then you will need to account for the Touchpoint Date as you want it to reflect the date from the past, not the date you pushed it into [!DNL Dynamics]. To override this date, you can use the custom "Buyer Touchpoint Date" field to change the date. You will need to add this to the Marketing List Form.
 
 ![](assets/syncing-historical-data-2.png)
 

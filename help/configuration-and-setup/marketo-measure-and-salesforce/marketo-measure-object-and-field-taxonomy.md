@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Object and Field Taxonomy - [!DNL Marketo Measure] - Product Documentation"
+description: "[!DNL Marketo Measure] Object and Field Taxonomy - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Object and Field Taxonomy"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
@@ -19,7 +19,7 @@ Definitions of the [!DNL Marketo Measure] fields that live in each object [can b
 
 **What is the logic in the arrows?**
 
-Each arrow describes the relationship between an object and the other. For example, you'll see that the [!DNL Marketo Measure] Person populates fields on the standard [!DNL Salesforce] Lead Object. If it's pointing to it, then it means that it's populating the receiving end of the arrow.
+Each arrow describes the relationship between an object and the other. For example, you see that the [!DNL Marketo Measure] Person populates fields on the standard [!DNL Salesforce] Lead Object. If it's pointing to it, then it means that it's populating the receiving end of the arrow.
 
 **What is the [!DNL Marketo Measure] Person?**
 

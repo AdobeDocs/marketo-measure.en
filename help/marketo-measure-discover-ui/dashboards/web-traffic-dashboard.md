@@ -96,7 +96,7 @@ Table displaying Total Visits and Unique Visitors by Referrers.
 
 Bar chart displaying Visits or Unique Visitors segmented by Channel/Subchannel/Campaign.
 
-* Leverage the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
+* use the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
 * Hover over each bar to view the Visits or Unique Visitors.
 
 Questions the chart answers:

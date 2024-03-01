@@ -39,7 +39,7 @@ The ROI Dashboard provides marketers with a granular view of returns on investme
 
 Bar chart illustrating cost and revenue, designed to offer a comparative perspective on their magnitude relative to various channels, subchannels, and campaigns.
 
-* Leverage the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
+* use the drill-down and up functionalities to categorize the data by Subchannel and Campaign.
 * Hover over each bar to view the Simple and Realized ROIs.
 
 **Questions the chart answers**
@@ -66,7 +66,7 @@ Time series line chart displaying the comparison between Realized and Simple ROI
 
 Stacked bar chart displaying Total Costs, segmented by associated Channels for each Month/Quarter/Year.
 
-* Leverage the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a bar segment or the space between bars to reveal detailed information.
 
 **Questions the chart answers**
@@ -80,7 +80,7 @@ Stacked bar chart displaying Total Costs, segmented by associated Channels for e
 
 Bar chart displaying marketing spend segmented by Channel/Subchannel/Campaign.
 
-* Leverage the drill-down and up functionalities to categorize the data by Channel/Subchannel/Campaign.
+* use the drill-down and up functionalities to categorize the data by Channel/Subchannel/Campaign.
 
 **Questions the chart answers**
 
