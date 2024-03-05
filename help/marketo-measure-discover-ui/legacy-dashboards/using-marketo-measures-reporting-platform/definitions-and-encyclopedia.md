@@ -911,7 +911,7 @@ A: Yes, if you click any of the column headers, it will sort the table. If you c
 
 **Q: Can I export the data?**
 
-A: Yes, when hovering over the tile title (e.g., 'Accounts'), click on the three vertical dots in the upper right-hand corner. This will enable you to download the data for that tile in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
+A: Yes, when hovering over the tile title (e.g., 'Accounts'), click the three vertical dots in the upper right-hand corner. This will enable you to download the data for that tile in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
 
 **Q: Can I see beyond 500 rows of data?**
 
@@ -1101,7 +1101,7 @@ A: Using the 'Marketing Touch Type' filter, set the filter to 'doesn't contain W
 
 **Q: Can I export the data?**
 
-A: Yes, when hovering over the 'Journey of Events' table, click on the three vertical dots in the upper right-hand corner. This will enable you to download the data in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
+A: Yes, when hovering over the 'Journey of Events' table, click the three vertical dots in the upper right-hand corner. This will enable you to download the data in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
 
 **Q: Can I change how the table is sorted?**
 

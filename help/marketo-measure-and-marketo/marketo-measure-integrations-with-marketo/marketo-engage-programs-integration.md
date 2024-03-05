@@ -69,7 +69,7 @@ After you've created some rules, you may want to test it out to verify that your
 
    ![](assets/nine.png)
 
-   You can click on the Member Count to see a list of Marketo People Ids that are eligible within the program.
+   You can click the Member Count to see a list of Marketo People Ids that are eligible within the program.
 
    ![](assets/ten.png)
 

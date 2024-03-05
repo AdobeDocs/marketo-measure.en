@@ -17,7 +17,7 @@ The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platfor
 
 Let's see how you can create Access and Delete requests.
 
-## Required setup to send requests for Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
+## Required set up to send requests for Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 To make requests to Access and Delete data for [!DNL Marketo Measure], you must:
 

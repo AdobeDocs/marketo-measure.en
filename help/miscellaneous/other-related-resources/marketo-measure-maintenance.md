@@ -7,15 +7,15 @@ feature: Tracking
 ---
 # [!DNL Marketo Measure] Maintenance {#marketo-measure-maintenance}
 
-[!DNL Marketo Measure] pulls almost everything it needs from your CRM on a daily basis, but there are a few maintenance tasks you will want to schedule regularly to keep [!DNL Marketo Measure] humming along and outputting the most accurate information possible.
+[!DNL Marketo Measure] pulls almost everything that it needs from your CRM on a daily basis, but there are a few maintenance tasks you should schedule regularly to keep [!DNL Marketo Measure] humming along and outputting the most accurate information possible.
 
 **Sync Buyer Touchpoints for new offline campaigns (2x/month)**
 
-As you learned during onboarding, [!DNL Marketo Measure] gets information about your offline marketing efforts by syncing with your CRM's campaigns. As your organization kicks off new campaigns, be sure to enable Buyer Touchpoints for each campaign as appropriate. Check out [this article](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)for more information.
+As you learned during onboarding, [!DNL Marketo Measure] gets information about your offline marketing efforts by syncing with your CRM's campaigns. As your organization kicks off new campaigns, be sure to enable Buyer Touchpoints for each campaign as appropriate. Check out [this article for more information.
 
 **Upload spend for all channels (1x/month)**
 
-To take advantage of full revenue and ROI reporting capabilities for[!DNL Marketo Measure], you need to tell [!DNL Marketo Measure] how much you are spending on each of your marketing channels and subchannels. Designate the owner of each channel/subchannel and having those people report spend to a single party responsible for uploading new cost information on a monthly basis.
+To take advantage of full revenue and ROI reporting capabilities for[!DNL Marketo Measure], you must tell [!DNL Marketo Measure] how much you are spending on each of your marketing channels and subchannels. Designate the owner of each channel/subchannel and having those people report spending to a single party responsible for uploading new cost information on a monthly basis.
 
 Refresh your memory on how to upload cost information by reading [this article](/help/marketing-spend/spend-management/marketing-channel-costs.md).
 
@@ -25,22 +25,22 @@ Marketo Measure tracks all pages and subdomains where our Javascript is active, 
 
 **Review custom channel mapping for accuracy (1x/month)**
 
-During onboarding, you set up custom channel mapping for your online and offline marketing efforts. As your marketing strategy and use of Marketo Measure evolve, you will want to keep an eye on that mapping logic to ensure that all your Touchpoints are being categorized appropriately.
+During onboarding, you set up custom channel mapping for your online and offline marketing efforts. As your marketing strategy and use of Marketo Measure evolve, you want to keep an eye on that mapping logic to ensure that all your Touchpoints are being categorized appropriately.
 
-Remember, [!DNL Marketo Measure] reprocesses your data when you edit mapping logic, so you won't be able to change these rules more than once every 7 days.
+Remember, [!DNL Marketo Measure] reprocesses your data when you edit mapping logic, so you won't be able to change these rules more than once every seven days.
 
 Reference [this article](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) for Online setup, [this article](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md) for Offline setup, and this list of best practices curated from our customers:
 
-* Review Touchpoints that are currently falling into any "Other" or "NULL" channels you may have set up. If appropriate, update your mapping logic to re-categorize those Touchpoints into more accurate channels.
+* Review Touchpoints that are currently falling into any "Other" or "NULL" channels you may have set up. If appropriate, update your mapping logic to recategorize those Touchpoints into more accurate channels.
 * Review Touchpoints that are currently falling into your Direct channels. If some of your email marketing campaigns or other efforts are missing UTM parameters, there's a good chance that traffic is being inappropriately bucketed into a Direct channel. Consider updating your UTM parameters to capture the referring source.
 
 **Evaluate touchpoint suppression settings (1x/quarter)**
 
-If you are seeing a lot of touchpoints that you'd prefer not be considered in your attribution story (from a [!DNL Login] or [!DNL Unsubscribe forms], a Careers page, or an internal app, for example), you may want to evaluate your existing touchpoint suppression settings. Once a quarter, pinpoint any groups of touchpoints that are creating unnecessary noise and update your suppression logic appropriately. [Here's a helpful article](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  with the how-to.
+If you are seeing many touchpoints that you'd prefer not be considered in your attribution story (from a [!DNL Login] or [!DNL Unsubscribe forms], a Careers page, or an internal app, for example), you may want to evaluate your existing touchpoint suppression settings. Once a quarter, pinpoint any groups of touchpoints that are creating unnecessary noise and update your suppression logic appropriately. [Here's a helpful article](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  with the how-to.
 
 **Review custom stage mapping for accuracy (1x/quarter) (if applicable)**
 
-If you are using any custom [!UICONTROL Lead], [!UICONTROL Contact], or [!UICONTROL Opportunities] stages, you may have also customized what part of the pipeline those stages map to and whether or not those stages are included in a custom attribution model. Once a quarter, visit [this article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) to refresh your memory on custom stage mapping and ensure that you are accurately tracking your custom stages.
+If you are using any custom [!UICONTROL Lead], [!UICONTROL Contact], or [!UICONTROL Opportunities] stages, you may have also customized what part of the pipeline those stages map to and whether those stages are included in a custom attribution model. Once a quarter, visit [this article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) to refresh your memory on custom stage mapping and ensure that you are accurately tracking your custom stages.
 
 **Compare Machine Learning Model to Custom Model weighting (1x/quarter) (if applicable)**
 

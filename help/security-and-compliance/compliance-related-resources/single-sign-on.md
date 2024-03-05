@@ -6,7 +6,7 @@ exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
 ---
 # Single Sign On {#single-sign-on}
 
-SAML (security assertion markup language) for SSO (single sign-on) makes it possible for users to authenticate through a company's identity provider when they log-in to the [!DNL Marketo Measure] app. SSO allows a user to authenticate just once, without needing to authenticate separate apps. SAML is a necessity for enterprise customers because not all users will have a [!DNL Salesforce] or [!DNL Google] account within their organization. In order to scale, [!DNL Marketo Measure] has developed an SAML solution that can support company identity providers.
+SAML (security assertion markup language) for SSO (single sign-on) makes it possible for users to authenticate through a company's identity provider when they log in to the [!DNL Marketo Measure] app. SSO allows a user to authenticate once, without needing to authenticate separate apps. SAML is a necessity for enterprise customers because not all users have a [!DNL Salesforce] or [!DNL Google] account within their organization. To scale, [!DNL Marketo Measure] has developed an SAML solution that can support company identity providers.
 
 >[!CAUTION]
 >
@@ -14,7 +14,7 @@ SAML (security assertion markup language) for SSO (single sign-on) makes it poss
 
 >[!NOTE]
 >
->It's likely that companies use different Identity Providers (e.g., Ping Identity, Okta). The terms used in the following set-up instructions and in the UI may not directly match those used by your Identity Provider.
+>It's likely that companies use different Identity Providers (for example, Ping Identity, Okta). The terms used in the following set-up instructions and in the UI may not directly match those used by your Identity Provider.
 
 ## Requirements {#requirements}
 
@@ -29,7 +29,7 @@ To get started, navigate to Settings > Security > Authentication page in the [!D
 
 ## Process {#process}
 
-[!DNL Marketo Measure] Single Sign On requires configuring your Authentication settings in a series of steps that is important to follow so that you don't risk getting locked out of your [!DNL Marketo Measure] account.
+[!DNL Marketo Measure] Single Sign On requires configuring your Authentication settings in a series of steps so that you don't risk getting locked out of your [!DNL Marketo Measure] account.
 
 Set up the [!DNL Marketo Measure] Application in your Identity Provider. See external documentation listed below for walkthroughs.
 
@@ -113,9 +113,9 @@ Try it out!
 
 ## CRM Users (Advanced Setup) {#crm-users-advanced-setup}
 
-By default, all accounts can access the [!DNL Marketo Measure] application using their CRM credentials. Sometimes, account owners need to limit access to certain roles and not open it to all users with an active CRM license. The Advanced setup will allow you to map your CRM roles and groups to [!DNL Marketo Measure] user permissions.
+By default, all accounts can access the [!DNL Marketo Measure] application using their CRM credentials. Sometimes, account owners need to limit access to certain roles and not open it to all users with an active CRM license. The Advanced setup allows you to map your CRM roles and groups to [!DNL Marketo Measure] user permissions.
 
-If no roles or groups are mapped, the default setting is that all active licenses in your CRM will have Standard user access.
+If no roles or groups are mapped, the default setting is that all active licenses in your CRM have Standard user access.
 
 * [!DNL Marketo Measure] Standard User: Provide the role or group value for users that should have read-only access to the [!DNL Marketo Measure] application.
 * [!DNL Marketo Measure] Account Admin User: Provide the role or group value for users that should have administrative access to the [!DNL Marketo Measure] application. This means that the role has access to change configurations and settings related to your Account.
@@ -138,7 +138,7 @@ For [!DNL Dynamics] Roles, use the name of each Security Role. All Security Role
 
 **Google Users**
 
-Once Custom SSO has been set up, the [!UICONTROL Users] page will be updated to only show external users that have been added with Google logins. Because all users with access are defined through the SSO configuration, additional external users are listed here.
+Once Custom SSO has been set up, the [!UICONTROL Users] page is updated to only show external users that have been added with Google logins. Because all users with access are defined through the SSO configuration, additional external users are listed here.
 
 ![](assets/9.png)
 
@@ -146,7 +146,7 @@ Only valid [!DNL Google] accounts can be added and must have a User Role defined
 
 ## External Links {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Ping Identity](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Ping Identity](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

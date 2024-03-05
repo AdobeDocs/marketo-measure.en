@@ -71,7 +71,7 @@ Once you've edited and updated the spreadsheet with your custom rules, the next 
 
 >[!TIP]
 >
->Want to determine _when_ a [!DNL Salesforce] Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Simply go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "[!UICONTROL Offline Channels]" section. Note, this process can take anywhere from a few minutes up to 48 hours.
+>Want to determine _when_ a [!DNL Salesforce] Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "[!UICONTROL Offline Channels]" section. Note, this process can take anywhere from a few minutes up to 48 hours.
 
 Click **[!UICONTROL Save]** when you are finished and [!DNL Marketo Measure] will upload the changes and reprocess the data.
 

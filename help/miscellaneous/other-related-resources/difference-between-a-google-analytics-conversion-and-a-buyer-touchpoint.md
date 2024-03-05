@@ -11,9 +11,9 @@ Learn what a [!DNL Google Analytics (GA)] goal is and how it differentiates from
 
 **What are Google Analytics' Conversions?**
 
-[!UICONTROL Google Analytics] conversions are completely determined by how a marketer or a web developer codes 'goal' completions on a particular website. Goals, according to Google could be thought of as "making a purchase (for an ecommerce site), completing a game level (for a mobile gaming app), or submitting a contact information form (for a marketing or lead generation site)." Most of the time, marketers see goals/conversions as someone filling out an informational form.
+[!UICONTROL Google Analytics] conversions are determined by how a marketer or a web developer codes 'goal' completions on a particular website. Goals, according to Google, could be thought of as "making a purchase (for an ecommerce site), completing a game level (for a mobile gaming app), or submitting a contact information form (for a marketing or lead generation site)." Most of the time, marketers see goals/conversions as someone filling out an informational form.
 
-However, goals can't be coded to manage very specific behavior. Rather, there are Goal Types that a web developer can configure. Below are some of those examples:
+However, goals can't be coded to manage specific behavior. Rather, there are Goal Types that a web developer can configure. Below are some of those examples:
 
 <table> 
  <colgroup> 
@@ -34,7 +34,7 @@ However, goals can't be coded to manage very specific behavior. Rather, there ar
   </tr> 
   <tr> 
    <td>Duration</td> 
-   <td>Sessions that lasts a specific amount of time or longer</td> 
+   <td>Sessions that last a specific amount of time or longer</td> 
    <td>10 minutes or longer spent on a support site</td> 
   </tr> 
   <tr> 
@@ -52,26 +52,26 @@ However, goals can't be coded to manage very specific behavior. Rather, there ar
 
 Most marketers configure their conversions as "Destination Goals," meaning that they usually create a thank you page after a form to consider that a formal conversion.
 
-What this means, is that Google will consider Thank You page views as a conversion. From a Google Analytics standpoint, this is a realization most marketers are OK with.
+What this means, is that Google considers Thank You page views as a conversion. From a Google Analytics standpoint, this is a realization most marketers are OK with.
 
-However, Buyer Touchpoints act very differently.
+However, Buyer Touchpoints act differently.
 
 **How do Buyer Touchpoints differ?**
 
-[!DNL Marketo Measure] JavaScript tracks session data and form submissions on all forms of a particular site. There's no need to code goals from a [!DNL Marketo Measure] standpoint. This process is automatic. For form submissions, [!DNL Marketo Measure] reports a form completion every time an anonymous user fills out information fields on a particular form and also clicks on the form submission button. [!DNL Marketo Measure] doesn't need a thank you page to record the form submission.
+[!DNL Marketo Measure] JavaScript tracks session data and form submissions on all forms of a particular site. There's no need to code goals from a [!DNL Marketo Measure] standpoint. This process is automatic. For form submissions, [!DNL Marketo Measure] reports a form completion every time an anonymous user fills out information fields on a particular form and also clicks the form submission button. [!DNL Marketo Measure] doesn't need a thank you page to record the form submission.
 
-[!DNL Marketo Measure] will create a form touchpoint when:
+[!DNL Marketo Measure] creates a form touchpoint when:
 
 * A lead/contact that is associated to those conversions appear in your CRM.
 * The [!DNL Marketo Measure] JS is present on the web pages containing the form.
-* A form is submitted within a 30 min session.
+* A form is submitted within a 30-min session.
 
-[!DNL Marketo Measure] will ignore Destination Google Analytic conversions when:
+[!DNL Marketo Measure] ignores Destination Google Analytic conversions when:
 
 * A bot submits forms on a website (these bots usually don't make it into a client's CRM).
 * A user submits more forms after their first form submission. [!DNL Marketo Measure] will only push the first conversion from that session.
-* The user clicks on the form submission multiple times. [!DNL Marketo Measure] will only consider the first form submission.
-* The user re-loads the thank you page multiple times.
+* The user clicks the form submission multiple times. [!DNL Marketo Measure] will only consider the first form submission.
+* The user reloads the thank you page multiple times.
 * The user is using any Ad Blocking tools.
 
-As you can see there are fundamental differences between what GA and [!DNL Marketo Measure] consider a conversion to be. Therefore, it will be very likely that the number of conversions and the number of form Touchpoints will differ.
+As you can see that there are fundamental differences between what GA and [!DNL Marketo Measure] consider a conversion to be. Therefore, it is likely that the number of conversions and the number of form Touchpoints differ.

@@ -440,7 +440,7 @@ This report would be the same as a 'Content' based report at the Lead level. How
 
 >[!TIP]
 >
->You can use this report to gain insight into the total engagement of any marketing dimension from the Buyer Touchpoint object, not only content downloads as presented in the example. The report could instead be grouped or filtered on dimensions like 'Marketing Channel' or 'Ad Campaign Name' to best understand the total engagement from both Leads and Contacts in your database. Simply change the filters or groupings within the report to zero in on other dimensions represented by other fields from the touchpoint object.
+>You can use this report to gain insight into the total engagement of any marketing dimension from the Buyer Touchpoint object, not only content downloads as presented in the example. The report could instead be grouped or filtered on dimensions like 'Marketing Channel' or 'Ad Campaign Name' to best understand the total engagement from both Leads and Contacts in your database. Change the filters or groupings within the report to zero in on other dimensions represented by other fields from the touchpoint object.
 
 **3.2 [!DNL Marketo Measure] Persons who have Registered for an Event (CRM only)**
 

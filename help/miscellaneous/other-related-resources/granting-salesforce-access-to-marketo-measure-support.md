@@ -13,22 +13,22 @@ Granting login access differs slightly depending on whether you are using [!DNL 
 
 ## Granting Login Access in Salesforce Classic {#granting-login-access-in-salesforce-classic}
 
-Depending on your Organization, the [!UICONTROL Setup] button will either be beside your name at the top-right corner of the page, or listed as a drop-down option when you click on your name.
+Depending on your Organization, the [!UICONTROL Setup] button will either be beside your name at the top-right corner of the page, or listed as a drop-down option when you click your name.
 
 1. To access the **Grant Login Access** page in [!DNL Salesforce Classic] User Interface, either:
 
-   * Click on **[!UICONTROL Setup]** > **[!UICONTROL My Personal Information]** > **[!UICONTROL Grant Login Access]**.
+   * Click **[!UICONTROL Setup]** > **[!UICONTROL My Personal Information]** > **[!UICONTROL Grant Login Access]**.
 
       OR
 
-   * Click on `<your name>` > **[!UICONTROL My Settings]** > **[!UICONTROL Personal]** > **[!UICONTROL Grant Account Login Access]**.
+   * Click `<your name>` > **[!UICONTROL My Settings]** > **[!UICONTROL Personal]** > **[!UICONTROL Grant Account Login Access]**.
 
 1. Set the access expiration date for [!UICONTROL Marketo Measure Support]. For technical troubleshooting, we recommend granting [!DNL Marketo Measure] support access for at least one week.
 1. Click **[!UICONTROL Save]**.
 
 ## Granting Login Access in [!DNL Salesforce] Lightning {#granting-login-access-in-salesforce-lightning}
 
-1. Click on your avatar in the top right-hand side of the screen and select **[!UICONTROL Settings]**.
+1. Click your avatar in the top right-hand side of the screen and select **[!UICONTROL Settings]**.
 1. Click **[!UICONTROL Grant Account Login Access]**.
 1. Set the access expiration date for "[!UICONTROL Marketo Measure Support]." For technical troubleshooting, we recommend granting [!DNL Marketo Measure] support access for at least one week.
 1. Click **[!UICONTROL Save]**.
