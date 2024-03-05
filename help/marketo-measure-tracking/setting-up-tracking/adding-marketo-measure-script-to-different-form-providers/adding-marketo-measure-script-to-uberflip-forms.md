@@ -17,7 +17,7 @@ If you are currently using [!DNL Uberflip] to manage your content, it's importan
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   you will add this preamble to both the [!DNL Hubs.onLoad] and the [!DNL Hubs.onPageChange] AJAX Javascript event hooks per below. (Note: You may have other codes in these event hooks as well. Just make sure you include the preamble too.)
+   Add this preamble to both the [!DNL Hubs.onLoad] and the [!DNL Hubs.onPageChange] AJAX JavaScript event hooks per below. (Note: You may have other code in these event hooks as well. Make sure you include the preamble too.)
 
    `Hubs.onLoad = function () {`
 
@@ -31,7 +31,7 @@ If you are currently using [!DNL Uberflip] to manage your content, it's importan
 
    `}`
 
-1. Create and define a function that will push data to Bizible upon a Form CTA submit. This goes into the [!UICONTROL Custom Code>Javascript] section. (Note: this function only requires the ctaData parameter Uberflip provides, but you can include the other parameters ctaId and ctaName in case the user wants to customize their code to pass this data as well).
+1. Create and define a function that pushes data to Bizible upon a Form CTA submission. This goes into the [!UICONTROL Custom Code>JavaScript] section. (Note: this function only requires the ctaData parameter Uberflip provides, but you can include the other parameters ctaId and ctaName in case the user wants to customize their code to pass this data as well).
 
    `function bizibleFormCode(ctaId, ctaData, ctaName) {`
    `var email = ctaData["email"];`
@@ -42,7 +42,7 @@ If you are currently using [!DNL Uberflip] to manage your content, it's importan
 
    `}`
 
-1. When a Form CTA is submitted, make sure your [!DNL Marketo Measure] function is executed per below. This is done within the [!UICONTROL Custom Code>JS] section. (Note: You might have other code within the Hubs.onCtaFormSubmitSuccess javascript event hook, just make sure you include this function call as well).
+1. When a Form CTA is submitted, make sure your [!DNL Marketo Measure] function is executed per below. This is done within the [!UICONTROL Custom Code>JS] section. (Note: You might have other code within the Hubs.onCtaFormSubmitSuccess JavaScript event hook, make sure you include this function call as well).
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {`
    `bizibleFormCode(ctaId, ctaData, ctaName);`\

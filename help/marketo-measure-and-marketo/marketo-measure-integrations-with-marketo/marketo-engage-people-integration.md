@@ -30,7 +30,7 @@ In order for us to detect these duplicates, make sure your [!DNL Marketo-Salesfo
 
 ![](assets/5b.png)
 
-Customers have the option of reporting the full set of Marketo people and CRM people inside of [!DNL Marketo Measure] Discover. If you're interested in reporting on CRM people only, we recommend creating a Segment to filter them.
+Customers have the option of reporting the full set of Marketo people and CRM people inside of [!DNL Marketo Measure] Discover. If you are interested in reporting on CRM people only, we recommend creating a Segment to filter them.
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 

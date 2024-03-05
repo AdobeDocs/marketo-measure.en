@@ -16,7 +16,7 @@ Online Channel rules are the guidelines for how [!DNL Marketo Measure] maps your
 
 ## Best Practice {#best-practice}
 
-Whether you're setting up your rules for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
+Whether you are setting up your rules for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
 
 Take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. Determine which Channels and Subchannels should be represented in your Online Channels and what campaigns, UTM parameters, or referring websites differentiate those channels from one another.
 

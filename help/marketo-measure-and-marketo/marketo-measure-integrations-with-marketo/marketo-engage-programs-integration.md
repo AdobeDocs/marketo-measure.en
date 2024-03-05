@@ -81,7 +81,7 @@ From the list of Marketo Program Channels, you will want to map the values to th
 
 1. At the top, you will have the option to map to your CRM Campaign Types, then down below, you will see the options for your Marketo Program Channels.
 
-1. First select the Channel that should map to the value, then optionally select the Subchannel. Once you're done, click **[!UICONTROL Save]** at the bottom.
+1. First select the Channel that should map to the value, then optionally select the Subchannel. Once you are done, click **[!UICONTROL Save]** at the bottom.
 
    ![](assets/eleven.png)
 
@@ -171,4 +171,4 @@ Due to technical limitations, we are unable to support Program Membership Custom
 
 **How do I know whether to use Programs or Activities?**
 
-The [!DNL Marketo Engage] Programs Integration is a simple way to generate touchpoints based on whether or not a Person is a program member of a program. If you're interested in defining a rule based on the time a Person changes to a particular Program status, the [!DNL Marketo Engage] Activities Integration will be the setup you will want, specifically the "Change Status in Progression" activity type.
+The [!DNL Marketo Engage] Programs Integration is a simple way to generate touchpoints based on whether or not a Person is a program member of a program. If you are interested in defining a rule based on the time a Person changes to a particular Program status, the [!DNL Marketo Engage] Activities Integration will be the setup you will want, specifically the "Change Status in Progression" activity type.

@@ -25,7 +25,7 @@ By default, [!DNL Marketo Measure] exports 200 records per API credit each time 
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-When modifying this setting, keep in mind that smaller batch sizes consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
+When modifying this setting, keep in mind that smaller batch sizes consume more API credits from your CRM. It's advisable to reduce the batch size only if you are experiencing CPU timeout or high CPU load in your CRM.
 
 ## Salesforce Standard Objects and Access {#salesforce-standard-objects-and-access}
 

@@ -27,10 +27,10 @@ In your [!DNL Marketo Measure] app, the [!UICONTROL Touchpoint Settings] section
 
 ## Best Practice {#best-practice}
 
-Whether you're establishing Touchpoint Setting rules for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
+Whether you are establishing Touchpoint Setting rules for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
 
 * Establish the list of data you want to suppress or remove prior to creating the rules
-* Identify exactly what fields will clearly denote the rule or rules you're setting up
+* Identify exactly what fields will clearly denote the rule or rules you are setting up
 * Make sure you have specified the correct operator for the rule
 * Utilizing the key above, make sure your rule is specified in the correct section of the Touchpoint Settings
 * Test your rules before implementing them by replicating the rule logic in a Buyer touchpoint report in CRM to ensure it is suppressing or removing the desired data

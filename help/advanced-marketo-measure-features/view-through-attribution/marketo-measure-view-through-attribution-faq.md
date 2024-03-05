@@ -17,7 +17,7 @@ Historically, re-targeting or impression advertising has been difficult for mark
 
 ## What is involved in setting this up? {#what-is-involved-in-setting-this-up}
 
-In order for [!DNL Marketo Measure] to start measuring the ad impressions, there is an impression tag that needs to be placed in Doubleclick Campaign Manager. Once the tag is implemented, the impressions are stored in our logs and we take care of the rest. Reach out to your Success Manager if you're interested in measuring view through attribution.
+In order for [!DNL Marketo Measure] to start measuring the ad impressions, there is an impression tag that needs to be placed in Doubleclick Campaign Manager. Once the tag is implemented, the impressions are stored in our logs and we take care of the rest. Reach out to your Success Manager if you are interested in measuring view through attribution.
 
 ## Which ad platforms are supported? {#which-ad-platforms-are-supported}
 

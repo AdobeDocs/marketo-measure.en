@@ -23,4 +23,4 @@ Learn how to enable the permission to edit converted lead records in [!DNL Sales
 
    ![](assets/3-1.png)
 
-And you're done!
+And you are done!

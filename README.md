@@ -21,7 +21,7 @@ Minor corrections or clarifications you submit for documentation and code exampl
 
 ### Major changes or new articles from community members
 
-If you're part of the Adobe community and you want to create a new article or submit major changes, use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you will need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
+If you are part of the Adobe community and you want to create a new article or submit major changes, use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you will need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you will see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.

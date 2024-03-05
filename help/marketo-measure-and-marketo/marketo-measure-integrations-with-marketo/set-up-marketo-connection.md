@@ -29,11 +29,11 @@ Here's how to set up your connection to Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. In a new tab, log in to your Marketo Engage account. Go to **Admin** > **Web Services**. Scroll down to REST API. Highlight and save the Endpoint and Identity Service URL. you will need them in a bit.
+1. In a new tab, log in to your Marketo Engage account. Go to **Admin** > **Web Services**. Scroll down to REST API. Highlight and save the Endpoint and Identity Service URL. You need them in the following steps.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Still in Marketo Engage, select **LaunchPoint** in the tree on the left. Find the custom service you want to connect to Marketo Measure and click **View Details**.
+1. Still in Marketo Engage, select **LaunchPoint** in the tree on the left. Find the custom service that you want to connect to Marketo Measure and click **View Details**.
 
    ![](assets/set-up-marketo-connection-6.png)
 
@@ -41,14 +41,14 @@ Here's how to set up your connection to Marketo.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. Back in [!DNL Marketo Measure], populate the fields with the data you just collected.
+1. Back in [!DNL Marketo Measure], populate the fields with the data you collected.
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. After you enter the values, click **[!UICONTROL Authenticate]**. Your Marketo Engage account will then be connected to [!DNL Marketo Measure].
+1. After you enter the values, click **[!UICONTROL Authenticate]**. Your Marketo Engage account is connected to [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure] will make calls to the Marketo API on your behalf without consuming any of your Marketo API limits, so there's no need to worry about caps and credit allocation with other integrations.
+   >[!DNL Marketo Measure] makes calls to the Marketo API on your behalf without consuming any of your Marketo API limits, so there's no need to worry about caps and credit allocation with other integrations.

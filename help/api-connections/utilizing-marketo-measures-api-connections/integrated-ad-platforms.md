@@ -83,7 +83,7 @@ Keep in mind that you should add tracking templates at the [!UICONTROL Account],
 
    >[!TIP]
    >
-   >If you're getting an error saying that the Tracking Template is invalid, try clearing your browser cache and trying again - this often solves the issue.
+   >If you are getting an error saying that the Tracking Template is invalid, try clearing your browser cache and trying again - this often solves the issue.
 
 ## How to Automatically Generate UTM Tags for [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
 

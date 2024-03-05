@@ -15,7 +15,7 @@ As you learned during onboarding, [!DNL Marketo Measure] gets information about 
 
 **Upload spend for all channels (1x/month)**
 
-To take advantage of full revenue and ROI reporting capabilities for[!DNL Marketo Measure], you need to tell [!DNL Marketo Measure] how much you're spending on each of your marketing channels and subchannels. We recommend designating the owner of each channel/subchannel and having those people report spend to a single party responsible for uploading new cost information on a monthly basis.
+To take advantage of full revenue and ROI reporting capabilities for[!DNL Marketo Measure], you need to tell [!DNL Marketo Measure] how much you are spending on each of your marketing channels and subchannels. Designate the owner of each channel/subchannel and having those people report spend to a single party responsible for uploading new cost information on a monthly basis.
 
 Refresh your memory on how to upload cost information by reading [this article](/help/marketing-spend/spend-management/marketing-channel-costs.md).
 
@@ -36,14 +36,14 @@ Reference [this article](/help/channel-tracking-and-setup/online-channels/online
 
 **Evaluate touchpoint suppression settings (1x/quarter)**
 
-If you're seeing a lot of touchpoints that you'd prefer not be considered in your attribution story (from a [!DNL Login] or [!DNL Unsubscribe forms], a Careers page, or an internal app, for example), you may want to evaluate your existing touchpoint suppression settings. Once a quarter, pinpoint any groups of touchpoints that are creating unnecessary noise and update your suppression logic appropriately. [Here's a helpful article](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  with the how-to.
+If you are seeing a lot of touchpoints that you'd prefer not be considered in your attribution story (from a [!DNL Login] or [!DNL Unsubscribe forms], a Careers page, or an internal app, for example), you may want to evaluate your existing touchpoint suppression settings. Once a quarter, pinpoint any groups of touchpoints that are creating unnecessary noise and update your suppression logic appropriately. [Here's a helpful article](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  with the how-to.
 
 **Review custom stage mapping for accuracy (1x/quarter) (if applicable)**
 
-If you're using any custom [!UICONTROL Lead], [!UICONTROL Contact], or [!UICONTROL Opportunities] stages, you may have also customized what part of the pipeline those stages map to and whether or not those stages are included in a custom attribution model. Once a quarter, visit [this article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) to refresh your memory on custom stage mapping and ensure that you're accurately tracking your custom stages.
+If you are using any custom [!UICONTROL Lead], [!UICONTROL Contact], or [!UICONTROL Opportunities] stages, you may have also customized what part of the pipeline those stages map to and whether or not those stages are included in a custom attribution model. Once a quarter, visit [this article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) to refresh your memory on custom stage mapping and ensure that you are accurately tracking your custom stages.
 
 **Compare Machine Learning Model to Custom Model weighting (1x/quarter) (if applicable)**
 
-If you're licensed for the [!DNL Marketo Measure] Custom Model, you also have data available from our Machine Learning Model (MLM) in [!UICONTROL Settings] > [!UICONTROL Attribution Settings]. The MLM calculates the importance of each stage using touchpoint data from your account, and may help you decide how to allocate attribution weight in your Custom Model. We recommend comparing the MLM to your Custom Model once a quarter, and discussing the implications of potential changes to your Custom Model with your SM.
+If you are licensed for the [!DNL Marketo Measure] Custom Model, you also have data available from our Machine Learning Model (MLM) in [!UICONTROL Settings] > [!UICONTROL Attribution Settings]. The MLM calculates the importance of each stage using touchpoint data from your account, and may help you decide how to allocate attribution weight in your Custom Model. We recommend comparing the MLM to your Custom Model once a quarter, and discussing the implications of potential changes to your Custom Model with your SM.
 
 For more information about the [!DNL Marketo Measure] Machine Learning Model, check out [this article](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).

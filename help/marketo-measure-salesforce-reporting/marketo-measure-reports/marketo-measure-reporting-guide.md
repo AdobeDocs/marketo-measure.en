@@ -14,7 +14,7 @@ Before building a [!DNL Marketo Measure] report, it's most crucial to confirm yo
 
 **Establish Goals**: "The first question to ask is 'why do we measure?' Lori Wizdo of [Forrester Research](https://go.forrester.com/) summed it up nicely in a [Marketo webinar](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). According to her, 'we measure to prove or validate a decision or the value of marketing or to get better (process improvement).' We would add that the insights from good measurement also provide input and guidance into the marketing planning process.
 
-So before you begin, it's essential to be crystal clear on your goals, the questions you're trying to answer, or the problems you're attempting to solve. What story do you want to tell? What decisions will be made as a result? Too often these fundamentals are poorly thought out, leading to frustration for all involved."
+So before you begin, it's essential to be crystal clear on your goals, the questions you are trying to answer, or the problems you are attempting to solve. What story do you want to tell? What decisions will be made as a result? Too often these fundamentals are poorly thought out, leading to frustration for all involved."
 
 **Report Design**: "Next, you need to design the report and determine the specific dimensions, metrics, and dataset it will contain. A common experience is to provide a business user with exactly what they ask for, only for them to still feel that their needs are unmet. This is because the insight a business user is actually looking for is not always contained in the report they request. A good analyst (or a MOPS person with an analyst hat on) will ask clarifying questions, establish common definitions ("so, what do you really mean by lead?"), and even sketch out a visual of the final report to make sure there's alignment. Only then do you build the report, knowing you have a solid set of requirements."
 
@@ -39,7 +39,7 @@ an offline campaign or activity.
 
 >[!NOTE]
 >
->BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you will want to use one or the other depending on what questions you're trying to answer: questions related to 'People' metrics (BT reports), or questions related to 'Opportunity' metrics (BAT reports)
+>BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you will want to use one or the other depending on what questions you are trying to answer: questions related to 'People' metrics (BT reports), or questions related to 'Opportunity' metrics (BAT reports)
 
 Support Article: [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
@@ -160,7 +160,7 @@ For more granular insight into the data summarized in the 'New Leads by Marketin
 
 >[!TIP]
 >
->Get even more granular insight by summarizing the report with other available fields from the Buyer Touchpoint object. Do this by setting additional groupings (CRM) or dimensions (Discover). Depending on the channel (which may be representative of your role), there may be additional details beyond the campaign level in which you're looking to gain insight. Let's drill into 'Paid Search' for example in the table below...
+>Get even more granular insight by summarizing the report with other available fields from the Buyer Touchpoint object. Do this by setting additional groupings (CRM) or dimensions (Discover). Depending on the channel (which may be representative of your role), there may be additional details beyond the campaign level in which you are looking to gain insight. Let's drill into 'Paid Search' for example in the table below...
 
 <table> 
  <tbody>
@@ -324,7 +324,7 @@ This approach towards measuring marketing's impact on influencing MQLs is essent
   </tr>
   <tr>
    <td>Date Field / Date Type</td> 
-   <td>MQL Date (or equivalent) / Created Date ([!DNL Marketo Measure] Discover)<br> <i>Lead Created Date could also be used in CRM reporting if 'MQL Date' is not an option in your CRM. It's important to keep in mind what Date Field you're using at it defines the cohorted data set.</i></td> 
+   <td>MQL Date (or equivalent) / Created Date ([!DNL Marketo Measure] Discover)<br> <i>Lead Created Date could also be used in CRM reporting if 'MQL Date' is not an option in your CRM. It's important to keep in mind what Date Field you are using at it defines the cohorted data set.</i></td> 
   </tr>
   <tr>
    <td>Date Range</td> 
@@ -610,7 +610,7 @@ Summarizing your Opportunities' Buyer Attribution Touchpoint data by the field '
 
 >[!TIP]
 >
->Get even more granular insight by summarizing the report with other available fields from the Buyer Attribution Touchpoint object. This is done in the same way it was at the Lead level with Buyer Touchpoints (1.2). Do this by adding additional groupings (CRM) or dimensions (Discover). Depending on the channel (which may be representative of your role), there may be additional details beyond the campaign level in which you're looking to gain more insight. Let's drill into 'Paid Search' below:
+>Get even more granular insight by summarizing the report with other available fields from the Buyer Attribution Touchpoint object. This is done in the same way it was at the Lead level with Buyer Touchpoints (1.2). Do this by adding additional groupings (CRM) or dimensions (Discover). Depending on the channel (which may be representative of your role), there may be additional details beyond the campaign level in which you are looking to gain more insight. Let's drill into 'Paid Search' below:
 
 <table> 
  <tbody>
@@ -710,7 +710,7 @@ The [!DNL Marketo Measure] Discover dashboards are comprised of Buyer Touchpoint
 
 >[!TIP]
 >
->One of the most important things to remember when reporting in Discover is which Data Type you're using to filter. Date Type will dictate which data set [!DNL Marketo Measure] is using in the various tiles.
+>One of the most important things to remember when reporting in Discover is which Data Type you are using to filter. Date Type will dictate which data set [!DNL Marketo Measure] is using in the various tiles.
 
 * **Touchpoint Date**: Displays the related data that had a 'Touchpoint Date' in the timeframe specified
 * **Created Date**: Displays the related data that had a 'Created Date' in the timeframe specified

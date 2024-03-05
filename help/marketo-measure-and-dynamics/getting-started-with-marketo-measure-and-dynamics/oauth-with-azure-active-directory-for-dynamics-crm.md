@@ -9,7 +9,7 @@ feature: Microsoft Dynamics
 
 ## Who's Affected {#who-s-affected}
 
-This setup is for new [!DNL Marketo Measure] customers using Dynamics CRM with an [!DNL Azure Active Directory] (AAD) account, or for customers that want to migrate from their legacy username and password login to [!DNL Azure Active Directory] with OAuth.
+This setup is for new [!DNL Marketo Measure] customers using Dynamics CRM with an [!DNL Azure Active Directory] (AAD) account, or for customers that want to migrate from their legacy username and password to [!DNL Azure Active Directory] with OAuth.
 
 >[!NOTE]
 >
@@ -17,9 +17,9 @@ This setup is for new [!DNL Marketo Measure] customers using Dynamics CRM with a
 
 ## Set Up New Application {#set-up-new-application}
 
-1. Sign-in to your [Azure Portal](https://portal.azure.com/#home).
+1. Sign in to your [Azure Portal](https://portal.azure.com/#home).
 
-1. Choose your Azure AD tenant by clicking on your account in the top-right corner of the page, followed by clicking on the Switch Directory navigation and then selecting the appropriate tenant (skip this step if you only have one Azure AD tenant under your account or if you've already selected the appropriate Azure AD tenant).
+1. Choose the Azure AD tenant by clicking your account in the top-right corner of the page, followed by clicking the Switch Directory navigation and then selecting the appropriate tenant. Skip this step if you only have one Azure AD tenant under your account or if you've already selected the appropriate Azure AD tenant.
 
    ![](assets/setup-2.png)
 
@@ -35,12 +35,12 @@ This setup is for new [!DNL Marketo Measure] customers using Dynamics CRM with a
 
    ![](assets/setup-5.png)
 
-1. Follow the prompts and create a new application. It doesn't matter if it's a web application or a public client (mobile & desktop) application, but if you'd like specific examples for web applications or public client applications, check out our [quickstarts](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-overview).  
+1. Follow the prompts and create an application. It doesn't matter if it's a web application or a public client (mobile & desktop) application, but if you'd like specific examples for web applications or public client applications, check out the [quickstarts](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).  
    a. Name is the application name and describes your application to end users.  
    b. Under Supported account types, select Accounts in any organizational directory and personal Microsoft accounts.  
-   c. Provide the Redirect URI. For Web Applications, this is the base URL of your app where users can sign in. For example, `http://localhost:12345`. For public client (mobile & desktop), Azure AD uses it to return token responses. Enter a value specific to your application. For example, `http://MyFirstAADApp`.
+   c. Provide the Redirect URI. For Web Applications, this is the base URL of your app where users can sign in. For example, `http://localhost:12345`. For public clients (mobile & desktop), Azure AD uses it to return token responses. Enter a value specific to your application. For example, `http://MyFirstAADApp`.
 
-1. Once you've completed registration, Azure AD will assign your application a unique client identifier (the Application ID). You need this value in the next section, so copy it from the application page.
+1. Once you've completed registration, Azure AD assigns your application a unique client identifier (the Application ID). You need this value in the next section, so copy it from the application page.
 
 1. To find your application in the Azure portal, click **[!UICONTROL App Registrations]**, then click **[!UICONTROL All Applications]**. Open your newly created application
 
@@ -52,7 +52,7 @@ This setup is for new [!DNL Marketo Measure] customers using Dynamics CRM with a
 
    ![](assets/setup-10.png)
 
-1. Navigate to the API Permissions tab and make sure the correct permissions are assigned to the application.
+1. Navigate to the API Permissions tab and make sure that the correct permissions are assigned to the application.
 
    ![](assets/setup-10a.png)
 
@@ -112,16 +112,16 @@ Once the application registration is done, then an application user can be creat
   
   c. Application ID URI is the URL of the target web API (secured resource). To find the App ID URL, in the Azure Portal, click [!DNL Azure Active Directory], click Application registrations, open the application's Settings page, then click Properties. It may also be an external resource like `https://graph.microsoft.com`. This is normally the URL of the Dynamics instance.
 
-1. After you click **[!UICONTROL Submit]**, you will be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be connected as a data provider within [!DNL Marketo Measure].
+1. After you click **[!UICONTROL Submit]**, you will be prompted to sign in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account is connected as a data provider within [!DNL Marketo Measure].
 
-## Re-authenticating your Dynamics Account {#re-authenticating-your-dynamics-account}
+## Reauthenticating your Dynamics Account {#re-authenticating-your-dynamics-account}
 
-1. When you're in the [!DNL Marketo Measure] application, go to **[!UICONTROL My Settings]** > **[!UICONTROL Settings]** > **[!UICONTROL Connections]**.
+1. When you are in the [!DNL Marketo Measure] application, go to **[!UICONTROL My Settings]** > **[!UICONTROL Settings]** > **[!UICONTROL Connections]**.
 
-1. Click on the key icon in the CRM section next to the Dynamics connection.
+1. Click the key icon in the CRM section next to the Dynamics connection.
 
-1. Once the key is clicked, a pop-up will appear and you will be prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
+1. Once the key is clicked, a pop-up appears and you are prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
 
    ![](assets/re-authenticating-3.png)
 
-1. After you click **[!UICONTROL Submit]**, you will be prompted to sign-in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account will be re-authorized within [!DNL Marketo Measure].
+1. After you click **[!UICONTROL Submit]**, you will be prompted to sign in with [!DNL Azure Active Directory]. When the authentication is successful, your Dynamics account is reauthorized within [!DNL Marketo Measure].

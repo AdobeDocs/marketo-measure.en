@@ -21,7 +21,7 @@ Generally speaking, here's how [!DNL Marketo Measure] creates touchpoint records
 * Digital interactions that happen anywhere on the internet that is not your site (such as a webinar hosted on a third-party site that generates a list upload): CRM campaign membership
 * Interactions with your Sales team: CRM Activity records
 
-If you're comfortable with your CRM campaign management and prefer to keep existing processes in place, that's fine. It doesn't hurt [!DNL Marketo Measure] to continue tracking all interactions in CRM campaigns. You can design logic that only creates touchpoints from a desired subset of campaigns to avoid touchpoint duplication.
+If you are comfortable with your CRM campaign management and prefer to keep existing processes in place, that's fine. It doesn't hurt [!DNL Marketo Measure] to continue tracking all interactions in CRM campaigns. You can design logic that only creates touchpoints from a desired subset of campaigns to avoid touchpoint duplication.
 
 ## Visibility vs. Attribution {#visibility-vs-attribution}
 
@@ -33,7 +33,7 @@ Work with your [!DNL Marketo Measure] rep to set appropriate expectations around
 
 ## Pre-[!DNL Marketo Measure] Data {#pre-marketo-measure-data}
 
-The standard recommendation is to start reporting and data gathering from the day you deployed the [!DNL Marketo Measure] JavaScript forward, and that goes double for former Full Circle customers. Think about the two sections above: You're used to seeing a higher quantity of data, and you're used to all of that data coming from CRM campaign membership. If you choose to include some or all of that data from prior to your [!DNL Marketo Measure] implementation, you won't be comparing apples to apples across the JavaScript implementation date.
+The standard recommendation is to start reporting and data gathering from the day you deployed the [!DNL Marketo Measure] JavaScript forward, and that goes double for former Full Circle customers. Think about the two sections above: You're used to seeing a higher quantity of data, and you are used to all of that data coming from CRM campaign membership. If you choose to include some or all of that data from prior to your [!DNL Marketo Measure] implementation, you won't be comparing apples to apples across the JavaScript implementation date.
 
 That said, we certainly understand that many customers need this historic data; especially if you have a longer sales cycle (greater than 90 days), you may want to give [!DNL Marketo Measure] visibility into pre-[!DNL Marketo Measure] data. Discuss this carefully with your [!DNL Marketo Measure] rep, and always keep in mind that skew across the implementation date can lead to the appearance of improvements or declines in channel performance or engagement, as well as other potentially incorrect inferences.
 

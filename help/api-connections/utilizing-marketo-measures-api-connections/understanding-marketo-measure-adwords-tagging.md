@@ -27,7 +27,7 @@ However, the same URL will provide granular data because of the [!DNL Marketo Me
 However, if no Tracking Template is found, [!DNL Marketo Measure] will:
 
 * Scan all Ad Destination URLs for our [!DNL Marketo Measure] Parameters.
-* If found, you're good to go.
+* If found, you are good to go.
 * If not found, [!DNL Marketo Measure] will append its parameters to the end of the Ad Destination URLs. For new ads, [!DNL Marketo Measure] will append its parameters to the Ad Destination URL within two hours of creation.
 * It is important to have a tracking template in place before enabling auto-tagging so that [!DNL Marketo Measure] can attach to it and prevent an ad history reset.
 

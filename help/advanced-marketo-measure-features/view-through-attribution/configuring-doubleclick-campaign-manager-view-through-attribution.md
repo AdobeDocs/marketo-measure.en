@@ -11,7 +11,7 @@ feature: Attribution
 
 >[!NOTE]
 >
->If you're using the [!DNL Marketo Measure] and [!DNL DoubleClick Campaign Manager] integration, we require an [API connection](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
+>If you are using the [!DNL Marketo Measure] and [!DNL DoubleClick Campaign Manager] integration, we require an [API connection](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
 
 To begin gaining more granular insight from view through tracking with [!DNL Doubleclick Campaign Manager], our tracking pixel needs to be configured.
 

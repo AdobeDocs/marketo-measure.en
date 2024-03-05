@@ -41,7 +41,7 @@ For connection and authentication, [!DNL Marketo Measure] supports the following
 
 ## Creating a [!DNL Marketo Measure] User {#creating-a-marketo-measure-user}
 
-We recommend creating a dedicated Marketo Measure User as an "Application User" within Dynamics for us to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password, as well as the endpoint URL, as they will be used when creating the [!DNL Marketo Measure] account.
+It is recommended to create a dedicated Marketo Measure User as an "Application User" within Dynamics to export and import data through to avoid any issues with other users in your CRM. Take note of the username and password, and the endpoint URL, as they are used when creating the [!DNL Marketo Measure] account.
 
 ## Security Roles {#security-roles}
 
@@ -49,40 +49,40 @@ If your organization uses Dynamics Security Roles, make sure the connected user,
 
 Security Roles are located here: **[!UICONTROL Settings]** > **[!UICONTROL Security]** > **[!UICONTROL Security Roles]**.
 
-For [!DNL Marketo Measure] custom entities, we will need full permissions across all of our entities.
+For [!DNL Marketo Measure] custom entities, we need full permissions across all of our entities.
 
 >[!NOTE]
 >
->Users who will be closing opportunities also will need the full permissions.
+>Users who close opportunities also need the full permission.
 
 ![](assets/4.png)
 
-For Dynamics standard entities, refer to the [!DNL Marketo Measure] Dynamics schema document. At a high level, [!DNL Marketo Measure] just needs to read in certain entities in order to gather the appropriate data and write to custom fields that will get installed with the managed solution. We will not create new standard records, nor will we update any standard fields.
+For Dynamics standard entities, refer to the [!DNL Marketo Measure] Dynamics schema document. At a high level, [!DNL Marketo Measure] reads in certain entities to gather the appropriate data and write to custom fields that are installed with the managed solution. Standard records are not created, and standard fields are not updated.
 
 ## Include Touchpoints on Page Layouts: {#include-touchpoints-on-page-layouts}
 
-1. For each Entity, navigate to the Form Editor. You can either find this under **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Customize the System]** > `[Entity]` > **[!UICONTROL Forms]**. Or you can find it on the settings while you're viewing a record.
+1. For each Entity, navigate to the Form Editor. You can either find this under **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Customize the System]** > `[Entity]` > **[!UICONTROL Forms]**. Or you can find it on the settings while you are viewing a record.
 
    * The entities to configure: Account, Opportunity, Contact, Lead, and Campaign.
 
-   * To configure Campaigns, you need to turn on the "Campaign Sync" option in **[!UICONTROL CRM]** > **[!UICONTROL Campaigns]**.
+   * To configure Campaigns, you must turn on the "Campaign Sync" option in **[!UICONTROL CRM]** > **[!UICONTROL Campaigns]**.
 
    ![](assets/5.png)
 
-1. Page Layouts: first add a "[!UICONTROL One Column]" tile in the section you want the Touchpoints to live. Within that new column, we will need a sub grid added to each form within your Account, Opportunity, Contact, and Lead entities.
+1. Page Layouts: first add a "[!UICONTROL One Column]" tile in the section that you want the Touchpoints to live. Within that new column, we need a subgrid added to each form within your Account, Opportunity, Contact, and Lead entities.
 
    ![](assets/6.png)
 
    ![](assets/7.png)
 
-1. Select the object (Buyer Attribution Touchpoints or Buyer Touchpoints) that should render in the subgrid, which depends on the object relationship. Optionally, change the columns that will display by clicking the Edit button. A default layout has been set by the managed solution.
+1. Select the object (Buyer Attribution Touchpoints or Buyer Touchpoints) that should render in the subgrid, which depends on the object relationship. Optionally, change the columns that display by clicking the Edit button. The default layout is set by the managed solution.
 
    Buyer Attribution Touchpoint Subgrid - Accounts, Opportunities, and Contact  
    Buyer Touchpoint Subgrid - Leads and Contacts
 
    ![](assets/8.png)
 
-1. Once you're done updating the form, publish and save your changes.
+1. Once you are done updating the form, publish and save your changes.
 
 ## Schema-related Considerations {#schema-related-considerations}
 
@@ -92,7 +92,7 @@ For Dynamics standard entities, refer to the [!DNL Marketo Measure] Dynamics sch
 
 **Close Date**
 
-[!DNL Marketo Measure] points to the Actual Close Date field out of the box. If you are not using this or also use the Estimated Close Date field, explain your process to your Solutions Engineer or Success Manager. A custom workflow may be need to account for both fields.
+[!DNL Marketo Measure] points to the Actual Close Date field out of the box. If you are not using this or also use the Estimated Close Date field, explain your process to your Solutions Engineer or Success Manager. A custom workflow may be needed to account for both fields.
 
 ## Configuring your Connections and Data Providers {#configuring-your-connections-and-data-providers}
 
@@ -144,13 +144,13 @@ To connect your Ad Accounts with [!DNL Marketo Measure], start by visiting the [
 
 **[!DNL Marketo Measure] Javascript**
 
-In order for [!DNL Marketo Measure] to track your web activities, there are multiple steps for setup.
+For [!DNL Marketo Measure] to track your web activities, there are multiple steps for setup.
 
 1. Click the **[!UICONTROL My Account]** drop-down and select **[!UICONTROL Account Configuration]**.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. Enter your phone number. For Website, enter your primary root domain that will be used for [!DNL Marketo Measure] tracking on your website. Click **[!UICONTROL Save]** when done.
+1. Enter your phone number. For Website, enter your primary root domain that is used for [!DNL Marketo Measure] tracking on your website. Click **[!UICONTROL Save]** when done.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -158,17 +158,17 @@ In order for [!DNL Marketo Measure] to track your web activities, there are mult
    >
    >To add multiple root domains, contact your [!DNL Marketo Measure] Account Representative.
 
-1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) then needs to be placed across the entire site and landing pages. We recommend hardcoding the script within the head of your landing pages or adding through a Tag Management System such as [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
+1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) then must be placed across the entire site and landing pages. We recommend hardcoding the script within the head of your landing pages or adding through a Tag Management System such as [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
    >
    >By default, [!DNL Marketo Measure] exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by [!DNL Marketo Measure] and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, [!DNL Marketo Measure] allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the [!DNL Marketo Measure] web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
    >
-   >When modifying this setting, keep in mind that smaller batch sizes will consume more API credits from your CRM. It's advisable to reduce the batch size only if you're experiencing CPU timeout or high CPU load in your CRM.
+   >When modifying this setting, keep in mind that smaller batch sizes consume more API credits from your CRM. It's advisable to reduce the batch size only if you are experiencing CPU timeout or high CPU load in your CRM.
 
    >[!NOTE]
    >
-   >When you disable Marketo Measure exporting data to Dynamics, it won't remove any existing data. For help with removing existing data, contact Dynamics Support.
+   >When you disable Marketo Measure exporting data to Dynamics, it does not any existing data. For help with removing existing data, contact Dynamics Support.
 
    >[!MORELIKETHIS]
    >

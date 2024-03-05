@@ -22,7 +22,7 @@ After a domain is added in the Admin Console, [!DNL Marketo Measure] syncs this 
 
    ![](assets/domain-management-2.png)
 
-On the **[!UICONTROL Integration]** > **[!UICONTROL Domains]** page, the user sees all domains that they have registered in the Admin Console, along with their status. Each domain can be enabled or disabled. If a domain is enabled, [!DNL Marketo Measure] tracking collects any traffic that is seen on that domain. If a domain is disabled, [!DNL Marketo Measure] ignores any traffic seen coming from that domain and does not create touchpoints or other data. [!DNL Marketo Measure] confirms the disablement of a domain and warn of the ramifications:
+On the **[!UICONTROL Integration]** > **[!UICONTROL Domains]** page, the user sees all domains that they have registered in the Admin Console, along with their status. Each domain can be enabled or disabled. If a domain is enabled, [!DNL Marketo Measure] tracking collects any traffic that is seen on that domain. If a domain is disabled, [!DNL Marketo Measure] ignores any traffic coming from that domain and does not create touchpoints or other data. [!DNL Marketo Measure] confirms the disablement of a domain and warns of any ramifications:
 
    ![](assets/domain-management-3.png)
 
@@ -49,7 +49,7 @@ Hovering over any individual status item triggers a tooltip that further explain
 
 **What happens when a domain is removed in the Admin Console?**
 
-When a domain is removed in the Admin Console, [!DNL Marketo Measure] marks the domain as deleted. [!DNL Marketo Measure] will immediately stop tracking traffic on this domain, but will not remove any previously collected data.
+When a domain is removed in the Admin Console, [!DNL Marketo Measure] marks the domain as deleted. [!DNL Marketo Measure] immediately stops tracking traffic on this domain, but will not remove any previously collected data.
 
 **Why am I unable to enable a domain?**
 

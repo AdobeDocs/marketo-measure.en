@@ -21,7 +21,7 @@ You should test all the different types of forms you have to ensure the [!DNL Ma
 
 1. Submit the form on your website using a unique email address.
 
-1. Record the URL of the page you're submitting the form on and the email address used.
+1. Record the URL of the page you are submitting the form on and the email address used.
 
 1. Locate the record created in your CRM (Lead or Contact) for that form submission and verify that a touchpoint was appropriately created.
 

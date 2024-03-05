@@ -7,11 +7,11 @@ feature: Fundamentals
 ---
 # Marketo Measure Framework {#marketo-measure-framework}
 
-Learn more about the four main components that make up the Marketo Measure framework. Marketo Measure relies on these applications to track, organize, and house data, as well as provide reporting capabilities. The four components that comprise Marketo Measure’s framework are:
+Learn more about the four main components that make up the Marketo Measure framework. Marketo Measure relies on these applications to track, organize, and house data, as well as provide reporting capabilities. The four components that comprise Marketo Measure's framework are:
 
-* Marketo Measure’s JavaScript
+* Marketo Measure's JavaScript
 * CRM Integrations
-* Third Party Applications/Systems
+* Third-Party Applications/Systems
 * Marketo Measure Application
 
 ## Marketo Measure JavaScript {#marketo-measure-javascript}
@@ -24,7 +24,7 @@ The Marketo Measure JavaScript tracks all the online marketing interactions, als
 >
 >For instructions on how to add the Marketo Measure JS, [click here](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Marketo Measure’s JS captures data from web visits (including anonymous web visits), general traffic/page navigation, content downloads, and form submissions. This data is pushed into your CRM and each marketing interaction is displayed as a touchpoint.
+Marketo Measure's JS captures data from web visits (including anonymous web visits), general traffic/page navigation, content downloads, and form submissions. This data is pushed into your CRM and each marketing interaction is displayed as a touchpoint.
 
 ## CRM Integrations {#crm-integrations}
 
@@ -32,7 +32,7 @@ Marketo Measure integrates with CRMs to house and organize all the data that is 
 
 ![](assets/1-2.png)
 
-By surfacing Marketo Measure data in your CRM, you will be able to see the granular information related to each touchpoint and generate reports to understand how your channels are performing.
+By surfacing Marketo Measure data in your CRM, you are able to see the granular information related to each touchpoint and generate reports to understand how your channels are performing.
 
 ## Third-Party Applications {#third-party-applications}
 
@@ -48,12 +48,12 @@ The Marketo Measure application is used to view and report on your attribution d
   
 **Account Configuration** 
   
-This is where you can update your company’s general information and access the Marketo Measure Javascript.
+This is where you can update your company's general information and access the Marketo Measure Javascript.
   
 **Settings** 
   
-This menu item allows you to configure your attribution and channel mapping settings, manage integrations with CRMs and third-party applications, view/add Marketo Measure account users, and update billing information.  
+This menu item allows you to configure your attribution and channel-mapping settings, manage integrations with CRMs and third-party applications, view/add Marketo Measure account users, and update billing information.  
   
 **Marketing ROI Dashboard** 
   
-The Marketing ROI Dashboard menu item is where you can visualize your data in terms of channel performance, activity and cost.
+The Marketing ROI Dashboard menu item is where you can visualize your data in terms of channel performance, activity, and cost.

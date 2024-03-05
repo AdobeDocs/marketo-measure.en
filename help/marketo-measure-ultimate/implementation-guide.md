@@ -144,7 +144,7 @@ We don't automatically import stages from user data, so all stages must be mappe
 
 If the stages are not mapped, the system will not function because there will be nowhere for the data to go.
 
-If you're a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
       
 * b2b.personStatus
 * b2b.isConverted

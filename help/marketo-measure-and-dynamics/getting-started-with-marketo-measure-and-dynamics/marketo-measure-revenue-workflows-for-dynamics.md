@@ -21,37 +21,37 @@ Step 2: Create a workflow that updates both the custom opportunity amount field 
 
 >[!NOTE]
 >
->We cannot point to the [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) field in Discover with Dynamics accounts. Dynamics customers must create a custom opportunity amount field for [!DNL Marketo Measure] to point to in Discover. Once complete, the customer needs to create a workflow that updates **both** the [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) **and** the custom opportunity amount field. The [!DNL Marketo Measure] Opportunity Amount field comes with the package but a custom field must be created.
+>We cannot point to the [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) field in Discover with Dynamics accounts. Dynamics customers must create a custom opportunity amount field for [!DNL Marketo Measure] to point to in Discover. Once complete, the customer must create a workflow that updates **both** the [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) **and** the custom opportunity amount field. The [!DNL Marketo Measure] Opportunity Amount field comes with the package but a custom field must be created.
 
 Amount Workflow Instructions:
 
 **WORKFLOW #1**: Opportunity – Update [!DNL Marketo Measure] Opportunity Amount Field & Custom Field = Estimated Revenue
 
-This workflow runs on open opportunities each time Estimated Revenue changes and will update the [!DNL Marketo Measure] Opportunity Amount field and your custom field to equal the Estimated Revenue field. The workflow should be set to run "Real Time," but may also be run "on demand" to update open Opportunities.
+This workflow runs on open opportunities each time Estimated Revenue changes and updates the [!DNL Marketo Measure] Opportunity Amount field and your custom field to equal the Estimated Revenue field. The workflow should be set to run "Real Time," but may also be run "on demand" to update open Opportunities.
 
-Provide your [!DNL Marketo Measure] point of contact with the name of the custom opportunity amount field. They will update the [!DNL Marketo Measure] App Opportunity Settings to include the name of the custom opportunity amount field. This will tell Discover which field to use in reporting.
+Provide your [!DNL Marketo Measure] point of contact with the name of the custom opportunity amount field. They update the [!DNL Marketo Measure] App Opportunity Settings to include the name of the custom opportunity amount field. This tells Discover which field to use in reporting.
 
 **WORKFLOW #2**: Opportunity – Update [!DNL Marketo Measure] Opportunity Amount Field & Custom Field = Actual Revenue
 
-This workflow runs in real time. It initiates when a user closes an Opportunity and will update the [!DNL Marketo Measure] Opportunity Amount field and your custom field with the Actual Revenue added to the Opportunity Close form before the Opportunity locks down as closed.
+This workflow initiates when a user closes an Opportunity and updates the [!DNL Marketo Measure] Opportunity Amount field and your custom field with the Actual Revenue added to the Opportunity Close form before the Opportunity locks down as closed.
 
 ## Part 2: Estimated Close Date vs. Actual Close Date {#part-estimated-close-date-vs-actual-close-date}
 
-Out of the box, pipeline revenue data will not be available in the dashboard because, by default, Dynamics has two stock close date fields: Estimated Close Date and Actual Close Date. [!DNL Marketo Measure] can only point to one close date field in the dashboard and we are currently pointing to the Actual Close Date.
+Out of the box, pipeline revenue data is not available in the dashboard because, by default, Dynamics has two stock close date fields: Estimated Close Date and Actual Close Date. [!DNL Marketo Measure] can only point to one close date field in the dashboard and it is pointing to the Actual Close Date.
 
-If open opportunities have no data in the Actual Close Date field, we are not seeing any data in the dashboard for open opportunities. That being said, a workflow is needed based on opportunity stage to support both date fields.
+If open opportunities have no data in the Actual Close Date field, there is no data in the dashboard for open opportunities. That being said, a workflow is needed based on opportunity stage to support both date fields.
 
-1. Create Custom Close Date Field on the Opportunity Object (i.e. [!DNL Marketo Measure] Custom Close Date).
-1. Create a Workflow to update the [!DNL Marketo Measure] Custom Close Date field with the date from either the Estimated Close Date or the Actual Close Date, depending on the whether the opportunity is open or closed (workflow should be saved to run in real time, but will need to be ran "on demand" at least once to update all current open opps).
+1. Create Custom Close Date Field on the Opportunity Object ([!DNL Marketo Measure] Custom Close Date).
+1. Create a Workflow to update the [!DNL Marketo Measure] Custom Close Date field with the date from either the Estimated Close Date or the Actual Close Date, depending whether the opportunity is open or closed (workflow should be saved to run in real time, but must be run "on demand" at least once to update all current open opps).
 1. Test the workflow and confirm it works.
 1. Customer to provide the Custom Close Date API name to [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] to update the [!DNL Marketo Measure] app settings to point to the [!DNL Marketo Measure] Custom Close Date field in the Dashboard.
 
-   Upon completion of the above steps, we will need to run workflows to update both the Custom [!DNL Marketo Measure] Opp Amount field and the [!DNL Marketo Measure] Custom Close Date field on your historical opportunities to reflect the correct data. This will likely change the modified on/by fields so you will want to check with your team to see if that presents any issues.
+   Upon completion of the above steps, run the workflows to update both the Custom [!DNL Marketo Measure] Opp Amount field and the [!DNL Marketo Measure] Custom Close Date field on your historical opportunities to reflect the correct data. This will likely change the modified on/by fields so you should check with your team to see if that presents any issues.
 
 To update the closed opportunities...
 
-1. Isolate opportunities that have closed since your [!DNL Marketo Measure] start date up til the workflow is active. This is the group of historical opportunities that you will need to update via workflow.
+1. Isolate opportunities that have closed since your [!DNL Marketo Measure] start date up til the workflow is active. This is the group of historical opportunities that you must update via workflow.
 1. Export all records to Excel.
 1. Open Excel file, enable content.
 1. Copy Actual Close Date data to [!DNL Marketo Measure] Custom Close Date.
@@ -62,7 +62,7 @@ To update the closed opportunities...
 
 >[!NOTE]
 >
->The workflows outlined in this document are just one way to go about updating the fields so [!DNL Marketo Measure] can show the correct data in Discover. If you have another way of accomplishing the same task, you can go for it. Basically what we need from them is some sort of workflow(s) that accomplish the following:
+>The workflows outlined in this document are just one way to go about updating the fields so [!DNL Marketo Measure] can show the correct data in Discover. If you have another way of accomplishing the same task, you can go for it. Basically what we need from them is some sort of workflow that accomplish the following:
 >
 > * If Opp = Open, update custom close date field, custom opp amount field, and [!DNL Marketo Measure] opp amount field to equal Estimated Close Date and Estimated Revenue, respectively.
 > * If Opp = Closed Won, update custom close date field, custom opp amount field, and [!DNL Marketo Measure] opp amount field to equal Actual Close Date and Actual Revenue, respectively.

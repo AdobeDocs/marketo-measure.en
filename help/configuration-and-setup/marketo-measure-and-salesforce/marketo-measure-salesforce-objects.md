@@ -59,7 +59,7 @@ If you are running A/B tests through [!DNL Optimizely] or VWO (Visual Web Optimi
 
 ![](assets/5.png)
 
-The [!DNL Marketo Measure] A/B Test Object is displayed as a Related List on [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The list surfaces all the experiments and variations that you're running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
+The [!DNL Marketo Measure] A/B Test Object is displayed as a Related List on [!UICONTROL Leads], [!UICONTROL Contacts] and [!UICONTROL Opportunity] pages. The list surfaces all the experiments and variations that you are running through Optimizely or VWO, and allows you to see the experiments/variations as they relate to specific Leads and Contacts.
 
 ## [!DNL Marketo Measure] Events {#marketo-measure-events}
 

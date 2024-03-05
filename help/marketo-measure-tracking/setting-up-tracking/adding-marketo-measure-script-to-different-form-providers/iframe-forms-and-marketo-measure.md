@@ -7,13 +7,13 @@ feature: Tracking
 ---
 # IFrame Forms and [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
-With [!DNL Marketo Measure] one of our core functionalities is tracking your digital marketing efforts through sessions on your site and form submissions. Generally, when our JavaScript is placed on the site, we automatically attach to all forms on the site. However, we run into limitations of this functionality if the form is contained in an IFrame.
+With [!DNL Marketo Measure] one of the core functionalities is tracking your digital marketing efforts through sessions on your site and form submissions. Generally, when Marketo JavaScript is placed on the site, we automatically attach to all forms on the site. However, there are limitations of this functionality if the form is contained in an IFrame.
 
-You can think of an IFrame as a page within a page, so just as we request that our script is added to all the pages of your site, we would need the script placed within the IFrame to ensure we are tracking.
+Think of an IFrame as a page within a page, so just as we request that the script is added to all the pages of your site, we would need the script placed within the IFrame to ensure we are tracking.
 
 We see in many cases that the IFrame is managed through a Marketing Automation provider so you will need to configure this within that platform or through your form provider.
 
-We recommend placing the JavaScript within the head of the IFrame and from there we will automatically attach to the forms within that frame.
+It is recommended to place the JavaScript within the head of the IFrame and from there we will automatically attach to the forms within that frame.
 
 ![](assets/1-1.png)
 

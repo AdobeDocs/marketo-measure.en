@@ -12,7 +12,7 @@ The [!DNL Marketo Measure] Activities Attribution feature allows customers to cr
 
 The most common use case for this feature is to craft rules which incorporate Sales interactions into your Buyer touchpoint data. Activities Attribution makes it possible for you to align your Sales and Marketing data into one journey.
 
-For many [!DNL Salesforce] instances, the Activity object can house various record types, so it is important that your Activity rules are specific and tailored to the records you're trying to translate into touchpoints. The following best practices help to ensure that you are creating meaningful and valuable touchpoints via your Activities attribution.
+For many [!DNL Salesforce] instances, the Activity object can house various record types, so it is important that your Activity rules are specific and tailored to the records you are trying to translate into touchpoints. The following best practices help to ensure that you are creating meaningful and valuable touchpoints via your Activities attribution.
 
 ## Best Practice {#best-practice}
 

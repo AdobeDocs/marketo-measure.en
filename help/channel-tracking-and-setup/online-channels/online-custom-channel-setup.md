@@ -76,7 +76,7 @@ In addition, note that if you create a subchannel for one of your channels, you 
 
 ## Setting Up Your Custom Channels Rules {#setting-up-your-custom-channels-rules}
 
-Once you have decided how you want to organize and prioritize your data, you're ready to add your rules to the spreadsheet. Below are some best practices:
+Once you have decided how you want to organize and prioritize your data, you are ready to add your rules to the spreadsheet. Below are some best practices:
 
 * Keep your rules as simple as possible from the start. You can always build on the rules as you go along.
 * Do not add any special characters in the channel names (for example, $%#&&#42;@)
@@ -90,6 +90,6 @@ Once you have decided how you want to organize and prioritize your data, you're 
 
 ## Uploading Your Custom Channels Rules {#uploading-your-custom-channels-rules}
 
-Make sure any new channel and subchannel values that you're adding in the CSV have already been added in the channel settings area of your Bizible account. Double check all channel and subchannel names match in the CSV with the channel settings area of your [!DNL Marketo Measure] account. Make sure you check for commas and spaces.
+Make sure any new channel and subchannel values that you are adding in the CSV have already been added in the channel settings area of your Bizible account. Double check all channel and subchannel names match in the CSV with the channel settings area of your [!DNL Marketo Measure] account. Make sure you check for commas and spaces.
 
 If you receive an error message during uploading, correct the issue and reupload. If no error message is received, click **Save & Process** at bottom of the page.

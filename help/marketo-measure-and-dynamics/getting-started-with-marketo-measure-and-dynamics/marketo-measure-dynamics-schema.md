@@ -11,7 +11,7 @@ feature: Microsoft Dynamics
 >
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-Below you will find the required Dynamics schema in order to get started with [!DNL Marketo Measure]. All entities and fields are listed, along with the required read and/or write access.
+Below is the required Dynamics schema to get started with [!DNL Marketo Measure]. All entities and fields are listed, along with the required read and/or write access.
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
@@ -906,7 +906,7 @@ This diagram is a high-level visualization of the relationships between the Dyna
 
 ## Dynamics Standard Entities {#dynamics-standard-entities}
 
-This lists provides the Dynamics Standard Entities that [!DNL Marketo Measure] interacts with, as well as the custom fields that we add to these entities.
+This list provides the Dynamics Standard Entities that [!DNL Marketo Measure] interacts with, and the custom fields that we add to these entities.
 
 **Lead**
 

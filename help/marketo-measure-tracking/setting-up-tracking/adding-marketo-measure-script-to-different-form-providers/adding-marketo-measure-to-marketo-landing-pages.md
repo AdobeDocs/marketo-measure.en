@@ -7,7 +7,7 @@ feature: Tracking
 ---
 # Adding [!DNL Marketo Measure] to Marketo Landing Pages {#adding-marketo-measure-to-marketo-landing-pages}
 
-Learn how to add tracking to [!DNL Marketo Engage] Landing Pages as they require additional handling. [!DNL Marketo Measure] JavaScript needs to be in place on both the Landing Page and the [!DNL Marketo Engage] form itself. To do this you will need to load the [!DNL Marketo Measure] JavaScript into [!DNL Marketo Engage] as explained in the following directions.
+Learn how to add tracking to [!DNL Marketo Engage] Landing Pages as they require additional handling. [!DNL Marketo Measure] JavaScript must be in place on both the Landing Page and the [!DNL Marketo Engage] form itself. To do this, you need to load the [!DNL Marketo Measure] JavaScript into [!DNL Marketo Engage] as explained in the following directions.
 
 >[!NOTE]
 >
@@ -30,10 +30,10 @@ Example in screenshot below
 
 ## Additional Notes {#additional-notes}
 
-* You might already have other tracking code snippets in place, such as a [!DNL Google Analytics] code. There is no problem with this, just be sure to separate them with a semicolon `;` and a single space. An example of what this would look like is:
+* You might already have other tracking code snippets in place, such as a [!DNL Google Analytics] code. There is no problem with this, be sure to separate them with a semicolon `;` and a single space. An example of what this would look like is:
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
 * It's likely that you have multiple Landing Page templates in use, be sure to add the code to all templates that have forms on them.
 
-* Sometimes when you edit the template for landing pages, you need to re-approve the pages the landing page is used by. This article explains [how to mass approve](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Sometimes when you edit the template for landing pages, you must reapprove the pages the landing page is used by. This article explains [how to mass approve](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

@@ -14,7 +14,7 @@ The [!DNL Marketo Measure] API connections are an invaluable aspect of your acco
 
 ## Best Practice {#best-practice}
 
-Regardless of the ad platform you're connecting, the following guidelines are important to keep in mind!
+Regardless of the ad platform you are connecting, the following guidelines are important to keep in mind!
 
 * Use an admin to connect
 * You can connect multiple ads accounts for one platform

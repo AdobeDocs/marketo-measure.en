@@ -421,7 +421,7 @@ We're thrilled to introduce our Discover dashboard redesign. Our primary goal is
         </p>
       </td>
       <td>
-        <p>These dimensions are platform-specific and do not offer a holistic view of web traffic. We recommend users to explore channel/subchannel/campaign data in Marketo Measure and then delve into specific platform tools for keyword/creative-level insights to maintain accuracy and context.
+        <p>These dimensions are platform-specific and do not offer a holistic view of web traffic. It is recommended that users explore channel/subchannel/campaign data in Marketo Measure and then delve into specific platform tools for keyword/creative-level insights to maintain accuracy and context.
         </p>
       </td>
     </tr>

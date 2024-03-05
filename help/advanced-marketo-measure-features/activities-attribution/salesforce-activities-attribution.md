@@ -11,9 +11,9 @@ The [!DNL Marketo Measure] Salesforce Activities integration brings in specific 
 
 ![](assets/1.png)
 
-To start off, we're introducing a new concept called a [!DNL Marketo Measure] Campaign. For each rule that you define, you're going to bucket the records into a [!DNL Marketo Measure] Campaign that you can name. Add multiple campaigns as needed. Imagine measuring the effectiveness of an Outbound Sales campaign next to a Paid Media campaign!
+To start off, we're introducing a new concept called a [!DNL Marketo Measure] Campaign. For each rule that you define, you are going to bucket the records into a [!DNL Marketo Measure] Campaign that you can name. Add multiple campaigns as needed. Imagine measuring the effectiveness of an Outbound Sales campaign next to a Paid Media campaign!
 
-You're going to use this [!DNL Marketo Measure] Campaign Name to tell us which Channel it should get mapped to. If you're still thinking about Outbound Sales, perhaps all Outbound Sales campaigns should sit in a BDR channel.
+You're going to use this [!DNL Marketo Measure] Campaign Name to tell us which Channel it should get mapped to. If you are still thinking about Outbound Sales, perhaps all Outbound Sales campaigns should sit in a BDR channel.
 
 Get familiar with this hierarchy:
 
@@ -32,7 +32,7 @@ Get familiar with this hierarchy:
 
 Once your [!DNL Marketo Measure] Campaign Name is set, it's time to set up your Activity rules.
 
-The rules act as a filter to tell us which records are eligible for attribution. Imagine you're creating a report in your CRM using similar logic to generate that report. You have the flexibility of using a combination of and/or statements and various operators like `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. Define `and` statements within a boxed rule or layer `or` statements outside the box.
+The rules act as a filter to tell us which records are eligible for attribution. Imagine you are creating a report in your CRM using similar logic to generate that report. You have the flexibility of using a combination of and/or statements and various operators like `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. Define `and` statements within a boxed rule or layer `or` statements outside the box.
 
 ![](assets/3.png)
 
