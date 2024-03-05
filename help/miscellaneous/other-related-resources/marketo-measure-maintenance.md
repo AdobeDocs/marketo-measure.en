@@ -11,7 +11,7 @@ feature: Tracking
 
 **Sync Buyer Touchpoints for new offline campaigns (2x/month)**
 
-As you learned during onboarding, [!DNL Marketo Measure] gets information about your offline marketing efforts by syncing with your CRM's campaigns. As your organization kicks off new campaigns, be sure to enable Buyer Touchpoints for each campaign as appropriate. Check out [this article for more information.
+As you learned during onboarding, [!DNL Marketo Measure] gets information about your offline marketing efforts by syncing with your CRM's campaigns. As your organization kicks off new campaigns, be sure to enable Buyer Touchpoints for each campaign as appropriate.
 
 **Upload spend for all channels (1x/month)**
 
