@@ -41,7 +41,7 @@ Oct 2018: ($18,000/109) x 17 = $2,807.34
 
 ## Historical Reported Spend {#historical-reported-spend}
 
-If you've entered spend for Campaigns that has been tracked in the past that were mapped to a CRM Campaign, we will not override any of the costs you've entered. If the same campaign in the CRM gets modified, we will still ignore it and give priority to the changes you had previously made in the CSV upload.
+If you've entered spend for Campaigns that have been tracked in the past and were mapped to a CRM Campaign, it does not override any of the costs you've entered. If the same campaign in the CRM is modified, it ignores it and gives priority to the changes you had previously made in the CSV upload.
 
 If you would prefer that we take the CRM Campaign cost from now on, change the value in the CSV to $0 which nullifies the entry. The next time the jobs are run to import the costs, previously edited reports are pulled in.
 

@@ -25,7 +25,7 @@ Whether you are evaluating your Stage Mapping for the first time or just reviewi
    * A Boolean field is the best practice recommendation
 * Note that the Lead or Contact stage section is divided into Lost, Open, and Converted; validate that the stages are in their appropriate stage section
    * Having a stage in the incorrect stage section can result in highly incorrect [!DNL Marketo Measure] data
-   * If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+   * If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
       * b2b.personStatus
       * b2b.isConverted
 * Note that the Opportunity stage section is divided into Lost, Open, and Won; validate that the stages are in their appropriate stage section

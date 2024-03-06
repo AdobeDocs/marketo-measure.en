@@ -59,7 +59,8 @@ If you make a mistake, don't worry. You can delete individual rows of your state
 
 ![](assets/5.png)
 
-To finish, [!UICONTROL Save and Process] your rules. If you are making a lot of changes, be sure to Save your changes along the way. [!DNL Marketo Measure] won't actually start removing your Touchpoints until you click the **Save and Process** button.
+To finish, [!UICONTROL Save and Process] your rules. If you are making a lot of changes, be sure to Save your changes along the way. [!DNL Marketo Measure] won't actually start removing your Touchpoints until you click 
+ [!UICONTROL **Save and Process**].
 
 | **Operator** | **Use Case** |
 |---|---|

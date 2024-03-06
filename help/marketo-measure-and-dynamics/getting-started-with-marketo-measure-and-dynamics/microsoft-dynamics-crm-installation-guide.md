@@ -168,7 +168,7 @@ For [!DNL Marketo Measure] to track your web activities, there are multiple step
 
    >[!NOTE]
    >
-   >When you disable Marketo Measure exporting data to Dynamics, it does not any existing data. For help with removing existing data, contact Dynamics Support.
+   >When you disable Marketo Measure exporting data to Dynamics, it does not remove any existing data. For help with removing existing data, contact Dynamics Support.
 
    >[!MORELIKETHIS]
    >

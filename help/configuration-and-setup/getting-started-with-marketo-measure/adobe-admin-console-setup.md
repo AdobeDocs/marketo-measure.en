@@ -6,7 +6,7 @@ exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
 ---
 # Adobe Admin Console Setup {#adobe-admin-console-setup}
 
-The first step to using [!DNL Marketo Measure] is to create and sign in to your provisioned Adobe Admin Console. If you haven't already received the email with login instructions, please contact your [!DNL Marketo Measure] Account Representative.
+The first step to using [!DNL Marketo Measure] is to create and sign in to your provisioned Adobe Admin Console. If you have not received the email with login instructions, contact your [!DNL Marketo Measure] Account Representative.
 
 ## Set up Your Adobe Admin Console and Identity Provider {#set-up-your-adobe-admin-console-and-identity-provider}
 

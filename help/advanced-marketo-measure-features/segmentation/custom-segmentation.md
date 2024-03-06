@@ -65,9 +65,9 @@ Step 4 - Add Filter Rules.
 
 If rules aren't set up for both Leads/Contacts and Opportunities, you will see only a portion of your data. To elaborate, if you do not set up the Opportunities rules, you will only see Lead/Contact data without the Opportunities associated with it. The same is true if you do not set up rules for Leads/Contacts--you will only see Opportunities without the associated Leads/Contacts.
 
-When you are done, click [!UICONTROL Save] first, double check everything, and then click [!UICONTROL Save and Process]. Remember that you will be unable to edit your settings for seven days when you save and process, as [!DNL Marketo Measure] is reformatting your data during this time.
+When you are done, click [!UICONTROL Save] first, double check everything, and then click [!UICONTROL Save and Process]. Remember that you cannot edit your settings for seven days after you save and process because [!DNL Marketo Measure] is reformatting your data during this time.
 
-If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
 
 * b2b.personStatus
 * b2b.isConverted

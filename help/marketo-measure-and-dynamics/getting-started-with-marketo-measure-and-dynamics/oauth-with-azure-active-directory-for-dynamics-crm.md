@@ -120,7 +120,7 @@ Once the application registration is done, then an application user can be creat
 
 1. Click the key icon in the CRM section next to the Dynamics connection.
 
-1. Once the key is clicked, a pop-up appears and you are prompted to enter the Client Id, Client Secret, and Application Id URI, similar to the signup flow.
+1. When the key is clicked, a pop-up appears and you are prompted to enter the Client ID, Client Secret, and Application ID URI, similar to the signup flow.
 
    ![](assets/re-authenticating-3.png)
 

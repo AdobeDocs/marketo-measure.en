@@ -10,7 +10,7 @@ The Attributed Revenue Dashboard offers a focused perspective on the revenue dir
 
 >[!NOTE]
 >
->This dashboard is in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
+>This dashboard is in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated after we've fully transitioned and ensured optimal functionality.
 
 **Questions the board answers:**
 

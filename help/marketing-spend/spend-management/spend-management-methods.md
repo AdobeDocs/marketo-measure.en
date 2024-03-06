@@ -12,7 +12,7 @@ There are three ways to get spend data into [!DNL Marketo Measure]. Each method 
 
 **1 API Connected Accounts**
 
-Any Ad Account that you have connected to [!DNL Marketo Measure] through an API has its spend automatically pulled into [!DNL Marketo Measure] for ROI reporting. To check which accounts you have connected and therefore pulling in spend, go to your [!DNL Marketo Measure] App and select the [!UICONTROL Connections] tab under the [!UICONTROL Integrations] section. For more details on how to set up your API connections review [Integrated Ad Platforms](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms).
+Any Ad Account that you have connected to [!DNL Marketo Measure] through an API has its spend automatically pulled into [!DNL Marketo Measure] for ROI reporting. To check which accounts you have connected and therefore pulling in spend, go to your [!DNL Marketo Measure] App and select the [!UICONTROL Connections] tab under the [!UICONTROL Integrations] section. For more details about setting up your API connections, review [Integrated Ad Platforms](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms).
 
 **2 CRM Campaign Cost Sync**
 
@@ -20,7 +20,7 @@ Every [!DNL Marketo Measure] account has access to a feature called [Sync CRM Ca
 
 ![](assets/spend-management-methods-1.png)
 
-Once enabled, this feature automatically pulls spends in from any CRM campaign/program that meets the following criteria
+When enabled, this feature automatically pulls spends in from any CRM campaign/program that meets the following criteria:
 
 i. [!DNL Marketo Measure] first looks to see if the Campaign/Program is creating touchpoints, either from a matching [Campaign Sync rule](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) that was created, or a matching [Program Sync rule](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) that was created, or the [Enable Buyer Touchpoints value](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) is "Include All Campaign Members" or "Include 'Responded' Campaign Members."
 

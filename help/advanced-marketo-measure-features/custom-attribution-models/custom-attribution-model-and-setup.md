@@ -51,7 +51,7 @@ If a custom field is used in your custom model, Field History tracking MUST be e
 
    Go to the **[!UICONTROL Attribution Settings]** in [!DNL Marketo Measure] Apps; the custom stages will appear here in the attribution table. The attribution table displays all of the [!DNL Marketo Measure] attribution models, and the attribution weighting of each model. The attribution percentages of the first five models are fixed and cannot be changed.
 
-   In the far right column labeled "**[!UICONTROL Custom]**," you can set the percentage weighting for each stage in your custom attribution model. Input the values for each stage under the Custom column. Then **[!UICONTROL Save and Reprocess]** once complete.
+   In the far right column labeled "**[!UICONTROL Custom]**," you can set the percentage weighting for each stage in your custom attribution model. Enter the values for each stage under the Custom column and click **[!UICONTROL Save and Reprocess]** when complete.
 
    To the left of the _Custom_ column is the **[!DNL Marketo Measure] Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, refer to [Machine Learning Model FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

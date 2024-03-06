@@ -5,7 +5,7 @@ feature: Fundamentals
 ---
 # Error Notifications {#error-notifications}
 
-Below is a list of errors that you may receive via in-app notification or email. If you receive any of these, please follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
+Below is a list of errors that you may receive via in-app notification or email. If you receive any of these, follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>

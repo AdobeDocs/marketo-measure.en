@@ -69,7 +69,7 @@ Once marketing channels and rules have been set up or updated, the associated co
 
 **Step 1: Navigate to the Marketing Spend page in the [!DNL Marketo Measure] App.**
 
-Go to the **[!UICONTROL My Account]** menu, click **[!UICONTROL Settings]** and then navigate to the **[!UICONTROL Marketing Spend]** option on the left sidebar under the **[!UICONTROL Reporting]** section.
+Go to the **[!UICONTROL My Account]** menu, click **[!UICONTROL Settings]**, and then navigate to the **[!UICONTROL Marketing Spend]** option on the left sidebar under the **[!UICONTROL Reporting]** section.
 
 ![](assets/1.png)
 

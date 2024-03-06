@@ -26,7 +26,7 @@ Open the **Settings** section in the Marketo Measure app and navigate to the **D
 
 ## Accessing the Share {#accessing-the-share}
 
-Once the share has been created for the account id provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance to access the data.
+After the share is created for the account ID provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance to access the data.
 
 >[!NOTE]
 >

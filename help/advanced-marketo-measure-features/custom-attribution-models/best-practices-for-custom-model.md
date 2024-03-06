@@ -43,9 +43,9 @@ Whether you are setting up your Custom Model for the first time, or reviewing wh
 * Do not use a formula fields to define a custom stage
    * A Boolean field is best practice recommendation
 * Do not incorporate Custom Stages into your Custom Model which coincide with a [!DNL Marketo Measure] Milestone Touchpoint Position (FT, LC, OC, Closed Won/Lost)
-   * If you do, these positions will always occur simultaneously and can cause inflated attribution credit to parts of your funnel.
+   * If you do, these positions always occur simultaneously and can cause inflated attribution credit to parts of your funnel.
 * Work with your Sales Opp team
-   * Bringing in the team who works closest with stages and their meaning will ensure you are using the correct stages and that they're defined properly
+   * Bringing in the team who works closest with stages and their meaning ensures that you are using the correct stages and that they are defined properly
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}
 

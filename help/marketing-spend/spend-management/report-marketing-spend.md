@@ -28,6 +28,6 @@ If the currency from the Ad Provider doesn't match a currency that is pulled fro
 Because the marketing spend has historically only been in a single (USD) currency, there is a small amount of work needed to change all reported spends to the new currency. Even if your account doesn't have Multiple Currencies enabled, if you have a single corporate currency other than USD, you should make this migration.
 
 1. Download the current Spend file to a CSV
-1. The currency column will display "[!UICONTROL USD]" as the assumed currency. You can either manually replace all the occurrences of "[!UICONTROL USD]" or use Find+Replace to change all the "[!UICONTROL USD]" instances to your own corporate currency, such as "[!UICONTROL EUR]" or "[!UICONTROL GBP]".
+1. The currency column displays "[!UICONTROL USD]" as the assumed currency. You can either manually replace all the occurrences of "[!UICONTROL USD]" or use Find+Replace to change all the "[!UICONTROL USD]" instances to your own corporate currency, such as "[!UICONTROL EUR]" or "[!UICONTROL GBP]".
 1. Save the file then upload it back into [!DNL Marketo Measure].
 1. All of your reported costs will now display as the new currency.

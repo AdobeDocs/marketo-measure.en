@@ -81,7 +81,7 @@ From the list of Marketo Program Channels, you will want to map the values to th
 
 1. At the top, you will have the option to map to your CRM Campaign Types, then down below, you will see the options for your Marketo Program Channels.
 
-1. First select the Channel that should map to the value, then optionally select the Subchannel. Once you are done, click **[!UICONTROL Save]** at the bottom.
+1. First select the Channel that should map to the value, then optionally select the Subchannel. When you are done, click **[!UICONTROL Save]** at the bottom.
 
    ![](assets/eleven.png)
 

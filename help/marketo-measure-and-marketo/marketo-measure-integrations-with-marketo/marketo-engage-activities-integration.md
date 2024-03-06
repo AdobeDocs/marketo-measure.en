@@ -32,7 +32,7 @@ As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integrat
 
    ![](assets/three-1.png)
 
-1. Once all the activities you need are selected, you will also see them populated in your [!UICONTROL Selected Activities List] and under [!UICONTROL Define Rules].
+1. When all the activities you need are selected, you can see them populated in your [!UICONTROL Selected Activities List] and under [!UICONTROL Define Rules].
 
    ![](assets/four-1.png)
 
@@ -88,7 +88,7 @@ As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integrat
 
 ## Activity Types {#activity-types}
 
-Some activity types provide us with the Program Id and Program Name, so it's easy to map that into the Campaign Id and Campaign Name on the Buyer Touchpoint. For others, there is no program association, so part of the rules definition requires you to create a [!DNL Marketo Measure] Campaign Name. Below are lists of each category:
+Some activity types provide us with the Program ID and Program Name, so it's easy to map that into the Campaign Id and Campaign Name on the Buyer Touchpoint. For others, there is no program association, so part of the rules definition requires you to create a [!DNL Marketo Measure] Campaign Name. Below are lists of each category:
 
 **Activity Types with Program Id**
 
