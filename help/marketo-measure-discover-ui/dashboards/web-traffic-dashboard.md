@@ -114,3 +114,4 @@ This dashboard is equipped with the following settings and filters:
 * Channel, Subchannel
 * Campaign
 * URL
+* Page Title

@@ -125,12 +125,13 @@ Before you begin, go to the "Experience Platform > Sandbox Mapping" section in t
 
 >[!NOTE]
 >
+>* It is recommended to include only one dataset per data flow.
 >* Data for a given entity (for example, Account) from a given source can only go into one dataset. Each dataset can only be included in one data flow. Violations stop the data flow at run time.
 >* Delete the entire destination in AEP to delete data in Measure. Disabling stops new data exports and keep the old data. 
 >* The Measure configuration will mostly look the same, but some parts, like Stage Mapping, will look different.
 >* It takes a few hours for a new dataflow to generate a flow run, and then they occur at regular hourly intervals.
 
-In Measure, the default currency must be set in the "Currency" section
+In Measure, the default currency must be set in the "Currency" section.
 
 * If you use multi-currency, the currency conversion rate schema has to be populated in AEP for us to read and use for conversions. 
 
