@@ -18,7 +18,7 @@ When pushed to [!UICONTROL Discover], Segments will appear as an available filte
 
 ## Best Practice {#best-practice}
 
-Whether you're defining segmentation for the first time or just reviewing the segmentation that has been previously established, keep the following best practices in mind.
+Whether you are defining segmentation for the first time or just reviewing the segmentation that has been previously established, keep the following best practices in mind.
 
 * Keep it simple!
 * Align your segment name to the nomenclature of your organization, i.e., the category = filter name, segment = filter value

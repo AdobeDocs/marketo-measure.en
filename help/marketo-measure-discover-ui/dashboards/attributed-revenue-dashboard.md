@@ -10,7 +10,7 @@ The Attributed Revenue Dashboard offers a focused perspective on the revenue dir
 
 >[!NOTE]
 >
->This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
+>This dashboard is in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated after we've fully transitioned and ensured optimal functionality.
 
 **Questions the board answers:**
 
@@ -28,7 +28,7 @@ The Attributed Revenue Dashboard offers a focused perspective on the revenue dir
 
 Stacked bar chart displaying Total Attributed Revenue, segmented by Channel, for each Month/Quarter/Year.
 
-* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* Use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a bar segment or the space between bars to reveal detailed information.
 
 **Questions the chart answers:**
@@ -40,7 +40,7 @@ Stacked bar chart displaying Total Attributed Revenue, segmented by Channel, for
 
 ### Attributed Revenue Table {#attributed-revenue-table}
 
-Total attributed revenue segmented by Channel, Subchannel, and Campaign, presented in both Tabular and Tree formats. Click on the button in the top right corner to switch between views. 
+Total attributed revenue segmented by Channel, Subchannel, and Campaign, presented in both Tabular and Tree formats. Click the button in the top-right corner to switch between views. 
 
 **Questions the board answers:**
 
@@ -57,7 +57,7 @@ Total attributed revenue segmented by Channel, Subchannel, and Campaign, present
 **Tree View**
 
 * The tree view enables a more interactive and granular data exploration, allowing marketers to identify trends, anomalies, or standout performers in their marketing efforts.
-* Click on a branch to delve deeper into the subsequent hierarchy layer.
+* Click a branch to delve deeper into the subsequent hierarchy layer.
 
 ![](assets/attributed-revenue-dashboard-3.png)
 

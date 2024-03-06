@@ -10,15 +10,15 @@ Adobe Experience Cloud Interface aligns the look and feel of Adobe Experience Cl
 
 ## User Flow {#user-flow}
 
-If you're already logged in to an Adobe Experience Cloud product, click the menu icon and select **[!DNL Marketo Measure]**.
+If you are already logged in to an Adobe Experience Cloud product, click the menu icon and select **[!DNL Marketo Measure]**.
 
    ![](assets/unified-shell-overview-4.png)
 
 >[!NOTE]
 >
->Your drop-down menu may look different depending on which Adobe Experience Cloud products you're subscribed to.
+>Your drop-down menu may look different depending on which Adobe Experience Cloud products you are subscribed to.
 
-If you're _not_ already logged in to an Adobe Experience Cloud product, log in directly to [!DNL Marketo Measure] here: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
+If you are _not_ already logged in to an Adobe Experience Cloud product, log in directly to [!DNL Marketo Measure] here: [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure).
 
 ## New Features {#new-features}
 

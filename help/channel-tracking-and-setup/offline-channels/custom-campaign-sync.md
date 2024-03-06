@@ -73,6 +73,6 @@ You can easily check the Buyer Touchpoints and Buyer Attribution Touchpoint reco
 
    ![](assets/9.png)
 
-1. You can also click on the Member count to see a list of the Leads and Contacts and their Ids that are part of the Campaign rule eligibility. This is just a sample set and will display up to 50 so that you can get an idea of which records qualify.
+1. You can also click the Member count to see a list of the Leads and Contacts and their Ids that are part of the Campaign rule eligibility. This is just a sample set and will display up to 50 so that you can get an idea of which records qualify.
 
    ![](assets/10.png)

@@ -23,7 +23,7 @@ The 'Marketing Channel' value for these touchpoints is based on the 'Type' field
 
 ## Best Practice | Offline Channel Mapping {#best-practice-offline-channel-mapping}
 
-Whether you're mapping your Offline Channels for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
+Whether you are mapping your Offline Channels for the first time or just reviewing them to check for accuracy, keep the following best practices in mind.
 
 * Create a deliberate framework for you Offline Channels
    * Take some time to think about the organization of your marketing campaigns and how they fit into the [!DNL Marketo Measure] framework. Determine which Channels and Subchannels should be represented in your Offline Channels and what CRM Campaign Types differentiate those channels from one another
@@ -51,7 +51,7 @@ Whether you're mapping your Offline Channels for the first time or just reviewin
 
 Once initially set up, your Offline Channel setup continues to create offline touchpoints accordingly. As a best practice, we recommend that you review your Offline setup at least twice a year. This guarantees clean and accurate Buyer touchpoint data.
 
-Also, if you make any changes to your Campaign management or processes, you need to make sure you're updating your [!DNL Marketo Measure] Offline Channel mapping and/or sync process.
+Also, if you make any changes to your Campaign management or processes, you need to make sure you are updating your [!DNL Marketo Measure] Offline Channel mapping and/or sync process.
 
 Changes that might trigger your team to make updates to the Offline Channel setup in [!DNL Marketo Measure] might include:
 

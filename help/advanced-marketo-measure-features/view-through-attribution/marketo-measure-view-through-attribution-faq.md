@@ -13,11 +13,11 @@ The [!DNL Marketo Measure] [!UICONTROL View Through Attribution] feature include
 
 ## Why is [!UICONTROL View Through Attribution] Important? {#why-is-view-through-attribution-important}
 
-Historically, re-targeting or impression advertising has been difficult for marketers to account for in attribution analysis. Potential clients may, time after time, be exposed to re-targeting ads but it's unlikely that they actually click on one of these ads and fill out a form within the same session. Our View Through Attribution solution now has the ability to trace whether or not someone was exposed to an impression ad. This touchpoint will be appended to the individual record and will carry through until the prospect becomes a client. With this information, the marketer will now get better insight on the performance of their re-targeting advertising.
+Historically, re-targeting or impression advertising has been difficult for marketers to account for in attribution analysis. Potential clients may, time after time, be exposed to re-targeting ads but it's unlikely that they actually click one of these ads and fill out a form within the same session. Our View Through Attribution solution now has the ability to trace whether or not someone was exposed to an impression ad. This touchpoint will be appended to the individual record and will carry through until the prospect becomes a client. With this information, the marketer will now get better insight on the performance of their re-targeting advertising.
 
 ## What is involved in setting this up? {#what-is-involved-in-setting-this-up}
 
-In order for [!DNL Marketo Measure] to start measuring the ad impressions, there is an impression tag that needs to be placed in Doubleclick Campaign Manager. Once the tag is implemented, the impressions are stored in our logs and we take care of the rest. Reach out to your Success Manager if you're interested in measuring view through attribution.
+In order for [!DNL Marketo Measure] to start measuring the ad impressions, there is an impression tag that needs to be placed in Doubleclick Campaign Manager. Once the tag is implemented, the impressions are stored in our logs and we take care of the rest. Reach out to your Success Manager if you are interested in measuring view through attribution.
 
 ## Which ad platforms are supported? {#which-ad-platforms-are-supported}
 

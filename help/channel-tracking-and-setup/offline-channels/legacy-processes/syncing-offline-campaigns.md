@@ -37,7 +37,7 @@ In this case, it would backfill the upload date by three weeks. This step should
 
 In summary, if you use the [!UICONTROL Bulk Update Touchpoint Date] button and change the Touchpoint date to the date of the event, [!DNL Marketo Measure] will generate Touchpoints for the actual date of the event--not the date of the upload.
 
-You can also update the dates for all campaign members on an existing campaign. When doing this, be sure the date of the Touchpoint is the date of the member's interaction. Simply click on the Bulk Update Buyer Touchpoint Date, filter the list of campaign members as appropriate, and in the "[!UICONTROL Select Date]" option above the list of campaign members, add the the same date as the date the event took place.
+You can also update the dates for all campaign members on an existing campaign. When doing this, be sure the date of the Touchpoint is the date of the member's interaction. Click the Bulk Update Buyer Touchpoint Date, filter the list of campaign members as appropriate, and in the "[!UICONTROL Select Date]" option above the list of campaign members, add the the same date as the date the event took place.
 
 >[!CAUTION]
 >

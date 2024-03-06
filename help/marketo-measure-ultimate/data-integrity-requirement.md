@@ -6,7 +6,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 ---
 # [!DNL Marketo Measure] Ultimate Data Integrity Requirement {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validates the incoming AEP datasets to ensure the data is sufficient and coherent for the purpose of attribution. Failing to meet the data integrity requirement will cause the dataset to be rejected by the [!DNL Marketo Measure] system. This document details the data integrity requirement, provides query examples for data inspection, and recommends a solution for required fields with a null value.
+[!DNL Marketo Measure] validates the incoming AEP datasets to ensure that the data is sufficient and coherent for attribution. Failing to meet the data integrity requirement causes the dataset to be rejected by the [!DNL Marketo Measure] system. This document details the data integrity requirement, provides query examples for data inspection, and recommends a solution for required fields with a null value.
 
 ## Entity Object {#entity-object}
 
@@ -31,7 +31,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
       <td>string</td>
       <td></td>
       <td>Yes</td>
-      <td>E.g. - 123@999-abc-888.Marketo</td>
+      <td>For example - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -359,7 +359,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
       <td>string</td>
       <td></td>
       <td>Yes</td>
-      <td>e.g. - 333@999-abc-888.Marketo</td>
+      <td>For example - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -367,7 +367,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
       <td>string</td>
       <td>ID</td>
       <td>Yes</td>
-      <td>e.g. - 333, depending on the data source table, this is either Lead ID or Contact ID</td>
+      <td>For example - 333, depending on the data source table, this is either Lead ID or Contact ID</td>
     </tr>
     <tr>
       <td></td>
@@ -1099,7 +1099,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
   </tbody>
 </table>
 
-Use the "Interesting Moment" event type for event types not supported in the table above. Add a custom field to indicate the sub-type "Interesting Moment".
+Use the "Interesting Moment" event type for event types not supported in the table above. Add a custom field to indicate the subtype "Interesting Moment".
 
 ## Query Examples for Data Inspection {#query-examples-for-data-inspection}
 

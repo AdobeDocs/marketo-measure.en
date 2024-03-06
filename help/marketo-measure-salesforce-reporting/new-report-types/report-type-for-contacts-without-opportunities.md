@@ -29,4 +29,4 @@ In order to report on Contacts with Buyer Touchpoints that are not associated to
 
    ![](assets/4.jpg)
 
-1. Click **[!UICONTROL Save]** and you're done!
+1. Click **[!UICONTROL Save]** and you are done!

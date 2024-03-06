@@ -19,7 +19,7 @@ If your SFDC org uses multiple campaign record types, the picklist values for th
 
    ![](assets/2.jpg)
 
-1. Here you're brought to screen with the available picklists for that record type. Select **[!UICONTROL Edit]** next to the "Enable Buyer Touchpoints" field.
+1. Here you are brought to screen with the available picklists for that record type. Select **[!UICONTROL Edit]** next to the "Enable Buyer Touchpoints" field.
 
    ![](assets/3.jpg)
 

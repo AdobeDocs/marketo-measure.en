@@ -61,7 +61,7 @@ When looking at Pipeline Revenue, we recommend changing the dates to a date rang
 
 ## Paid Search ROI {#paid-search-roi}
 
-If you're looking to gain insights into the Campaign and even Keyword-level ROI of your Paid Search efforts, navigate to the Ads ROI dashboard under the Role Based Views in Discover. This dashboard will also provide information on Revenue, Spend, Pipeline Revenue, Leads, Contacts, Opportunities, and Deals from paid ads.
+If you are looking to gain insights into the Campaign and even Keyword-level ROI of your Paid Search efforts, navigate to the Ads ROI dashboard under the Role Based Views in Discover. This dashboard will also provide information on Revenue, Spend, Pipeline Revenue, Leads, Contacts, Opportunities, and Deals from paid ads.
 
 Additionally, the Paid Media dashboard under the Role Based Views will surface impressions, clicks, page views, and visits from all paid media channels.
 

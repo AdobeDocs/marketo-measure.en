@@ -21,7 +21,7 @@ Things to keep in mind:
 * Select the revenue field that is accurate and utilized for all Opportunities
    * ARR or Total Contract Value us recommended
 * Do not use a formula field
-* If you're using a Custom Revenue Amount for currency conversions, the [!UICONTROL Marketo Measure Multiple Currencies] functionality is the preferred method instead.
+* If you are using a Custom Revenue Amount for currency conversions, the [!UICONTROL Marketo Measure Multiple Currencies] functionality is the preferred method instead.
    * The [!DNL Marketo Measure] Multiple Currencies functionality references the conversion rates established in [!DNL Salesforce] to best ensure alignment between currency conversions. This allows you to continue utilizing the standard 'Amount' (SFDC Default), or any other custom Amount field that relates to the [!DNL Salesforce] conversion rates.
 * If you update the Amount field you'd like [!DNL Marketo Measure] to reference, use Data Loader to update past Opportunities to ensure your revenue data is consistent and the proper field is populate via the workflow
 
@@ -29,7 +29,7 @@ Things to keep in mind:
 
 Reviewing your revenue amount setup yearly will ensure that your attribution data is accurate and aligned with the rest of your organization's revenue reporting.
 
-If you're utilizing a Custom Revenue Amount, check your revenue setup as follows.
+If you are utilizing a Custom Revenue Amount, check your revenue setup as follows.
 
 * In your [!DNL Marketo Measure] account, go to the '[!UICONTROL Opportunities]' section under CRM
 * Identify the [!UICONTROL Custom Opportunity Amount] Field, here your [!UICONTROL custom revenue amount API] field should be listed

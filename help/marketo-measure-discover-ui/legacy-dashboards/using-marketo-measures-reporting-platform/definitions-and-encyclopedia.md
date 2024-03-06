@@ -895,7 +895,7 @@ Click the aggregated numbers to drill down for base data details.
 
 **Q: Why is there both an 'Account ID' and 'Account Name' filter?**
 
-A: While account IDs are unique, account names don't have to be. For example, you could have created multiple different accounts for each business unit within an enterprise company. While using the account name may be more intuitive, to ensure you're filtering for a specific account, you may want to use the account ID.
+A: While account IDs are unique, account names don't have to be. For example, you could have created multiple different accounts for each business unit within an enterprise company. While using the account name may be more intuitive, to ensure you are filtering for a specific account, you may want to use the account ID.
 
 **Q: If I filter by Account ID, will all the tables by filtered?**
 
@@ -911,7 +911,7 @@ A: Yes, if you click any of the column headers, it will sort the table. If you c
 
 **Q: Can I export the data?**
 
-A: Yes, when hovering over the tile title (e.g., 'Accounts'), click on the three vertical dots in the upper right-hand corner. This will enable you to download the data for that tile in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
+A: Yes, when hovering over the tile title (e.g., 'Accounts'), click the three vertical dots in the upper right-hand corner. This will enable you to download the data for that tile in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
 
 **Q: Can I see beyond 500 rows of data?**
 
@@ -1101,7 +1101,7 @@ A: Using the 'Marketing Touch Type' filter, set the filter to 'doesn't contain W
 
 **Q: Can I export the data?**
 
-A: Yes, when hovering over the 'Journey of Events' table, click on the three vertical dots in the upper right-hand corner. This will enable you to download the data in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
+A: Yes, when hovering over the 'Journey of Events' table, click the three vertical dots in the upper right-hand corner. This will enable you to download the data in the following formats: TXT, CSV, XLS, JSON, HTML, and Markdown.
 
 **Q: Can I change how the table is sorted?**
 

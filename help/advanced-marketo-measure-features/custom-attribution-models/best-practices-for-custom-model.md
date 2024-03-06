@@ -26,7 +26,7 @@ It is crucial that these two aspects of your Custom Model are defined correctly 
 
 ## Best Practice {#best-practice}
 
-Whether you're setting up your Custom Model for the first time, or reviewing what has been previously established, it's important to keep the following best practices in mind.
+Whether you are setting up your Custom Model for the first time, or reviewing what has been previously established, it's important to keep the following best practices in mind.
 
 * Start simple
    * Identify the key stages that you want to add to your Custom Model which are crucial to your [!DNL Marketo Measure] reporting. Typically these are stages which you are commonly measured against or which you are aiming to gain insight on
@@ -43,9 +43,9 @@ Whether you're setting up your Custom Model for the first time, or reviewing wha
 * Do not use a formula fields to define a custom stage
    * A Boolean field is best practice recommendation
 * Do not incorporate Custom Stages into your Custom Model which coincide with a [!DNL Marketo Measure] Milestone Touchpoint Position (FT, LC, OC, Closed Won/Lost)
-   * If you do, these positions will always occur simultaneously and can cause inflated attribution credit to parts of your funnel.
+   * If you do, these positions always occur simultaneously and can cause inflated attribution credit to parts of your funnel.
 * Work with your Sales Opp team
-   * Bringing in the team who works closest with stages and their meaning will ensure you're using the correct stages and that they're defined properly
+   * Bringing in the team who works closest with stages and their meaning ensures that you are using the correct stages and that they are defined properly
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}
 

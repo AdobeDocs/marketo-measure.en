@@ -33,7 +33,7 @@ Cons: However, if there's no contact role process in place, marketing loses a lo
 
 ## Opportunity Primary Contact Role Mapping {#opportunity-primary-contact-role-mapping}
 
-Beyond simply looking at the contact roles on the opportunity, [!DNL Marketo Measure] can focus even more to look at only the Primary Contacts on an Opportunity. With this setup in mind, [!DNL Marketo Measure] will only grab the marketing touchpoint associated to the primary contacts on an opportunity and push that information into the attribution story of that specific opportunity. See the image below.
+Beyond simply looking at the contact roles on the opportunity, [!DNL Marketo Measure] can focus even more to look at only the Primary Contacts on an Opportunity. With this setup in mind, [!DNL Marketo Measure] only grabs the marketing touchpoint associated to the primary contacts on an opportunity and push that information into the attribution story of that specific opportunity. See the image below.
 
 ![](assets/3.png)
 

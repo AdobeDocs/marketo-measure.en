@@ -9,7 +9,7 @@ feature: Tracking
 
 Learn how to add the [!DNL Marketo Measure] JavaScript to track your [!DNL Hubspot] landing pages and form submissions.
 
-Hubspot is a bit different from other marketing automation systems in that it can host your landing pages / forms AND your website. It's important to note that the below instructions are for having [!DNL Marketo Measure] track activity on [!DNL Hubspot]-hosted pages. If you power your website with a CMS other than [!DNL Hubspot] (e.g. Wordpress), you will need to add the [!DNL Marketo Measure] JavaScript to that CMS as well.
+Hubspot is a bit different from other marketing automation systems in that it can host your landing pages / forms AND your website. It's important to note that the below instructions are for having [!DNL Marketo Measure] track activity on [!DNL Hubspot]-hosted pages. If you power your website with a CMS other than [!DNL Hubspot] (for example, Wordpress), you need to add the [!DNL Marketo Measure] JavaScript to that CMS as well.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Once you have logged into your [!DNL Hubspot] account, follow these steps.
 
 1. Click **[!UICONTROL Content Settings]**.
 
-1. Within [!UICONTROL Content Settings], click on the Site Header HTML (see image below).
+1. Within [!UICONTROL Content Settings], click the Site Header HTML (see image below).
 
 1. Add the following script within your `<header>`:
 

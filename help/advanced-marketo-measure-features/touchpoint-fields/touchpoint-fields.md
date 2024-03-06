@@ -19,7 +19,7 @@ Historically, when customers onboard with [!DNL Marketo Measure] and in the case
 
 ## Enabling the Feature {#enabling-the-feature}
 
-From the [!DNL Marketo Measure] Settings menu, navigate to the Touchpoint Fields page. From there, you can enable the feature by selecting **Yes** under **Enable Calculated Fields**. Once that's enabled, you're free to create Touchpoint Fields.
+From the [!DNL Marketo Measure] Settings menu, navigate to the Touchpoint Fields page. From there, you can enable the feature by selecting **Yes** under **Enable Calculated Fields**. After the feature is enabled, you can create Touchpoint Fields.
 
 ![](assets/one.png)
 
@@ -64,7 +64,7 @@ A common use case this feature enables is to pull out values from custom paramet
    * **)** marks the end of the extraction
    * **\w** tells us that we are extracting a "word" which includes 0-9
    * **+** will extract the full value of the parameter with no limit on characters
-   * Take note that you're using a forward slash and not a back slash
+   * Take note that you are using a forward slash and not a back slash
 
 ![](assets/three.png)
 
@@ -215,7 +215,7 @@ There is additional work needed to expose the new fields in the [!DNL Marketo Me
 
 **How can I validate that my extract expression is valid and pulling the correct value?**
 
-There's an online tool ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) that you can run and test out the expression. The expression will appear green if it's valid or red if it's invalid. Also, the [!UICONTROL explanation] box at the top right is helpful and tells you what you're extracting.
+There's an online tool ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) that you can run and test out the expression. The expression appears green if it is valid or red if it is invalid. Also, the [!UICONTROL explanation] box at the top right is helpful and tells you what you are extracting.
 
 ![](assets/twelve.png)
 

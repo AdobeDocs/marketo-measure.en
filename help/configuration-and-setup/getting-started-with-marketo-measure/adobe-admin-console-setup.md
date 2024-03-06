@@ -6,13 +6,13 @@ exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
 ---
 # Adobe Admin Console Setup {#adobe-admin-console-setup}
 
-The first step to using [!DNL Marketo Measure] is to create and sign in to your provisioned Adobe Admin Console. If you haven't already received the email with login instructions, contact your [!DNL Marketo Measure] Account Representative.
+The first step to using [!DNL Marketo Measure] is to create and sign in to your provisioned Adobe Admin Console. If you have not received the email with login instructions, contact your [!DNL Marketo Measure] Account Representative.
 
 ## Set up Your Adobe Admin Console and Identity Provider {#set-up-your-adobe-admin-console-and-identity-provider}
 
 As a product within the Adobe Suite, [!DNL Marketo Measure] uses the full functionality of Adobe Admin Console for Identity Management. More resources can be [found here](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
-We recommend reviewing all of the resources, best practices, and options available to you for [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+It is recommended to review the resources, best practices, and options available to you for [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 For guidance and review of setting up your Identity Management within the Adobe Admin Console, reach out to your [!DNL Marketo Measure] Account Representative.
 
@@ -49,6 +49,6 @@ When adding a user to their respective group, you see their [Identity Type liste
 
 **Signing in to [!DNL Marketo Measure]**
 
-After a user has been added to a Product Profile, they're able to access their [!DNL Marketo Measure] instances by choosing the **Sign-in with Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+After a user has been added to a Product Profile, they're able to access their [!DNL Marketo Measure] instances by choosing the **Sign in with Adobe ID** option at [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
    ![](assets/adobe-admin-console-setup-3.png)

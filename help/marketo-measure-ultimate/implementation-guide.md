@@ -9,7 +9,7 @@ This article serves as an implementation guide for Marketo Measure Ultimate, pro
 
 ## Main Differences When Using Ultimate over Standard Tiers {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Import B2B Data Through AEP: Marketers are expected to bring their B2B data (e.g. Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. Ingest from nearly any data source as well as multiple data sources of the same type to bring in all your data for attribution.
+Import B2B Data Through AEP: Marketers are expected to bring their B2B data (for example, Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. Ingest from nearly any data source and multiple data sources of the same type to bring in all your data for attribution.
    
 * Use with nearly any CRM, not just Salesforce and Dynamics.
 * Connect multiple CRM instances and/or MAP instances to one Marketo Measure instance.
@@ -18,11 +18,11 @@ Import B2B Data Through AEP: Marketers are expected to bring their B2B data (e.g
 The direct CRM and Marketo Engage connections are no longer available for Ultimate.
 
 * Ultimate does not push data back to the CRM. Customers can consume data from the data warehouse.
-* Marketers will continue bringing Ad Platform data through direct connections and tracking web activities through Marketo Measure javascript.
+* Marketers continue bringing Ad Platform data through direct connections and tracking web activities through Marketo Measure javascript.
 
-Ultimate users will be provisioned AEP. If they already have AEP, we will not re-provision a new instance.
+Ultimate users are provisioned AEP. If they already have AEP, we will not reprovision a new instance.
 
-* The AEP version provisioned will include all source connectors, schema data modeling, datasets, ad hoc query service, and a destination for Marketo Measure only.
+* The AEP version provisioned includes all source connectors, schema data modeling, datasets, ad hoc query service, and a destination for Marketo Measure only.
 
 Learn more about [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
@@ -45,7 +45,7 @@ Learn more about [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marke
 
 ## Creating a Schema {#creating-a-schema}
 
-We recommend using an auto-generation utility to create 10 standard B2B schemas.
+We recommend using an auto-generation utility to create ten standard B2B schemas.
 
 * Steps to download and set up the utility [can be found here](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
@@ -55,7 +55,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-* Select an account and all B2B templates to create 10 standard B2B schemas.
+* Select an account and all B2B templates to create ten standard B2B schemas.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
@@ -63,7 +63,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
 >[!IMPORTANT]
 >
->When adding a new dataset, we recommend creating a new flow instead of using an existing one. 
+>When adding a new dataset, we recommend creating a flow instead of using an existing one. 
 
 [Dataflows Overview](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
@@ -72,12 +72,12 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 1. Select a Source.
 1. Select an existing account or create an account.
 1. Select a data type from the list of available types to import from the Source.
-1. Select an existing dataset or create a new dataset.
+1. Select an existing dataset or create a dataset.
 1. Map the fields from the Source to the schema.
 
    >[!NOTE]
    >
-   >* If you map one schema type to another identical one, it will be done automatically.
+   >* If you map one schema type to another identical one, it is done automatically.
    >* You can also import mapping from another flow in the system. 
    >* You can map one Source field to multiple destination fields but can't do the opposite.
    >* You can create calculated fields ([Data Prep mapping functions](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
@@ -85,7 +85,7 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
    >[!CAUTION]
    >
    >* You could edit a dataflow, but the data is not backfilled when a mapping is changed.
-   >* If a required field is NULL, the entire flow will be rejected.
+   >* If a required field is NULL, the entire flow is rejected.
 
    >[!NOTE]
    >
@@ -93,13 +93,13 @@ For those with a _**CDP entitlement**_: Create schemas by going to the Sources p
 
 1. Set a data load cadence.
 1. Review and Complete.
-1. Check "Account Status" page in Measure UI settings for dataflow status.
+1. Check the "Account Status" page in Measure UI settings for dataflow status.
 
 **Monitoring:**
 
 Sources > Dataflows page to check the status of dataflows
 
-* To view the activity details of a dataset, simply click on the dataset.
+* To view the activity details of a dataset, simply click the dataset.
 * To view dataflow errors, select a dataflow, choose a dataflow run, and click "Error diagnostics preview."
 
 ## Data Inspection {#data-inspection}
@@ -125,12 +125,12 @@ Before you begin, go to the "Experience Platform > Sandbox Mapping" section in t
 
 >[!NOTE]
 >
->* Data for a given entity (e.g., Account) from a given source can only go into one dataset. Each dataset can only be included in one data flow. Violations will stop the data flow at run time.
->* Delete the entire destination in AEP to delete data in Measure. Disabling will only stop new data exports and keep the old data. 
+>* Data for a given entity (for example, Account) from a given source can only go into one dataset. Each dataset can only be included in one data flow. Violations stop the data flow at run time.
+>* Delete the entire destination in AEP to delete data in Measure. Disabling stops new data exports and keep the old data. 
 >* The Measure configuration will mostly look the same, but some parts, like Stage Mapping, will look different.
 >* It takes a few hours for a new dataflow to generate a flow run, and then they occur at regular hourly intervals.
 
-In Measure, the default currency needs to be set in the "Currency" section
+In Measure, the default currency must be set in the "Currency" section
 
 * If you use multi-currency, the currency conversion rate schema has to be populated in AEP for us to read and use for conversions. 
 
@@ -144,26 +144,26 @@ We don't automatically import stages from user data, so all stages must be mappe
 
 If the stages are not mapped, the system will not function because there will be nowhere for the data to go.
 
-If you're a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
+If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
       
 * b2b.personStatus
 * b2b.isConverted
 
 **Campaign Member Rules:**
 
-Need to pick a dataset and set rules for each. 
+Pick a dataset and set rules for each. 
 
 **Experience Events Rules:**
 
-Need to pick a dataset and select activity types.
+Pick a dataset and select activity types.
 
 * Custom activities are not supported yet. 
 * If the customer has activities that do not fit the available options, we suggest categorizing them as "Interesting Moments" and using custom fields to distinguish them.
 
 **Offline Channels:**
 
-* We don't do dataset-specific channel mapping rules, so this would be global.
-* We need to match both CRM Campaign Type and Channel eventually, but for now, we can map the channel name to both fields as a workaround. 
+* We don't do dataset-specific channel-mapping rules, so this would be global.
+* We must match both CRM Campaign Type and Channel eventually, but for now, we can map the channel name to both fields as a workaround. 
 * **Channel rules: Backfilled data won't have stage transition data.**
 
 Touchpoint and Segment settings remain the same.

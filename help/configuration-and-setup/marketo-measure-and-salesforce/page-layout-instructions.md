@@ -83,7 +83,7 @@ It is recommended that you add the [!DNL Marketo Measure] fields to your SFDC Ca
    >
    >Most customers don't use the fields that end with (FT) or (LC) because they're legacy fields from before the [!DNL Marketo Measure] Touchpoint existed as an object.
 
-If you're using the [!DNL Marketo Measure] ABM feature, [click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+If you are using the [!DNL Marketo Measure] ABM feature, [click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contacts {#contacts}
 

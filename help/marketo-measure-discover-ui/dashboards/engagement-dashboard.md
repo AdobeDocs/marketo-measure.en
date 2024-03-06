@@ -11,7 +11,7 @@ Questions the dashboard answers:
 
 * How many people were engaged? What is the average number of touches per engaged person?
 * How does the number of touchpoints compare to People Touched within a specific Channel/Subchannel/Campaign?
-* How many touchpoints were there by a given channel or subchannels? How did it change over time?
+* How many touchpoints were there by a given channel or subchannel? How did it change over time?
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Questions the dashboard answers:
 ### KPI Tiles {#kpi-tiles}
 
 * Touchpoints: The total number of raw touchpoints generated.
-  * Buyer Touchpoints and Buyer Attribution Touchpoints are attribution outcomes that are created by selecting specific touchpoints for credit. Not all touchpoints will be selected as BTs and BATs.
+  * Buyer Touchpoints and Buyer Attribution Touchpoints are attribution outcomes that are created by selecting specific touchpoints for credit. Not all touchpoints are selected as BTs and BATs.
 * People Touched: The total number of people who have any touchpoints.
 * Touchpoints per Person: Average number of touchpoints per person who have been touched.
 

@@ -11,7 +11,7 @@ Learn about the various [!DNL Marketo Measure] Cookies that are loaded onto your
 
 >[!IMPORTANT]
 >
->Due to privacy concerns, third-party cookies are on the way out. Google Chrome's announced Q3 2024 deprecation of third-party cookies effectively marks the end of this form of tracking. As a result, Adobe will be deprecating Marketo Measure functions which rely on third-party cookies; specifically, Cross-Domain Tracking and View-through Attribution, which use the Google/DoubleClick impression cookie. No other functions of Marketo Measure will be impacted. First-party cookie usage is also not impacted. In light of Google's schedule, the expected deprecation date for the two functions above is 6/1/2024. Related data collected before this date will remain available to Adobe customers.
+>Due to privacy concerns, third-party cookies are on the way out. Google Chrome's announced Q3 2024 deprecation of third-party cookies effectively marks the end of this form of tracking. As a result, Adobe is deprecating Marketo Measure functions which rely on third-party cookies; specifically, Cross-Domain Tracking and View-through Attribution, which use the Google/DoubleClick impression cookie. No other functions of Marketo Measure will be impacted. First-party cookie usage is also not impacted. In light of Google's schedule, the expected deprecation date for the two functions above is 6/1/2024. Related data collected before this date remains available to Adobe customers.
 
 <table>
 <thead>
@@ -91,7 +91,7 @@ Learn about the various [!DNL Marketo Measure] Cookies that are loaded onto your
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Third party, domain=.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>Third party, domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>Universal user ID to identify a user across multiple domains.</td>
     <td>1 year</td>
     <td>Yes</td>
@@ -110,6 +110,6 @@ Learn about the various [!DNL Marketo Measure] Cookies that are loaded onto your
 </tbody>
 </table>
 
-If a Web Application Firewall (WAF) warning is triggered during the JavaScript setup, users can either disable that WAF rule or allow-list the cookies, as the below example:
+If a Web Application Firewall (WAF) warning is triggered during the JavaScript setup, users can either disable that WAF rule or allowlist the cookies, as the below example:
 
 ![](assets/marketo-measure-cookies-1.png)

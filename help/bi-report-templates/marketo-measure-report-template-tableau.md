@@ -56,7 +56,7 @@ However, this is incorrect in that if a session was deleted, but the correspondi
 
 ## Data Transformations {#data-transformations}
 
-A few transformations have been applied to the data in [!DNL Tableau] from its original state in Snowflake. Most of these transformations are applied in the custom SQL queries which generate the tables in the [!DNL Tableau] model. To view the custom SQL used to generate a table, right-click on the table name and select "Edit Custom SQL Query". Some of the specific transformations are outlined below.
+A few transformations have been applied to the data in [!DNL Tableau] from its original state in Snowflake. Most of these transformations are applied in the custom SQL queries which generate the tables in the [!DNL Tableau] model. To view the custom SQL used to generate a table, right-click the table name and select "Edit Custom SQL Query". Some of the specific transformations are outlined below.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 

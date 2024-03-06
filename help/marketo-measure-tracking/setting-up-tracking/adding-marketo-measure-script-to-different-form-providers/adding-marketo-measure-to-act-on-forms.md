@@ -9,7 +9,7 @@ feature: Tracking
 
 ## Directions {#directions}
 
-1. In the form you're editing, select the **[!UICONTROL Settings]** option in the right hand corner.
+1. In the form you are editing, select the **[!UICONTROL Settings]** option in the right hand corner.
 1. Look for an area labeled [!UICONTROL "External Web Analytics."] This will be where you drop the [!DNL Marketo Measure] tracking code snippet.
 
 ## [!DNL Marketo Measure] JavaScript {#marketo-measure-javascript}

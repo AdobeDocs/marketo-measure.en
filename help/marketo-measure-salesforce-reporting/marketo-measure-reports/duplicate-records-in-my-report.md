@@ -13,7 +13,7 @@ feature: Reporting
 
 As you dive into the [!DNL Marketo Measure] Reports in [!DNL Salesforce], you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review [!DNL Marketo Measure] out-of-the-box reports.
 
-When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you're no longer reporting on the count of leads, contacts, or opportunities but rather you will be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
+When reporting with the Buyer Touchpoints object or the Buyer Attribution Touchpoint object, it's important to understand that you are no longer reporting on the count of leads, contacts, or opportunities but rather you will be reporting on the number of Buyer Touchpoints or Buyer Attribution Touchpoints associated to those standard objects (leads, contacts, opportunities).
 
 Let's take the following report as an example:
 

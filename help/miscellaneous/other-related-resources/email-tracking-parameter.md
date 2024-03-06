@@ -19,7 +19,7 @@ The [!DNL Marketo Measure] Email Tracking Parameter allows marketers to treat em
 
 When a visitor arrives on your site, [!DNL Marketo Measure] expects to find a landing page with either an email address or [!DNL Salesforce] Id so we can associate that visit with a "form submission" and generate a touchpoint for that activity.
 
-As the customer, you build out an email template as you normally would. Once it's time to add in the landing page for the action that you want to track, you need to determine either the token, or variable tag, or macro that your Marketing Automation platform accepts to dynamically display the value for each individual.
+As the customer, you build out an email template as you normally would. Once it's time to add in the landing page for the action that you want to track, you must determine either the token, or variable tag, or macro that your Marketing Automation platform accepts to dynamically display the value for each individual.
 
 Marketo Measure accepts the following values: Email Address, Salesforce Lead Id, or Salesforce Contact Id.
 
@@ -66,6 +66,6 @@ Marketo Measure accepts the following values: Email Address, Salesforce Lead Id,
  </tbody> 
 </table>
 
-And finally, within [!DNL Marketo Measure], you need to specify the tracking parameter so that [!DNL Marketo Measure] can locate the email or Id value. The default is "mailId" as shown in the examples above and the screenshot below. Enter the value into your Settings in [!DNL Marketo Measure], then click **[!UICONTROL Save]**.
+And finally, within [!DNL Marketo Measure], you must specify the tracking parameter so that [!DNL Marketo Measure] can locate the email or Id value. The default is "mailId" as shown in the examples above and the screenshot below. Enter the value into your Settings in [!DNL Marketo Measure], then click **[!UICONTROL Save]**.
 
 ![](assets/one.png)

@@ -34,7 +34,7 @@ Every dashboard has a range of filters, accompanied by the following controls fo
   </tr>
    <tr> 
    <td><b>Clear Filter Button</b></td>
-   <td>To clear a filter, click on the eraser icon located at the top-right corner of each filter.
+   <td>To clear a filter, click the eraser icon located at the top-right corner of each filter.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
@@ -100,6 +100,6 @@ Selecting a value or axis label in one visualization will cross-filter other vis
 
 ### Tooltips {#tooltips}
 
-Tooltips offer supplementary details about the displayed data. Simply hover over a visual element and a contextual tooltip will pop up, providing insights or explanations related to that specific data point.
+Tooltips offer supplementary details about the displayed data. Hover over a visual element and a contextual tooltip will pop up, providing insights or explanations related to that specific data point.
 
 ![](assets/discover-dashboard-basics-13.gif)

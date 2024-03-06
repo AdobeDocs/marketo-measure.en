@@ -11,9 +11,9 @@ feature: Microsoft Dynamics
 >
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-The [!DNL Marketo Measure] Managed Solution comes with a number of stock Dashboards and Reports, designed to cover your basic needs when viewing [!DNL Marketo Measure] data in Dynamics. Below is the full list and some common use cases.
+The [!DNL Marketo Measure] Managed Solution comes with several stock Dashboards and Reports, designed to cover your basic needs when viewing [!DNL Marketo Measure] data in Dynamics. Below is the full list and some common use cases.
 
-## Dashboards (9 total) {#dashboards-total}
+## Dashboards (nine total) {#dashboards-total}
 
 <table> 
  <colgroup> 
@@ -146,12 +146,12 @@ The [!DNL Marketo Measure] Managed Solution comes with a number of stock Dashboa
   </tr> 
   <tr> 
    <td>Leads by AdWords Name (FT)</td> 
-   <td>Measure how many leads had a first touch from each AdWords campaigns.</td> 
+   <td>Measure how many leads had a first touch from each AdWords campaign.</td> 
    <td>All</td> 
   </tr> 
   <tr> 
    <td>Leads by AdWords Name (LC)</td> 
-   <td>Measure how many leads were generated with a lead creation touch from each AdWords campaigns.</td> 
+   <td>Measure how many leads were generated with a lead creation touch from each AdWords campaign.</td> 
    <td>All</td> 
   </tr> 
   <tr> 

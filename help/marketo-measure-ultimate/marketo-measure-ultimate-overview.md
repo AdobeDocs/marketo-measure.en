@@ -10,7 +10,7 @@ feature: Integration, Tracking, Attribution
 
 [!DNL Marketo Measure Ultimate] contains the additional capabilities:
 
-* Ingest from nearly any data source as well as multiple data sources of the same type to bring in all your data for attribution.
+* Ingest from nearly any data source and multiple data sources of the same type to bring in all your data for attribution.
   * Use with nearly any CRM, not just Salesforce and Dynamics.
   * Connect multiple CRM instances and/or MAP instances to one [!DNL Marketo Measure] instance.
   * Bring in 3rd-party webinar registration and participation data.
@@ -33,13 +33,13 @@ feature: Integration, Tracking, Attribution
 
 **Import B2B Data Through AEP**
 
-Marketers are expected to bring their B2B data (e.g. Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. The direct CRM and Marketo Engage connections are no longer available for Ultimate. Marketers will continue bringing Ad Platform data through direct connections and tracking web activities through [!DNL Marketo Measure] javascript.
+Marketers are expected to bring their B2B data (for example, Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. The direct CRM and Marketo Engage connections are no longer available for Ultimate. Marketers continue bringing Ad Platform data through direct connections and tracking web activities through [!DNL Marketo Measure] javascript.
 
    ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **Default Currency Setting**
 
-[!DNL Marketo Measure Ultimate] will set the default currency to USD until the user changes it. Setting a new default currency will update the data without reprocessing. As long as the selected currency is present as a target ISO code, there is no need to submit conversion rates.
+[!DNL Marketo Measure Ultimate] sets the default currency to USD until the user changes it. Setting a new default currency updates the data without reprocessing. As long as the selected currency is present as a target ISO code, there is no need to submit conversion rates.
 
    ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -49,11 +49,11 @@ Marketers are expected to bring their B2B data (e.g. Account, Opportunity, Conta
 
 >[!NOTE]
 >
->A [!DNL Marketo Measure Ultimate] production instance needs to be mapped to an AEP production sandbox, a [!DNL Marketo Measure Ultimate] developers instance needs to be mapped to an AEP developers sandbox.
+>A [!DNL Marketo Measure Ultimate] production instance must be mapped to an AEP production sandbox, a [!DNL Marketo Measure Ultimate] developer instance must be mapped to an AEP developer sandbox.
 
-Once the sandbox mapping selection is saved, you cannot change it in the application at this time. To change it, reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Once the sandbox-mapping selection is saved, you cannot change it in the application. To change it, reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Data for a given entity (e.g., Account) from a given data source can only go into one dataset. Each dataset can only be included in one data flow. Violations will stop the data flow at run time.
+Data for a given entity (for example, Account) from a given data source can only go into one dataset. Each dataset can only be included in one data flow. Violations stop the data flow at run time.
 
    ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -100,8 +100,8 @@ Attribution Touchpoints are not written to CRM because Ultimate does not have a 
 
 ## Limitations {#limitations}
 
-* Limited fields are available for data transformation rules at this time.
-* There is no migration path for existing Tier 1/2/3 users. Requires new implementation but we will help migrate the tracked web activity data from the existing instance.
+* Limited fields are available for data transformation rules.
+* There is no migration path for existing Tier 1/2/3 users. Requires new implementation but we help migrate the tracked web activity data from the existing instance.
 
 >[!MORELIKETHIS]
 >

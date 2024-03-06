@@ -11,7 +11,7 @@ Not all Marketing teams want (or have access) to run marketing reporting out of 
 
 ## Standard [!DNL Marketo Measure] Installation {#standard-marketo-measure-installation}
 
-Through the standard [!DNL Marketo Measure] installation, you're required to install a [!DNL Salesforce] Package or a [!DNL Microsoft Dynamics] Managed Solution. The installation includes custom objects/entities and custom fields that are added to the CRM that [!DNL Marketo Measure] can then write data to.
+Through the standard [!DNL Marketo Measure] installation, you are required to install a [!DNL Salesforce] Package or a [!DNL Microsoft Dynamics] Managed Solution. The installation includes custom objects/entities and custom fields that are added to the CRM that [!DNL Marketo Measure] can then write data to.
 
 A packageless integration with [!DNL Marketo Measure] is for customers who don't want to create custom objects/entities or custom fields in your CRM. It's also a good option for customers who are using an external Data Warehouse.
 
@@ -29,7 +29,7 @@ In the guides below, skip the steps to install the [!DNL Salesforce] package or 
 
 [!DNL Microsoft Dynamics] customers click [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Once you complete the above steps, you are good to go. If you run into any issues along the way, don't hesitate to reach out to your [!DNL Marketo Measure] representative or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+After you complete these steps, the integration should be operational. If you run into any issues, contact  your [!DNL Marketo Measure] representative or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

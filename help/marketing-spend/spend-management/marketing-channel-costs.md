@@ -7,11 +7,11 @@ feature: Channels, Spend Management
 ---
 # Marketing Channel Costs {#marketing-channel-costs}
 
-One of the most fundamental benefits of using [!DNL Marketo Measure] is the ability to connect marketing efforts directly to the impact on revenue--with as much granularity as desired. It is possible to see return on investment at the touchpoint level. To take advantage of this benefit, channel costs simply need to be uploaded to the [!DNL Marketo Measure] app. ROI reports are automatically created and available in the **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+One of the most fundamental benefits of using [!DNL Marketo Measure] is the ability to connect marketing efforts directly to the impact on revenue--with as much granularity as desired. It is possible to see return on investment at the touchpoint level. To take advantage of this benefit, channel costs must be uploaded to the [!DNL Marketo Measure] app. ROI reports are automatically created and available in the **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Click here to navigate directly to instructions.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-The [!DNL Marketo Measure] Marketing Spend feature allows customers to upload their spend across all Channels, Subchannels, and Campaigns. The more data that is added by customers, the more ROI reporting we can surface in the Revenue Attribution Dashboard.
+The [!DNL Marketo Measure] Marketing Spend feature allows customers to upload their spend across all Channels, Subchannels, and Campaigns. The more data that is added by customers, the more ROI reporting is surfaced in the Revenue Attribution Dashboard.
 
 Costs that are reported and imported from direct ad connections are automatically pulled in at the most granular level and do not need to be uploaded. This includes our current integrations with Google AdWords, Bing Ads, Doubleclick, and Facebook.
 
@@ -21,23 +21,23 @@ Costs that are reported and imported from direct ad connections are automaticall
 
 **Spend by Campaign**
 
-At the most granular level, customers can enter spend by individual Campaigns, grouped within its respective Channel. For CRM Campaigns, [!DNL Marketo Measure] has pulled in the Campaign ID into a separate column that will help you map offline campaign spend from your CRM into this table. Adding spend at this level will enable customers to view Campaign ROI and optimize performance by Campaign.
+At the most granular level, customers can enter spends by individual Campaigns, grouped within its respective Channel. For CRM Campaigns, [!DNL Marketo Measure] has pulled in the Campaign ID into a separate column that helps you map offline campaign spend from your CRM into this table. Adding spend at this level enables customers to view Campaign ROI and optimize performance by Campaign.
 
 The total of all Campaigns does not need to sum up to any values entered at the Subchannel or Channel, but it cannot be more than any values entered at the Subchannel or Channel. If the sum is less than the value entered at the Subchannel or Channel, [!DNL Marketo Measure] will automatically add a row for "Other" to cover the difference and fill in any gaps.
 
 **Spend by Subchannel**
 
-At a higher level, customers can enter spend by Subchannel, grouped underneath its Channel. Adding spend at this level will enable customers to view Subchannel ROI and optimize performance by Subchannel.
+At a higher level, customers can enter spends by Subchannel, grouped underneath its Channel. Adding spend at this level enables customers to view Subchannel ROI and optimize performance by Subchannel.
 
 The total of all Subchannels does not need to sum up to any values entered at the Channel, but it cannot be more than any values entered at the Channel. If the sum is less than the value entered at the Channel, [!DNL Marketo Measure] will automatically add a row for "Other" to cover the difference and fill in any gaps.
 
 **Spend by Channel**
 
-At the highest level, customers can enter spend by Channel. Adding spend at this level will enable customers to view Channel ROI and optimize performance by Channel.
+At the highest level, customers can enter spends by Channel. Adding spend at this level enables customers to view Channel ROI and optimize performance by Channel.
 
 **Date Picker**
 
-The default date range will start from your start date with [!DNL Marketo Measure] up to the current month. To ensure costs remain correct, you are unable to enter costs for future months, but you can enter costs for months prior to your partnership with [!DNL Marketo Measure].
+The default date range will start from your start date with [!DNL Marketo Measure] up to the current month. To ensure that costs remain correct, you are unable to enter costs for future months, but you can enter costs for months before your partnership with [!DNL Marketo Measure].
 
 **Filter**
 
@@ -49,19 +49,19 @@ Use the Search box to find matched text from Channels, Subchannels, or Campaigns
 
 **Download Current Costs**
 
-The downloaded CSV will pull the results from your current screen, meaning that any dates, filters, or search that's applied will get downloaded as is.
+The downloaded CSV pulls the results from your current screen, meaning that any dates, filters, or search that's applied will get downloaded as is.
 
 **Upload CSV**
 
 Regardless of which view is sitting in the browser, if it's a filtered view or the default view with all dates and channels, you can upload any CSV.
 
-The most common error we face is the format of the date columns, which happens if the date format is changed and could happen intentionally if moving between Excel and/or Google Sheets. Keep in mind that the date should be MM-YY, so Sep-12 and not Sept-12, or May-12 and not 05-12.
+The most common error faced is the format of the date columns, which happens if the date format is changed and could happen intentionally if moving between Excel and/or Google Sheets. Keep in mind that the date should be MM-YY, so Sep-12 and not Sept-12, or May-12 and not 05-12.
 
 ## Before You Begin {#before-you-begin}
 
 [!DNL Marketo Measure] comes with 13 default channels that can be used or expanded upon. In addition, up to 40 online and offline channels can be created to accommodate your unique marketing structure. Building on this, a total of 200 subchannels may be created to support these online and offline channels as well.
 
-[!DNL Marketo Measure] will automatically download marketing channel costs from platforms that it has an API integration with, such as Bing Ads and Google AdWords. Costs for platforms that are not integrated with [!DNL Marketo Measure] will need to be uploaded manually. The marketing channels should be set up before the cost data is uploaded.
+[!DNL Marketo Measure] will automatically download marketing channel costs from platforms that it has an API integration with, such as Bing Ads and Google AdWords. Costs for platforms that are not integrated with [!DNL Marketo Measure] needs to be uploaded manually. The marketing channels should be set up before the cost data is uploaded.
 
 ## Uploading Marketing Costs {#uploading-marketing-costs}
 
@@ -69,7 +69,7 @@ Once marketing channels and rules have been set up or updated, the associated co
 
 **Step 1: Navigate to the Marketing Spend page in the [!DNL Marketo Measure] App.**
 
-Go to the **[!UICONTROL My Account]** menu, click on **[!UICONTROL Settings]** and then navigate to the **[!UICONTROL Marketing Spend]** option on the left sidebar under the **[!UICONTROL Reporting]** section.
+Go to the **[!UICONTROL My Account]** menu, click **[!UICONTROL Settings]**, and then navigate to the **[!UICONTROL Marketing Spend]** option on the left sidebar under the **[!UICONTROL Reporting]** section.
 
 ![](assets/1.png)
 
@@ -101,7 +101,7 @@ Bing Ads and Google AdWords costs do not need to be entered or updated because [
 
 **Step 4: Save file in CSV format**
 
-If you are working in Google Sheets, be sure to download the file first. Do not exclude or delete any monthly data as it will cause difficulties when trying to upload the CSV file to [!DNL Marketo Measure] later.
+If you are working in Google Sheets, be sure to download the file first. Do not exclude or delete any monthly data as it causes difficulties when trying to upload the CSV file to [!DNL Marketo Measure] later.
 
 **Step 5: Upload the CSV file**
 
@@ -111,11 +111,11 @@ Go to the **[!UICONTROL Cost]** section of the [!DNL Marketo Measure] app and cl
 
 **Why are numbers appearing in the CSV**
 
-If no value is entered at a higher level like Channel or Subchannel, [!DNL Marketo Measure] will automatically sum of the child levels for you, which will be presented once your file is uploaded. Also, if the sum of the children is less than a value entered for the parent, [!DNL Marketo Measure] will add an "Other" row to show the difference in the total.
+If no value is entered at a higher level like Channel or Subchannel, [!DNL Marketo Measure] will automatically sum of the child levels for you, which will be presented once your file is uploaded. Also, if the sum of the children is less than a value entered for the parent, [!DNL Marketo Measure] adds an "Other" row to show the difference in the total.
 
 **How are the Campaigns determined in the list that I'm seeing?**
 
-At the moment, our results list out Campaigns that we've seen get credited with a Touchpoint. If there was activity from a Campaign, we'll show that Campaign based on the Touchpoint Date that it occurred.
+At the moment, our results list out Campaigns that we've seen get credited with a Touchpoint. If there was activity from a Campaign, we show that Campaign based on the Touchpoint Date that it occurred.
 
 **There are too many rows and columns to sift through - can I consolidate the view?**
 
@@ -123,4 +123,4 @@ With the ability to change the date range, or filter the channel, or search for 
 
 **Why can't I upload a file?**
 
-We have different permission sets within the [!DNL Marketo Measure] App. In order to upload a file, you need to be an "AccountAdmin." To get around this, request access from your AccountAdmin or have your AccountAdmin upload the file on your behalf. A list of users and their roles can be found under **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.
+We have different permission sets within the [!DNL Marketo Measure] App. To upload a file, you must be an "AccountAdmin." To get around this, request access from your AccountAdmin or have your AccountAdmin upload the file on your behalf. A list of users and their roles can be found under **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL View/Add Account Users]**.
