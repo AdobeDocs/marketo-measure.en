@@ -2,6 +2,7 @@
 description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
 ---
 # [!DNL Marketo Measure] Ultimate Implementation Guide {#marketo-measure-ultimate-implementation-guide}
 

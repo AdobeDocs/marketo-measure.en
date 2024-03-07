@@ -2,6 +2,7 @@
 description: Opportunity Velocity Dashboard - [!DNL Marketo Measure] - Product
 title: Opportunity Velocity Dashboard
 feature: Reporting
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
 ---
 # Opportunity Velocity Dashboard {#opportunity-velocity-dashboard}
 

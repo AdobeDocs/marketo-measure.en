@@ -2,6 +2,7 @@
 description: Engagement Dashboard - [!DNL Marketo Measure] - Product
 title: Engagement Dashboard
 feature: Reporting
+exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
 ---
 # Engagement Dashboard {#engagement-dashboard}
 

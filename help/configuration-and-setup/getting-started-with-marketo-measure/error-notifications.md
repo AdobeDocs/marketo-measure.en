@@ -2,6 +2,7 @@
 description: Error Notifications - [!DNL Marketo Measure]
 title: Error Notifications
 feature: Fundamentals
+exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
 ---
 # Error Notifications {#error-notifications}
 

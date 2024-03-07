@@ -2,6 +2,7 @@
 description: Data Collected by JavaScript - [!DNL Marketo Measure]
 title: Data Collected by JavaScript
 feature: Tracking
+exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
 ---
 # Data Collected by JavaScript {#data-collected-by-javascript}
 

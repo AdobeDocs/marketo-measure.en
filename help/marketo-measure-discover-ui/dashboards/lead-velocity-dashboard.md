@@ -2,6 +2,7 @@
 description: Lead Velocity Dashboard - [!DNL Marketo Measure] - Product
 title: Lead Velocity Dashboard
 feature: Reporting
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
 ---
 # Lead Velocity Dashboard {#lead-velocity-dashboard}
 

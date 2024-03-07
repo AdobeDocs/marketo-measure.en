@@ -2,6 +2,7 @@
 description: Integration Permissions Overview - [!DNL Marketo Measure]
 title: Integration Permissions Overview
 feature: APIs, Integration
+exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
 ---
 # Integration Permissions Overview {#integration-permissions-overview}
 
