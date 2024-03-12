@@ -45,7 +45,6 @@ The Passport dashboard offers marketers a dynamic view of Leads, Contacts, and O
 This dashboard is equipped with the following settings and filters:
 
 * Date (based on Transition Date)
-* Attribution Model
 * Channel, Subchannel
 * Campaign
 * Segments
@@ -54,4 +53,3 @@ This dashboard is equipped with the following settings and filters:
 >
 >* [Discover Dashboard Basics](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
-
