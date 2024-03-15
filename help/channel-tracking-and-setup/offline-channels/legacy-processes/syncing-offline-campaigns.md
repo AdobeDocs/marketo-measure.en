@@ -68,6 +68,6 @@ Once one of these selections is chosen, [!DNL Marketo Measure] will assign each 
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] University: Mapping Offline Channels](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials: Mapping Offline Channels](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->[[!DNL Marketo Measure] University: Campaign Object Fields](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials: Campaign Object Fields](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

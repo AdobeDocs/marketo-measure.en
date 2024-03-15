@@ -37,7 +37,3 @@ There may be times when a marketing team may miss adding utm parameters to a par
 If you are a new [!DNL Marketo Measure] customer, you may be interested in bringing some of the marketing data you've been tracking via SFDC Campaigns. However, if you were to enable Touchpoints to your online SFDC campaigns, then you could run into the issue of double counting attribution since [!DNL Marketo Measure] is automatically creating Touchpoints for your online marketing efforts. In an effort to avoid double counting data, you could use Campaign Touchpoint End Dates to set a limit on the Touchpoint dates created by [!DNL Marketo Measure] on the SFDC campaign. As an example, if you wanted to add retroactive conversions for a Social Campaign you've been tracking in SFDC, but you understand that you've added the [!DNL Marketo Measure] JavaScript (which is creating online Touchpoints) on July 1st, then you can edit the Social SFDC Campaign to contain a Touchpoint End Date equal to July 1st and enable Buyer Touchpoints for that Campaign.
 
 There may be many other use cases for Touchpoint End Dates. If you need help figuring out a specific situation, don't hesitate to reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
-
->[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] University: Campaign and Campaign Member Fields](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)

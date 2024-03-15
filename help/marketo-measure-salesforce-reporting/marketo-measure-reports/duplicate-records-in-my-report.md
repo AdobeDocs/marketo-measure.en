@@ -29,4 +29,4 @@ If you want to understand the 'count of contacts' you can then use the fields 'C
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] University: Stock SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Tutorials: Stock SFDC Reports](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

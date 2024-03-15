@@ -75,4 +75,4 @@ Change the Dimension filter to change the grouping to: Subchannel, Campaign, Adv
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] University: Introduction to [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: Introduction to [!DNL Marketo Measure Discover]](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-discover/introduction-to-marketo-measure-discover){target="_blank"}

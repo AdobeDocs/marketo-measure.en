@@ -35,4 +35,4 @@ Create a new Report Type to include all Opportunities with or without Buyer Attr
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] University: Additional SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] Tutorials: Additional SFDC Reports](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

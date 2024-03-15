@@ -77,8 +77,8 @@ Click **[!UICONTROL Save]** when you are finished and [!DNL Marketo Measure] wil
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] University: Mapping Offline Channels](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>* [[!DNL Marketo Measure] Tutorials: Mapping Offline Channels](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] University: Syncing Offline Campaigns](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
+>* [[!DNL Marketo Measure] Tutorials: Syncing Offline Campaigns](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Marketo Engage Programs Integration](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Marketo Engage Programs Integration](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

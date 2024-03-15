@@ -106,7 +106,7 @@ Once your date and time is set, click the **[!UICONTROL Update Selected Records]
 
 ## Campaign Costs {#campaign-costs}
 
-Learn all about Campaign Costs [in this article](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+Learn all about Campaign Costs [in this article](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
 
 ## Campaign Member Removal {#campaign-member-removal}
 
@@ -120,6 +120,6 @@ To get around this issue, [!DNL Marketo Measure] created a [!DNL Marketo Measure
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] University: Campaign Object Fields](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials: Campaign Object Fields](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] University: Mapping Offline Channels](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials: Mapping Offline Channels](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
