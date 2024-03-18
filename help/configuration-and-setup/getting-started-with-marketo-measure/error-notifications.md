@@ -138,7 +138,7 @@ Salesforce documentation on flow triggers <a href="https://admin.salesforce.com/
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Error occurred during Crm Export: INACTIVE_OWNER_OR_USER : Entity type 'Contact': CRM ErrorCode: INACTIVE_OWNER_OR_USER, CRM ErrorMessage: operation performed with inactive user [1234] as owner of contact, RecordId: 0123456</td>
       <td>Marketo Measure is missing the "Update Records with Inactive Owners" permission.</td>
-      <td>Grant Marketo Measure the "<a href="/">Update Records with Inactive Owners</a>" permission.</td>
+      <td>Grant Marketo Measure the "<a href="https://help.salesforce.com/s/articleView?id=000386699&type=1">Update Records with Inactive Owners</a>" permission.</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
