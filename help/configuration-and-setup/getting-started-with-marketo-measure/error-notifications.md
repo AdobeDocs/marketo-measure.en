@@ -8,6 +8,10 @@ exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
 
 Below is a list of errors that you may receive via in-app notification or email. If you receive any of these, follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
+To see the full notification message in [!DNL Marketo Measure], click **View All** at the bottom of the Notifications tab.
+
+![](assets/error-notifications-1.png)
+
 <table>
   <tbody>
     <tr>
@@ -43,7 +47,7 @@ Below is a list of errors that you may receive via in-app notification or email.
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -82,27 +86,17 @@ Salesforce documentation on flow triggers <a href="https://admin.salesforce.com/
       <td>DUPLICATES_DETECTED</td>
       <td>Error occurred during Crm Export: DUPLICATES_DETECTED : Entity type 'Contact': CRM ErrorCode: DUPLICATES_DETECTED, CRM ErrorMessage: You're creating a duplicate record. We recommend you use an existing record instead., RecordId: 0123456</td>
       <td>The record being imported to the Salesforce Org already exists.</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">Disable the "Duplicate Rule" setting</a> to allow for duplicates.
-          </li>
-          <li>Exclude the Marketo Measure dedicated user from <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">custom validation rules</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">Disable the "Duplicate Rule" setting</a> to allow for duplicates.
+          <p>
+          Exclude the Marketo Measure dedicated user from <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">custom validation rules</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>Error occurred during Crm Export: DUPLICATE_VALUE : Entity type 'Lead': CRM ErrorCode: DUPLICATE_VALUE, CRM ErrorMessage: duplicate value found: Email_Unique__c duplicates value on record with id: 123, RecordId: 456</td>
       <td>The field being imported to the Salesforce Org does not allow duplicate values.</td>
-      <td>
-        <ul>
-          <li>Uncheck the <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">"Unique Checkbox"</a> in Salesforce.
-          </li>
-          <li>Exclude the Marketo Measure dedicated user from <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">custom validation rules</a>.
-          </li>
-        </ul>
-      </td>
+      <td>Uncheck the <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">"Unique Checkbox"</a> in Salesforce.
+          <p>
+          Exclude the Marketo Measure dedicated user from <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">custom validation rules</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
