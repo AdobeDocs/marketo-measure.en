@@ -14,7 +14,7 @@ IMS users with access to the Adobe Admin Console can add and validate domains th
 
    ![](assets/domain-management-1.png)
 
-Instructions for adding domains can be found in the [Admin Console documentation](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). Once a domain is added, it must be [linked to a directory](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+Instructions for adding domains can be found in the [Admin Console documentation](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Once a domain is added, it must be [linked to a directory](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Managing Domains in [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
