@@ -8,10 +8,6 @@ exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
 
 This article will guide you through the foundational capabilities of the redesigned interface, ensuring you can effortlessly access and interpret your data. Delve into the dynamics of the filter pane and uncover the intricacies of our enhanced reporting functionalities, such as drill features, cross-filtering, and tooltips.
 
->[!NOTE]
->
->This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
-
 ## Filter Pane {#filter-pane}
 
 Every dashboard has a range of filters, accompanied by the following controls for seamless navigation and customization.

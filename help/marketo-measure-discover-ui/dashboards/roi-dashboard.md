@@ -8,10 +8,6 @@ exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
 
 The ROI Dashboard provides marketers with a granular view of returns on investment across channels, subchannels, and campaigns. It meticulously breaks down cost and revenue patterns, while also spotlighting metrics like cost-per-lead, deal, and opportunity, ensuring a comprehensive understanding of marketing attribution.
 
->[!NOTE]
->
->This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
-
 **Questions the board answers**
 
 * What were the ROI values for each channel, subchannel, and campaign?

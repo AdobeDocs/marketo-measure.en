@@ -8,10 +8,6 @@ exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
 
 The Passport dashboard offers marketers a dynamic view of Leads, Contacts, and Opportunities as they transition through various stages within a specified period. By filtering for a specific date, users can also obtain a snapshot of records for that day.
 
->[!NOTE]
->
->This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
-
 **Questions the board answers:**
 
 * How many leads, contacts, or opportunities existed in each non-terminal stage on any chosen day?

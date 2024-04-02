@@ -8,10 +8,6 @@ exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
 
 The Revenue Overview dashboard provides insights into the total revenue derived from your CRM, shedding light on your marketing strategies' role. It offers an overview of how marketing influences your overall revenue and contributes to the successful closure of deals.
 
->[!NOTE]
->
->This dashboard is currently in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated once we've fully transitioned and ensured optimal functionality.
-
 **Questions the board answers:**
 
 * What % of our revenue is attributable to our marketing efforts?
