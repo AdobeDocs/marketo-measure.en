@@ -39,3 +39,4 @@ To help you adapt to this change, [we have created documentation](/help/configur
 **Action Required for LinkedIn Integration**
 
 LinkedIn recently released an updated version of their Lead Sync API. Please re-authenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any interruptions. 
+ 
