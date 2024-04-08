@@ -36,6 +36,7 @@ _Supporting Your Transition_
 
 To help you adapt to this change, [we have created documentation](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} with clear error descriptions and comprehensive troubleshooting steps.
 
+<br>
 **Action Required for LinkedIn Integration**
 
 LinkedIn recently released an updated version of their Lead Sync API. Please re-authenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any interruptions. 

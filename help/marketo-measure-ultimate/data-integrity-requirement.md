@@ -6,7 +6,7 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 ---
 # [!DNL Marketo Measure] Ultimate Data Integrity Requirement {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] validates the incoming AEP datasets to ensure that the data is sufficient and coherent for attribution. Failing to meet the data integrity requirement causes the dataset to be rejected by the [!DNL Marketo Measure] system. This document details the data integrity requirement, provides query examples for data inspection, and recommends a solution for required fields with a null value.
+[!DNL Marketo Measure] validates the incoming AEP datasets to ensure that the data is sufficient and coherent for attribution. Failing to meet the data integrity requirement causes the dataset to be rejected by the [!DNL Marketo Measure] system. This article details the data integrity requirement, provides query examples for data inspection, and recommends a solution for required fields with a null value.
 
 ## Entity Object {#entity-object}
 
