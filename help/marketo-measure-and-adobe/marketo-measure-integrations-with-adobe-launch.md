@@ -69,3 +69,4 @@ When installed and configured in Adobe Launch, the [!DNL Marketo Measure] extens
 1. Click **[!UICONTROL Save]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-12.png)
+
