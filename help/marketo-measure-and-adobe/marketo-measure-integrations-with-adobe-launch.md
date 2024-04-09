@@ -42,10 +42,6 @@ When installed and configured in Adobe Launch, the [!DNL Marketo Measure] extens
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
-   >[!NOTE]
-   >
-   >This field is not the "Account ID" in the Business_Prod.Business table. All web activities from the given URL (for example, `adobe.com`) are mapped to the [!DNL Marketo Measure] tenant.
-
 1. Click **[!UICONTROL Save]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-6.png)
