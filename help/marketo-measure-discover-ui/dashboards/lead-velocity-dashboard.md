@@ -15,14 +15,16 @@ Questions this dashboard answers:
 
 ## Dashboard Components {#dashboard-components}
 
+Whether to display "Lead" or "Contact" is determined by the preference set in: Settings > Attribution Settings > Default Dashboard Object.
+
 ### Lead/Contact Velocity by Stage {#lead-contact-velocity-by-stage}
 
 The bar chart displays the average duration, in days, that leads/contacts spend in each sales stage during a specific timeframe.
 
 Questions the chart answers:
 
-Which sales stage typically has the longest duration for leads/contacts?
-How does the time spent in the 'First touch' stage compare to the 'MQL' stage?
+* Which sales stage typically has the longest duration for leads/contacts?
+* How does the time spent in the 'First touch' stage compare to the 'MQL' stage?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
@@ -30,7 +32,7 @@ How does the time spent in the 'First touch' stage compare to the 'MQL' stage?
 
 The time series line chart displays the average time, in days, that leads/contacts spend at each sales stage across the specified timeframe.
 
-* use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
+* Use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a line to reveal detailed information.
 
 Questions the chart answers:
