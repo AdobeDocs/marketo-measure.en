@@ -111,6 +111,13 @@ This tool is a Chrome extension that allows you to quickly generate UTM tags. Fi
 
 Bing Ads is an integrated platform that allows you to enable auto-tagging for URLs or use a third-party tool, such as [!DNL Marketo Measure], to tag ads. [!DNL Bing Ads] relies on UTM parameters as well.
 
+Our integration supports the below ad types:
+
+* Text Ad
+* Mobile Ad
+* Expanded Text Ad
+
+
 Bing Ads' auto-tagging feature adds the following UTM parameters:
 
 * Utm_source
