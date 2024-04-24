@@ -21,10 +21,10 @@ In response to growing privacy concerns, third-party cookies are being phased ou
 
 **Phased Rollout of Our Enhanced Error Handling**
 
-We are introducing a phased rollout of enhanced error handling for export jobs, starting with immediate in-app pulse notifications for permission errors, and transitioning on April 25 to a new approach where export jobs will pause at the point of error. This change aims to improve data integrity and visibility, ensuring smoother and more reliable data management processes for our users. To ensure a smooth transition and minimal disruption to your operations, we are implementing these changes in two phases:
+We are introducing a phased rollout of enhanced error handling for export jobs, starting with immediate in-app pulse notifications for permission errors, and transitioning to a new approach where export jobs will pause at the point of error. This change aims to improve data integrity and visibility, ensuring smoother and more reliable data management processes for our users. To ensure a smooth transition and minimal disruption to your operations, we are implementing these changes in two phases:
 
 * Immediate Availability of Pulse Notifications: You'll receive in-app pulse notifications for permission errors during export jobs. This will not interrupt your exports, but will help you learn about the errors without affecting your current jobs.
-* Implementation of Job Pausing on April 25: Starting April 25, if our system encounters a permission error during an export job, it will pause the job to ensure no data is skipped. You'll be notified of any issues, and once the permissions are corrected, the export job will resume seamlessly from where it left off.
+* Implementation of Job Pausing on April 25: **POSTPONED** - After considering feedback from Marketo Measure users, we have decided to postpone the implementation of pausing export jobs at the point of error, originally scheduled for April 25. We recognize that halting jobs may not be the most effective approach. We are committed to finding a better solution that maintains data integrity and minimizes disruption. We will hold off on making any changes to our current system until we can ensure a solution that aligns more closely with the needs of our users.
 
 _Why This Matters_
 
