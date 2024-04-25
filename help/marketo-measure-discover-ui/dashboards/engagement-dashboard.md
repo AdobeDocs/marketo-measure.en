@@ -8,6 +8,14 @@ exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
 
 The Engagement Dashboard meticulously tracks user engagement metrics. It showcases touchpoints, the number of people engaged, and the average touchpoints per person. Utilize the time series bar chart for a monthly, quarterly, or yearly view, and the bar chart for detailed Channel, Subchannel, and Campaign insights. This tool is essential for understanding engagement patterns and fine-tuning your engagement strategies.
 
+We track every customer interaction as User Touchpoints (UTs), the "raw" collected data points, which serve as the foundation for engagement metrics on our dashboard. Not all UTs evolve into Buyer Touchpoints (BTs) or Buyer Attribution Touchpoints (BATs), as these are selected outcomes for attributing specific customer interactions to revenue-related activities. It's important to note that suppression rules do not affect UTs or the engagement dashboard.
+
+* **User Touchpoints**: Touchpoints created from all engagements. 
+* **Buyer Touchpoints**: Touchpoints selected for Lead and Contact attribution. BTs are not linked to Opportunities and have no associated revenue.
+* **Buyer Attribution Touchpoints**: Touchpoints selected for Opportunity attribution. BATs have revenue implications as they are linked to Opportunities.
+
+Using only BTs or BATs to measure engagement would understate the true extent of customer interactions since engagement is broader than just attribution.
+
 Questions the dashboard answers:
 
 * How many people were engaged? What is the average number of touches per engaged person?
