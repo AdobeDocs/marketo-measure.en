@@ -150,6 +150,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Discover Dashboard Basics](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [New Discover Dashboard Guide](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Dashboard Data Visibility Policy](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Attributed Opportunity Dashboard](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [Attributed Revenue Dashboard](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Engagement Dashboard](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [Lead Velocity Dashboard](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
