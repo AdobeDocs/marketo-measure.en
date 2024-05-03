@@ -12,7 +12,7 @@ The Attributed Revenue Dashboard offers a focused perspective on the revenue dir
 >
 >This dashboard is in Beta. During this transitional phase, both the current and new dashboards will be accessible. The current dashboard will be deprecated after we've fully transitioned and ensured optimal functionality.
 
-**Questions the board answers:**
+**Questions the board answers**:
 
 * Which channels, subchannels, or campaigns rank highest in terms of attributed revenue?
 * What is the total amount of our attributed revenue and the count of our attributed closed deals?
@@ -31,7 +31,7 @@ Stacked bar chart displaying Total Attributed Revenue, segmented by Channel, for
 * Use the drill-down and up functionalities to categorize the data by Month, Quarter, or Year.
 * Hover over a bar segment or the space between bars to reveal detailed information.
 
-**Questions the chart answers:**
+**Questions the chart answers**:
 
 * Which channels generated the most attributed revenue each quarter?
 * What was the breakdown of attributed revenue by channel last month?
@@ -42,7 +42,7 @@ Stacked bar chart displaying Total Attributed Revenue, segmented by Channel, for
 
 Total attributed revenue segmented by Channel, Subchannel, and Campaign, presented in both Tabular and Tree formats. Click the button in the top-right corner to switch between views. 
 
-**Questions the board answers:**
+**Questions the board answers**:
 
 * How does the attributed revenue distribution vary among different subchannels within a channel?
 * Which campaigns under a certain subchannel are driving the most attributed revenue?
