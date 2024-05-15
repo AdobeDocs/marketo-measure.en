@@ -19,6 +19,10 @@ Custom Segmentation can be used to see data for a particular record type. Once y
 
 **How do I set it up?**
 
+>[!NOTE]
+>
+>Updating segment rules will re-process historical data.
+
 Step 1 - Determine what information you want to see.
 
 Before you use this feature, figure out what touchpoint information you'd like to filter by. Remember to use the exact values in your CRM for your record types. The setup will filter touchpoints from the top to the bottom of the marketing funnel.
