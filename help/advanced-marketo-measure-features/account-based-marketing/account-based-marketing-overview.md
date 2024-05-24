@@ -32,11 +32,15 @@ Lead-to-account mapping is a crucial part of an effective ABM approach. With lea
 * Lead Email Domain to Account Website Domain
 * Lead Company Name to Account Name
 * Lead Company to Account Website Domain
-* Matching the Domain on the Lead's Email Address to the Account via the Contact's Email Address
+* Lead Website to Account Contacts' Email Domain
+* Lead Email Domain to Account Contacts' Email Domain
+* Lead Website to Account Leads' Email Domain
+* Lead Email Domain to Account Leads' Email Domain
+* The Accounts' Leads/Contacts are validated by their email/website domains and matched to the lead email/website's domain or subdomain. The Account with the most matches is used.
 
 >[!NOTE]
 >
->Each Lead tries to get matched to an Account in the preferential order of methods above. Once a match is made, the AccountId is immediately set on the Lead and won't be matched using another method. If the Lead already has a valid AccountId, the Lead is skipped.
+>Each Lead tries to get matched to an Account in the preferential order of methods above. Once a match is made, the AccountId is immediately set on the Lead and won't be matched using another method.
 
 ## Predictive Engagement Score {#predictive-engagement-score}
 
