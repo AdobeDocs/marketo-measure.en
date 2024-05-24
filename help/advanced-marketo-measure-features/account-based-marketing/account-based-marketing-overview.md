@@ -26,7 +26,7 @@ For our Account Based Marketing model to begin to populate in your CRM, [!DNL Ma
 
 ## Lead-to-Account Mapping {#lead-to-account-mapping}
 
-Lead-to-account mapping is a crucial part of an effective ABM approach. With lead-to-account mapping, prospects, or leads, are grouped into the same company account as they engage with your brand. This allows you to target and sell to individuals from the same company in a consistent manner. There is no additional [!DNL Salesforce] configuration needed to begin benefitting from this feature. The [!DNL Marketo Measure] Lead to Account Mapping five different matching methods:
+Lead-to-account mapping is a crucial part of an effective ABM approach. With lead-to-account mapping, prospects, or leads, are grouped into the same company account as they engage with your brand. This allows you to target and sell to individuals from the same company in a consistent manner. There is no additional [!DNL Salesforce] configuration needed to begin benefitting from this feature. The [!DNL Marketo Measure] Lead to Account Mapping different matching methods:
 
 * Lead Website to Account Website
 * Lead Email Domain to Account Website Domain
@@ -36,7 +36,8 @@ Lead-to-account mapping is a crucial part of an effective ABM approach. With lea
 * Lead Email Domain to Account Contacts' Email Domain
 * Lead Website to Account Leads' Email Domain
 * Lead Email Domain to Account Leads' Email Domain
-* The Accounts' Leads/Contacts are validated by their email/website domains and matched to the lead email/website's domain or subdomain. The Account with the most matches is used.
+
+The Accounts' Leads/Contacts are validated by their email/website domains and matched to the lead email/website's domain or subdomain. The Account with the most matches is used.
 
 >[!NOTE]
 >
