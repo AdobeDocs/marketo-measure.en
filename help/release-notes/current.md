@@ -32,9 +32,9 @@ Marketo Engage Cookie Sync is now available for Marketo Measure Ultimate. To use
 1. On the AEP Schemas page, edit the B2B Person schema and add the field group "Marketo Engage Person Details."
 1. When ingesting the data to MMU, map the Cookie ID field from the field group to the Cookies field from Marketo Engage.
 
-**Boomerang Stages enabled for Tier 2 and 3 Customers**
+**Boomerang Stages enabled for Tier 2 Customers**
 
-The Boomerang Stage feature will be available to all Tier 2 and 3 customers starting June 7, 2024. For more detailed information on this feature, please refer to the documentation below.
+Previously only available to Tier 3 customers, the Boomerang Stage feature is also be available to all Tier 2 customers beginning June 7, 2024. For more detailed information on this feature, please refer to the documentation below.
 
 * [Boomerang Stages and Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Setting up Boomerang Stages](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}

@@ -9,7 +9,7 @@ feature: Boomerang
 
 >[!AVAILABILITY]
 >
->The Boomerang feature is only enabled for Tier 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
+>The Boomerang feature is only enabled for Tier 2 and 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
 
 To enable [!UICONTROL Boomerang] Stages for your account, you must be an Account Admin. Or, it can be enabled by reaching out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. After the feature is enabled, follow these instructions to set them up.
 

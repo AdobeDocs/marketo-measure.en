@@ -9,7 +9,7 @@ feature: Boomerang
 
 >[!AVAILABILITY]
 >
->The Boomerang feature is only enabled for Tier 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
+>The Boomerang feature is only enabled for Tier 2 and 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
 
 Below are a few examples of Boomerang Stage scenarios to provide an understanding of how [!DNL Marketo Measure] creates touchpoints in each situation.
 

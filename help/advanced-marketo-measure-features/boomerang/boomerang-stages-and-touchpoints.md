@@ -9,7 +9,7 @@ feature: Boomerang, Touchpoints
 
 >[!AVAILABILITY]
 >
->The Boomerang feature is only enabled for Tier 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
+>The Boomerang feature is only enabled for Tier 2 and 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
 
 [!DNL Marketo Measure] has released the Boomerang Stage feature! The Boomerang Stage feature was created to provide greater visibility into the customer's journey for [!DNL Marketo Measure] customers with long sales cycles. This feature allows marketers to create touchpoints for all stage transitions that occur in the Opportunity journey, such as when a contact MQLs, then moves to SAL, and then reverts to the MQL stage. When contacts "reenter the MQL stage" or "re-MQL's", the MQL is considered to be a boomerang stage. The Boomerang Stage feature functions alongside the [!DNL Marketo Measure] Custom Stages.
 
