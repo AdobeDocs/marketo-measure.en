@@ -14,7 +14,7 @@ See below for all the new and updated features for our 2024 releases.
 
 **Reminder: Salesforce Field Deprecations - June 14**
 
-As announced last year, we will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. You can obtain the same data from your Touchpoint objects by following the steps [documented here](/help/release-notes/previous-releases/2023.md#deprecations). We will also be sharing documentation on creating workflows to add this data to the Lead/Contact object. The deprecation will take effect on June 14, 2024.
+As announced last year, we will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. You can obtain the same data from your Touchpoint objects by following the steps [documented here](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We will also be sharing documentation on creating workflows to add this data to the Lead/Contact object. The deprecation will take effect on June 14, 2024.
 
 This change will bring two key benefits:
 
@@ -23,7 +23,7 @@ This change will bring two key benefits:
 
 **Attributed Opportunity Dashboard**
 
-We're excited to introduce the new [Attributed Opportunity Dashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), designed to give you a comprehensive view of how your marketing efforts contribute to both nascent and mature pipeline opportunities. This dashboard allows you to delve into the details of every open and closed opportunity attributable to your strategies, with the flexibility to filter by opportunity stage. It provides insights into which channels, subchannels, or campaigns rank highest in terms of attributed opportunity amount, and displays the total attributed opportunity amount along with the count of attributed open and closed opportunities.
+We're excited to introduce the new [Attributed Opportunity Dashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, designed to give you a comprehensive view of how your marketing efforts contribute to both nascent and mature pipeline opportunities. This dashboard allows you to delve into the details of every open and closed opportunity attributable to your strategies, with the flexibility to filter by opportunity stage. It provides insights into which channels, subchannels, or campaigns rank highest in terms of attributed opportunity amount, and displays the total attributed opportunity amount along with the count of attributed open and closed opportunities.
 
 **Marketo Engage Cookie Sync for Marketo Measure Ultimate**
 
@@ -31,6 +31,14 @@ Marketo Engage Cookie Sync is now available for Marketo Measure Ultimate. To use
 
 1. On the AEP Schemas page, edit the B2B Person schema and add the field group "Marketo Engage Person Details."
 1. When ingesting the data to MMU, map the Cookie ID field from the field group to the Cookies field from Marketo Engage.
+
+**Boomerang Stages enabled for Tier 2 and 3 Customers**
+
+The Boomerang Stage feature will be available to all Tier 2 and 3 customers starting June 7, 2024. For more detailed information on this feature, please refer to the documentation below.
+
+* [Boomerang Stages and Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Setting up Boomerang Stages](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Boomerang Stage Scenarios](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
