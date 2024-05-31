@@ -8,6 +8,32 @@ feature: Release Notes
 
 See below for all the new and updated features for our 2024 releases.
 
+## Q3 Release {#q3-release}
+
+<p>
+
+**Reminder: Salesforce Field Deprecations - June 14**
+
+As announced last year, we will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. You can obtain the same data from your Touchpoint objects by following the steps [documented here](/help/release-notes/previous-releases/2023.md#deprecations). We will also be sharing documentation on creating workflows to add this data to the Lead/Contact object. The deprecation will take effect on June 14, 2024.
+
+This change will bring two key benefits:
+
+* **Reduced Salesforce API Costs**: Customers can expect to reduce their Salesforce API costs by around 10%.
+* **Streamlined Integration**: The highest number of errors in our export jobs are related to these processes. Removing them will significantly streamline our integration.
+
+**Attributed Opportunity Dashboard**
+
+We're excited to introduce the new [Attributed Opportunity Dashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), designed to give you a comprehensive view of how your marketing efforts contribute to both nascent and mature pipeline opportunities. This dashboard allows you to delve into the details of every open and closed opportunity attributable to your strategies, with the flexibility to filter by opportunity stage. It provides insights into which channels, subchannels, or campaigns rank highest in terms of attributed opportunity amount, and displays the total attributed opportunity amount along with the count of attributed open and closed opportunities.
+
+**Marketo Engage Cookie Sync for Marketo Measure Ultimate**
+
+Marketo Engage Cookie Sync is now available for Marketo Measure Ultimate. To use this feature:
+
+1. On the AEP Schemas page, edit the B2B Person schema and add the field group "Marketo Engage Person Details."
+1. When ingesting the data to MMU, map the Cookie ID field from the field group to the Cookies field from Marketo Engage.
+
+<p>
+
 ## Q2 Release {#q2-release}
 
 <p>
