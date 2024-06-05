@@ -34,7 +34,7 @@ Marketo Engage Cookie Sync is now available for Marketo Measure Ultimate. To use
 
 **Boomerang Stages enabled for Tier 2 Customers**
 
-Previously only available to Tier 3 customers, the Boomerang Stage feature is also be available to all Tier 2 customers beginning June 7, 2024. For more detailed information on this feature, please refer to the documentation below.
+Previously only available to Tier 3 customers, the Boomerang Stage feature is also be available to all Tier 2 customers beginning June 13, 2024. For more detailed information on this feature, please refer to the documentation below.
 
 * [Boomerang Stages and Touchpoints](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Setting up Boomerang Stages](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
