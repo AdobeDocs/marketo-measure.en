@@ -14,7 +14,7 @@ See below for all the new and updated features for our 2024 releases.
 
 **Reminder: Salesforce Field Deprecations - June 14**
 
-As announced last year, we will be phasing out our export jobs to Lead/Contact objects to simplify our integration and eliminate the need to export to Salesforce standard objects. You can obtain the same data from your Touchpoint objects by following the steps [documented here](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We will also be sharing documentation on creating workflows to add this data to the Lead/Contact object. The deprecation will take effect on June 14, 2024.
+As announced last year, we will be [phasing out our export jobs to Lead/Contact objects](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} to simplify our integration and eliminate the need to export to Salesforce standard objects. You can obtain the same data from your Touchpoint objects by following the steps [documented here](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We will also be sharing documentation on creating workflows to add this data to the Lead/Contact object. The deprecation will take effect on June 14, 2024.
 
 This change will bring two key benefits:
 

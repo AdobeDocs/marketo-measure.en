@@ -677,6 +677,12 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
    <td>Standard</td> 
    <td>x</td> 
    <td><br></td> 
+  </tr>
+  <tr> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Custom</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>

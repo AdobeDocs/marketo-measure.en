@@ -11,7 +11,7 @@ feature: Multi-Currency
 
 Keep in mind that there are two different feature bits for this feature. Both are located in the [!UICONTROL General] tab of the CRM section in Settings: Multiple Currencies and Advanced Currencies. Multiple Currencies should be enabled if the customer utilizes more than a single currency, whereas the additional feature bit Advanced Currencies can be enabled if the customer uses [!DNL Salesforce]'s "Advanced Currency Management" feature where the user can set a time-based range for conversion rates.
 
-Unfortunately, we do not know when a customer switches between Simple or Advanced if Advanced has already been turned on. Because of that, the customer needs to keep the Advanced Currencies setting aligned with their CRM setting manually. This should be apparent to the customer if the conversions are incorrect, which means we didn't know which level of conversion to apply.
+Marketo Measure automatically pulls the currency setting from the customer's CRM. Manual configuration in Marketo Measure to match the CRM is no longer required. The currency setting can be found in the "General" page under "CRM".
 
 **Why is my ads account giving me a warning message?**
 
