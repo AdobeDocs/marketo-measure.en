@@ -118,67 +118,7 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
    <td>Custom</td> 
    <td>x</td> 
    <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -227,67 +167,7 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -329,67 +209,7 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
    <td>IsDeleted</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>Custom</td> 
-   <td>x</td> 
-   <td>x </td> 
+   <td> </td>
   </tr> 
  </tbody> 
 </table>
@@ -677,6 +497,12 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
    <td>Standard</td> 
    <td>x</td> 
    <td><br></td> 
+  </tr>
+  <tr> 
+   <td>Name</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
   <tr> 
    <td>bizible2__UniqueId__c</td> 

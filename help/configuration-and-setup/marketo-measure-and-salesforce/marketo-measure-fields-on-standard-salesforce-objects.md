@@ -17,30 +17,6 @@ Learn about the various [!DNL Marketo Measure] fields that are added to [!DNL Sa
 
 Predictive Engagement Score: This field is used with our ABM feature to provide a score related to how engaged the Account is and takes into consideration many factors such as the recency of page views, how many contacts are associated to the account, is there a closed opp, etc.
 
-## Case {#case}
-
-We add fields to the Case object related to the First touch and Lead Creation touch milestones. This is for customers that use the Case object in lieu of the Lead or Contact and also serves the purpose of another way to view the data in case a customer didn't want us to create Touchpoint records.
-
-Touchpoint Source (FT): This is the source of the first touch interaction.
-
-Touchpoint Source (LC): This is the source of the lead creation touch interaction.
-
-Marketing Channel (FT): This is the marketing channel of the first touch interaction.
-
-Marketing Channel (LC): This is the marketing channel of the lead creation touch interaction.
-
-Ad Campaign Name (FT): This is the UTM Campaign, Ad Campaign from the Ad networks, or [!DNL Salesforce] Campaign of the first touch interaction.
-
-Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or [!DNL Salesforce] Campaign of the [!UICONTROL lead creation] touch interaction.
-
-Landing Page (FT): This is the landing page of the first touch interaction.
-
-Landing Page (LC): This is the landing page of the [!UICONTROL lead creation] touch interaction.
-
-Touchpoint Date (FT): This is the date of the first touch interaction.
-
-Touchpoint Date (LC): This is the date of the lead creation touch interaction.
-
 ## Campaign {#campaign}
 
 There are only 4 fields added, 1 button, and 1 validation rule.
@@ -73,57 +49,9 @@ Buyer Touchpoint Date: This is related to the [!UICONTROL Bulk Update Touchpoint
 
 OnCampaignMemberDelete: Out of the box, [!DNL Salesforce] doesn't surface when Campaign Members are deleted which can cause issues with accurate attribution reporting. When a Campaign Member is deleted, this is triggered to inform [!DNL Marketo Measure] to remove Touchpoints related to that non-existent Campaign Member.
 
-## Contact {#contact}
-
-We add fields to the Contact object related to the First touch and Lead Creation touch milestones. This is for customers that would rather have attribution reported directly to fields instead of creating Touchpoint records. Most of our customers go with the Touchpoint record route, but also use these fields within their automation platform.
-
-Touchpoint Source (FT): This is the source of the first touch interaction.
-
-Touchpoint Source (LC): This is the source of the lead creation touch interaction.
-
-Marketing Channel (FT): This is the marketing channel of the first touch interaction.
-
-Marketing Channel (LC): This is the marketing channel of the lead creation touch interaction.
-
-Ad Campaign Name (FT): This is the UTM Campaign, Ad Campaign from the Ad networks, or [!DNL Salesforce] Campaign of the first touch interaction.
-
-Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or [!DNL Salesforce] Campaign of the [!UICONTROL lead creation] touch interaction.
-
-Landing Page (FT): This is the landing page of the first touch interaction.
-
-Landing Page (LC): This is the landing page of the [!UICONTROL lead creation] touch interaction.
-
-Touchpoint Date (FT): This is the date of the first touch interaction.
-
-Touchpoint Date (LC): This is the date of the lead creation touch interaction.
-
-BizibleID: This is used in relation to our activities attribution and calltrackingmetrics integration for Contact association to the touchpoint.
-
 ## Lead {#lead}
 
-We add fields to the Lead object related to the First touch and Lead Creation touch milestones. This is for customers that would rather have attribution reported directly to fields instead of creating Touchpoint records. Most of our customers go with the Touchpoint record route, but also use these fields within their automation platform.
-
-Touchpoint Source (FT): This is the source of the first touch interaction.
-
-Touchpoint Source (LC): This is the source of the lead creation touch interaction.
-
-Marketing Channel (FT): This is the marketing channel of the first touch interaction.
-
-Marketing Channel (LC): This is the marketing channel of the lead creation touch interaction.
-
-Ad Campaign Name (FT): This is the UTM Campaign, Ad Campaign from the Ad networks, or [!DNL Salesforce] Campaign of the first touch interaction.
-
-Ad Campaign Name (LC): This is the UTM Campaign, Ad Campaign from the Ad networks, or [!DNL Salesforce] Campaign of the lead creation touch interaction.
-
-Landing Page (FT): This is the landing page of the first touch interaction.
-
-Landing Page (LC): This is the landing page of the lead creation touch interaction.
-
-Touchpoint Date (FT): This is the date of the first touch interaction.
-
-Touchpoint Date (LC): This is the date of the lead creation touch interaction.
-
-BizibleID: This is used in relation to our activities attribution and calltrackingmetrics integration for Lead association to the touchpoint.
+The Bizible Account field is used for our Lead to Account mapping for our ABM feature. We populate this field to create the look-up relationship between the two objects.
 
 ## Account {#account-1}
 

@@ -85,4 +85,6 @@ Step 4: Log in to your [!DNL Marketo Measure] Account and reauthorize the [!DNL 
 
 >[!MORELIKETHIS]
 >
->[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>* [Integration Permissions Overview](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
