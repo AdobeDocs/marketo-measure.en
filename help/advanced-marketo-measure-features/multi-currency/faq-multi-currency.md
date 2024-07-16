@@ -21,6 +21,10 @@ We will display a warning message next to your ads account that may have currenc
 
 If you have a tile that has a "Mixed Currencies" message at the bottom, that means we have imported some costs that are mapped to a currency that we don't recognize. Because all of our conversions must come from the CRM with an actual conversion rate, it means your CRM is missing this currency. We advise that you work with your CRM Admin to make sure this unknown currency contains a conversion in your CRM.
 
+**How can I fix the "Mixed Currencies" error caused by invalid currencies?**
+
+Our system updates unrecognized currencies to "XXX". To exclude Opportunities with invalid currencies, create a suppression rule in the Touchpoint Settings page to prevent touchpoints for Opportunities with the "XXX" currency. Once processed, we will report only on known currencies.
+
 **How can I add a new currency or conversion rate?**
 
 Declaring a new currency or conversion rate can only be done in [!DNL Salesforce] or [!DNL Dynamics] so that there is only a single source of truth for these values. Once a new currency or conversion rate is detected, [!DNL Marketo Measure] will download that and make it available to you. We do not offer an area to enter these rates.

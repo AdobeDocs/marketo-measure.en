@@ -27,6 +27,17 @@ By default, [!DNL Marketo Measure] exports 200 records per API credit each time 
 
 When modifying this setting, keep in mind that smaller batch sizes consume more API credits from your CRM. It's advisable to reduce the batch size only if you are experiencing CPU timeout or high CPU load in your CRM.
 
+## Salesforce Connected User Permissions {#salesforce-connected-user-permissions}
+
+**Marketo Measure Administrator Permission Set For Dedicated User**: Allows SFDC admin to perform CRUD operations on Marketo Measure objects.
+
+**View and Edit Converted Leads Permission Set**: This allows Marketo Measure to decorate leads after they have been converted to contacts.
+
+**Salesforce Marketing User Checkbox**: Allows users to create campaigns and use the Campaign Import Wizards.
+* Additional permissions for Campaign "Create" are required.
+
+**Marketo Measure Standard User**: Gives a user the ability to read records from Marketo Measure objects.
+
 ## Salesforce Standard Objects and Access {#salesforce-standard-objects-and-access}
 
 This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] interacts with, and the custom fields that we add to these objects once the connection is established and the [!DNL Marketo Measure] package is installed. Out of the box, [!DNL Marketo Measure] will NOT write into any standard [!DNL Salesforce] Object fields.
@@ -1298,3 +1309,7 @@ The Buyer Attribution Touchpoint is a [!DNL Marketo Measure] Custom Object to en
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Integration Permissions Overview](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}

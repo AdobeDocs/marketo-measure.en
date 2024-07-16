@@ -881,6 +881,16 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
   </tbody>
 </table>
 
+**Default Currency**: In Marketo Measure, all revenue and cost are converted to a default currency at reporting time. There must be one record with the same date coverage for the target currency itself (e.g., USD to USD) with a conversion rate of 1.
+
+**Conversion Rates**: Each (source currency, target currency) pair can have multiple conversion rates for different date periods. The rates must cover the entire time span from 0001-01-01 to 9999-12-31, as per the Salesforce DatedConversionRate object.
+
+**Date Range**:
+* No overlapping date ranges within a (source currency, target currency) rate set (e.g., 2023-01-01 to 2023-02-01 and 2023-01-01 to 2024-01-01).
+* No gaps between date ranges. The start date is inclusive, and the end date is exclusive.
+
+<p>
+
 ## ExperienceEvent {#experienceevent}
 
 <table style="table-layout:auto">
