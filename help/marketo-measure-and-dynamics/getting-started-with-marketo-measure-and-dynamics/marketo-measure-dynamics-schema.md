@@ -1172,6 +1172,8 @@ This list provides the Dynamics Standard Entities that [!DNL Marketo Measure] in
 
 **Campaign**
 
+Campaign "Create" permissions are also required, in addition to the read/write permissions below.
+
 <table> 
  <tbody> 
   <tr> 

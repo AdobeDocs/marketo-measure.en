@@ -51,6 +51,8 @@ Security Roles are located here: **[!UICONTROL Settings]** > **[!UICONTROL Secur
 
 For [!DNL Marketo Measure] custom entities, we need full permissions across all of our entities.
 
+Campaign "Create" permissions are also required, in addition to the read/write permissions for standard entities.
+
 >[!NOTE]
 >
 >Users who close opportunities also need the full permission.
