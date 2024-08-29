@@ -8,6 +8,37 @@ feature: Release Notes
 
 See below for all the new and updated features for our 2024 releases.
 
+## Q4 Release {#q4-release}
+
+### Enhanced Segment Rules
+
+You can now create segments using Campaign and Campaign Member fields, in addition to Touchpoint and Contact fields. This enhancement empowers you to analyze and dissect your data more effectively in Discover.
+
+![Segment Rules for Members](assets/campaign-member.png)
+
+### Update: Error Handling Setting for CRM Exports
+
+We've listened to your feedback regarding the job-halting approach and are introducing a new feature in the User Interface. Starting today, you can choose whether export jobs should pause when errors occur. Use the new toggle in **My Account** > **Settings** → **CRM** → **General**. This switch is on by default to enhance data integrity and visibility. However, if you prefer not to use this feature, you can turn it off in the UI, and the export jobs will resume. This update is designed to enhance the reliability of your data management processes while giving you greater control. 
+
+#### Key Dates and Phased Rollout
+
+Immediate Toggle Availability: The toggle is now live in the UI and is enabled by default to prevent data from being skipped during export jobs. If you prefer export jobs to continue running despite encountering errors, disable the toggle.
+
+Job Pausing Activation on October 1st: Beginning October 1st,2024, if the toggle is active and a record-level error is encountered during an export job, the job pauses to ensure no data is lost. These errors are usually due to missing permissions, improperly applied custom validation rules, or issues in workflows/triggers. You will receive notifications regarding the issue, and once it has been corrected, the export job will resume from the point of interruption. If you opt out of job pausing, you will still receive notifications of issues, and when they have been corrected, the skipped records are automatically re-exported.
+
+#### Why This Matters
+
+**Enhanced Data Integrity and Future-proofing Your Integration:** By pausing the job at the first sign of an issue, we prevent data loss and ensure accuracy. This enables swift error resolution, leading to improved data export quality and overall system reliability.
+
+**Immediate Visibility:** Through pulse notifications, you will receive timely alerts for permission errors, allowing for prompt responses and minimizing potential impacts on your operations.
+
+#### Supporting Your Transition
+
+To help you adapt to this change, we have created documentation on the new feature and clear error descriptions with comprehensive troubleshooting steps.
+
+* NEW DOC: Error Handling Setting for CRM Exports
+* [Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
+
 ## Q3 Release {#q3-release}
 
 <p>

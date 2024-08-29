@@ -51,6 +51,7 @@ user-guide-description: "[!DNL Marketo Measure] gives marketers insight into whi
       + [Connect [!DNL Marketo Measure] to Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Best Practices for [!DNL Marketo Measure] CRM Package](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce Objects](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
+      + [Error Handling for CRM Exports](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [How [!DNL Marketo Measure] and [!DNL Salesforce] Interact](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] Object and Field Taxonomy](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
