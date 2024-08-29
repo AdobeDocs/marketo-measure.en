@@ -37,7 +37,7 @@ Job Pausing Activation on October 1st: Beginning October 1st,2024, if the toggle
 To help you adapt to this change, we have created documentation on the new feature and clear error descriptions with comprehensive troubleshooting steps.
 
 * NEW DOC: Error Handling Setting for CRM Exports
-* [Error Notifications](../configuration-and-setup/getting-started-with-marketo-measure/error-notifications)
+* [Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Q3 Release {#q3-release}
 
