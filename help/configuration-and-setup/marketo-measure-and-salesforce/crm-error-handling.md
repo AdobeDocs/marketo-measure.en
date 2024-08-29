@@ -5,7 +5,13 @@ feature: Salesforce
 ---
 # Error Handling for CRM Exports
 
-The Pause on Export Errors setting can be found under **My Account** > **Settings** > **CRM** > **General**. This feature is only visible if you have the "Export to CRM" feature enabled. It allows you to control whether CRM export jobs should pause when encountering a record-level error.
+The Pause on Export Errors feature allows you to control whether CRM export jobs should pause when encountering a record-level error.
+
+The setting can be found under **My Account** > **Settings** > **CRM** > **General**. 
+
+>[!NOTE]
+>
+>This feature is only visible if you have the "Export to CRM" feature enabled.
 
 When this feature is enabled, the export job stops progressing and remains on the record where the error occurred, until the issue is resolved. These errors are usually due to missing permissions, improperly applied custom validation rules, or issues in workflows/triggers. The job will continue to run as scheduled and will automatically reattempt exporting the failed record until it is successful.
 
