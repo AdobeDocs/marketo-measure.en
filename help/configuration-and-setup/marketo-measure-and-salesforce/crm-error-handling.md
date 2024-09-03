@@ -9,6 +9,8 @@ The Pause on Export Errors feature allows you to control whether CRM export jobs
 
 The setting can be found under **My Account** > **Settings** > **CRM** > **General**. 
 
+![Pause on Export Errors](assets/stop-progress.png)
+
 >[!NOTE]
 >
 >This feature is only visible if you have the "Export to CRM" feature enabled.
@@ -16,6 +18,8 @@ The setting can be found under **My Account** > **Settings** > **CRM** > **Gener
 When this feature is enabled, the export job stops progressing and remains on the record where the error occurred, until the issue is resolved. These errors are usually due to missing permissions, improperly applied custom validation rules, or issues in workflows/triggers. The job will continue to run as scheduled and will automatically reattempt exporting the failed record until it is successful.
 
 If you choose to disable this feature, a warning popup will appear, informing you that this may lead to data inconsistencies. It will be your responsibility to address any issues that may arise from these inconsistencies.
+
+![Data inconsistency warning](assets/data-inconsistency.png)
 
 In both cases, whether the feature is toggled on or off, all record-level errors encountered are logged in the `ExportErrors` table, and the `CRMExport_ExportError` job will automatically attempt to re-export these records daily. This eliminates the need for a support request to initiate a re-export, as it will happen automatically without any developer intervention.
 
