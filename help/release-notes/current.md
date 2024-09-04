@@ -22,15 +22,15 @@ We've listened to your feedback regarding the job-halting approach and are intro
 
 #### Key Dates and Phased Rollout
 
-Immediate Toggle Availability: The toggle is now live in the UI and is enabled by default to prevent data from being skipped during export jobs. If you prefer export jobs to continue running despite encountering errors, disable the toggle.
+1. **Immediate Toggle Availability:** The toggle is now live in the UI and is enabled by default to prevent data from being skipped during export jobs. If you prefer export jobs to continue running despite encountering errors, disable the toggle.
 
-Job Pausing Activation on October 1st: Beginning October 1st,2024, if the toggle is active and a record-level error is encountered during an export job, the job pauses to ensure no data is lost. These errors are usually due to missing permissions, improperly applied custom validation rules, or issues in workflows/triggers. You will receive notifications regarding the issue, and once it has been corrected, the export job will resume from the point of interruption. If you opt out of job pausing, you will still receive notifications of issues, and when they have been corrected, the skipped records are automatically re-exported.
+1. **Job Pausing Activation on October 1st:** Beginning October 1st,2024, if the toggle is active and a record-level error is encountered during an export job, the job pauses to ensure no data is lost. These errors are usually due to missing permissions, improperly applied custom validation rules, or issues in workflows/triggers. You will receive notifications regarding the issue, and once it has been corrected, the export job will resume from the point of interruption. If you opt out of job pausing, you will still receive notifications of issues, and when they have been corrected, the skipped records are automatically re-exported.
 
 #### Why This Matters
 
-**Enhanced Data Integrity and Future-proofing Your Integration:** By pausing the job at the first sign of an issue, we prevent data loss and ensure accuracy. This enables swift error resolution, leading to improved data export quality and overall system reliability.
+* **Enhanced Data Integrity and Future-proofing Your Integration:** By pausing the job at the first sign of an issue, we prevent data loss and ensure accuracy. This enables swift error resolution, leading to improved data export quality and overall system reliability.
 
-**Immediate Visibility:** Through pulse notifications, you will receive timely alerts for permission errors, allowing for prompt responses and minimizing potential impacts on your operations.
+* **Immediate Visibility:** Through pulse notifications, you will receive timely alerts for permission errors, allowing for prompt responses and minimizing potential impacts on your operations.
 
 #### Supporting Your Transition
 
