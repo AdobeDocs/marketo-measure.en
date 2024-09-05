@@ -2,6 +2,7 @@
 description: Learn how to handle Errors in CRM Exports
 title: Error Handling for CRM Exports
 feature: Salesforce
+exl-id: 7452bff0-4bf1-474b-a705-446c29882230
 ---
 # Error Handling for CRM Exports
 
