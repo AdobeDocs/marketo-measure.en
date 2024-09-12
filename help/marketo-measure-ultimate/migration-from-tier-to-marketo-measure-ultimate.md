@@ -1,13 +1,11 @@
 ---
 description: Learn about the migration process when moving from the [!DNL Marketo Measure] Tiered subscription to [!DNL Marketo Measure] Ultimate.
-hide: yes
-hidefromtoc: yes
 title: Migration from Tier to [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 ---
 # Migration from Tier 1-2 to [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
-This article outlines the migration process for users moving from the Tier 1 or 2 subscription to Marketo Measure Ultimate. 
+This article outlines the migration process for users moving from the Tier 1 or 2 subscription to [!DNL Marketo Measure] Ultimate. 
 
 >[!IMPORTANT]
 >
