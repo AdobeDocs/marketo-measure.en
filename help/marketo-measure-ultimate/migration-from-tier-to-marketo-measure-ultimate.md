@@ -5,7 +5,7 @@ feature: Integration, Tracking, Attribution
 ---
 # Migration from Tier 1-2 to [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
-This article outlines the migration process for users moving from the Tier 1 or 2 subscription to [!DNL Marketo Measure] Ultimate. 
+This article outlines the migration process for users moving from the Tier 1 or 2 subscription to [!DNL Marketo Measure] Ultimate.
 
 >[!IMPORTANT]
 >
@@ -29,11 +29,11 @@ This article outlines the migration process for users moving from the Tier 1 or 
 
 ### Enterprise Data Connection {#enterprise-data-connection}
 
-Reimplement all source data connections in AEP, including CRM and Marketo Engage connections. 
+Reimplement all source data connections in AEP, including CRM and Marketo Engage connections.
 
 ## Data Transformation {#data-transformation}
 
-* Account-Based Marketing features, including lead-to-account matching and predictive engagement scores, are not available in Ultimate. 
+* Account-Based Marketing features, including lead-to-account matching and predictive engagement scores, are not available in Ultimate.
 
   * You can, however, import your lead-to-account matching results through AEP and use them within the platform.
 
