@@ -56,7 +56,7 @@ The following steps are for Salesforce Lightning users. If you still use Salesfo
    * Enter a label&mdash;the API name will be generated automatically 
    * Under "How to Find Records to Update and Set Their Values," select **[!UICONTROL Use the opportunity record that triggered the flow]**. 
    * In the "[!UICONTROL Set Filter Conditions]" section, select **[!UICONTROL Always Update Record]** as a Condition Requirement to Update Record.
-   * In "[!UICONTROL Set Field Values for the Campaign Record]," from field, select the Marketo Measure Opportunity Amount and from value. Then select your custom Amount field.
+   * In the "[!UICONTROL Set Field Values for the Campaign Record]," from field, select the Marketo Measure Opportunity Amount (**bizible2__Bizible_Opportunity_Amount__c**) and from value. Then select your custom Amount field.
    * Click **[!UICONTROL Done]**.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png) 
