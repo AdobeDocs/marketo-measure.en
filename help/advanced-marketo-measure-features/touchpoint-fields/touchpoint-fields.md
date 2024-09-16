@@ -11,7 +11,7 @@ Historically, when customers onboard with [!DNL Marketo Measure] and in the case
 
 >[!AVAILABILITY]
 >
->Available now with Full Segmentation in Tier 2 and Tier 3.
+>Available with Full Segmentation in Tier 2 subscriptions.
 
 >[!NOTE]
 >

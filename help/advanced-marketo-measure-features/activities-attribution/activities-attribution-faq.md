@@ -9,6 +9,10 @@ feature: Attribution
 
 [!DNL Marketo Measure] Activities imports all your Activity records and generates touchpoints for them, allowing these Activities to be receive attribution credit. The most common use case is to track Activities from the Sales team, as they commonly create a record of phone calls or emails that are sent to prospects. Other unique things that can be tracked are content interactions like asset downloads or video views.
 
+>[!AVAILABILITY]
+>
+>This feature is enabled for Tier 2 customers only. To request a higher account tier, contact the Adobe Account Team (your account manager).
+
 **How is this different from Offline Campaigns?**
 
 The biggest difference is that Campaigns can only provide one touchpoint because Campaigns only allow one Campaign Member for each Lead or Contact. That means you can't track recurring events like outbound calls or demos or webinar attendees, unless you create individual Campaigns for each grouping. Activities allow you to measure every event.

@@ -11,6 +11,10 @@ The [!DNL Marketo Measure] Salesforce Activities integration brings in specific 
 
 ![](assets/1.png)
 
+>[!AVAILABILITY]
+>
+>This feature is enabled for Tier 2 customers only. To request a higher account tier, contact the Adobe Account Team (your account manager).
+
 To start off, we're introducing a new concept called a [!DNL Marketo Measure] Campaign. For each rule that you define, you are going to bucket the records into a [!DNL Marketo Measure] Campaign that you can name. Add multiple campaigns as needed. Imagine measuring the effectiveness of an Outbound Sales campaign next to a Paid Media campaign!
 
 You're going to use this [!DNL Marketo Measure] Campaign Name to tell us which Channel it should get mapped to. If you are still thinking about Outbound Sales, perhaps all Outbound Sales campaigns should sit in a BDR channel.
