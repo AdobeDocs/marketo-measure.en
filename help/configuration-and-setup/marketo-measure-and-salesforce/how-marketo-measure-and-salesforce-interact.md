@@ -34,7 +34,10 @@ When modifying this setting, keep in mind that smaller batch sizes consume more 
 **View and Edit Converted Leads Permission Set**: This allows Marketo Measure to decorate leads after they have been converted to contacts.
 
 **Salesforce Marketing User Checkbox**: Allows users to create campaigns and use the Campaign Import Wizards.
-* Additional permissions for Campaign "Create" are required.
+
+* We require additional permissions for Campaign "Create" and "Update" in your CRMs.
+
+* When a touchpoint is created from a web activity, we need to link it to a campaign. Since web activities don't have corresponding CRM campaigns, we need to create one to establish this link. This applies to both lead and opportunity touchpoints. Update permission is required because the call we use is "upsert" - if the record exists, we update it; if not, we create it. This only applies to campaigns we create.
 
 **Marketo Measure Standard User**: Gives a user the ability to read records from Marketo Measure objects.
 
