@@ -27,9 +27,9 @@ From the [!DNL Marketo Measure] Settings menu, navigate to the Touchpoint Fields
 
 To create a calculated field, keep in mind there are three different actions that a user can take: extracts, maps to, and concatenates. These are also known as the operators for defining a calculated field.
 
-Extracts
+### Extracts {#extracts}
 
-The [!UICONTROL extracts] operator pulls the value out of a field from another location, such as: a Campaign field, Lead field, or in a more advanced use case, [extract custom parameters from the landing page](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+The [!UICONTROL extracts] operator pulls the value out of a field from another location, such as: a Campaign field, Lead field, or in a more advanced use case, extract custom parameters from the landing page. It then places it onto a Touchpoint Field.
 
 **Example #1**
 
@@ -115,7 +115,7 @@ As your landing pages get more complicated and you have multiple tracking parame
 
 ![](assets/five.png)
 
-**Maps to**
+### Maps to {#maps-to}
 
 The [!UICONTROL maps to] operator creates a table of values that need to be translated or bucketed into another value. Usually, this takes the form of a key value where a code represents a friendly name and needs to be mapped to that friendly name.
 
@@ -163,7 +163,7 @@ Now that we've learned how to extract and map to fields, let's combine those act
 
 ![](assets/seven.png)
 
-**Concatenates**
+### Concatenates {#concatenates}
 
 The [!UICONTROL concatenates] operator combines values from multiple fields into a single field. This is useful to create a custom value that pulls data across various fields in order to make
 
