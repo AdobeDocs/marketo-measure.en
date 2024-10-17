@@ -10,6 +10,22 @@ See below for all the new and updated features for our 2024 releases.
 
 ## Q4 Release {#q4-release}
 
+### New Session Channel Carryover Behavior
+
+The channel from the previous session will now carry over if a new session starts within seven days after 30 minutes of inactivity, applying only to Direct visits (no referrer or internal referrers). After seven days of inactivity, the session will default to Direct/Other. Non-Direct channels won't be overridden by previous session data.
+
+Additionally, sessions using social sign-in (Google, Microsoft, or Apple) are now merged into one continuous session, ensuring a smoother experience. Without this carryover toggle, social sign-ins could create separate sessions due to external referrer differences.
+
+For new customers, session channel carryover is now the default behavior. Existing customers can enable this by turning on the Session Channel Carryover toggle under Settings → Everytouch Attribution. Once activated, this setting cannot be undone.
+
+Documentation: [Definition of Marketo Measure Web Sessions](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+
+### Keyword ROI Dashboard
+
+The new Keyword ROI Dashboard offers detailed insights into the performance of Paid Search campaigns, providing a comprehensive view of keyword-level costs, attributed revenue, and the leads and opportunities generated. This dashboard helps you evaluate the ROI of each keyword across Google Adwords, LinkedIn, and Bing Ads, etc.
+
+Documentation: [Keyword ROI Dashboard](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+
 ### Enhanced Segment Rules
 
 You can now create segments using Campaign and Campaign Member fields, in addition to Touchpoint and Contact fields. This enhancement empowers you to analyze and dissect your data more effectively in Discover.

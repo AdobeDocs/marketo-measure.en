@@ -24,13 +24,29 @@ There are a few things that determine when a session ends, and when a new sessio
 
 ## Time-based expiration {#time-based-expiration}
 
+### Legacy behavior {#legacy-behavior}
+
 **How long does a session last?**
 
-[!DNL Marketo Measure] sessions will end after 30 minutes of inactivity on the website. For example:
+[!UICONTROL Marketo Measure] sessions will end after 30 minutes of inactivity on the website. For example:
 
-When Haley visits adobe.com, a session begins. She explores the website for a few minutes and then steps away from her computer, but leaves the website open. After 30 minutes of inactivity the session ends.
+When Haley visits adobe.com, a session begins. She explores the website for a few minutes and then steps away from her computer, but leaves the website open. After 30 minutes of inactivity, the session ends.
 
-Currently, [!DNL Marketo Measure] only considers page navigation and form submissions as activity. Scrolling through the web page or hovering over an element on the page is not considered activity. So if Haley visits adobe.com to read a blog post, and it takes her one hour to read, her web session will still end after 30 minutes even if she is scrolling through the content on the page.
+Currently, [!UICONTROL Marketo Measure] only considers page navigation and form submissions as activity. Scrolling through the web page or hovering over an element on the page is not considered activity. So if Haley visits adobe.com to read a blog post, and it takes her one hour to read, her web session will still end after 30 minutes even if she is scrolling through the content on the page.
+
+### New behavior {#new-behavior}
+
+For new users, this will be the default behavior.
+
+Existing users can adopt the new behavior by turning on the toggle under **Settings** > **Everytouch Attribution** > **Session Channel Carryover**. Once activated, this setting cannot be reversed.
+
+When a new session is created after 30 minutes of inactivity, the previous session's channel will carry over if the new session starts within seven days. This carryover applies only to Direct visits (either no referrer or internal referrers). If the inactivity exceeds seven days, the channel for the new session will default to Direct/Other. For example, if Haley visits landingpage.com from Google, is inactive for over 30 minutes, and returns within seven days, the new session will retain the Google channel. However, if the same user revisits the page through a different channel, the non-Direct channel will not be overridden by the previous Google channel.
+
+Only the channel will carry over, excluding campaign or referrer details. This is because channel classification is handled by Marketo Measure, while other data points are collected separately.
+
+**Social Sign-In**
+
+When a visitor uses social sign-in via Google, Microsoft, or Apple, the session will be merged into one continuous session. For example, if a visitor lands on a page from LinkedIn, completes a Google social sign-in, and reaches a thank-you page, it will all count as a single session. Without the session channel carryover toggle on, the social sign-in would create separate sessions due to the external referrer.
 
 ## Channel-based expiration {#channel-based-expiration}
 
