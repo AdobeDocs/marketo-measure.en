@@ -185,49 +185,6 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
  </tbody> 
 </table>
 
-**Case**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>Fields</th> 
-   <th>Standard/Custom</th> 
-   <th>Read</th> 
-   <th>Write</th> 
-  </tr> 
-  <tr> 
-   <td>Id</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SuppliedEmail</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
- </tbody> 
-</table>
-
 **Account**
 
 <table> 
@@ -460,30 +417,6 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
