@@ -26,11 +26,11 @@ The additional _Ads Dimensional Data Model_ ERD presents a view of how tables fo
 
 _Click an image for its full-size version_
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <th>Data Warehouse Data Model</th> 
-   <th>Ads Dimensional Data Model</th> 
+   <th>Data Warehouse Data Model</th>
+   <th>Ads Dimensional Data Model</th>
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
@@ -74,7 +74,7 @@ Accounts imported from the source system.
     <tr>
       <td>NAME</td>
       <td>varchar</td>
-      <td>The Account Name, from the source system.</td>
+      <td>The Account Name from the source system.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
