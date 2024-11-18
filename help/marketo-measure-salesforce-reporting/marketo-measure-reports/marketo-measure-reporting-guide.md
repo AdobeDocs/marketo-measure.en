@@ -10,9 +10,9 @@ feature: Reporting
 >
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
-Before building a [!DNL Marketo Measure] report, it's most crucial to confirm your [!DNL Marketo Measure] Account Settings have been reviewed and configured to ensure the data within the reports is accurate and reflects the specificities of your business. In addition to this, reporting projects work best when they follow a structured process. Justin Norris, a [!DNL Marketo Measure] power-user, advocate and partner from [Perkuto](https://perkuto.com/) expertly summarized [how to approach reporting in [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
+Before building a [!DNL Marketo Measure] report, it's most crucial to confirm your [!DNL Marketo Measure] Account Settings have been reviewed and configured to ensure the data within the reports is accurate and reflects the specificities of your business. In addition to this, reporting projects work best when they follow a structured process. Justin Norris, a [!DNL Marketo Measure] power-user, advocate and partner from [Perkuto](https://perkuto.com/){target="_blank"} expertly summarized [how to approach reporting in [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}:
 
-**Establish Goals**: "The first question to ask is 'why do we measure?' Lori Wizdo of [Forrester Research](https://go.forrester.com/) summed it up nicely in a [Marketo webinar](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/). According to her, 'we measure to prove or validate a decision or the value of marketing or to get better (process improvement).' We would add that the insights from good measurement also provide input and guidance into the marketing planning process.
+**Establish Goals**: "The first question to ask is 'why do we measure?' Lori Wizdo of [Forrester Research](https://go.forrester.com/) summed it up nicely in a [Marketo webinar](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/){target="_blank"}. According to her, 'we measure to prove or validate a decision or the value of marketing or to get better (process improvement).' We would add that the insights from good measurement also provide input and guidance into the marketing planning process.
 
 So before you begin, it's essential to be crystal clear on your goals, the questions you are trying to answer, or the problems you are attempting to solve. What story do you want to tell? What decisions will be made as a result? Too often these fundamentals are poorly thought out, leading to frustration for all involved."
 
@@ -41,7 +41,7 @@ an offline campaign or activity.
 >
 >BATs are created from BTs. Essentially, tracking begins at the individual level via the BTs. Once an Opportunity is created on an Account, all BTs from Contacts under the same Account are referenced and eligible to create BATs that relate to the Opportunity, so you will want to use one or the other depending on what questions you are trying to answer: questions related to 'People' metrics (BT reports), or questions related to 'Opportunity' metrics (BAT reports)
 
-Support Article: [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
+Support Article: [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup){target="_blank"}
 
 ## Buyer Touchpoint (BT) {#buyer-touchpoint-bt}
 
@@ -61,7 +61,7 @@ Buyer Touchpoints are used to answer questions related to _people_ ("people" are
 
 Primarily, companies need to know, "where are my Leads/Contacts coming from?". Historically, this was answered with a single, one dimensional value (Lead Source for example). However, as outlined in #1 and #2 above, we know that Leads can have multiple touchpoints during their journey of becoming a Lead. The Buyer Touchpoint allows us to get insight into the two most crucial interactions that represent how a Lead was generated: their First Touch and their Lead Creation Touch. Buyer Touchpoints are also _multi-dimensional_ meaning they carry loads of marketing data, primarily where the person came from (Marketing Channel) and what the person engaged with (Content).
 
-The [attribution models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) providing the best insight into people-based metrics are:
+The [attribution models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} providing the best insight into people-based metrics are:
 
 * **First Touch** - 100% attribution credit to the Lead's First Touch (FT)
 * **Lead Creation** - 100% attribution credit to the Lead's Lead Creation Touch (LC)
@@ -492,16 +492,16 @@ The key takeaway from this report is that the Buyer Touchpoint data will also pr
 
 Considering the [!DNL Marketo Measure] Person allows us to report on all touchpoints in a single report, it is the ideal report type to use when looking to validate your data. We want to ensure we're not overlooking any touchpoints that may reveal where, for example, there is an issue in the configuration of your 'Marketing Channels' (see the support articles linked below for more information about configuring your 'Marketing Channels').
 
-* [Online Custom Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-* [Offline Custom Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+* [Online Custom Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
+* [Offline Custom Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
 
-Essentially, the touchpoint data will reflect what's been tracked by [!DNL Marketo Measure] and can be audited to ensure your configuration matches inputs based on things like: UTM parameter values, Referring Pages, or Campaign Types. If the touchpoint data doesn't match your configuration, something most likely needs to be adjusted. Beyond the 'Marketing Channel' setup, you can look at touchpoint data to determine what touchpoints may need to be [suppressed](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) or [segmented](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md). It is recommended to audit your touchpoint data within a '[!DNL Marketo Measure] Persons and Buyer Touchpoints' report at the end of each month or quarter if possible. This will ensure your attribution is as accurate as possible. The '[!DNL Marketo Measure] 101 | Leads/Contacts by Channel' report available out-of-the-box is a great place to start. Include the following fields if they're not already included to review some of the most crucial pieces of configuration:
+Essentially, the touchpoint data will reflect what's been tracked by [!DNL Marketo Measure] and can be audited to ensure your configuration matches inputs based on things like: UTM parameter values, Referring Pages, or Campaign Types. If the touchpoint data doesn't match your configuration, something most likely needs to be adjusted. Beyond the 'Marketing Channel' setup, you can look at touchpoint data to determine what touchpoints may need to be [suppressed](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) or [segmented](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}. It is recommended to audit your touchpoint data within a '[!DNL Marketo Measure] Persons and Buyer Touchpoints' report at the end of each month or quarter if possible. This will ensure your attribution is as accurate as possible. The '[!DNL Marketo Measure] 101 | Leads/Contacts by Channel' report available out-of-the-box is a great place to start. Include the following fields if they're not already included to review some of the most crucial pieces of configuration:
 
 * **Marketing Channel** - Path = Marketing Channel.Subchannel (values set in [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
 * **Medium** = utm_medium (online touchpoints) OR CRM Campaign Type (offline touchpoints)
 * **Referrer Page** (used the 'Online Channels' configuration) 
-* **Landing Page - Raw** (used the 'Online Channels' configuration) also a common input for touchpoint suppression in the 'Touchpoint Settings' tab of your Settings)
+* **Landing Page - Raw** (used the 'Online Channels' configuration) also a common input for touchpoint suppression in the 'Touchpoint Settings' tab of your Settings
 * **Form URL** (a common input for touchpoint suppression in the 'Touchpoint Settings' tab of your Settings)
 
 **BUYER ATTRIBUTION TOUCHPOINT (BAT)**
@@ -516,7 +516,7 @@ Considering BATs primary relationship is with the Opportunity, they are used to 
 * How much new pipeline revenue can I attribute to each of my marketing channels?
 * Which of my campaigns saw the greatest ROI last quarter?
 
-The [attribution models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) providing best insight into Opportunity-based metrics are:
+The [attribution models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} providing best insight into Opportunity-based metrics are:
 
 **W-Shaped** - The '_Pipeline Model_'. Three milestone touchpoints are included in the W-Shaped model. In this model, the FT, LC, and OC touchpoints are each attributed 30% of the attribution credit. The remaining 10% is attributed equally to any intermediary touchpoints that occur between the three milestone touchpoints.
 
@@ -698,47 +698,6 @@ This report would essentially be the same as the first Buyer Attribution Touchpo
 
 **REMINDER**: It's crucial to remember to filter for the specific Opportunities you want to include in BAT based reporting, especially when it comes 'Open Opportunities and Pipeline Revenue' vs. 'Deals and Closed Won Revenue'. This is typically done via an 'Opportunity Stage' filter (the 'Opportunity Won' = true/false filter can also be very helpful here).
 
-**5. ROI ([!DNL Marketo Measure] Discover only)**
-
-The [!DNL Marketo Measure] Discover dashboards provide a high-level view of your Marketing Performance using [!DNL Marketo Measure] attribution data. These aggregated dashboards provide key marketing spend and ROI data which is not available in your CRM reporting. This pre-built environment allows you to view your marketing performance in alignment with your ROI data allowing you to make actionable decisions in regards to your marketing.
-
->[!TIP]
+>[!MORELIKETHIS]
 >
->Whenever you have a question related to ROI, Spend or Cost, [!DNL Marketo Measure] Discover will be the best place for reporting!
-
-The [!DNL Marketo Measure] Discover dashboards are comprised of Buyer Touchpoint and Buyer Attribution Touchpoints data as well as key CRM data. The main difference between CRM reporting and reporting in [!DNL Marketo Measure] Discover is that the touchpoint data in Discover is presented more in an 'aggregated' fashion, and summarized by dimension (Marketing Channel, Campaign, etc.) as opposed to individual touchpoint records which can then be summarized. [!DNL Marketo Measure] Discover is used to understand at a high level which of your efforts are making the greatest impact on Leads, Opps, Deals and how much revenue should be attributed to them. Once we have the attributed revenue calculated via the various attribution models (Full Path is recommended for attributing closed won revenue/bookings), we can then measure it against how much was spent in the same dimension (Marketing Channel, Subchannel, or Campaign). This then gives us the **ROI**.
-
->[!TIP]
->
->One of the most important things to remember when reporting in Discover is which Data Type you are using to filter. Date Type will dictate which data set [!DNL Marketo Measure] is using in the various tiles.
-
-* **Touchpoint Date**: Displays the related data that had a 'Touchpoint Date' in the timeframe specified
-* **Created Date**: Displays the related data that had a 'Created Date' in the timeframe specified
-* **Closed Date**: Displays the related data that had a 'Close Date' in the timeframe specified
-
-When reporting on ROI in [!DNL Marketo Measure] Discover, it is recommended to use a 'Date Type' = "Touchpoint Date". In order to determine the return of each dollar invested, we need to ensure the revenue is attributed back to the date in which the investment was made. 'Date Type' = "Touchpoint Date" ensures the reports are structured in this way as opposed to when the Opportunity was created (Create Date) or closed (Closed Date). Let's take a closer look:
-
-The filters highlighted below are crucial to an ROI focused report in [!DNL Marketo Measure] (most likely, you will be setting these filters in the 'Overview', 'CMO', or 'ROI' boards):
-
-**5.1 | ROI in the 'Overview' Board**
-
-![](assets/bizible-reporting-guide-4.png)
-
-The 'Date' range not only sets the cohort of touchpoints (by Touchpoint Date) that are receiving attribution, but also it defines the range the 'Spend' tile or columns represent.
-[!DNL Marketo Measure] simply looks at the 'Date' range to determine how much was spent either in total, or at the Marketing Channel, Subchannel, or Campaign levels See below:
-
-![](assets/bizible-reporting-guide-5.png)
-
-The screenshot above shows the Marketing Spend data over the past 3 complete months. In this example, $12,970 was spent across all channels. This number is comprised of the Marketing Spend data [!DNL Marketo Measure] has from integrations with any of your connected ads accounts (Google AdWords, Bing Ads, Facebook Ads, LinkedIn, DoubleClick) and any additional Marketing Spend that has been uploaded within your account, or pulled automatically from a Campaign records in your CRM. The example also shows how much closed won 'Revenue' can also be attributed to touchpoints that happened during the same date range (green boxes). This is how ROI is calculated: revenue attributed to touchpoints that were sourced from investment in the same date range:
-
-![](assets/bizible-reporting-guide-6.png)
-
-**REMINDER**: [!DNL Marketo Measure] defines 'Revenue' as closed won Revenue or Bookings and defines 'Pipeline Revenue' as _open/potential revenue from open Opportunities_.
-
-Another important takeaway from the ROI report above is the 'Pipeline Revenue' represented within the red box. This means that from the $12,970 USD invested over the past 3 complete months, we're currently attributing $705,199 of closed won 'Revenue' but we're also attributing $6,905,532 of open, potential revenue ('Pipeline Revenue) to touchpoints created from the same investment! What we would expect to see is a portion of the 'Pipeline Revenue' close over time, feeding the 'Revenue' number, and thus, the ROI number would increase over time. The 'Spend' number is fixed because we can't go back in time to spend more in the last 3 complete months. This is the importance of using a 'Date Type' of "Touchpoint Date" within any ROI reporting: It defines the amount (**I**)nvested, and ensures the amount of (**R**)evenue attributed is attributed back to the same touchpoints that were sourced from the investment (for every dollar spent, how much was made?).
-
->[!TIP]
->
->Filter in on Marketing Channels, Subchannels, and/or Campaigns in which you know the Marketing Spend data is complete and accurate. The example above is for all Marketing Channels, but if some Channels don't have the related Marketing Spend data uploaded, the ROI reporting could be inaccurate. See the example below, this time in the 'ROI' board that is focused on the Campaigns within the Marketing Channel of "Paid Search", a Channel with very granular Marketing Spend data via the integrations.
-
-![](assets/bizible-reporting-guide-7.png)
+>[New Discover Dashboard Guide](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
