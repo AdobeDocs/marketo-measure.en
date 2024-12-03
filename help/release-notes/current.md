@@ -16,7 +16,7 @@ The channel from the previous session will now carry over if a new session start
 
 Additionally, sessions using social sign-in (Google, Microsoft, or Apple) are now merged into one continuous session, ensuring a smoother experience. Without this carryover toggle, social sign-ins could create separate sessions due to external referrer differences.
 
-For new customers, session channel carryover is now the default behavior. Existing customers can enable this by turning on the Session Channel Carryover toggle under Settings → Everytouch Attribution. Once activated, this setting cannot be undone.
+For new customers, session channel carryover is now the default behavior. Existing customers can enable this by turning on the Session Channel Carryover toggle under Settings > Everytouch Attribution. Once activated, this setting cannot be undone.
 
 Documentation: [Definition of Marketo Measure Web Sessions](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
@@ -30,11 +30,11 @@ Documentation: [Keyword ROI Dashboard](https://experienceleague.adobe.com/en/doc
 
 You can now create segments using Campaign and Campaign Member fields, in addition to Touchpoint and Contact fields. This enhancement empowers you to analyze and dissect your data more effectively in Discover.
 
-![Segment Rules for Members](assets/campaign-member.png)
+![Enhanced Segment Rules](assets/mm-q4-release-1.png)
 
 ### Update: Error Handling Setting for CRM Exports
 
-We've listened to your feedback regarding the job-halting approach and are introducing a new feature in the User Interface. Starting today, you can choose whether export jobs should pause when errors occur. Use the new toggle in **My Account** > **Settings** → **CRM** → **General**. This switch is on by default to enhance data integrity and visibility. However, if you prefer not to use this feature, you can turn it off in the UI, and the export jobs will resume. This update is designed to enhance the reliability of your data management processes while giving you greater control. 
+We've listened to your feedback regarding the job-halting approach and are introducing a new feature in the User Interface. Starting today, you can choose whether export jobs should pause when errors occur. Use the new toggle in **My Account** > **Settings** > **CRM** > **General**. This switch is on by default to enhance data integrity and visibility. However, if you prefer not to use this feature, you can turn it off in the UI, and the export jobs will resume. This update is designed to enhance the reliability of your data management processes while giving you greater control. 
 
 #### Key Dates and Phased Rollout
 
@@ -59,7 +59,7 @@ To help you adapt to this change, we have created documentation on the new featu
 
 <p>
 
-**Reminder: Salesforce Field Deprecations - June 14**
+### Reminder: Salesforce Field Deprecations - June 14
 
 As announced last year, we will be [phasing out our export jobs to Lead/Contact objects](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} to simplify our integration and eliminate the need to export to Salesforce standard objects. You can obtain the same data from your Touchpoint objects by following the steps [documented here](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. We will also be sharing documentation on creating workflows to add this data to the Lead/Contact object. The deprecation will take effect on June 14, 2024.
 
@@ -68,18 +68,18 @@ This change will bring two key benefits:
 * **Reduced Salesforce API Costs**: Customers can expect to reduce their Salesforce API costs by around 10%.
 * **Streamlined Integration**: The highest number of errors in our export jobs are related to these processes. Removing them will significantly streamline our integration.
 
-**Attributed Opportunity Dashboard**
+### Attributed Opportunity Dashboard
 
 We're excited to introduce the new [Attributed Opportunity Dashboard](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, designed to give you a comprehensive view of how your marketing efforts contribute to both nascent and mature pipeline opportunities. This dashboard allows you to delve into the details of every open and closed opportunity attributable to your strategies, with the flexibility to filter by opportunity stage. It provides insights into which channels, subchannels, or campaigns rank highest in terms of attributed opportunity amount, and displays the total attributed opportunity amount along with the count of attributed open and closed opportunities.
 
-**Marketo Engage Cookie Sync for Marketo Measure Ultimate**
+### Marketo Engage Cookie Sync for Marketo Measure Ultimate
 
 Marketo Engage Cookie Sync is now available for Marketo Measure Ultimate. To use this feature:
 
 1. On the AEP Schemas page, edit the B2B Person schema and add the field group "Marketo Engage Person Details."
 1. When ingesting the data to MMU, map the Cookie ID field from the field group to the Cookies field from Marketo Engage.
 
-**Boomerang Stages enabled for Tier 2 Customers**
+### Boomerang Stages enabled for Tier 2 Customers
 
 Previously only available to Tier 3 customers, the Boomerang Stage feature is also be available to all Tier 2 customers beginning June 13, 2024. For more detailed information on this feature, please refer to the documentation below.
 
@@ -93,14 +93,14 @@ Previously only available to Tier 3 customers, the Boomerang Stage feature is al
 
 <p>
 
-**Deprecation of Marketo Measure Features in Response to Third-Party Cookie Phase-Out**
+### Deprecation of Marketo Measure Features in Response to Third-Party Cookie Phase-Out
 
 In response to growing privacy concerns, third-party cookies are being phased out, with Google Chrome's Q3 2024 deadline signaling their end. Marketo Measure will deprecate certain features dependent on third-party cookies, specifically Cross-Domain Tracking and View-through Attribution, which rely on the Google/DoubleClick impression cookie. This change will not affect other Marketo Measure functionalities or the use of first-party cookies. Following Google's timeline, these functionalities are expected to be deprecated by June 1, though data collected prior to this date will still be accessible to customers.
 
 * [Adapting to Third-Party Cookie Deprecation in Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure Cookies](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
 
-**Phased Rollout of Our Enhanced Error Handling**
+### Phased Rollout of Our Enhanced Error Handling
 
 We are introducing a phased rollout of enhanced error handling for export jobs, starting with immediate in-app pulse notifications for permission errors, and transitioning to a new approach where export jobs will pause at the point of error. This change aims to improve data integrity and visibility, ensuring smoother and more reliable data management processes for our users. To ensure a smooth transition and minimal disruption to your operations, we are implementing these changes in two phases:
 
@@ -119,7 +119,6 @@ To help you adapt to this change, [we have created documentation](/help/configur
 
 <br>
 
-**Action Required for LinkedIn Integration**
+### Action Required for LinkedIn Integration
 
 LinkedIn recently released an updated version of their Lead Sync API. Please re-authenticate the LinkedIn connection in your Marketo Measure instance by May 20 to avoid any interruptions. 
- 
