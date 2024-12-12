@@ -6,6 +6,7 @@ feature: Microsoft Dynamics
 ---
 # [!DNL Marketo Measure] and Dynamics Taxonomy {#marketo-measure-and-dynamics-taxonomy}
 
-Below is a flow chart that represents how the [!DNL Marketo Measure] Custom Objects relate to Dynamics Standard Objects.<p>
+Below is a flow chart that represents how the [!DNL Marketo Measure] Custom Objects relate to Dynamics Standard Objects.
+&nbsp;
 
-![](assets/bizible-and-dynamics-taxonomy-1.png)
+![](assets/marketo-measure-and-dynamics-taxonomy-1.png){width="800" zoomable="yes"}
