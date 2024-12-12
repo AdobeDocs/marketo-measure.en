@@ -60,10 +60,10 @@ Typically customers use Buyer Touchpoint data to understand Top of the Funnel & 
 
 Here's a screenshot of a BT in [!DNL Salesforce]:
 
-![](assets/1.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
 
 **What does a Buyer Attribution Touchpoint look like in Salesforce?**
 
 Here's a screenshot of a BAT in [!DNL Salesforce]:
 
-![](assets/2.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
