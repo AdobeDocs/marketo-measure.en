@@ -13400,7 +13400,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**What is the entire journey for one person?  (Show all Touchpoints for a single email address.)**
+**What is the entire journey for one person? (Show all Touchpoints for a single email address.)**
 
 ```
 select ut.touchpoint_date

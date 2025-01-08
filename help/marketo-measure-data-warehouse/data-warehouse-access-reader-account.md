@@ -57,7 +57,7 @@ You need to enter a few pieces of information to connect your Snowflake data war
 
 >[!NOTE]
 >
->Each tool has different connection requirements; it's recommended you consult the documentation for the specific tool you are trying to connect.
+>Each tool has different connection requirements; it's recommended you consult the documentation for the specific tool you're trying to connect.
 
 * **URI** (always required)
   * This is the domain name of the Snowflake account. It is contained within a portion of the Snowflake login link.  
