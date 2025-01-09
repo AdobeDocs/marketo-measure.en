@@ -93,16 +93,12 @@ Through the data import of Marketo Programs, costs are automatically downloaded 
 
 **Field Mappings**
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
+<table><thead>
   <tr> 
    <th>biz_ad_campaigns</th> 
    <th>Marketo</th> 
-  </tr> 
+  </tr></thead>
+<tbody>
   <tr> 
    <td>ID</td> 
    <td>id</td> 
@@ -112,24 +108,60 @@ Through the data import of Marketo Programs, costs are automatically downloaded 
    <td>(check if Program still exists via API)</td> 
   </tr> 
   <tr> 
-   <td><p>NAME</p></td> 
+   <td>NAME</td> 
    <td>name</td> 
   </tr> 
  </tbody> 
 </table>
 
-| biz_campaign_members |Marketo |
-|---|---|
-| ID |"MarketoProgramMembership"_ProgramId_Lead Id |
-| MODIFIED_DATE |updatedAt |
-| CREATED_DATE |membershipDate |
-| LEAD_ID |Id (list membership) |
-| LEAD_EMAIL |Email (list membership) |
-| STATUS |progressionStatus |
-| HAS_RESPONDED |reachedStatus |
-| CAMPAIGN_NAME |programName |
-| CAMPAIGN_ID |programId |
-| CAMPAIGN_TYPE |channel |
+<table><thead>
+  <tr>
+    <th>biz_campaign_members</th>
+    <th>Marketo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>ID</td>
+    <td>"MarketoProgramMembership"_ProgramId_Lead Id</td>
+  </tr>
+  <tr>
+    <td>MODIFIED_DATE</td>
+    <td>updatedAt</td>
+  </tr>
+  <tr>
+    <td>CREATED_DATE</td>
+    <td>membershipDate</td>
+  </tr>
+  <tr>
+    <td>LEAD_ID</td>
+    <td>Id (list membership)</td>
+  </tr>
+  <tr>
+    <td>LEAD_EMAIL</td>
+    <td>Email (list membership)</td>
+  </tr>
+  <tr>
+    <td>STATUS</td>
+    <td>progressionStatus</td>
+  </tr>
+  <tr>
+    <td>HAS_RESPONDED</td>
+    <td>reachedStatus</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_NAME</td>
+    <td>programName</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_ID</td>
+    <td>programId</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_TYPE</td>
+    <td>channel</td>
+  </tr>
+</tbody>
+</table>
 
 ## Cookie Mapping {#cookie-mapping}
 

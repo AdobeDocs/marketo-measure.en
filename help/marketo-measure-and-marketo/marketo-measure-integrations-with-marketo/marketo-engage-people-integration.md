@@ -14,7 +14,7 @@ The Marketo people integration allows [!DNL Marketo Measure] to start downloadin
 * Production Marketo instance
 * Production [!DNL Salesforce] or [!DNL Microsoft Dynamics] instance
 * Any paid [!DNL Marketo Measure] subscription
-* SOLR enabled (reach out to [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) to have this enabled)
+* SOLR enabled (reach out to [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} to have this enabled)
 
 ## How It Works {#how-it-works}
 
