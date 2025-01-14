@@ -26,10 +26,10 @@ Drill down into specific keywords to view the opportunities influenced by each.
 
 * **Keyword**
 * **Campaign**
-* **Ad Account ID** (Coming soon)
-* **Ad Account Name** (Coming soon)
-* **Ad Group ID** (Coming soon)
-* **Ad Group Name** (Coming soon)  
+* **Ad Account ID**
+* **Ad Account Name**
+* **Ad Group ID**
+* **Ad Group Name**
 * **Cost**: Total costs from connected data sources. 
 * **Attributed Revenue**: The total revenue contribution, based on the chosen attribution model, from Opportunities with touchpoints that closed within the filtered date period
 * **Realized Attributed Revenue**: The total revenue contribution, based on the chosen attribution model, from Opportunities with touchpoints within the filtered date period, regardless of when they were closed.
@@ -47,10 +47,10 @@ Drill down into specific keywords to view the opportunities influenced by each.
 
 * **Keyword**
 * **Campaign**
-* **Ad Account ID** (Coming soon)
-* **Ad Account Name** (Coming soon)
-* **Ad Group ID** (Coming soon)
-* **Ad Group Name** (Coming soon)  
+* **Ad Account ID**
+* **Ad Account Name**
+* **Ad Group ID**
+* **Ad Group Name**
 * **Cost**
 * **New Leads**: Total number of new Leads generated, including both touched and untouched Leads.
 * **Cost per New Lead**: The average cost per new Lead, derived from the total cost divided by the total number of new Leads.
