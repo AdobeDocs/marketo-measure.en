@@ -98,6 +98,6 @@ The following steps are for Salesforce Classic users. If you have made the switc
 
    Once you've completed these steps, the opportunities will need to be updated in order to trigger the workflow to have the new value from the [!UICONTROL custom opportunity] field.
 
-   This can be accomplished by running your opportunities through Data Loader within SFDC. Find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   This can be accomplished by running your opportunities through Data Loader within SFDC. Find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
 
 If there are any questions along the way, do not hesitate to reach out to the Adobe Account Team (your Account Manager) or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
