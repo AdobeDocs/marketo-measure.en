@@ -89,6 +89,10 @@ From the list of Marketo Program Channels, you will want to map the values to th
 
 Through the data import of Marketo Programs, costs are automatically downloaded from Period Costs and the reported cost in Marketo is distributed throughout the assigned month. For example, if $1000 is reported for January 2021, the $1000 is split across 31 days. The costs can be found in [!DNL Marketo Measure Discover].
 
+>[!NOTE]
+>
+>Marketo Measure supports only one Period Cost entry per month. To ensure all costs are imported, aggregate the total monthly cost into a single entry. Multiple Period Cost entries for the same month are not supported.
+
 ## How It Works {#how-it-works}
 
 **Field Mappings**
