@@ -443,7 +443,19 @@ This lists the [!DNL Salesforce] Standard Objects that [!DNL Marketo Measure] in
    <td>Type</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td>&nbsp;</td> 
+  </tr>
+  <tr> 
+   <td>StartDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td>&nbsp;</td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td>&nbsp;</td> 
   </tr>
   <tr> 
    <td>Name</td> 
