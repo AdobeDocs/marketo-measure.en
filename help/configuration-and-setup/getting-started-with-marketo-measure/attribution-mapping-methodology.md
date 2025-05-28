@@ -9,10 +9,6 @@ feature: Attribution
 
 Attribution Mapping Methodology is the process of looking up certain objects in your CRM (Contacts, Opportunities, Accounts) to create attribution touchpoints into the associated opportunity. In other words, it's the [!DNL Marketo Measure] way of understanding which touchpoints to include in the attribution model based on your current CRM's processes.
 
->[!NOTE]
->
->Contact Role mapping methods are only available for those using Salesforce as their CRM. It is not available for Microsoft Dynamics users, due to the lack of a Contact Role object within that CRM.
-
 ## Account ID Mapping {#account-id-mapping}
 
 Out of the box, [!DNL Marketo Measure] provides Account ID mapping. This means that [!DNL Marketo Measure] looks at the Account and its Contacts marketing information to create Attribution Touchpoints associated to the opportunity. Below is a simple representation of that process.
@@ -26,6 +22,10 @@ Pros: This method of attribution is highly effective for most companies. The mar
 Cons: If there are strong Marketing & Sales SLAs that define who should be getting credit for what, then this method could be problematic. In addition, if folks don't use Account hierarchies to define specific business units within a larger account (ex: IBM), then marketing interactions specific to one business unit may get spread across other business unit opportunities.
 
 ## Opportunity Contact Role Mapping {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>Contact Role mapping methods are only available for those using Salesforce as their CRM. It is not available for Microsoft Dynamics users, due to the lack of a Contact Role object within that CRM.
 
 While most clients use Account ID mapping, [!DNL Marketo Measure] can look up to the contact roles (contacts associated to the Opportunity) within an Opportunity to break down the attribution process. This means that [!DNL Marketo Measure] will only push marketing interactions associated to the contact roles on the Opportunity as Buyer Attribution Touchpoints. Below is a representation of this process.
 
