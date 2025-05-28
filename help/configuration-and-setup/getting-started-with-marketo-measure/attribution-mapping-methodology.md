@@ -9,6 +9,10 @@ feature: Attribution
 
 Attribution Mapping Methodology is the process of looking up certain objects in your CRM (Contacts, Opportunities, Accounts) to create attribution touchpoints into the associated opportunity. In other words, it's the [!DNL Marketo Measure] way of understanding which touchpoints to include in the attribution model based on your current CRM's processes.
 
+>[!NOTE]
+>
+>Contact Role mapping methods are only available for those using Salesforce as their CRM. It is not available for Microsoft Dynamics users, due to the lack of a Contact Role object within that CRM.
+
 ## Account ID Mapping {#account-id-mapping}
 
 Out of the box, [!DNL Marketo Measure] provides Account ID mapping. This means that [!DNL Marketo Measure] looks at the Account and its Contacts marketing information to create Attribution Touchpoints associated to the opportunity. Below is a simple representation of that process.
