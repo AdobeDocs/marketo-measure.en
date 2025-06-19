@@ -73,23 +73,7 @@ Lead 3's FT, LC and MQL, SQL, SAL touchpoints (orange) all occurred after the OC
 
 When Lead 2 and 3 converted into Contacts, [!DNL Marketo Measure] will not create another OC touchpoint because there can only be one opportunity creation stage.
 
-**Scenario 2 - [!UICONTROL Three Leads with Opportunity]**
-
-In this scenario, a customer has chosen to track the **MQL**, **SQL**, and **SAL** stages with boomerang touchpoints.
-
-All the touchpoints from Lead 1 are included on the opportunity, from FT to SAL-01 (Last). The LC touchpoint from Lead 2 will be included as a Form touchpoint in between the LC and MQL-01 touchpoints on the Opportunity.
-
-![](assets/5.png)
-
-The MQL-01 (Last) from Lead 2 ends up being the MQL-04 (Last) touchpoint on the Opportunity. Because this scenario is looking at multiple Leads' journeys within one Opportunity, the positioning and numbering of the Leads' touchpoints can change when they are translated as touchpoints on the Opportunity. Similarly, the SQL-01 (Last) from Lead 2 becomes the SQL-04 (Last) on the Opp. Lead 2's SAL-01 (Last) also becomes the Opportunity's SAL-02 (Last).
-
-There are only 2 SAL touchpoints included on the Opportunity. [!DNL Marketo Measure] will not try to force/create touchpoints for stage transitions if they have not occurred.
-
-Lead 3's touchpoint journey begins just before the OC touch occurs, but long after Lead 1 and Lead 2 had their FT and LC touch. In this case, Lead 3's FT and LC appear as a Form touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch.
-
-Lead 3's MQL, SQL, and SAL touches all occur at the same time, after the OC touch. Since they occurred after the OC touchpoint, this touchpoint will appear as a Form/Middle Touch on the Opportunity rather than a Boomerang stage transition.
-
-**Scenario 2a - Web Visit Boomerang Touchpoints**
+**Scenario 2 - Web Visit Boomerang Touchpoints**
 
 In this scenario, a customer has chosen to track the **MQL**, **SQL**, and **SAL** stages with boomerang touchpoints. This scenario is almost identical to the one above, with a few exceptions.
 
