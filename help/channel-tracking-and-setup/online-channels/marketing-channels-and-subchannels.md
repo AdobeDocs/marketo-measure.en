@@ -39,7 +39,7 @@ Subchannels are the second piece of the puzzle when bucketing your incoming Lead
 
 The diagram below illustrates an example of a Marketing Channel, Subchannel, and Content based on a web page with the following URL:
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
 In this case, the Content the user is trying to access is the Intro Guide to B2B Marketing Attribution. [!DNL Marketo Measure] will analyze the URL leading to this Content using the Channel Rules set up in this org, and use them to "bucket" this lead into the Marketing Channel "Paid Social" and the Subchannel "LinkedIn".
 

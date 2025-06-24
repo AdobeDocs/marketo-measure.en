@@ -100,7 +100,7 @@ Learn about the various [!DNL Marketo Measure] Cookies that are loaded onto your
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Third party, domain=.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>Third party, domain=.<a href="https://bizibly.com/">bizibly.com</a></td>
     <td>Mapping between Marketo Measure cookie ID on the tenant's domain and its Doubleclick impression cookie ID.</td>
     <td>1 year</td>
     <td>Yes</td>
