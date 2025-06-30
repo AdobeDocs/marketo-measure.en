@@ -65,9 +65,9 @@ The FT and LC touchpoints on the Opportunity come from Lead 1 (blue), because th
 
 The MQL-01 (Last) from Lead 2 will become the first MQL on the Opportunity. The MQL-01 from Lead 1 will not appear as a touchpoint on the Opportunity because Lead 2's MQL occurred first. However, Lead 1's MQL-02 and MQL-03 will appear on the Opportunity.
 
-THe SQL stage is being tracked with custom stages, and not boomerang stages. Even though there are three occurrences of the SQL stage between Lead 1 and Lead 2, only the last SQL occurrence will be included as a touchpoint on the Opportunity.
+The SQL stage is being tracked with custom stages, and not boomerang stages. Even though there are three occurrences of the SQL stage between Lead 1 and Lead 2, only the last SQL occurrence will be included as a touchpoint on the Opportunity.
 
-The SAL-01 (Last) touchpoint from Lead 1 is carried over as a touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch. Lead 2's SAL-01 (Last) touchpoint will be created as a touchpoint because this stage transition occurred _after_ the OC touch.
+The SAL-01 (Last) touchpoint from Lead 1 is carried over as a touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch. Lead 2's SAL-01 (Last) touchpoint will not be created as a touchpoint because this stage transition occurred _after_ the OC touch.
 
 Lead 3's FT, LC and MQL, SQL, SAL touchpoints (orange) all occurred after the OC touchpoint on the Opportunity. These touchpoints are included in the Opportunity, but are considered "middle touches."
 
