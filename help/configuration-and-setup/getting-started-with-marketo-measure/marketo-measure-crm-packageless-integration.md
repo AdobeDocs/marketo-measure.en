@@ -1,10 +1,10 @@
 ---
-unique-page-id: 37356027
 description: "[!DNL Marketo Measure] CRM Packageless Integration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] CRM Packageless Integration"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
 ---
+
 # [!DNL Marketo Measure] CRM Packageless Integration {#marketo-measure-crm-packageless-integration}
 
 Not all Marketing teams want (or have access) to run marketing reporting out of the CRM, whether it's because of limited access, CRM ownership, longer time to value, or legal implications. Going down the path of [!DNL Marketo Measure] Quick Start gives you the ability to effectively implement and run [!DNL Marketo Measure] with as little reliance on the CRM as possible.
@@ -25,12 +25,11 @@ To ensure that all data is properly pulling from your CRM, we require the follow
 
 In the guides below, skip the steps to install the [!DNL Salesforce] package or [!DNL Microsoft Dynamics] Managed Solution and follow only the permissions and integration instructions.
 
-[!DNL Salesforce] customers click [here](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
+[!DNL Salesforce] customers click [here](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md).
 
-[!DNL Microsoft Dynamics] customers click [here](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+[!DNL Microsoft Dynamics] customers click [here](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
 After you complete these steps, the integration should be operational. If you run into any issues, contact  your [!DNL Marketo Measure] representative or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
->
 >If you start with the [!DNL Marketo Measure] CRM packageless integration you are able to install the Salesforce package or Microsoft Dynamics Managed Solution later.

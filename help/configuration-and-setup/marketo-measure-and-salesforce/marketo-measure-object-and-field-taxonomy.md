@@ -1,19 +1,19 @@
 ---
-unique-page-id: 18874584
 description: "[!DNL Marketo Measure] Object and Field Taxonomy - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Object and Field Taxonomy"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
 ---
+
 # [!DNL Marketo Measure] Object and Field Taxonomy {#marketo-measure-object-and-field-taxonomy}
 
 Below is a flow chart that represents how [!DNL Marketo Measure] Custom Objects relate to [!DNL Salesforce] Standard Objects.
 
-![](assets/1-2.png)
+![ 2](assets/1-2.png)
 
 For the full-sized image, [click here](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-Definitions of the [!DNL Marketo Measure] fields that live in each object [can be found here](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Definitions of the [!DNL Marketo Measure] fields that live in each object [can be found here](/help/glossary.md).
 
 ## FAQ {#faq}
 

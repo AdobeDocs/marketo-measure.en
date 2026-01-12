@@ -1,9 +1,9 @@
 ---
-unique-page-id: 18874501
 description: Search for product documentation and self-help articles for Adobe Marketo Measure.
 title: Marketo Measure product documentation
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
 ---
+
 # Marketo Measure Help Documentation
 
 ![banner](/help/assets/marketo-measure-banner.jpg)
@@ -12,17 +12,17 @@ Marketo Measure (formerly Bizible) unifies behavioral and ad data with sales out
 
 ## Getting Started
 
-* [Marketing Attribution](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
+* [Marketing Attribution](/help/marketing-attribution.md)
 
-* [Marketo Measure Attribution Models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+* [Marketo Measure Attribution Models](/help/attribution-models.md)
 
-* [Marketo Measure Framework](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
+* [Marketo Measure Framework](/help/marketo-measure-framework.md)
 
-* [Glossary of Marketo Measure Fields](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [Glossary of Marketo Measure Fields](/help/glossary.md)
 
 ## Popular Articles
 
-* [Adding Marketo Measure Script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+* [Adding Marketo Measure Script](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
 * [Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 * [Online Custom Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Offline Custom Channel Setup](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)

@@ -1,10 +1,10 @@
 ---
-unique-page-id: 18874596
 description: Online Custom Channel Setup - [!DNL Marketo Measure]
 title: Online Custom Channel Setup
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
 ---
+
 # Online Custom Channel Setup {#online-custom-channel-setup}
 
 To have accurate reporting, marketing channels must be set up to reflect your organization's UTM strategy. This guide takes you through the best way to configure your custom channel rules.
@@ -26,11 +26,11 @@ Things to keep in mind:
 
 The first step is to download the custom channel spreadsheet from the [!DNL Marketo Measure] app. Navigate to **Settings** under the **My Account** tab and select **Online**. You can select either **Download Original Template** or **Download Current Rules**.
 
-![](assets/1.png)
+![Settings page showing Online channel configuration with Download Original Template and Download Current Rules options](assets/1.png)
 
 The spreadsheet has seven columns:
 
-![](assets/2.png)
+![Custom channel spreadsheet showing seven columns: Channel, Subchannel, Campaign, Medium, Source, Landing Page, and Referring Website](assets/2.png)
 
 * **Channel:** add your various marketing channels here
 * **Subchannel:** add the corresponding subchannels here
@@ -44,11 +44,11 @@ The eighth column notes which rules you cannot delete from the spreadsheet with 
 
 The rows represent rules and the order in which [!DNL Marketo Measure] prioritizes the data. The first row has priority over the second row, the second row has priority over the third row, and so on. When determining what Marketing Channel & Subchannel to bucket touchpoints into, [!DNL Marketo Measure] reads top-down, left to right, until it finds a row that meets the criteria of the touchpoint. (If a touchpoint has a `utm_source=Facebook`, the touchpoint is bucketed into the Social.Facebook channel due to rule 15 in the screenshot).
 
-![](assets/3.png)
+![Channel rules spreadsheet showing top-down priority order with Social.Facebook rule example highlighted](assets/3.png)
 
 [!DNL Marketo Measure] comes with 12 default channels for your use. These channels correlate to platforms with which [!DNL Marketo Measure] is fully integrated. Whether you use them or not, do not remove them. If you do use one of these platforms, Bing Ads for example, but prefer to use a different naming convention for the channel or subchannel, you are able to update the name. An example is shown in the image below.
 
-![](assets/4.png)
+![Default channel rules showing 12 integrated platforms with customizable channel and subchannel names](assets/4.png)
 
 The structure of the rules is also important. The rules may look like repeated information and missing data but this structure is intentional. For accurate data sorting, it's necessary to map each individual source to the appropriate channel separately--even sources sharing subchannels and channels. The more detailed and granular the rules are, the more insightful the results are. Basically, it is best practice to write a detailed rule for every marketing effort you want to track.
 
@@ -56,13 +56,13 @@ Consider the following situation: you have other ads that you do not want to tra
 
 Each parameter or component of the rule is separately mapped to the channel. For instance, when [!DNL Marketo Measure] has [!DNL Facebook] data to sort, it looks for rules related to [!DNL Facebook]. It scans from top to bottom. In the example pictured below, [!DNL Marketo Measure] would understand that for the first [!DNL Facebook] subchannel, all it has to read is the source parameter to drop data into that rule's bucket.
 
-![](assets/5.png)
+![Facebook channel rules example showing multiple rows with different parameters mapped to subchannels](assets/5.png)
 
 The next rule only asks for the medium parameter, so any data with that parameter is bucketed into this channel. Lastly for [!DNL Facebook], any data coming from the Facebook URL is placed in the last Facebook bucket.
 
 The default channel 'Other' exists to catch data that does not meet any rule's criteria. Notice that some of the buckets in the Other channel contain asterisks (&#42;). These asterisks represent wildcards that act as a catch-all.
 
-![](assets/6.png)
+![Other channel rules showing wildcard asterisks as catch-all buckets for unmatched data](assets/6.png)
 
 Due to [!DNL Marketo Measure] logic working from top to bottom, the wildcard rule, indicated with an asterisk (&#42;), should be placed at the very end of your rule sheet. All data that is not caught or sorted by the other rules is added to this wildcard bucket.
 

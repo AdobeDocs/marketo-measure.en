@@ -1,14 +1,14 @@
 ---
-unique-page-id: 18874732
 description: Best Practices for Setting Up UTM Parameters - [!DNL Marketo Measure]
 title: Best Practices for Setting Up UTM Parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
 ---
+
 # Best Practices for Setting Up UTM Parameters {#best-practices-for-setting-up-utm-parameters}
 
 UTM parameters are great way to slice and dice your marketing data. [!DNL Marketo Measure] uses and captures all UTM parameters to populate fields in Salesforce and in the [!DNL Marketo Measure] app. With this information, you are able to get a granular understanding of where your leads, opportunities, and closed/won deals are coming from.
-  
+
 You can use the [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} if you want an easier way to track all your UTM links.
 
 ## High-level values for each parameter {#high-level-values-for-each-parameter}
@@ -18,19 +18,19 @@ You can use the [Google URL Builder](https://support.google.com/analytics/answer
 For example, [!UICONTROL Social], CPC, email, web, organic
 
 Do not use this field to call out the subchannel.
-  
+
 **utm_source**: This field maps to the Touchpoint Source field. Use utm_source to define the subchannel from which the lead originates.
-  
+
 For example, Facebook, Twitter, Linkedin, Drip_email, Email_blast, newsletter.  
-  
+
 Keep it simple. Do not use this parameter to denote ad types, like retargeting or sponsored. Do not add a utm_source = homepage, webdirect, website. [!DNL Marketo Measure] automatically fills out this information for you.  
-  
+
 **utm_campaign**: This field maps to Ad Campaign Name. Use utm_campaign to denote the title of the campaign as it exists in the ad platform, or as it's referred to internally.  
-  
+
 This is also a good parameter to denote Geolocation, Ad network type (display v. search), and so on.  
-  
+
 It is recommended to use underscores instead of spaces, and avoid using punctuation. This reduces the chances of encoding errors by browsers when reading your parameters.  
-  
+
 For example, AU_Idea_for_an_App_50k  
 
 **utm_content**: This maps to Ad Content. Use the Ad Title in the utm_content parameter. If it is an image ad, use ad title and include the ad dimensions.

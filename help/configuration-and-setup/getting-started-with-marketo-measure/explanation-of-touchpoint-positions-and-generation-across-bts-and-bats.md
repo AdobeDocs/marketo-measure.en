@@ -4,6 +4,7 @@ title: Explanation of Touchpoint Positions and Generation Across BTs and [!DNL B
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
 ---
+
 # Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Generation of Touchpoint Positions & Flow Through the Buyers Journey**
@@ -21,27 +22,27 @@ Understanding the Buyer Touchpoint positions and how they are triggered is cruci
 
 The following outlines the Buyer Touchpoint positions which describe where an individual is in their journey and what actions they took to earn that position.
 
-<table> 
+<table>
  <tbody>
   <tr>
-   <th>Buyer Touchpoint (BTs) Position</th> 
-   <th>Touchpoint Type (action that can trigger touchpoint)</th> 
-   <th>Description of Touchpoint</th> 
+   <th>Buyer Touchpoint (BTs) Position</th>
+   <th>Touchpoint Type (action that can trigger touchpoint)</th>
+   <th>Description of Touchpoint</th>
   </tr>
   <tr>
-   <td>First Touch (FT)</td> 
-   <td>Web Visit</td> 
-   <td>The first marketing interaction that an individual has with your brand</td> 
+   <td>First Touch (FT)</td>
+   <td>Web Visit</td>
+   <td>The first marketing interaction that an individual has with your brand</td>
   </tr>
   <tr>
-   <td>Lead Creation (LC)</td> 
-   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td> 
-   <td>The first form fills an individual has (typically a form submission but could also be a Campaign/Program inclusion)</td> 
+   <td>Lead Creation (LC)</td>
+   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td>
+   <td>The first form fills an individual has (typically a form submission but could also be a Campaign/Program inclusion)</td>
   </tr>
   <tr>
-   <td>Post LC</td> 
-   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td> 
-   <td>Any form an individual completes after their LC (or a subsequent Campaign/Program inclusion)</td> 
+   <td>Post LC</td>
+   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td>
+   <td>Any form an individual completes after their LC (or a subsequent Campaign/Program inclusion)</td>
   </tr>
  </tbody>
 </table>
@@ -51,37 +52,37 @@ The following outlines the Buyer Touchpoint positions which describe where an in
 * [!DNL Marketo Measure] 101: Opportunities By ID
 * [!DNL Marketo Measure] 101: Opportunities By ID Channel
 
-<table> 
+<table>
  <tbody>
   <tr>
-   <th>Buyer Attribution Touchpoint (BATs) Position</th> 
-   <th>Touchpoint Type (action that can trigger touchpoint)</th> 
-   <th>Description of Touchpoint</th> 
+   <th>Buyer Attribution Touchpoint (BATs) Position</th>
+   <th>Touchpoint Type (action that can trigger touchpoint)</th>
+   <th>Description of Touchpoint</th>
   </tr>
   <tr>
-   <td>First Touch (FT)</td> 
-   <td>Web Visit</td> 
-   <td>The first marketing interaction that a contact had with your brand</td> 
+   <td>First Touch (FT)</td>
+   <td>Web Visit</td>
+   <td>The first marketing interaction that a contact had with your brand</td>
   </tr>
   <tr>
-   <td>Lead Creation (LC)</td> 
-   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td> 
-   <td>The first form fill a contact had (typically a form submission but could also be a Campaign/Program inclusion)</td> 
+   <td>Lead Creation (LC)</td>
+   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td>
+   <td>The first form fill a contact had (typically a form submission but could also be a Campaign/Program inclusion)</td>
   </tr>
   <tr>
-   <td>Opportunity Creation</td> 
-   <td>Form Fill <strong>OR</strong> Web Visit <strong>OR</strong> Campaign/Program Inclusion</td> 
-   <td>The marketing interaction closest to when the Opp is Created</td> 
-  </tr> 
-  <tr>
-   <td>Closed Won/Lost</td> 
-   <td>Form Fill <strong>OR</strong> Web Visit <strong>OR</strong> Campaign/Program Inclusion</td> 
-   <td>The marketing interaction closest to when the Opp is Closed (Won or Lost)</td> 
+   <td>Opportunity Creation</td>
+   <td>Form Fill <strong>OR</strong> Web Visit <strong>OR</strong> Campaign/Program Inclusion</td>
+   <td>The marketing interaction closest to when the Opp is Created</td>
   </tr>
   <tr>
-   <td>Middle Touches</td> 
-   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td> 
-   <td>When a contact fills out an online form and it doesn't coincide with milestone touchpoint</td> 
+   <td>Closed Won/Lost</td>
+   <td>Form Fill <strong>OR</strong> Web Visit <strong>OR</strong> Campaign/Program Inclusion</td>
+   <td>The marketing interaction closest to when the Opp is Closed (Won or Lost)</td>
+  </tr>
+  <tr>
+   <td>Middle Touches</td>
+   <td>Form Fill <strong>OR</strong> Campaign/Program Inclusion</td>
+   <td>When a contact fills out an online form and it doesn't coincide with milestone touchpoint</td>
   </tr>
  </tbody>
 </table>

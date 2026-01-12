@@ -1,16 +1,15 @@
 ---
-unique-page-id: 42762310
 description: Syncing Historical Data - [!DNL Marketo Measure]
 title: Syncing Historical Data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
 ---
+
 # Syncing Historical Data {#syncing-historical-data}
 
 [!DNL Marketo Measure] is a solution that provides the most granular, actionable data. We understand, however, that you might have existing data you'd like to have attribution for. It's possible to generate Touchpoints for historical data, but it's important to take a few factors into consideration before moving forward with this process.
 
 >[!NOTE]
->
 >This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Factors to Consider {#factors-to-consider}
@@ -45,12 +44,11 @@ This is a topic we strongly encourage discussing with your [!DNL Marketo Measure
 
 To sync historical online data, the data must be organized into Salesforce Campaigns that you would then sync to [!DNL Marketo Measure] via [!DNL Salesforce] Campaign Sync rules in the [!DNL Marketo Measure] app. It's important to make sure touchpoints are not generated from any of these campaigns after the date your JavaScript went live. The reason for this is to avoid duplicate touchpoint. After the JavaScript is live, online efforts are being automatically tracked, so we don't want to also track them via an SFDC campaign. To avoid this problem, be sure to add a sense of time to the rule. Maybe something like "Campaign Member Created Date is less than [JavaScript go-live date]".
 
-![](assets/syncing-historical-data-1.png)
+![Salesforce campaign sync rule example for historical data](assets/syncing-historical-data-1.png)
 
 The channel mapping component for historical online data can be a bit tricky. We want it to match your current online channel rules (from the online rule sheet) as closely as possible for clean reporting. Below is an example of ideal channel mapping.
 
 >[!NOTE]
->
 >This channel mapping is done in the [!UICONTROL Offline Channels] section of the [!DNL Marketo Measure] app since we are using SFDC campaigns.
 
 | Salesforce Campaign Type | Channel | Subchannel |
@@ -85,14 +83,13 @@ Historic digital data needs to be organized into [!DNL Dynamics] campaigns in or
 
 If the data is housed elsewhere (such as still living in Marketing Automation) it will need to be pushed into [!DNL Dynamics] and organized into the appropriate campaigns. Then you will need to account for the Touchpoint Date as you want it to reflect the date from the past, not the date you pushed it into [!DNL Dynamics]. To override this date, you can use the custom "Buyer Touchpoint Date" field to change the date. You will need to add this to the Marketing List Form.
 
-![](assets/syncing-historical-data-2.png)
+![Dynamics marketing list setup with Buyer Touchpoint Date field](assets/syncing-historical-data-2.png)
 
 As a result, you can mass set the date for everyone in that Marketing List that will be used for the Touchpoint Date. To have more accurate historical dates, create multiple Marketing Lists for the same campaign--each with its own Touchpoint Date. If the Campaign has a short time span, perhaps it would be worthwhile to create a Marketing List for each day. If the Campaign has a longer time span, it might make sense to create a Marketing List on a weekly basis.
 
 More information on Syncing Marketing Lists can be found here: [[!DNL Dynamics] Campaigns and Marketing Lists](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
 
 >[!NOTE]
->
 >If for any reason you have a campaign tracking online activity that is active past the JavaScript live date, be sure to set the "[!UICONTROL Touchpoint End Date]" field to the date the JS went live. This is to avoid having duplicate touchpoints for the same interaction.
 
 Considerations: Online data added in this way will inherently be less granular than online data [!DNL Marketo Measure] tracks via JavaScript. For example, fields such as: Form URL, Landing Page, Referrer Page, etc., will not be populated. Therefore, it is recommended to break out the campaigns into each source if possible. Below is an example of ideal mapping.

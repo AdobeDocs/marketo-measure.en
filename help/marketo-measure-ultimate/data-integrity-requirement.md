@@ -4,6 +4,7 @@ title: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 ---
+
 # [!DNL Marketo Measure] Ultimate Data Integrity Requirement {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure] validates the incoming AEP datasets to ensure that the data is sufficient and coherent for attribution. Failing to meet the data integrity requirement causes the dataset to be rejected by the [!DNL Marketo Measure] system. This article details the data integrity requirement, provides query examples for data inspection, and recommends a solution for required fields with a null value.
@@ -888,10 +889,9 @@ exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
 **Conversion Rates**: Each (source currency, target currency) pair can have multiple conversion rates for different date periods. The rates must cover the entire time span from 0001-01-01 to 9999-12-31, as per the Salesforce DatedConversionRate object.
 
 **Date Range**:
+
 * No overlapping date ranges within a (source currency, target currency) rate set (e.g., 2023-01-01 to 2023-02-01 and 2023-01-01 to 2024-01-01).
 * No gaps between date ranges. The start date is inclusive, and the end date is exclusive.
-
-<p>
 
 ## ExperienceEvent {#experienceevent}
 
@@ -1127,7 +1127,7 @@ For "Lead" person records, an Account foreign key does not exist and is not requ
 
 ### XDM Business Account {#xdm-business-account}
 
-```
+```sql
 select 'account source id', count(*) from salesforce_account where accountKey.sourceId is null
 union all
 select 'account source type', count(*) from salesforce_account where accountKey.sourceType is null
@@ -1145,7 +1145,7 @@ select 'last updated date', count(*) from salesforce_account where extSourceSyst
 
 ### XDM Business Campaign {#xdm-business-campaign}
 
-```
+```sql
 select 'campaign source id', count(*) from salesforce_campaign where campaignKey.sourceId is null
 union all
 select 'campaign source type', count(*) from salesforce_campaign where campaignKey.sourceType is null
@@ -1163,7 +1163,7 @@ select 'last updated date', count(*) from salesforce_campaign where extSourceSys
 
 ### XDM Business Campaign Member {#xdm-business-campaign-member}
 
-```
+```sql
 select 'campaign member source id', count(*) from salesforce_campaign_member where campaignMemberKey.sourceId is null
 union all
 select 'campaign member source type', count(*) from salesforce_campaign_member where campaignMemberKey.sourceType is null
@@ -1201,7 +1201,7 @@ select 'last updated date', count(*) from salesforce_campaign_member where extSo
 
 ### XDM Business Person {#xdm-business-person}
 
-```
+```sql
 select 'person source id', count(*) from marketo_person where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from marketo_person where b2b.personKey.sourceType is null
@@ -1223,7 +1223,7 @@ union all
 select 'last updated date', count(*) from marketo_person where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-```
+```sql
 select 'person source id', count(*) from salesforce_contact where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from salesforce_contact where b2b.personKey.sourceType is null
@@ -1255,7 +1255,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 
 ### XDM Business Opportunity {#xdm-business-opportunity}
 
-```
+```sql
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
 union all
 select 'opportunity source type', count(*) from salesforce_opportunity where opportunityKey.sourceType is null
@@ -1293,7 +1293,7 @@ select 'last updated date', count(*) from salesforce_opportunity where extSource
 
 ### XDM ExperienceEvent {#xdm-experienceevent}
 
-```
+```sql
 select 'id', count(*) from marketo_activity where _id is null
 union all
 select 'event type', count(*) from marketo_activity where eventType is null
@@ -1325,7 +1325,7 @@ union all
 select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
-```
+```sql
 select 'id', count(*) from salesforce_task where _id is null
 union all
 select 'event type', count(*) from salesforce_task where eventType is null
@@ -1343,7 +1343,7 @@ select 'person source key', count(*) from salesforce_task where personKey.source
 
 ### Conversion {#conversion}
 
-```
+```sql
 select 'conversion rate', count(*) from currency_conversion_rate where conversionRate is null
 union all
 select 'end date', count(*) from currency_conversion_rate where endDate is null
@@ -1371,8 +1371,8 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 
 We recommend using a calculated field in field mapping to default the field to a non-NULL value. The following are two examples:
 
-* If opportunityName of some opportunity records are null, create and use the following calculated field in field mapping
+* If `opportunityName` of some opportunity records are null, create and use the following calculated field in field mapping
    * `iif(name != null && trim(name) != "", name, "Unknown")`
 
-* If leadOperation.campaignProgression.campaignID of some experienceevent records are null, create and use the following calculated field in field mapping
+* If `leadOperation.campaignProgression.campaignID` of some experience event records are null, create and use the following calculated field in field mapping
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

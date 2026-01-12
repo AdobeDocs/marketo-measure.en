@@ -4,15 +4,15 @@ title: "[!DNL Marketo Measure] 101 Reports Overview"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
 ---
+
 # [!DNL Marketo Measure] 101 Reports Overview {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
->
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 All [!DNL Marketo Measure] customers using [!DNL Marketo Measure] and [!DNL Salesforce] have access to the 'Buyer Touchpoints Reports' folder within their SFDC instance. This folder contains a number of pre-built reports that can help you get started on reporting with Buyer Touchpoint data.
 
-![](assets/bizible-101-reports-overview-1.png)
+![Salesforce Buyer Touchpoints Reports folder in Marketo Measure 101](assets/bizible-101-reports-overview-1.png)
 
 While many of these reports have specific reporting goals already established, there are six "_[!DNL Marketo Measure] 101…_" represented by three key report types that cover a majority of reporting needs.
 
@@ -20,7 +20,7 @@ While many of these reports have specific reporting goals already established, t
 * [!DNL Marketo Measure] Persons with Buyer Touchpoints
 * Buyer Attribution Touchpoints with Opportunities
 
-![](assets/bizible-101-reports-overview-2.png)
+![Example Marketo Measure 101 report list in Salesforce](assets/bizible-101-reports-overview-2.png)
 
 These reports provide you with the basic fields and infrastructure needed for any [!DNL Marketo Measure] related report that you want to create. We encourage all customers, new and old, to begin with these reports when exploring marketing attribution questions. Below you will find an explanation of each of the six "_[!DNL Marketo Measure] 101…_" reports.
 
@@ -49,4 +49,4 @@ It's considered a best practice to treat the "_[!DNL Marketo Measure] 101…_" r
 
 The "Buyer Touchpoint Reports" folder is designed to help you get started on your [!DNL Marketo Measure] reporting, for actionable reports you will need to customize those reports so that they are tailored to your reporting needs. you will need to add necessary filters to ensure the records within the report (and their related touchpoints) are aligned with your reporting goal.
 
-When you are familiar with the "_[!DNL Marketo Measure] 101…_" reports, you may want to recreate them from custom report types for more custom reporting needs. Creating the [[!DNL Marketo Measure] Custom Report Types](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) will allow you to pull in custom fields that you might commonly use in other CRM reports. This will help you take you [!DNL Marketo Measure] reporting to the next level!
+When you are familiar with the "_[!DNL Marketo Measure] 101…_" reports, you may want to recreate them from custom report types for more custom reporting needs. Creating the [[!DNL Marketo Measure] Custom Report Types](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) will allow you to pull in custom fields that you might commonly use in other CRM reports. This will help you take you [!DNL Marketo Measure] reporting to the next level!

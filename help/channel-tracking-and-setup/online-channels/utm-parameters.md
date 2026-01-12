@@ -1,10 +1,10 @@
 ---
-unique-page-id: 18874606
 description: UTM Parameters - [!DNL Marketo Measure]
 title: UTM Parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
 ---
+
 # UTM Parameters {#utm-parameters}
 
 Tagging URLs is a simple and effective way to capture data about your digital marketing efforts. It is the process of adding parameters to the end of URLs that gather and record data. The most commonly used parameters are Urchin Tracking Modules (UTMs), which are supported by Google. There are five main UTMs parameters available: Medium, Source, Campaign, Content, and Term. These are discussed in more detail in the next section.
@@ -68,7 +68,7 @@ Each parameter gathers information relevant to the value assigned. The value of 
 
 Here's a chart of the UTM parameters [!DNL Marketo Measure] parses and the corresponding Touchpoint field they are tied to:
 
-| **UTM Parameter** | **Corresponding [!DNL Marketo Measure] Field** |
+| UTM Parameter | Corresponding [!DNL Marketo Measure] Field |
 |---|---|
 | utm_medium | Medium |
 | utm_source | Touchpoint Source |

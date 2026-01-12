@@ -1,10 +1,10 @@
 ---
-unique-page-id: 18874576
 description: "[!DNL Salesforce] Record Storage Sizes - [!DNL Marketo Measure]"
 title: "[!DNL Salesforce] Record Storage Sizes"
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce
 ---
+
 # [!DNL Salesforce] Record Storage Sizes {#salesforce-record-storage-sizes}
 
 [!DNL Marketo Measure] creates records in your [!DNL Salesforce] instance so it is helpful to understand the storage size of these records.

@@ -4,10 +4,10 @@ title: Best Practices for [!DNL Marketo Measure] CRM Package
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
 ---
+
 # Best Practices for [!DNL Marketo Measure] CRM Package {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. That is updated and the rebranding will be reflected in your CRM soon.
 
 ## Overview {#overview}
@@ -43,12 +43,10 @@ Other reasons to that might trigger a review...
 * Check that you have the most recent version of the Buyer Touchpoints Package installed in [!DNL Salesforce]
 
 >[!NOTE]
->
 >When you disable Marketo Measure exporting data to Salesforce, it will not delete any existing data. To remove it, follow the steps in [this Salesforce help article](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
->
->* [Update Buyer Touchpoint Package](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] Permission Sets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Sharing Reports and Dashboards Folder](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
->* [Connect Marketo Measure to Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [Update Buyer Touchpoint Package](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] Permission Sets](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Sharing Reports and Dashboards Folder](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Connect Marketo Measure to Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

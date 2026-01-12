@@ -1,10 +1,10 @@
 ---
-unique-page-id: 18874598
 description: Offline Custom Channel Setup - [!DNL Marketo Measure]
 title: Offline Custom Channel Setup
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
 ---
+
 # Offline Custom Channel Setup {#offline-custom-channel-setup}
 
 ## Getting Started {#getting-started}
@@ -13,7 +13,7 @@ Compared to how [!DNL Marketo Measure] handles online channel rules, you will no
 
 The spreadsheet has three columns:
 
-![](assets/1-2.png)
+![Spreadsheet template showing three columns for Salesforce Campaign Type, Channel, and Subchannel](assets/1-2.png)
 
 **[!UICONTROL Salesforce] Campaign Type** - add Campaign Types identified in [!DNL Salesforce] here
 
@@ -29,11 +29,11 @@ The spreadsheet has three columns:
 
 The SFDC campaign types will appear in the Offline Channel's tab, listed under [!DNL Salesforce] Campaign Type. Note that [!DNL Marketo Measure] is only able to import SFDC Campaign Types for campaigns that have Buyer touchpoints associated to them.
 
-![](assets/2-2.png)
+![Offline Channels tab showing Salesforce Campaign Type list](assets/2-2.png)
 
 This is where you can create the Channel/Subchannel mapping in the [!DNL Marketo Measure] app. This will likely involve creating new Channels and Subchannels in the [!DNL Marketo Measure] app, which is done in the Create Channels section of the app--shown in the image below. New Channels and Subchannels need to be created for [!DNL Marketo Measure] to understand where to push Touchpoints. You are able to decide how you would like campaign types to be mapped.
 
-![](assets/3-2.png)
+![Create Channels section showing interface for creating new Channels and Subchannels](assets/3-2.png)
 
 ## Channel Mapping Example {#channel-mapping-example}
 
@@ -43,11 +43,11 @@ Now you want to do the same for the June conference. You figure since this is a 
 
 Below is an example of logic that [!DNL Marketo Measure] would not be able to read:
 
-![](assets/4-2.png)
+![Incorrect channel mapping showing same Campaign Type mapped to different subchannels](assets/4-2.png)
 
 In the scenario above, you will want to create a unique Campaign Type because you can't map the same Campaign Type to two different subchannels. Instead, you would want to set up unique types like the following:
 
-![](assets/5-2.png)
+![Correct channel mapping showing unique Campaign Types for different subchannels](assets/5-2.png)
 
 Any existing campaign types must be included in your channel map and "NULL" should be added as the channel.
 
@@ -61,24 +61,20 @@ It's common for Marketing teams to create [!DNL Salesforce] campaigns to track v
 
 Another tip for handling campaigns for online activities is to map the [!DNL Salesforce] Campaign Type to NULL. To do this, first create a channel in the [!DNL Marketo Measure] app titled NULL as demonstrated in the image below. This is found in the [!DNL Marketo Measure] app under the **Create Channels** section. This will be helpful in case a campaign that should not be synced is synced accidentally. It is easy to find the campaign and correct the sync status by looking at everything bucketed under NULL.
 
-![](assets/6-2.png)
+![Create Channels section showing NULL channel creation for online campaigns](assets/6-2.png)
 
 ## Entering Your Offline Channel Rules to the App {#entering-your-offline-channel-rules-to-the-app}
 
 Once you've edited and updated the spreadsheet with your custom rules, the next step is to recreate this channel mapping in the [!DNL Marketo Measure] app--you won't actually upload a spreadsheet for offline channels. Rather, you will enter the information in the picklist boxes as displayed in the image below. This is found by clicking **[!UICONTROL Offline Channels]** under the **[!UICONTROL Channels]** section.
 
-![](assets/7-2.png)
+![Offline Channels interface with picklist boxes for entering channel mapping rules](assets/7-2.png)
 
 >[!TIP]
->
 >Want to determine _when_ a [!DNL Salesforce] Campaign Type gets pulled down into [!DNL Marketo Measure] channel mapping? Go to **[!UICONTROL Setup]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Fields]** > **[!UICONTROL Type]**. You can then see which values are in the picklist, and which are inactive. Inactive ones won't show up as a selectable type in our "[!UICONTROL Offline Channels]" section. Note, this process can take anywhere from a few minutes up to 48 hours.
 
 Click **[!UICONTROL Save]** when you are finished and [!DNL Marketo Measure] will upload the changes and reprocess the data.
 
 >[!MORELIKETHIS]
->
->* [[!DNL Marketo Measure] Tutorials: Mapping Offline Channels](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
->
->* [[!DNL Marketo Measure] Tutorials: Syncing Offline Campaigns](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
->
->* [Marketo Engage Programs Integration](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+> [[!DNL Marketo Measure] Tutorials: Mapping Offline Channels](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+> [[!DNL Marketo Measure] Tutorials: Syncing Offline Campaigns](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+> [Marketo Engage Programs Integration](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

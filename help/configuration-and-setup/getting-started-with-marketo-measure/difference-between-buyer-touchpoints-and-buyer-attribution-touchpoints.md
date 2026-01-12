@@ -1,10 +1,10 @@
 ---
-unique-page-id: 18874646
 description: Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints - [!DNL Marketo Measure]
 title: Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
 ---
+
 # Difference Between Buyer Touchpoints and Buyer Attribution Touchpoints {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
 Learn what defines a Buyer Touchpoint (BT) and Buyer Attribution Touchpoint (BAT), the differences between the two, and answer commonly asked questions.
@@ -15,31 +15,31 @@ While the Buyer Attribution Touchpoint Object are related to the Contact, Accoun
 
 Difference between BT and BAT:
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
-  <tr> 
-   <td>Buyer Touchpoint (BT)</td> 
-   <td>Buyer Attribution Touchpoint (BAT)</td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Relates to the Lead, Contact, and Case Objects</li> 
-     <li>Does not relate to the Opportunity Object</li> 
-     <li>Revenue is not associated to a Buyer Touchpoint</li> 
-    </ul></td> 
-   <td> 
-    <ul> 
-     <li>Relates to the Contact, Account, and Opportunity Objects</li> 
-     <li>Does not relate to the Lead Object</li> 
-     <li>Since a Buyer Attribution Touchpoint is associated to an Opportunity, all BATs have revenue associated to them</li> 
-    </ul></td> 
-  </tr> 
- </tbody> 
+<table>
+ <colgroup>
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <td>Buyer Touchpoint (BT)</td>
+   <td>Buyer Attribution Touchpoint (BAT)</td>
+  </tr>
+  <tr>
+   <td>
+    <ul>
+     <li>Relates to the Lead, Contact, and Case Objects</li>
+     <li>Does not relate to the Opportunity Object</li>
+     <li>Revenue is not associated to a Buyer Touchpoint</li>
+    </ul></td>
+   <td>
+    <ul>
+     <li>Relates to the Contact, Account, and Opportunity Objects</li>
+     <li>Does not relate to the Lead Object</li>
+     <li>Since a Buyer Attribution Touchpoint is associated to an Opportunity, all BATs have revenue associated to them</li>
+    </ul></td>
+  </tr>
+ </tbody>
 </table>
 
 ## FAQ {#faq}

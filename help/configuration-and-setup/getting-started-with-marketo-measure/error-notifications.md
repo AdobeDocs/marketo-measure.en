@@ -4,13 +4,14 @@ title: Error Notifications
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
 ---
+
 # Error Notifications {#error-notifications}
 
 Below is a list of errors that you may receive via in-app notification or email. If you receive any of these, follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 To see the full notification message in [!DNL Marketo Measure], click **View All** at the bottom of the Notifications tab.
 
-![](assets/error-notifications-1.png)
+![Notifications panel in Marketo Measure showing error list and View All link](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -183,7 +184,7 @@ Salesforce documentation on flow triggers <a href="https://admin.salesforce.com/
       <td>Marketo Measure is missing read permissions to a required field.</td>
       <td>Refer to the following help articles for guidance on the permissions Marketo Measure requires:
         <ul>
-          <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
+          <li><a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
           </li>
           <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce</a>
           </li>
@@ -202,7 +203,7 @@ Salesforce documentation on flow triggers <a href="https://admin.salesforce.com/
       <td>Marketo Measure is missing read permissions to a required object.</td>
       <td rowspan="2">Refer to the following help articles for guidance on the permissions Marketo Measure requires:
           <ul>
-            <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
+            <li><a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Dynamics</a>
             </li>
             <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce</a>
             </li>
@@ -281,9 +282,9 @@ Salesforce documentation on flow triggers <a href="https://admin.salesforce.com/
         <ul>
           <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md">Best Practices</a>
           </li>
-          <li><a href="/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md">Dynamics</a>
+          <li><a href="/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md">Dynamics</a>
           </li>
-          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md">Salesforce</a>
+          <li><a href="/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md">Salesforce</a>
           </li>
         </ul>
       </td>

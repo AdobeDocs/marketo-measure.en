@@ -4,6 +4,7 @@ title: Best Practices for Online Channels
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
 ---
+
 # Best Practices for Online Channels {#best-practices-for-online-channels}
 
 ## Overview {#overview}
@@ -48,8 +49,7 @@ Other items that might trigger your team to do Online Channel maintenance includ
 If your team has experienced any of the above recently [!DNL Marketo Measure] recommends that you review your online channels rules and make the appropriate changes.
 
 >[!MORELIKETHIS]
->
->* [Online Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [UTM Parameters](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [Marketing Channel and Subchannel](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
->* [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+> [Online Channel Setup](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [UTM Parameters](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+> [Marketing Channel and Subchannel](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+> [UTM Best Practices](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

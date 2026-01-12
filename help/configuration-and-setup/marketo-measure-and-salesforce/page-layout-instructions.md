@@ -1,14 +1,13 @@
 ---
-unique-page-id: 18874799
 description: Page Layout Instructions - [!DNL Marketo Measure]
 title: Page Layout Instructions
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
 ---
+
 # Page Layout Instructions {#page-layout-instructions}
 
 >[!NOTE]
->
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 To easily see [!DNL Marketo Measure] data, it's recommended to update Page Layouts for the [!UICONTROL Account], [!UICONTROL Contact], [!UICONTROL Lead], [!UICONTROL Opportunity], and [!UICONTROL Campaign] Objects. The instructions are broken out for each Object Page Layout below.
@@ -23,27 +22,26 @@ It is recommended that you add the [!DNL Marketo Measure] fields to your SFDC Ca
 
 1. Click **[!UICONTROL Page Layouts]**.
 
-   ![](assets/1-1.jpg)
+   ![Salesforce Setup showing Page Layouts option under Campaigns](assets/1-1.jpg)
 
 1. Click **[!UICONTROL Edit]** next to the page layout that you want to update.
 
-   ![](assets/2-1.jpg)
+   ![Campaign Page Layouts list with Edit button next to layout name](assets/2-1.jpg)
 
 1. Within the [!UICONTROL fields] option, select the **[!UICONTROL Enable Buyer Touchpoints]** field and drag it wherever you would like on the page. Next, add the **[!UICONTROL Touchpoint Start Date]** and **[!UICONTROL Touchpoint End Date]** fields.
 
-   ![](assets/3-2.png)
+   ![Page Layout Editor showing Enable Buyer Touchpoints field with Touchpoint Start and End Date fields](assets/3-2.png)
 
 1. Next, at the top of the page click the "[!UICONTROL Buttons]" option within the quick find menu.
 
 1. Drag the **[!UICONTROL Bulk Update Touchpoint Date]** button to your custom buttons section.
 
-   ![](assets/4-1.jpg)
+   ![Page Layout Editor with Bulk Update Touchpoint Date button in custom buttons section](assets/4-1.jpg)
 
 1. Click **[!UICONTROL Save]**.
 
    >[!NOTE]
-   >
-   >If you are using multiple Campaign record types, you must update the picklist values for the **[!UICONTROL Enable Buyer Touchpoints]** field. Refer to [this article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) for instructions.
+   >If you are using multiple Campaign record types, you must update the picklist values for the **[!UICONTROL Enable Buyer Touchpoints]** field. Refer to [this article](/help/channel-tracking-and-setup/offline-channels/configurations-record-types.md) for instructions.
 
 ## Leads {#leads}
 
@@ -58,32 +56,28 @@ It is recommended that you add the [!DNL Marketo Measure] fields to your SFDC Ca
 1. Create a section and name it "Buyer Touchpoints."
 
    >[!NOTE]
-   >
    >Select the "one column" format for each of these sections.
 
 1. Drag the **[!UICONTROL Marketo Measure Lead Related List]** VisualForce page into your page layout section.
 
-   ![](assets/5-1.png)
+   ![Lead Page Layout Editor with Marketo Measure Lead Related List VisualForce page](assets/5-1.png)
 
 1. Click the wrench within the [!DNL VisualForce] page and change the height to 100 and enable scrollbars.
 
 1. Back in the menu, select the [!UICONTROL Canvas Apps] section and create a section called "Marketo Measure Insights" beneath the Touchpoints [!DNL VisualForce] section you created.
 
    >[!NOTE]
-   >
    >Select the "one column" format for each of these sections.
 
 1. Drag the [!DNL Marketo Measure Insights] Canvas App into that newly created section. Click **Save**. Sometimes it's necessary to save the page layout first before dropping in the Canvas App because Salesforce doesn't instantly recognize it. So after creating the section, save the page layout and then re-edit to drag the canvas app within that section. This applies to every object.
 
    >[!NOTE]
-   >
    >For the [!DNL Marketo Measure Insights] Canvas App to function properly, [permissions must be configured properly](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
-   >
    >Most customers don't use the fields that end with (FT) or (LC) because they're legacy fields from before the [!DNL Marketo Measure] Touchpoint existed as an object.
 
-If you are using the [!DNL Marketo Measure] ABM feature, [click here for additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+If you are using the [!DNL Marketo Measure] ABM feature, [click here for additional page layout instructions](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contacts {#contacts}
 
@@ -106,11 +100,11 @@ If you are using the [!DNL Marketo Measure] ABM feature, [click here for additio
 
 1. Sort By: Touchpoint Date, Ascending.
 
-   ![](assets/6.jpg)
+   ![Buyer Touchpoints Related List configuration with columns and sort order settings](assets/6.jpg)
 
 1. Expand the Buttons option and deselect **[!UICONTROL New]**.
 
-   ![](assets/7.png)
+   ![Related List properties showing New button deselected in Buttons section](assets/7.png)
 
 1. Go back to the [!UICONTROL Related List] option in the menu and now add the **[!UICONTROL Buyer Attribution Touchpoint]** related list.
 
@@ -184,4 +178,4 @@ If you are using the [!DNL Marketo Measure] ABM feature, [click here for additio
 
 1. Click **[!UICONTROL Save]**.
 
-If you are using the [!DNL Marketo Measure] ABM feature, review the [additional page layout instructions](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+If you are using the [!DNL Marketo Measure] ABM feature, review the [additional page layout instructions](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md).

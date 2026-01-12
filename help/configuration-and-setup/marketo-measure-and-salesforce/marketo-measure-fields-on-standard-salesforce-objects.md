@@ -1,14 +1,13 @@
 ---
-unique-page-id: 18874574
 description: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 ---
+
 # [!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
->
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Learn about the various [!DNL Marketo Measure] fields that are added to [!DNL Salesforce] standard objects.

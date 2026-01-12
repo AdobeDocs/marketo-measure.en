@@ -1,9 +1,10 @@
 ---
-description: Data Warehouse Access - Direct Share - Product Documentation
+description: Data Warehouse Access - Direct Share
 title: Data Warehouse Access - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
 ---
+
 # Data Warehouse Access - Direct Share {#data-warehouse-access-direct-share}
 
 ## Requirements {#requirements}
@@ -22,14 +23,13 @@ For [!DNL Marketo Measure] to set up a direct share to the data warehouse you mu
 
 Open the **Settings** section in the Marketo Measure app and navigate to the **Data Warehouse** page. In the **Direct Share** section, enter your [Snowflake account id](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} in the box provided and click **Connect**.
 
-![](assets/data-warehouse-access-direct-share-1.png)
+![Marketo Measure Data Warehouse settings showing Snowflake Direct Share form](assets/data-warehouse-access-direct-share-1.png)
 
 ## Accessing the Share {#accessing-the-share}
 
 After the share is created for the account ID provided, you must complete the [setup steps](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} within your Snowflake instance to access the data.
 
 >[!NOTE]
->
 >You can choose any database name you want. You can assign the privileges to any role you choose, so long as it exists in your Snowflake instance.
 
 * Use the Account Admin role
