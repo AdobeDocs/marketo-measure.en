@@ -1,10 +1,10 @@
 ---
-description: Marketing Channel Costs
+description: "Marketing Channel Costs guidance for Marketo Measure users"
 title: Marketing Channel Costs
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
+hidefromtoc: yes
 ---
-
 # Marketing Channel Costs {#marketing-channel-costs}
 
 One of the most fundamental benefits of using [!DNL Marketo Measure] is the ability to connect marketing efforts directly to the impact on revenue--with as much granularity as desired. It is possible to see return on investment at the touchpoint level. To take advantage of this benefit, channel costs must be uploaded to the [!DNL Marketo Measure] app. ROI reports are automatically created and available in the **Marketing ROI Dashboard** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
@@ -71,13 +71,13 @@ Once marketing channels and rules have been set up or updated, the associated co
 
 Go to the **[!UICONTROL My Account]** menu, click **[!UICONTROL Settings]**, and then navigate to the **[!UICONTROL Marketing Spend]** option on the left sidebar under the **[!UICONTROL Reporting]** section.
 
-![Marketing Spend settings page in Marketo Measure](assets/1.png)
+![](assets/spend-management-4.png)
 
 **Step 2: Download the Current Costs CSV**
 
 Navigate to the right of the screen and click **[!UICONTROL Download Current Costs].** This option allows you to download a spreadsheet in CSV format.
 
-![Download Current Costs option on Marketing Spend page](assets/2.png)
+![](assets/spend-management-1.png)
 
 **Step 3: Open the CSV File and Make Changes**
 
@@ -89,7 +89,7 @@ Check the logic rules in your sheet. Each row should contain a channel and one o
 
 For example, to indicate Facebook as the subchannel and social as the channel, the rule should be written as follows: "Social.Facebook." Similarly, to track an offline event, the channel syntax should be: "Events.Big Conference." Examples are shown in the image below:
 
-![CSV example showing channel and subchannel cost entries](assets/3.png)  
+![](assets/spend-management-2.png)  
 
 _Additional Notes_:
 

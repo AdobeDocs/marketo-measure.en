@@ -1,19 +1,20 @@
 ---
-description: Data Warehouse Schema
+description: "Reference for the Marketo Measure data warehouse schema detailing tables and columns"
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 ---
-
 # Data Warehouse Schema {#data-warehouse-schema}
 
 Data Warehouse allows you to track as much as you want, report on your attribution data wherever you want, and plug it in to other data sets.
 
 >[!IMPORTANT]
-> Rows with a value for _DELETED_DATE will be retained for 7 days, then removed from Snowflake.
-> The time zones used in Snowflake adhere to Coordinated Universal Time (UTC).
+>
+>* Rows with a value for _DELETED_DATE will be retained for 7 days, then removed from Snowflake.
+>* The time zones used in Snowflake adhere to Coordinated Universal Time (UTC).
 
 >[!NOTE]
+>
 >[Click here](#sample-queries) to see sample queries at the bottom of this article.
 
 ## Entity Relationship Diagrams {#entity-relationship-diagrams}
@@ -24,17 +25,17 @@ The additional _Ads Dimensional Data Model_ ERD presents a view of how tables fo
 
 _Click an image for its full-size version_
 
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <th>Data Warehouse Data Model</th>
-   <th>Ads Dimensional Data Model</th>
+   <th>Data Warehouse Data Model</th> 
+   <th>Ads Dimensional Data Model</th> 
   </tr> 
   <tr> 
-   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
-  </tr>
- </tbody>
+   <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-thumb-1.png"></a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-thumb-1.png"></a></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 ## Views {#views}
@@ -72,7 +73,7 @@ Accounts imported from the source system.
     <tr>
       <td>NAME</td>
       <td>varchar</td>
-      <td>The Account Name from the source system.</td>
+      <td>The Account Name, from the source system.</td>
       <td>[!DNL Marketo Measure]</td>
     </tr>
     <tr>
@@ -3027,7 +3028,7 @@ Ad Groups imported from any connected Ad Account.
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Data generated from the Attribution AI integration. These fields are only populated for Marketo Measure Ultimate customers.
+Data generated from the Attribution AI integration. These fields are only populated for Marketo Measure Ultimate customers. 
 
 <table>
 <thead>
@@ -3060,7 +3061,7 @@ Data generated from the Attribution AI integration. These fields are only popula
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>original MM event id for the conversion event
+    <td>original MM event id for the conversion event 
     <br>maps to a user touchpoint or a stage transition</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
@@ -5783,7 +5784,8 @@ Mapping table for email addresses and visitor ids.
 Unions together Impressions, Page Views, Visits, Form Submits, User Touchpoints, Touchpoint (BT), Attribution Touchpoints (BAT), and Cost data. Used internally to support [!DNL Marketo Measure] reporting.
 
 >[!IMPORTANT]
->Marketo Measure will be deprecating this table in mid-2024. If you wish to create it on your side, run [this SQL query](/help/data-warehouse/assets/BIZ_FACTS.sql).
+>
+>Marketo Measure will be deprecating this table in mid-2024. If you wish to create it on your side, run [this SQL query](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -13352,7 +13354,7 @@ Mapping table to map [!DNL Marketo Measure] Session Id to Adobe ECID and Munckin
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
-
+ 
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13374,7 +13376,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
-
+ 
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13397,7 +13399,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**What is the entire journey for one person? (Show all Touchpoints for a single email address.)**
+**What is the entire journey for one person?  (Show all Touchpoints for a single email address.)**
 
 ```
 select ut.touchpoint_date
@@ -13441,9 +13443,10 @@ order by 1
 **Show all Buyer Attribution Touchpoints (BATs) and their Attributed Revenue for a single opportunity.**
 
 >[!NOTE]
+>
 >This query returns attributed revenue for the w shape model. Change the model by updating the field in the attributed revenue calculation.  
 
-```
+``` 
 select bat.id
       ,bat.touchpoint_date
       ,bat.email

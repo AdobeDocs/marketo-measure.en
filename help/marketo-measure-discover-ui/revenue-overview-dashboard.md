@@ -1,10 +1,10 @@
 ---
-description: Revenue Overview Dashboard - [!DNL Marketo Measure] - Product
+description: "Summarizes the Revenue Overview dashboard showing total and attributed revenue and deal counts over time"
 title: Revenue Overview Dashboard
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+hidefromtoc: yes
 ---
-
 # Revenue Overview Dashboard {#revenue-overview-dashboard}
 
 The Revenue Overview dashboard provides insights into the total revenue derived from your CRM, shedding light on your marketing strategies' role. It offers an overview of how marketing influences your overall revenue and contributes to the successful closure of deals.
@@ -35,7 +35,7 @@ This side-by-side time series bar chart contrasts Total Revenue with Attributed 
 * What % of our August 2022 revenue can be attributed to our marketing initiatives?
 * How does the attributed revenue in Q3 of last year stack up against Q4?
 
-![Revenue overview chart comparing total and attributed revenue over time](assets/revenue-overview-dashboard-1.png)
+![](assets/revenue-dashboard-1.png)
 
 ### Attribution Coverage Chart {#attribution-coverage-chart}
 
@@ -45,7 +45,7 @@ This pie chart distinctly visualizes your attribution coverage by segmenting tot
 
 * What was the % of revenue coverage attributed to our marketing efforts last year?
 
-![Attribution coverage pie chart splitting attributed vs non-attributed revenue](assets/revenue-overview-dashboard-2.png)
+![](assets/revenue-dashboard-2.png)
 
 ## Filter Pane {#filter-pane}
 
@@ -54,5 +54,6 @@ This dashboard is equipped with the following settings and filters:
 * Date (based on Closed Date)
 
 >[!MORELIKETHIS]
-> [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

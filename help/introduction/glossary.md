@@ -1,5 +1,5 @@
 ---
-description: Glossary of Marketo Measure Fields
+description: "Glossary of Marketo Measure Fields"
 title: Glossary of Marketo Measure Fields
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
@@ -299,7 +299,7 @@ This field shows you the general group of marketing activity or marketing channe
 
 This field shows you the marketing channel, and the subchannel that a touchpoint belongs to. In the example below, Marketing Channel - Path is Social.Linkedin, where the marketing channel is Social, and the subchannel is LinkedIn.
 
-![ 3](assets/1-3.png)
+![ 3](assets/overview-resources-16.png)
 
 **Medium** | Buyer Touchpoint, Buyer Attribution Touchpoint  
 

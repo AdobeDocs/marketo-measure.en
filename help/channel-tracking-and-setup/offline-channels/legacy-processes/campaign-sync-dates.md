@@ -1,15 +1,15 @@
 ---
-description: Campaign Sync Dates - [!DNL Marketo Measure]
+description: "Campaign Sync Dates guidance for Marketo Measure users"
 title: Campaign Sync Dates
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
 ---
-
 # Campaign Sync Dates {#campaign-sync-dates}
 
 Learn what the Campaign Sync Dates feature does, as well as offer some use cases for this feature.
 
 >[!NOTE]
+>
 >This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 **[!DNL Marketo Measure] Package Required: 6.9 or above**
@@ -21,7 +21,7 @@ This feature consists of two simple date fields on the [!DNL Salesforce] Campaig
 
 Once Buyer Touchpoints are enabled on a particular campaign, Campaign Sync Dates will allow you to set Touchpoint Date parameters on the individual Campaign. So, if you were to add a Touchpoint End Date of March 1st, 2017 then [!DNL Marketo Measure] will only create Touchpoints on Campaign Members that were added to the Campaign before that date. [!DNL Marketo Measure] will not create Touchpoints for campaign members that were added after March 1st, 2017.
 
-![Salesforce campaign showing Touchpoint Start Date and End Date fields](assets/1.gif)
+![](assets/legacy-processes-3.gif)
 
 Similarly, if you were to add a Touchpoint Start Date on a Campaign (let's say January 1st, 2017), then [!DNL Marketo Measure] will not create Touchpoints on Campaign Members that were added to the Campaign before January 1st, 2017. You don't need to add a Touchpoint Start Date if you add a Touchpoint End Date and vice-versa.
 

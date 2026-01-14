@@ -1,10 +1,9 @@
 ---
-description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Marketo Measure]
+description: "Understanding [!DNL Marketo Measure] AdWords Tagging guidance for Marketo Measure users"
 title: Understanding [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
 ---
-
 # Understanding [!DNL Marketo Measure] AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 
 In order to track your ads at a very granular level, the Ad Destination URLs must be unique. To accomplish this, [!DNL Marketo Measure] autotagging automatically adds tracking parameters to the Ad Destination URLs of your [!DNL AdWords] ads. Let's take a look at an example below.
@@ -55,11 +54,11 @@ There are two tracking templates [!DNL Marketo Measure] recommends using. Use th
 
 1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Settings]** in the expanding window.
 
-   ![Google AdWords navigation showing All campaigns menu with Settings option](assets/1.png)
+   ![](assets/utilizing-connections-13.png)
 
 1. Click **[!UICONTROL Account Settings]** at the top and then **[!UICONTROL Tracking Template]**. Enter the [!DNL Marketo Measure] Tracking Template.
 
-   ![Account Settings page with Tracking Template field for entering Marketo Measure parameters](assets/2-1.png)
+   ![](assets/bizible-guide-1.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -67,11 +66,11 @@ There are two tracking templates [!DNL Marketo Measure] recommends using. Use th
 
 1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Campaigns]** in the expanding window.
 
-   ![Google AdWords navigation showing All campaigns menu with Campaigns option](assets/3.png)
+   ![](assets/utilizing-connections-12.png)
 
 1. Select all applicable campaigns or **[!UICONTROL Select All]**, click **[!UICONTROL Edit]**, and then click **[!UICONTROL Change Tracking Templates]**.
 
-   ![Campaign selection page with Edit menu showing Change Tracking Templates option](assets/4-1.png)
+   ![](assets/five-five-1.png)
 
 1. Enter the [!DNL Marketo Measure] Tracking Template and click **[!UICONTROL Apply]**.
 
@@ -79,13 +78,13 @@ There are two tracking templates [!DNL Marketo Measure] recommends using. Use th
 
 1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Ad Groups]** in the expanding window.
 
-   ![Google AdWords navigation showing All campaigns menu with Ad Groups option](assets/5-1.png)
+   ![](assets/four-four-1.png)
 
 1. Select all applicable Ad Groups or Select All, click **[!UICONTROL Edit]** and then click **[!UICONTROL Change Tracking Templates]**.
 
 1. Enter the [!DNL Marketo Measure] Tracking Template and click **[!UICONTROL Apply]**.
 
-   ![Ad Group selection page with Edit menu showing Change Tracking Templates option and Apply button](assets/6-1.png)
+   ![](assets/one-one-1.png)
 
 ## FAQ {#faq}
 
@@ -106,6 +105,7 @@ A: 4 hours
 A: We cannot retrieve individual creative details for dynamic search ads, but if autotagging is enabled, we can still get the creative ID and attribute revenue.
 
 >[!NOTE]
+>
 >Once the changes are made, you are done. Feel free to reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} if there are any questions during setup.
 
 [Click here](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} for instructions from Google on creating Account-Level Tracking Templates.

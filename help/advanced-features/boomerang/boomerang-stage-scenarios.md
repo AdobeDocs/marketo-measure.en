@@ -1,13 +1,13 @@
 ---
-description: Boomerang Stage Scenarios - [!DNL Marketo Measure]
+description: "Boomerang Stage Scenarios guidance for Marketo Measure users"
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
 ---
-
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
 
 >[!AVAILABILITY]
+>
 >The Boomerang feature is only enabled for Tier 2 and 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
 
 Below are a few examples of Boomerang Stage scenarios to provide an understanding of how [!DNL Marketo Measure] creates touchpoints in each situation.
@@ -22,13 +22,13 @@ In this scenario, a customer has chosen to have their **MQL** and **SQL** stages
 
 Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch.
 
-![Lead journey diagram showing MQL and SQL boomerang touchpoints with chronological progression to Opportunity](assets/1-1.png)
+![](assets/boomerang-boomerang-18.png)
 
 **Scenario 2: Boomerang Touchpoints AND Custom Stages for a Lead**
 
 In this scenario, a customer has chosen only to track the **SQL stage** with boomerang touchpoints. MQL and SAL stages are still being tracked, but with the [!DNL Marketo Measure] Custom Stage feature.
 
-![Lead journey showing SQL boomerang touchpoints with MQL and SAL tracked as custom stages](assets/2-1.png)
+![](assets/boomerang-boomerang-19.png)
 
 Notice that the MQL touchpoint position is not labeled with a number. This is because it was not selected to be tracked with Boomerang touchpoints. When creating touchpoints for stages included in the custom model, but are not tracked with Boomerang, [!DNL Marketo Measure] takes the last occurrence from that stage.
 
@@ -42,7 +42,7 @@ Lead 1 is then converted in to a Contact with an Opportunity, which is considere
 
 This scenario uses the same criteria as scenario 2. A customer has chosen only to track the SQL stage with boomerang touchpoints. MQL and SAL still being tracked, but with the [!DNL Marketo Measure] Custom Stage feature.
 
-![Lead journey showing skipped SAL stage with SAL and OC positions combined in same touchpoint](assets/3.png)
+![](assets/boomerang-boomerang-20.png)
 
 In this scenario, the Lead never actually transitions to the SAL stage. It converts into a Contact before it reaches the SAL stage, essentially "skipping" the SAL stage. In this situation, [!DNL Marketo Measure] assumes that the SAL occurs with the OC touchpoint, and both the SAL and OC position will appear on the same touchpoint.
 
@@ -58,15 +58,15 @@ The top line (labeled Lead 1, in blue) represents the individual Leads' journey,
 
 In this scenario, a customer has chosen to track the **MQL** and **SAL stages** with boomerang touchpoints. The SQL stage is being tracked by the standard custom stages.
 
-![Three lead journey diagram showing MQL and SAL boomerang touchpoints translating to Opportunity](assets/4.png)
+![](assets/boomerang-boomerang-21.png)
 
 The FT and LC touchpoints on the Opportunity come from Lead 1 (blue), because they occurred before the FT and LC of Lead 2 (pink). The LC touchpoint for Lead 2 will appear as a 'Form' touchpoint on the Opportunity.
 
 The MQL-01 (Last) from Lead 2 will become the first MQL on the Opportunity. The MQL-01 from Lead 1 will not appear as a touchpoint on the Opportunity because Lead 2's MQL occurred first. However, Lead 1's MQL-02 and MQL-03 will appear on the Opportunity.
 
-The SQL stage is being tracked with custom stages, and not boomerang stages. Even though there are three occurrences of the SQL stage between Lead 1 and Lead 2, only the last SQL occurrence will be included as a touchpoint on the Opportunity.
+THe SQL stage is being tracked with custom stages, and not boomerang stages. Even though there are three occurrences of the SQL stage between Lead 1 and Lead 2, only the last SQL occurrence will be included as a touchpoint on the Opportunity.
 
-The SAL-01 (Last) touchpoint from Lead 1 is carried over as a touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch. Lead 2's SAL-01 (Last) touchpoint will not be created as a touchpoint because this stage transition occurred _after_ the OC touch.
+The SAL-01 (Last) touchpoint from Lead 1 is carried over as a touchpoint on the Opportunity. Lead 1 is then converted in to a Contact with an Opportunity, which is considered the OC touch. Lead 2's SAL-01 (Last) touchpoint will be created as a touchpoint because this stage transition occurred _after_ the OC touch.
 
 Lead 3's FT, LC and MQL, SQL, SAL touchpoints (orange) all occurred after the OC touchpoint on the Opportunity. These touchpoints are included in the Opportunity, but are considered "middle touches."
 
@@ -78,7 +78,7 @@ In this scenario, a customer has chosen to track the **MQL**, **SQL**, and **SAL
 
 All the touchpoints from Lead 1 are included on the opportunity, from FT to SAL-01 (Last). The LC touchpoint from Lead 2 will be included as a Form touchpoint in between the LC and MQL-01 touchpoints on the Opportunity.
 
-![Three lead journey showing MQL, SQL, and SAL boomerang touchpoints with position numbering on Opportunity](assets/5.png)
+![](assets/boomerang-boomerang-22.png)
 
 The MQL-01 (Last) from Lead 2 ends up being the MQL-04 (Last) touchpoint on the Opportunity. Because this scenario is looking at multiple Leads' journeys within one Opportunity, the positioning and numbering of the Leads' touchpoints can change when they are translated as touchpoints on the Opportunity. Similarly, the SQL-01 (Last) from Lead 2 becomes the SQL-04 (Last) on the Opp. Lead 2's SAL-01 (Last) also becomes the Opportunity's SAL-02 (Last).
 
@@ -92,7 +92,7 @@ Lead 3's MQL, SQL, and SAL touches all occur at the same time, after the OC touc
 
 In this scenario, a customer has chosen to track the **MQL**, **SQL**, and **SAL** stages with boomerang touchpoints. This scenario is almost identical to the one above, with a few exceptions.
 
-![Three lead journey showing web visit boomerang touchpoints excluded from Opportunity when occurring after SQL stage](assets/6.png)
+![](assets/boomerang-boomerang-23.png)
 
 All the touchpoints from Lead 1 will be included on the opportunity, from FT to SAL-01 (Last). The LC touchpoint from Lead 2 will be included as a Form touchpoint in between the LC and MQL-01 touchpoints on the Opportunity.
 
@@ -108,7 +108,7 @@ Lead 3's MQL, SQL, SAL touches are included as a touchpoint because this was a f
 
 In this scenario, a customer has chosen to track the **MQL**, **SQL**, and **SAL** stages with boomerang touchpoints.
 
-![Three lead journey showing boomerang attribution weighting with multiple stage transitions](assets/7.png)
+![](assets/boomerang-boomerang-25.png)
 
 The FT and LC touchpoints on the Opportunity come from Lead 1 (blue), because they occurred before the FT and LC of Lead 2 (pink). The LC touchpoint for Lead 2 appear as a 'Form' touchpoint on the Opportunity.
 
@@ -130,7 +130,7 @@ Lead 2's SQL-01 (Last) touchpoint will not be included as a touchpoint on the Op
 
 In this scenario, a customer has chosen to track the **Demo and Negotiation stage transitions** on the **Contact**. Each boomerang stage can receive up to two touchpoints. The difference between stage transitions on a Contact versus stage transitions on a Lead is that Contact stage transitions can appear as Boomerang touchpoints on the Opportunity _after_ the OC touchpoint. This is not true for stage transitions that occur on the Lead as these appear as a Form touchpoint.
 
-![Contact journey showing Demo and Negotiation boomerang touchpoints appearing after OC touchpoint on Opportunity](assets/8.png)
+![](assets/boomerang-boomerang-25.png)
 
 In this example, Contact 1's Demo and Negotiation Stage transitions are included as Demo-01 and Negotiation-01 touchpoints on the Opportunity. Contact 2's Demo stage transition occurs _after_ Contact 1's, and appears as the Demo-02 (Last) touchpoint on the Opportunity.
 

@@ -1,10 +1,9 @@
 ---
-description: Ensuring Consent for GDPR in Marketo Measure Js
+description: "Shows how to configure bizible.js to wait for user consent for GDPR before setting cookies or sending data"
 title: Ensuring Consent for GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
 ---
-
 # Ensuring Consent for GDPR in Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 The General Data Protection Regulation (GDPR) is a European Union legislation that went into effect on May 25, 2018.
@@ -25,12 +24,11 @@ Option 1 - Replace the default [!DNL bizible.js] script tag with:
 
 **If you use [!DNL Google Tag Manager] to install script**, keep in mind GTM removes data- attributes, so use the following script instead:
 
-```html
-<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>
-<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async></script>
-```
+`<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
+>
 >In this case, [!DNL bizible.js] attaches an on-click event to HTML element with id "ConsentButtonId".
 
 When this HTML element is clicked, [!DNL bizible.js] creates a cookie to remember that user's consent has been received and start collecting analytics data as usual.
@@ -49,12 +47,11 @@ This tells [!DNL bizible.js] to not track until consent is reached, which can be
 
 **If you use [!DNL Google Tag Manager] to install script**, keep in mind GTM removes data- attributes, so use the following script instead:
 
-```html
-<span id="bizible-settings" data-requires-user-consent="true"></span>
-<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async></script>
-```
+`<span id="bizible-settings" data-requires-user-consent="true"></span>`
+`<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
 
 >[!NOTE]
+>
 >bizible.js will create a cookie to remember that user's consent has been received and start collecting analytics data as usual only after the JS API is called.
 
 In contrast, customers can also use this API to withdraw user's consent:

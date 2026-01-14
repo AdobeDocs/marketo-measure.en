@@ -1,13 +1,14 @@
 ---
-description: "[!DNL Microsoft Dynamics] CRM Installation Guide"
+description: "Step by step guide to install and configure the Marketo Measure package in Microsoft Dynamics CRM"
 title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
+hidefromtoc: yes
 ---
-
 # [!DNL Microsoft Dynamics] CRM Installation Guide {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
+>
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "Bizible" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 ## Supported Versions {#supported-versions}
@@ -28,14 +29,15 @@ For connection and authentication, [!DNL Marketo Measure] supports the following
 
 **[!UICONTROL Settings]** > **[!UICONTROL Customizations]** > **[!UICONTROL Solutions]** > **[!UICONTROL Import]** (button) > **[!UICONTROL Choose File]**.
 
-![Dynamics CRM Solutions import screen with Import button](assets/1.png)
+![](assets/getting-dynamics-11.png)
 
 >[!NOTE]
+>
 >The following two screenshots may vary slightly from yours, as they were taken during a solution upgrade.
 
-![Solution import wizard showing package selection](assets/2.png)
+![](assets/getting-dynamics-9.png)
 
-![Solution import confirmation screen](assets/3.png)
+![](assets/getting-dynamics-10.png)
 
 ## Creating a [!DNL Marketo Measure] User {#creating-a-marketo-measure-user}
 
@@ -52,9 +54,10 @@ For [!DNL Marketo Measure] custom entities, we need full permissions across all 
 Campaign "Create" permissions are also required, in addition to the read/write permissions for standard entities.
 
 >[!NOTE]
+>
 >Users who close opportunities also need the full permission.
 
-![Dynamics Security Roles configuration screen showing permissions](assets/4.png)
+![](assets/bizible-taxonomy-1.png)
 
 For Dynamics standard entities, refer to the [!DNL Marketo Measure] Dynamics schema document. At a high level, [!DNL Marketo Measure] reads in certain entities to gather the appropriate data and write to custom fields that are installed with the managed solution. Standard records are not created, and standard fields are not updated.
 
@@ -66,20 +69,20 @@ For Dynamics standard entities, refer to the [!DNL Marketo Measure] Dynamics sch
 
    * To configure Campaigns, you must turn on the "Campaign Sync" option in **[!UICONTROL CRM]** > **[!UICONTROL Campaigns]**.
 
-   ![Campaign Sync toggle in Marketo Measure settings](assets/5.png)
+   ![](assets/creating-2e-1.png)
 
 1. Page Layouts: first add a "[!UICONTROL One Column]" tile in the section that you want the Touchpoints to live. Within that new column, we need a subgrid added to each form within your Account, Opportunity, Contact, and Lead entities.
 
-   ![Form editor showing One Column section layout](assets/6.png)
+   ![](assets/getting-dynamics-8.png)
 
-   ![Subgrid component being added to form layout](assets/7.png)
+   ![](assets/getting-dynamics-7.png)
 
 1. Select the object (Buyer Attribution Touchpoints or Buyer Touchpoints) that should render in the subgrid, which depends on the object relationship. Optionally, change the columns that display by clicking the Edit button. The default layout is set by the managed solution.
 
-   Buyer Attribution Touchpoint Subgrid - Accounts, Opportunities, and Contact
+   Buyer Attribution Touchpoint Subgrid - Accounts, Opportunities, and Contact  
    Buyer Touchpoint Subgrid - Leads and Contacts
 
-   ![Subgrid properties dialog showing object selection options](assets/8.png)
+   ![](assets/getting-dynamics-1.png)
 
 1. Once you are done updating the form, publish and save your changes.
 
@@ -101,25 +104,26 @@ After you've logged in to the [!DNL Marketo Measure] application and have been s
 
 1. In your [!DNL Marketo Measure] account, click the **[!UICONTROL My Account]** drop-down and select **[!UICONTROL Settings]**.
 
-   ![Marketo Measure My Account dropdown menu with Settings option highlighted](assets/microsoft-dynamics-crm-installation-guide-16.png)
+   ![](assets/getting-dynamics-10.png)
 
 1. Under [!UICONTROL Integrations] in the left nav, click **[!UICONTROL Connections]**.
 
-   ![Settings page with Connections option in left navigation](assets/microsoft-dynamics-crm-installation-guide-17.png)
+   ![](assets/getting-dynamics-11.png)
 
 1. Click the **[!UICONTROL Set Up New CRM Connection]** button.
 
-   ![Connections page with Set Up New CRM Connection button](assets/microsoft-dynamics-crm-installation-guide-18.png)
+   ![](assets/getting-dynamics-2.png)
 
 1. Next to [!UICONTROL Microsoft Dynamics CRM], click the **[!UICONTROL Connect]** button.
 
-   ![CRM connection options showing Microsoft Dynamics CRM with Connect button](assets/microsoft-dynamics-crm-installation-guide-19.png)
+   ![](assets/getting-dynamics-3.png)
 
 1. Select [!UICONTROL Credentials] or [!UICONTROL OAuth].
 
-   ![Microsoft Dynamics CRM authentication method selection screen](assets/microsoft-dynamics-crm-installation-guide-20.png)
+   ![](assets/microsoft-guide-8.png)
 
    >[!NOTE]
+   >
    >For more information on OAuth, visit [this article](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). If you have any questions about the process, contact your [!DNL Marketo Measure] Account representative.
 
 1. In this example, we've chosen Credentials. Enter your credentials and click **[!UICONTROL Next]**.
@@ -134,11 +138,11 @@ To connect your Ad Accounts with [!DNL Marketo Measure], start by visiting the [
 
 1. Click the **[!UICONTROL Set up New CRM Connection]** button.
 
-   ![Connections page showing Set up New CRM Connection button](assets/microsoft-dynamics-crm-installation-guide-21.png)
+   ![](assets/microsoft-guide-9.png)
 
 1. Select your desired platform.
 
-   ![Ad account platform selection screen with various advertising platform options](assets/microsoft-dynamics-crm-installation-guide-22.png)
+   ![](assets/getting-dynamics-4.png)
 
 **[!DNL Marketo Measure] Javascript**
 
@@ -146,23 +150,28 @@ For [!DNL Marketo Measure] to track your web activities, there are multiple step
 
 1. Click the **[!UICONTROL My Account]** drop-down and select **[!UICONTROL Account Configuration]**.
 
-   ![My Account dropdown with Account Configuration option](assets/microsoft-dynamics-crm-installation-guide-23.png)
+   ![](assets/getting-dynamics-5.png)
 
 1. Enter your phone number. For Website, enter your primary root domain that is used for [!DNL Marketo Measure] tracking on your website. Click **[!UICONTROL Save]** when done.
 
-   ![Account Configuration page with phone number and website fields](assets/microsoft-dynamics-crm-installation-guide-24.png)
+   ![](assets/getting-dynamics-6.png)
 
    >[!NOTE]
+   >
    >To add multiple root domains, contact your [!DNL Marketo Measure] Account Representative.
 
 1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/adding-marketo-measure-script.md) then must be placed across the entire site and landing pages. We recommend hardcoding the script within the head of your landing pages or adding through a Tag Management System such as [Google Tag Manager](/help/marketo-measure-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
    >[!NOTE]
+   >
    >By default, [!DNL Marketo Measure] exports 200 records per API credit each time a job sends data to your CRM. For most customers, this provides the optimal balance between API credits consumed by [!DNL Marketo Measure] and CPU resource requirements on the CRM. However, for customers with complex CRM configurations, such as workflows and triggers, a smaller batch size might be helpful to improve CRM performance. To this end, [!DNL Marketo Measure] allows customers to configure the CRM export batch size. This setting is available on the Settings > CRM > General page in the [!DNL Marketo Measure] web application and customers can choose between batch sizes of 200 (default), 100, 50, or 25.
+   >
    >When modifying this setting, keep in mind that smaller batch sizes consume more API credits from your CRM. It's advisable to reduce the batch size only if you are experiencing CPU timeout or high CPU load in your CRM.
 
    >[!NOTE]
+   >
    >When you disable Marketo Measure exporting data to Dynamics, it does not remove any existing data. For help with removing existing data, contact Dynamics Support.
 
    >[!MORELIKETHIS]
+   >
    >[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

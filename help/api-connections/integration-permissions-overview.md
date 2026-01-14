@@ -1,5 +1,5 @@
 ---
-description: Integration Permissions Overview - [!DNL Marketo Measure]
+description: "Integration Permissions Overview guidance for Marketo Measure users"
 title: Integration Permissions Overview
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
@@ -214,7 +214,7 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
   <tr>
     <td>Adobe Analytics</td>
     <td>B2B System Data</td>
-    <td>The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from the Marketo Measure attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Learn more</a>.</td>
+    <td>The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from the Marketo Measure attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). <a href="/help/marketo-measure-and-adobe/adobe-analytics.md">Learn more</a>.</td>
     <td>The customer must provide Marketo Measure with an Alias ID and FTP server credentials to a location that data will be uploaded to their Analytics instance.
     <p>
     Take note of the following information, as you will need it for some of the later steps in the process:
@@ -222,7 +222,7 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
     <li>The Alias ID, which can be any value you want it to be. We recommend "marketomeasure_id"</li>
     <li>The FTP server hostname and credentials (user name and password)</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">Learn more</a></td>
+    <a href="/help/marketo-measure-and-adobe/adobe-analytics.md#configuring-the-integration">Learn more</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>

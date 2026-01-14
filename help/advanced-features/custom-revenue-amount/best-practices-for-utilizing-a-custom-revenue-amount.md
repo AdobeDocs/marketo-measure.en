@@ -1,10 +1,9 @@
 ---
-description: Best Practices for Utilizing a Custom Revenue Amount - [!DNL Marketo Measure]
+description: "Best Practices for Utilizing a Custom Revenue Amount guidance for Marketo Measure users"
 title: Best Practices for Utilizing a Custom Revenue Amount
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
 ---
-
 # Best Practices for Utilizing a Custom Revenue Amount {#best-practices-for-utilizing-a-custom-revenue-amount}
 
 ## Overview {#overview}
@@ -44,7 +43,8 @@ Aside from a yearly review, certain organizational changes may signal the need t
 * Organization changes in how revenue is reported
 
 >[!MORELIKETHIS]
-> [Using a Custom Revenue Amount Field](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
-> [Using Data Loader to Update Custom Amount Field](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
-> [Overview of Multi-Currency](/help/advanced-features/multi-currency/overview.md)
-> [Multi-Currency Settings](/help/advanced-features/multi-currency/settings.md)
+>
+>* [Using a Custom Revenue Amount Field](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Using Data Loader to Update Custom Amount Field](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Overview of Multi-Currency](/help/advanced-features/multi-currency/overview.md)
+>* [Multi-Currency Settings](/help/advanced-features/multi-currency/settings.md)

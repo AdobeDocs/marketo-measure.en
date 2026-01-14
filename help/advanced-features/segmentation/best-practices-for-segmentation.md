@@ -1,10 +1,9 @@
 ---
-description: Best Practices for Segmentation - [!DNL Marketo Measure]
+description: "Best Practices for Segmentation guidance for Marketo Measure users"
 title: Best Practices for Segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
 ---
-
 # Best Practices for Segmentation {#best-practices-for-segmentation}
 
 ## Overview {#overview}
@@ -25,7 +24,7 @@ Whether you are defining segmentation for the first time or just reviewing the s
 * Align your segment name to the nomenclature of your organization, i.e., the category = filter name, segment = filter value
 * Don't use formula fields in your rules
 * Whenever possible, build the segmentation on both the Lead/Contact and Opportunity so that you can use it across the entire funnel
-  * If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+  * If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more here](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
     * b2b.personStatus
     * b2b.isConverted
   * Not every Segment category will align throughout the entire funnel
@@ -43,4 +42,5 @@ Other reasons to that might trigger a review your Segmentation include...
 * Additions or changes to the Segments that have already been established
 
 >[!MORELIKETHIS]
+>
 >[How to Set Up Custom Segmentation](/help/advanced-features/segmentation/custom-segmentation.md)

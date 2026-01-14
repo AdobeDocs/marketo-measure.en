@@ -1,10 +1,9 @@
 ---
-description: Using Data Loader to Update [!DNL Marketo Measure] Custom Amount Field - [!DNL Marketo Measure]
+description: "Using Data Loader to Update Marketo Measure Custom Amount Field guidance for Marketo Measure users"
 title: Using Data Loader to Update Marketo Measure Custom Amount Field
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
 ---
-
 # Using Data Loader to Update [!DNL Marketo Measure] Custom Amount Field {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure] recommends using Data Loader as a convenient option to update opportunity values when using a custom revenue field (we use the Amount field out of the box) in [!DNL Marketo Measure]. Data Loader is preferred over using the [!DNL Marketo Measure] update script as the script requires users to disable all Salesforce validation rules while the [!DNL Marketo Measure] script runs.

@@ -4,7 +4,6 @@ title: "[!DNL Marketo Measure] Report Template - Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
 ---
-
 # [!DNL Marketo Measure] Report Template - Tableau {#marketo-measure-report-template-tableau}
 
 ## Getting Started {#getting-started}
@@ -15,17 +14,17 @@ Open the [!DNL Adobe Marketo Measure] Reporting Template Tableau Workbook file.
 
 You need to update the existing connection data to your specific Snowflake connection information. Click the [!UICONTROL Edit Connection] button and follow the steps outlined in the [[!UICONTROL Data Connection]](#data-connection) section of this documentation.
 
-![Tableau workbook showing Edit Connection button](assets/marketo-measure-report-template-tableau-1.png)
+![](assets/marketo-tableau-7.png)
 
 ## Data Connection {#data-connection}
 
-You need to set up a data connection to your Snowflake instance. For this, you need the Server name along with your Username and Password. Details on where to find this information and reset your password, if needed, are documented [here](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+You need to set up a data connection to your Snowflake instance. For this, you need the Server name along with your Username and Password. Details on where to find this information and reset your password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
-![Snowflake connection dialog with server and authentication fields](assets/marketo-measure-report-template-tableau-2.png)
+![](assets/marketo-tableau-5.png)
 
 You will also need to enter an initial SQL command. This supports the use of custom queries in this data model. The command to enter is "Use Schema `<your schema name>`". You can locate your schema name in the [!UICONTROL data warehouse connections] page, see documentation referenced above.
 
-![Initial SQL command field for schema specification](assets/marketo-measure-report-template-tableau-3.png)
+![](assets/marketo-tableau-6.png)
 
 ### Custom SQL Queries {#custom-sql-queries}
 
@@ -33,11 +32,11 @@ Because [!DNL Tableau] applies data source filters to the overall query and not 
 
 **Filters Added to Data Source**
 
-```
+```sql
 --A deleted session removes this row completely and the touchpoint data is lost. Select *
    From Touchpoint    tp
       join Session sn
-      on tp.session_id = sn.session_id
+      on tp.session_id = sn.session_id 
  Where tp._deleted_date is null
     and sn._deleted_date is null
 ```
@@ -46,11 +45,11 @@ However, this is incorrect in that if a session was deleted, but the correspondi
 
 **Filters Applied via Custom SQL**
 
-```
+```sql
 --A deleted session only removes the session related data, and the touchpoint data is preserved. Select *
    From Touchpoint       tp
       join Session sn
-      on tp.session_id          = sn.session_id
+      on tp.session_id          = sn.session_id 
       and sn._deleted_date      is null
   Where tp._deleted_date is null
 ```
@@ -59,15 +58,16 @@ However, this is incorrect in that if a session was deleted, but the correspondi
 
 A few transformations have been applied to the data in [!DNL Tableau] from its original state in Snowflake. Most of these transformations are applied in the custom SQL queries which generate the tables in the [!DNL Tableau] model. To view the custom SQL used to generate a table, right-click the table name and select "Edit Custom SQL Query". Some of the specific transformations are outlined below.
 
-![Context menu showing Edit Custom SQL Query option](assets/marketo-measure-report-template-tableau-4.png)
+![](assets/marketo-tableau-1.png)
 
-![Custom SQL Query editor dialog in Tableau](assets/marketo-measure-report-template-tableau-5.png)
+![](assets/marketo-tableau-2.png)
 
 ### Removed Columns {#removed-columns}
 
 To simplify the data model and remove redundant and unnecessary data, we've reduced the number of columns imported into Tableau from the original Snowflake table. Columns removed include unnecessary foreign keys, denormalized dimensional data better used via relationships to other tables in the model, audit columns, and fields used for internal [!DNL Marketo Measure] processing. You may add or remove columns as required for your business needs by editing the list of imported columns in the Select section of the custom SQL.
 
 >[!NOTE]
+>
 >Most tables in the data warehouse contain denormalized dimensional data. We've worked to normalize and clean up the model in [!DNL Tableau] as much as possible to improve performance and data accuracy. Exercise caution when including any additional denormalized fields in facts tables, this may break dimensional filtering across tables and could also result in inaccurate reporting.
 
 ### Renamed Columns {#renamed-columns}
@@ -78,11 +78,11 @@ Tables and columns have been renamed to make them more user-friendly and to stan
 
 To add currency conversion capabilities to the calculations in the model, we've added a corporate conversion rate and a target conversion rate column to both the Opportunity and Cost tables. The value in these columns is added at the row level and is evaluated by joining to the Conversion Rate table on both date and currency id. Since Tableau does not allow for facts tables to share more than one dimension table, the conversion rates were added directly to the tables which use it. For more details on how currency conversion works in this model, see the [Currency Conversion](#currency-conversion) section in this documentation.
 
-![Opportunity table with conversion rate columns](assets/marketo-measure-report-template-tableau-6.png)
+![](assets/marketo-tableau-4.png)
 
 There are a few places where two tables from [!DNL Snowflake] have been combined with a union to create one table in the [!DNL Tableau] data model. In these instances, a "Type" column has been added to indicate which [!DNL Snowflake] table it comes from and designate which entity the row represents. For more details on the tables which have been combined, see the Relationship and Data Flow section in this documentation.
 
-![Combined table showing Type column for entity identification](assets/marketo-measure-report-template-tableau-7.png)
+![](assets/marketo-tableau-3.png)
 
 ### Segment Names {#segment-names}
 
@@ -90,21 +90,21 @@ Since segment names are customizable, they have generic column names in the Snow
 
 The [!UICONTROL CATEGORY] column lists the category number and the SEGMENT_NAME column has the customized segment name it maps to.
 
-![Segment Names mapping table showing category and custom names](assets/marketo-measure-report-template-tableau-8.png)
+![](assets/marketo-tableau-13.png)
 
 Names can be updated in two ways. The first option is to update the custom SQL. In this example Categories 1-6 have been renamed based on the mapping from the Segment Names table.
 
-![Custom SQL with renamed segment categories](assets/marketo-measure-report-template-tableau-9.png)
+![](assets/marketo-tableau-14.png)
 
 The other option is to rename the columns directly in the [!DNL Tableau] table.
 
-![Tableau table with segment columns being renamed](assets/marketo-measure-report-template-tableau-10.png)
+![](assets/marketo-tableau-9.png)
 
 ## Data Model {#data-model}
 
 Click the image below for its full-size version.
 
-[![Tableau data model diagram showing table relationships](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
+[![](assets/marketo-tableau-8.png)](/help/bi-report-templates/assets/tableau-model-1.png){target="_blank"}
 
 ### Relationships and Data Flow {#relationships-and-data-flow}
 
@@ -116,11 +116,12 @@ Opportunity Stage Transitions and Lead Stage Transitions are combined into one t
 
 Both Cost and Touchpoint data share Channel and Campaign dimensions. However, Tableau is limited in its ability to model shared dimensions between facts tables. Since we are limited to only one shared dimension table, Channel and Campaign data have been combined into one table. They are combined using a cross join of the two dimensions into one table in Tableau: Channel and Campaign. The unique id is created by concatenating the channel and campaign ids. This same id value is added to both the Touchpoint and Cost tables to create a relationship to this combined dimension table.
 
-![Combined Channel and Campaign dimension table](assets/marketo-measure-report-template-tableau-12.png)
+![](assets/marketo-tableau-10.png)
 
 In this model, Campaign and Channel dimensions are linked to the Touchpoint, so all reporting on these dimensions is through this link and means that dimensional reporting on event data may be incomplete. This is because many events do not have links to these dimensions until after they are processed into Touchpoints.
 
 >[!NOTE]
+>
 >Some events, such as Sessions, do have direct links to the Campaign and Channel dimensions. If reporting at the Session level on these dimensions is desired, it's recommended that a separate data model is created for this purpose.
 
 Cost data is stored at differing aggregation levels within the Snowflake data warehouse Cost table. For all ad providers, Campaign level data can be rolled up to the Channel level. For this reason, this model pulls cost data based on the "campaign_is_aggregatable_cost" flag. Self-reported costs can be submitted at the Channel level only and aren't required to have Campaign data. To provide the most accurate cost reporting possible, self-reported costs are pulled based on the "channel_is_aggregatable_cost" flag. The query which imports cost data is written with the following logic: If ad_provider = "SelfReported" then channel_is_aggregatable_cost = true, else campaign_is_aggregatable_cost = true.
@@ -134,19 +135,19 @@ The rates in the Conversion Rate table represent the value needed to convert an 
 * Convert the original value to the corporate currency value / corporate conversion rate = value in corporate currency
 * Convert the value from corporate to selected currency value in corporate currency `*` conversion rate of selected currency = value in selected currency
 
-![Currency conversion calculation fields in Tableau](assets/marketo-measure-report-template-tableau-13.png)
+![](assets/marketo-tableau-11.png)
 
 The currency conversion measures in this model substitute a value of 1.0 for the rate if no conversion rate can be identified. Separate measures have been created to display the currency value for the measure, and alert if a calculation includes more than one currency value (that is, a value could not be converted to the selected currency). These measures, Cost Currency and Revenue Currency, are included as tooltips in any visual which displays Cost or Revenue data.
 
-![Tooltip showing currency conversion measures](assets/marketo-measure-report-template-tableau-14.png)
+![](assets/marketo-tableau-12.png)
 
 ## Data Definitions {#data-definitions}
 
 Definitions have been added to the [!DNL Tableau model] for parameters, custom columns, and measures.
 
-![Field definitions in Tableau model showing descriptions](assets/marketo-measure-report-template-tableau-15.png)
+![](assets/marketo-tableau-15.png)
 
-To view definitions for columns coming directly from [!DNL Snowflake], see the [data warehouse documentation](/help/data-warehouse/data-warehouse-schema.md){target="_blank"}.
+To view definitions for columns coming directly from [!DNL Snowflake], see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Discrepancies Between Templates and Discover {#discrepancies-between-templates-and-discover}
 
@@ -155,6 +156,7 @@ To view definitions for columns coming directly from [!DNL Snowflake], see the [
 Lead Touchpoints and Attribution Touchpoints inherit dimensional data from the original Touchpoint. The reporting template model sources all inherited dimensional data from the relationship to Touchpoint, while in the Discover model, dimensional data is denormalized to the Lead and Attribution Touchpoint records. The overall attributed revenue or attributed pipeline revenue values should line up between the two reports. However, discrepancies may be observed when revenue is broken down or filtered by dimensional data (channel, subchannel, or campaign). If dimensional revenue amounts don't match between the template and Discover, it is likely there are missing touchpoint records in the template report data set. This happens when there is a Lead or Attribution Touchpoint record, but no corresponding record in the Touchpoint table within the data set imported into the report. Because these tables are filtered by modified date, it's possible the Lead/Attribution Touchpoint record was modified more recently than the Touchpoint record, and thus the Lead/Attribution Touchpoint has been imported into the data set while the original Touchpoint record was not. To fix this issue, widen the filtered date range for the Touchpoint table, or consider removing the date constraint it all together.
 
 >[!NOTE]
+>
 >Touchpoint is a large table, so consider the trade-offs of a more complete data set vs. the amount of data which must be imported.
 
 ### Cost {#cost}

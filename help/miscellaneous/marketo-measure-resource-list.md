@@ -1,10 +1,9 @@
 ---
-description: "[!DNL Marketo Measure] Resource List"
+description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Resource List"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
 ---
-
 # [!DNL Marketo Measure] Resource List {#marketo-measure-resource-list}
 
 Here are various links to pertinent articles/videos to help you get up and running with [!DNL Marketo Measure]!
@@ -13,8 +12,8 @@ Here are various links to pertinent articles/videos to help you get up and runni
 
 **General Knowledge**
 
-* [What is Marketing Attribution?](/help/marketing-attribution.md)
-* [[!DNL Marketo Measure] Attribution Models](/help/attribution-models.md)
+* [What is Marketing Attribution?](/help/introduction/marketing-attribution.md)
+* [[!DNL Marketo Measure] Attribution Models](/help/introduction/attribution-models.md)
 
 **Configuration**
 
@@ -32,11 +31,11 @@ Here are various links to pertinent articles/videos to help you get up and runni
 **Reporting**
 
 * [Creating Custom Report Types with [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) (if you must report on custom Lead/Contact/Opportunity fields)
-* [Glossary of [!DNL Marketo Measure] fields](/help/glossary.md)
+* [Glossary of [!DNL Marketo Measure] fields](/help/introduction/glossary.md)
 
 **Troubleshooting**
 
-* [Granting [!DNL Marketo Measure] Support Access to SFDC](/help/miscellaneous/granting-salesforce-access-to-marketo-measure-support.md)
+* [Granting [!DNL Marketo Measure] Support Access to SFDC](/help/miscellaneous/salesforce-access.md)
 * Contact: [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## Videos {#videos}

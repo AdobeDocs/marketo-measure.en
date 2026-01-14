@@ -1,10 +1,9 @@
 ---
-description: Best Practices for Stage Mapping - [!DNL Marketo Measure]
+description: "Best Practices for Stage Mapping guidance for Marketo Measure users"
 title: Best Practices for Stage Mapping
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
 ---
-
 # Best Practices for Stage Mapping {#best-practices-for-stage-mapping}
 
 ## Overview {#overview}
@@ -26,13 +25,13 @@ Whether you are evaluating your Stage Mapping for the first time or just reviewi
    * A Boolean field is the best practice recommendation
 * Note that the Lead or Contact stage section is divided into Lost, Open, and Converted; validate that the stages are in their appropriate stage section
    * Having a stage in the incorrect stage section can result in highly incorrect [!DNL Marketo Measure] data
-   * If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
       * b2b.personStatus
       * b2b.isConverted
 * Note that the Opportunity stage section is divided into Lost, Open, and Won; validate that the stages are in their appropriate stage section
    * Having a stage in the incorrect stage section can result in highly incorrect [!DNL Marketo Measure] revenue or pipeline revenue data
 * Avoid using duplicate stage names (our system will detect them and automatically remove one).
-* To set a rule that checks for NULL values, leave the value text box blank.
+* To set a rule that checks for NULL values, leave the value text box blank. 
 
 ## Best Practices for Maintenance {#best-practices-for-maintenance}
 
@@ -46,4 +45,5 @@ Other reasons that might trigger a review of your Stage Mapping include...
 * Seeing incorrect Revenue data in your [!DNL Marketo Measure] reporting
 
 >[!MORELIKETHIS]
+>
 >[The Difference Between Funnel Stages and Custom Model Stages](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md#the-difference-between-funnel-stages-and-custom-model-stages)

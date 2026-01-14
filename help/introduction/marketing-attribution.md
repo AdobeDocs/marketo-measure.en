@@ -1,8 +1,9 @@
 ---
-description: Marketing Attribution
+description: "Marketing Attribution"
 title: Marketing Attribution
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
+hidefromtoc: yes
 ---
 
 # Marketing Attribution {#marketing-attribution}
@@ -17,7 +18,7 @@ Marketo Measure gives marketers insight into which marketing efforts are the mos
 
 **Touchpoints** refer to the interactions a prospect/lead has with your online or offline marketing efforts. There are four **major touchpoints** that are considered in marketing attribution. They reflect the different stages in the customer's journey. These major touchpoints, also referred to as **milestone touchpoints**, are: First Touch (FT), Lead Creation (LC), Opportunity Creation (OC), Closed Won deal (CW).
 
-![Diagram of milestone touchpoints from first touch through closed won](assets/1.png)
+![Diagram of milestone touchpoints from first touch through closed won](assets/overview-resources-8.png)
 
 These milestone touches are the foundation of Marketo Measure's **attribution models**. Marketo Measure offers six attribution models. Each model focuses on different stages in the customer journey and offers a general structure for attributing revenue credit to your marketing touchpoints. The model that you use depends on which stages of the journey you are most interested in measuring and how much data you want to report on. The attribution models that Marketo Measure offers are:
 
@@ -29,7 +30,7 @@ These milestone touches are the foundation of Marketo Measure's **attribution mo
 * Custom Model
 
 >[!NOTE]
->[Learn more about each attribution model](/help/attribution-models.md).
+>[Learn more about each attribution model](/help/introduction/attribution-models.md).
 
 ## Why Attribution is Important {#why-attribution-is-important}
 

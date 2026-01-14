@@ -1,10 +1,9 @@
 ---
-description: Report Marketing Spend
+description: "Report Marketing Spend guidance for Marketo Measure users"
 title: Report Marketing Spend
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
 ---
-
 # Report Marketing Spend {#report-marketing-spend}
 
 ## Marketing Spend Table {#marketing-spend-table}

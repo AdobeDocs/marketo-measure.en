@@ -1,10 +1,10 @@
 ---
-description: Web Traffic Dashboard - [!DNL Marketo Measure] - Product
+description: "Describes the Web Traffic dashboard for visits visitors page views forms and channel performance over time"
 title: Web Traffic Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
+hidefromtoc: yes
 ---
-
 # Web Traffic Dashboard {#web-traffic-dashboard}
 
 The Web Traffic Dashboard provides a comprehensive view of your site's visitor interactions. Delve into metrics such as unique visitor counts per URL, overall visits, page views, and form submissions from specific form URLs or landing pages. Monitor monthly traffic trends and identify high-performing paid media, empowering you to refine your strategies for optimal revenue generation.
@@ -19,36 +19,14 @@ Questions this dashboard answers:
 
 **KPI Tiles**
 
-<table>
-<thead>
-  <tr>
-    <td>Visits</td>
-    <td>The total site visits (sessions) initiated from external pages encompassing known and anonymous users.</td>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Visitors</td>
-    <td>The total number of unique visitors.</td>
-  </tr>
-  <tr>
-    <td>Page Views</td>
-    <td>The total number of views across website pages.</td>
-  </tr>
-  <tr>
-    <td>Forms</td>
-    <td>The total number of form submissions, including LinkedIn Lead Gen Forms.</td>
-  </tr>
-  <tr>
-    <td>Unique Emails from Forms</td>
-    <td>Total number of unique emails from form submissions.</td>
-  </tr>
-  <tr>
-    <td>Leads Created from Forms</td>
-    <td>Total number of new leads created from form submissions.</td>
-  </tr>
-</tbody>
-</table>
+| KPI | Definition |
+| --- | --- |
+| Visits | The total site visits (sessions) initiated from external pages encompassing known and anonymous users. |
+| Visitors | The total number of unique visitors. |
+| Page Views | The total number of views across website pages. |
+| Forms | The total number of form submissions, including LinkedIn Lead Gen Forms. |
+| Unique Emails from Forms | Total number of unique emails from form submissions. |
+| Leads Created from Forms | Total number of new leads created from form submissions. |
 
 ## Web Traffic Over Time {#web-traffic-over-time}
 
@@ -62,7 +40,7 @@ Questions the chart answers:
 * How do trends in Total Visits compare with Unique Visitors and Form Submissions over the displayed timeframe?
 * In which period did the website see the highest number of Unique Visitors compared to Total Visits and Form Submissions?
 
-![Web traffic over time chart for visits, visitors, and form submissions](assets/web-traffic-dashboard-1.png)
+![](assets/web-dashboard-1.png)
 
 ## Web Traffic Summary Table {#web-traffic-summary-table}
 
@@ -79,11 +57,11 @@ Table displaying Page views, Visits, Visitors, Forms, Unique emails from forms, 
 * Unique emails from forms
 * Lead creation from forms
 
-![Web traffic summary table by page title and URL](assets/web-traffic-dashboard-2.png)
+![](assets/web-dashboard-2.png)
 
 ## Referrer Table {#referrer-table}
 
-Table displaying Total Visits and Unique Visitors by Referrers.
+Table displaying Total Visits and Unique Visitors by Referrers. 
 
 **Columns**
 
@@ -91,7 +69,7 @@ Table displaying Total Visits and Unique Visitors by Referrers.
 * Visits
 * Unique Visitors
 
-![Referrer table showing visits and unique visitors](assets/web-traffic-dashboard-3.png)
+![](assets/web-dashboard-3.png)
 
 ## Visits/Visitors by Channel {#visits-visitors-by-channel}
 
@@ -105,7 +83,7 @@ Questions the chart answers:
 * Which Channel/Subchannel/Campaign attracts the highest number of visits or unique visitors?
 * How does the number of unique visitors compare to total visits within a specific Channel/Subchannel/Campaign?
 
-![Visits and unique visitors by channel bar chart](assets/web-traffic-dashboard-4.png)
+![](assets/web-dashboard-4.png)
 
 ## Filter Pane {#filter-pane}
 

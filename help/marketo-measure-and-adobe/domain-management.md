@@ -1,10 +1,10 @@
 ---
-description: Domain Management - [!DNL Marketo Measure]
+description: "Domain Management guidance for Marketo Measure users"
 title: Domain Management
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
+hidefromtoc: yes
 ---
-
 # Domain Management {#domain-management}
 
 For IMS-enabled tenants running [!DNL Marketo Measure] in the Experience Cloud Interface, [!DNL Marketo Measure] provides an interface that allows users to manage their own list of domains. [!DNL Marketo Measure] users must first verify any domains that they wish to track in the [Adobe Admin Console](https://adminconsole.adobe.com/). Once domains are verified in the Admin Console, users can manage if [!DNL Marketo Measure] uses these domains for tracking website traffic.
@@ -13,7 +13,7 @@ For IMS-enabled tenants running [!DNL Marketo Measure] in the Experience Cloud I
 
 IMS users with access to the Adobe Admin Console can add and validate domains that they own. Domain validation involves adding a DNS record for each domain and then allowing the Admin Console to verify that record.
 
-   ![Adobe Admin Console domain list showing validation status](assets/domain-management-1.png)
+   ![](assets/domain-management-4.png)
 
 Instructions for adding domains can be found in the [Admin Console documentation](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Once a domain is added, it must be [linked to a directory](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
@@ -21,11 +21,11 @@ Instructions for adding domains can be found in the [Admin Console documentation
 
 After a domain is added in the Admin Console, [!DNL Marketo Measure] syncs this record into the database regularly. This synchronization happens nightly, and also every time a user visits the **[!UICONTROL Domains]** page in the [!DNL Marketo Measure] UI. By default, any records that [!DNL Marketo Measure] imports are disabled, and the tenant must manually enable each domain.
 
-   ![Marketo Measure Domains page listing verified domains with enable toggles](assets/domain-management-2.png)
+   ![](assets/domain-management-2.png)
 
 On the **[!UICONTROL Integration]** > **[!UICONTROL Domains]** page, the user sees all domains that they have registered in the Admin Console, along with their status. Each domain can be enabled or disabled. If a domain is enabled, [!DNL Marketo Measure] tracking collects any traffic that is seen on that domain. If a domain is disabled, [!DNL Marketo Measure] ignores any traffic coming from that domain and does not create touchpoints or other data. [!DNL Marketo Measure] confirms the disablement of a domain and warns of any ramifications:
 
-   ![Confirmation dialog when disabling a domain in Marketo Measure](assets/domain-management-3.png)
+   ![](assets/domain-management-3.png)
 
 The impact of toggling a domain is immediate, and changes are not retroactive. In the future, [!DNL Marketo Measure] will purge data from disabled domains after a set period.
 

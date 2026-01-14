@@ -1,10 +1,9 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
+description: "'[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'"
 title: '[!DNL Marketo Measure] Ultimate Overview'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 ---
-
 # [!DNL Marketo Measure] Ultimate Overview {#marketo-measure-ultimate-overview}
 
 [!DNL Marketo Measure] (formerly Bizible) gives marketers insight into which marketing efforts are the most effective in driving revenue and maximizing return on investment for their company. [!DNL Marketo Measure] is a marketing attribution solution that automatically tracks and reports on channel performance, providing visibility into which channels drive the most customer engagement and allowing you to optimize your marketing spend accordingly.
@@ -24,11 +23,11 @@ feature: Integration, Tracking, Attribution
 
 **[!DNL Marketo Measure] Tiers 1-3**
 
-   ![Architecture diagram showing Marketo Measure Tiers 1-3 data flow and connections](assets/marketo-measure-ultimate-overview-1.png)
+   ![](assets/marketo-overview-1.png)
 
 **[!DNL Marketo Measure Ultimate]**
 
-   ![Architecture diagram showing Marketo Measure Ultimate with AEP integration](assets/marketo-measure-ultimate-overview-2.png)
+   ![](assets/marketo-overview-3.png)
 
 ## What's New in [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
@@ -36,26 +35,27 @@ feature: Integration, Tracking, Attribution
 
 Marketers are expected to bring their B2B data (for example, Account, Opportunity, Contact, Lead, Campaign, Campaign Member, Activity) through AEP. The direct CRM and Marketo Engage connections are no longer available for Ultimate. Marketers continue bringing Ad Platform data through direct connections and tracking web activities through [!DNL Marketo Measure] javascript.
 
-   ![Data flow diagram showing B2B data import through AEP platform](assets/marketo-measure-ultimate-overview-3.png)
+   ![](assets/marketo-overview-2.png)
 
 **Default Currency Setting**
 
 [!DNL Marketo Measure Ultimate] sets the default currency to USD until the user changes it. Setting a new default currency updates the data without reprocessing. As long as the selected currency is present as a target ISO code, there is no need to submit conversion rates.
 
-   ![Default currency settings interface with USD currency option](assets/marketo-measure-ultimate-overview-4.png)
+   ![](assets/marketo-overview-7.png)
 
 **[!DNL Marketo Measure Ultimate] Sandbox**
 
-[!DNL Marketo Measure Ultimate] instance must be mapped to an AEP sandbox before creating the [!DNL Marketo Measure] destination data flows in AEP.
+[!DNL Marketo Measure Ultimate] instance must be mapped to an AEP sandbox before creating the [!DNL Marketo Measure] destination data flows in AEP. 
 
 >[!NOTE]
+>
 >A [!DNL Marketo Measure Ultimate] production instance must be mapped to an AEP production sandbox, a [!DNL Marketo Measure Ultimate] developer instance must be mapped to an AEP developer sandbox.
 
 Once the sandbox-mapping selection is saved, you cannot change it in the application. To change it, reach out to [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Data for a given entity (for example, Account) from a given data source can only go into one dataset. Each dataset can only be included in one data flow. Violations stop the data flow at run time.
 
-   ![Sandbox mapping configuration showing dataset and dataflow relationships](assets/marketo-measure-ultimate-overview-5.png)
+   ![](assets/marketo-overview-6.png)
 
 **Stage Mapping**
 
@@ -86,13 +86,13 @@ Rule conditions are dataset-specific. Stage Mapping rules must be created for al
 
 No selection for funnel vs boomerang vs custom model. All stages are selected for funnel, boomerang, and custom model. There's a limit of how many stages we support: 15 custom plus 6 built-in stages.
 
-   ![Stage mapping interface showing built-in and custom stage configurations](assets/marketo-measure-ultimate-overview-6.png)
+   ![](assets/marketo-overview-4.png)
 
 Campaign Member touchpoint rules and Activity touchpoint rules are dataset-specific.
 
-   ![Campaign Member touchpoint rules configuration by dataset](assets/marketo-measure-ultimate-overview-7.png)
+   ![](assets/marketo-overview-5.png)
 
-   ![Activity touchpoint rules configuration by dataset](assets/marketo-measure-ultimate-overview-8.png)
+   ![](assets/marketo-overview-8.png)
 
 Attribution Touchpoints are not written to CRM because Ultimate does not have a direct CRM connection.
 
@@ -104,5 +104,7 @@ Attribution Touchpoints are not written to CRM because Ultimate does not have a 
 * There is no migration path for existing Tier 1/2/3 users. Requires new implementation but we help migrate the tracked web activity data from the existing instance.
 
 >[!MORELIKETHIS]
-> [Marketo Measure Ultimate Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
-> [VIDEO: Marketo Measure Ultimate Overview](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>
+>* [Marketo Measure Ultimate Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=en){target="_blank"}
+>
+>* [VIDEO: Marketo Measure Ultimate Overview](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

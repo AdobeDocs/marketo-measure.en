@@ -1,15 +1,15 @@
 ---
-description: Syncing Offline Campaigns - [!DNL Marketo Measure]
+description: "Syncing Offline Campaigns guidance for Marketo Measure users"
 title: Syncing Offline Campaigns
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
 ---
-
 # Syncing Offline Campaigns {#syncing-offline-campaigns}
 
 It can be difficult to accurately track offline campaigns and understand how they compare to your digital marketing efforts. [!DNL Marketo Measure] enables you to track and attribute Touchpoints to your offline campaigns in [!DNL Salesforce], even in situations when a [!DNL Salesforce] campaign is not created until a few weeks after the event.
 
 >[!NOTE]
+>
 >This article covers an outdated process. We encourage users to use the [new, improved in-app process](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Before You Sync {#before-you-sync}
@@ -30,7 +30,7 @@ Why is this important? Imagine for a moment that your company sponsored a booth 
 
 Your upload date would be three weeks later than the conference date. To fix this difference, the [!UICONTROL Bulk Update Touchpoint Date] button can be used to set the appropriate date. The button is pictured in the image below.
 
-![ 3](assets/1-3.png)
+![](assets/dynamics-lists-1.png)
 
 In this case, it would backfill the upload date by three weeks. This step should be done prior to setting the "[!UICONTROL Enable Buyer Touchpoints]" field.
 
@@ -39,19 +39,20 @@ In summary, if you use the [!UICONTROL Bulk Update Touchpoint Date] button and c
 You can also update the dates for all campaign members on an existing campaign. When doing this, be sure the date of the Touchpoint is the date of the member's interaction. Click the Bulk Update Buyer Touchpoint Date, filter the list of campaign members as appropriate, and in the "[!UICONTROL Select Date]" option above the list of campaign members, add the the same date as the date the event took place.
 
 >[!CAUTION]
+>
 >Make sure you update the Touchpoint date _before_ you enable Touchpoints for all campaign members.
 
-![ 3](assets/2-3.png)
+![](assets/dynamics-lists-10.png)
 
 ## How to Create a Campaign and Sync Buyer Touchpoints {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
 To create a Campaign in [!DNL Salesforce], navigate to the [!UICONTROL Campaigns] tab and select '[!UICONTROL New]' as shown in the image below. Depending on your [!DNL Salesforce] setup, you might need to add Campaigns to the top bar by clicking the plus (+) icon.
 
-![ 3](assets/3-3.png)
+![](assets/dynamics-lists-2.png)
 
 When you are creating this campaign, click the "[!UICONTROL Enable Buyer Touchpoints]" field and select one of the following options from the picklist:
 
-![ 3](assets/4-3.png)
+![](assets/dynamics-lists-3.png)
 
 * **Include all campaign members**
    * This option enables [!DNL Marketo Measure] to attribute a Touchpoint to each campaign member.
@@ -65,5 +66,7 @@ When you are creating this campaign, click the "[!UICONTROL Enable Buyer Touchpo
 Once one of these selections is chosen, [!DNL Marketo Measure] will assign each campaign member a Touchpoint if applicable. The Lead or Contact that is added to the campaign _must_ have an email address associated to their record in order for [!DNL Marketo Measure] to create a touchpoint. Without an email address, [!DNL Marketo Measure] will not assign a touchpoint to the campaign member.
 
 >[!MORELIKETHIS]
+>
 >[[!DNL Marketo Measure] Tutorials: Mapping Offline Channels](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>
 >[[!DNL Marketo Measure] Tutorials: Campaign Object Fields](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

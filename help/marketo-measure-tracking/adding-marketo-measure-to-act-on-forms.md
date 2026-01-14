@@ -1,10 +1,9 @@
 ---
-description: Adding [!DNL Marketo Measure] to Act-On Forms - [!DNL Marketo Measure]
+description: "Adding [!DNL Marketo Measure] to Act-On Forms guidance for Marketo Measure users"
 title: Adding [!DNL Marketo Measure] to Act-On Forms
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
 ---
-
 # Adding [!DNL Marketo Measure] to Act-On Forms {#adding-marketo-measure-to-act-on-forms}
 
 ## Directions {#directions}
@@ -17,5 +16,7 @@ feature: Tracking
 `script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
 >[!NOTE]
+>
 >There may already be other tracking code snippets in this area, such as a [!DNL Google Analytics] code. Be sure to separate them using a semicolon `;` and a single space, like so:
->`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>*; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`
+>
+>`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>**; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`

@@ -1,15 +1,16 @@
 ---
-description: "[!DNL Marketo Measure] Salesforce Package Installation and Set Up - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] [!DNL Salesforce] Package Installation and Set Up"
+description: "Salesforce Package Installation and Set Up - [!DNL Marketo Measure]"
+title: "[!DNL Salesforce] Package Installation and Set Up"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
+hidefromtoc: yes
 ---
-
-# [!DNL Marketo Measure] Salesforce Package Installation and Set Up {#marketo-measure-salesforce-package-installation-and-set-up}
+# Salesforce Package Installation{#marketo-measure-salesforce-package-installation}
 
 Before you install the [!DNL Marketo Measure] [!DNL Salesforce] base package, you must determine if you are first installing it in a [!DNL Salesforce] sandbox before moving to your Salesforce production instance.
 
 >[!NOTE]
+>
 >Once your [!DNL Marketo Measure] account is connected to a [!DNL Salesforce] production instance, you cannot move backwards and connect to a sandbox. Also, a [!DNL Marketo Measure] account can only be connected to one [!DNL Salesforce] production instance.
 
 The [!DNL Marketo Measure] Base Package contains:
@@ -30,15 +31,16 @@ Follow the steps below to install the [!DNL Marketo Measure Salesforce] base pac
 
 1. Select **[!UICONTROL Install] for All Users**.
 
-   ![Salesforce AppExchange install dialog for the Marketo Measure package](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
+   ![](assets/bizible-full-1.png)
 
 1. Once the installation is complete, you can view it.
 
-   ![Installed Marketo Measure package details page in Salesforce](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
+   ![](assets/bizible-taxonomy-1.png)
 
 After you've completed the installation, you can update your [[!DNL Salesforce] page layouts](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} with the [!DNL Marketo Measure] fields if desired.
 
 >[!NOTE]
+>
 >Read about the [!DNL Marketo Measure] Permissions sets created and [how they are used](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## Creating a [!DNL Marketo Measure] Profile and User {#creating-a-marketo-measure-profile-and-user}
@@ -59,6 +61,7 @@ Step 1: Create a specific [!DNL Marketo Measure] profile
    * This allows [!DNL Marketo Measure] to decorate leads after they have been converted to contacts. If this permission set is not enabled, there can be significant data tracking gaps.
 
 >[!NOTE]
+>
 >This profile can be a clone of a System Admin profile.
 
 Step 2: Create a dedicated [!DNL Marketo Measure] user so you can track the impact of [!DNL Marketo Measure] on your [!DNL Salesforce] instance
@@ -82,5 +85,7 @@ Step 4: Log in to your [!DNL Marketo Measure] Account and reauthorize the [!DNL 
 1. Click the Key Icon to the right of the current connected [!DNL Salesforce] connection and select to **Reauthorize with Production**. Log in with the new user credentials again (if prompted).
 
 >[!MORELIKETHIS]
-> [Integration Permissions Overview](/help/api-connections/integration-permissions-overview.md){target="_blank"}
-> [Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>
+>* [Integration Permissions Overview](/help/api-connections/integration-permissions-overview.md){target="_blank"}
+>
+>* [Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

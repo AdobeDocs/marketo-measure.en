@@ -1,10 +1,9 @@
 ---
-description: "[!DNL Marketo Measure] Revenue Workflows for Dynamics - [!DNL Marketo Measure]"
+description: "Workflows to align Dynamics revenue and close date fields for Marketo Measure reporting"
 title: "[!DNL Marketo Measure] Revenue Workflows for Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
 ---
-
 # [!DNL Marketo Measure] Revenue Workflows for Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 
 ## Part 1: Estimated Revenue vs Actual Revenue {#part-estimated-revenue-vs-actual-revenue}
@@ -14,11 +13,13 @@ feature: Microsoft Dynamics
 Step 1: Create custom opportunity amount field in Dynamics
 
 >[!NOTE]
+>
 >All Dynamics revenue fields have a base field and a regular field. Disregard the base field.
 
 Step 2: Create a workflow that updates both the custom opportunity amount field created in step 1 and the [!DNL Marketo Measure] Opportunity Amount field.
 
 >[!NOTE]
+>
 >We cannot point to the [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) field in Discover with Dynamics accounts. Dynamics customers must create a custom opportunity amount field for [!DNL Marketo Measure] to point to in Discover. Once complete, the customer must create a workflow that updates **both** the [!DNL Marketo Measure] Opportunity Amount (bizible2_bizible_opportunity_amount) **and** the custom opportunity amount field. The [!DNL Marketo Measure] Opportunity Amount field comes with the package but a custom field must be created.
 
 Amount Workflow Instructions:
@@ -59,6 +60,8 @@ To update the closed opportunities...
 1. Check for failures on import file.
 
 >[!NOTE]
+>
 >The workflows outlined in this document are just one way to go about updating the fields so [!DNL Marketo Measure] can show the correct data in Discover. If you have another way of accomplishing the same task, you can go for it. Basically what we need from them is some sort of workflow that accomplish the following:
+>
 > * If Opp = Open, update custom close date field, custom opp amount field, and [!DNL Marketo Measure] opp amount field to equal Estimated Close Date and Estimated Revenue, respectively.
 > * If Opp = Closed Won, update custom close date field, custom opp amount field, and [!DNL Marketo Measure] opp amount field to equal Actual Close Date and Actual Revenue, respectively.

@@ -1,10 +1,9 @@
 ---
-description: Call Tracking Integration - [!DNL Marketo Measure]
+description: "Call Tracking Integration guidance for Marketo Measure users"
 title: Call Tracking Integration
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
 ---
-
 # Call Tracking Integration {#call-tracking-integration}
 
 Our integration with [!DNL CallTrackingMetrics] is intended to merge a web session with a phone call. A phone call gets treated as a form submission to [!DNL Marketo Measure]. It gives credit to a web session that would have otherwise only been considered a web visit because there was no actual form submission.
@@ -13,7 +12,7 @@ Our integration with [!DNL CallTrackingMetrics] is intended to merge a web sessi
 
 "Call Tracking" in the general sense is a product from companies such as [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca], or [!DNL CallRail], to name a few. Unique phone numbers are shown to users based on the different marketing channels or campaigns that they're coming from. This allows marketers to see how those channels or campaigns are performing.
 
-![Diagram showing unique phone numbers displayed based on different marketing channels and campaigns](assets/1.png)
+![](assets/other-resources-6.png)
 
 ## Before and After {#before-and-after}
 
@@ -21,19 +20,19 @@ Look at the flowchart below to see how [!DNL Marketo Measure] used to handle pho
 
 With the integration, you can see that the web session was actually tied to a phone call. The next form fill ends up being a PostLC touch and is still tracked as part of the journey.
 
-![Before and after flowchart comparing phone call tracking without and with CallTrackingMetrics integration](assets/2.png)
+![](assets/other-resources-4.png)
 
 ## How It Works {#how-it-works}
 
-CallTrackingMetrics has to do some development work on their end for this to work. With the JavaScript that they place on your site, CallTrackingMetrics can grab the _biz_uid from the [!DNL Marketo Measure] cookie. This "[!DNL BizibleId]" is then stored by CallTrackingMetrics.
+CallTrackingMetrics has to do some development work on their end for this to work. With the JavaScript that they place on your site, CallTrackingMetrics can grab the `_biz_uid` from the [!DNL Marketo Measure] cookie. This "BizibleId" is then stored by CallTrackingMetrics.
 
-When a visitor comes to your site and makes a phone call, it is the job of CallTrackingMetrics to push that data into [!DNL Salesforce].  Typically, a [!DNL Salesforce Task] is created that populates data such as phone number, subject, type, and now, the [!DNL BizibleId]
+When a visitor comes to your site and makes a phone call, it is the job of CallTrackingMetrics to push that data into [!DNL Salesforce].  Typically, a [!DNL Salesforce Task] is created that populates data such as phone number, subject, type, and now, the [!DNL BizibleId] 
 
 The [!DNL BizibleId] is a field that is installed with version 6.7+ of the [!DNL Marketo Measure] Marketing Attribution package.
 
 Below is an example of a Task record with the [!DNL BizibleId] populated.
 
-![Salesforce Task record example showing BizibleId field populated with value](assets/3.png)
+![](assets/other-resources-5.png)
 
 When [!DNL Marketo Measure] finds a Task record with a known [!DNL BizibleId] value filled in, [!DNL Marketo Measure] can map that user to a web session with the same [!DNL BizibleId] and attribute that session to a phone call instead of a web visit.
 
@@ -43,13 +42,13 @@ When [!DNL Marketo Measure] can import/download the task, we process that detail
 
 The [!UICONTROL Touchpoint] Type "Call" is pulled from the Task, from the screenshot above, which is also populated by CallTrackingMetrics when the Task is created.
 
-![Touchpoint record showing Type as Call from merged web session and phone call data](assets/4.png)
+![](assets/one-one-1.png)
 
 ## Reporting {#reporting}
 
 Touchpoint Type values that [!DNL Marketo Measure] typically pushes are Web Visit, Web Form, or Web Chat, but in the case of CallTrackingMetrics touchpoints, the touchpoint type is Phone Call. This helps marketers see which channels draw in the most phone calls and generate revenue for their organization.
 
-![Report showing touchpoint types including Phone Call for tracking call-generated revenue by channel](assets/5.png)
+![](assets/other-resources-1.png)
 
 ## FAQ {#faq}
 
@@ -67,7 +66,7 @@ First, check the Task to make sure there is a [!DNL BizibleId] populated. If the
 
 If there is a value, note that we only consider all web sessions to be 30 minutes. If a Google Ad was clicked at 12:17pm (start of the session on the website), but the phone call did not occur until 1:05pm, we will not merge the web session and phone call. Rather, [!DNL Marketo Measure] creates a separate [!DNL Salesforce Task] touchpoint to track the phone call, but will not have any web session data.
 
-![Diagram showing 30-minute web session timeout window between ad click and phone call](assets/6.png)
+![](assets/other-resources-2.png)
 
 ## Partnerships {#partnerships}
 

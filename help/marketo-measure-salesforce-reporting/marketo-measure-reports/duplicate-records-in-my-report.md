@@ -1,13 +1,13 @@
 ---
-description: Duplicate Records in My Report - [!DNL Marketo Measure]
+description: "Duplicate Records in My Report guidance for Marketo Measure users"
 title: Duplicate Records in My Report
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
 ---
-
 # Duplicate Records in My Report {#duplicate-records-in-my-report}
 
 >[!NOTE]
+>
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 As you dive into the [!DNL Marketo Measure] Reports in [!DNL Salesforce], you may start to find 'duplicate' records in your reports. You will likely experience this feeling when you review [!DNL Marketo Measure] out-of-the-box reports.
@@ -18,7 +18,7 @@ Let's take the following report as an example:
 
 This is a **Contacts with Buyer Touchpoints** report. Again, this means that we're looking at the count of touchpoints associated to an individual contact.
 
-![Contacts with Buyer Touchpoints report showing multiple entries per contact](assets/1.gif)
+![](assets/marketo-reports-1.gif)
 
 As you can see, it looks like there are three James Williams contacts in the report, and therefore you might be thinking, "duplicates!"
 
@@ -27,4 +27,5 @@ However, this report is showing the number of touchpoints related to James. With
 If you want to understand the 'count of contacts' you can then use the fields 'Count - First Touch', 'Count-Lead Creation Touch' or 'Count-U-Shaped' to understand how many contacts have had marketing interactions.
 
 >[!MORELIKETHIS]
+>
 >[[!DNL Marketo Measure] Tutorials: Stock SFDC Reports](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

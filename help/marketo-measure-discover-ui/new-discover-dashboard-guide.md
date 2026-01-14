@@ -1,11 +1,11 @@
 ---
-description: New Discover Dashboard Guide - [!DNL Marketo Measure] - Product
-title: New Discover Dashboard Guide
+description: "Maps legacy Discover dashboards to the redesigned versions and highlights key changes in navigation and metrics"
+title: Discover Dashboard Guide
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+hidefromtoc: yes
 ---
-
-# New Discover Dashboard Guide {#new-discover-dashboard-guide}
+# Discover Dashboard Guide {#new-discover-dashboard-guide}
 
 We're thrilled to introduce our Discover dashboard redesign. Our primary goal is to offer you a more streamlined and intuitive experience. With cleaner visuals and simpler navigation, this revamp not only retains most of the existing metrics, but also introduces fresh insights. Dive in and discover the enhanced clarity and added value.
 
@@ -498,6 +498,7 @@ New features can be found in the [Discover Dashboard Basics](/help/marketo-measu
 As we continually strive to enhance your experience, we'd greatly appreciate your feedback on this latest update. Your thoughts will directly influence future refinements, ensuring our platform always aligns with your needs. Keep an eye out for a feedback form in Marketo Measure.
 
 >[!MORELIKETHIS]
->[Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

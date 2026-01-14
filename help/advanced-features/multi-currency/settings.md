@@ -1,10 +1,9 @@
 ---
-description: Settings - [!DNL Marketo Measure]
+description: "Settings guidance for Marketo Measure users"
 title: Settings
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
 ---
-
 # Settings {#settings}
 
 There are two separate feature bits tied to this feature, located in the CRM's [!UICONTROL General Settings] tab: Multiple Currencies and Advanced Currencies.
@@ -15,4 +14,4 @@ There are two separate feature bits tied to this feature, located in the CRM's [
 
 Under your [!UICONTROL User Settings] in the [!DNL Marketo Measure] Application, we'll display the Corporate Currency and any Supported Currencies pulled from the CRM. Because these values are all pulled from the CRM, these fields are read-only and cannot be changed. The Dashboard Currency is your default currency for each time a dashboard is loaded. You can come back and change the currency as needed.
 
-![Currencies](assets/one-1.png)
+![](assets/multi-currency-1.png)

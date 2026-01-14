@@ -1,17 +1,16 @@
 ---
-description: Error Notifications - [!DNL Marketo Measure]
+description: "Error Notifications guidance for Marketo Measure users"
 title: Error Notifications
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
 ---
-
 # Error Notifications {#error-notifications}
 
 Below is a list of errors that you may receive via in-app notification or email. If you receive any of these, follow the respective troubleshooting steps. If these steps do not resolve the issue, contact [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support).
 
 To see the full notification message in [!DNL Marketo Measure], click **View All** at the bottom of the Notifications tab.
 
-![Notifications panel in Marketo Measure showing error list and View All link](assets/error-notifications-1.png)
+![](assets/adobe-setup-1.png)
 
 <table>
   <tbody>
@@ -48,7 +47,7 @@ To see the full notification message in [!DNL Marketo Measure], click **View All
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-2.png">
+          <img src="assets/error-notifications-3.png">
           </p>
       </td>
     </tr>
@@ -148,7 +147,7 @@ Salesforce documentation on flow triggers <a href="https://admin.salesforce.com/
       <td>Refer to the following help articles to ensure correct configuration:
         <ul>
           <li>
-            <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Marketo Measure Integrations with Adobe Analytics</a>
+            <a href="/help/marketo-measure-and-adobe/adobe-analytics.md">Marketo Measure Integrations with Adobe Analytics</a>
           </li>
           <li>
             <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">Create a Customer Attribute source and upload the data file</a>

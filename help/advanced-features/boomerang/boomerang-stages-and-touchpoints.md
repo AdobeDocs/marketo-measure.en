@@ -1,13 +1,13 @@
 ---
-description: Boomerang Stages and Touchpoints - [!DNL Marketo Measure]
+description: "Boomerang Stages and Touchpoints guidance for Marketo Measure users"
 title: Boomerang Stages and Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
 ---
-
 # Boomerang Stages and Touchpoints {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
+>
 >The Boomerang feature is only enabled for Tier 2 and 3 customers. To request a higher account tier, contact the Adobe Account Team (your account manager).
 
 [!DNL Marketo Measure] has released the Boomerang Stage feature! The Boomerang Stage feature was created to provide greater visibility into the customer's journey for [!DNL Marketo Measure] customers with long sales cycles. This feature allows marketers to create touchpoints for all stage transitions that occur in the Opportunity journey, such as when a contact MQLs, then moves to SAL, and then reverts to the MQL stage. When contacts "reenter the MQL stage" or "re-MQL's", the MQL is considered to be a boomerang stage. The Boomerang Stage feature functions alongside the [!DNL Marketo Measure] Custom Stages.
@@ -20,13 +20,14 @@ feature: Boomerang, Touchpoints
 * If you are a Custom Model user, you are able to determine the attribution weighting and percentage credit you'd like to allocate to each of these stages (ex. designate attribution weight to the first or last MQL occurrence, or distribute attribution weighting evenly among all occurrences)
 
 >[!NOTE]
+>
 >[Instructions on how to set up Boomerang Stages](/help/advanced-features/boomerang/setting-up-boomerang-stages.md).
 
 ## What Boomerang Stages and Touchpoints Look like in Your CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
 Without Boomerang stages (the "before"), you only see the most recent MQL or most recent SQL touchpoint associated to a Lead/Contact record.
 
-![Opportunity record showing only latest stage touchpoints without boomerang](assets/1.png)
+![](assets/boomerang-boomerang-18.png)
 
 With Boomerang Stages and touchpoints, you see touchpoints that occur for each stage transition. The naming convention for these boomerang touchpoints are:
 
@@ -34,7 +35,7 @@ With Boomerang Stages and touchpoints, you see touchpoints that occur for each s
 
 Using the example below, this [!DNL Marketo Measure] account has included MQL and SQL in their boomerang stages, and have chosen to display 2 boomerang touchpoints per stage.
 
-![Boomerang touchpoints listed for multiple MQL and SQL stage transitions](assets/2.png)
+![](assets/boomerang-boomerang-19.png)
 
 **MQL-01** is the first MQL stage transition.
 

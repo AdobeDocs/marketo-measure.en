@@ -1,10 +1,9 @@
 ---
-description: FAQ (Multi-Currency) - [!DNL Marketo Measure]
+description: "FAQ (Multi-Currency) guidance for Marketo Measure users"
 title: FAQ (Multi-Currency)
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
 ---
-
 # FAQ (Multi-Currency) {#faq-multi-currency}
 
 **How do I know which feature bit to enable?**
@@ -54,4 +53,5 @@ For the interested reader, here's why it works this way. Our touchpoints use for
 Since our offering will now handle the conversions for the customer, we recommend they remove the workflows and custom field and allow us to import their raw Amount value.
 
 >[!MORELIKETHIS]
+>
 >[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

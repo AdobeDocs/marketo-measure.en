@@ -1,10 +1,10 @@
 ---
-description: Passport Dashboard - [!DNL Marketo Measure] - Product
+description: "Describes the Passport dashboard that tracks how leads contacts and opportunities move through stages over time"
 title: Passport Dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
+hidefromtoc: yes
 ---
-
 # Passport Dashboard {#passport-dashboard}
 
 The Passport dashboard offers marketers a dynamic view of Leads, Contacts, and Opportunities as they transition through various stages within a specified period. By filtering for a specific date, users can also obtain a snapshot of records for that day.
@@ -21,21 +21,21 @@ The Passport dashboard offers marketers a dynamic view of Leads, Contacts, and O
 ### Opportunities in Stage by Stage Name {#opportunities-in-stage-by-stage-name}
 
 * Each stage shows the number of Opportunities with touchpoints that have passed through them in a given timeframe.
-  * If an opportunity progresses through multiple stages within that span, it's counted in every stage it passes.
+  * If an opportunity progresses through multiple stages within that span, it's counted in every stage it passes. 
 * Terminal stages such as "Closed Won" and "Closed Lost" are excluded.
 * Both start and end dates are inclusive.
 
-![Passport dashboard showing opportunities in stage by stage name](assets/passport-dashboard-1.png)
+![](assets/passport-dashboard-1.png)
 
 ### Leads or Contacts in Stage by Stage Name {#leads-or-contacts-in-stage-by-stage-name}
 
 * Each stage shows the number of Leads or Contacts with touchpoints that have passed through them in a given timeframe.
   * Whether to display "Lead" or "Contact" is determined by the preference set in: Settings > Attribution Settings > Default Dashboard Object.
-  * If a Lead or Contact progresses through multiple stages within that span, it's counted in every stage it passes.
+  * If a Lead or Contact progresses through multiple stages within that span, it's counted in every stage it passes. 
 * Terminal stages such as "Closed Won" and "Closed Lost" are excluded.
 * Both start and end dates are inclusive.
 
-![Passport dashboard showing leads or contacts in stage by stage name](assets/passport-dashboard-2.png)
+![](assets/passport-dashboard-2.png)
 
 ## Filter Pane {#filter-pane}
 
@@ -47,5 +47,6 @@ This dashboard is equipped with the following settings and filters:
 * Segments
 
 >[!MORELIKETHIS]
-> [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

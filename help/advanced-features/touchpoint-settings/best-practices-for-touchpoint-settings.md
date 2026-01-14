@@ -1,10 +1,9 @@
 ---
-description: Best Practices for Touchpoint Settings - [!DNL Marketo Measure]
+description: "Best Practices for Touchpoint Settings guidance for Marketo Measure users"
 title: Best Practices for Touchpoint Settings
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
 ---
-
 # Best Practices for Touchpoint Settings {#best-practices-for-touchpoint-settings}
 
 ## Overview {#overview}
@@ -49,7 +48,8 @@ Reasons to review your [!UICONTROL Touchpoint] Settings include...
 * Changes to the fields that are used to define your suppression or removal rules
 
 >[!MORELIKETHIS]
-> [Touchpoint Removal and Suppression Overview](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
-> [Why Touchpoints Should Never be Deleted](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
-> [Buyer Touchpoints (BT) vs Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
+>
+>* [Touchpoint Removal and Suppression Overview](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [Why Touchpoints Should Never be Deleted](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [Buyer Touchpoints (BT) vs Buyer Attribution Touchpoints (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

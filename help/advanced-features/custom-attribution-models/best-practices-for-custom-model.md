@@ -1,10 +1,9 @@
 ---
-description: Best Practices for Custom Model - [!DNL Marketo Measure]
+description: "Best Practices for Custom Model guidance for Marketo Measure users"
 title: Best Practices for Custom Model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
 ---
-
 # Best Practices for Custom Model {#best-practices-for-custom-model}
 
 ## Overview {#overview}
@@ -18,6 +17,7 @@ There are two key aspects of your Custom Attribution Model:
 **Custom Stages** allow users to define their funnel as it relates to their business and processes. Custom Stages should represent "milestones" throughout the buyer's journey much like the [!DNL Marketo Measure] milestones (First Touch, Lead Creation Touch, Opportunity Creation Touch, and Closed Won Touch) do within the stock attribution models. It is crucial that your custom stages are properly defined and mapped within your account to ensure that [!DNL Marketo Measure] is properly tracking stage transitions. This is to identify which touchpoints should be associated with each stage and attribute credit appropriately. Custom Stage mapping is essentially an extension of standard 'Stage Mapping' and should follow the same practices.
 
 >[!NOTE]
+>
 >Reference the Stage Mapping Best Practice resource for more details
 
 **Custom Attribution Modeling** is defined once you select your Custom Stages funnel. Users can then control how much attribution credit should be assigned to each custom stage as well as the [!DNL Marketo Measure] milestone stages. Users can assign credit to each stage as they see fit, or reference the [!DNL Marketo Measure] Machine Learning Model which acts as a "suggestive model" based on historical data.
@@ -62,6 +62,7 @@ Other reasons to that might trigger a review of your Custom Model include...
 * Seeing touchpoint positions populated that are no longer relevant to your organizations funnel
 
 >[!MORELIKETHIS]
-> [Custom Attribution Model and Setup](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [Enable Field History Tracking For Custom Model](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Machine Learning Model](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+>
+>* [Custom Attribution Model and Setup](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Enable Field History Tracking For Custom Model](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+>* [Machine Learning Model](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

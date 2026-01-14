@@ -1,10 +1,9 @@
 ---
-description: Best Practices for Activities Attribution - [!DNL Marketo Measure]
+description: "Best Practices for Activities Attribution guidance for Marketo Measure users"
 title: Best Practices for Activities Attribution
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
 ---
-
 # Best Practices for Activities Attribution {#best-practices-for-activities-attribution}
 
 ## Overview {#overview}
@@ -24,6 +23,7 @@ Whether you are defining Activity rules for the first time or just reviewing Act
    * As mentioned, the primary use case of this feature is to create touchpoints that track the efficacy of your Sales Development team, specifically Outbound Phone Calls and Outbound Emails
 
 >[!NOTE]
+>
 >It is **NOT** recommended to track Sales Activities that happen after the Opportunity is created, as tracking a Sales Executives process does not offer much insight. The goal is track Sales influence alongside Marketing influence, primarily in the development of a new Opportunity/pipeline generation
 
 * Don't use formula fields to define your rules
@@ -45,5 +45,6 @@ Other reasons to that might trigger a review your Activity rules include...
 * Changes or updates to your sales enablement tools
 
 >[!MORELIKETHIS]
-> [Activities Attribution](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [Sales Activities Attribution FAQ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+>
+>* [Activities Attribution](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+>* [Sales Activities Attribution FAQ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

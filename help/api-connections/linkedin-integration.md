@@ -1,10 +1,9 @@
 ---
-description: LinkedIn Integration - [!DNL Marketo Measure]
+description: "LinkedIn Integration guidance for Marketo Measure users"
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
 ---
-
 # LinkedIn Integration {#linkedin-integration}
 
 ## Overview {#overview}
@@ -21,7 +20,7 @@ Available to all users.
 
 ## Requirements {#requirements}
 
-**Campaign Manager Roles**
+### Campaign Manager Roles
 
 For [!DNL Marketo Measure] to be able to download Ads Data & Ads cost data, you must have one of the following roles in the Campaign Manager:
 
@@ -31,7 +30,7 @@ For [!DNL Marketo Measure] to be able to download Ads Data & Ads cost data, you 
 
 Learn more: [User Roles and Functions in Campaign Manager](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
-**Paid Media Admin Roles**
+### Paid Media Admin Roles
 
 For [!DNL Marketo Measure] to be able to Create/Update Sponsored Creatives, you must have one of the following Paid Media Admin roles:
 
@@ -42,7 +41,7 @@ Learn more: [LinkedIn Page Admin Roles](https://www.linkedin.com/help/linkedin/a
 
 There are other [!DNL LinkedIn] roles which we do **not** require for our integration. These roles are often mistaken for the required roles, so note there is a difference!
 
-**Page Admin Roles**
+### Page Admin Roles
 
 For [!DNL Marketo Measure] to be able to download/integrate leads from lead gen forms, you must have the following Page Admin role:
 
@@ -54,29 +53,31 @@ Learn more: [LinkedIn Page Admin Roles](https://www.linkedin.com/help/linkedin/a
 
 [!DNL Marketo Measure] will support:
 
-**Sponsored Content:** Sponsored Content allows you to deliver content to the [!DNL LinkedIn] feed of members beyond those who are following your company. Sponsored Content can be targeted to a specific audience and can help advertisers reach [!DNL LinkedIn] members wherever and whenever they are engaging on the [!DNL LinkedIn] platform across desktop, mobile, and tablet. Sponsored Content with Lead Gen Forms are supported.
+Sponsored Content allows you to deliver content to the [!DNL LinkedIn] feed of members beyond those who are following your company. Sponsored Content can be targeted to a specific audience and can help advertisers reach [!DNL LinkedIn] members wherever and whenever they are engaging on the [!DNL LinkedIn] platform across desktop, mobile, and tablet. Sponsored Content with Lead Gen Forms are supported.
 
 The types of Sponsored Content ad formats supported by [!DNL Marketo Measure] are Single Image Ads and Video Ads (through Lead Gen Forms). Due to the complexity of the schema, we do not support Carousel ads.
 
 [!DNL Marketo Measure] does not support Sponsored Messaging, Text Ads, or Dynamic Ads.
 
-![LinkedIn ad format types showing Single Image Ads, Video Ads, and Carousel options with Lead Gen Forms support](assets/one.png)
+![](assets/bizible-guide-1.png)
 
 >[!TIP]
+>
 >For any of your Campaigns/Spend that originate from a non-Sponsored Content source (such as Campaign Type of "Text Ad" or "Sponsored InMail"), [!DNL Marketo Measure] does _not_ inherently support the tracking of these Campaign Types. If you want to track Spend for Campaigns such as these alongside your "Sponsored Content" Spend, be sure to make use of our Marketing Spend CSV to manually log said Spend.
 
 ## How It Works: Sponsored Content {#how-it-works-sponsored-content}
 
 >[!NOTE]
+>
 >Prior to first use, this feature setting must be enabled by navigating to [!DNL Marketo Measure] [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Ads] > [!UICONTROL Enable LinkedIn Lead Gen Forms].
 
-**[!DNL LinkedIn's] Unique Auto-Tagging Requirements**
+### [!DNL LinkedIn's] Unique Auto-Tagging Requirements
 
 [!DNL Marketo Measure] can help track your [!DNL LinkedIn] campaign performance by auto-tagging your landing pages.
 
 [!DNL Marketo Measure] will search for creatives with a unique LinkedIn Share and add a `?_bl={creativeId}` parameter to the end of it.
 
-**Copying Shares**
+### Copying Shares
 
 With this [!DNL Marketo Measure/LinkedIn] Integration, we ask that customers do not copy/clone/duplicate existing Creatives. If Shares are found and are detected to only be used on one Creative, [!DNL Marketo Measure] can tag the Share as is without having to recreate any Creatives or Shares and all ads history (impressions, clicks, shares) will remain.
 
@@ -84,13 +85,13 @@ As soon as a Share is found to be shared across multiple Creatives, [!DNL Market
 
 Moving forward, [!DNL Marketo Measure] recommends that you do not duplicate any [!DNL LinkedIn] Shares and keep all creatives and shares as unique as possible so that we can simply add our tracking without having to erase Ad History.
 
-**Shortened URLs**
+### Shortened URLs
 
 The reason for the extra step is because LinkedIn allows destination URLs to be a shortened URL (bit.ly, goog.le, etc.,), which means [!DNL Marketo Measure] doesn't see the long, resolved URL and [!DNL Marketo Measure] needs to add tracking parameters to a resolved URL. In order to get around that issue, [!DNL Marketo Measure] looks for shortened URLs prior to re-creating an ad, expands the URL, then creates the new ad with the resolved URL and all of its parameters, allowing [!DNL Marketo Measure] to add tags. Creating a new ad will erase ads history (impressions, clicks, shares), hence the need for permission to tag shortened URLs.
 
 If you heavily use shortened URLs, this could severely impact your creatives. We recommend that you no longer use shortened URLs so that [!DNL Marketo Measure] can tag the landing pages without having to create new ads and erase Ad History.
 
-**The Process**
+### The Process
 
 Let's start with some examples. Let's say we have....
 
@@ -99,7 +100,7 @@ Creative B : Share 234\
 Creative C : Share 234\
 Creative D : Share 234
 
-![Diagram showing four creatives with their associated shares before auto-tagging process](assets/two.png)
+![](assets/five-five-1.png)
 
 `1)` [!DNL Marketo Measure] will first look through all Campaigns, Creatives and Shares with an "Active" status. [!DNL Marketo Measure] will not tag paused, archived, or cancelled ads. If an ad was paused, then set to [!UICONTROL active], we will tag it once it's active again. If we can find a unique Share, meaning it's not used across multiple Creatives or Campaigns (e.g., Creative A : Share 123), [!DNL Marketo Measure] will add our custom parameter `>> ?_bl={creativeId}` to the share URL.
 
@@ -112,19 +113,16 @@ Creative D : Share 234
 `5)` [!DNL Marketo Measure] will have to regularly check that Shares do not get shared and if they do, we will restart the process at step 2 above.
 
 >[!NOTE]
+>
 >Implementing this will mean that our customers will lose the ads history of the Creative B : Share 234, Creative C : Share 234 and Creative D : Share 234 because it now gets recreated with Creative E : Share 345, Share F : Share 456, and Creative G : Share 567 respectively.
 
-![Diagram showing new creatives with unique shares created after auto-tagging and archiving process](assets/three.png)
+![](assets/four-four-1.png)
 
 ## How It Works: Lead Gen Forms {#how-it-works-lead-gen-forms}
-
-**[!DNL LinkedIn's] Unique Auto-Tagging Requirements**
 
 [!DNL Marketo Measure] can help track your [!DNL LinkedIn] campaign performance by auto-tagging your landing pages.
 
 [!DNL Marketo Measure] will search for creatives with a unique LinkedIn Share and add a `?_bl={creativeId}` parameter to the end of it.
-
-**The Process**
 
 Through [!DNL LinkedIn's] Ad Form API and Ad Form Response API, we are able to gather form submission data for an ad account and associate the email address to a lead from the CRM or Marketo.
 
@@ -133,9 +131,9 @@ LinkedIn forms may contain multiple email address. When we download form respons
 Regardless of Campaign or Creative status, all Form Responses will result in a touchpoint. [!DNL Marketo Measure] has a 90-day lookback restriction, so [!DNL Marketo Measure] is unable to access form responses older than 90 days, but the longer that the [!DNL Marketo Measure] and [!DNL LinkedIn] integration is enabled, the more Lead Gen Form touchpoints will be visible through [!DNL Marketo Measure].
 
 >[!NOTE]
+>
 >LinkedIn Costs are still downloaded as part of Sponsored Content Campaigns.
 
-**Tracking Lead Gen Forms in CRM or Marketo**
 
 Before the [!DNL Marketo Measure] and LinkedIn Lead Gen Forms Integration existed, it was common practice for customers to push their form submissions to a Marketo Program and/or CRM Campaign to track the forms and receive attribution on those activities. Once the Lead Gen Forms setting is enabled, we want to make sure those form submissions aren't double counted. Check the following:
 
@@ -144,107 +142,108 @@ Before the [!DNL Marketo Measure] and LinkedIn Lead Gen Forms Integration existe
 * Update any related CRM Campaign rules
 
 >[!NOTE]
+>
 >The LinkedIn API has a 90-day lookback limitation, so if you are using Marketo or CRM rules, it is recommended that you set the end date on the rule to 90 days prior to the date you enabled the integration in [!DNL Marketo Measure].
 
 ## Touchpoint Details {#touchpoint-details}
 
 After [!DNL Marketo Measure] has successfully tagged your landing page on the LinkedIn creative, you are able to view the resolved ads data on the touchpoint. Here's the mapping of data values that you should expect to see:
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th style="width:30%">Touchpoint Field</th>
-   <th>Sample Value</th>
-  </tr>
-  <tr>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th style="width:30%">Touchpoint Field</th> 
+   <th>Sample Value</th> 
+  </tr> 
+  <tr> 
    <td>Ad Id</td>
    <td>84186224</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Ad Content</td>
    <td>copy-1-image-2-man 95% of #B2B marketers consider demand creation strategy to be successful. Learn more: [!DNL https]://lnkd.in/jgdi50vKrgv</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Ad Group Id</td>
    <td>(blank)</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Ad Group Name</td>
    <td>(blank)</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Ad Campaign Id</td>
    <td>138949954</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Ad Campaign Name</td>
    <td>SU - COM Accounts - Demand Skills</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Ad Destination URL <b>&#42;</b></td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
-  </tr>
-  <tr>
-   <td>Form URL</td>
-   <td>info.bizible.com/demo</td>
-  </tr>
-  <tr>
-   <td>Form URL - Raw</td>
-   <td>info.bizible.com/demo</td>
-  </tr>
-  <tr>
-   <td>Keyword Id</td>
-   <td>(blank)</td>
-  </tr>
-  <tr>
-   <td>Keyword Match Type</td>
-   <td>(blank)</td>
-  </tr>
-  <tr>
-   <td>Landing Page</td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td>
-  </tr>
-  <tr>
-   <td>Landing Page - Raw</td>
-   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td>
-  </tr>
-  <tr>
-   <td>Marketing Channel</td>
-   <td>Paid Social</td>
-  </tr>
-  <tr>
-   <td>Marketing Channel - Path</td>
-   <td>Paid Social.LinkedIn</td>
-  </tr>
-  <tr>
-   <td>Medium</td>
-   <td>"cpc" or "Lead Gen Form"</td>
-  </tr>
-  <tr>
-   <td>Referrer Page</td>
-   <td>www.linkedin.com/</td>
-  </tr>
-  <tr>
-   <td>Referrer Page - Raw</td>
-   <td>www.linkedin.com/</td>
-  </tr>
-  <tr>
-   <td>Serach Phrase</td>
-   <td>(blank)</td>
-  </tr>
-  <tr>
-   <td>Touchpoint Type</td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
+  </tr> 
+  <tr> 
+   <td>Form URL</td> 
+   <td>info.bizible.com/demo</td> 
+  </tr> 
+  <tr> 
+   <td>Form URL - Raw</td> 
+   <td>info.bizible.com/demo</td> 
+  </tr> 
+  <tr> 
+   <td>Keyword Id</td> 
+   <td>(blank)</td> 
+  </tr> 
+  <tr> 
+   <td>Keyword Match Type</td> 
+   <td>(blank)</td> 
+  </tr> 
+  <tr> 
+   <td>Landing Page</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
+  </tr> 
+  <tr> 
+   <td>Landing Page - Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
+  </tr> 
+  <tr> 
+   <td>Marketing Channel</td> 
+   <td>Paid Social</td> 
+  </tr> 
+  <tr> 
+   <td>Marketing Channel - Path</td> 
+   <td>Paid Social.LinkedIn</td> 
+  </tr> 
+  <tr> 
+   <td>Medium</td> 
+   <td>"cpc" or "Lead Gen Form"</td> 
+  </tr> 
+  <tr> 
+   <td>Referrer Page</td> 
+   <td>www.linkedin.com/</td> 
+  </tr> 
+  <tr> 
+   <td>Referrer Page - Raw</td> 
+   <td>www.linkedin.com/</td> 
+  </tr> 
+  <tr> 
+   <td>Serach Phrase</td> 
+   <td>(blank)</td> 
+  </tr> 
+  <tr> 
+   <td>Touchpoint Type</td> 
    <td>Web Form</td>
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Touchpoint Source</td>
    <td>LinkedIn</td>
-  </tr>
- </tbody>
+  </tr> 
+ </tbody> 
 </table>
 
 **&#42;** _"Ad Destination URL" field is only populated for Sponsored Content. It is not populated for Lead Gen Forms._
@@ -257,7 +256,7 @@ Because [!DNL Marketo Measure] has a direct integration with [!DNL LinkedIn], we
 
 As with other ad integrations, [!DNL Marketo Measure] has defined a marketing channel rule to place all [!DNL LinkedIn] campaigns, creatives, and cost. To use the rule, the customer will want to insert a new row for their Paid [!DNL LinkedIn] efforts. It can be a new or existing channel. In the Referrer column, use the definition "[[!DNL LinkedIn] Paid]" which [!DNL Marketo Measure] has defined as any touchpoint with a [!DNL Marketo Measure] tag.
 
-![Marketing channel rule configuration showing LinkedIn Paid channel definition with referrer column](assets/four.png)
+![](assets/one-one-1.png)
 
 ## [!DNL Marketo Measure] Discover {#marketo-measure-discover}
 
@@ -309,7 +308,7 @@ LinkedIn requires that all ads that are created or modified go through the norma
 
 Both. The [!DNL Marketo Measure] integration allows us to tag the destination URL from the click through image in the ad, but also automatically updates the shortened URL in the ad description.
 
-![LinkedIn ad showing both destination URL and shortened URL in description that get tagged](assets/five.png)
+![](assets/select-type-1.png)
 
 **I've connected my [!DNL LinkedIn ads] account. Why is not [!DNL Marketo Measure] tagging my links?**
 
@@ -319,7 +318,7 @@ The connected [!DNL LinkedIn] user needs to have proper editing access, which me
 
 The share ID is not provided in a [!DNL LinkedIn] report, so there is not a clear and obvious way to check for creative-to-share mappings. If you suspect a creative might be a copy, you can manually check by opening the ad from within your [!DNL LinkedIn] Campaign manager--this opens the ad in a new tab and you can find the share ID in the URL.
 
-![LinkedIn Campaign Manager showing ad opened in new tab with share ID visible in URL](assets/six.png)
+![](assets/six-six-1.png)
 
 ## Lead Gen Forms FAQ {#lead-gen-forms-faq}
 

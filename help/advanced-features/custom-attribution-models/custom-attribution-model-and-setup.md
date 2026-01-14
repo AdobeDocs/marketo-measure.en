@@ -1,10 +1,9 @@
 ---
-description: Custom Attribution Model and Setup - [!DNL Marketo Measure]
+description: "Custom Attribution Model and Setup guidance for Marketo Measure users"
 title: Custom Attribution Model and Setup
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
 ---
-
 # Custom Attribution Model and Setup {#custom-attribution-model-and-setup}
 
 See below for an overview of the [!DNL Marketo Measure] custom attribution model and how to set it up.
@@ -24,11 +23,13 @@ The [!DNL Marketo Measure] Custom Attribution model allows users to choose which
    Next, choose which Leads/Contacts and Opportunity stages to include by selecting the **[!UICONTROL Include in Model]** box.
 
    >[!NOTE]
+   >
    >You are allowed up to six custom stages (not including the defaults: FT, LC, OC, Closed).
 
-   ![ 1](assets/1-1.png)
+   ![](assets/custom-models-1.png)
 
    >[!NOTE]
+   >
    >_All_ Leads/Contacts and Opportunity stages will appear here, even if the stage is inactive or no longer used in [!DNL Salesforce]. If you want these stages removed, you will need to hard delete them in [!DNL Salesforce].
 
    When you've selected your stages, be sure to click the **[!UICONTROL Save & Process]** button at the bottom of the page. The stages will now appear in the **[!UICONTROL Attribution Settings]** tab and you will be able to assign attribution percentages to each stage. Custom stages will also be displayed in the Marketing Performance Suite as a Lead or Opportunity stage within the Demand Waterfall.
@@ -37,9 +38,10 @@ The [!DNL Marketo Measure] Custom Attribution model allows users to choose which
 
    In the example below, a custom "MQL" stage is defined using a date field. The rule simply states that if the MQL Date field is not empty, it should be considered an MQL and should be included in the custom model. It is also important to sort the custom stages once they have been created so that it follows the progression of your sales cycle.
 
-   ![ 1](assets/2-1.png)
+   ![](assets/custom-models-10.png)
 
    >[!CAUTION]
+   >
    >Don't forget to enable history tracking for custom fields.
 
 If a custom field is used in your custom model, Field History tracking MUST be enabled in the CRM. For instructions  to enable field history tracking, refer to [Custom Model Setup: Enable Field History Tracking](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
@@ -52,13 +54,13 @@ If a custom field is used in your custom model, Field History tracking MUST be e
 
    To the left of the _Custom_ column is the **[!DNL Marketo Measure] Machine Learning model**. The Machine Learning model calculates attribution weighting based on the relative importance to winning a deal depending on what happened at each custom stage. For more information about the Machine Learning model, refer to [Machine Learning Model FAQ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md).
 
-   ![Attribution settings table showing custom model weighting](assets/3.png)
+   ![](assets/custom-models-2.png)
 
 ## Touchpoint Positions {#touchpoint-positions}
 
 After the attribution percentages have been saved and processed, touchpoints will be updated and receive their new stages and positions. The touchpoint that occurred most recently, prior to a stage transition, will receive credit for that stage (as shown below). The custom weighting and revenue gets redistributed as well.
 
-![Touchpoint positions with custom stages applied](assets/4.png)
+![](assets/custom-models-3.png)
 
 ## The Difference Between Funnel Stages and Custom Model Stages {#the-difference-between-funnel-stages-and-custom-model-stages}
 
@@ -68,7 +70,8 @@ Funnel Stages will still get tracked as Touchpoints and will still appear as Tou
 
 As you can see below, we've included the Diligence stage as apart of our Funnel Stages. This means we will have Touchpoints where the position contains Diligence, but those Touchpoints will only receive Middle Touch attribution credit if Custom Model is not enabled (at most 10%).
 
-![Marketing funnel including custom Diligence stage touchpoints](assets/5.png)
+![](assets/custom-models-7.png)
 
 >[!NOTE]
+>
 >The behavior for BAT custom models is to divide custom model middle touch percent evenly across other stages, provided there are no middle touches.

@@ -1,10 +1,9 @@
 ---
-description: Learn about Account-Based Marketing (ABM) and how Adobe Marketo Measure helps Marketing and Sales teams execute successful ABM strategies.
+description: "Learn about Account-Based Marketing (ABM) and how Adobe Marketo Measure helps Marketing and Sales teams execute successful ABM strategies."
 title: Account Based Marketing Overview
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 ---
-
 # Account Based Marketing Overview {#account-based-marketing-overview}
 
 The following sections provide a brief overview of ABM, the components of the [!DNL Marketo Measure] ABM feature, and how to add it to your [!DNL Salesforce] page layout. To read more about ABM, review Adobe's [ABM blog](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"}.
@@ -21,6 +20,7 @@ For our Account Based Marketing model to begin to populate in your CRM, [!DNL Ma
 * The other side of the coin, your CRM needs at least 25 Accounts without any Closed Won Opportunities (all opps must either be in an "Open" stage category, or in a "Closed Lost" category) - this helps us gauge what makes a lower grade Account in your organization.
 
 >[!NOTE]
+>
 >The above "bad" accounts must be open for at least 12 months without accumulating a Closed Won opp; that is the basic guideline for whether an Opp has gone stale for the model's purposes.
 
 ## Lead-to-Account Mapping {#lead-to-account-mapping}
@@ -39,6 +39,7 @@ Lead-to-account mapping is a crucial part of an effective ABM approach. With lea
 The Accounts' Leads/Contacts are validated by their email/website domains and matched to the lead email/website's domain or subdomain. The Account with the most matches is used.
 
 >[!NOTE]
+>
 >Each Lead tries to get matched to an Account in the preferential order of methods above. Once a match is made, the AccountId is immediately set on the Lead and won't be matched using another method.
 
 ## Predictive Engagement Score {#predictive-engagement-score}
@@ -58,6 +59,7 @@ There are many components that go into the algorithm that calculates the PES. Re
 * How likely to be closed lost/won
 
 >[!NOTE]
+>
 >You may notice a grade of "N/A" or "-" (the dash symbol) in your Predictive Engagement Score for some Accounts.
 
 _A grade of "N/A" simply means that there is not sufficient data on that account for the model to generate a true grade - with more data, a grade is given eventually._
@@ -70,16 +72,16 @@ To begin using the PES, you must add the PES field and Related List to the appro
 1. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Accounts]** > **[!UICONTROL Page Layout]**. Then select the page layout that you'd like to edit.
 1. Go to [!UICONTROL Fields] and move the field "Predictive Engagement Score" into your Account Information section.
 
-   ![Account page layout showing Predictive Engagement Score field](assets/1.png)
+   ![](assets/account-marketing-3.png)
 
 1. Finally, go to [!UICONTROL Related Lists] and move the "Leads" Related List into your page layout.
 
-   ![Adding Leads related list to Account page layout](assets/2.png)
+   ![](assets/account-marketing-4.jpg)
 
 1. Next, navigate to **[!UICONTROL Setup]** > **[!UICONTROL Customize]** > **[!UICONTROL Leads]** > **[!UICONTROL Page Layout]** and select the appropriate page layouts you would like to edit.
 1. Click **[!UICONTROL Fields]** and add the [!UICONTROL Account] field where you see fit on the page.
 
-   ![Lead page layout with Account field added](assets/3.png)
+   ![](assets/account-marketing-5.png)
 
 You're all set!
 

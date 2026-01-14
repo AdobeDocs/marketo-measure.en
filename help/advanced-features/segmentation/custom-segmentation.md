@@ -1,10 +1,9 @@
 ---
-description: Custom Segmentation - [!DNL Marketo Measure]
+description: "Custom Segmentation guidance for Marketo Measure users"
 title: Custom Segmentation
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
 ---
-
 # Custom Segmentation {#custom-segmentation}
 
 Segments provide the ability to filter data in the [!DNL Marketo Measure] ROI Dashboard in order to further drill down on a specific data set. For example, a segment could be defined by geographic territory or a grading system.
@@ -20,6 +19,7 @@ Custom Segmentation can be used to see data for a particular record type. Once y
 **How do I set it up?**
 
 >[!NOTE]
+>
 >Updating segment rules will re-process historical data.
 
 Step 1 - Determine what information you want to see.
@@ -36,7 +36,7 @@ Step 3 - Understand the components.
 
 * Use this legend to understand the various icons found on this page
 
-![Segments legend showing icons used in the admin](assets/1.png)
+![](assets/segmentation-segmentation-2.png)
 
 Step 4 - Add Filter Rules.
 
@@ -44,13 +44,14 @@ Step 4 - Add Filter Rules.
 * Click the plus sign to add a segment
 * Enter a Segment name. For example, you could have one segment for New Business, Partners, Renewal, or Upsell
 
-![Adding a segment category and name in Marketo Measure](assets/2.png)
+![](assets/segmentation-segmentation-3.png)
 
 * Click the plus icon to reveal the rule input fields. The options in the Field picklist pulls fields directly from your CRM
 
-![Rule input fields for defining a segment filter](assets/3.png)
+![](assets/segmentation-segmentation-4.png)
 
 >[!NOTE]
+>
 >Formula fields cannot be used within your rules and will not appear in the picklist. Because formulas calculate in the background and do not modify a record, [!DNL Marketo Measure] cannot detect whether a record fits a rule or not.
 
 * The [!UICONTROL Value] option is not a drop down and its value must be entered manually. Be sure to check the values in your Salesforce org
@@ -69,7 +70,7 @@ If rules aren't set up for both Leads/Contacts and Opportunities, you will see o
 
 When you are done, click [!UICONTROL Save] first, double check everything, and then click [!UICONTROL Save and Process]. Remember that you cannot edit your settings for seven days after you save and process because [!DNL Marketo Measure] is reformatting your data during this time.
 
-If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+If you are a Marketo Measure Ultimate customer and have set your Default Dashboard Object as Contact, do not use the below two fields specific to Lead ([learn more](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}). 
 
 * b2b.personStatus
 * b2b.isConverted

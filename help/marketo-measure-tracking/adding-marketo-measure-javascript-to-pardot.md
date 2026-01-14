@@ -1,10 +1,9 @@
 ---
-description: Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot] - [!DNL Marketo Measure]
+description: "Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot] guidance for Marketo Measure users"
 title: Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
 ---
-
 # Adding [!DNL Marketo Measure] JavaScript to [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
 [!DNL Pardot] forms require additional handling within the form template beyond putting script on the site for [!DNL Marketo Measure] to recognize form submissions. The process is simple; it only requires placing the [!DNL Marketo Measure] tracking script into the [!DNL Pardot] form template.
@@ -19,11 +18,11 @@ Once you've logged into your [!DNL Pardot] account, follow the steps below.
 
 1. Select **[!UICONTROL Layout Template]**.
 
-   ![ 3](assets/1-3.png)
+   ![](assets/adding-providers-4.png)
 
 1. Determine the appropriate Layout Template and click **[!UICONTROL Edit]** to the right.
 
-   ![ 1](assets/2-1.png)
+   ![](assets/adding-pages-1.png)
 
 1. Copy and paste the [!DNL Marketo Measure] JavaScript code right before the close header tag on your HTML page.
 

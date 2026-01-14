@@ -1,10 +1,9 @@
 ---
-description: Using a Custom Revenue Amount Field - [!DNL Marketo Measure]
+description: "Using a Custom Revenue Amount Field guidance for Marketo Measure users"
 title: Using a Custom Revenue Amount Field
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
 ---
-
 # Using a Custom Revenue Amount Field {#using-a-custom-revenue-amount-field}
 
 By default, Buyer Attribution Touchpoints will pull the Opportunity Amount from one of two fields:
@@ -18,7 +17,7 @@ Starting off, we will need the following information:
 
 * API Name of your Amount field
 
-From here, we'll start creating the workflow.
+From here, we'll start creating the workflow. 
 
 ## Create the Workflow in Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
@@ -26,48 +25,48 @@ The following steps are for Salesforce Lightning users. If you still use Salesfo
 
 1. From Setup, type "Flows" into the Quick Find Box, and select **[!UICONTROL Flows]** to start Flow Builder. From the right panel click the **[!UICONTROL New Flow]** button.
 
-   ![Salesforce Flow Builder with New Flow button](assets/using-a-custom-revenue-amount-field-1.png)
-
-1. Select **[!UICONTROL Record-Triggered Flow]** and click **[!UICONTROL Create]** on the bottom right.
-
-   ![Flow type selection with Record-Triggered Flow option](assets/using-a-custom-revenue-amount-field-2.png)
+   ![](assets/custom-amount-1.png) 
+ 
+1. Select **[!UICONTROL Record-Triggered Flow]** and click **[!UICONTROL Create]** on the bottom right. 
+ 
+   ![](assets/custom-amount-10.png) 
 
 1. In the Configure Start window, select the Opportunity object. From the [!UICONTROL Configure Trigger] section, select **[!UICONTROL A record is created or updated]**.
+ 
+   ![](assets/custom-amount-11.png) 
 
-   ![Configure Start window with Opportunity object selected](assets/using-a-custom-revenue-amount-field-3.png)
-
-1. In the Set Entry Conditions section, under [!UICONTROL Condition Requirements], select **[!UICONTROL Custom Condition Logic Is Met]**.
-   * From the search field, select your custom Amount field.
-   * Set the operator as **Is Null**, and the value as **[!UICONTROL False]**.
+1. In the Set Entry Conditions section, under [!UICONTROL Condition Requirements], select **[!UICONTROL Custom Condition Logic Is Met]**. 
+   * From the search field, select your custom Amount field. 
+   * Set the operator as **Is Null**, and the value as **[!UICONTROL False]**. 
    * Set the evaluation criteria to **[!UICONTROL Every time a record is updated and meets the condition requirements]**.
 
-   ![Entry conditions configuration with custom condition logic](assets/using-a-custom-revenue-amount-field-4.png)
+   ![](assets/custom-amount-12.png) 
+ 
+1. Under the "Optimize the Flow for" section, select **[!UICONTROL Fast Field Updates]**. Click **[!UICONTROL Done]** on the bottom right. 
 
-1. Under the "Optimize the Flow for" section, select **[!UICONTROL Fast Field Updates]**. Click **[!UICONTROL Done]** on the bottom right.
-
-   ![Optimize Flow settings with Fast Field Updates selected](assets/using-a-custom-revenue-amount-field-5.png)
-
+   ![](assets/custom-amount-13.png) 
+ 
 1. To add the element, click the plus (+) icon and select **[!UICONTROL Update Triggering Record]**.
 
-   ![Flow element menu with Update Triggering Record option](assets/using-a-custom-revenue-amount-field-6.png)
+   ![](assets/custom-amount-14.png) 
+ 
+1. In the New Update Records window, enter the following: 
 
-1. In the New Update Records window, enter the following:
-
-   * Enter a label&mdash;the API name will be generated automatically
-   * Under "How to Find Records to Update and Set Their Values," select **[!UICONTROL Use the opportunity record that triggered the flow]**.
+   * Enter a label&mdash;the API name will be generated automatically 
+   * Under "How to Find Records to Update and Set Their Values," select **[!UICONTROL Use the opportunity record that triggered the flow]**. 
    * In the "[!UICONTROL Set Filter Conditions]" section, select **[!UICONTROL Always Update Record]** as a Condition Requirement to Update Record.
-   * In the "[!UICONTROL Set Field Values for the Campaign Record]," from field, select the Marketo Measure Opportunity Amount (**bizible2__Bizible_Opportunity_Amount__c**) and from value. Then select your custom Amount field.
+   * In "[!UICONTROL Set Field Values for the Campaign Record]," from field, select the Marketo Measure Opportunity Amount and from value. Then select your custom Amount field.
    * Click **[!UICONTROL Done]**.
 
-   ![Update Records configuration with field value mappings](assets/using-a-custom-revenue-amount-field-7.png)
+   ![](assets/custom-amount-15.png) 
 
 1. Click **[!UICONTROL Save]**. A pop-up will appear. Type "Flow Label" in the Save the Flow window (the Flow API Name will be generated automatically). Click **[!UICONTROL Save]** again.
-
-   ![Save the Flow dialog with label field](assets/using-a-custom-revenue-amount-field-8.png)
+ 
+   ![](assets/custom-amount-2.png) 
 
 1. Click the **[!UICONTROL Activate]** button to activate the flow.
 
-   ![Flow summary page with Activate button](assets/using-a-custom-revenue-amount-field-9.png)
+   ![](assets/custom-amount-3.png) 
 
 ## Create the Workflow in Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
@@ -75,29 +74,29 @@ The following steps are for Salesforce Classic users. If you have made the switc
 
 1. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Create]** > **[!UICONTROL Workflow & Approvals]** > **[!UICONTROL Workflow Rules]**.
 
-   ![Salesforce Classic navigation menu showing Workflow Rules](assets/using-a-custom-revenue-amount-field-10.png)
+   ![](assets/custom-amount-4.png)
 
 1. Select **[!UICONTROL New Rule]**, set the object as "Opportunity" and click **[!UICONTROL Next]**.
 
-   ![Workflow Rules page with New Rule button](assets/using-a-custom-revenue-amount-field-11.png)
+   ![](assets/custom-amount-5.png)
 
-   ![Object selection for workflow rule set to Opportunity](assets/using-a-custom-revenue-amount-field-12.png)
+   ![](assets/custom-amount-6.png)
 
 1. Configure the workflow. Set the Rule Name as "Update [!DNL Marketo Measure] Opportunity Amount." Set the Evaluation Criteria to "Created, and every time it's edited." For the Rule Criteria, select your custom Amount field and select the Operator [!UICONTROL as "Not Equal To"] and leave the "Value" field blank.
 
-   ![Workflow configuration with rule criteria and evaluation settings](assets/using-a-custom-revenue-amount-field-13.png)
+   ![](assets/custom-amount-7.png)
 
 1. Add a workflow action. Set this picklist to "[!UICONTROL New Field Update]."
-   ![Add Workflow Action dialog with New Field Update option](assets/using-a-custom-revenue-amount-field-14.png)
+   ![](assets/custom-amount-8.png)
 
 1. Here you will fill out field information. In the "Name" field, we recommend using this naming: "[!DNL Marketo Measure] Opp Amount." The "Unique Name" will automatically populate based off the "Name" field. In the "Field to Update" picklist select "[!DNL Marketo Measure] Opportunity Amount." After selecting the field, select the "Re-Evaulate Workflow Rules after Field Change" box. In the "Specify New Field Value," select "Use a formula to set the new value." In the empty box, drop the API name of your custom Amount field. Click **[!UICONTROL Save]**.
 
-   ![Field Update configuration showing name, field mapping, and formula settings](assets/using-a-custom-revenue-amount-field-15.png)
+   ![](assets/custom-amount-9.png)
 
 1. you will be brought back to a roll-up page for your workflow, be sure to "Activate" and you will be good to go. To activate, click **[!UICONTROL Edit]** next to your new workflow and then click **[!UICONTROL Activate]**.
 
    Once you've completed these steps, the opportunities will need to be updated in order to trigger the workflow to have the new value from the [!UICONTROL custom opportunity] field.
 
-   This can be accomplished by running your opportunities through Data Loader within SFDC. Find details on using Data Loader in [this article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}.
+   This can be accomplished by running your opportunities through Data Loader within SFDC. Find details on using Data Loader in [this article](/help/advanced-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
 If there are any questions along the way, do not hesitate to reach out to the Adobe Account Team (your Account Manager) or [[!DNL Marketo] Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

@@ -1,10 +1,9 @@
 ---
-description: Adding [!DNL Marketo Measure] Script to Lightbox Forms - [!DNL Marketo Measure]
+description: "Adding [!DNL Marketo Measure] Script to Lightbox Forms guidance for Marketo Measure users"
 title: Adding [!DNL Marketo Measure] Script to Lightbox Forms
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
 ---
-
 # Adding [!DNL Marketo Measure] Script to Lightbox Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
 Learn how to properly add the [!DNL Marketo Measure] JavaScript to a form within a lightbox.
@@ -15,11 +14,11 @@ Since a form within a lightbox is basically a form within an iFrame, the script 
 
 First, locate the iFrame the [!UICONTROL lightbox] form lives in.
 
-![Locating the lightbox form iFrame in the page source](assets/1.png)
+![](assets/adding-providers-8.png)
 
 Next, place the [!DNL Marketo Measure] JavaScript within the iFrame.
 
-![Marketo Measure script placed within the lightbox iFrame](assets/2.png)
+![](assets/adding-providers-5.png)
 
 Finally, when the JavaScript is added, validate form submissions are being tracked by following these directions:
 

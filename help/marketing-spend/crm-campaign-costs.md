@@ -1,10 +1,9 @@
 ---
-description: CRM Campaign Costs
+description: "CRM Campaign Costs guidance for Marketo Measure users"
 title: CRM Campaign Costs
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
 ---
-
 # CRM Campaign Costs {#crm-campaign-costs}
 
 Most [!DNL Marketo Measure] customers use CRM campaigns to track offline marketing activities. Marketers who use these campaigns also monitor costs within the CRM. This feature makes it easier on marketers by allowing [!DNL Marketo Measure] to read those costs and apply them to the reported Marketing Spend within [!DNL Marketo Measure]. To date, customers have had to manually enter costs for each campaign per month, but with the necessary information provided to[!DNL Marketo Measure], users can automate this process so marketers can spend more time analyzing their spend and ROI.
@@ -25,7 +24,7 @@ If any of the 3 fields are missing a value, [!DNL Marketo Measure] will not impo
 
 For [!DNL Marketo Measure] to determine the distribution of a campaign across months, the start and end date of the campaign is used to distribute the amount evenly per day.
 
-![CRM campaign cost distribution example by month](assets/1.jpg)
+![](assets/spend-management-3.jpg)
 
 In this example, a campaign lasts 109 days, so with a total cost of $18,000, the spend per day comes to ~$165.14.
 

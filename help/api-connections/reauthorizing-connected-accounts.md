@@ -1,10 +1,10 @@
 ---
-description: Reauthorizing Connected Accounts - [!DNL Marketo Measure]
+description: "Reauthorizing Connected Accounts guidance for Marketo Measure users"
 title: Reauthorizing Connected Accounts
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
+hidefromtoc: yes
 ---
-
 # Reauthorizing Connected Accounts {#reauthorizing-connected-accounts}
 
 When an account becomes disconnected from your [!DNL Marketo Measure] account, the platform's status will change to 'Authorization Required' and display a red key icon.
@@ -13,7 +13,7 @@ If your ad platform becomes disconnected, [!DNL Marketo Measure] will not be abl
 
 If your CRM platform becomes disconnected, [!DNL Marketo Measure] will not be able to update [!DNL Marketo Measure] data or push any new touchpoints into your org. Once the CRM connection has been re-established, [!DNL Marketo Measure] will push any data that was missed while the account was disconnected.
 
-![ 1](assets/1-1.png)
+![](assets/utilizing-connections-7.png)
 
 ## Re-Authorizing Disconnected accounts {#re-authorizing-disconnected-accounts}
 

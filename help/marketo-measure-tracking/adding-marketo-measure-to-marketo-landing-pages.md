@@ -1,15 +1,15 @@
 ---
-description: Adding [!DNL Marketo Measure] to [!DNL Marketo] Landing Pages - [!DNL Marketo Measure]
+description: "Adding [!DNL Marketo Measure] to Marketo Landing Pages guidance for Marketo Measure users"
 title: Adding [!DNL Marketo Measure] to Marketo Landing Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
 ---
-
 # Adding [!DNL Marketo Measure] to Marketo Landing Pages {#adding-marketo-measure-to-marketo-landing-pages}
 
 Learn how to add tracking to [!DNL Marketo Engage] Landing Pages as they require additional handling. [!DNL Marketo Measure] JavaScript must be in place on both the Landing Page and the [!DNL Marketo Engage] form itself. To do this, you need to load the [!DNL Marketo Measure] JavaScript into [!DNL Marketo Engage] as explained in the following directions.
 
 >[!NOTE]
+>
 >If you are deploying the JavaScript through a tag management provider such as [!DNL Google Tag Manager], you do not need to manually add [!DNL Marketo Measure] JS to [!DNL Marketo Engage].
 
 ## How to add [!DNL Marketo Measure] Script to [!DNL Marketo Engage] Landing Pages {#how-to-add-marketo-measure-script-to-marketo-engage-landing-pages}
@@ -25,7 +25,7 @@ Example in screenshot below
 
 1. Click **[!UICONTROL Save]**.
 
-   ![Marketo Landing Page editor with Bizible script added to the head](assets/adding-bizible-to-marketo-landing-pages-1.png)
+   ![](assets/adding-pages-1.png)
 
 ## Additional Notes {#additional-notes}
 

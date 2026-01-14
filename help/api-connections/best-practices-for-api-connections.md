@@ -1,10 +1,9 @@
 ---
-description: Best Practices for API Connections - [!DNL Marketo Measure]
+description: "Best Practices for API Connections guidance for Marketo Measure users"
 title: Best Practices for API Connections
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
 ---
-
 # Best Practices for API Connections {#best-practices-for-api-connections}
 
 ## Overview {#overview}
@@ -34,6 +33,7 @@ By following our best practice recommendation, the [!DNL Marketo Measure] [!DNL 
 * Download ad cost information across all active [!DNL Facebook] ads
 
 >[!NOTE]
+>
 >There is no tracking template for [!DNL Facebook], the API relies on the auto-tagged (_bf) parameter to gather the ad details.
 
 **AdWords**: Implement a tracking template at the account level and enable auto-tagging
@@ -50,7 +50,6 @@ By following our best practice recommendation, the [!DNL Marketo Measure] AdWord
 There is no risk of losing ad history when setting up your [!DNL Bing] API connection, unlike some of our other API connections.
 
 By following our best practice recommendation, the [!DNL Marketo Measure] Bing API will be able to:
-
 * Auto-tag all Bing Ads with the following parameters of `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
 * Download ad cost information across all active Bing ads
 
@@ -64,6 +63,7 @@ By following our best practice recommendation, the [!DNL Marketo Measure] Linked
 * Download ad cost information across all active and supported [!DNL LinkedIn] ads
 
 >[!NOTE]
+>
 >There is no tracking template for [!DNL LinkedIn], the API relies on the auto-tagged (_bl) parameter to gather all possible ad details.
 
 ## Best Practice for Maintenance {#best-practice-for-maintenance}
@@ -81,10 +81,11 @@ Reasons for disconnection and reauthorization include...
 If your team has experienced any of the above scenarios, check your API connections in the [!DNL Marketo Measure] app to make sure they do not need to be reauthorized.
 
 >[!MORELIKETHIS]
-> [Integrated Ad Platforms (APIs)](/help/api-connections/integrated-ad-platforms.md)
-> [How Bid Management Tools Affect [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] API Parameters Explained](/help/api-connections/marketo-measure-parameters.md)
-> [Facebook API Overview](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Integration Overview](/help/api-connections/linkedin-integration.md)
-> [AdWords Integration Overview](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Reauthorizing Connected API Accounts](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [Integrated Ad Platforms (APIs)](/help/api-connections/integrated-ad-platforms.md)
+>* [How Bid Management Tools Affect [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] API Parameters Explained](/help/api-connections/marketo-measure-parameters.md)
+>* [Facebook API Overview](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn] Integration Overview](/help/api-connections/linkedin-integration.md)
+>* [AdWords Integration Overview](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Reauthorizing Connected API Accounts](/help/api-connections/reauthorizing-connected-accounts.md)

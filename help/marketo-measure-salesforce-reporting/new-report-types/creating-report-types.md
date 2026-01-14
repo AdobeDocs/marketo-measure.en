@@ -1,13 +1,14 @@
 ---
-description: Creating Custom [!DNL Marketo Measure] Report Types
+description: "Creating Custom [!DNL Marketo Measure] Report Types guidance for Marketo Measure users"
 title: Creating Custom [!DNL Marketo Measure] Report Types
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
+hidefromtoc: yes
 ---
-
 # Creating Custom [!DNL Marketo Measure] Report Types {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
+>
 >You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
 
 Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types. There are three different report types we recommend creating: Leads with Buyer Touchpoints (Custom), [!DNL Marketo Measure] Person with Buyer Touchpoints (Custom), Opportunities with Buyer Attribution Touchpoint (Custom).
@@ -16,7 +17,7 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
 
 1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**.
 
-   ![Salesforce Setup menu navigation to New Custom Report Types](assets/1.png)
+   ![](assets/new-types-1.png)
 
 1. Define the Custom Report Type.
 
@@ -25,7 +26,7 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
     * [!UICONTROL Store in Category]: Other Reports
     * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Deployed
 
-   ![Custom report type definition form with Lead as primary object](assets/2.png)
+   ![](assets/new-types-10.jpg)
 
 1. Define the Object Relationships.
 
@@ -33,13 +34,13 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
     * Ensure that "[!UICONTROL Each A/B record must have at least one B/C]" record is selected
     * [!UICONTROL Save]
 
-   ![Object relationships diagram showing Lead to Person to Touchpoint connections](assets/3.png)
+   ![](assets/new-types-11.png)
 
 ## [!DNL Marketo Measure] Person with Buyer Touchpoints (Custom) {#marketo-measure-person-with-buyer-touchpoints-custom}
 
 1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**.
 
-   ![Salesforce Setup menu navigation to New Custom Report Types](assets/4.png)
+   ![](assets/new-types-12.png)
 
 1. Define the Custom Report Type.
 
@@ -48,7 +49,7 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
     * [!UICONTROL Store in Category]: Other Reports
     * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Deployed
 
-   ![Custom report type definition form with Marketo Measure Person as primary object](assets/5.png)
+   ![](assets/new-types-13.jpg)
 
 1. Define the Object Relationships.
 
@@ -56,13 +57,13 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
     * Ensure that "[!UICONTROL Each A record must have at least one B]" record is selected
     * [!UICONTROL Save]
 
-   ![Object relationships diagram showing Person to Touchpoint connection](assets/6.png)
+   ![](assets/new-types-9.png)
 
 ## Opportunities with Buyer Attribution Touchpoint (Custom) {#opportunities-with-buyer-attribution-touchpoint-custom}
 
 1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Build]** > **[!UICONTROL Report Types]** > **[!UICONTROL New Custom Report Types]**.
 
-   ![Salesforce Setup menu navigation to New Custom Report Types](assets/7.png)
+   ![](assets/new-types-8.png)
 
 1. Define the Custom Report Type.
 
@@ -71,7 +72,7 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
     * [!UICONTROL Store in Category]: Other Reports
     * [!UICONTROL Deployment] > [!UICONTROL Deployment Status]: Deployed
 
-   ![Custom report type definition form with Opportunities as primary object](assets/8.png)
+   ![](assets/new-types-14.jpg)
 
 1. Define the Object Relationships.
 
@@ -79,14 +80,14 @@ Learn how to create custom [!DNL Marketo Measure] [!DNL Salesforce] report types
     * Ensure that "[!UICONTROL Each A record must have at least one B]" record is selected
     * [!UICONTROL Save]
 
-   ![Object relationships diagram showing Opportunity to Attribution Touchpoint connection](assets/9.png)
+   ![](assets/new-types-15.png)
 
 ## Adding Custom Fields to Custom Report Types {#adding-custom-fields-to-custom-report-types}
 
 1. Once the reports are created, you will be redirected to an overview of the report type. Click **[!UICONTROL Edit Layout]**.
 
-   ![Report type overview screen with Edit Layout button](assets/10.png)
+   ![](assets/new-types-2.png)
 
 1. Ensure that the custom fields you wish to add to the report appear in the Field Layout Properties section. If there are any other fields you'd like to add, use the "[!UICONTROL Add fields related via lookup]" option.
 
-   ![Field Layout Properties section with available custom fields](assets/11.png)
+   ![](assets/new-types-3.png)

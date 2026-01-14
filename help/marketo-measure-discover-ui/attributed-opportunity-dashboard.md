@@ -1,10 +1,10 @@
 ---
-description: Attributed Opportunity Dashboard - [!DNL Marketo Measure] - Product
+description: "Covers the Attributed Opportunity dashboard that shows opportunity amounts and counts by channel subchannel and campaign over time"
 title: Attributed Opportunity Dashboard
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
+hidefromtoc: yes
 ---
-
 # Attributed Opportunity Dashboard {#attributed-opportunity-dashboard}
 
 The Attributed Opportunity Dashboard provides a comprehensive view of how marketing efforts contribute to both nascent and mature pipeline opportunities. Delve into the details of every open and closed opportunity attributable to your strategies, with the flexibility to filter by opportunity stage, underscoring the full scope of marketing's influence beyond closed deals.
@@ -31,13 +31,13 @@ Stacked bar chart displaying Total Attributed Opportunity Amount, segmented by C
 **Questions the chart answers**:
 
 * Which channels generated the most attributed opportunity amount each quarter?
-* What was the breakdown of attributed opportunity amount by channel last month?
+* What was the breakdown of attributed opportunity amount by channel last month? 
 
-![Attributed opportunity amount by channel over time chart](assets/attributed-opportunity-dashboard-1.png)
+![](assets/attributed-dashboard-3.png)
 
 ### Attributed Opportunity Amount Table {#attributed-opportunity-amount-table}
 
-Total attributed opportunity amount segmented by Channel, Subchannel, and Campaign, presented in both Tabular and Tree formats. Click the button in the top right corner to switch between views.
+Total attributed opportunity amount segmented by Channel, Subchannel, and Campaign, presented in both Tabular and Tree formats. Click the button in the top right corner to switch between views. 
 
 **Questions the board answers**:
 
@@ -50,7 +50,7 @@ The tabular view offers clear and organized insights into the distribution of at
 
 Click the **+** icon beside each Channel to reveal the breakdown by Subchannel and Campaign.
 
-![Attributed opportunity amount tabular view by channel and campaign](assets/attributed-opportunity-dashboard-2.png)
+![](assets/attributed-dashboard-1.png)
 
 #### Tree View {#tree-view}
 
@@ -58,7 +58,7 @@ The tree view enables a more interactive and granular data exploration, allowing
 
 Click on a branch to delve deeper into the subsequent hierarchy layer.
 
-![Attributed opportunity amount tree view hierarchy](assets/attributed-opportunity-dashboard-3.png)
+![](assets/attributed-dashboard-2.png)
 
 ### Filter Pane
 
@@ -67,7 +67,7 @@ This dashboard is equipped with the following settings and filters:
 * Date (based on Opportunity Created Date)
 * Attribution Model
   * For open opportunities, 'full path' and 'custom' attribution models offer point-in-time views and do not represent final attribution results.
-* Opportunity Stage (based on Current Stage)
+* Opportunity Stage (based on Current Stage) 
 * Channel, Subchannel
 * Campaign
 * Segments

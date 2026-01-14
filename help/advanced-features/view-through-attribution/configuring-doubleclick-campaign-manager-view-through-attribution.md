@@ -1,18 +1,19 @@
 ---
-description: Configuring Doubleclick Campaign Manager View Through Attribution - [!DNL Marketo Measure]
+description: "Configuring Doubleclick Campaign Manager View Through Attribution guidance for Marketo Measure users"
 title: Configuring Doubleclick Campaign Manager View Through Attribution
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
 ---
-
 # Configuring Doubleclick Campaign Manager View Through Attribution {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Measuring View Through Attribution {#measuring-view-through-attribution}
 
 >[!IMPORTANT]
+>
 >Due to privacy concerns, third-party cookies are on the way out. Google Chrome's announced Q3 2024 deprecation of third-party cookies effectively marks the end of this form of tracking. As a result, Adobe is deprecating Marketo Measure functions which rely on third-party cookies; specifically, Cross-Domain Tracking and View-through Attribution, which use the Google/DoubleClick impression cookie. No other functions of Marketo Measure will be impacted. First-party cookie usage is also not impacted. In light of Google's schedule, the expected deprecation date for the two functions above is 6/1/2024. Related data collected before this date remains available to Adobe customers.
 
 >[!NOTE]
+>
 >If you are using the [!DNL Marketo Measure] and [!DNL DoubleClick Campaign Manager] integration, we require an [API connection](/help/api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) so we can download details of the campaigns and creatives to resolve the ads.
 
 To begin gaining more granular insight from view through tracking with [!DNL Doubleclick Campaign Manager], our tracking pixel needs to be configured.
@@ -41,7 +42,7 @@ Add the tag into Doubleclick under the Advertiser setting and create an Impressi
    m = %m Match Code Macro\
    n = %n Random Number Macro
 
-   ![DCM Floodlight tag configured with Marketo Measure macros](assets/1.png)
+   ![](assets/view-attribution-1.png)
 
 ## FAQ {#faq}
 

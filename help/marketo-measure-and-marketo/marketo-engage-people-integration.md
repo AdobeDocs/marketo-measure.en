@@ -4,7 +4,6 @@ title: "[!DNL Marketo Engage] People Integration"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
 ---
-
 # [!DNL Marketo Engage] People Integration {#marketo-engage-people-integration}
 
 The Marketo people integration allows [!DNL Marketo Measure] to start downloading people from Marketo and begin to tie their tracked sessions to the individual and map touchpoints to their engagements. Historically, [!DNL Marketo Measure] was only able to map touchpoints to a person from the CRM, so this helps marketers measure their marketing efforts sooner rather than waiting for a stage or trigger to sync it to the CRM.
@@ -14,7 +13,7 @@ The Marketo people integration allows [!DNL Marketo Measure] to start downloadin
 * Production Marketo instance
 * Production [!DNL Salesforce] or [!DNL Microsoft Dynamics] instance
 * Any paid [!DNL Marketo Measure] subscription
-* SOLR enabled (reach out to [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} to have this enabled)
+* SOLR enabled (reach out to [Marketo Support](https://nation.marketo.com/t5/Support/ct-p/Support) to have this enabled)
 
 ## How It Works {#how-it-works}
 
@@ -26,9 +25,9 @@ When [!DNL Marketo Measure] successfully maps the Marketo person to a web sessio
 
 In order for us to detect these duplicates, make sure your [!DNL Marketo-Salesforce] or [!DNL Marketo-Dynamics] sync is populating the Lead and Contact Ids on the Marketo Person. If the Id is syncing properly, you should be able to see the CRM Id on the Person record, like this:
 
-![a](assets/5a.png)
+![](assets/5a-5a-1.png)
 
-![b](assets/5b.png)
+![](assets/5b-5b-1.png)
 
 Customers have the option of reporting the full set of Marketo people and CRM people inside of [!DNL Marketo Measure] Discover. If you are interested in reporting on CRM people only, we recommend creating a Segment to filter them.
 
@@ -36,63 +35,63 @@ Customers have the option of reporting the full set of Marketo people and CRM pe
 
 When reporting on leads (people) in [!DNL Marketo Measure Discover], you will see the total of your Marketo and CRM leads. In order to report on only Marketo people or only CRM leads, you will want to create a Segment Category for your source, then create Segment rules for Marketo and CRM using the "Source System" field to define the rule. Once your segments are created, you will see the Source category available to filter across your [!DNL Marketo Measure Discover] dashboards.
 
-![Marketo Measure Discover dashboard showing Marketo vs CRM lead totals](assets/bizible-discover-1.png)
+![](assets/bizible-discover-1.png)
 
-![Discover filters highlighting Source system segments](assets/bizible-discover-2.png)
+![](assets/bizible-discover-2.png)
 
 ## Field Mappings {#field-mappings}
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th><p><strong>biz_leads</strong></p></th>
-   <th><p><strong>Marketo</strong></p></th>
-  </tr>
-  <tr>
-   <td><p>ID</p></td>
-   <td><p>id</p></td>
-  </tr>
-  <tr>
-   <td><p>MODIFIED_DATE</p></td>
-   <td><p>updatedAt<strong></strong></p></td>
-  </tr>
-  <tr>
-   <td><p>CREATED_DATE</p></td>
-   <td><p>createdAt</p></td>
-  </tr>
-  <tr>
-   <td><p>EMAIL</p></td>
-   <td><p>email</p></td>
-  </tr>
-  <tr>
-   <td><p>WEB_SITE</p></td>
-   <td><p>website</p></td>
-  </tr>
-  <tr>
-   <td><p>COMPANY</p></td>
-   <td><p>company</p></td>
-  </tr>
-  <tr>
-   <td><p>IS_CONVERTED</p></td>
-   <td><p>n/a</p></td>
-  </tr>
-  <tr>
-   <td><p>ACCOUNT_ID</p></td>
-   <td><p>Account Id (L2A)</p></td>
-  </tr>
-  <tr>
-   <td><p>BIZIBLE_STAGE</p></td>
-   <td><p>Status</p></td>
-  </tr>
-  <tr>
-   <td><p>IS_DELETED</p></td>
-   <td><p>true/false</p></td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th><p><strong>biz_leads</strong></p></th> 
+   <th><p><strong>Marketo</strong></p></th> 
+  </tr> 
+  <tr> 
+   <td><p>ID</p></td> 
+   <td><p>id</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>MODIFIED_DATE</p></td> 
+   <td><p>updatedAt<strong>*</strong></p></td> 
+  </tr> 
+  <tr> 
+   <td><p>CREATED_DATE</p></td> 
+   <td><p>createdAt</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>EMAIL</p></td> 
+   <td><p>email</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>WEB_SITE</p></td> 
+   <td><p>website</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>COMPANY</p></td> 
+   <td><p>company</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>IS_CONVERTED</p></td> 
+   <td><p>n/a</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>ACCOUNT_ID</p></td> 
+   <td><p>Account Id (L2A)</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>BIZIBLE_STAGE</p></td> 
+   <td><p>Status</p></td> 
+  </tr> 
+  <tr> 
+   <td><p>IS_DELETED</p></td> 
+   <td><p>true/false</p></td> 
+  </tr> 
+ </tbody> 
 </table>
 
 *There is a known behavioral issue where fields from the Marketo Company entity do not impact the Person's updatedAt value, so if relevant fields such as Website or Company are updated, [!DNL Marketo Measure] will not know that those values are modified because the updatedAt date/time value is not updated. This impacts the ABM feature, where we wouldn't have fresh data to resolve the Account for the lead. There is no workaround at the moment, but there are plans to address this in the future.

@@ -1,10 +1,9 @@
 ---
-description: Transitioning to [!DNL Marketo Measure] from Full Circle - [!DNL Marketo Measure]
+description: "Transitioning to [!DNL Marketo Measure] from Full Circle guidance for Marketo Measure users"
 title: Transitioning to [!DNL Marketo Measure] from Full Circle
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
 ---
-
 # Transitioning to [!DNL Marketo Measure] from Full Circle {#transitioning-to-marketo-measure-from-full-circle}
 
 Making the move from Full Circle to [!DNL Marketo Measure]? You're not alone. Here are the biggest considerations to keep in mind and the lessons we've learned from other customers who've made the switch.

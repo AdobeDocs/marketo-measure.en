@@ -1,7 +1,6 @@
 ---
-description: Machine Learning Model FAQ - [!DNL Marketo Measure]
+description: "Machine Learning Model FAQ guidance for Marketo Measure users"
 title: Machine Learning Model FAQ
-exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
 ---
 
@@ -23,7 +22,7 @@ How is the Machine Learning Model calculated?
 
 The final weight for a custom stage is calculated as such:
 
-**_Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weight_**
+  `Model Percentage = Model Accuracy x Conversion Rate x Touchpoint Uniqueness Weight`
 
 At the end, all the custom stage weights are normalized and converted to % as shown below.
 

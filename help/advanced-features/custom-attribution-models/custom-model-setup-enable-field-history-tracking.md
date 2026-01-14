@@ -1,10 +1,10 @@
 ---
-description: Custom Model Setup - Enable Field History Tracking - [!DNL Marketo Measure]
+description: "Custom Model Setup - Enable Field History Tracking guidance for Marketo Measure users"
 title: Custom Model Setup - Enable Field History Tracking
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
+hidefromtoc: yes
 ---
-
 # Custom Model Setup: Enable Field History Tracking {#custom-model-setup-enable-field-history-tracking}
 
 ## Why and When to Enable Field History Tracking {#why-and-when-to-enable-field-history-tracking}
@@ -18,14 +18,15 @@ To enable field history tracking, follow the instructions below.
 ## Enable Field History Tracking {#enable-field-history-tracking}
 
 >[!NOTE]
+>
 >You will need to be a System Administrator in order to make these changes to the fields on the Lead/Contact/Opportunity object.
 
 1. Go to the Object where the custom field lives and click the **[!UICONTROL Set History Tracking]** button.
 
-   ![Set History Tracking button on object fields](assets/1.png)
+   ![](assets/custom-models-1.png)
 
 1. Select the fields you wish to track changes on.
 
-   ![Selecting fields to enable history tracking](assets/2.png)
+   ![](assets/custom-models-10.png)
 
 [!DNL Marketo Measure] can only re-import a record if it sees that the record has recently been modified. Formula fields technically do not modify a record when it changes since it does the calculation in the background. We have seen issues where a rule is skipped because [!DNL Marketo Measure] did not see the record change, so it is advised to **not use formula fields in rule definitions**. The solution is to create a text field and use a workflow to populate that field with the proper value or calculation any time the record is edited or fits the criteria. This requires that all records get edited so the workflow can work retroactively on old records.

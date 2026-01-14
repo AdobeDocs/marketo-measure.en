@@ -1,10 +1,10 @@
 ---
-description: Integrated Ad Platforms - [!DNL Marketo Measure]
+description: "Integrated Ad Platforms guidance for Marketo Measure users"
 title: Integrated Ad Platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: yes
 ---
-
 # Integrated Ad Platforms {#integrated-ad-platforms}
 
 [!DNL Marketo Measure] has API connections with Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads and DoubleClick Campaign Manager. Through these API connections, [!DNL Marketo Measure] is able to easily pull data and push it to your CRM along with the external Buyer app. No manual uploading of costs or data is required. Rather, your accounts simply need to be connected and authorized to the [!DNL Marketo Measure] app. [!DNL Marketo Measure] will then automatically download your marketing costs from the platforms and load them into the [!DNL Marketo Measure] app. If you select to enable auto-tagging for AdWords, BingAds, or [!DNL Facebook] Ads, [!DNL Marketo Measure] will automatically append its parameters to the URLs of your ads.
@@ -15,11 +15,11 @@ Before we get into specifics of each platform, we'll go over how to connect any 
 
 As shown in the image below, you will see a button to set up new ads connections.
 
-![Connections page with Set up New Ads Connection button](assets/2.png)
+![](assets/bizible-guide-1.png)
 
 After you click the [!UICONTROL Set up New Ads Connection] button, a window (shown below) will pop up with four ad [!UICONTROL connect]ion types. Click connect and another window will appear asking for credentials. Enter the credentials and click [!UICONTROL authorize] to connect the account to [!DNL Marketo Measure].
 
-![Marketo Measure ads connection modal with available account types](assets/select-account-type.png)
+![](assets/five-five-1.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -50,15 +50,15 @@ Once you have a tracking template in place, follow the instructions below to ena
 
 1. Go to [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
-   ![Connections list with existing ads accounts](assets/4.png)
+   ![](assets/utilizing-connections-8.png)
 
 1. Click the Pencil Icon next to the Adwords Account that will be have [!DNL Marketo Measure] auto-tagging enabled.
 
-   ![Ad account settings panel with autotagging toggle](assets/5.png)
+   ![](assets/utilizing-connections-9.png)
 
 1. In the top right-hand corner, toggle the **[!UICONTROL Autotagging]** switch to **[!UICONTROL Yes]**. At the bottom of the page, click **[!UICONTROL Learn More]** to expand the text box and click **[!UICONTROL Save]**. Auto-tagging setup is complete.
 
-   ![Autotagging confirmation modal in Marketo Measure](assets/6.png)
+   ![](assets/utilizing-connections-10.png)
 
 ## How to Set up a Tracking Template in AdWords with [!DNL Marketo Measure] Parameters {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
@@ -82,6 +82,7 @@ Keep in mind that you should add tracking templates at the [!UICONTROL Account],
    To prevent errors from taking place when you manually tag your URLs, it's typically recommended to generate the UTM parameters automatically. This doesn't have to mean auto-tagging with AdWords or [!DNL Marketo Measure] parameters, there are multiple tools that simplify the process by automatically generating the parameters for the URL based on the information you provide.
 
    >[!TIP]
+   >
    >If you are getting an error saying that the Tracking Template is invalid, try clearing your browser cache and trying again - this often solves the issue.
 
 ## How to Automatically Generate UTM Tags for [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -115,6 +116,7 @@ Our integration supports the below ad types:
 * Text Ad
 * Mobile Ad
 * Expanded Text Ad
+
 
 Bing Ads' auto-tagging feature adds the following UTM parameters:
 

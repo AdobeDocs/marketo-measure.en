@@ -1,9 +1,8 @@
 ---
-description: Search for product documentation and self-help articles for Adobe Marketo Measure.
+description: "Search for product documentation and self-help articles for Adobe Marketo Measure."
 title: Marketo Measure product documentation
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
 ---
-
 # Marketo Measure Help Documentation
 
 ![banner](/help/assets/marketo-measure-banner.jpg)
@@ -12,13 +11,13 @@ Marketo Measure (formerly Bizible) unifies behavioral and ad data with sales out
 
 ## Getting Started
 
-* [Marketing Attribution](/help/marketing-attribution.md)
+* [Marketing Attribution](/help/introduction/marketing-attribution.md)
 
-* [Marketo Measure Attribution Models](/help/attribution-models.md)
+* [Marketo Measure Attribution Models](/help/introduction/attribution-models.md)
 
-* [Marketo Measure Framework](/help/marketo-measure-framework.md)
+* [Marketo Measure Framework](/help/introduction/marketo-measure-framework.md)
 
-* [Glossary of Marketo Measure Fields](/help/glossary.md)
+* [Glossary of Marketo Measure Fields](/help/introduction/glossary.md)
 
 ## Popular Articles
 

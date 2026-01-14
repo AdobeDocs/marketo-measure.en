@@ -1,10 +1,9 @@
 ---
-description: Drift Integration FAQ - [!DNL Marketo Measure]
+description: "Drift Integration FAQ guidance for Marketo Measure users"
 title: Drift Integration FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
 ---
-
 # Drift Integration FAQ {#drift-integration-faq}
 
 As a part of the [!DNL Marketo Measure] integration with Drift, here are some of the most frequently asked questions. If there are any questions not outlined below, reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
@@ -35,4 +34,4 @@ If there are CRM campaigns in place to create touchpoints for Drift chat interac
 
 If there are activity rules in place to create touchpoints for Drift chat interactions, an additional piece of logic must be added to the rules. Add logic using the Task Created Date field to prevent duplication of touchpoints from being created (IE CrmTask.CreatedDate is Less Than the date in which the feature bit was enabled). See screenshot below for example.
 
-![Example CRM activity rule configured for Drift chat touchpoints](assets/activity-rule-drift.png)
+![](assets/chat-integration-1.png)

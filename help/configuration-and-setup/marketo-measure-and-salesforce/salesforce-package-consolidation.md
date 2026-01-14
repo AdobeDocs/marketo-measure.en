@@ -1,10 +1,9 @@
 ---
-description: '[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure]'
+description: "'[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure]'"
 title: '[!DNL Salesforce] Package Consolidation'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 ---
-
 # [!DNL Salesforce] Package Consolidation {#salesforce-package-consolidation}
 
 To enhance user experience and simplify usage, existing packages are being compiled into a single, comprehensive package.
@@ -36,13 +35,13 @@ The [Support team](https://nation.marketo.com/t5/support/ct-p/Support){target="_
       * V2_EXT query:
          * bizible2_ext__Ad_Content_FT__c contains Outreach
 
-![Sample report filter using V2_EXT Ad Content FT field](assets/package-consolidation-1.png)
+![](assets/bizible-full-1.png)
 
 * Corresponding query in the consolidated package:
    * bizible2__Touchpoint_Position__c contains FT AND
    * bizible2__Ad_Content__c contains Outreach
 
-![Equivalent report filter using consolidated touchpoint fields](assets/salesforce-package-consolidation-2.png)
+![](assets/bizible-taxonomy-1.png)
 
 ## FAQ {#faq}
 

@@ -1,53 +1,52 @@
 ---
-description: Difference between a Google Analytics Conversion and a Buyer Touchpoint
+description: "Difference between a Google Analytics Conversion and a Buyer Touchpoint guidance for Marketo Measure users"
 title: Difference between a Google Analytics Conversion and a Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
 ---
-
 # Difference between a Google Analytics Conversion and a Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
 Learn what a [!DNL Google Analytics (GA)] goal is and how it differentiates from a Buyer Touchpoint.
 
 **What are Google Analytics' Conversions?**
 
-[!UICONTROL Google Analytics] conversions are determined by how a marketer or a web developer codes 'goal' completions on a particular website. Goals, according to Google, could be thought of as "making a purchase (for an e-commerce site), completing a game level (for a mobile gaming app), or submitting a contact information form (for a marketing or lead generation site)." Most of the time, marketers see goals/conversions as someone filling out an informational form.
+[!UICONTROL Google Analytics] conversions are determined by how a marketer or a web developer codes 'goal' completions on a particular website. Goals, according to Google, could be thought of as "making a purchase (for an ecommerce site), completing a game level (for a mobile gaming app), or submitting a contact information form (for a marketing or lead generation site)." Most of the time, marketers see goals/conversions as someone filling out an informational form.
 
 However, goals can't be coded to manage specific behavior. Rather, there are Goal Types that a web developer can configure. Below are some of those examples:
 
-<table>
- <colgroup>
-  <col>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <td><strong>Goal Type</strong></td>
-   <td><p><strong>Description</strong></p></td>
-   <td><strong>Example</strong></td>
-  </tr>
-  <tr>
-   <td><p>Destination</p></td>
-   <td>A specific location loads</td>
-   <td><em>Thank you for registering!</em> web page or app screen</td>
-  </tr>
-  <tr>
-   <td>Duration</td>
-   <td>Sessions that last a specific amount of time or longer</td>
-   <td>10 minutes or longer spent on a support site</td>
-  </tr>
-  <tr>
-   <td>Pages/Screens per session</td>
-   <td>A user views a specific number of pages or screens</td>
-   <td>5 pages or screens have been loaded</td>
-  </tr>
-  <tr>
-   <td>Event</td>
-   <td>An action defined as an Event is triggered</td>
-   <td>Social recommendation, video play, ad click</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <td><strong>Goal Type</strong></td> 
+   <td><p><strong>Description</strong></p></td> 
+   <td><strong>Example</strong></td> 
+  </tr> 
+  <tr> 
+   <td><p>Destination</p></td> 
+   <td>A specific location loads</td> 
+   <td><em>Thank you for registering!</em> web page or app screen</td> 
+  </tr> 
+  <tr> 
+   <td>Duration</td> 
+   <td>Sessions that last a specific amount of time or longer</td> 
+   <td>10 minutes or longer spent on a support site</td> 
+  </tr> 
+  <tr> 
+   <td>Pages/Screens per session</td> 
+   <td>A user views a specific number of pages or screens</td> 
+   <td>5 pages or screens have been loaded</td> 
+  </tr> 
+  <tr> 
+   <td>Event</td> 
+   <td>An action defined as an Event is triggered</td> 
+   <td>Social recommendation, video play, ad click</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 Most marketers configure their conversions as "Destination Goals," meaning that they usually create a thank you page after a form to consider that a formal conversion.

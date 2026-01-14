@@ -1,10 +1,10 @@
 ---
-description: Excluding [!DNL Marketo Measure] from Specific Forms - [!DNL Marketo Measure]
+description: "Excluding [!DNL Marketo Measure] from Specific Forms guidance for Marketo Measure users"
 title: Excluding [!DNL Marketo Measure] from Specific Forms
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
+hidefromtoc: yes
 ---
-
 # Excluding [!DNL Marketo Measure] from Specific Forms {#excluding-marketo-measure-from-specific-forms}
 
 By default, [!DNL Marketo Measure] attaches to all forms on your site. However, not all form submissions should necessarily be tracked or included in an attribution model. This is because not all form fills are considered to be "good." An example of this is an unsubscribe page/form. Furthermore, login forms are typically not tracked as it would dilute the attribution model.

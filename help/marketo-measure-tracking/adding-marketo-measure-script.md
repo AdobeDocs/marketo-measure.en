@@ -1,15 +1,16 @@
 ---
-description: Adding [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
+description: "Adding [!DNL Marketo Measure] Script guidance for Marketo Measure users"
 title: Adding [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
+hidefromtoc: yes
 ---
-
 # Adding [!DNL Marketo Measure] Script {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure] JavaScript that you'd like tracked by [!DNL Marketo Measure] should be added to all web properties as soon as possible. Once the JavaScript is deployed, [!DNL Marketo Measure] starts collecting your digital data. This article outlines the methods for deploying [!DNL Marketo Measure] JavaScript and additional considerations.
 
 >[!NOTE]
+>
 >Make sure you've [claimed all appropriate domains in the [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} in addition to deploying the [!DNL Marketo Measure] JavaScript.
 
 When getting started with [!DNL Marketo Measure], there are two ways you can add the [!DNL Marketo Measure] JavaScript to your website:
@@ -26,7 +27,8 @@ As a best practice, we strongly recommend hardcoding [!DNL Marketo Measure] Java
 Hardcoding the JavaScript into the `<head>` of your pages ensures the [!DNL Marketo Measure] script loads first and referral information is not missed. The [!DNL Marketo Measure] JavaScript loads asynchronously. If hardcoding, the JavaScript must be manually added to Marketing Automation.
 
 >[!TIP]
->Learn how to make sure your script is [GDPR-compliant](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
+>
+>Learn how to make sure your script is GDPR-compliant.
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -58,7 +60,7 @@ Be sure to have a conversation with your web team so they know [!DNL Marketo Mea
 
 If a [!DNL Web Application Firewall (WAF)] warning is triggered during the JavaScript setup, users can either disable that WAF rule or allowlist the cookies, as the below example:
 
-![Example WAF warning prompt for the Marketo Measure script](assets/adding-marketo-measure-script-1.png)
+![](assets/adding-script-1.png)
 
 ## Forms to Pay Extra Attention To {#forms-to-pay-extra-attention-to}
 
@@ -73,6 +75,7 @@ If a [!DNL Web Application Firewall (WAF)] warning is triggered during the JavaS
 * Solution: Add Exclude Code to the account/customer/partner login form.
 
 >[!NOTE]
+>
 >We do recommend creating a touchpoint for the creation of an account or trial.
 
 **Download of asset**

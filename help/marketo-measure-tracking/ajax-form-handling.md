@@ -1,10 +1,9 @@
 ---
-description: AJAX Form Handling - [!DNL Marketo Measure]
+description: "AJAX Form Handling guidance for Marketo Measure users"
 title: AJAX Form Handling
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
 ---
-
 # AJAX Form Handling {#ajax-form-handling}
 
 To manually report customer conversions to [!DNL Marketo Measure], there is a simple API that you can use. Both of these JavaScript APIs are automatically available on your site, if you have tracking code on it. No need to do anything special to access them.
@@ -17,22 +16,22 @@ If you handle your own form submissions, you can explicitly call [!DNL Marketo M
 
 **Below is a code sample using JQuery (assuming the ID on the form is "formId"):**
 
-```jquery
+```javascript
 ///////////////////////////////////////////////////////////////////////  
 // Preamble for all API usage.  
 window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-
+  
 // Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.  
 Bizible.Push('Form',$('#*formId*'));
 ```
 
 **Below is a code sample not using JQuery (assuming the ID on the form is "formId"):**
 
-```jquery
+```javascript
 ///////////////////////////////////////////////////////////////////////  
 // Preamble for all API usage.  
 window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-
+  
 // Give Marketo Measure the Form ID and we'll collect the data automatically.
 Bizible.Push('Form','MyFormID');
 ```
@@ -41,11 +40,11 @@ Bizible.Push('Form','MyFormID');
 
 If information from a converted lead is collected using JavaScript or simple text fields with no html form, this solution works for you. Shared below is the API to use in this scenario:
 
-```jquery
+```javascript
 ///////////////////////////////////////////////////////////////////////  
 // Preamble for all API usage.  
 window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
-
+  
 // If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.  
 Bizible.Push('User', {
 eMail: 'user@gmail.com' // required  

@@ -1,10 +1,9 @@
 ---
-description: Opportunity Velocity Dashboard - [!DNL Marketo Measure] - Product
+description: "Describes the Opportunity Velocity dashboard for tracking time in each sales stage and comparing trends by channel over time"
 title: Opportunity Velocity Dashboard
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
 ---
-
 # Opportunity Velocity Dashboard {#opportunity-velocity-dashboard}
 
 The Velocity Dashboard offers a dynamic view into the pace at which prospects move through the sales funnel, providing Marketers and Sales teams with essential insights into conversion times across various channels. This tool is invaluable for answering key questions about the opportunity lifecycle and efficiency of progression through sales stages, enabling you to optimize your engagement strategies for accelerated growth and conversions.
@@ -18,7 +17,7 @@ Questions this dashboard answers:
 
 ### KPI Tile {#kpi-tile}
 
-* **Closed Deal Velocity**: The average number of days for "Closed Won" Opportunities from the first stage to close.
+* **Closed Deal Velocity**: The average number of days for "Closed Won" Opportunities from the first stage to close. 
 
 ### Opportunity Velocity by Stage {#opportunity-velocity-by-stage}
 
@@ -30,9 +29,10 @@ Questions the chart answers:
 * How does the average duration of opportunities in the 'Opportunity Creation' stage compare to the 'Prospect' and 'Opportunity Qualifications' stages?
 
 >[!NOTE]
+>
 >Stages before 'Opportunity Creation' will use the most recent touchpoint date as the 'transition in' date.  
 
-![Opportunity velocity by sales stage bar chart](assets/lead-velocity-dashboard-1.png)
+![](assets/lead-dashboard-1.png)
 
 ### Opportunity Velocity Over Time {#opportunity-velocity-over-time}
 
@@ -46,7 +46,7 @@ Questions the chart answers:
 * What are the trends in the time spent at each stage for opportunities throughout the observed months?
 * In which month did opportunities experience the fastest progression through the sales stages?
 
-![Opportunity velocity trends over time line chart](assets/lead-velocity-dashboard-2.png)
+![](assets/lead-dashboard-2.png)
 
 ### Opportunity Velocity by Channel {#opportunity-velocity-by-channel}
 
@@ -59,13 +59,13 @@ Questions the chart answers:
 * Which channel shows the quickest progression through the funnel stages?
 * How does the opportunity velocity in the 'Prospect' stage vary across different channels?
 
-![Opportunity velocity by channel comparison chart](assets/lead-velocity-dashboard-3.png)
+![](assets/lead-dashboard-3.png)
 
 ## Filter Pane {#filter-pane}
 
 This dashboard is equipped with the following settings and filters:
 
-* Date
+* Date 
   * Based on: Transition In Date
 * Stage
 * Channel

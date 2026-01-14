@@ -1,10 +1,9 @@
 ---
-description: Learn about Account-Based Attribution and how Adobe Marketo Measure complements your Account-Based Marketing (ABM) strategy.
+description: "Learn about Account-Based Attribution and how Adobe Marketo Measure complements your Account-Based Marketing (ABM) strategy."
 title: Account-Based Attribution
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
 ---
-
 # Account-Based Attribution {#account-based-attribution}
 
 With the rise of Account-Based Marketing (ABM), it is important to understand how [!DNL Marketo Measure] can complement your ABM strategy. [!DNL Marketo Measure] surfaces each touchpoint for each lead and contact under your accounts.
@@ -15,7 +14,7 @@ When there are multiple Opportunities under one Account, the different Opportuni
 
 For example, the Account below has two Opportunities. For the first Opportunity, it only has one Touchpoint. That Touchpoint encompasses the FT, LC, and the Opportunity Creation (OC) Touchpoint. The second Opportunity has the same FT & LC as the first Opportunity, but the OC Touchpoint is different. As well, the second Opportunity has additional Touchpoints that are not associated to the first Opportunity, due to them occurring after the first Opportunities' close date.
 
-![Account with two opportunities sharing FT and LC touchpoints](assets/1.jpg)
+![](assets/account-marketing-4.jpg)
 
 ## How Does This Help? {#how-does-this-help}
 

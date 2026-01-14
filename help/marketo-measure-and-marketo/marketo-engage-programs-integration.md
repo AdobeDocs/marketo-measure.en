@@ -4,7 +4,6 @@ title: "[!DNL Marketo Engage] Programs Integration"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
 ---
-
 # [!DNL Marketo Engage] Programs Integration {#marketo-engage-programs-integration}
 
 Through the [!DNL Marketo Measure] integration with [!DNL Marketo Engage] Programs, our customers can begin to create touchpoints for attribution tracking from the Marketo Program Memberships. This capability allows marketers to start tracking program memberships from email or engagement programs that are otherwise not seen by the [!DNL Marketo Measure] javascript and should be measured within the attribution journey.
@@ -27,26 +26,27 @@ All tiers.
 
 1. To begin setting up rules on Marketo Programs, navigate to **[!UICONTROL My Account]** > **[!UICONTROL Settings]** > **[!UICONTROL Programs]**. Click the **+** icon to begin creating your first rule.
 
-   ![Programs settings page in Marketo Measure account](assets/one.png)
+   ![](assets/one-one-2.png)
 
-   ![Create new rule dialog with add button](assets/two.png)
+   ![](assets/5a-5a-1.png)
 
 1. You may optionally set a name for the rule if it helps to keep track of them. you will first select the field to define your rule from the list of Program and Program Membership fields. Continue building the rule by selecting the operator and expected value to check for.
 
-   ![Rule builder with field selection dropdown and operator options](assets/three.png)
+   ![](assets/5b-5b-1.png)
 
 1. Add another statement within the same box to set up an "and" criteria in the rule or click the + icon outside the box to set up an "or" statement.
 
-   ![Rule builder showing multiple conditions with and/or logic options](assets/four.png)
+   ![](assets/bizible-discover-1.png)
 
 1. Choose which date or date/time field should be used to map to the Touchpoint Date. To see the list of values available from Marketo, enter a curly bracket `{` and we'll display the available fields.
 
-   ![Date field mapping with autocomplete dropdown showing available fields](assets/five.png)
+   ![](assets/five-five-2.png)
 
    >[!NOTE]
+   >
    >If your rule wants to capture the Activity Date, or the date that a Program Member reached a particular status, you will want to utilize the [!DNL Marketo Engage] Activities Integration and set up a rule for the "Change Status in Progression" activity type.
 
-   ![Completed rule configuration showing field mappings and conditions](assets/six.png)
+   ![](assets/bizible-discover-2.png)
 
 Your completed rule should look something like this:
 
@@ -56,21 +56,21 @@ After you've created some rules, you may want to test it out to verify that your
 
 1. To run a test, click the **[!UICONTROL TEST]** button as shown below.
 
-   ![Test button in program rules interface](assets/seven.png)
+   ![](assets/seven-seven-2.png)
 
 1. A modal will appear where you can enter in the Program Id from Marketo.
 
-   ![Test modal dialog with Program ID input field](assets/eight.png)
+   ![](assets/eight-eight-1.png)
 
    Once you enter the Id and click the [!UICONTROL Test] button, our rules engine will go through each rule and determine whether or not the Program fits any of the rules. In the example below, you can see that Program 1002, called [!DNL Marketo Measure] Ebook, has 5 Program Members and is eligible because of the rule that's displayed.
 
    The rules are run on sample size of 5000 members. If your program contains more than 5000 members, it's possible that we do not check on the compatibility of all members. This tool simply serves as a way to check of rules are constructed correctly.
 
-   ![Test results showing matched program with member count](assets/nine.png)
+   ![](assets/nine-nine-2.png)
 
    You can click the Member Count to see a list of Marketo People Ids that are eligible within the program.
 
-   ![List of eligible Marketo People IDs from test results](assets/ten.png)
+   ![](assets/eight-eight-2.png)
 
 ## Channel Mapping {#channel-mapping}
 
@@ -82,75 +82,72 @@ From the list of Marketo Program Channels, you will want to map the values to th
 
 1. First select the Channel that should map to the value, then optionally select the Subchannel. When you are done, click **[!UICONTROL Save]** at the bottom.
 
-   ![Offline Channels settings showing Marketo Program Channel mapping options](assets/eleven.png)
+   ![](assets/eleven-eleven-1.png)
 
 ## Program Costs {#program-costs}
 
 Through the data import of Marketo Programs, costs are automatically downloaded from Period Costs and the reported cost in Marketo is distributed throughout the assigned month. For example, if $1000 is reported for January 2021, the $1000 is split across 31 days. The costs can be found in [!DNL Marketo Measure Discover].
 
->[!NOTE]
->
->Marketo Measure supports only one Period Cost entry per month. To ensure all costs are imported, aggregate the total monthly cost into a single entry. Multiple Period Cost entries for the same month are not supported.
-
 ## How It Works {#how-it-works}
 
 **Field Mappings**
 
-<table>
- <colgroup>
-  <col>
-  <col>
- </colgroup>
- <tbody>
-  <tr>
-   <th>biz_ad_campaigns</th>
-   <th>Marketo</th>
-  </tr>
-  <tr>
-   <td>ID</td>
-   <td>id</td>
-  </tr>
-  <tr>
-   <td>IS_DELETED</td>
-   <td>(check if Program still exists via API)</td>
-  </tr>
-  <tr>
-   <td><p>NAME</p></td>
-   <td>name</td>
-  </tr>
- </tbody>
+<table> 
+ <colgroup> 
+  <col> 
+  <col> 
+ </colgroup> 
+ <tbody> 
+  <tr> 
+   <th>biz_ad_campaigns</th> 
+   <th>Marketo</th> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td>id</td> 
+  </tr> 
+  <tr> 
+   <td>IS_DELETED</td> 
+   <td>(check if Program still exists via API)</td> 
+  </tr> 
+  <tr> 
+   <td><p>NAME</p></td> 
+   <td>name</td> 
+  </tr> 
+ </tbody> 
 </table>
 
-| biz_campaign_members | Marketo |
+| biz_campaign_members |Marketo |
 |---|---|
-| ID | "MarketoProgramMembership"_ProgramId_Lead Id |
-| MODIFIED_DATE | updatedAt |
-| CREATED_DATE | membershipDate |
-| LEAD_ID | Id (list membership) |
-| LEAD_EMAIL | Email (list membership) |
-| STATUS | progressionStatus |
-| HAS_RESPONDED | reachedStatus |
-| CAMPAIGN_NAME | programName |
-| CAMPAIGN_ID | programId |
-| CAMPAIGN_TYPE | channel |
+| ID |"MarketoProgramMembership"_ProgramId_Lead Id |
+| MODIFIED_DATE |updatedAt |
+| CREATED_DATE |membershipDate |
+| LEAD_ID |Id (list membership) |
+| LEAD_EMAIL |Email (list membership) |
+| STATUS |progressionStatus |
+| HAS_RESPONDED |reachedStatus |
+| CAMPAIGN_NAME |programName |
+| CAMPAIGN_ID |programId |
+| CAMPAIGN_TYPE |channel |
 
 ## Cookie Mapping {#cookie-mapping}
 
 As a result of the [!DNL Marketo Measure] integration with Marketo, the [!DNL Marketo Measure] Cookie Id is also now mapped and synced with the [!DNL Marketo Munchkin Id]. This helps close the gap to attribute the anonymous first touch to a web session rather than attributing both the FT and LC touches to a Marketo Activity. Imagine this scenario:
-
+  
 Mark clicks on a [!DNL Facebook] ad and lands on wayneenterprises.com where he gets cookied with [!DNL Marketo Measure] Id 123 and [!DNL Marketo Munchkin Id] 456. No form fill takes place.
-
+  
 The Wayne Enterprises Marketing team sends out an email blast to specific targeted leads, one of them being `mark@email.com`.
-
+  
 `mark@email.com` receives the email and clicks through and lands on wayneenterprises.com. This becomes `mark@email.com's` second visit to `wayneenterprise.com` with the same cookie Ids, but there was no form fill, so to [!DNL Marketo Measure], they are still an anonymous visitor.  
-
+  
 The Wayne Enterprises Marketing team creates a Marketo Activity rule to generate touchpoints for a "Click Email" activity type.  
-
+  
 Today's implementation would create a single FT and LC touchpoint for `mark@email.com` from the Marketo Activity from the "Click Email" activity type.  
-
+  
 With this cookie mapping enhancement, the FT would go back and get credited to the [!DNL Facebook] ad and the LC would get credited to the Email.
 
 >[!NOTE]
+>
 >With the cookie mapping behavior, you may find some LC touchpoints that come from a web visit. It's possible that a lead appeared in Marketo without any associated activity, then [!DNL Marketo Measure] downloaded that lead, matched the associated cookies, then traced it to the most recent web session, even if there was no form activity that created the lead.
 
 ## FAQ {#faq}

@@ -1,10 +1,9 @@
 ---
-description: A/B Testing Set Up and Reporting - [!DNL Marketo Measure]
+description: "A/B Testing Set Up and Reporting guidance for Marketo Measure users"
 title: A/B Testing Set Up and Reporting
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
 ---
-
 # A/B Testing Set Up and Reporting {#a-b-testing-set-up-and-reporting}
 
 The [!DNL Marketo Measure] A/B Test integration allows you to track the revenue impact of your [Optimizely](https://www.optimizely.com/){target="_blank"} and VWO site experiments. This article provides instructions on how to add [!DNL Marketo Measure] A/B Test sections to the Lead, [!UICONTROL Contact], Case, and [!UICONTROL Opportunity] page layouts. Also covered is general reporting practices and recommendations for running [!DNL Marketo Measure] A/B report types.
@@ -16,15 +15,15 @@ Add the [!DNL Marketo Measure] A/B Test sections on Lead, Contact, Case, and Opp
 1. Verify you are using package [!DNL Marketo Measure] v3.9 or later. You can do this by going to [!UICONTROL Salesforce] >[!UICONTROL Set Up] > [!UICONTROL Installed packages].
 1. Edit the Lead page layout and add the **[!DNL Marketo Measure] A/B Tests** Related List to the page.
 
-   ![Lead page layout editor showing Marketo Measure A/B Tests Related List being added](assets/1.png)
+   ![](../assets/advanced-features-2.png)
 
 1. Click the [!UICONTROL Wrench] button. Remove the stock "Id" field from the list of Selected fields. Add **[!UICONTROL Experiment]**, **[!UICONTROL Variation]**, and **[!UICONTROL DateReported]** fields. Change "[!UICONTROL Sort by]" to **[!UICONTROL Date Reported]**, and select **[!UICONTROL Descending]** in the drop-down.
 
-   ![Field configuration dialog showing Experiment, Variation, and DateReported fields with sort settings](assets/2.png)
+   ![](../assets/advanced-features-3.png)
 
 1. Under [!UICONTROL Buttons], uncheck **[!UICONTROL New]**.
 
-   ![Buttons section showing New button being deselected](assets/3.png)
+   ![](../assets/advanced-features-7.png)
 
 1. Contact your [!DNL Marketo Measure] rep or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} to enable the feature.
 
@@ -37,7 +36,7 @@ Customers have access to a couple of [!DNL Marketo Measure] A/B report types tha
 * [!DNL Marketo Measure] A/BTests with Lead
 * [!DNL Marketo Measure] A/BTests with Opportunity
 
-![Report list showing Marketo Measure A/B Tests report types for Lead, Contact, and Opportunity](assets/4.png)
+![](../assets/advanced-features-8.png)
 
 A/B report types are used to report on which Lead or Contact or Opportunity has been exposed to an A/B test. These reports also show you the amount of revenue tied to an Opportunity that was exposed to an A/B test.
 
@@ -56,8 +55,8 @@ Here are some recommended fields to use when reporting on an A/B test to help in
 
 **[!DNL Marketo Measure] A/B Test with Lead**
 
-![Example Salesforce report showing Marketo Measure A/B Test with Lead data including experiments and variations](assets/5.png)
+![](../assets/advanced-features-9.png)
 
 **[!DNL Marketo Measure] A/B Test with Opportunity**
 
-![Example Salesforce report showing Marketo Measure A/B Test with Opportunity data including revenue impact](assets/6.png)
+![](../assets/advanced-features-10.png)

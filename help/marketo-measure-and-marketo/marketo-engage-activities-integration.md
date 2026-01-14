@@ -4,7 +4,6 @@ title: "[!DNL Marketo Engage] Activities Integration"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
 ---
-
 # [!DNL Marketo Engage] Activities Integration {#marketo-engage-activities-integration}
 
 As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integration, this effort to pull in Marketo Activities plays a huge role. Through Marketo Activities, the system tracks events such as `Click Email`, `Change Score` or `Change Status in Progression` - these activity types can be pared down and defined to select a subset that are eligible for touchpoints. Once touchpoints are created on these activities, they get tracked in the engagement journey and measured alongside your other marketing channels such as Paid Search or Partner Marketing.
@@ -22,19 +21,19 @@ As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integrat
 
 1. To begin setting up Marketo Activities, navigate to **My Account** > **Settings** > **Activities**.
 
-   ![Activities settings page in Marketo Measure account](assets/one-1.png)
+   ![](assets/one-one-1.png)
 
-   ![Activities configuration screen with activity type selection](assets/two-1.png)
+   ![](assets/two-two-2.png)
 
    The first thing required is to select the list of Activity Types that you plan to build rules on. There is no hard number of activity types required, but it is recommended that you don't overload your touchpoints and dilute the importance of significant milestones. With that said, you may not need more than five activity types to track the relevant engagements.
 
 1. Click the drop-down menu under [!UICONTROL Select Activities Types] to begin choosing the various types.
 
-   ![Dropdown menu showing available Marketo activity types](assets/three-1.png)
+   ![](assets/three-three-2.png)
 
 1. When all the activities you need are selected, you can see them populated in your [!UICONTROL Selected Activities List] and under [!UICONTROL Define Rules].
 
-   ![Selected activities list showing chosen activity types](assets/four-1.png)
+   ![](assets/four-four-2.png)
 
 1. For each Activity Type, you must define one or more rules that determine which records are eligible for touchpoints. In this example, we add a rule for the "Change Score" activity type so that the system creates a touchpoint when a Marketo Person reaches a score of 90 or greater.
 
@@ -42,27 +41,27 @@ As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integrat
 
    Here's an example of what that extra step would look like:
 
-   ![Campaign name configuration field for activity rule](assets/five-1.png)
+   ![](assets/five-five-1.png)
 
 1. In the "Change Score" example, there is need to enter a Campaign Name since that information is pulled from the Marketo Program. Now create the rule expression. Following this example, select the field "[!UICONTROL New Value]" with an operator of "[!UICONTROL is greater than]" with a value of 90.
 
    You can expand on the rules and add additional filters or criteria by adding "and" or "or" statements to narrow down the results.
 
-   ![Rule builder for Change Score activity with field and operator selection](assets/six-1.png)
+   ![](assets/six-six-2.png)
 
-   ![Rule expression showing New Value greater than 90 condition](assets/seven-1.png)
+   ![](assets/seven-seven-1.png)
 
 1. Lastly, choose what to use as the Touchpoint Date. All available date or date/time fields appear here from Marketo. Unless you have custom date fields, you see "[!UICONTROL Activity Date]."
 
-   ![Touchpoint date field selector showing Activity Date option](assets/eight-1.png)
+   ![](assets/eight-eight-2.png)
 
 1. Be sure to click **[!UICONTROL Save As Draft]** along the way so that you don't lose your changes.
 
-   ![Save As Draft button in activity rule configuration](assets/nine-1.png)
+   ![](assets/nine-nine-1.png)
 
 1. Navigate to the **[!UICONTROL Attribute Mapping]** tab.
 
-   ![Attribute Mapping tab in activities settings](assets/ten-1.png)
+   ![](assets/ten-ten-2.png)
 
 1. For each Activity Types that you selected, you have the option of mapping additional Marketo attributes to Touchpoint fields so that you can view and report off those values in [!DNL Marketo Measure Discover] or in the CRM.
 
@@ -83,6 +82,7 @@ As part of the overall [!DNL Marketo Measure] and [!DNL Marketo Engage] Integrat
     * Browser
 
    >[!NOTE]
+   >
    >Ad fields such as Ad Content or Keyword are not available in this list, as they reserved for our ad platform integrations.
 
 ## Activity Types {#activity-types}
@@ -105,6 +105,7 @@ Add to Nurture (113)
 Change Nurture Cadence (115)
 
 >[!NOTE]
+>
 >Of the Activity Types where we expect a Program Id, if an activity is detected without a program, [!DNL Marketo Measure] will not accept that as an eligible touchpoint since we cannot have null Campaign values.
 
 **Activity Types without Program Id**
@@ -151,9 +152,9 @@ Custom Activity (xxx)
 
 ## Channel Mapping {#channel-mapping}
 
-For any of the rules from an Activity Type with a Program Id, the Marketo Program Channel is determined from the Program. We use the Program Channel to map to your custom Offline Channels, so you need to make sure your channels are configured properly [as instructed here](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}.
+For any of the rules from an Activity Type with a Program Id, the Marketo Program Channel is determined from the Program. We use the Program Channel to map to your custom Offline Channels, so you need to make sure your channels are configured properly [as instructed here](/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#channel-mapping).
   
-And for any of the rules from an Activity Type without a Program Id, your first step was to create a Campaign Name. Use this Campaign Name to set up your custom Online Channels [laid out here](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}.
+And for any of the rules from an Activity Type without a Program Id, your first step was to create a Campaign Name. Use this Campaign Name to set up your custom Online Channels [laid out here](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
   
 If Channels for your Marketo Activities aren't properly configured, it's likely your new touchpoints fall under the "Other" channel.
 
@@ -166,18 +167,19 @@ Through the data import of Marketo Programs, costs are automatically downloaded 
 As a result of the [!DNL Marketo Measure] integration with Marketo, the [!DNL Marketo Measure] Cookie Id is also now mapped and synced with the [!DNL Marketo Munchkin Id]. This helps close the gap to attribute the anonymous first touch to a web session rather than attributing both the FT and LC touches to a Marketo Activity. Imagine this scenario:
 
 Mark clicks a Facebook ad and lands on wayneenterprises.com where he gets a cookie with [!DNL Marketo Measure] Id 123 and [!DNL Marketo Munchkin Id] 456. No form fill takes place.
-
+  
 The Wayne Enterprises Marketing team sends out an email blast to specific targeted leads, one of them being `mark@email.com`.  
-
+  
 `mark@email.com` receives the email and clicks through and lands on `wayneenterprises.com`. This becomes `mark@email.com's` second visit to `wayneenterprise.com` with the same cookie Ids, but there was no form fill, so to [!DNL Marketo Measure], they are still an anonymous visitor.  
-
+  
 The Wayne Enterprises Marketing team creates a Marketo Activity rule to generate touchpoints for a "Click Email" activity type.  
-
+  
 Today's implementation would create a single FT and LC touchpoint for `mark@email.com` from the Marketo Activity from the "Click Email" activity type.  
-
+  
 With this cookie mapping enhancement, the FT would go back and get credited to the Facebook ad and the LC would get credited to the Email.
 
 >[!NOTE]
+>
 >With the cookie mapping behavior, you may find some LC touchpoints that come from a web visit. It's possible that a lead appeared in Marketo without any associated activity, then [!DNL Marketo Measure] downloaded that lead, matched the associated cookies, then traced it to the most recent web session, even if there was no form activity that created the lead.
 
 ## FAQ {#faq}

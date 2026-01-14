@@ -4,7 +4,6 @@ title: "[!DNL Marketo Measure] Report Template - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
 ---
-
 # [!DNL Marketo Measure] Report Template - Power BI {#marketo-measure-report-template-power-bi}
 
 ## Getting Started {#getting-started}
@@ -13,15 +12,15 @@ You can access the Power BI report template [here](https://github.com/adobe/Mark
 
 Open the Adobe [!DNL Marketo Measure] Reporting Template Power BI file.
 
-![Power BI connection dialog for Marketo Measure template](assets/marketo-measure-report-template-power-bi-1.png)
+![](assets/marketo-bi-1.png)
 
-You can find your specific Server, Warehouse, and Schema information in the [!DNL Marketo Measure] UI on the [!DNL Data Warehouse] information page. Instructions for how to locate this page are detailed [here](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+You can find your specific Server, Warehouse, and Schema information in the [!DNL Marketo Measure] UI on the [!DNL Data Warehouse] information page. Instructions for how to locate this page are detailed [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 The QueryFilterStartDate and QueryFilterEndDate parameters are used to limit the amount of data imported. These parameters must be in SQL format as they are used to in the queries sent to [!DNL Snowflake]. For example, if you want to limit data to the past two years, the QueryFilterStartDate would be `dateadd` (year,-2,current_date()). These parameters are compared against datetime data types, so it's recommended to use `dateadd` (day,1,current_date()) for the QueryFilterEndDate to return all data to the current time.
 
 ## Data Connection {#data-connection}
 
-The parameters entered when opening the file are used to structure native queries which import tables from the data warehouse. You still need to set up a data connection to your [!DNL Snowflake] instance. For this, you need the same Server and Warehouse names along with your Username and Password. Details on where to find your Username and reset your Password, if needed, are documented [here](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
+The parameters entered when opening the file are used to structure native queries which import tables from the data warehouse. You still need to set up a data connection to your [!DNL Snowflake] instance. For this, you need the same Server and Warehouse names along with your Username and Password. Details on where to find your Username and reset your Password, if needed, are documented [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Data Import {#data-import}
 
@@ -31,14 +30,15 @@ To improve report performance, and take advantage of transformation capabilities
 
 To limit the data imported into the model, each table is set up using a native query as the source. Native queries require approval to execute, you need to click run for each query. This step is only needed the first time that the queries are run, or if the parameters change.
 
-![Native query approval dialog in Power BI](assets/marketo-measure-report-template-power-bi-2.png)
+![](assets/marketo-bi-2.png)
 
 All queries filter out deleted rows and the [!UICONTROL facts] tables are set to filter to rows with a modified date between the start and end dates entered as parameters.
 
 >[!NOTE]
+>
 >Because the date filters are applied to the modified date of a row, use caution when reporting on dates that fall outside the restricted date range. For example, the modified date range is limited to the past two years. This can include an event with an event date of three years ago, but which has been modified recently. However, reporting on events from three years ago return incomplete results since not all rows have been modified within the two-year time frame.
 
-![Query editor showing date filter parameters](assets/marketo-measure-report-template-power-bi-3.png)
+![](assets/marketo-bi-3.png)
 
 The following tables are treated as facts tables; the date limits on modified date have been added to these queries.
 
@@ -70,29 +70,32 @@ The following tables are treated as dimension tables; no date limits are set for
 
 A few transformations have been applied to the data in Power Query. To view the specific transformations for any table, open Power Query, navigate to a table, and note the Applied Steps on the left side of the window. Some of the specific transformations are outlined below.
 
-![Power Query editor showing applied transformation steps](assets/marketo-measure-report-template-power-bi-4.png)
+![](assets/marketo-bi-6.png)
 
 ### Removed Columns {#removed-columns}
 
 To simplify the data model and remove redundant and unnecessary data, we've reduced the number of columns imported into Power BI from the original [!DNL Snowflake] table. Columns removed include unnecessary foreign keys, denormalized dimensional data better applied via relationships to other tables in the model, audit columns, and fields used for internal [!DNL Marketo Measure] processing. You may add or remove columns as required for your business needs. Navigate to the "Removed Other Columns" step after the "Source" step in any table, click the gear icon, and update the selected columns in the list provided.
 
 >[!NOTE]
-> Be cautious when adding additional foreign key values. Power BI is often set to auto-detect relationships in the model and adding foreign key values may result in undesirable links between tables and/or disabling existing relationships.
-> Most tables in the [!DNL Marketo Measure] data warehouse contain denormalized dimensional data. We've worked to normalize and clean up the model in Power BI as much as possible to improve performance and data accuracy. Exercise caution when including any additional denormalized fields in facts tables, this may break dimensional filtering across tables and could also result in inaccurate reporting.
+>
+>* Be cautious when adding additional foreign key values. Power BI is often set to auto-detect relationships in the model and adding foreign key values may result in undesirable links between tables and/or disabling existing relationships.
+>
+>* Most tables in the [!DNL Marketo Measure] data warehouse contain denormalized dimensional data. We've worked to normalize and clean up the model in Power BI as much as possible to improve performance and data accuracy. Exercise caution when including any additional denormalized fields in facts tables, this may break dimensional filtering across tables and could also result in inaccurate reporting.
 
-![Column selection dialog showing removed columns configuration](assets/marketo-measure-report-template-power-bi-5.png)
+
+![](assets/marketo-bi-7.png)
 
 ### Renamed Columns {#renamed-columns}
 
 Tables and columns have been renamed to make them more user-friendly and to standardize naming conventions. To view the column name changes, navigate to the "Renamed Columns" step after the "Removed Other Columns" step in any table.
 
-![Renamed columns step showing column name mappings](assets/marketo-measure-report-template-power-bi-6.png)
+![](assets/marketo-bi-5.png)
 
 ### Renamed Segments {#renamed-segments}
 
 Since segment names are customizable, they have generic column names in the Snowflake data warehouse. [!DNL BIZ_SEGMENT_NAMES] is a mapping table which lists the generic segment name and its mapped customized segment name, defined in the segment section in the [!DNL Marketo Measure] UI. The Segment Name table is used to rename the segment columns in the Lead Touchpoint and Attribution Touchpoint tables. If no customized segment exists, the generic segment name remains.
 
-![Segment name mapping table in Power Query](assets/marketo-measure-report-template-power-bi-7.png)
+![](assets/marketo-bi-4.png)
 
 ### Case-Sensitive ID Conversion {#case-sensitive-id-conversion}
 
@@ -100,25 +103,25 @@ Since segment names are customizable, they have generic column names in the Snow
 /10/06/power-bi-and-case-sensitivity/){target="_blank"}. These case-sensitive ID values are labeled as "Join IDs" and are used as join keys in the relationship layer. We've hidden the Join IDs from the reporting layer, keeping the original ID values visible for use in reporting, since the invisible characters can interfere with cut
 /paste functions and filtering.
 
-![Touchpoint table showing case-sensitive ID transformation](assets/marketo-measure-report-template-power-bi-8.png)
+![](assets/marketo-bi-8.png)
 
-![Campaign table with Join ID column for case-sensitive matching](assets/marketo-measure-report-template-power-bi-9.png)
+![](assets/marketo-bi-11.png)
 
 ### Rows Added {#rows-added}
 
 To add currency conversion capabilities to the calculations in the model, we've added a corporate conversion rate column to both the Opportunity and Cost tables. The value in this column is added at the row level and is evaluated by joining to the Conversion Rate table on both date and currency id. For more details on how currency conversion works in this model, see the [Currency Conversion](#currency-conversion) section in this documentation.
 
-![Opportunity table with corporate conversion rate column](assets/marketo-measure-report-template-power-bi-10.png)
+![](assets/marketo-bi-10.png)
 
 The Conversion Rate table stored in [!DNL Snowflake] contains a date range for each conversion. Power BI does not allow join criteria on a calculation (that is, between a range of dates). In order to join on date, we added steps to the Conversion Rate table to expand the rows so there is one row for each date in the conversion date range.
 
-![Conversion Rate table with expanded date rows](assets/marketo-measure-report-template-power-bi-11.png)
+![](assets/marketo-bi-9.png)
 
 ## Data Model {#data-model}
 
 Click the image below for its full-size version.
 
-[![Power BI data model diagram showing table relationships](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
+[![](assets/marketo-bi-12.png)](/help/bi-report-templates/assets/power-model-1.png){target="_blank"}
 
 ### Relationships and Data Flow {#relationships-and-data-flow}
 
@@ -159,19 +162,19 @@ Because conversion rates are not required to be static, and can change by specif
 
 The currency conversion measures in this model substitute a value of 1.0 for the rate if no conversion rate can be identified. Separate measures have been created to display the currency value for the measure, and alert if a calculation includes more than one currency value (that is, a value could not be converted to the selected currency).
 
-![Currency conversion formula showing DAX calculation logic](assets/marketo-measure-report-template-power-bi-13.png)
+![](assets/marketo-bi-13.png)
 
 ## Data Definitions {#data-definitions}
 
 Definitions have been added to the Power BI model for tables, custom columns, and measures.
 
-![Table properties showing definition descriptions](assets/marketo-measure-report-template-power-bi-14.png)
+![](assets/marketo-bi-15.png)
 
-![Custom column definitions in data model](assets/marketo-measure-report-template-power-bi-15.png)
+![](assets/marketo-bi-16.png)
 
-![Measure definitions with DAX formulas](assets/marketo-measure-report-template-power-bi-16.png)
+![](assets/marketo-bi-14.png)
 
-To view definitions for columns coming directly from [!DNL Snowflake], see the [data warehouse documentation](/help/data-warehouse/data-warehouse-schema.md){target="_blank"}
+To view definitions for columns coming directly from [!DNL Snowflake], see the [data warehouse documentation](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Discrepancies Between Templates and Discover {#discrepancies-between-templates-and-discover}
 

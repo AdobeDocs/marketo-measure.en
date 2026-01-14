@@ -1,10 +1,9 @@
 ---
-description: Lead Velocity Dashboard - [!DNL Marketo Measure] - Product
+description: "Use the Lead Velocity dashboard for measuring time in each funnel stage and comparing pace by channel over time"
 title: Lead Velocity Dashboard
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
 ---
-
 # Lead Velocity Dashboard {#lead-velocity-dashboard}
 
 The Velocity Dashboard offers a dynamic view into the pace at which prospects move through the sales funnel, providing Marketers and Sales teams with essential insights into conversion times across various channels. This tool is invaluable for answering key questions about lead conversion durations and the efficiency of progression through sales stages, enabling you to optimize your engagement strategies for accelerated growth and conversions.
@@ -27,7 +26,7 @@ Questions the chart answers:
 * Which sales stage typically has the longest duration for leads/contacts?
 * How does the time spent in the 'First touch' stage compare to the 'MQL' stage?
 
-![Lead or contact velocity by sales stage bar chart](assets/lead-velocity-dashboard-1.png)
+![](assets/lead-dashboard-1.png)
 
 ### Lead/Contact Velocity Over Time {#lead-contact-velocity-over-time}
 
@@ -41,7 +40,7 @@ Questions the chart answers:
 * What are the trends in the time spent at each stage for leads/contacts throughout the observed months?
 * In which month did leads/contacts experience the fastest progression through the sales stages?
 
-![Lead velocity trends over time line chart](assets/lead-velocity-dashboard-2.png)
+![](assets/lead-dashboard-2.png)
 
 ### Lead/Contact Velocity by Channel {#lead-contact-velocity-by-channel}
 
@@ -54,13 +53,13 @@ Questions the chart answers:
 * Which channel shows the quickest lead progression through the funnel stages?
 * How does the lead velocity in the 'MQL' stage vary across different channels?
 
-![Lead velocity by channel comparison chart](assets/lead-velocity-dashboard-3.png)
+![](assets/lead-dashboard-3.png)
 
 ## Filter Pane {#filter-pane}
 
 This dashboard is equipped with the following settings and filters:
 
-* Date
+* Date 
   * Based on: Transition In Date
 * Stage
 * Channel

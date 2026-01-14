@@ -1,10 +1,9 @@
 ---
-description: How Bid Management Tools Affect [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: "How Bid Management Tools Affect [!DNL Marketo Measure] guidance for Marketo Measure users"
 title: How Bid Management Tools Affect [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
 ---
-
 # How Bid Management Tools Affect [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
 Learn how bid management platforms affect the [!DNL Marketo Measure] ability to track AdWords and BingAds, along with how to set up tracking templates with our parameters to ensure everything tracks correctly.
@@ -25,6 +24,7 @@ Setup a tracking template as follows:
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * If NONE of your ad URLs have a "?" in them, use this URL:
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## For [!DNL Bing Ads] Accounts {#for-bing-ads-accounts}
 

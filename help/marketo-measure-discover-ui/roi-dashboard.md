@@ -1,10 +1,10 @@
 ---
-description: ROI Dashboard - [!DNL Marketo Measure] - Product
+description: "Explore the ROI dashboard for comparing costs revenue and ROI across channels subchannels and campaigns over time"
 title: ROI Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
+hidefromtoc: yes
 ---
-
 # ROI Dashboard {#roi-dashboard}
 
 The ROI Dashboard provides marketers with a granular view of returns on investment across channels, subchannels, and campaigns. It meticulously breaks down cost and revenue patterns, while also spotlighting metrics like cost-per-lead, deal, and opportunity, ensuring a comprehensive understanding of marketing attribution.
@@ -30,7 +30,7 @@ The ROI Dashboard provides marketers with a granular view of returns on investme
 * **Simple ROI**: Attributed revenue divided by costs in the filtered date period.
 * **Realized ROI**: Realized attributed revenue divided by costs in the filtered date period.
 
-![ROI dashboard KPI tiles for cost, attributed revenue, and ROI](assets/roi-dashboard-1.png)
+![](assets/roi-dashboard-9.png)
 
 ### Cost and Revenue by Channel Graph {#cost-and-revenue-by-channel-graph}
 
@@ -44,7 +44,7 @@ Bar chart illustrating cost and revenue, designed to offer a comparative perspec
 * What were the ROI values for each channel, subchannel, and campaign?
 * Are there any outlier channels or subchannels with unusually high or low costs relative to their revenue?
 
-![Cost and revenue by channel stacked bar chart](assets/roi-dashboard-2.png)
+![](assets/roi-dashboard-8.png)
 
 ### Realized vs Simple ROI Over Time {#realized-vs-simple-roi-over-time}
 
@@ -57,7 +57,7 @@ Time series line chart displaying the comparison between Realized and Simple ROI
 * How does the Realized ROI compare to the Simple ROI over specific time periods?
 * How does the trend of Realized ROI relate to any significant marketing events during the same period?
 
-![Realized versus simple ROI trend line chart](assets/roi-dashboard-3.png)
+![](assets/roi-dashboard-7.png)
 
 ### Cost Over Time Graph {#cost-over-time-graph}
 
@@ -71,7 +71,7 @@ Stacked bar chart displaying Total Costs, segmented by associated Channels for e
 * How does the combined cost of all channels compare from one quarter/month to the next?
 * How have costs for a specific channel evolved over time?
 
-![Cost over time stacked bar chart with drill controls](assets/roi-dashboard-4.png)
+![](assets/roi-dashboard-6.png)
 
 ### Cost by Channel Graph {#cost-by-channel-graph}
 
@@ -84,7 +84,7 @@ Bar chart displaying marketing spend segmented by Channel/Subchannel/Campaign.
 * Which subchannels or campaigns within a primary channel have the highest allocation?
 * Which marketing avenues (channel, subchannel, or campaign) seem underfunded compared to others?
 
-![Marketing spend by channel bar chart](assets/roi-dashboard-5.png)
+![](assets/roi-dashboard-5.png)
 
 ### ROI Summary Table {#roi-summary-table}
 
@@ -113,9 +113,9 @@ Table displaying costs, new Leads, Opportunities, and deals closed segmented by 
 * Channel/Subchannel/Campaign
 * Cost
 * New Leads
-* Cost per New Lead
+* Cost per New Lead 
 * New Opportunities
-* Cost per New Opportunity
+* Cost per New Opportunity 
 * Deals
 * Cost per Deal
 
@@ -123,7 +123,7 @@ Table displaying costs, new Leads, Opportunities, and deals closed segmented by 
 
 This dashboard is equipped with the following settings and filters:
 
-* Date
+* Date 
   * Based on:
     * Created Date: News Leads, new Opportunities
     * Cost incurred date: cost
@@ -134,6 +134,7 @@ This dashboard is equipped with the following settings and filters:
 * Campaign
 
 >[!MORELIKETHIS]
-> [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>
+>* [Discover Dashboard Basics](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
+>* [Dashboard Data Visibility Policy](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

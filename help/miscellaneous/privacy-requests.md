@@ -1,5 +1,5 @@
 ---
-description: Privacy Requests - [!DNL Marketo Measure]
+description: "Privacy Requests guidance for Marketo Measure users"
 title: Privacy Requests
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
@@ -59,7 +59,7 @@ To make requests to Access and Delete data for [!DNL Marketo Measure], you must:
 
 JSON Request
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -90,7 +90,7 @@ JSON Request
 
 JSON Response
 
-```text
+```json
 {
   "requestId": "16331241037112570RX-245",
   "totalRecords": 1,
@@ -122,7 +122,7 @@ JSON Response
 
 JSON Request
 
-```text
+```json
 {
   "companyContexts": [
     {
@@ -153,7 +153,7 @@ JSON Request
 
 JSON Response
 
-```text
+```json
 {
   "requestId": "16329573462631890RX-207",
   "totalRecords": 1,

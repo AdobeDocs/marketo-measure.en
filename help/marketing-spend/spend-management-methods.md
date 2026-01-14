@@ -1,10 +1,9 @@
 ---
-description: Spend Management Methods - [!DNL Marketo Measure]
+description: "Spend Management Methods guidance for Marketo Measure users"
 title: Spend Management Methods
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
 ---
-
 # Spend Management Methods {#spend-management-methods}
 
 Spend data is key to the success of ROI reporting with [!DNL Marketo Measure]. To have accurate and comprehensive ROI reporting across all of your channels and subchannels, you must make sure you have the appropriate spend data being pulled into [!DNL Marketo Measure].
@@ -19,7 +18,7 @@ Any Ad Account that you have connected to [!DNL Marketo Measure] through an API 
 
 Every [!DNL Marketo Measure] account has access to a feature called [Sync CRM Campaign Costs](/help/marketing-spend/crm-campaign-costs.md#availability). By default, this feature bit is set to "No" but can be turned on at any time.
 
-![Connections settings page showing CRM Campaign Cost Sync toggle](assets/spend-management-methods-1.png)
+![](assets/spend-management-1.png)
 
 When enabled, this feature automatically pulls spends in from any CRM campaign/program that meets the following criteria:
 
