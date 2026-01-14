@@ -24,7 +24,7 @@ This guide outlines the necessary permissions for seamless integration with Mark
 <tbody>
   <tr>
     <td>Salesforce</td>
-    <td>B2B System Data  
+    <td>B2B System Data
 </td>
     <td>Marketo Measure is tracking:
     <p>
@@ -55,7 +55,7 @@ Touchpoints created and other data are written into custom bizible fields on Acc
     <p>
     <b>Salesforce Standard Field Permissions</b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce standard objects and access</a>
+    <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md">Salesforce standard objects and access</a>
     <p>
     <b>Salesforce Custom Field Permissions</b>
     <br>
@@ -102,7 +102,7 @@ For Marketo Measure custom entities, we will need full permissions across all of
 <p>
 <b>Dynamics Standard Field Permissions</b>
 <br>
-<a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics Schema</a>
+<a href="/help/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics Schema</a>
 <p>
 <b>Dynamics Custom Field Permissions</b>
 <br>
@@ -205,16 +205,16 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
   <tr>
     <td>Marketo Engage</td>
     <td>B2B System Data</td>
-    <td>The Marketo integration enables Marketo Measure to collect Marketo Activities, People, Programs, and Program Memberships. Additionally, Marketo Measure tracks Marketo cookies (Munchkin IDs) for the purposes of linking Marketo web activities to Marketo Measure lead touchpoints, <a href="/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#cookie-mapping">as described here</a>:
+    <td>The Marketo integration enables Marketo Measure to collect Marketo Activities, People, Programs, and Program Memberships. Additionally, Marketo Measure tracks Marketo cookies (Munchkin IDs) for the purposes of linking Marketo web activities to Marketo Measure lead touchpoints, <a href="/help/marketo-engage-programs-integration.md#cookie-mapping">as described here</a>:
     <p>
     <i>As a result of the Marketo Measure integration with Marketo, the Marketo Measure Cookie Id is also now mapped and synced with the Marketo Munchkin Id. This helps close the gap to attribute the anonymous first touch to a web session rather than attributing both the FT and LC touches to a Marketo Activity.</i>
     </td>
-    <td>The customer must create a dedicated Marketo Engage API User and supply the credentials to Marketo Measure. No additional permissions configuration is required. <a href="/help/marketo-measure-and-marketo/set-up-marketo-connection.md#configuring-the-integration">Learn more</a>.</td>
+    <td>The customer must create a dedicated Marketo Engage API User and supply the credentials to Marketo Measure. No additional permissions configuration is required. <a href="/help/set-up-marketo-connection.md#configuring-the-integration">Learn more</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
     <td>B2B System Data</td>
-    <td>The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from the Marketo Measure attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). <a href="/help/marketo-measure-and-adobe/adobe-analytics.md">Learn more</a>.</td>
+    <td>The B2B Customer Attributes integration enables mutual users of Marketo Measure and Adobe Analytics to enrich their Adobe Analytics user profiles with valuable metadata derived from the Marketo Measure attribution engine and through its sync capability with CRMs (Microsoft Dynamics and Salesforce). <a href="/help/adobe-analytics.md">Learn more</a>.</td>
     <td>The customer must provide Marketo Measure with an Alias ID and FTP server credentials to a location that data will be uploaded to their Analytics instance.
     <p>
     Take note of the following information, as you will need it for some of the later steps in the process:
@@ -222,7 +222,7 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
     <li>The Alias ID, which can be any value you want it to be. We recommend "marketomeasure_id"</li>
     <li>The FTP server hostname and credentials (user name and password)</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/adobe-analytics.md#configuring-the-integration">Learn more</a></td>
+    <a href="/help/adobe-analytics.md#configuring-the-integration">Learn more</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
@@ -234,4 +234,4 @@ Marketo Measure is tracking Campaigns, Ad Groups, Creatives, Site Links, and Key
 </table>
 
 >[!MORELIKETHIS]
->[Error Notifications](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[Error Notifications](/help/configuration-and-setup/error-notifications.md){target="_blank"}

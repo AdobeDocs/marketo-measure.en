@@ -25,7 +25,7 @@ Example in screenshot below
 
 1. Click **[!UICONTROL Save]**.
 
-   ![](assets/adding-pages-1.png)
+   ![1. Click Save.](assets/adding-pages-1.png)
 
 ## Additional Notes {#additional-notes}
 

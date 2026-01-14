@@ -54,11 +54,11 @@ There are two tracking templates [!DNL Marketo Measure] recommends using. Use th
 
 1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Settings]** in the expanding window.
 
-   ![](assets/utilizing-connections-13.png)
+   ![1. Click All campaigns and then Settings in the expanding](assets/utilizing-connections-13.png)
 
 1. Click **[!UICONTROL Account Settings]** at the top and then **[!UICONTROL Tracking Template]**. Enter the [!DNL Marketo Measure] Tracking Template.
 
-   ![](assets/bizible-guide-1.png)
+   ![1. Click Account Settings at the top and then Tracking](assets/bizible-guide-1.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -66,11 +66,11 @@ There are two tracking templates [!DNL Marketo Measure] recommends using. Use th
 
 1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Campaigns]** in the expanding window.
 
-   ![](assets/utilizing-connections-12.png)
+   ![1. Click All campaigns and then Campaigns in the expanding](assets/utilizing-connections-12.png)
 
 1. Select all applicable campaigns or **[!UICONTROL Select All]**, click **[!UICONTROL Edit]**, and then click **[!UICONTROL Change Tracking Templates]**.
 
-   ![](assets/five-five-1.png)
+   ![1. Select all applicable campaigns or Select All, click Edit,](../assets/marketo-engage-activities-05.png)
 
 1. Enter the [!DNL Marketo Measure] Tracking Template and click **[!UICONTROL Apply]**.
 
@@ -78,13 +78,13 @@ There are two tracking templates [!DNL Marketo Measure] recommends using. Use th
 
 1. Click **[!UICONTROL All campaigns]** and then **[!UICONTROL Ad Groups]** in the expanding window.
 
-   ![](assets/four-four-1.png)
+   ![1. Click All campaigns and then Ad Groups in the](assets/api-connections-01.png)
 
 1. Select all applicable Ad Groups or Select All, click **[!UICONTROL Edit]** and then click **[!UICONTROL Change Tracking Templates]**.
 
 1. Enter the [!DNL Marketo Measure] Tracking Template and click **[!UICONTROL Apply]**.
 
-   ![](assets/one-one-1.png)
+   ![1. Enter the Marketo Measure Tracking Template and click Apply.](../assets/marketo-engage-activities-01.png)
 
 ## FAQ {#faq}
 

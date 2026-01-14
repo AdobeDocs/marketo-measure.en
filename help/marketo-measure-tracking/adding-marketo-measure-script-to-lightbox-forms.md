@@ -14,11 +14,11 @@ Since a form within a lightbox is basically a form within an iFrame, the script 
 
 First, locate the iFrame the [!UICONTROL lightbox] form lives in.
 
-![](assets/adding-providers-8.png)
+![First, locate the iFrame the lightbox form lives in.](assets/adding-providers-8.png)
 
 Next, place the [!DNL Marketo Measure] JavaScript within the iFrame.
 
-![](assets/adding-providers-5.png)
+![Next, place the Marketo Measure JavaScript within the iFrame.](assets/adding-providers-5.png)
 
 Finally, when the JavaScript is added, validate form submissions are being tracked by following these directions:
 

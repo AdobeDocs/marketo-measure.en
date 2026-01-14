@@ -14,6 +14,6 @@ We see in many cases that the IFrame is managed through a Marketing Automation p
 
 It is recommended to place the JavaScript within the head of the IFrame and from there we will automatically attach to the forms within that frame.
 
-![](assets/adding-pages-1.png)
+![It is recommended to place the JavaScript within the head of the](assets/adding-pages-1.png)
 
 If you have any questions around adding our JavaScript to IFrame forms, reach out to the Adobe Account Team (your Account Manager) or [Marketo Support](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

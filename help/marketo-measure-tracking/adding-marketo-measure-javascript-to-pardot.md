@@ -18,11 +18,11 @@ Once you've logged into your [!DNL Pardot] account, follow the steps below.
 
 1. Select **[!UICONTROL Layout Template]**.
 
-   ![](assets/adding-providers-4.png)
+   ![1. Select Layout Template.](assets/adding-providers-4.png)
 
 1. Determine the appropriate Layout Template and click **[!UICONTROL Edit]** to the right.
 
-   ![](assets/adding-pages-1.png)
+   ![1. Determine the appropriate Layout Template and click Edit to the](assets/adding-pages-1.png)
 
 1. Copy and paste the [!DNL Marketo Measure] JavaScript code right before the close header tag on your HTML page.
 

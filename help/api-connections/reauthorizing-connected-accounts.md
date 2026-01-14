@@ -13,7 +13,7 @@ If your ad platform becomes disconnected, [!DNL Marketo Measure] will not be abl
 
 If your CRM platform becomes disconnected, [!DNL Marketo Measure] will not be able to update [!DNL Marketo Measure] data or push any new touchpoints into your org. Once the CRM connection has been re-established, [!DNL Marketo Measure] will push any data that was missed while the account was disconnected.
 
-![](assets/utilizing-connections-7.png)
+![If your CRM platform becomes disconnected, Marketo Measure will not be](assets/utilizing-connections-7.png)
 
 ## Re-Authorizing Disconnected accounts {#re-authorizing-disconnected-accounts}
 

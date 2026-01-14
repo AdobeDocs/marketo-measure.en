@@ -32,7 +32,7 @@ As for setup, there are seven steps to be completed within the [!DNL Marketo Mea
 
 ## Connecting the Account {#connecting-the-account}
 
-![](assets/utilizing-connections-2.gif)
+![Connecting the Account {connecting-the-account}](assets/utilizing-connections-2.gif)
 
 ## Enabling Autotagging {#enabling-autotagging}
 
@@ -40,87 +40,87 @@ As for setup, there are seven steps to be completed within the [!DNL Marketo Mea
 >
 >If you enable auto-tagging, we'll reset the conversion history and social proof of all of the ads that we tag. We highly recommend [exporting this data as a CSV](https://www.facebook.com/business/help/205067636197240) before you enable auto-tagging.
 
-![](assets/bizible-guide-1.png)
+![If you enable auto-tagging, we'll reset the conversion history and social proof](assets/bizible-guide-1.png)
 
 Once you've enabled the integration, [!DNL Marketo Measure] will start downloading ad level cost into the [!DNL Marketo Measure Marketing ROI] Dashboard.
 
 For the integration to properly work, you must enable auto-tagging on your [!DNL Facebook] account. This will allow our system to add a _bf parameter across all ad links. This process will add the new parameter on top of any other tracking parameters you've already added to your [!DNL Facebook] ads.
 
-![](assets/five-five-1.png)
+![For the integration to properly work, you must enable auto-tagging on your](../assets/marketo-engage-activities-05.png)
 
 ## Field Mapping {#field-mapping}
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
-  <tr> 
-   <th><p><strong>Touchpoint Field</strong></p></th> 
-   <th><p><strong>Value</strong></p></th> 
-  </tr> 
-  <tr> 
-   <td><p>Ad Campaign Id</p></td> 
-   <td><p>[[!DNL Facebook] Campaign Id]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad Campaign Name </p></td> 
-   <td><p>[[!DNL Facebook] Campaign Name], or [utm_campaign] if provided</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad Group Id</p></td> 
-   <td><p>[[!DNL Facebook] Ad Set Id]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad Group Name</p></td> 
-   <td><p>[[!DNL Facebook] Ad Set Name]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Touchpoint Source</p></td> 
-   <td><p>"[!DNL Facebook]", or [utm_source] if provided</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Medium</p></td> 
-   <td><p>"Social", or [utm_medium] if provided</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad Id, or Creative_Unique_Id (Data Warehouse)</p></td> 
-   <td><p>[custom Id generated from utm_content]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad Content, or Creative_Name (Data Warehouse)</p></td> 
-   <td><p>[utm_content] if provided</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Keyword Text, or Keyword_Name (Data Warehouse)</p></td> 
-   <td><p>[utm_term] if provided</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad_Unique_Id (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Ad Id]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Ad Name]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Keyword_Unique_Id (Data Warehouse)</p></td> 
-   <td><p>[custom Id generated from utm_term]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Ad_Provider (Data Warehouse)</p></td> 
-   <td><p>"[!DNL Facebook]"</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Account #]</p></td> 
-  </tr> 
-  <tr> 
-   <td><p>Account_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Account Name]</p></td> 
-  </tr> 
- </tbody> 
+<table>
+ <colgroup>
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <th><p><strong>Touchpoint Field</strong></p></th>
+   <th><p><strong>Value</strong></p></th>
+  </tr>
+  <tr>
+   <td><p>Ad Campaign Id</p></td>
+   <td><p>[[!DNL Facebook] Campaign Id]</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad Campaign Name </p></td>
+   <td><p>[[!DNL Facebook] Campaign Name], or [utm_campaign] if provided</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad Group Id</p></td>
+   <td><p>[[!DNL Facebook] Ad Set Id]</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad Group Name</p></td>
+   <td><p>[[!DNL Facebook] Ad Set Name]</p></td>
+  </tr>
+  <tr>
+   <td><p>Touchpoint Source</p></td>
+   <td><p>"[!DNL Facebook]", or [utm_source] if provided</p></td>
+  </tr>
+  <tr>
+   <td><p>Medium</p></td>
+   <td><p>"Social", or [utm_medium] if provided</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad Id, or Creative_Unique_Id (Data Warehouse)</p></td>
+   <td><p>[custom Id generated from utm_content]</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad Content, or Creative_Name (Data Warehouse)</p></td>
+   <td><p>[utm_content] if provided</p></td>
+  </tr>
+  <tr>
+   <td><p>Keyword Text, or Keyword_Name (Data Warehouse)</p></td>
+   <td><p>[utm_term] if provided</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad_Unique_Id (Data Warehouse)</p></td>
+   <td><p>[[!DNL Facebook] Ad Id]</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad_Name (Data Warehouse)</p></td>
+   <td><p>[[!DNL Facebook] Ad Name]</p></td>
+  </tr>
+  <tr>
+   <td><p>Keyword_Unique_Id (Data Warehouse)</p></td>
+   <td><p>[custom Id generated from utm_term]</p></td>
+  </tr>
+  <tr>
+   <td><p>Ad_Provider (Data Warehouse)</p></td>
+   <td><p>"[!DNL Facebook]"</p></td>
+  </tr>
+  <tr>
+   <td><p>Account_Unique_ID (Data Warehouse)</p></td>
+   <td><p>[[!DNL Facebook] Account #]</p></td>
+  </tr>
+  <tr>
+   <td><p>Account_Name (Data Warehouse)</p></td>
+   <td><p>[[!DNL Facebook] Account Name]</p></td>
+  </tr>
+ </tbody>
 </table>
 
 ## FAQ {#faq}

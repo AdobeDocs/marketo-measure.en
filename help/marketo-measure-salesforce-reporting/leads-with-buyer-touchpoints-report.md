@@ -1,0 +1,31 @@
+---
+description: "Leads with Buyer Touchpoints Report guidance for Marketo Measure users"
+title: Leads with Buyer Touchpoints Report
+exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
+feature: Touchpoints, Reporting
+---
+# Leads with Buyer Touchpoints Report {#leads-with-buyer-touchpoints-report}
+
+>[!NOTE]
+>
+>You may see instructions specifying "[!DNL Marketo Measure]" in the documentation, but still see "[!DNL Bizible]" in your CRM. We are working to have that updated and the rebranding will be reflected in your CRM soon.
+
+Out of the box you have many reporting capabilities at your fingertips when it comes to [!DNL Marketo Measure], but there are some additional report types we recommend building. Learn about creating an inclusive Leads with Buyer Touchpoints report type below.
+
+1. Navigate to your Setup option within [!DNL Salesforce]. From there, expand the "Create" grouping and select **[!UICONTROL Report Types]**.
+
+   ![1. Navigate to your Setup option within Salesforce. From there, expand](assets/bizible-guide-1.png)
+
+1. Select **[!UICONTROL New Custom Report Type]**.
+
+   ![1. Select New Custom Report Type.](assets/marketo-reports-17.jpg)
+
+1. Set the primary object as "Leads" and within the "Report Type Label" input "Leads with Buyer Touchpoints - Inclusive." Store the report within the "Leads" category and change the deployment status to **[!UICONTROL Deployed]**. Then select **[!UICONTROL Next]**.
+
+   ![1. Set the primary object as "Leads" and within the "Report Type](assets/marketo-reports-18.jpg)
+
+1. For the object relationships, select the **[!DNL Marketo Measure] Persons** object as the secondary object. Select the A to B relationship as, "Each 'A' record must have at least one related 'B' record." From there, you will relate the "Buyer Touchpoint" object and select the same relationship between the B and C objects.
+
+   ![1. For the object relationships, select the Marketo Measure Persons object](assets/bizible-guide-2.png)
+
+1. Save and start building some reports!

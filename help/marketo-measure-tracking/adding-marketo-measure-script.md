@@ -11,7 +11,7 @@ hidefromtoc: yes
 
 >[!NOTE]
 >
->Make sure you've [claimed all appropriate domains in the [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} in addition to deploying the [!DNL Marketo Measure] JavaScript.
+>Make sure you've [claimed all appropriate domains in the [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} in addition to deploying the [!DNL Marketo Measure] JavaScript.
 
 When getting started with [!DNL Marketo Measure], there are two ways you can add the [!DNL Marketo Measure] JavaScript to your website:
 
@@ -60,7 +60,7 @@ Be sure to have a conversation with your web team so they know [!DNL Marketo Mea
 
 If a [!DNL Web Application Firewall (WAF)] warning is triggered during the JavaScript setup, users can either disable that WAF rule or allowlist the cookies, as the below example:
 
-![](assets/adding-script-1.png)
+![If a Web Application Firewall (WAF) warning is triggered during the](assets/adding-script-1.png)
 
 ## Forms to Pay Extra Attention To {#forms-to-pay-extra-attention-to}
 

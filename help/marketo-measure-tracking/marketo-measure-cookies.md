@@ -27,4 +27,4 @@ Learn about the various [!DNL Marketo Measure] Cookies that are loaded onto your
 
 If a Web Application Firewall (WAF) warning is triggered during the JavaScript setup, users can either disable that WAF rule or allowlist the cookies, as the below example:
 
-![](assets/adding-script-1.png)
+![If a Web Application Firewall (WAF) warning is triggered during the JavaScript](assets/adding-script-1.png)

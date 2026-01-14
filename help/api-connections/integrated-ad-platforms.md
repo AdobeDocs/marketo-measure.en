@@ -15,11 +15,11 @@ Before we get into specifics of each platform, we'll go over how to connect any 
 
 As shown in the image below, you will see a button to set up new ads connections.
 
-![](assets/bizible-guide-1.png)
+![As shown in the image below, you will see a button to](assets/bizible-guide-1.png)
 
 After you click the [!UICONTROL Set up New Ads Connection] button, a window (shown below) will pop up with four ad [!UICONTROL connect]ion types. Click connect and another window will appear asking for credentials. Enter the credentials and click [!UICONTROL authorize] to connect the account to [!DNL Marketo Measure].
 
-![](assets/five-five-1.png)
+![After you click the Set up New Ads Connection button, a](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -50,15 +50,15 @@ Once you have a tracking template in place, follow the instructions below to ena
 
 1. Go to [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
-   ![](assets/utilizing-connections-8.png)
+   ![1. Go to My Account Settings Integrations Connections.](assets/utilizing-connections-8.png)
 
 1. Click the Pencil Icon next to the Adwords Account that will be have [!DNL Marketo Measure] auto-tagging enabled.
 
-   ![](assets/utilizing-connections-9.png)
+   ![1. Click the Pencil Icon next to the Adwords Account that will](assets/utilizing-connections-9.png)
 
 1. In the top right-hand corner, toggle the **[!UICONTROL Autotagging]** switch to **[!UICONTROL Yes]**. At the bottom of the page, click **[!UICONTROL Learn More]** to expand the text box and click **[!UICONTROL Save]**. Auto-tagging setup is complete.
 
-   ![](assets/utilizing-connections-10.png)
+   ![1. In the top right-hand corner, toggle the Autotagging switch to](assets/utilizing-connections-10.png)
 
 ## How to Set up a Tracking Template in AdWords with [!DNL Marketo Measure] Parameters {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
