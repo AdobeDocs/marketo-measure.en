@@ -1,9 +1,9 @@
 ---
-unique-page-id: 18874594
-description: Integrated Ad Platforms - [!DNL Marketo Measure]
+description: "Integrated Ad Platforms guidance for Marketo Measure users"
 title: Integrated Ad Platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: yes
 ---
 # Integrated Ad Platforms {#integrated-ad-platforms}
 
@@ -13,17 +13,17 @@ feature: APIs, Integration
 
 >[!NOTE]
 >
->The maximum number of Ad Platform connections you can have is 300.
+>The maximum number of Ad Platform connections you can connect is 300.
 
 Before we get into specifics of each platform, we'll go over how to connect any of these accounts to [!DNL Marketo Measure]. First log in to [!DNL Marketo Measure] and navigate to the **[!UICONTROL Settings]** option under the **[!UICONTROL My Account]** tab at the top left of the screen. Next, select **[!UICONTROL Connections]** under the **[!UICONTROL Integrations]** section on the left.
 
 As shown in the image below, you will see a button to set up new ads connections.
 
-![](assets/2.png)
+![As shown in the image below, you will see a button to](assets/bizible-guide-1.png)
 
 After you click the [!UICONTROL Set up New Ads Connection] button, a window (shown below) will pop up with four ad [!UICONTROL connect]ion types. Click connect and another window will appear asking for credentials. Enter the credentials and click [!UICONTROL authorize] to connect the account to [!DNL Marketo Measure].
 
-![](assets/select-account-type.png)
+![After you click the Set up New Ads Connection button, a](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -36,13 +36,13 @@ The Tracking Template is a tool Google provides to add what it calls ValueTrack 
 [!DNL Marketo Measure] Searches for Tracking Templates in your [!DNL AdWords] account:
 
 * *Option A*: Tracking Template is found. [!DNL Marketo Measure] adds its parameters to the template.
-* *Option B*: Third-party redirect is found. If a third-party redirect is found in the Tracking Template, [!DNL Marketo Measure] cannot take any action. You will need to manually add the [!DNL Marketo Measure] tags to the third-party system. An example of a third-party redirect would be a bid management tool like Kenshoo or Marin. Learn more about how [bid management tools affect [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* *Option B*: Third-party redirect is found. If a third-party redirect is found in the Tracking Template, [!DNL Marketo Measure] cannot take any action. You will need to manually add the [!DNL Marketo Measure] tags to the third-party system. An example of a third-party redirect would be a bid management tool like Kenshoo or Marin. Learn more about how [bid management tools affect [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C*: No Tracking Template is found. [!DNL Marketo Measure] will scan all of your Ad Destination URLs for the [!DNL Marketo Measure] parameters. Based on the scan, if:
    * Parameters are found: the setup is complete!
    * Parameters are not found: [!DNL Marketo Measure] will append its parameters to the end of the Ad Destination URLs. [!DNL Marketo Measure] appends new ads within two hours after they are created. Keep in mind that the parameters will not be added to a template.
 
-Learn more about our [[!DNL AdWords] auto-tagging functionality](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+Learn more about our [[!DNL AdWords] auto-tagging functionality](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## How to Enable [!DNL Marketo Measure] Auto-tagging for Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -54,15 +54,15 @@ Once you have a tracking template in place, follow the instructions below to ena
 
 1. Go to [!UICONTROL My Account] > [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Connections].
 
-   ![](assets/4.png)
+   ![1. Go to My Account Settings Integrations Connections.](assets/utilizing-connections-8.png)
 
 1. Click the Pencil Icon next to the Adwords Account that will be have [!DNL Marketo Measure] auto-tagging enabled.
 
-   ![](assets/5.png)
+   ![1. Click the Pencil Icon next to the Adwords Account that will](assets/utilizing-connections-9.png)
 
 1. In the top right-hand corner, toggle the **[!UICONTROL Autotagging]** switch to **[!UICONTROL Yes]**. At the bottom of the page, click **[!UICONTROL Learn More]** to expand the text box and click **[!UICONTROL Save]**. Auto-tagging setup is complete.
 
-   ![](assets/6.png)
+   ![1. In the top right-hand corner, toggle the Autotagging switch to](assets/utilizing-connections-10.png)
 
 ## How to Set up a Tracking Template in AdWords with [!DNL Marketo Measure] Parameters {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
