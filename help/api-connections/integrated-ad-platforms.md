@@ -11,7 +11,11 @@ hidefromtoc: yes
 
 ## How to Connect Ad Platforms {#how-to-connect-ad-platforms}
 
-Before we get into specifics of each platform, we'll go over how to connect any of these accounts to [!DNL Marketo Measure]. First log into the [!DNL Marketo Measure] app and navigate to the **[!UICONTROL Settings]** option under the **[!UICONTROL My Account]** tab at the top left of the screen. Next, select **[!UICONTROL Connections]** under the **[!UICONTROL Integrations]** section on the left.
+>[!NOTE]
+>
+>The maximum number of Ad Platform connections you can connect is 300.
+
+Before we get into specifics of each platform, we'll go over how to connect any of these accounts to [!DNL Marketo Measure]. First log in to [!DNL Marketo Measure] and navigate to the **[!UICONTROL Settings]** option under the **[!UICONTROL My Account]** tab at the top left of the screen. Next, select **[!UICONTROL Connections]** under the **[!UICONTROL Integrations]** section on the left.
 
 As shown in the image below, you will see a button to set up new ads connections.
 
