@@ -1,9 +1,11 @@
 ---
 solution: Marketo Measure
 feature-set: Marketo Measure
+landing-page-name: marketo-measure
+landing-page-breadcrumb-title: Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.en
-index: yes
+index: true
 ---
 
 # Metadata for internal use

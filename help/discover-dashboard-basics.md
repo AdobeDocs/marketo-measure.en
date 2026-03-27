@@ -15,10 +15,10 @@ Every dashboard has a range of filters, accompanied by the following controls fo
 
 | Name | Description |
 | --- | --- |
-| Filter Toggle Button | Toggle the filter pane open or closed. ![| --- | --- |](assets/discover-basics-9.png) |
-| Search Bar | Use the search at the top of the filter pane to search for a specific filter. Each filter also has its own search bar. ![| --- | --- |](assets/discover-basics-10.png) |
-| Clear Filter Button | To clear a filter, click the eraser icon located at the top-right corner of each filter. ![| --- | --- |](assets/discover-basics-11.png) |
-| Apply Button | Click to confirm and implement your filter changes on the dashboard. ![| --- | --- |](assets/discover-3a-1.png) |
+| Filter Toggle Button | Toggle the filter pane open or closed. ![\| --- \| --- \|](assets/discover-basics-9.png) |
+| Search Bar | Use the search at the top of the filter pane to search for a specific filter. Each filter also has its own search bar. ![\| --- \| --- \|](assets/discover-basics-10.png) |
+| Clear Filter Button | To clear a filter, click the eraser icon located at the top-right corner of each filter. ![\| --- \| --- \|](assets/discover-basics-11.png) |
+| Apply Button | Click to confirm and implement your filter changes on the dashboard. ![\| --- \| --- \|](assets/discover-3a-1.png) |
 
 ## Filters on Visual {#filters-on-visual}
 
