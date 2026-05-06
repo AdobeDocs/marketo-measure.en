@@ -1,7 +1,7 @@
 ---
 description: "What is Adobe Marketo Measure"
 title: What is Adobe Marketo Measure?
-hide: yes
+hide: true
 hidefromtoc: yes
 ---
 # What is Adobe Marketo Measure? {#what-is-adobe-marketo-measure}

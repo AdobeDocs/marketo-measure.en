@@ -1,7 +1,7 @@
 ---
 description: "Doc 2"
 title: Doc 2
-hide: yes
+hide: true
 hidefromtoc: yes
 ---
 # Doc 2 {#doc2}
