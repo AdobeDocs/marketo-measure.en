@@ -2,7 +2,6 @@
 description: Test - Product Documentation
 title: Test
 hide: true
-hidefromtoc: yes
 feature: Fundamentals
 exl-id: 494abb0f-c764-4328-9767-78003e962f97
 ---
