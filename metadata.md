@@ -1,5 +1,8 @@
 ---
 solution: Marketo Measure
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    label: "Marketo Measure"
 feature-set: Marketo Measure
 landing-page-name: marketo-measure
 landing-page-breadcrumb-title: Marketo Measure
