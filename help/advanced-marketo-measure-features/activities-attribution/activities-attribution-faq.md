@@ -4,6 +4,10 @@ description: Activities Attribution FAQ - [!DNL Marketo Measure]
 title: Activities Attribution FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
+TQID: https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Activities Attribution FAQ {#activities-attribution-faq}
 

@@ -3,6 +3,13 @@ description: Dashboard Data Visibility Policy - [!DNL Marketo Measure] - Product
 title: Dashboard Data Visibility Policy
 feature: Reporting
 exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
+TQID: https://experienceleague.adobe.com/BoS1frFIuxKjaHbi9FkI5lgtBbjMqYo3-4AFliP9ehc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Dashboard Data Visibility Policy {#dashboard-data-visibility-policy}
 

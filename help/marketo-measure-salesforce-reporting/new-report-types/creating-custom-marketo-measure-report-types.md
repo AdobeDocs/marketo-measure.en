@@ -4,6 +4,16 @@ description: Creating Custom [!DNL Marketo Measure] Report Types - [!DNL Marketo
 title: Creating Custom [!DNL Marketo Measure] Report Types
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
+TQID: https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Creating Custom [!DNL Marketo Measure] Report Types {#creating-custom-marketo-measure-report-types}
 

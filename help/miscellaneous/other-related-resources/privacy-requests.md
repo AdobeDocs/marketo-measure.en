@@ -3,6 +3,16 @@ description: Privacy Requests - [!DNL Marketo Measure]
 title: Privacy Requests
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
+TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Privacy Requests {#privacy-requests}
 

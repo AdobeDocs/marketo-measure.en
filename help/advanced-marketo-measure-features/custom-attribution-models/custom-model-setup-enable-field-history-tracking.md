@@ -4,6 +4,13 @@ description: Custom Model Setup - Enable Field History Tracking - [!DNL Marketo 
 title: Custom Model Setup - Enable Field History Tracking
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
+TQID: https://experienceleague.adobe.com/VUMTg9lOnCtRb3TUt7SIkUeOsghibBX0LDtqQVeXdcg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # Custom Model Setup: Enable Field History Tracking {#custom-model-setup-enable-field-history-tracking}
 

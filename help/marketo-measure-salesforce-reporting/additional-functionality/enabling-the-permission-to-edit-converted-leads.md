@@ -4,6 +4,13 @@ description: Enabling the Permission to Edit Converted Leads - [!DNL Marketo Mea
 title: Enabling the Permission to Edit Converted Leads
 exl-id: 00f59d98-272e-47e8-bc20-9d805b1826be
 feature: Tracking
+TQID: https://experienceleague.adobe.com/HPiPX-majV643tP2uWodzIjGeAJB0mBSF21d3OPFW9Y
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Enabling the Permission to Edit Converted Leads {#enabling-the-permission-to-edit-converted-leads}
 

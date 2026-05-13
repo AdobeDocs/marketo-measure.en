@@ -4,6 +4,13 @@ description: Salesforce Sandbox to Production Migration - [!DNL Marketo Measure]
 title: Salesforce Sandbox to Production Migration
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/tdO2AE1dXfriuURbldKa0NB6wzc0o6NBH0CdgolkqSc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Salesforce Sandbox to Production Migration {#salesforce-sandbox-to-production-migration}
 

@@ -4,6 +4,13 @@ description: Marketing Attribution - Marketo Measure - Product Documentation
 title: Marketing Attribution
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
+TQID: https://experienceleague.adobe.com/KmQcMmJ5n6h1cHZcG-GtJPhMT9gt3BzNqGr4gRoytzQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
 ---
 # Marketing Attribution {#marketing-attribution}
 

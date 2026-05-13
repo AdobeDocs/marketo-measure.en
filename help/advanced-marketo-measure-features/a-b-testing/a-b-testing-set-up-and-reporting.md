@@ -4,6 +4,13 @@ description: A/B Testing Set Up and Reporting - [!DNL Marketo Measure]
 title: A/B Testing Set Up and Reporting
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
+TQID: https://experienceleague.adobe.com/lMtRvc6owu6vx-FsOjCyd40HGhQefpNIr48cnKP5CmM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # A/B Testing Set Up and Reporting {#a-b-testing-set-up-and-reporting}
 

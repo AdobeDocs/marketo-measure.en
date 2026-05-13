@@ -4,6 +4,10 @@ description: Hiding Unnecessary Report Types - [!DNL Marketo Measure]
 title: Hiding Unnecessary Report Types
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Hiding Unnecessary Report Types {#hiding-unnecessary-report-types}
 

@@ -4,6 +4,13 @@ description: Report Type for Contacts Without Opportunities - [!DNL Marketo Meas
 title: Report Type for Contacts Without Opportunities
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
+TQID: https://experienceleague.adobe.com/j7dgYcy3QY2XRGdYptv-S3N6IWfsSRa6iQrpD0FF1Tg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Report Type for Contacts Without Opportunities {#report-type-for-contacts-without-opportunities}
 

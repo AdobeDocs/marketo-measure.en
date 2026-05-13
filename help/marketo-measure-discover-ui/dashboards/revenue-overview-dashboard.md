@@ -3,6 +3,15 @@ description: Revenue Overview Dashboard - [!DNL Marketo Measure] - Product
 title: Revenue Overview Dashboard
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+TQID: https://experienceleague.adobe.com/y4bda-nVLkQUqIvv2LQ9e8N4EsaAAT-eoEr7jjHohy0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Revenue Overview Dashboard {#revenue-overview-dashboard}
 

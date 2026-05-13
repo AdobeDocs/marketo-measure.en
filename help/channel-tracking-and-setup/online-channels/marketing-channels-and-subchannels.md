@@ -4,6 +4,13 @@ description: Marketing Channels and Subchannels - [!DNL Marketo Measure]
 title: Marketing Channels and Subchannels
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
+TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Marketing Channels and Subchannels {#marketing-channels-and-subchannels}
 

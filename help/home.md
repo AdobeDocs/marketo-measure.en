@@ -3,6 +3,13 @@ unique-page-id: 18874501
 description: Search for product documentation and self-help articles for Adobe Marketo Measure.
 title: Marketo Measure product documentation
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
+TQID: https://experienceleague.adobe.com/3U7L8Vdq1S8CbFbM-bZWg5AB1vnQnut-W6BTzSC9G-g
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # Marketo Measure Help Documentation
 

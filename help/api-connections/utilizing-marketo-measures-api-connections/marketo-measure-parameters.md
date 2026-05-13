@@ -4,6 +4,16 @@ description: "[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Parameters"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
+TQID: https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
 ---
 # [!DNL Marketo Measure] Parameters {#marketo-measure-parameters}
 

@@ -4,6 +4,10 @@ description: Adding [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Mea
 title: Adding [!DNL Marketo Measure] to [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
+TQID: https://experienceleague.adobe.com/3To9-9GZMHJf6vVOUPTedkJBpqU1TZNxKeVBHIm0PKY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Adding [!DNL Marketo Measure] to [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 

@@ -4,6 +4,10 @@ description: Boomerang Stage Scenarios - [!DNL Marketo Measure]
 title: Boomerang Stage Scenarios
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
+TQID: https://experienceleague.adobe.com/OVHlMxrX-hB5JBVm3-zUqkXsJVKTNusMIOO8NzYWv-Q
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Boomerang Stage Scenarios {#boomerang-stage-scenarios}
 

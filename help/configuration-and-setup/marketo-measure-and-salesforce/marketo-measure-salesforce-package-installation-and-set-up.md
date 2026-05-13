@@ -3,6 +3,13 @@ description: "[!DNL Marketo Measure] Salesforce Package Installation and Set Up 
 title: "[!DNL Marketo Measure] [!DNL Salesforce] Package Installation and Set Up"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
+TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
 ---
 # [!DNL Marketo Measure] Salesforce Package Installation and Set Up {#marketo-measure-salesforce-package-installation-and-set-up}
 

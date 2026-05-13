@@ -4,6 +4,15 @@ description: Touchpoint Fields - [!DNL Marketo Measure]
 title: Touchpoint Fields
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
+TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Touchpoint Fields {#touchpoint-fields}
 

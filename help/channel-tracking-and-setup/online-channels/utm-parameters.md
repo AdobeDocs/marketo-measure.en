@@ -4,6 +4,10 @@ description: UTM Parameters - [!DNL Marketo Measure]
 title: UTM Parameters
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
+TQID: https://experienceleague.adobe.com/BjDwxuOaOhug3ynGSyyLLNzSYrzn4v49z-6TGJao9U8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # UTM Parameters {#utm-parameters}
 

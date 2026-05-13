@@ -4,6 +4,15 @@ description: Security Session Restrictions - IP Addresses to Allowlist - Marketo
 title: Security Session Restrictions - IP Addresses to Allowlist
 exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
 feature: Tracking
+TQID: https://experienceleague.adobe.com/Ka7ff5qarBVEm4JdSGCbaUM3Mrug0r3ZOPSKPrnc3Zo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Security Session Restrictions: IP Addresses to Allowlist {#security-session-restrictions-ip-addresses-to-allowlist}
 

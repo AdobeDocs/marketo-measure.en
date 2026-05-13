@@ -4,6 +4,13 @@ description: Duplicate Records and [!DNL Marketo Measure] - [!DNL Marketo Measur
 title: Duplicate Records and [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
+TQID: https://experienceleague.adobe.com/71lYDeI8YBsbc1Enq1-dDPN9YihW6lcnv1MNFBZTNkc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Duplicate Records and [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 

@@ -3,6 +3,19 @@ description: Best Practices for API Connections - [!DNL Marketo Measure]
 title: Best Practices for API Connections
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
+TQID: https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Best Practices for API Connections {#best-practices-for-api-connections}
 

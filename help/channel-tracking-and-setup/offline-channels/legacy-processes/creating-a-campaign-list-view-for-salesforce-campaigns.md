@@ -4,6 +4,15 @@ description: Creating a Campaign List View for [!DNL Salesforce Campaigns] - [!D
 title: Creating a Campaign List View for [!DNL Salesforce] Campaigns
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
+TQID: https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Creating a Campaign List View for [!DNL Salesforce] Campaigns {#creating-a-campaign-list-view-for-salesforce-campaigns}
 

@@ -4,6 +4,13 @@ description: "[!DNL Marketo Measure] Revenue Workflows for Dynamics - [!DNL Mark
 title: "[!DNL Marketo Measure] Revenue Workflows for Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
+TQID: https://experienceleague.adobe.com/JuO-Wg0yApkF8GK--qS4tHkBweWLDbkg6Bd-qNXGUDE
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # [!DNL Marketo Measure] Revenue Workflows for Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 

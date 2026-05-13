@@ -4,6 +4,10 @@ description: Adding [!DNL Marketo Measure] to [!DNL Marketo] Landing Pages - [!D
 title: Adding [!DNL Marketo Measure] to Marketo Landing Pages
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
+TQID: https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Adding [!DNL Marketo Measure] to Marketo Landing Pages {#adding-marketo-measure-to-marketo-landing-pages}
 

@@ -4,6 +4,10 @@ description: Marketo Measure Attribution Models - Marketo Measure - Product Docu
 title: Marketo Measure Attribution Models
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
+TQID: https://experienceleague.adobe.com/auiVcEzz1L3cujxvhEw6C7gig67ZHZCMKmB87oPxjVo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Marketo Measure Attribution Models {#marketo-measure-attribution-models}
 
