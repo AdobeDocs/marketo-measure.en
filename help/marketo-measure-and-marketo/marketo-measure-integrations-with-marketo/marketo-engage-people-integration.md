@@ -4,6 +4,16 @@ description: "[!DNL Marketo Engage] People Integration - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] People Integration"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
+TQID: https://experienceleague.adobe.com/h5Fe8tfw6VkKLRgKVdgKDRrhK91iVtkGSkrwU-W5SKw
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # [!DNL Marketo Engage] People Integration {#marketo-engage-people-integration}
 

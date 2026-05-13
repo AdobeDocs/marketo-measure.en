@@ -4,6 +4,10 @@ description: Touchpoint Generation and Mapping - [!DNL Marketo Measure]
 title: Touchpoint Generation and Mapping
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
+TQID: https://experienceleague.adobe.com/otuePoQBPvb-UEJCTI1CeyA1BYQ7Jn-jZQm63si-6uA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Touchpoint Generation and Mapping {#touchpoint-generation-and-mapping}
 

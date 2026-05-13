@@ -4,6 +4,17 @@ description: Data Warehouse Schema - Marketo Measure - Product Documentation
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
 ---
 # Data Warehouse Schema {#data-warehouse-schema}
 

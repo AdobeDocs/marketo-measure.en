@@ -4,6 +4,13 @@ description: Custom Campaign Sync - [!DNL Marketo Measure]
 title: Custom Campaign Sync
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
+TQID: https://experienceleague.adobe.com/Sjq6LW7276xADXbs8qEZc-J2spPrhDwPIGLP7-MsePk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Custom Campaign Sync {#custom-campaign-sync}
 

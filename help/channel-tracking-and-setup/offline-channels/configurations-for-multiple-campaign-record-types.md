@@ -4,6 +4,10 @@ description: Configurations for Multiple Campaign Record Types - [!DNL Marketo M
 title: Configurations for Multiple Campaign Record Types
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
+TQID: https://experienceleague.adobe.com/JsOl-fMo1Pwe1ozgVM53KsB56Nm2Q1U187crSLiKTiU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Configurations for Multiple Campaign Record Types {#configurations-for-multiple-campaign-record-types}
 

@@ -4,6 +4,10 @@ description: Email Tracking Parameter - [!DNL Marketo Measure]
 title: Email Tracking Parameter
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
+TQID: https://experienceleague.adobe.com/IC3sOBtb9A4EUwhhtD4s7JBTx2gT07y9DtKtM5F1qRQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Email Tracking Parameter {#email-tracking-parameter}
 

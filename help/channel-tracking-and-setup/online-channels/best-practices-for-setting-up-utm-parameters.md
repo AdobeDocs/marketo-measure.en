@@ -4,6 +4,10 @@ description: Best Practices for Setting Up UTM Parameters - [!DNL Marketo Measur
 title: Best Practices for Setting Up UTM Parameters
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
+TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Best Practices for Setting Up UTM Parameters {#best-practices-for-setting-up-utm-parameters}
 

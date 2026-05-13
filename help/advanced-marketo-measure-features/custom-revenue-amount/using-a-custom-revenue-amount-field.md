@@ -4,6 +4,10 @@ description: Using a Custom Revenue Amount Field - [!DNL Marketo Measure]
 title: Using a Custom Revenue Amount Field
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
+TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Using a Custom Revenue Amount Field {#using-a-custom-revenue-amount-field}
 

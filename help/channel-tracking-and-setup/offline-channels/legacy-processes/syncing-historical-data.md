@@ -4,6 +4,15 @@ description: Syncing Historical Data - [!DNL Marketo Measure]
 title: Syncing Historical Data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
+TQID: https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Syncing Historical Data {#syncing-historical-data}
 

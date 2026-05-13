@@ -4,6 +4,25 @@ description: LinkedIn Integration - [!DNL Marketo Measure]
 title: LinkedIn Integration
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
+TQID: https://experienceleague.adobe.com/q-asa3ypcHJV5cuXj7IeZfsDoDqy6lQsl9agSLVj-lc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # LinkedIn Integration {#linkedin-integration}
 

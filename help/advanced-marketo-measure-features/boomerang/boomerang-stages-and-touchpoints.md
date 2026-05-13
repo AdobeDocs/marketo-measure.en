@@ -4,6 +4,10 @@ description: Boomerang Stages and Touchpoints - [!DNL Marketo Measure]
 title: Boomerang Stages and Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
+TQID: https://experienceleague.adobe.com/mp1vsPh6lSoJuX4jvuENn7kuiYwIVCMrSw19y86u5UA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Boomerang Stages and Touchpoints {#boomerang-stages-and-touchpoints}
 

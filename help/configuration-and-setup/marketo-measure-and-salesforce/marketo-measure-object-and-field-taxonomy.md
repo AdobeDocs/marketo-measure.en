@@ -4,6 +4,13 @@ description: "[!DNL Marketo Measure] Object and Field Taxonomy - [!DNL Marketo M
 title: "[!DNL Marketo Measure] Object and Field Taxonomy"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/8YG-eHRcmSYy3yICJMViCjkGyPsgLxzoLIMHVMl7s74
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # [!DNL Marketo Measure] Object and Field Taxonomy {#marketo-measure-object-and-field-taxonomy}
 

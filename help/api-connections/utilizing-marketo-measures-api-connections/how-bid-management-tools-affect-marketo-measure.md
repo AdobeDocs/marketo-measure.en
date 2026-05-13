@@ -4,6 +4,13 @@ description: How Bid Management Tools Affect [!DNL Marketo Measure] - [!DNL Mark
 title: How Bid Management Tools Affect [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
+TQID: https://experienceleague.adobe.com/gcugeRrHUi4qetrYBpUavRyrBHVpB0qCzPo4OYMI4hw
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
 ---
 # How Bid Management Tools Affect [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 

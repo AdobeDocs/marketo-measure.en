@@ -3,6 +3,13 @@ description: "[!DNL Marketo Measure] 101 Reports Overview - [!DNL Marketo Measur
 title: "[!DNL Marketo Measure] 101 Reports Overview"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
+TQID: https://experienceleague.adobe.com/13R7Z5YTxgq5QdoT4O90MHzgva5e-cXf50V9jH75-TE
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # [!DNL Marketo Measure] 101 Reports Overview {#marketo-measure-101-reports-overview}
 

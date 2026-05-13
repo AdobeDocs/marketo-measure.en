@@ -3,6 +3,13 @@ description: "[!UICONTROL Discover Data Download] Access Control - Marketo Measu
 title: "[!UICONTROL Discover Data Download] Access Control"
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
+TQID: https://experienceleague.adobe.com/2YVVNhKoF6y3xqmblpxJ2VmXByEuCPS4KR-Ij-PZT14
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # [!UICONTROL Discover Data Download] Access Control {#discover-data-download-access-control}
 

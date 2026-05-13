@@ -1,8 +1,19 @@
 ---
-description: '[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure]'
-title: '[!DNL Salesforce] Package Consolidation'
+description: "[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure]"
+title: "[!DNL Salesforce] Package Consolidation"
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # [!DNL Salesforce] Package Consolidation {#salesforce-package-consolidation}
 

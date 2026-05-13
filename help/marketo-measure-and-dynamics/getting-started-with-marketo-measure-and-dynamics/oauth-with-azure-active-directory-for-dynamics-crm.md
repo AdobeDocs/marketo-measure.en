@@ -4,6 +4,15 @@ description: OAuth with [!DNL Azure Active Directory] for Dynamics CRM - [!DNL M
 title: OAuth with [!DNL Azure Active Directory] for Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
+TQID: https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # OAuth with [!DNL Azure Active Directory] for Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 

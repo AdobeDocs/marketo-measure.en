@@ -4,6 +4,13 @@ description: Ensuring Consent for GDPR in Marketo Measure Js - Marketo Measure -
 title: Ensuring Consent for GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
+TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Ensuring Consent for GDPR in Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 

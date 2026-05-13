@@ -4,6 +4,10 @@ description: "[!DNL Marketo Measure] Dynamics Schema - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Dynamics Schema"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
+TQID: https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # [!DNL Marketo Measure] Dynamics Schema {#marketo-measure-dynamics-schema}
 

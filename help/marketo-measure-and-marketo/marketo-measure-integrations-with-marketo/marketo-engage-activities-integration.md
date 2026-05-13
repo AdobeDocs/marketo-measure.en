@@ -4,6 +4,16 @@ description: "[!DNL Marketo Engage] Activities Integration - [!DNL Marketo Measu
 title: "[!DNL Marketo Engage] Activities Integration"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
+TQID: https://experienceleague.adobe.com/X0GAwexe-IPzGn-ITUglGHhbiwVWtTy1uHEnfDNpQCI
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # [!DNL Marketo Engage] Activities Integration {#marketo-engage-activities-integration}
 

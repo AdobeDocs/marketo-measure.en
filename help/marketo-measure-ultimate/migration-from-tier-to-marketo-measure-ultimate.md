@@ -3,6 +3,20 @@ description: Learn about the migration process when moving from the [!DNL Market
 title: Migration from Tier to [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 828c9bba-3835-484a-bd80-84b5a6b67e22
+TQID: https://experienceleague.adobe.com/Q-VV8-RWaGb-lk-vr3y9KK9SjTlsugPJ-N4HrSH5uxA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
 # Migration from Tier 1-2 to [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 

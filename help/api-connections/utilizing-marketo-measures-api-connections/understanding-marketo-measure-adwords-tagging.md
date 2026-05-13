@@ -4,6 +4,13 @@ description: Understanding [!DNL Marketo Measure] AdWords Tagging - [!DNL Market
 title: Understanding [!DNL Marketo Measure] AdWords Tagging
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
+TQID: https://experienceleague.adobe.com/k-rj5kIrgNp4ZebSopI3pwMVMn4lepWsLlpI8-nkoMk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
 ---
 # Understanding [!DNL Marketo Measure] AdWords Tagging {#understanding-marketo-measure-adwords-tagging}
 

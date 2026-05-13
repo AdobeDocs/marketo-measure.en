@@ -3,6 +3,15 @@ description: Best Practices for Utilizing a Custom Revenue Amount - [!DNL Market
 title: Best Practices for Utilizing a Custom Revenue Amount
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
+TQID: https://experienceleague.adobe.com/r0HE7od6BWa4ntQMPyrVqQWwebruGyxM3lhOOu6-RWc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Best Practices for Utilizing a Custom Revenue Amount {#best-practices-for-utilizing-a-custom-revenue-amount}
 

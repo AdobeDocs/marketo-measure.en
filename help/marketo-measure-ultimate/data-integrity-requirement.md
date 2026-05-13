@@ -1,8 +1,17 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement'
+description: "[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Ultimate Data Integrity Requirement"
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
+TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # [!DNL Marketo Measure] Ultimate Data Integrity Requirement {#marketo-measure-ultimate-data-integrity-requirement}
 

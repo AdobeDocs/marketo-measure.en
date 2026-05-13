@@ -4,6 +4,13 @@ description: "[!DNL Marketo Measure] Permission Sets - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Permission Sets"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/Taoe3f0JfNQ6R-zdMVPJsbdswgNuii-XAyzEsb4MdCk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # [!DNL Marketo Measure] Permission Sets {#marketo-measure-permission-sets}
 

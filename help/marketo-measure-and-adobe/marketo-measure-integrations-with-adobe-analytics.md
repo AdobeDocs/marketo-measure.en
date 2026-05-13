@@ -3,6 +3,18 @@ description: "[!DNL Marketo Measure] Integrations with Adobe Analytics - [!DNL M
 title: "[!DNL Marketo Measure] Integrations with [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
+TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # [!DNL Marketo Measure] Integrations with Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 

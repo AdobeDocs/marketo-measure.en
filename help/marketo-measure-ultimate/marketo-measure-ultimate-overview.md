@@ -1,8 +1,23 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]'
-title: '[!DNL Marketo Measure] Ultimate Overview'
+description: "[!DNL Marketo Measure] Ultimate Overview - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Ultimate Overview"
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
+TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # [!DNL Marketo Measure] Ultimate Overview {#marketo-measure-ultimate-overview}
 

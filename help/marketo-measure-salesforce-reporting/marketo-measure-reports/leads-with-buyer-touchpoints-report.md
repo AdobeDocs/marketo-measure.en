@@ -4,6 +4,13 @@ description: Leads with Buyer Touchpoints Report - [!DNL Marketo Measure]
 title: Leads with Buyer Touchpoints Report
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
+TQID: https://experienceleague.adobe.com/pr-ldAGFJZVvB-gv2JyCAs4DUefL7byUfffY1wiLOZs
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Leads with Buyer Touchpoints Report {#leads-with-buyer-touchpoints-report}
 

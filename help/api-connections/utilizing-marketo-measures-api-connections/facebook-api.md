@@ -4,6 +4,18 @@ description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
+TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
 ---
 # [!DNL Facebook] API {#facebook-api}
 

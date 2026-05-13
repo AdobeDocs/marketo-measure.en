@@ -3,6 +3,13 @@ description: Best Practices for Segmentation - [!DNL Marketo Measure]
 title: Best Practices for Segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
+TQID: https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Best Practices for Segmentation {#best-practices-for-segmentation}
 

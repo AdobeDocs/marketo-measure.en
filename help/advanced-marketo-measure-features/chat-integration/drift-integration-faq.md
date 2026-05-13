@@ -4,6 +4,13 @@ description: Drift Integration FAQ - [!DNL Marketo Measure]
 title: Drift Integration FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
+TQID: https://experienceleague.adobe.com/RDhpeivSYllzKoOFPjVBH2u-tPPsMUtVT5bS5hME0J8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Drift Integration FAQ {#drift-integration-faq}
 

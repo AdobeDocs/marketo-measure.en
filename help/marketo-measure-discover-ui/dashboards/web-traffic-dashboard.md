@@ -3,6 +3,16 @@ description: Web Traffic Dashboard - [!DNL Marketo Measure] - Product
 title: Web Traffic Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
+TQID: https://experienceleague.adobe.com/-EWWl-FHRDswkwvgJqVoYVA-rvWca7h5iwfcpTvO1LA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 # Web Traffic Dashboard {#web-traffic-dashboard}
 

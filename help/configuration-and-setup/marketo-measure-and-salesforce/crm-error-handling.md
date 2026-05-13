@@ -3,6 +3,13 @@ description: Learn how to handle Errors in CRM Exports
 title: Error Handling for CRM Exports
 feature: Salesforce
 exl-id: 7452bff0-4bf1-474b-a705-446c29882230
+TQID: https://experienceleague.adobe.com/wDim-XKvs--5I-bXYod5pypn3NTz3hfotreiQ9MtT8k
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 ---
 # Error Handling for CRM Exports
 

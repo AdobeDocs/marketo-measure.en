@@ -3,6 +3,15 @@ description: New Discover Dashboard Guide - [!DNL Marketo Measure] - Product
 title: New Discover Dashboard Guide
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+TQID: https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # New Discover Dashboard Guide {#new-discover-dashboard-guide}
 

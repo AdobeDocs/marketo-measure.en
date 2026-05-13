@@ -4,6 +4,10 @@ description: Testing the Marketo Measure Integration with a Salesforce Sandbox -
 title: Testing the Marketo Measure Integration with a Salesforce Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/Es3alliU-EbPfMFY6gOybcr12HGgKVHyu97r7ZfRPFA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Testing the Marketo Measure Integration with a Salesforce Sandbox {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 

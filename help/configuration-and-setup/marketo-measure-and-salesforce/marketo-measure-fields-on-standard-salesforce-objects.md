@@ -4,6 +4,15 @@ description: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Object
 title: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
+TQID: https://experienceleague.adobe.com/1Md2-2kZ3M-UwHXdED4uKV2PswFenKecJqQZ6ud30Rg
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+    internal-label: Taxonomy
 ---
 # [!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects {#marketo-measure-fields-on-standard-salesforce-objects}
 
