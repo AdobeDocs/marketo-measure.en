@@ -1,8 +1,17 @@
 ---
-description: "'[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure]'"
+description: '''[!DNL Salesforce] Package Consolidation - [!DNL Marketo Measure]'''
 title: '[!DNL Salesforce] Package Consolidation'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 # [!DNL Salesforce] Package Consolidation {#salesforce-package-consolidation}
 

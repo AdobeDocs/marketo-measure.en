@@ -1,8 +1,16 @@
 ---
-description: "Configuring the [!DNL Marketo Measure] A/B Test Integration guidance for Marketo Measure users"
+description: Configuring the [!DNL Marketo Measure] A/B Test Integration guidance for Marketo Measure users
 title: Configuring the [!DNL Marketo Measure] A/B Test Integration
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 ---
 
 # Configuring the [!DNL Marketo Measure] A/B Test Integration {#configuring-a-b-testing}

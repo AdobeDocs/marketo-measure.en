@@ -4,10 +4,13 @@ description: Adding [!DNL Marketo Measure] Script to Sitecore Pages - [!DNL Mark
 title: Adding [!DNL Marketo Measure] Script to Sitecore Pages
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-TQID: https://experienceleague.adobe.com/sXO-rCY3NbxX0AztYt-o3f-tpJFlrncLIb7-NvEjZO0
+TQID: 'https://experienceleague.adobe.com/sXO-rCY3NbxX0AztYt-o3f-tpJFlrncLIb7-NvEjZO0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata

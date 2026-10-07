@@ -1,9 +1,15 @@
 ---
-description: "Describes the Attributed Revenue dashboard that breaks down attributed revenue and deals by channel subchannel and campaign over time"
+description: Describes the Attributed Revenue dashboard that breaks down attributed revenue and deals by channel subchannel and campaign over time
 title: Attributed Revenue Dashboard
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Attributed Revenue Dashboard {#attributed-revenue-dashboard}
 

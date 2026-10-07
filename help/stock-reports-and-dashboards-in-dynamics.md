@@ -1,8 +1,17 @@
 ---
-description: "Stock Reports and Dashboards in Dynamics guidance for Marketo Measure users"
+description: Stock Reports and Dashboards in Dynamics guidance for Marketo Measure users
 title: Stock Reports and Dashboards in Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 ---
 # Stock Reports and Dashboards in Dynamics {#stock-reports-and-dashboards-in-dynamics}
 

@@ -1,8 +1,14 @@
 ---
-description: "Difference between a Google Analytics Conversion and a Buyer Touchpoint guidance for Marketo Measure users"
+description: Difference between a Google Analytics Conversion and a Buyer Touchpoint guidance for Marketo Measure users
 title: Difference between a Google Analytics Conversion and a Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 ---
 # Difference between a Google Analytics Conversion and a Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 

@@ -1,9 +1,20 @@
 ---
-description: "Step by step guide to install and configure the Marketo Measure package in Microsoft Dynamics CRM"
-title: "[!DNL Microsoft Dynamics] CRM Installation Guide"
+description: Step by step guide to install and configure the Marketo Measure package in Microsoft Dynamics CRM
+title: '[!DNL Microsoft Dynamics] CRM Installation Guide'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 ---
 # [!DNL Microsoft Dynamics] CRM Installation Guide {#microsoft-dynamics-crm-installation-guide}
 

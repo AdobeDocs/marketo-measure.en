@@ -1,8 +1,14 @@
 ---
-description: "Learn how PostLC touchpoints are created updated and limited for leads and contacts"
+description: Learn how PostLC touchpoints are created updated and limited for leads and contacts
 title: PostLC Touchpoints and Lead Engagement
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 ---
 # PostLC Touchpoints and Lead Engagement {#postlc-touchpoints-and-lead-engagement}
 

@@ -1,9 +1,15 @@
 ---
-description: "Custom Model Setup - Enable Field History Tracking guidance for Marketo Measure users"
+description: Custom Model Setup - Enable Field History Tracking guidance for Marketo Measure users
 title: Custom Model Setup - Enable Field History Tracking
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 ---
 # Custom Model Setup: Enable Field History Tracking {#custom-model-setup-enable-field-history-tracking}
 

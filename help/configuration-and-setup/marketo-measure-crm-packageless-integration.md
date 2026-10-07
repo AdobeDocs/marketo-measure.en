@@ -1,8 +1,14 @@
 ---
-description: "[!DNL Marketo Measure] CRM Packageless Integration - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] CRM Packageless Integration"
+description: '[!DNL Marketo Measure] CRM Packageless Integration - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] CRM Packageless Integration'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 ---
 
 # [!DNL Marketo Measure] CRM Packageless Integration {#marketo-measure-crm-packageless-integration}

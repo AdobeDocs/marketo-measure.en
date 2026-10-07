@@ -1,8 +1,14 @@
 ---
-description: "Activities Attribution FAQ guidance for Marketo Measure users"
+description: Activities Attribution FAQ guidance for Marketo Measure users
 title: Activities Attribution FAQ
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 ---
 # Activities Attribution FAQ {#activities-attribution-faq}
 

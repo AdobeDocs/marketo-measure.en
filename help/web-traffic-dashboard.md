@@ -1,9 +1,15 @@
 ---
-description: "Describes the Web Traffic dashboard for visits visitors page views forms and channel performance over time"
+description: Describes the Web Traffic dashboard for visits visitors page views forms and channel performance over time
 title: Web Traffic Dashboard
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Web Traffic Dashboard {#web-traffic-dashboard}
 

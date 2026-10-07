@@ -1,8 +1,14 @@
 ---
-description: "Describes how to set up and use a reader account to access the Marketo Measure data warehouse"
+description: Describes how to set up and use a reader account to access the Marketo Measure data warehouse
 title: Data Warehouse Access - Reader Account
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 ---
 # Data Warehouse Access - Reader Account {#data-warehouse-access-reader-account}
 

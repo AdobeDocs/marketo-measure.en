@@ -4,10 +4,15 @@ description: Transitioning to [!DNL Marketo Measure] from Full Circle - [!DNL Ma
 title: Transitioning to [!DNL Marketo Measure] from Full Circle
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-TQID: https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E
+TQID: 'https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

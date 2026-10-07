@@ -1,8 +1,14 @@
 ---
-description: "[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Resource List"
+description: '[!DNL Marketo Measure] Resource List - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Resource List'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 ---
 # [!DNL Marketo Measure] Resource List {#marketo-measure-resource-list}
 

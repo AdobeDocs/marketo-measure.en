@@ -1,13 +1,19 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects"
+description: '[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects'
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/1Md2-2kZ3M-UwHXdED4uKV2PswFenKecJqQZ6ud30Rg
+TQID: 'https://experienceleague.adobe.com/1Md2-2kZ3M-UwHXdED4uKV2PswFenKecJqQZ6ud30Rg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

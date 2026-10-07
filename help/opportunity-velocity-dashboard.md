@@ -1,8 +1,14 @@
 ---
-description: "Describes the Opportunity Velocity dashboard for tracking time in each sales stage and comparing trends by channel over time"
+description: Describes the Opportunity Velocity dashboard for tracking time in each sales stage and comparing trends by channel over time
 title: Opportunity Velocity Dashboard
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Opportunity Velocity Dashboard {#opportunity-velocity-dashboard}
 

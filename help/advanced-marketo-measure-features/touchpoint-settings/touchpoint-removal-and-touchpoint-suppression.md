@@ -4,10 +4,13 @@ description: Touchpoint Removal and Touchpoint Suppression - [!DNL Marketo Measu
 title: Touchpoint Removal and Touchpoint Suppression
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/DgzPRjvGigZ3swx1fTw0x7r-XbURxwRMNGHH4JdXLfQ
+TQID: 'https://experienceleague.adobe.com/DgzPRjvGigZ3swx1fTw0x7r-XbURxwRMNGHH4JdXLfQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation

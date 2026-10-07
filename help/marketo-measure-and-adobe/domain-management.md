@@ -3,13 +3,17 @@ description: Domain Management - [!DNL Marketo Measure]
 title: Domain Management
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY
+TQID: 'https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
     internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Domain Management {#domain-management}
 

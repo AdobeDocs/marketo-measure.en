@@ -1,9 +1,15 @@
 ---
-description: "Marketing Channels and Subchannels guidance for Marketo Measure users"
+description: Marketing Channels and Subchannels guidance for Marketo Measure users
 title: Marketing Channels and Subchannels
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 # Marketing Channels and Subchannels {#marketing-channels-and-subchannels}
 

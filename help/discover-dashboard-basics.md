@@ -1,9 +1,15 @@
 ---
-description: "Introduces the Discover dashboard interface, filters, drill actions, cross-filtering, exports, and focus mode"
+description: Introduces the Discover dashboard interface, filters, drill actions, cross-filtering, exports, and focus mode
 title: Discover Dashboard Basics
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Discover Dashboard Basics {#discover-dashboard-basics}
 

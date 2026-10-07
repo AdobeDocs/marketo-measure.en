@@ -3,10 +3,13 @@ description: Passport Dashboard - [!DNL Marketo Measure] - Product
 title: Passport Dashboard
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-TQID: https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk
+TQID: 'https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

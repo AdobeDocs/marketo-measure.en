@@ -1,8 +1,14 @@
 ---
-description: "Duplicate Records and [!DNL Marketo Measure] guidance for Marketo Measure users"
+description: Duplicate Records and [!DNL Marketo Measure] guidance for Marketo Measure users
 title: Duplicate Records and [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Duplicate Records and [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 

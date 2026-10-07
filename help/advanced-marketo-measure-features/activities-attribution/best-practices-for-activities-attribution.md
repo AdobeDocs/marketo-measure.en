@@ -3,10 +3,13 @@ description: Best Practices for Activities Attribution - [!DNL Marketo Measure]
 title: Best Practices for Activities Attribution
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-TQID: https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84
+TQID: 'https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 ---
 # Best Practices for Activities Attribution {#best-practices-for-activities-attribution}
 

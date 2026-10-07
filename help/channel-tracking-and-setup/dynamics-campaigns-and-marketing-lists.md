@@ -1,8 +1,17 @@
 ---
-description: "Dynamics Campaigns and Marketing Lists guidance for Marketo Measure users"
+description: Dynamics Campaigns and Marketing Lists guidance for Marketo Measure users
 title: Dynamics Campaigns and Marketing Lists
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 ---
 # Dynamics Campaigns and Marketing Lists {#dynamics-campaigns-and-marketing-lists}
 

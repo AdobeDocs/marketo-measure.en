@@ -1,13 +1,16 @@
 ---
 unique-page-id: 18874652
-description: "[!DNL Marketo Measure] View Through Attribution FAQ - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] View Through Attribution FAQ"
+description: '[!DNL Marketo Measure] View Through Attribution FAQ - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] View Through Attribution FAQ'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
+TQID: 'https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy

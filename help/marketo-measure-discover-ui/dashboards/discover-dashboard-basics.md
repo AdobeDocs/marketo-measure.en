@@ -3,10 +3,13 @@ description: Discover Dashboard Basics - [!DNL Marketo Measure] - Product
 title: Discover Dashboard Basics
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-TQID: https://experienceleague.adobe.com/8BzKWeGZnFCIl-FMrY727kJgu4cw7oOOZMdqWEBRv9o
+TQID: 'https://experienceleague.adobe.com/8BzKWeGZnFCIl-FMrY727kJgu4cw7oOOZMdqWEBRv9o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

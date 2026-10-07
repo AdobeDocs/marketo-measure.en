@@ -4,10 +4,13 @@ description: Learn about Account-Based Attribution and how Adobe Marketo Measure
 title: Account-Based Attribution
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-TQID: https://experienceleague.adobe.com/LvU1AG-V5PYc89QBqSFoFk56QM-xHbvnrJM-MDnZHHA
+TQID: 'https://experienceleague.adobe.com/LvU1AG-V5PYc89QBqSFoFk56QM-xHbvnrJM-MDnZHHA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement

@@ -1,8 +1,14 @@
 ---
-description: "Marketo Measure Attribution Models"
+description: Marketo Measure Attribution Models
 title: Marketo Measure Attribution Models
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 ---
 
 # Marketo Measure Attribution Models {#marketo-measure-attribution-models}

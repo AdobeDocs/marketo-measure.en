@@ -3,10 +3,13 @@ description: Best Practices for Implementing [!DNL Marketo Measure] JavaScript -
 title: Best Practices for Implementing [!DNL Marketo Measure] JavaScript
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8
+TQID: 'https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

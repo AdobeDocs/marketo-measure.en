@@ -1,8 +1,14 @@
 ---
-description: "Lists Salesforce IP ranges to allowlist so Marketo Measure can connect when session restrictions are enforced"
+description: Lists Salesforce IP ranges to allowlist so Marketo Measure can connect when session restrictions are enforced
 title: Security Session Restrictions - IP Addresses to Allowlist
 exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Security Session Restrictions: IP Addresses to Allowlist {#security-session-restrictions-ip-addresses-to-allowlist}
 

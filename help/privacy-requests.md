@@ -1,8 +1,16 @@
 ---
-description: "Privacy Requests guidance for Marketo Measure users"
+description: Privacy Requests guidance for Marketo Measure users
 title: Privacy Requests
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 
 # Privacy Requests {#privacy-requests}

@@ -1,8 +1,14 @@
 ---
-description: "Report Type for Contacts Without Opportunities guidance for Marketo Measure users"
+description: Report Type for Contacts Without Opportunities guidance for Marketo Measure users
 title: Report Type for Contacts Without Opportunities
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Report Type for Contacts Without Opportunities {#report-type-for-contacts-without-opportunities}
 

@@ -3,10 +3,13 @@ description: Best Practices for Custom Model - [!DNL Marketo Measure]
 title: Best Practices for Custom Model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I
+TQID: 'https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

@@ -1,7 +1,10 @@
 ---
-description: "Single Sign On guidance for Marketo Measure users"
+description: Single Sign On guidance for Marketo Measure users
 title: Single Sign On
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 ---
 # Single Sign On {#single-sign-on}
 

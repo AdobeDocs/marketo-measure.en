@@ -1,8 +1,14 @@
 ---
-description: "Best Practices for Online Channels guidance for Marketo Measure users"
+description: Best Practices for Online Channels guidance for Marketo Measure users
 title: Best Practices for Online Channels
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 
 # Best Practices for Online Channels {#best-practices-for-online-channels}

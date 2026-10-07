@@ -1,9 +1,15 @@
 ---
-description: "Explore the ROI dashboard for comparing costs revenue and ROI across channels subchannels and campaigns over time"
+description: Explore the ROI dashboard for comparing costs revenue and ROI across channels subchannels and campaigns over time
 title: ROI Dashboard
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # ROI Dashboard {#roi-dashboard}
 

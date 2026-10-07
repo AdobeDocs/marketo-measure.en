@@ -1,8 +1,19 @@
 ---
-description: "Salesforce Activities Attribution guidance for Marketo Measure users"
+description: Salesforce Activities Attribution guidance for Marketo Measure users
 title: Salesforce Activities Attribution
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 # Salesforce Activities Attribution {#salesforce-activities-attribution}
 

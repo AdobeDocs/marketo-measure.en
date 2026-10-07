@@ -3,6 +3,12 @@ description: Keyword ROI Dashboard - [!DNL Marketo Measure] - Product
 title: Keyword ROI Dashboard
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Keyword ROI Dashboard {#keyword-roi-dashboard}
 

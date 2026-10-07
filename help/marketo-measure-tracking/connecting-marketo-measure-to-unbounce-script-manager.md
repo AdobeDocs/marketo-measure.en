@@ -1,8 +1,14 @@
 ---
-description: "Connecting [!DNL Marketo Measure] to Unbounce Script Manager guidance for Marketo Measure users"
+description: Connecting [!DNL Marketo Measure] to Unbounce Script Manager guidance for Marketo Measure users
 title: Connecting [!DNL Marketo Measure] to Unbounce Script Manager
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 
 # Connecting [!DNL Marketo Measure] to Unbounce Script Manager {#connecting-marketo-measure-to-unbounce-script-manager}

@@ -1,13 +1,16 @@
 ---
 unique-page-id: 18874676
-description: "[!DNL Marketo Measure] Insights Explained - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Insights Explained"
+description: '[!DNL Marketo Measure] Insights Explained - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Insights Explained'
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-TQID: https://experienceleague.adobe.com/Q-c9KrauVQND9Yla4YLM6Vl5M1MxExRR-cD0-fOGZJQ
+TQID: 'https://experienceleague.adobe.com/Q-c9KrauVQND9Yla4YLM6Vl5M1MxExRR-cD0-fOGZJQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

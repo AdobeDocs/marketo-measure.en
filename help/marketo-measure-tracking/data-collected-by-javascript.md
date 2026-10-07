@@ -1,9 +1,15 @@
 ---
-description: "Data Collected by JavaScript guidance for Marketo Measure users"
+description: Data Collected by JavaScript guidance for Marketo Measure users
 title: Data Collected by JavaScript
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Data Collected by JavaScript {#data-collected-by-javascript}
 

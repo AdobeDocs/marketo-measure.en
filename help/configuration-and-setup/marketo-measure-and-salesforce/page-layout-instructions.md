@@ -4,10 +4,16 @@ description: Page Layout Instructions - [!DNL Marketo Measure]
 title: Page Layout Instructions
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8
+TQID: 'https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights

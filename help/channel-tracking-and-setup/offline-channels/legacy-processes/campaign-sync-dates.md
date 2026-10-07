@@ -4,10 +4,13 @@ description: Campaign Sync Dates - [!DNL Marketo Measure]
 title: Campaign Sync Dates
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-TQID: https://experienceleague.adobe.com/GwenZehxxKmWurJHJ3i3RTyhMocQ8piRR7HVARAbBKI
+TQID: 'https://experienceleague.adobe.com/GwenZehxxKmWurJHJ3i3RTyhMocQ8piRR7HVARAbBKI'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 # Campaign Sync Dates {#campaign-sync-dates}
 

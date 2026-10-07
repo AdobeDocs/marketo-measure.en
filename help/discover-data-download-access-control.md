@@ -1,8 +1,14 @@
 ---
-description: "Learn how to control which users can download data from Discover dashboards"
-title: "[!UICONTROL Discover Data Download] Access Control"
+description: Learn how to control which users can download data from Discover dashboards
+title: '[!UICONTROL Discover Data Download] Access Control'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 12b64954-e901-54a3-a305-e8e9aa516eb3
+    internal-label: Discover
 ---
 # [!UICONTROL Discover Data Download] Access Control {#discover-data-download-access-control}
 

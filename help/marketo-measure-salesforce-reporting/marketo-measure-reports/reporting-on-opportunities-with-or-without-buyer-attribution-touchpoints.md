@@ -4,10 +4,17 @@ description: Reporting on Opportunities with or Without Buyer Attribution Touchp
 title: Reporting on Opportunities with or Without Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-TQID: https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY
+TQID: 'https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

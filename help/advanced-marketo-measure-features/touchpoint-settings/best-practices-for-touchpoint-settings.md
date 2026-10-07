@@ -3,10 +3,13 @@ description: Best Practices for Touchpoint Settings - [!DNL Marketo Measure]
 title: Best Practices for Touchpoint Settings
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/57Y-eSngdDje7RcPmmKobrzk2-QWrRyxN2rIVtdrOLQ
+TQID: 'https://experienceleague.adobe.com/57Y-eSngdDje7RcPmmKobrzk2-QWrRyxN2rIVtdrOLQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection

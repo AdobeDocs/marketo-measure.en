@@ -1,8 +1,18 @@
 ---
-description: "'[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'"
+description: '''[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'''
 title: '[!DNL Marketo Measure] Ultimate Implementation Guide'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 ---
 # [!DNL Marketo Measure] Ultimate Implementation Guide {#marketo-measure-ultimate-implementation-guide}
 

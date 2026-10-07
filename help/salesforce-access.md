@@ -1,9 +1,18 @@
 ---
-description: "Granting [!DNL Salesforce] Access to Marketo Measure Support guidance for Marketo Measure users"
+description: Granting [!DNL Salesforce] Access to Marketo Measure Support guidance for Marketo Measure users
 title: Granting [!DNL Salesforce] Access to Marketo Measure Support
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 # Granting [!DNL Salesforce] Access to Marketo Measure Support {#granting-salesforce-access-to-marketo-measure-support}
 

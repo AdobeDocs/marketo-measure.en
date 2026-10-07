@@ -1,9 +1,15 @@
 ---
-description: "Maps legacy Discover dashboards to the redesigned versions and highlights key changes in navigation and metrics"
+description: Maps legacy Discover dashboards to the redesigned versions and highlights key changes in navigation and metrics
 title: Discover Dashboard Guide
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Discover Dashboard Guide {#new-discover-dashboard-guide}
 

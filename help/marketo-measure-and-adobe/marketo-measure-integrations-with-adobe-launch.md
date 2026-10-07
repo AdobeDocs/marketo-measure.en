@@ -1,15 +1,17 @@
 ---
-description: "[!DNL Marketo Measure] Integrations with Adobe Launch - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Integrations with Adobe Launch"
+description: '[!DNL Marketo Measure] Integrations with Adobe Launch - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Integrations with Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-TQID: https://experienceleague.adobe.com/5bgXPo2wv7eeJqnrDZkYYasapORBU3V1MxgGOgoKrTw
+TQID: 'https://experienceleague.adobe.com/5bgXPo2wv7eeJqnrDZkYYasapORBU3V1MxgGOgoKrTw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
     internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 ---
 # [!DNL Marketo Measure] Integrations with Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 

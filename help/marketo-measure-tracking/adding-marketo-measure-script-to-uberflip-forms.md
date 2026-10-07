@@ -1,8 +1,14 @@
 ---
-description: "Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms guidance for Marketo Measure users"
+description: Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms guidance for Marketo Measure users
 title: Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Adding [!DNL Marketo Measure] Script to [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 

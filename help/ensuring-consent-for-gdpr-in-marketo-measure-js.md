@@ -1,8 +1,14 @@
 ---
-description: "Shows how to configure bizible.js to wait for user consent for GDPR before setting cookies or sending data"
+description: Shows how to configure bizible.js to wait for user consent for GDPR before setting cookies or sending data
 title: Ensuring Consent for GDPR in Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Ensuring Consent for GDPR in Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 

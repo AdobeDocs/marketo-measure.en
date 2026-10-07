@@ -1,8 +1,14 @@
 ---
-description: "Creating a Campaign List View for [!DNL Salesforce] Campaigns guidance for Marketo Measure users"
+description: Creating a Campaign List View for [!DNL Salesforce] Campaigns guidance for Marketo Measure users
 title: Creating a Campaign List View for [!DNL Salesforce] Campaigns
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 # Creating a Campaign List View for [!DNL Salesforce] Campaigns {#creating-a-campaign-list-view-for-salesforce-campaigns}
 

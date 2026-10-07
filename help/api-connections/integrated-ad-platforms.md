@@ -1,9 +1,17 @@
 ---
-description: "Integrated Ad Platforms guidance for Marketo Measure users"
+description: Integrated Ad Platforms guidance for Marketo Measure users
 title: Integrated Ad Platforms
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 ---
 # Integrated Ad Platforms {#integrated-ad-platforms}
 

@@ -1,8 +1,16 @@
 ---
-description: "Boomerang Stages and Touchpoints guidance for Marketo Measure users"
+description: Boomerang Stages and Touchpoints guidance for Marketo Measure users
 title: Boomerang Stages and Touchpoints
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 ---
 # Boomerang Stages and Touchpoints {#boomerang-stages-and-touchpoints}
 

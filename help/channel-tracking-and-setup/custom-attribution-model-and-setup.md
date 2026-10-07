@@ -1,8 +1,16 @@
 ---
-description: "Custom Attribution Model and Setup guidance for Marketo Measure users"
+description: Custom Attribution Model and Setup guidance for Marketo Measure users
 title: Custom Attribution Model and Setup
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 ---
 # Custom Attribution Model and Setup {#custom-attribution-model-and-setup}
 

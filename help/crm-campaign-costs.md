@@ -1,8 +1,14 @@
 ---
-description: "CRM Campaign Costs guidance for Marketo Measure users"
+description: CRM Campaign Costs guidance for Marketo Measure users
 title: CRM Campaign Costs
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 ---
 # CRM Campaign Costs {#crm-campaign-costs}
 

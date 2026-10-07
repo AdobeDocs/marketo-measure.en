@@ -2,10 +2,13 @@
 description: Machine Learning Model FAQ guidance for Marketo Measure users
 title: Machine Learning Model FAQ
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/GJLwWk-6Gqb8u6lWIwXNx5L2H3OATGd-vCn1xWQqmuo
+TQID: 'https://experienceleague.adobe.com/GJLwWk-6Gqb8u6lWIwXNx5L2H3OATGd-vCn1xWQqmuo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning

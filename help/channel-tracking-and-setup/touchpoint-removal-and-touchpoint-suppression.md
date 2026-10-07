@@ -1,8 +1,14 @@
 ---
-description: "Touchpoint Removal and Touchpoint Suppression guidance for Marketo Measure users"
+description: Touchpoint Removal and Touchpoint Suppression guidance for Marketo Measure users
 title: Touchpoint Removal and Touchpoint Suppression
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 ---
 # Touchpoint Removal and Touchpoint Suppression {#touchpoint-removal-and-touchpoint-suppression}
 

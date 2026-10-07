@@ -1,8 +1,14 @@
 ---
-description: "Discover the Engagement dashboard for tracking touchpoints people touched and engagement by channel over time"
+description: Discover the Engagement dashboard for tracking touchpoints people touched and engagement by channel over time
 title: Engagement Dashboard
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 
 # Engagement Dashboard {#engagement-dashboard}
