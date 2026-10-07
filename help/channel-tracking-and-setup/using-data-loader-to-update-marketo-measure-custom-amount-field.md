@@ -1,8 +1,14 @@
 ---
-description: "Using Data Loader to Update Marketo Measure Custom Amount Field guidance for Marketo Measure users"
+description: Using Data Loader to Update Marketo Measure Custom Amount Field guidance for Marketo Measure users
 title: Using Data Loader to Update Marketo Measure Custom Amount Field
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
 ---
 # Using Data Loader to Update [!DNL Marketo Measure] Custom Amount Field {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 

@@ -1,8 +1,17 @@
 ---
-description: "Best Practices for [!DNL Marketo Measure] CRM Package guidance for Marketo Measure users"
+description: Best Practices for [!DNL Marketo Measure] CRM Package guidance for Marketo Measure users
 title: Best Practices for [!DNL Marketo Measure] CRM Package
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 
 # Best Practices for [!DNL Marketo Measure] CRM Package {#best-practices-for-marketo-measure-crm-package}

@@ -1,8 +1,17 @@
 ---
-description: "Workflows to align Dynamics revenue and close date fields for Marketo Measure reporting"
-title: "[!DNL Marketo Measure] Revenue Workflows for Dynamics"
+description: Workflows to align Dynamics revenue and close date fields for Marketo Measure reporting
+title: '[!DNL Marketo Measure] Revenue Workflows for Dynamics'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 ---
 # [!DNL Marketo Measure] Revenue Workflows for Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 

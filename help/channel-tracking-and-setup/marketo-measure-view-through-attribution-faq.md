@@ -1,8 +1,14 @@
 ---
-description: "[!DNL Marketo Measure] View Through Attribution FAQ - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] View Through Attribution FAQ"
+description: '[!DNL Marketo Measure] View Through Attribution FAQ - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] View Through Attribution FAQ'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 ---
 
 # [!DNL Marketo Measure] View Through Attribution FAQ {#marketo-measure-view-through-attribution-faq}

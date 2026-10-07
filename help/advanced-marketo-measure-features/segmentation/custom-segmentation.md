@@ -4,10 +4,13 @@ description: Custom Segmentation - [!DNL Marketo Measure]
 title: Custom Segmentation
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
+TQID: 'https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

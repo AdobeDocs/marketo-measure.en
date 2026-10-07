@@ -1,7 +1,16 @@
 ---
-description: "Learn how to handle Errors in CRM Exports"
+description: Learn how to handle Errors in CRM Exports
 title: Error Handling for CRM Exports
 feature: Salesforce
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 # Error Handling for CRM Exports
 

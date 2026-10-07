@@ -3,13 +3,15 @@ description: Error Notifications - [!DNL Marketo Measure]
 title: Error Notifications
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+TQID: 'https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
     internal-label: Integrations
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 subfeature_v2:
   - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
     internal-label: Analytics integration

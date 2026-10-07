@@ -4,10 +4,13 @@ description: Setting up Boomerang Stages - [!DNL Marketo Measure]
 title: Setting up Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-TQID: https://experienceleague.adobe.com/2H-AGYIsCbmW2sakkMBRPTcz6LWn48HJEcfCwanx8kw
+TQID: 'https://experienceleague.adobe.com/2H-AGYIsCbmW2sakkMBRPTcz6LWn48HJEcfCwanx8kw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
 ---
 # Setting up Boomerang Stages {#setting-up-boomerang-stages}
 

@@ -1,9 +1,15 @@
 ---
-description: "Covers the Attributed Opportunity dashboard that shows opportunity amounts and counts by channel subchannel and campaign over time"
+description: Covers the Attributed Opportunity dashboard that shows opportunity amounts and counts by channel subchannel and campaign over time
 title: Attributed Opportunity Dashboard
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Attributed Opportunity Dashboard {#attributed-opportunity-dashboard}
 

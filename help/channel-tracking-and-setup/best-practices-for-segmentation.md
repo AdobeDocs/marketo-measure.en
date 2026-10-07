@@ -1,8 +1,14 @@
 ---
-description: "Best Practices for Segmentation guidance for Marketo Measure users"
+description: Best Practices for Segmentation guidance for Marketo Measure users
 title: Best Practices for Segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 ---
 # Best Practices for Segmentation {#best-practices-for-segmentation}
 

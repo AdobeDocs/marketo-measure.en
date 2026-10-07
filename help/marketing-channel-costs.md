@@ -1,9 +1,17 @@
 ---
-description: "Marketing Channel Costs guidance for Marketo Measure users"
+description: Marketing Channel Costs guidance for Marketo Measure users
 title: Marketing Channel Costs
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 ---
 # Marketing Channel Costs {#marketing-channel-costs}
 

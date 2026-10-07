@@ -1,8 +1,14 @@
 ---
-description: "Syncing Historical Data guidance for Marketo Measure users"
+description: Syncing Historical Data guidance for Marketo Measure users
 title: Syncing Historical Data
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 # Syncing Historical Data {#syncing-historical-data}
 

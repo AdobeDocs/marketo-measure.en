@@ -1,8 +1,14 @@
 ---
-description: "Setting up Boomerang Stages guidance for Marketo Measure users"
+description: Setting up Boomerang Stages guidance for Marketo Measure users
 title: Setting up Boomerang Stages
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
 ---
 # Setting up Boomerang Stages {#setting-up-boomerang-stages}
 

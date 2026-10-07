@@ -3,10 +3,13 @@ description: Explanation of Touchpoint Positions and Generation Across BTs and B
 title: Explanation of Touchpoint Positions and Generation Across BTs and [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
+TQID: 'https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

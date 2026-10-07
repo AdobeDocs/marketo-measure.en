@@ -1,8 +1,14 @@
 ---
-description: "Learn about Account-Based Marketing (ABM) and how Adobe Marketo Measure helps Marketing and Sales teams execute successful ABM strategies."
+description: Learn about Account-Based Marketing (ABM) and how Adobe Marketo Measure helps Marketing and Sales teams execute successful ABM strategies.
 title: Account Based Marketing Overview
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
 ---
 # Account Based Marketing Overview {#account-based-marketing-overview}
 

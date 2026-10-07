@@ -1,8 +1,16 @@
 ---
-description: "Closed Lost Opportunities by Marketing Channel guidance for Marketo Measure users"
+description: Closed Lost Opportunities by Marketing Channel guidance for Marketo Measure users
 title: Closed Lost Opportunities by Marketing Channel
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Closed Lost Opportunities by Marketing Channel {#closed-lost-opportunities-by-marketing-channel}
 

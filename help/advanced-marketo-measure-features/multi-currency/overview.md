@@ -4,10 +4,13 @@ description: Overview - [!DNL Marketo Measure]
 title: Overview
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-TQID: https://experienceleague.adobe.com/x-CcPqcp3SXgSToNxdrLNnkYf5DA7Be9nPPwHTxA8pM
+TQID: 'https://experienceleague.adobe.com/x-CcPqcp3SXgSToNxdrLNnkYf5DA7Be9nPPwHTxA8pM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
 ---
 # Overview {#overview}
 

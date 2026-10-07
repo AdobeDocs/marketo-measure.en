@@ -1,8 +1,14 @@
 ---
-description: "Best Practices for Merging Leads guidance for Marketo Measure users"
+description: Best Practices for Merging Leads guidance for Marketo Measure users
 title: Best Practices for Merging Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Best Practices for Merging Leads {#best-practices-for-merging-leads}
 

@@ -1,9 +1,15 @@
 ---
-description: "Offline Custom Channel Setup guidance for Marketo Measure users"
+description: Offline Custom Channel Setup guidance for Marketo Measure users
 title: Offline Custom Channel Setup
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 # Offline Custom Channel Setup {#offline-custom-channel-setup}
 

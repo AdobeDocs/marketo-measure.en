@@ -1,8 +1,14 @@
 ---
-description: "Drift Integration FAQ guidance for Marketo Measure users"
+description: Drift Integration FAQ guidance for Marketo Measure users
 title: Drift Integration FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 feature: Integration
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 ---
 # Drift Integration FAQ {#drift-integration-faq}
 

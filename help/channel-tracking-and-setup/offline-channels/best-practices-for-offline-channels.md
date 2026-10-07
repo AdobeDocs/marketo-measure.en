@@ -3,10 +3,13 @@ description: Best Practices for Offline Channels - [!DNL Marketo Measure]
 title: Best Practices for Offline Channels
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-TQID: https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o
+TQID: 'https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

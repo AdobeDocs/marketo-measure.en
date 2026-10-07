@@ -1,8 +1,14 @@
 ---
-description: "[!DNL Marketo Measure] Report Template - Tableau - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Report Template - Tableau"
+description: '[!DNL Marketo Measure] Report Template - Tableau - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Report Template - Tableau'
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # [!DNL Marketo Measure] Report Template - Tableau {#marketo-measure-report-template-tableau}
 

@@ -1,12 +1,15 @@
 ---
-description: "[!DNL Marketo Measure] Reporting Guide - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Reporting Guide"
+description: '[!DNL Marketo Measure] Reporting Guide - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Reporting Guide'
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
+TQID: 'https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

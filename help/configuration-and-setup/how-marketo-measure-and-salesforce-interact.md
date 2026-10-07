@@ -1,8 +1,17 @@
 ---
-description: "Overview of how Marketo Measure exchanges data with Salesforce including exports permissions and batch settings"
+description: Overview of how Marketo Measure exchanges data with Salesforce including exports permissions and batch settings
 title: How [!DNL Marketo Measure] and [!DNL Salesforce] Interact
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 # How [!DNL Marketo Measure] and [!DNL Salesforce] Interact {#how-marketo-measure-and-salesforce-interact}
 

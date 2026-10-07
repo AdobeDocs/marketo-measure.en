@@ -1,8 +1,14 @@
 ---
-description: "Use the Lead Velocity dashboard for measuring time in each funnel stage and comparing pace by channel over time"
+description: Use the Lead Velocity dashboard for measuring time in each funnel stage and comparing pace by channel over time
 title: Lead Velocity Dashboard
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Lead Velocity Dashboard {#lead-velocity-dashboard}
 

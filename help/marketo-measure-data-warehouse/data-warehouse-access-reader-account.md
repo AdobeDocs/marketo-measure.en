@@ -3,10 +3,13 @@ description: Data Warehouse Access - Reader Account - Product Documentation
 title: Data Warehouse Access - Reader Account
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM
+TQID: 'https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

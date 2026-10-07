@@ -1,8 +1,14 @@
 ---
-description: "Reference for the Marketo Measure data warehouse schema detailing tables and columns"
+description: Reference for the Marketo Measure data warehouse schema detailing tables and columns
 title: Data Warehouse Schema
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 ---
 # Data Warehouse Schema {#data-warehouse-schema}
 

@@ -1,8 +1,17 @@
 ---
-description: "Testing the Marketo Measure Integration with a Salesforce Sandbox guidance for Marketo Measure users"
+description: Testing the Marketo Measure Integration with a Salesforce Sandbox guidance for Marketo Measure users
 title: Testing the Marketo Measure Integration with a Salesforce Sandbox
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 ---
 # Testing the Marketo Measure Integration with a Salesforce Sandbox {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 

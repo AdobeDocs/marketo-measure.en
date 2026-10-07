@@ -1,13 +1,19 @@
 ---
 unique-page-id: 18874582
-description: "[!DNL Marketo Measure] Salesforce Objects - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Salesforce Objects"
+description: '[!DNL Marketo Measure] Salesforce Objects - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Salesforce Objects'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk
+TQID: 'https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

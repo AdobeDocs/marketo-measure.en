@@ -1,8 +1,14 @@
 ---
-description: "Error Notifications guidance for Marketo Measure users"
+description: Error Notifications guidance for Marketo Measure users
 title: Error Notifications
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 ---
 # Error Notifications {#error-notifications}
 

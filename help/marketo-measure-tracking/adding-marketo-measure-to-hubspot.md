@@ -1,8 +1,14 @@
 ---
-description: "Adding [!DNL Marketo Measure] to [!DNL Hubspot] guidance for Marketo Measure users"
+description: Adding [!DNL Marketo Measure] to [!DNL Hubspot] guidance for Marketo Measure users
 title: Adding [!DNL Marketo Measure] to [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Adding [!DNL Marketo Measure] to [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 

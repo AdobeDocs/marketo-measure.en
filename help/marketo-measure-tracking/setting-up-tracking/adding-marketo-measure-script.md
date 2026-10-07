@@ -4,10 +4,13 @@ description: Adding [!DNL Marketo Measure] Script - [!DNL Marketo Measure]
 title: Adding [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+TQID: 'https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality

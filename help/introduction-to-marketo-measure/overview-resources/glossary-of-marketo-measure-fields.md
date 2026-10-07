@@ -4,10 +4,13 @@ description: Glossary of Marketo Measure Fields - Marketo Measure - Product Docu
 title: Glossary of Marketo Measure Fields
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-TQID: https://experienceleague.adobe.com/xpadEsIBtdeUuwq8ltJh8iknt4-r3yMZf9ymu1CwXM4
+TQID: 'https://experienceleague.adobe.com/xpadEsIBtdeUuwq8ltJh8iknt4-r3yMZf9ymu1CwXM4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy

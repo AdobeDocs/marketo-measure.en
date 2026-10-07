@@ -1,8 +1,14 @@
 ---
-description: "Duplicate Records in My Report guidance for Marketo Measure users"
+description: Duplicate Records in My Report guidance for Marketo Measure users
 title: Duplicate Records in My Report
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Duplicate Records in My Report {#duplicate-records-in-my-report}
 

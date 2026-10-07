@@ -1,9 +1,15 @@
 ---
-description: "Campaigns and Campaign Members guidance for Marketo Measure users"
+description: Campaigns and Campaign Members guidance for Marketo Measure users
 title: Campaigns and Campaign Members
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 ---
 # Campaigns and Campaign Members {#campaigns-and-campaign-members}
 

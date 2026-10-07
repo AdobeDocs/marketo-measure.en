@@ -1,9 +1,15 @@
 ---
-description: "Creating Custom [!DNL Marketo Measure] Report Types guidance for Marketo Measure users"
+description: Creating Custom [!DNL Marketo Measure] Report Types guidance for Marketo Measure users
 title: Creating Custom [!DNL Marketo Measure] Report Types
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Creating Custom [!DNL Marketo Measure] Report Types {#creating-custom-marketo-measure-report-types}
 

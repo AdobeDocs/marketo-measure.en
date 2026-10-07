@@ -1,8 +1,14 @@
 ---
-description: "A/B Testing Set Up and Reporting guidance for Marketo Measure users"
+description: A/B Testing Set Up and Reporting guidance for Marketo Measure users
 title: A/B Testing Set Up and Reporting
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
 ---
 # A/B Testing Set Up and Reporting {#a-b-testing-set-up-and-reporting}
 

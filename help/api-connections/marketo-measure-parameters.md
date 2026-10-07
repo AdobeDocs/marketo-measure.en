@@ -1,8 +1,18 @@
 ---
-description: "[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Parameters"
+description: '[!DNL Marketo Measure] Parameters - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Parameters'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
 ---
 
 # [!DNL Marketo Measure] Parameters {#marketo-measure-parameters}

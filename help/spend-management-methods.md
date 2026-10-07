@@ -1,8 +1,14 @@
 ---
-description: "Spend Management Methods guidance for Marketo Measure users"
+description: Spend Management Methods guidance for Marketo Measure users
 title: Spend Management Methods
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 ---
 # Spend Management Methods {#spend-management-methods}
 

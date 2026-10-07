@@ -4,10 +4,13 @@ description: Attribution Mapping Methodology - [!DNL Marketo Measure]
 title: Attribution Mapping Methodology
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-TQID: https://experienceleague.adobe.com/VMGKAlL-YsHK20a6Wv4zbSejz4yXAH4gGMyhjkf9KyM
+TQID: 'https://experienceleague.adobe.com/VMGKAlL-YsHK20a6Wv4zbSejz4yXAH4gGMyhjkf9KyM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 ---
 # Attribution Mapping Methodology {#attribution-mapping-methodology}
 

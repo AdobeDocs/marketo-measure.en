@@ -1,8 +1,14 @@
 ---
-description: "Definition of [!DNL Marketo Measure] Web Sessions guidance for Marketo Measure users"
+description: Definition of [!DNL Marketo Measure] Web Sessions guidance for Marketo Measure users
 title: Definition of [!DNL Marketo Measure] Web Sessions
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Definition of [!DNL Marketo Measure] Web Sessions {#definition-of-marketo-measure-web-sessions}
 

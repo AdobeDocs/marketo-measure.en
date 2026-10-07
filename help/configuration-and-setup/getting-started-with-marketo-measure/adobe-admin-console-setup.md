@@ -3,10 +3,13 @@ description: Adobe Admin Console Setup - Marketo Measure - Product Documentation
 title: Adobe Admin Console Setup
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-TQID: https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc
+TQID: 'https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
 ---
 # Adobe Admin Console Setup {#adobe-admin-console-setup}
 

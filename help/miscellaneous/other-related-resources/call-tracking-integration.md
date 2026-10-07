@@ -4,10 +4,15 @@ description: Call Tracking Integration - [!DNL Marketo Measure]
 title: Call Tracking Integration
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
+TQID: 'https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

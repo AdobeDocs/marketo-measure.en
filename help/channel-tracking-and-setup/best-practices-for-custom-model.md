@@ -1,8 +1,14 @@
 ---
-description: "Best Practices for Custom Model guidance for Marketo Measure users"
+description: Best Practices for Custom Model guidance for Marketo Measure users
 title: Best Practices for Custom Model
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 ---
 # Best Practices for Custom Model {#best-practices-for-custom-model}
 

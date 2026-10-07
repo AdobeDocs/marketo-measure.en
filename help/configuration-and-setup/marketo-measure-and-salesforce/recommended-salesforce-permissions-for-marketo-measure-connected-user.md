@@ -4,10 +4,16 @@ description: Recommended [!DNL Salesforce] Permissions for [!DNL Marketo Measure
 title: Recommended [!DNL Salesforce] Permissions for [!DNL Marketo Measure] Connected User
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g
+TQID: 'https://experienceleague.adobe.com/ImKgikcl5a3LJhBs8VnvWFZAxLkEY0r3Ip0XVZoHE-g'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting

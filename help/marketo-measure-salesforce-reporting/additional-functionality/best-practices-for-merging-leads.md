@@ -4,10 +4,13 @@ description: Best Practices for Merging Leads - [!DNL Marketo Measure]
 title: Best Practices for Merging Leads
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-TQID: https://experienceleague.adobe.com/VonT7Suvlt5VjzPqZ9UWoVe3ZTpPsk4c-7q-0wLplA0
+TQID: 'https://experienceleague.adobe.com/VonT7Suvlt5VjzPqZ9UWoVe3ZTpPsk4c-7q-0wLplA0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
     internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting

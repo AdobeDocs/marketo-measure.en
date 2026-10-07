@@ -1,9 +1,15 @@
 ---
-description: "Summarizes the Revenue Overview dashboard showing total and attributed revenue and deal counts over time"
+description: Summarizes the Revenue Overview dashboard showing total and attributed revenue and deal counts over time
 title: Revenue Overview Dashboard
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-hidefromtoc: yes
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 ---
 # Revenue Overview Dashboard {#revenue-overview-dashboard}
 

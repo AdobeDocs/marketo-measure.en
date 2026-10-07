@@ -1,8 +1,14 @@
 ---
-description: "Best Practices for Testing guidance for Marketo Measure users"
+description: Best Practices for Testing guidance for Marketo Measure users
 title: Best Practices for Testing
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 ---
 # Best Practices for Testing {#best-practices-for-testing}
 
